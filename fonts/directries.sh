@@ -1,0 +1,12 @@
+kodito/
+lekuta/
+lozegw/
+makina/
+piswpi/
+polwgo/
+silwki/
+sulive/
+xavani/
+xesada/
+xidili/
+zosokw/

@@ -1,0 +1,12 @@
+open -a /Applications/Visual\ Studio\ Code.app kodito_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app lekuta_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app lozegw_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app makina_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app piswpi_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app polwgo_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app silwki_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app sulive_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app xavani_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app xesada_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app xidili_glyphsetter.ff
+open -a /Applications/Visual\ Studio\ Code.app zosokw_glyphsetter.ff

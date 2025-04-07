@@ -1,0 +1,12 @@
+open kodito/
+open lekuta/
+open lozegw/
+open makina/
+open piswpi/
+open polwgo/
+open lozegw/
+open sulive/
+open xavani/
+open lozegw/
+open xidili/
+open zosokw/
