@@ -1,0 +1,68 @@
+body {
+    padding: 2rem;
+    font-family: serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-indent: 1rem;
+}
+
+.elegia {
+    font-family: 'xavani';
+}
+
+th>p,
+.case,
+.part-of-speech,
+.phonetic,
+.root {
+    text-align: center;
+    text-indent: 0rem;
+}
+
+.phonetic {
+    font-family: monospace;
+}
+
+.case,
+.part-of-speech,
+.root {
+    font-family: serif;
+}
+
+th>.elegia,
+td>.elegia {
+    font-family: 'xavani';
+    text-align: center;
+    text-indent: 0rem;
+}
+
+ol {
+    list-style-type: none;
+}
+
+li {
+    counter-increment: section;
+}
+
+li h2::before {
+    content: counter(section) ". ";
+    font-size: inherit;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+header,
+footer {
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #FFF5E1;
+        color: #3E3E3E;
+    }
+
+    a {
+        color: #8B8B2B;
+    }
+
+    a:visited {
+        color: #973C3F;
+    }
+
+    table,
+    thead,
+    tbody,
+    tfoot {
+        border: #000000 solid 2px;
+    }
+
+    th,
+    td {
+        border: #000000 solid 1px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f1a16;
+        color: #e8e5dd;
+    }
+
+    a {
+        color: #c9b458;
+    }
+
+    a:visited {
+        color: #ad5a5d;
+    }
+
+    table,
+    thead,
+    tbody,
+    tfoot {
+        border: #4a4340 solid 2px;
+    }
+
+    th,
+    td {
+        border: #4a4340 solid 1px;
+    }
+}

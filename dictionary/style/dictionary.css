@@ -1,0 +1,51 @@
+/* 全体 */
+body {
+    font-family: serif;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* 見出し */
+h1 {
+    text-transform: capitalize;
+}
+
+/* 段落 */
+p {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+/* ボタン、入力フィールド、リンク */
+a {
+    text-decoration: none;
+}
+
+.elegia {
+    font-family: "xavani";
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button,
+input {
+    font-family: serif;
+    height: auto;
+    width: auto;
+    border-radius: 0.25rem;
+}
+
+button:active {
+    text-shadow: none;
+}
+
+table {
+    margin: 0 auto;
+}
+
+header,
+footer {
+    text-align: center;
+}
