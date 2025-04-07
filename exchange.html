@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エレギア帝国通貨換算所</title>
+  <style>
+    @media (prefers-color-scheme: light) {
+      body {
+        background-color: #f0f0f0;
+        color: #333;
+      }
+
+      input,
+      select {
+        color: #333;
+        background-color: #fff;
+        border: 1px solid #ccc;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #333;
+        color: #f0f0f0;
+      }
+
+      input,
+      select {
+        color: #f0f0f0;
+        background-color: #444;
+        border: 1px solid #666;
+      }
+    }
+
+    body,
+    select,
+    input {
+      font-family: "筑紫B丸ゴシック", sans-serif;
+    }
+
+    body {
+      text-align: center;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: auto;
+    }
+
+    input,
+    select {
+      /* width: 100%;
+*/
+      margin: 16px 0;
+      padding: 16px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .result {
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>エレギア帝国通貨換算所</h1>
+    <input type="number" id="amount" placeholder="金額を入力" oninput="convertCurrency()">
+    <hr> <select id="from" onchange="convertCurrency()">
+      <option value="100000000">紙（チー）</option>
+      <option value="1000000">金（ジン）</option>
+      <option value="10000">銀（イン）</option>
+      <option value="100">銅（トゥン）</option>
+      <option value="10">鉄（ティエ）</option>
+      <option value="1">錫（シー）</option>
+    </select>
+    から
+    <select id="to" onchange="convertCurrency()">
+      <option value="100000000">紙（チー）</option>
+      <option value="1000000">金（ジン）</option>
+      <option value="10000">銀（イン）</option>
+      <option value="100">銅（トゥン）</option>
+      <option value="10">鉄（ティエ）</option>
+      <option value="1">錫（シー）</option>
+    </select>
+    <hr>
+    <div class="result" id="result"></div>
+    <hr>
+    <div class="result" id="result_yen"></div>
+  </div>
+  <script>
+    function convertCurrency() {
+      let amount = parseFloat(document.getElementById('amount').value) || 0;
+      let fromRate = parseFloat(document.getElementById('from').value);
+      let toRate = parseFloat(document.getElementById('to').value);
+      let toCurrency = document.getElementById('to').options[document.getElementById("to").selectedIndex].text;
+      let amountInXi = amount * fromRate;
+      let convertedAmount = amountInXi / toRate;
+      let convertedAmountInYen = amountInXi / 100;
+      document.getElementById('result').innerText = `換算結果：${convertedAmount.toLocaleString("ja-JP", { notation: "compact", compactDisplay: "long", currencySign: "standard" })}${toCurrency}`;
+      document.getElementById('result_yen').innerText = `日本円に換算：${convertedAmountInYen.toLocaleString("ja-JP", { style: "currency", currency: "JPY" })}`;
+    }
+  </script>
+</body>
+
+</html>

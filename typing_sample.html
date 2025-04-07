@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タイピングエフェクト</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            color: #5f5;
+            background-color: #333;
+        }
+
+        .kodito {
+            font-family: 'kodito';
+        }
+
+        .lekuta {
+            font-family: 'lekuta';
+        }
+
+        .lozegw {
+            font-family: 'lozegw';
+        }
+
+        .makina {
+            font-family: 'makina';
+        }
+
+        .piswpi {
+            font-family: 'piswpi';
+        }
+
+        .polwgo {
+            font-family: 'polwgo';
+        }
+
+        .silwki {
+            font-family: 'silwki';
+        }
+
+        .sulive {
+            font-family: 'sulive';
+            font-feature-settings: "calt" 1
+        }
+
+        .xavani {
+            font-family: 'xavani';
+        }
+
+        .xesada {
+            font-family: 'xesada';
+        }
+
+        .xidili {
+            font-family: 'xidili';
+        }
+
+        .zosokw {
+            font-family: 'zosokw';
+            font-feature-settings: "calt" 1;
+        }
+    </style>
+</head>
+
+<body>
+    <p class="typing-text kodito"></p>
+    <p class="typing-text lekuta"></p>
+    <p class="typing-text lozegw"></p>
+    <p class="typing-text makina"></p>
+    <p class="typing-text piswpi"></p>
+    <p class="typing-text polwgo"></p>
+    <p class="typing-text silwki"></p>
+    <p class="typing-text sulive"></p>
+    <p class="typing-text xavani"></p>
+    <p class="typing-text xesada"></p>
+    <p class="typing-text xidili"></p>
+    <p class="typing-text zosokw"></p>
+
+    <script>
+        const text = "Cecolicasw Celemeniki Qoqunoquxw Celegicelw";
+        let index = 0;
+        const elements = document.querySelectorAll('.typing-text'); // タイピングエフェクトを適用する要素をすべて取得
+
+        function typeEffect() {
+            if (index < text.length) {
+                elements.forEach(element => {
+                    element.textContent += text.charAt(index); // 各要素に対して文字を追加
+                });
+                index++;
+                setTimeout(typeEffect, 50); // 150msで次の文字を表示
+            }
+        }
+
+        typeEffect(); // 最初の呼び出し
+    </script>
+</body>
+
+</html>
