@@ -1,3 +1,68 @@
+@font-face {
+    font-family: 'kodito';
+    src: url('../../fonts/kodito.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lekuta';
+    src: url('../../fonts/lekuta.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lozegw';
+    src: url('../../fonts/lozegw.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'makina';
+    src: url('../../fonts/makina.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'piswpi';
+    src: url('../../fonts/piswpi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'polwgo';
+    src: url('../../fonts/polwgo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lozegw';
+    src: url('../../fonts/lozegw.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'silwki';
+    src: url('../../fonts/silwki.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sulive';
+    src: url('../../fonts/sulive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'xavani';
+    src: url('../../fonts/xavani.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'xesada';
+    src: url('../../fonts/xesada.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'xidili';
+    src: url('../../fonts/xidili.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'zosokw';
+    src: url('../../fonts/zosokw.ttf') format('truetype');
+}
+
 body {
     padding: 2rem;
     font-family: serif;
