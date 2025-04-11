@@ -1,0 +1,16 @@
+<svg width="400" height="225" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <polyline points="025,000 000,025 400,025 375,000" fill="none" stroke="black" />
+    <polyline points="025,050 000,075 200,075 200,225 175,200 200,225 225,200 200,225 200,075 400,075 375,050"
+        fill="none" stroke="black" />
+    <polyline points="025,100 000,125 175,125 200,150 225,125 400,125 375,100" fill="none" stroke="black" />
+    <polyline points="025,150 000,175 400,175 375,150" fill="none" stroke="black" />
+    <text x="175" y="200" font-family="serif" font-size="025">固定</text>
+    <text x="175" y="050" font-family="serif" font-size="025">流動</text>
+    <text x="000" y="200" font-family="serif" font-size="025">過去</text>
+    <text x="150" y="150" font-family="serif" font-size="025">現　　在</text>
+    <text x="350" y="200" font-family="serif" font-size="025">未来</text>
+    <text x="000" y="150" font-family="serif" font-size="025">鎮静</text>
+    <text x="350" y="150" font-family="serif" font-size="025">高揚</text>
+    <text x="000" y="100" font-family="serif" font-size="025">破壊</text>
+    <text x="350" y="100" font-family="serif" font-size="025">創造</text>
+</svg>

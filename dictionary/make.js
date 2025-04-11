@@ -156,8 +156,8 @@ async function generateIndex(i) {
     body.appendChild(p);
 
     let ul = document.createElement("ul");
-    for (let j = 0; j < consonants.length; j++) {
-        for (let k = 0; k < consonants.length; k++) {
+    consonants.forEach((j) => {
+        consonant.forEach((k) => {
             let li = document.createElement("li");
             let aUl = document.createElement("a");
             aUl.className = "elegia";
@@ -165,8 +165,8 @@ async function generateIndex(i) {
             aUl.textContent = consonants[i] + consonants[j] + consonants[k];
             li.appendChild(aUl);
             ul.appendChild(li);
-        }
-    }
+        });
+    });
     body.appendChild(ul);
 
     let footer = document.createElement("footer");
@@ -305,7 +305,7 @@ async function generateRoot(i, j, k) {
         let table = document.createElement("table");
         let caption = document.createElement("caption");
         caption.textContent = vowels_part_of_speech_types[n] + "詞活用表";
-        table.appendChild(caption)
+        table.appendChild(caption);
 
         let thead = document.createElement("thead");
 
