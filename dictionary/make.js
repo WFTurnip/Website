@@ -157,7 +157,7 @@ async function generateIndex(i) {
 
     let ul = document.createElement("ul");
     consonants.forEach((j) => {
-        consonant.forEach((k) => {
+        consonants.forEach((k) => {
             let li = document.createElement("li");
             let aUl = document.createElement("a");
             aUl.className = "elegia";
@@ -352,8 +352,8 @@ async function generateRoot(i, j, k) {
 
             vowels.forEach((vowel2, m) => {
                 let td = document.createElement("td");
-                td.appendChild(createParagraph(consonants[i] + vowel2 + consonants[j] + vowel1 + consonants[k] + vowels[n], "elegia"));
-                td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[l] + consonants_phonetics[j] + vowels_phonetics[m] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"))
+                td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "elegia"));
+                td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[m] + consonants_phonetics[j] + vowels_phonetics[l] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"))
                 td.appendChild(createParagraph(vowels_cases[m] + vowels_cases[l] + "格" + vowels_part_of_speech_types[n] + "詞", "root"));
                 tr.appendChild(td);
             });
