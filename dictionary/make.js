@@ -156,8 +156,8 @@ async function generateIndex(i) {
     body.appendChild(p);
 
     let ul = document.createElement("ul");
-    consonants.forEach((j) => {
-        consonants.forEach((k) => {
+    for (let j = 0; j < consonants.length; j++) {
+        for (let k = 0; k < consonants.length; k++) {
             let li = document.createElement("li");
             let aUl = document.createElement("a");
             aUl.className = "elegia";
@@ -165,8 +165,8 @@ async function generateIndex(i) {
             aUl.textContent = consonants[i] + consonants[j] + consonants[k];
             li.appendChild(aUl);
             ul.appendChild(li);
-        });
-    });
+        };
+    };
     body.appendChild(ul);
 
     let footer = document.createElement("footer");
@@ -353,7 +353,7 @@ async function generateRoot(i, j, k) {
             vowels.forEach((vowel2, m) => {
                 let td = document.createElement("td");
                 td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "elegia"));
-                td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[m] + consonants_phonetics[j] + vowels_phonetics[l] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"))
+                td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[l] + consonants_phonetics[j] + vowels_phonetics[m] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"));
                 td.appendChild(createParagraph(vowels_cases[m] + vowels_cases[l] + "格" + vowels_part_of_speech_types[n] + "詞", "root"));
                 tr.appendChild(td);
             });
