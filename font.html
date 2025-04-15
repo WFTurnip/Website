@@ -4,11 +4,175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Font Download</title>
+  <title>フォントダウンロードフォーム</title>
 </head>
 
 <body>
-<a download="font.ttf" href="https://example.com/path/to/font.ttf">Download Font</a>
+  <h1>フォントダウンロードフォーム</h1>
+  <dl>
+    <dt>コディート体</dt>
+    <dd><a class="kodito" download="kodito.ttf" href="fonts/kodito.ttf">kodito</a></dd>
+    <dt>レクタ体</dt>
+    <dd><a class="lekuta" download="lekuta.ttf" href="fonts/lekuta.ttf">lekuta</a></dd>
+    <dt>ロゼーグ体</dt>
+    <dd><a class="lozegw" download="lozegw.ttf" href="fonts/lozegw.ttf">lozegw</a></dd>
+    <dt>マキーナ体</dt>
+    <dd><a class="makina" download="makina.ttf" href="fonts/makina.ttf">makina</a></dd>
+    <dt>ピスピ体</dt>
+    <dd><a class="piswpi" download="piswpi.ttf" href="fonts/piswpi.ttf">piswpi</a></dd>
+    <dt>ポルゴ体</dt>
+    <dd><a class="polwgo" download="polwgo.ttf" href="fonts/polwgo.ttf">polwgo</a></dd>
+    <dt>シルキ体</dt>
+    <dd><a class="silwki" download="silwki.ttf" href="fonts/silwki.ttf">silwki</a></dd>
+    <dt>スリーヴェ体</dt>
+    <dd><a class="sulive" download="sulive.ttf" href="fonts/sulive.ttf">sulive</a></dd>
+    <dt>ハヴァーニ体</dt>
+    <dd><a class="xavani" download="xavani.ttf" href="fonts/xavani.ttf">xavani</a></dd>
+    <dt>ヘサーダ体</dt>
+    <dd><a class="xesada" download="xesada.ttf" href="fonts/xesada.ttf">xesada</a></dd>
+    <dt>ヒディーリ体</dt>
+    <dd><a class="xidili" download="xidili.ttf" href="fonts/xidili.ttf">xidili</a></dd>
+    <dt>ゾソク体</dt>
+    <dd><a class="zosokw" download="zosokw.ttf" href="fonts/zosokw.ttf">zosokw</a></dd>
+  </dl>
 </body>
+<style>
+  @font-face {
+    font-family: 'kodito';
+    src: url('./fonts/kodito.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'lekuta';
+    src: url('./fonts/lekuta.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'lozegw';
+    src: url('./fonts/lozegw.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'makina';
+    src: url('./fonts/makina.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'piswpi';
+    src: url('./fonts/piswpi.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'polwgo';
+    src: url('./fonts/polwgo.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'lozegw';
+    src: url('./fonts/lozegw.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'silwki';
+    src: url('./fonts/silwki.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'sulive';
+    src: url('./fonts/sulive.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'xavani';
+    src: url('./fonts/xavani.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'xesada';
+    src: url('./fonts/xesada.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'xidili';
+    src: url('./fonts/xidili.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'zosokw';
+    src: url('./fonts/zosokw.ttf') format('truetype');
+  }
+
+  body {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    font-family: serif;
+  }
+
+  a {
+    text-decoration: none;
+    color: burlywood;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  a:visited {
+    color: blueviolet;
+  }
+
+  .kodito {
+    font-family: 'kodito';
+  }
+
+  .lekuta {
+    font-family: 'lekuta';
+  }
+
+  .lozegw {
+    font-family: 'lozegw';
+  }
+
+  .makina {
+    font-family: 'makina';
+  }
+
+  .piswpi {
+    font-family: 'piswpi';
+  }
+
+  .polwgo {
+    font-family: 'polwgo';
+  }
+
+  .silwki {
+    font-family: 'silwki';
+  }
+
+  .sulive {
+    font-family: 'sulive';
+    font-feature-settings: "calt" 1
+  }
+
+  .xavani {
+    font-family: 'xavani';
+  }
+
+  .xesada {
+    font-family: 'xesada';
+  }
+
+  .xidili {
+    font-family: 'xidili';
+  }
+
+  .zosokw {
+    font-family: 'zosokw';
+    font-feature-settings: "calt" 1;
+  }
+</style>
 
 </html>
