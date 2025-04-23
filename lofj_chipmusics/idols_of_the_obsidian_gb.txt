@@ -1,0 +1,158 @@
+#TITLE IDOLS OF THE OBSIDIAN GB
+
+$LOOP = 1;
+
+T120
+@5@W2
+O3
+L16
+/:6
+/:E:/DR /:ERD://:R:/ERGR
+/:E:/DR /:ERD://:R:/ER>B<R
+:/
+/:$LOOP
+/:4
+ER/:<E>://:3ER<ER>:/
+DR/:<D>://:3DR<DR>:/
+>
+BR/:<B>://:3BR<BR>:/
+AR/:<A>:/AR<AR>
+BR/:<B>:/
+<
+DR/:<D>:/
+:/
+/:
+ER/:<R>://:3ER<RR>:/
+DR/:<R>://:3DR<RR>:/
+>
+BR/:<R>://:3BR<RR>:/
+AR/:<R>:/AR<RR>
+BR/:<R>:/
+<
+DR/:<R>:/
+:/
+/:4
+/:E:/DR /:ERD://:R:/ERGR
+/:E:/DR /:ERD://:R:/ER>B<R
+:/
+:/
+;
+@5@W1
+O5
+L16
+/:4R1:/
+/:4
+/:E:/DR /:ERD://:R:/ERGR
+/:E:/DR /:ERD://:R:/ERC-R
+:/
+/:$LOOP
+@W6
+L8
+/:
+ER16GR16A16R16AR16BR16<D>
+BR16AR16B GAGE
+DRERERDE
+RAGEGDER
+ERGRARBR
+AB<D>BAGAB
+A&AGER2
+REGAGED4
+:/
+L16
+@W1
+/:ER:/ /:DR:/ /:ER:/ /:GR:/
+/:AR:/ /:GR:/ /:AR:/ /:BR:/
+/:<D>R:/ /:BR:/ /:AR:/ /:BR:/
+/:GR:/ /:AR:/ /:ER:/ /:DR:/
+
+/:ER:/ /:GR:/ /:AR:/ /:BR:/
+/:<D>R:/ /:BR:/ /:<D>R:/ /:<E>R:/
+/:<G>R:/ /:<E>R:/ /:<D>R:/ /:<E>R:/
+/:<G>R:/ /:<E>R:/ /:<G>R:/ /:<A>R:/
+
+/:3E:/R /:3D:/R /:3E:/R /:3G:/R
+/:3E:/R /:3D:/R /:3E:/R /:3>B<:/R
+
+/:3E:/R /:3D:/R /:3E:/R /:3G:/R
+/:3E:/R /:3D:/R /:3E:/R /:3B:/R
+/:
+/:E:/DR /:ERD://:R:/ERGR
+/:E:/DR /:ERD://:R:/ERC-R
+:/
+:/
+;
+@10-0
+@E1,0,0,64,0
+O6
+L16
+/:12
+<@p0E>@p128B<@p0D>@p128A @p0B@p128G@p0A@p128E @p0G@p128D@p0E>@p128B< @p0D>@p128A@p0B@p128G<
+:/
+/:$LOOP
+@E1,0,0,256,0
+@10-1
+O4
+L32
+/:4
+/:2@p0/:2ER://:2BR:/@p128/:2ER://:2BR:/:/
+/:2@p0/:2DR://:2AR:/@p128/:2DR://:2AR:/:/
+/:2@p0/:2ER://:2BR:/@p128/:2ER://:2BR:/:/
+@p0/:2GR://:2<D>R:/@p128/:2GR://:2<D>R:/
+@p0/:2DR://:2AR:/@p128/:2DR://:2AR:/
+:/
+@p64
+/:2
+/:2/:2ER://:2BR://:2ER://:2BR:/:/
+/:2/:2DR://:2AR://:2DR://:2AR:/:/
+/:2/:2ER://:2BR://:2ER://:2BR:/:/
+/:2GR://:2<D>R://:2GR://:2<D>R:/
+/:2DR://:2AR://:2DR://:2AR:/
+:/
+L16
+O4
+/:4
+/:E:/DR /:ERD://:R:/ERGR
+/:E:/DR /:ERD://:R:/ER>B<R
+:/
+:/
+#WAV10 0,77BF C536 B775 009B B778 8FF8 4235 A950
+#WAV10 1,0011 2469 BDEE EFFF FEEE EDB9 6421 1100
+;
+@11
+O0
+L32
+/:16
+CR RR /:2CR:/
+:/
+E16.R/:2CR:/
+/:15
+DR RR /:2CR:/
+:/
+E16.R A.R64 CR
+/:13
+DR RR A.R64 CR
+:/
+/:8AR:/
+/:$LOOP
+/:4
+E16.R A.R64 RR
+/:15
+DR RR A.R64 RR
+:/
+:/
+/:2
+E16.R/:2CR:/
+/:15
+DR RR /:2CR:/
+:/
+:/
+E16.R A.R64 CR
+/:15
+DR RR A.R64 CR
+:/
+E16.R A.R64 CR
+/:13
+DR RR A.R64 CR
+:/
+/:8AR:/
+:/

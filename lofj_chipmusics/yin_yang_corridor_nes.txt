@@ -1,0 +1,76 @@
+#TITLE YIN YANG CORRIDOR NES
+
+$loop = 1;
+t080
+
+@5@w6
+o3
+/:$loop
+/:2a1g1a1<c2>g2:/
+@w1
+l16
+/:8
+/:ara<cdrer>:/
+/:<crcdergr>:/
+:/
+:/
+;
+@5@w2
+/:$loop
+@w2
+o3
+/:2<e1d1e1g2d2>:/
+@w1
+o4
+/:
+a2.<c8d8e2d4g4e4.d16e16d8c8>a8g8a2 <e16d16c16>a16 <d16c16>a16g16
+:/
+</:3g16:/r16 /:2e16r16:/ /:2d16r16:/ c4 d16e16d16c16>a16r16g16r16 a4
+
+<c16r16d16r16 e4 d16 r16 e16 r16 g4 a16 r16 g16 r16 e1>
+
+<d8r16e16d16r16e16r16d16r16c16r16>a4 <c16d16c16>a16 /:2g16r16:/
+
+a4 <c16r16d16r16 e4 d16r16 c16r16 d4 c16>r16 g16 r16 a1 
+:/
+;
+@6@e0,0,256,0
+/:$loop
+o5
+l64
+/:
+/:4arrr<errr><arrr<errr>>:/
+/:4grrr<drrr><grrr<drrr>>:/
+/:4arrr<errr><arrr<errr>>:/
+/:2<crrrgrrr<crrrgrrr>>:/
+/:2grrr<drrr><grrr<drrr>>:/
+:/
+o6
+/:4a1g1a1<c2>g2:/
+:/
+;
+@7
+l32
+o0
+/:$loop
+/:3
+   dr rr cr cr
+/:3cr rr cr cr:/
+:/
+/:2
+   dr rr cr cr
+   cr rr cr cr
+:/
+
+/:3
+   dr rr cr cr
+/:3cr rr cr cr:/
+:/
+/:2
+   dr rr cr cr
+   /cr rr cr cr
+:/
+/:4cr:/
+
+/:64 d-r cr e-r cr:/
+:/

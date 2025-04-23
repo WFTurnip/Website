@@ -1,0 +1,11 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      polygon {
+        fill: #808080;
+        ;
+      }
+    }
+  </style>
+  <polygon points="150,150 88,0 212,0" />
+</svg>

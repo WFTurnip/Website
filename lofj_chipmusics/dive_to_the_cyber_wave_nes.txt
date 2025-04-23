@@ -1,0 +1,90 @@
+#TITLE Dive to the Cyber Wave NES
+
+$loop = 4;
+
+t180
+r1
+@5@w2
+o3
+l8
+/:2
+/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+:/
+/:$loop
+/:8
+/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+:/
+:/
+;
+r1
+@5@w2
+o5
+l8
+/:2
+/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+:/
+/:$loop
+/:2
+/:3e/r:/g-g/:4a/r:/gg-
+/:3e/r:/gg-e
+re-eg-grar 
+/:3b/r:/ab/:4<c>/r:/<dc>
+/:2br://:2ba:/
+/:2rg:/agg-r
+:/
+/:4
+/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+:/
+:/
+;
+r1
+@6@E1,0,0,256,0
+o7
+l8
+/:2
+/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+:/
+/:$loop
+/:4
+errerrrr
+erreragg-
+errerrrr
+erg-rgrar
+
+grrgrrrr
+grrgr<c>ba
+grrgrrrr
+grarbr<c>r
+:/
+:/
+;
+@7
+o0
+l32
+/:/:ar://:cr:/:/
+/:8ar:/
+/:4
+dr rr cr rr 
+a16rr cr rr 
+dr rr dr rr 
+a16rr cr rr 
+dr rr cr rr 
+a16rr dr rr /
+cr rr dr rr 
+a16rr cr rr 
+:/
+/:8ar:/
+/:$loop
+/:16
+dr rr cr rr 
+a16rr cr rr 
+dr rr dr rr 
+a16rr cr rr /
+dr rr cr rr 
+a16rr dr rr 
+cr rr dr rr 
+a16rr cr rr 
+:/
+/:/:ar://:cr:/:/
+/:8ar:/
+:/

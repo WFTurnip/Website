@@ -1,0 +1,97 @@
+#TITLE UNIT OF MONEY NES
+
+$LOOP = 1;
+
+T150
+
+@5@W2
+O4
+L8
+/:$LOOP
+/:4a16r16:/ag-4a bag-d4.r4
+/:4e16r16:/eg-4e&e2&f2
+/:4a16r16:/ag-4a bag-d4.r4
+/:4e16r16:/aeg-d4
+/:3d16r16://:2d16r8.:/
+r4 d4 e4 f4 g-4 g-f e4 d4
+fe d>ba<rrr 
+defg- arg-rar  r2.
+b4bab4ba
+ba g-f e4 rr
+defedr>b<rdr/:3d16r16:/r4.
+:/
+;
+@5@W1
+O3
+L16
+/:$LOOP
+/:4d&d<dr>:/
+/:4>b&b<br:/
+/:2>a&a<ar:/
+/:2>a-&a-<a-r:/
+/:2>g&g<gr:/
+/:2>g-&g-<g-r:/
+
+/:4d&d<dr>:/
+/:4>b&b<br:/
+/:2>a&a<ar:/
+/:2>b&b<br:/
+rr/:3dr://:2drrr:/
+
+rrrr drrr errr frrr g-rrr g-rfr errr drrr
+frer dr>b<r >a<rrr rrrr
+
+/:4d&d<dr>:/
+/:4>b&b<br:/
+/:4>g&g<gr:/
+
+brar g-rfr errr rrrr
+
+/:4d&d<dr>:/
+
+>ar< /:3ar:/ arrr rrrr
+:/
+;
+@6-0
+@E1,0,256,0
+O5
+L8
+/:$LOOP
+/:4a16r16:/ag-4a bag-d4.r4
+/:4e16r16:/eg-4e&e2&f2
+/:4a16r16:/ag-4a bag-d4.r4
+/:4e16r16:/aeg-d4
+/:3d16r16://:2d16r8.:/
+r4 d4 e4 f4 g-4 g-f e4 d4
+fe d>ba<rrr 
+defg- arg-rar  r2.
+b4bab4ba
+ba g-f e4 rr
+defedr>b<rdr/:3d16r16:/r4.
+:/
+;
+@7
+O0
+L32
+/:$LOOP
+/:7
+dr rr cr rr e-.r64 rr e-.r64 rr 
+dr rr cr rr e-.r64 rr cr rr
+:/
+rr rr 
+/:3e-.r64 rr:/ /:2e-.r64 rr rr rr:/ 
+
+rr rr rr rr 
+
+/:3e-.r64 rr rr rr:/
+/:2
+dr rr rr rr e-.r64 rr e-.r64 rr 
+dr rr rr rr e-.r64 rr rr rr
+:/
+/:5
+dr rr cr rr e-.r64 rr e-.r64 rr 
+dr rr cr rr e-.r64 rr cr rr
+:/
+dr rr e-.r64 rr /:3 e-.r64 rr :/ rr rr
+/:4cr:/
+:/

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+  <style>
+    @media (prefers-color-scheme: light) {
+      path {
+        fill: #A41919;
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      path {
+        fill: #b68d4c;
+      }
+    }
+  </style>
+  <path d="M75 75v50h200v50H75v750h50V225h200V125h50v150H175v150h200v50H175v150h200v50H175v150h200v50H175v50h250V775H225v-50h200V575H225v-50h200V375H225v-50h200V75H75zm400 0v150h200v150H525v-50h100v-50H475v150h200v100h200v50H625V475H475v250h400v50H475v150h450v-50H525v-50h400V675H525V525h50v100h350V475H725v-50h200V275H775v50h100v50H725V225h200V75H475zm50 50h350v50H525v-50z" />
+</svg>

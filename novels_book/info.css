@@ -1,0 +1,66 @@
+@media (prefers-color-scheme: light) {
+    body,
+    button,
+    rt,
+    a {
+	color: #000000;
+    }
+    body {
+	background-color: #ffffff;
+    }
+    button,
+    a {
+	border-color: #b68d4c;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body,
+    button {
+	color: #b68d4c;
+    }
+    body {
+	background-color: #000000;
+    }
+    button,
+    a {
+	border-color: #a41919;
+    }
+    a {
+	color: #ffffff;
+    }
+}
+
+body {
+    padding: 2rem;
+    writing-mode: vertical-rl;
+    line-height: 1rem;
+}
+h1,
+h2 {
+    font-family: "Xingkai TC", serif;
+    font-style: normal;
+    font-weight: bold;
+    text-orientation: mixed;
+}
+h3,
+a {
+    font-family: "Xingkai TC", serif;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h1>ruby>rt,
+h2>ruby>rt,
+a>ruby>rt {
+    font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
+    font-weight: bold;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "palt";
+}
+table {
+    box-align: center;
+    empty-cells: hide;
+    margin: auto;
+}

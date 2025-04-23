@@ -1,0 +1,26 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @media (prefers-color-scheme: light) {
+      polygon {
+        fill: #808080;
+
+      }
+    }
+
+    @media (prefers-color-scheme: dark) {
+      polygon {
+        fill: #808080;
+
+      }
+    }
+
+    line {
+      stroke: black;
+    }
+  </style>
+  <polygon points="88,0  212,0  300,88 300,212 212,300 88,300 0,212 0,88 88,0" />
+
+  <polygon class="bei" points="150,150  88,0 212,0" style="fill:red" />
+  <line x1="0" y1="0" x2="300" y2="300" />
+  <line x1="0" y1="300" x2="300" y2="0" />
+</svg>

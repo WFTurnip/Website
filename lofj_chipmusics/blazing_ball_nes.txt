@@ -1,0 +1,108 @@
+#TITLE BLAZING BALL NES
+
+$loop = 1;
+
+t150
+
+@5@w2
+l16
+o4
+/:2
+/:6
+ar<drerfr>
+:/
+<fr>
+/:
+<erdrcr>
+:/
+<er>
+:/
+/:$loop
+o5
+
+>ar<drerfrr8
+drerfrgrrr
+rrrr
+frrrerrr
+frer rrdr rrrr d-rdrerrr rrd-r> arrr< d-rrr
+drrrrr errrrr frrr grrr grrr 
+frer rrfr rrdr drrr rrrr erfr errr rrrr d-rrr drrr
+
+{/:e<e>:/}rrrrr {/:f<f>:/}r rrrrrrrr
+{/:e<e>:/}rrrrr {/:f<f>:/}r rr{/:g<g>:/}r {/:f<f>:/}r {/:e<e>:/}r
+{/:e<e>:/}rrrrr {/:f<f>:/}r rrrrrrrr
+{/:g<g>:/}rrr {/:f<f>:/}rrr {/:e<e>:/}rrr {/:f<f>:/}rrr
+
+{/:g<g>:/}rrrrr {/:a<a>:/}r rrrrrrrr
+{/:g<g>:/}rrrrr {/:a<a>:/}r rr{/:b-<b->:/}r {/:a<a>:/}r {/:g<g>:/}r
+{/:g<g>:/}rrrrr {/:a<a>:/}r rrrrrrrr
+{/:b-<b->:/}rrr {/:a<a>:/}rrr {/:g<g>:/}rrr {/:f<f>:/}rrr
+:/
+;
+@5@w2
+l8
+o3
+/:4
+/:4d<d>:/
+/:>b-<b-:/
+/:c<c>:/
+:/
+/:$loop
+/:4
+/:4d<d>:/
+/:4c<c>:/
+/:4>b-<b-:/
+/:2>a<a:/
+>b-<b-c<c>
+:/
+:/
+;
+@6
+@E1,0,256,256,0
+l16
+o5
+/:2
+/:6
+ar<drerfr>
+:/
+<fr>
+/:
+<erdrcr>
+:/
+<er>
+:/
+/:$loop
+o6
+
+>ar<drerfrr8
+drerfrgrrr
+rrrr
+frrrerrr
+frer rrdr rrrr d-rdrerrr rrd-r> arrr< d-rrr
+drrrrr errrrr frrr grrr grrr 
+frer rrfr rrdr drrr rrrr erfr errr rrrr d-rrr drrr
+
+{/:e<e>:/}rrrrr {/:f<f>:/}r rrrrrrrr
+{/:e<e>:/}rrrrr {/:f<f>:/}r rr{/:g<g>:/}r {/:f<f>:/}r {/:e<e>:/}r
+{/:e<e>:/}rrrrr {/:f<f>:/}r rrrrrrrr
+{/:g<g>:/}rrr {/:f<f>:/}rrr {/:e<e>:/}rrr {/:f<f>:/}rrr
+
+{/:g<g>:/}rrrrr {/:a<a>:/}r rrrrrrrr
+{/:g<g>:/}rrrrr {/:a<a>:/}r rr{/:b-<b->:/}r {/:a<a>:/}r {/:g<g>:/}r
+{/:g<g>:/}rrrrr {/:a<a>:/}r rrrrrrrr
+{/:b-<b->:/}rrr {/:a<a>:/}rrr {/:g<g>:/}rrr {/:f<f>:/}rrr
+:/
+;
+@7
+l32
+o0
+/:4/:4dr cr cr cr:/:/
+
+/:3/:2dr cr cr cr a&a cr cr cr:/:/
+/:2a&a rr rr rr:/
+/:8ar:/
+/:2:/
+/:$loop
+/:62dr cr a&a cr:/
+/:8ar:/
+:/
