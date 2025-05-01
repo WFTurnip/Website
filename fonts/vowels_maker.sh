@@ -1,20 +1,13 @@
-# cat silwki.svg >>silwki/uni0041.svg
-# cat silwki.svg >>silwki/uni0045.svg
-# cat silwki.svg >>silwki/uni0049.svg
-# cat silwki.svg >>silwki/uni004F.svg
-# cat silwki.svg >>silwki/uni0055.svg
-# cat silwki.svg >>silwki/uni0057.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo/uni0041.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo/uni0045.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo/uni0049.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo/uni004F.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo/uni0055.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo/uni0057.svg
 
-# open -a /Applications/Visual\ Studio\ Code.app silwki/uni0041.svg
-# open -a /Applications/Visual\ Studio\ Code.app silwki/uni0045.svg
-# open -a /Applications/Visual\ Studio\ Code.app silwki/uni0049.svg
-# open -a /Applications/Visual\ Studio\ Code.app silwki/uni004F.svg
-# open -a /Applications/Visual\ Studio\ Code.app silwki/uni0055.svg
-# open -a /Applications/Visual\ Studio\ Code.app silwki/uni0057.svg
-
-# svgo silwki/uni0041.svg
-# svgo silwki/uni0045.svg
-# svgo silwki/uni0049.svg
-# svgo silwki/uni004F.svg
-# svgo silwki/uni0055.svg
-# svgo silwki/uni0057.svg
+open polwgo/uni0041.svg
+open polwgo/uni0045.svg
+open polwgo/uni0049.svg
+open polwgo/uni004F.svg
+open polwgo/uni0055.svg
+open polwgo/uni0057.svg
