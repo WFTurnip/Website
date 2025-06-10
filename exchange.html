@@ -52,8 +52,6 @@
 
     input,
     select {
-      /* width: 100%;
-*/
       margin: 16px 0;
       padding: 16px;
       font-size: 16px;
@@ -94,6 +92,10 @@
     <hr>
     <div class="result" id="result_yen"></div>
   </div>
+  <dl>
+    <dt>エレギア帝国通貨</dt>
+    <dd>エレギア帝国の通貨単位です。これは架空の通貨であり、実際の通貨とは異なります。</dd>
+  </dl>
   <script>
     function convertCurrency() {
       let amount = parseFloat(document.getElementById('amount').value) || 0;
