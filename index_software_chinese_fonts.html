@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中華フォントとウェブサイトのお話</title>
+</head>
+
+<body>
+  <h1>中華フォントとウェブサイトのお話</h1>
+  <p>中華フォントを使ったウェブサイトのデザインについての考察。</p>
+  <p>
+    中華フォントは、主に中国語の文字を表示するためにデザインされたフォントのことを指します。これらのフォントは、主に中国語圏の漢字の形状やスタイルに特化しており、ウェブサイトのデザインにおいても重要な役割を果たします。ただし、日本語とは見た目が大幅に違うので、注意が必要です。
+  </p>
+  <p>
+    ただし、Unicodeは文字コードであり、言語や地域ごとの見た目の違い（ローカライズされた字形）までは区別していません。そのため、表示側（OSやブラウザ）は、ドキュメントの言語情報やフォントの言語対応をもとに、適切な字形を選んで表示します。
+  </p>
+  <dl>
+    <dt>
+      <h2>中華フォントの使用例</h2>
+    </dt>
+    <dd>
+      <dl>
+        <dt>日本語</dt>
+        <dd><span lang="ja" class="serif">刃直海角骨入</span></dd>
+        <dd><span lang="ja" class="sans-serif">刃直海角骨入</span></dd>
+        <dt>簡体中国語</dt>
+        <dd><span lang="zh-cn" class="serif">刃直海角骨入</span></dd>
+        <dd><span lang="zh-cn" class="sans-serif">刃直海角骨入</span></dd>
+        <dt>繁体中国語</dt>
+        <dd><span lang="zh-tw" class="serif">刃直海角骨入</span></dd>
+        <dd><span lang="zh-tw" class="sans-serif">刃直海角骨入</span></dd>
+      </dl>
+    </dd>
+  </dl>
+</body>
+<style>
+  body {
+    font-family: sans-serif;
+    padding: 2rem;
+  }
+
+  span {
+    font-size: 2rem;
+  }
+
+  .serif {
+    font-family: "Noto Serif CJK JP", serif;
+  }
+
+  .sans-serif {
+    font-family: "Noto Sans CJK JP", sans-serif;
+  }
+</style>
+
+</html>
