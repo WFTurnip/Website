@@ -5,10 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>フォントダウンロードフォーム</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-  <h1>フォントダウンロードフォーム</h1>
+  <h1>創作フォントダウンロードフォーム</h1>
+  <p>以下のリンクから、各フォントをダウンロードできます。</p>
+  <p>フォントは、各リンクをクリックしてダウンロードしてください。ダウンロードしたフォントファイルは、適切なフォント管理ソフトウェアを使用してインストールしてください。</p>
+  <p>フォントの使用に関しては、各フォントのライセンスに従ってください。</p>
+  <p>フォントの使用例は、<a href="fonts/kiita_declaration.html">こちら</a>をご覧ください。</p>
   <dl>
     <dt>コディート体</dt>
     <dd></dd>
@@ -44,7 +49,7 @@
     <dd></dd>
     <dd><a class="xidili" download="xidili.ttf" href="fonts/xidili.ttf">xidili</a></dd>
     <dt>ゾソク体</dt>
-    <dd>エレギア帝国第五代目皇帝プラトラス・エレギエルの妻、アミリアレ・ゾソクが考案した書体。</dd>
+    <dd>エレギア帝国第五代目皇帝プラトラス・エレギエルの妻、アミリアレ・ゾソクが考案した書体。後にこれは</dd>
     <dd><a class="zosokw" download="zosokw.ttf" href="fonts/zosokw.ttf">zosokw</a></dd>
   </dl>
 </body>
@@ -114,27 +119,6 @@
     src: url('./fonts/zosokw.ttf') format('truetype');
   }
 
-  body {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    font-family: serif;
-  }
-
-  a {
-    text-decoration: none;
-    color: burlywood;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  a:visited {
-    color: blueviolet;
-  }
 
   .kodito {
     font-family: 'kodito';
