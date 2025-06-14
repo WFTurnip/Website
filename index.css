@@ -1,18 +1,18 @@
 body {
-  text-align: center;
-  padding: 2rem;
-  font-family: serif;
+    text-align: center;
+    padding: 2rem;
+    font-family: serif;
 }
 
 a {
-  text-decoration: none;
-  color: burlywood;
+    text-decoration: none;
+    color: burlywood;
 }
 
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 a:visited {
-  color: blueviolet;
+    color: blueviolet;
 }
