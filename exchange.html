@@ -5,68 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>エレギア帝国通貨換算所</title>
-  <style>
-    @media (prefers-color-scheme: light) {
-      body {
-        background-color: #f0f0f0;
-        color: #333;
-      }
-
-      input,
-      select {
-        color: #333;
-        background-color: #fff;
-        border: 1px solid #ccc;
-      }
-    }
-
-    @media (prefers-color-scheme: dark) {
-      body {
-        background-color: #333;
-        color: #f0f0f0;
-      }
-
-      input,
-      select {
-        color: #f0f0f0;
-        background-color: #444;
-        border: 1px solid #666;
-      }
-    }
-
-    body,
-    select,
-    input {
-      font-family: sans-serif;
-    }
-
-    body {
-      text-align: center;
-      font-weight: bold;
-    }
-
-    .container {
-      max-width: 500px;
-      margin: auto;
-    }
-
-    input,
-    select {
-      margin: 16px 0;
-      padding: 16px;
-      font-size: 16px;
-      font-weight: bold;
-    }
-
-    .result {
-      font-size: 16px;
-      font-weight: bold;
-      margin-top: 16px;
-    }
-  </style>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
+  <header><a href="index.html">トップページに戻る</a></header>
   <div class="container">
     <h1>エレギア帝国通貨換算所</h1>
     <input type="number" id="amount" placeholder="金額を入力" oninput="convertCurrency()">
@@ -110,5 +53,65 @@
     }
   </script>
 </body>
+
+<style>
+  @media (prefers-color-scheme: light) {
+    body {
+      background-color: #f0f0f0;
+      color: #333;
+    }
+
+    input,
+    select {
+      color: #333;
+      background-color: #fff;
+      border: 1px solid #ccc;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #f0f0f0;
+    }
+
+    input,
+    select {
+      color: #f0f0f0;
+      background-color: #444;
+      border: 1px solid #666;
+    }
+  }
+
+  body,
+  select,
+  input {
+    font-family: sans-serif;
+  }
+
+  body {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  input,
+  select {
+    margin: 16px 0;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .result {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+  }
+</style>
 
 </html>
