@@ -7,10 +7,9 @@ body {
 }
 
 header {
-    background: #333;
+    background: #666666;
     color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+    padding: 0.5rem 0;
 }
 
 header a {
@@ -25,7 +24,7 @@ footer {
 }
 
 a {
-    color: #007bff;
+    color: #0000ff;
     text-decoration: none;
 }
 
@@ -35,5 +34,6 @@ a:hover {
 }
 
 a:visited {
-    color: #5a5a5a;
+    color: #ff0000;
+    text-decoration: line-through;
 }
