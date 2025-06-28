@@ -44,7 +44,7 @@
 }
 
 @font-face {
-    font-family: 'xavani';
+    font-family: 'piswpi';
     src: url('../../fonts/xavani.ttf') format('truetype');
 }
 
@@ -105,7 +105,7 @@ th>p,
 
 th>.elegia,
 td>.elegia {
-    font-family: 'xavani';
+    font-family: 'piswpi';
     text-align: center;
     text-indent: 0rem;
 }
