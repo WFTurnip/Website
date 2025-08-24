@@ -1,0 +1,16 @@
+body {
+    font-family: serif;
+    padding: 2rem;
+}
+
+span {
+    font-size: 2rem;
+}
+
+.serif {
+    font-family: serif;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}
