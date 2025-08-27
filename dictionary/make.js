@@ -5,7 +5,7 @@ const beautify = require("js-beautify").html;
 
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonants_means = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonants_phonetics = ["k", "g", "t", "d", "s", "z", "ʕ", "ʔ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonants_phonetics = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowels = ["a", "e", "i", "o", "u", "w"];
 const vowels_cases = ["否", "与", "属", "対", "主", "流"];

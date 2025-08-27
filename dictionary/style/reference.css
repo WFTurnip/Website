@@ -100,7 +100,7 @@ h2::before {
 }
 
 h3::before {
-    content: counter(subsection, japanese-informal) "節\3000";
+    content: "第" counter(subsection, japanese-informal) "節\3000";
 }
 
 a {

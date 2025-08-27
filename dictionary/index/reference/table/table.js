@@ -1,6 +1,6 @@
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonants_means = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonants_phonetics = ["k", "g", "t", "d", "s", "z", "ʕ", "ʔ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonants_phonetics = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowels = ["a", "e", "i", "o", "u", "w"];
 const vowels_cases = ["否", "与", "属", "対", "主", "流"];
@@ -406,65 +406,6 @@ function generateCaseOfSpeechTable() {
     }
     table.appendChild(tbody);
     document.querySelectorAll(".case-of-speech-table").forEach(function (element) {
-        element.appendChild(table);
-    });
-}
-
-function generatePrefixSuffixTable() {
-    let table = document.createElement("table");
-    let caption = document.createElement("caption");
-    caption.textContent = "接頭辞・接尾辞の表";
-    table.appendChild(caption);
-    let thead = document.createElement("thead");
-    let tr = document.createElement("tr");
-    let th = document.createElement("th");
-    th.textContent = "";
-    tr.appendChild(th);
-    for (let i = 0; i < consonants.length; i++) {
-        let th = document.createElement("th");
-        let p = document.createElement("p");
-        p.textContent = consonants[i];
-        p.className = "elegia";
-        th.appendChild(p);
-        let p2 = document.createElement("p");
-        p2.textContent = consonants_means[i] + "的子音";
-        p2.className = "mean";
-        p2.style.fontSize = "0.5rem";
-        th.appendChild(p2);
-        tr.appendChild(th);
-    } thead.appendChild(tr);
-    table.appendChild(thead);
-    let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowels.length; i++) {
-        let tr = document.createElement("tr");
-        let th = document.createElement("th");
-        let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
-        p.className = "elegia";
-        th.appendChild(p);
-        let p2 = document.createElement("p");
-        p2.textContent = vowels_cases[i] + "格的母音";
-        p2.className = "case";
-        p2.style.fontSize = "0.5rem";
-        th.appendChild(p2);
-        tr.appendChild(th);
-        for (let j = 0; j < consonants.length; j++) {
-            let td = document.createElement("td");
-            let p = document.createElement("p");
-            p.textContent = consonants[j] + vowels[i];
-            p.className = "elegia";
-            td.appendChild(p)
-            let p2 = document.createElement("p");
-            p2.textContent = consonants_means[j] + "的" + vowels_cases[i] + "格";
-            p2.className = "root";
-            p2.style.fontSize = "0.5rem";
-            td.appendChild(p2);
-            tr.appendChild(td);
-        }
-        tbody.appendChild(tr);
-    }
-    table.appendChild(tbody);
-    document.querySelectorAll(".prefix-suffix-table").forEach(function (element) {
         element.appendChild(table);
     });
 }
