@@ -726,7 +726,6 @@ window.onload = function () {
     generateCaseTable();
     generateConjunctCaseTable();
     generateCaseOfSpeechTable();
-    generatePrefixSuffixTable();
     generateArticleConjugationTable();
     generateVerbConjugationTable();
     generateAdjectiveConjugationTable();
