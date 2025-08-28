@@ -92,6 +92,11 @@ h2 {
 
 h3 {
     counter-increment: subsection 1;
+    text-indent: 1rem;
+}
+
+h4 {
+    text-indent: 2rem;
 }
 
 h2::before {
@@ -100,7 +105,7 @@ h2::before {
 }
 
 h3::before {
-    content: "第" counter(subsection, japanese-informal) "節\3000";
+    content: counter(subsection, japanese-informal) "節\3000";
 }
 
 a {
@@ -109,6 +114,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+rt {
+    font-family: serif;
+    font-variant-east-asian: ruby;
 }
 
 p {
