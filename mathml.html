@@ -14,11 +14,35 @@
   <header><a href="index.html">トップページに戻る</a></header>
   <header><a href="index_software.html">ソフトウェアの扉に戻る</a></header>
   <h1>MathMLとはなんぞや</h1>
-  <p>MathMLは、数学的な表現をWeb上で記述するためのマークアップ言語です。</p>
-
+  <p>
+    <q>
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+	<mo>T</mo>
+	<mpadded voffset="-0.5ex">
+	  <mo>E</mo>
+	</mpadded>
+	<mo>X</mo>
+      </math>
+      とか
+      <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+	<mo>L</mo>
+	<mpadded voffset="+0.5ex">
+	<mo>A</mo>
+	</mpadded>
+	<mo>T</mo>
+	<mpadded voffset="-0.5ex">
+	  <mo>E</mo>
+	</mpadded>
+	<mo>X</mo>
+      </math>
+      とかみたいに数式を組みたい！！</q>というワガママからできたマークアップ言語らしい。
+  </p>
+  <p>
+    んで、コイツに至っては実装やら規格化にかなり紆余曲折があって、MathML Coreという中核システムだけでも実装しようとブラウザを開発している団体や企業は意気込んでいるそう。
+  </p>
   <h2>基本的な例</h2>
   <p>以下は、MathMLを使用して数式を表現した例です。</p>
-
+  
   <math xmlns="http://www.w3.org/1998/Math/MathML">
     <msup>
       <mi>x</mi>

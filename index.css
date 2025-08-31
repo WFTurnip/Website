@@ -8,38 +8,28 @@ body {
 
 header {
     text-align: left;
-    background: #666666;
-    padding: 0.5rem 0;
-}
-
-header a {
-    color: #fff;
-    text-decoration: none;
 }
 
 footer {
     text-align: right;
-    background: #666666;
-    padding: 0.5rem 0;
 }
 
-footer a p {
-    color: #fff;
-    text-decoration: none;
+header,
+footer {
+    background: #e0e0e0;
+    padding: 0.5rem 2rem;
 }
 
 a {
-    color: #0000ff;
+    color: #0000ee;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
-    font-family: sans-serif;
     font-weight: bold;
 }
 
 a:visited {
-    color: #ff0000;
-    text-decoration: line-through;
+    color: #ee00ee;
 }

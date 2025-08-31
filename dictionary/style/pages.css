@@ -30,22 +30,22 @@
         background-color: #1f1a16;
         color: #e8e5dd;
     }
-
+    
     a {
         color: #c9b458;
     }
-
+    
     a:visited {
         color: #ad5a5d;
     }
-
+    
     table,
     thead,
     tbody,
     tfoot {
         border: #4a4340 solid 2px;
     }
-
+    
     th,
     td {
         border: #4a4340 solid 1px;

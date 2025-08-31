@@ -416,5 +416,4 @@ async function make() {
     }
 }
 
-// 実行
 make();

@@ -114,3 +114,8 @@ header,
 footer {
     text-align: center;
 }
+
+rt {
+    font-family: serif;
+    font-variant-east-asian: ruby;
+}
