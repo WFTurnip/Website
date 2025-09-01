@@ -1,46 +1,456 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MathMLとはなんぞや</title>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
-  <link rel="stylesheet" href="index.css">
-</head>
-
-<body>
-  <header><a href="index.html">トップページに戻る</a></header>
-  <header><a href="index_software.html">ソフトウェアの扉に戻る</a></header>
-  <h1>MathMLとはなんぞや</h1>
-  <p><q>\(\rm\TeX\)とか\(\rm\LaTeX\)とかみたいに数式を組みたい！！</q>というワガママからできたマークアップ言語らしい。</p>
-  <p>
-    んで、コイツに至っては実装やら規格化にかなり紆余曲折があって、MathML Coreという中核システムだけでも実装しようとブラウザを開発している団体や企業は意気込んでいるそう。
-  </p>
-  <h2>基本的な例</h2>
-  <p>以下は、MathMLを使用して数式を表現した例です。</p>
-  <math xmlns="http://www.w3.org/1998/Math/MathML">
-    <msup>
-      <mi>x</mi>
-      <mn>2</mn>
-    </msup>
-    <mo>=</mo>
-    <mfrac>
-      <mn>1</mn>
-      <mi>y</mi>
-    </mfrac>
-  </math>
-
-  <h2>MathMLの利点</h2>
-  <ul>
-    <li>アクセシビリティ: スクリーンリーダーなどの支援技術が数式を正しく読み上げることができます。</li>
-    <li>スタイルの柔軟性: CSSと組み合わせて、数式のスタイルを自由に変更できます。</li>
-    <li>国際化: 多言語対応が容易です。</li>
-  </ul>
-
-  <h2>まとめ</h2>
-  <p>MathMLは、Web上で数学的な内容を表現するための強力なツールです。学術論文や教育コンテンツなど、さまざまな場面で活用されています。</p>
-</body>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MathMLとはなんぞや</title>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.1/es5/tex-mml-chtml.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header><a href="index.html">トップページに戻る</a></header>
+    <header><a href="index_software.html">ソフトウェアの扉に戻る</a></header>
+    <h1>MathMLとはなんぞや</h1>
+    <p>XMLなら聞いたことのある人が多いかもしれないが、こいつは<q>XMLで\(\rm\LaTeX\)みたいな事をしよう！</q>というかなり無謀な挑戦だ。だから、<b>MathML</b>なんて名前がついているのだ。</p>
+    <p>歴史的な経緯を辿るとめちゃくちゃ行き当たりばったりかつ必要不必要の意見が混在してとんでもないことになっていたそう。</p>
+    <blockquote>
+      <p lang="en">To solve the cubic equation
+        <math translate="no" display="inline">
+          <msup>
+            <mi>t</mi>
+            <mn>3</mn>
+          </msup>
+          <mo>+</mo>
+          <mi>p</mi>
+          <mo>&InvisibleTimes;</mo>
+          <mi>t</mi>
+          <mo>+</mo>
+          <mi>q</mi>
+          <mo>=</mo>
+          <mn>0</mn>
+        </math>
+        (where the real numbers
+        <math translate="no" display="inline">
+          <mi>p</mi>
+          <mo>,</mo>
+          <mi>q</mi>
+        </math>
+        satisfy
+        <math translate="no" display="inline">
+          <mn>4</mn>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mi>p</mi>
+            <mn>3</mn>
+          </msup>
+          <mo>+</mo>
+          <mn>27</mn>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mi>q</mi>
+            <mn>2</mn>
+          </msup>
+          <mo>&gt;</mo>
+          <mn>0</mn>
+        </math>
+        )
+        one can use Cardino's formula:
+        <math translate="no" display="block">
+          <mroot>
+            <mrow>
+              <mo>-</mo>
+              <mfrac>
+                <mi>q</mi>
+                <mn>2</mn>
+              </mfrac>
+              <mo>+</mo>
+              <msqrt>
+                <mfrac>
+                  <msup>
+                    <mi>q</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mn>4</mn>
+                </mfrac>
+                <mo>+</mo>
+                <mfrac>
+                  <msup>
+                    <mi>p</mi>
+                    <mn>3</mn>
+                  </msup>
+                  <mn>27</mn>
+                </mfrac>
+              </msqrt>
+            </mrow>
+            <mn>3</mn>
+          </mroot>
+          <mo>+</mo>
+          <mroot>
+            <mrow>
+              <mo>-</mo>
+              <mfrac>
+                <mi>q</mi>
+                <mn>2</mn>
+              </mfrac>
+              <mo>-</mo>
+              <msqrt>
+                <mfrac>
+                  <msup>
+                    <mi>q</mi>
+                    <mn>2</mn>
+                  </msup>
+                  <mn>4</mn>
+                </mfrac>
+                <mo>+</mo>
+                <mfrac>
+                  <msup>
+                    <mi>p</mi>
+                    <mn>3</mn>
+                  </msup>
+                  <mn>27</mn>
+                </mfrac>
+              </msqrt>
+            </mrow>
+            <mn>3</mn>
+          </mroot>
+        </math>
+      </p>
+      <p lang="en">For any
+        <math translate="no" display="inline">
+          <msub>
+            <mi>u</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>,</mo>
+          <mi>&hellip;</mi>
+          <mo>,</mo>
+          <msub>
+            <mi>u</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>&isin;</mo>
+          <mi mathvariant="double-struck">C</mi>
+        </math>
+        and
+        <math translate="no" display="inline">
+          <msub>
+            <mi>v</mi>
+            <mn>1</mn>
+          </msub>
+          <mo>,</mo>
+          <mi>&hellip;</mi>
+          <mo>,</mo>
+          <msub>
+            <mi>v</mi>
+            <mi>n</mi>
+          </msub>
+          <mo>&isin;</mo>
+          <mi mathvariant="double-struck">C</mi>
+        </math>
+        , the Cauchy-Bunyakovsky-Schwarz inequality can be written as followers:
+        <math translate="no" display="block">
+          <msup>
+            <mrow>
+              <mo>|</mo>
+              <mrow>
+                <munderover>
+                  <mo>&sum;</mo>
+                  <mrow>
+                    <mi>k</mi>
+                    <mo>=</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mi>n</mi>
+                </munderover>
+                <msub>
+                  <mi>u</mi>
+                  <mi>k</mi>
+                </msub>
+                <mo>&InvisibleTimes;</mo>
+                <mover>
+                  <msub>
+                    <mi>v</mi>
+                    <mi>k</mi>
+                  </msub>
+                  <mo accent="true">¯</mo>
+                </mover>
+              </mrow>
+              <mo>|</mo>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+          <mo>&leq;</mo>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <munderover>
+                  <mo>&sum;</mo>
+                  <mrow>
+                    <mi>k</mi>
+                    <mo>=</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mi>n</mi>
+                </munderover>
+                <mrow>
+                  <mo>|</mo>
+                  <msub>
+                    <mi>u</mi>
+                    <mi>k</mi>
+                  </msub>
+                  <mo>|</mo>
+                </mrow>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+          <mo>&InvisibleTimes;</mo>
+          <msup>
+            <mrow>
+              <mo>(</mo>
+              <mrow>
+                <munderover>
+                  <mo>&sum;</mo>
+                  <mrow>
+                    <mi>k</mi>
+                    <mo>=</mo>
+                    <mn>1</mn>
+                  </mrow>
+                  <mi>n</mi>
+                </munderover>
+                <mrow>
+                  <mo>|</mo>
+                  <msub>
+                    <mi>v</mi>
+                    <mi>k</mi>
+                  </msub>
+                  <mo>|</mo>
+                </mrow>
+              </mrow>
+              <mo>)</mo>
+            </mrow>
+            <mn>2</mn>
+          </msup>
+        </math>
+      </p>
+      <p lang="en">Finally, the detarminant of a Vandermonde matrix can be calculated useing the following expression:
+        <math translate="no" display="block">
+          <mrow>
+            <mo>|</mo>
+            <mtable>
+              <mtr>
+                <mtd>
+                  <mn>1</mn>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>1</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mn>1</mn>
+                    <mn>2</mn>
+                  </msubsup>
+                </mtd>
+                <mtd>
+                  <mo>…</mo>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mn>1</mn>
+                    <mrow data-mjx-texclass="ORD">
+                      <mi>n</mi>
+                      <mo>−</mo>
+                      <mn>1</mn>
+                    </mrow>
+                  </msubsup>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>1</mn>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mn>2</mn>
+                    <mn>2</mn>
+                  </msubsup>
+                </mtd>
+                <mtd>
+                  <mo>…</mo>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mn>2</mn>
+                    <mrow data-mjx-texclass="ORD">
+                      <mi>n</mi>
+                      <mo>−</mo>
+                      <mn>1</mn>
+                    </mrow>
+                  </msubsup>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>1</mn>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mi>x</mi>
+                    <mn>3</mn>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mn>3</mn>
+                    <mn>2</mn>
+                  </msubsup>
+                </mtd>
+                <mtd>
+                  <mo>…</mo>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mn>3</mn>
+                    <mrow data-mjx-texclass="ORD">
+                      <mi>n</mi>
+                      <mo>−</mo>
+                      <mn>1</mn>
+                    </mrow>
+                  </msubsup>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mrow data-mjx-texclass="ORD">
+                    <mo>⋮</mo>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mrow data-mjx-texclass="ORD">
+                    <mo>⋮</mo>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mrow data-mjx-texclass="ORD">
+                    <mo>⋮</mo>
+                  </mrow>
+                </mtd>
+                <mtd>
+                  <mo>⋱</mo>
+                </mtd>
+                <mtd>
+                  <mrow data-mjx-texclass="ORD">
+                    <mo>⋮</mo>
+                  </mrow>
+                </mtd>
+              </mtr>
+              <mtr>
+                <mtd>
+                  <mn>1</mn>
+                </mtd>
+                <mtd>
+                  <msub>
+                    <mi>x</mi>
+                    <mi>n</mi>
+                  </msub>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mi>n</mi>
+                    <mn>2</mn>
+                  </msubsup>
+                </mtd>
+                <mtd>
+                  <mo>…</mo>
+                </mtd>
+                <mtd>
+                  <msubsup>
+                    <mrow>
+                      <mi>x</mi>
+                    </mrow>
+                    <mi>n</mi>
+                    <mrow data-mjx-texclass="ORD">
+                      <mi>n</mi>
+                      <mo>−</mo>
+                      <mn>1</mn>
+                    </mrow>
+                  </msubsup>
+                </mtd>
+              </mtr>
+            </mtable>  
+            <mo>|</mo>
+          </mrow>
+          <mo>=</mo>
+          <mrow data-mjx-texclass="ORD">
+            <munder accent="true" accentunder="false">
+              <mrow>
+                <mo data-mjx-texclass="OP">&prod;</mo>
+              </mrow>
+              <mrow data-mjx-texclass="ORD">
+                <mrow data-mjx-texclass="ORD">
+                  <mn>1</mn>
+                  <mo>≤</mo>
+                  <mi>i</mi>
+                </mrow>
+                <mo>,</mo>
+                <mrow data-mjx-texclass="ORD">
+                  <mi>j</mi>
+                  <mo>≤</mo>
+                  <mi>n</mi>
+                </mrow>
+              </mrow>
+            </munder>
+            <mrow data-mjx-texclass="ORD">
+              <mo stretchy="true">(</mo>
+              <msub>
+                <mi>x</mi>
+                <mi>i</mi>
+              </msub>
+              <mo>−</mo>
+              <msub>
+                <mi>x</mi>
+                <mi>j</mi>
+              </msub>
+              <mo stretchy="true">)</mo>
+            </mrow>
+          </mrow>
+        </math>
+      </p>
+    </blockquote>
+    <footer><a href="index.html">トップページに戻る</a></footer>
+    <footer><a href="index_software.html">ソフトウェアの扉に戻る</a></footer>
+  </body>
 </html>

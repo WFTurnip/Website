@@ -33,3 +33,11 @@ a:hover {
 a:visited {
     color: #ee00ee;
 }
+
+p:lang(ja) {
+    text-indent: 1rem;
+}
+
+p:lang(en) {
+    text-indent: 2rem;
+}
