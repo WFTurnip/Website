@@ -8,24 +8,16 @@ body {
 
 header {
     text-align: left;
-    background: #666666;
-    padding: 0.5rem 0;
-}
-
-header {
-    color: #fff;
-    text-decoration: none;
 }
 
 footer {
     text-align: right;
-    background: #666666;
-    padding: 0.5rem 0;
 }
 
+header,
 footer {
-    color: #fff;
-    text-decoration: none;
+    background: #e0e0e0;
+    padding: 0.5rem 2rem;
 }
 
 a {
@@ -40,5 +32,12 @@ a:hover {
 
 a:visited {
     color: #ee00ee;
-    text-decoration: line-through;
+}
+
+p:lang(ja) {
+    text-indent: 1rem;
+}
+
+p:lang(en) {
+    text-indent: 2rem;
 }
