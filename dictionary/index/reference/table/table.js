@@ -51,7 +51,7 @@ function generateConstonantTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + consonants_phonetics[i] + "/";
@@ -68,7 +68,7 @@ function generateConstonantTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + consonants_phonetics[i] + "/";
@@ -85,7 +85,7 @@ function generateConstonantTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + consonants_phonetics[i] + "/";
@@ -130,7 +130,7 @@ function generateVowelTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + vowels_phonetics[i] + "/";
@@ -147,7 +147,7 @@ function generateVowelTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + vowels_phonetics[i] + "/";
@@ -206,7 +206,7 @@ function generateConstonantMeansTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = consonants_means[i];
@@ -223,7 +223,7 @@ function generateConstonantMeansTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = consonants_means[i];
@@ -240,7 +240,7 @@ function generateConstonantMeansTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = consonants_means[i];
@@ -276,7 +276,7 @@ function generateCaseTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = vowels_cases[i] + "格";
@@ -330,7 +330,7 @@ function generateConjunctCaseTable() {
     let tr2 = document.createElement("tr");
     vowels.forEach((vowel, i) => {
         let th = document.createElement("th");
-        th.appendChild(createParagraph("-" + vowel, "elegia"));
+        th.appendChild(createParagraph("-" + vowel, "piswpi"));
         th.appendChild(createParagraph(vowels_cases[i] + "格", "case"));
         tr2.appendChild(th);
     });
@@ -349,13 +349,13 @@ function generateConjunctCaseTable() {
     vowels.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
-        th.appendChild(createParagraph("-" + vowel1, "elegia"));
+        th.appendChild(createParagraph("-" + vowel1, "piswpi"));
         th.appendChild(createParagraph(vowels_cases[i] + "格", "case"));
         tr.appendChild(th);
 
         vowels.forEach((vowel2, j) => {
             let td = document.createElement("td");
-            td.appendChild(createParagraph("-" + vowel2 + "-" + vowel1, "elegia"));
+            td.appendChild(createParagraph("-" + vowel2 + "-" + vowel1, "piswpi"));
             td.appendChild(createParagraph(vowels_cases[j] + vowels_cases[i] + "格", "root"));
             tr.appendChild(td);
         });
@@ -389,7 +389,7 @@ function generateCaseOfSpeechTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = vowels_part_of_speech_types[i] + "詞";
@@ -426,7 +426,7 @@ function generateArticleConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "elegia";
+    p2.className = "piswpi";
     let span = document.createElement("span");
     span.className = "root";
     span.style.fontSize = "0.5rem";
@@ -474,7 +474,7 @@ function generateVerbConjugationTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = tense[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = tense_mean[i] + "形";
@@ -491,7 +491,7 @@ function generateVerbConjugationTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = aspect[i];
-        p.className = "elegia";
+        p.className = "piswpi";
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = aspect_mean[i] + "相";
@@ -502,7 +502,7 @@ function generateVerbConjugationTable() {
         for (let j = 0; j < tense.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("p");
-            p.className = "elegia";
+            p.className = "piswpi";
             p.appendChild(document.createTextNode(aspect[i]));
             let span = document.createElement("span");
             span.className = "root";
@@ -559,7 +559,7 @@ function generateAdjectiveConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "elegia";
+    p2.className = "piswpi";
     let span = document.createElement("span");
     span.className = "root";
     span.style.fontSize = "0.5rem";
@@ -603,7 +603,7 @@ function generateParticleConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "elegia";
+    p2.className = "piswpi";
     let span = document.createElement("span");
     span.className = "root";
     span.style.fontSize = "0.5rem";
@@ -647,7 +647,7 @@ function generateAdverbConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "elegia";
+    p2.className = "piswpi";
     let span = document.createElement("span");
     span.className = "root";
     span.style.fontSize = "0.5rem";
@@ -691,7 +691,7 @@ function generateNounConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "elegia";
+    p2.className = "piswpi";
     let span = document.createElement("span");
     span.className = "root";
     span.style.fontSize = "0.5rem";

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'roundterm';
+    src: url('./roundterm/Roundterm.ttf') format('truetype');
+}
+
+.roundterm {
+    font-family: 'roundterm';
+}

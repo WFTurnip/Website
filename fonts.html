@@ -6,6 +6,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>フォントダウンロードフォーム</title>
   <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="fonts.css">
+ 
 </head>
 
 <body>
@@ -89,140 +91,7 @@
     </dd>
     <dd>エレギア帝国第五代目皇帝<ruby><span class="zosokw">Pwlatwlasw Qelegicelw</span><rt>プラトラス・エレギエル</rt></ruby>の妻、<ruby><span class="zosokw">Qamirwqicale Zosokw</span><rt>アミリアレ・ゾソク</rt></ruby>が考案した書体。後にこれはエレギア帝国の教育用標準書体として制定された。</dd>
   </dl>
-  <script>
-    const text = "Cecolicasw Celemeniki Qoqunoquxw Celegicelw";
-    let index = 0;
-    const elements = document.querySelectorAll('.typing-text'); // タイピングエフェクトを適用する要素をすべて取得
-
-    function typeEffect() {
-      if (index < text.length) {
-        elements.forEach(element => {
-          element.textContent += text.charAt(index); // 各要素に対して文字を追加
-        });
-        index++;
-        setTimeout(typeEffect, 50); // 150msで次の文字を表示
-      }
-    }
-
-    typeEffect(); // 最初の呼び出し
-  </script>
+  <script src="fonts.js"></script>
 </body>
-<style>
-  @font-face {
-    font-family: 'kodito';
-    src: url('./fonts/kodito.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'lekuta';
-    src: url('./fonts/lekuta.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'lozegw';
-    src: url('./fonts/lozegw.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'makina';
-    src: url('./fonts/makina.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'piswpi';
-    src: url('./fonts/piswpi.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'polwgo';
-    src: url('./fonts/polwgo.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'lozegw';
-    src: url('./fonts/lozegw.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'silwki';
-    src: url('./fonts/silwki.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'sulive';
-    src: url('./fonts/sulive.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'xavani';
-    src: url('./fonts/xavani.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'xesada';
-    src: url('./fonts/xesada.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'xidili';
-    src: url('./fonts/xidili.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'zosokw';
-    src: url('./fonts/zosokw.ttf') format('truetype');
-  }
-
-
-  .kodito {
-    font-family: 'kodito';
-  }
-
-  .lekuta {
-    font-family: 'lekuta';
-  }
-
-  .lozegw {
-    font-family: 'lozegw';
-  }
-
-  .makina {
-    font-family: 'makina';
-  }
-
-  .piswpi {
-    font-family: 'piswpi';
-  }
-
-  .polwgo {
-    font-family: 'polwgo';
-  }
-
-  .silwki {
-    font-family: 'silwki';
-  }
-
-  .sulive {
-    font-family: 'sulive';
-    font-feature-settings: "calt" 1
-  }
-
-  .xavani {
-    font-family: 'xavani';
-  }
-
-  .xesada {
-    font-family: 'xesada';
-  }
-
-  .xidili {
-    font-family: 'xidili';
-  }
-
-  .zosokw {
-    font-family: 'zosokw';
-    font-feature-settings: "calt" 1;
-  }
-</style>
 
 </html>

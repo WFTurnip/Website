@@ -8,38 +8,39 @@
     <link rel="icon" href="../../icon/reference.svg">
     <link rel="stylesheet" href="../../style/pages.css">
     <link rel="stylesheet" href="../../style/reference.css">
+        <link rel="stylesheet" href="../../style/fonts.css">
     <script src="table/table.js"></script>
   </head>
   <body>
     <header>
-      <nav>
-	<a href="../../dictionary.html">表紙に戻る</a>  
-      </nav>
+      <a href="../../dictionary.html">辞典の表紙に戻る</a>
     </header>
     <h1>エレギア語文法書</h1>
-    <h1 class="elegia"><ruby>Qinalwgiqica<rt>イナルジーア</rt></ruby> <ruby>Gwlamwdufunw<rt>グラムドゥフン</rt></ruby></h1>
+    <h1 class="piswpi"><ruby>Qinalwgiqica<rt>イナルジーア</rt></ruby> <ruby>Gwlamwdufunw<rt>グラムドゥフン</rt></ruby></h1>
     <hr>
     <hr>
-    <details open>
-      <summary>
-	<h4>目次</h4>
-      </summary>
-      <nav>
-	<ul>
-	  <li><a href="#chapter1">序章</a></li>
-	  <li><a href="#chapter2">書記体系</a></li>
-	  <li><a href="#chapter3">音韻体系</a></li>
-	  <li><a href="#chapter4">語根</a></li>
-	  <li><a href="#chapter5">格</a></li>
-	  <li><a href="#chapter6">品詞</a></li>
-	  <li><a href="#chapter7">文の構造</a></li>
-	  <li><a href="#chapter8">特殊な構文</a></li>
-	  <li><a href="#chapter9">語彙と辞書の使い方</a></li>
-	  <li><a href="#chapter10">例文と練習問題</a></li>
-	  <li><a href="#chapter11">付録</a></li>
-	</ul>
-      </nav>
-    </details>
+    <section id="toc">
+      <details open>
+	<summary>
+	  <h2>目次</h2>
+	</summary>
+	<nav>
+	  <h2><a href="#chapter1">序章</a></h2>
+	  <h3><a href="#section1.1">はじめに</a></h3>
+	  <h3><a href="#section1.2">エレギア語の概要</a></h3>
+	  <h2><a href="#chapter2">書記体系</a></h2>
+	  <h2><a href="#chapter3">音韻体系</a></h2>
+	  <h2><a href="#chapter4">語根</a></h2>
+	  <h2><a href="#chapter5">格</a></h2>
+	  <h2><a href="#chapter6">品詞</a></h2>
+	  <h2><a href="#chapter7">文の構造</a></h2>
+	  <h2><a href="#chapter8">特殊な構文</a></h2>
+	  <h2><a href="#chapter9">語彙と辞書の使い方</a></h2>
+	  <h2><a href="#chapter10">例文と練習問題</a></h2>
+	  <h2><a href="#chapter11">付録</a></h3>
+	</nav>
+      </details>
+    </section>
     <hr>
     <hr>
     <section id="chapter1">
@@ -47,11 +48,15 @@
 	<summary>
           <h2>序章</h2>
 	</summary>
-	<h3>エレギア語の概要</h3>
+	<h3 id="section1.1">はじめに</h3>
+	<h4>この文法書について</h4>
+	<p>本書は、エレギア帝国帝立大学言語学研究所によって刊行された辞典である<q><span class="piswpi"><ruby>Qinalwgiqici<rt>イナルジーイ</rt></ruby> <ruby>Beruvwdikwtw<rt>ベルヴディクト</rt></ruby></span></q>の巻末資料、<q><span class="piswpi"><ruby>Qinalwgiqici<rt>イナルジーイ</rt></ruby> <ruby>Gwlamwdufunw<rt>グラムドゥフン</rt></ruby></span></q>を日本語に翻訳したものである。</p>
+	<p>本辞典および文法書の翻訳にあたり、エレギア帝国帝立大学言語学研究所の皆様から多大なるご支援と貴重な助言を賜った。ここに深く感謝の意を表する。</p>
+	<h3 id="section1.2">エレギア語の概要</h3>
 	<h4>言語の特徴、使用される場面、目的など</h4>
-	<p>エレギア語は砂漠の中のオアシスに造られた帝国、エレギア帝国の公用語である。</p>
-	<p>ハナス・ピスピという古代文明が存在していた頃に話されていたピスピ語からほとんど文法や発音が変わっておらず、多種多様な遺物がそのままの形で解読可能になっている。</p>
-	<p>数多くの書体が帝室によって採用されており、昨今ではオープンソース化されたディジタルフォントとなってウェブサイトにて配布されている。</p>
+	<p>エレギア語は、砂漠の中のオアシス都市を中心に成立した帝国<q>エレギア帝国</q>の公用語である。</p>
+	<p>その文法や発音は、古代文明ハナス・ピスピの時代に話されていたピスピ語から殆ど変化しておらず、多様な遺物が当時のまま解読可能である。</p>
+	<p>帝国議会によって制定された数多くの書体は、近年オープンソースのデジタルフォントとして整備され、帝国公式のウェブサイトにて公開されている。</p>
       </details>
     </section>
     <hr>
@@ -81,19 +86,19 @@
 	<p>以下にエレギア語で使用される約物の一覧と役割を示す。</p>
 	<dl>
           <dt>
-            <span class="elegia">.</span>
+            <span class="piswpi">.</span>
           </dt>
           <dd>ピリオド</dd>
           <dt>
-            <span class="elegia">,</span>
+            <span class="piswpi">,</span>
           </dt>
           <dd>カンマ</dd>
           <dt>
-            <span class="elegia">:</span>
+            <span class="piswpi">:</span>
           </dt>
           <dd>コロン</dd>
           <dt>
-            <span class="elegia">;</span>
+            <span class="piswpi">;</span>
           </dt>
           <dd>セミコロン</dd>
           <dt>
@@ -419,8 +424,9 @@
 	</dl>
 	<h3>重要なフレーズ</h3>
 	<h4>よく使われるフレーズ集</h4>
-	<p class="elegia">Kotiva!</p>
-	<p>コティーヴァ！（だいたい挨拶として使われている）</p>
+	<ul>
+	  <li><p class="piswpi"><ruby>Kotiva!<rt>コティーヴァ！</rt></ruby></p></li>
+	</ul>
 	<h3>言語の進化と変化</h3>
 	<h4>エレギア語が将来的にどのように変化する可能性があるか</h4>
 	<dl>
@@ -431,9 +437,7 @@
       </details>
     </section>
     <footer>
-      <nav>
-	<a href="../../dictionary.html">表紙に戻る</a>  
-      </nav>
+      <a href="../../dictionary.html">辞典の表紙に戻る</a>
     </footer>
   </body>
 </html>
