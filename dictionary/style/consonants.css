@@ -1,71 +1,72 @@
-@font-face {
-    font-family: 'kodito';
-    src: url('../../fonts/kodito.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'lekuta';
-    src: url('../../fonts/lekuta.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'lozegw';
-    src: url('../../fonts/lozegw.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'makina';
-    src: url('../../fonts/makina.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'piswpi';
-    src: url('../../fonts/piswpi.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'polwgo';
-    src: url('../../fonts/polwgo.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'lozegw';
-    src: url('../../fonts/lozegw.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'silwki';
-    src: url('../../fonts/silwki.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'sulive';
-    src: url('../../fonts/sulive.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'xavani';
-    src: url('../../fonts/xavani.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'xesada';
-    src: url('../../fonts/xesada.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'xidili';
-    src: url('../../fonts/xidili.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'zosokw';
-    src: url('../../fonts/zosokw.ttf') format('truetype');
-}
-
 body {
     padding: 2rem;
     font-family: serif;
+    writing-mode: horizontal-tb;
+    counter-reset: chapter;
+}
+
+body h2 {
+    counter-increment: chapter;
+    counter-reset: section;
+}
+
+body h3 {
+    counter-increment: section;
+}
+
+#toc summary h2,
+#toc summary h3 {
+    counter-increment: none;
+}
+
+#toc summary h2::before,
+#toc summary h3::before {
+    content: "";
+}
+
+body h2::before {
+    content: "第" counter(chapter, japanese-informal) "章\3000";
+}
+
+body h3::before {
+    content: "第" counter(chapter, japanese-informal) "章\3000" counter(section, japanese-informal) "節\3000";
+}
+
+nav {
+    counter-reset: toc-chapter;
+}
+
+nav h2 {
+    counter-increment: toc-chapter;
+    counter-reset: toc-section;
+}
+
+nav h3 {
+    counter-increment: toc-section;
+}
+
+nav h2::before {
+    content: "第" counter(toc-chapter, japanese-informal) "章\3000";
+}
+
+nav h3::before {
+    content: "第" counter(toc-chapter, japanese-informal) "章\3000" counter(toc-section, japanese-informal) "節\3000";
+}
+
+h1 {
+    text-indent: 0rem;
+}
+
+h2 {
+    text-indent: 0rem;
+}
+
+h3 {
+    text-indent: 1rem;
+}
+
+h4 {
+    text-indent: 2rem;
 }
 
 a {
@@ -76,55 +77,13 @@ a:hover {
     text-decoration: underline;
 }
 
+rt {
+    font-family: serif;
+    font-variant-east-asian: ruby;
+}
+
 p {
     text-indent: 1rem;
-}
-
-.elegia {
-    font-family: 'piswpi';
-}
-
-th>p,
-.case,
-.part-of-speech,
-.phonetic,
-.root {
-    text-align: center;
-    text-indent: 0rem;
-}
-
-.phonetic {
-    font-family: monospace;
-}
-
-.case,
-.part-of-speech,
-.root {
-    font-family: serif;
-}
-
-th>.elegia,
-td>.elegia {
-    font-family: 'piswpi';
-    text-align: center;
-    text-indent: 0rem;
-}
-
-ul {
-    list-style-type: none;
-}
-
-li {
-    counter-increment: section;
-}
-
-li h2::before {
-    content: counter(section) ". ";
-    font-size: inherit;
-}
-
-table {
-    border-collapse: collapse;
 }
 
 header,

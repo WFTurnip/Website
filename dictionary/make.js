@@ -35,9 +35,12 @@ async function generateConsonants() {
     link2.rel = "stylesheet";
     link2.href = "../style/consonants.css";
     head.appendChild(link2);
-
+    let link3 = document.createElement("link");
+    link3.rel = "stylesheet";
+    link3.href = "../style/fonts.css";
+    head.appendChild(link3);
+    
     let body = document.body;
-
     let header = document.createElement("header");
     let ulHeader = document.createElement("ul");
     let liHeader1 = document.createElement("li");
@@ -61,7 +64,7 @@ async function generateConsonants() {
     for (let i = 0; i < consonants.length; i++) {
         let li = document.createElement("li");
         let aUl = document.createElement("a");
-        aUl.className = "elegia";
+        aUl.className = "piswpi";
         aUl.href = consonants[i] + ".html";
         aUl.textContent = consonants[i];
         li.appendChild(aUl);
@@ -114,12 +117,15 @@ async function generateIndex(i) {
     link2.href = "../style/index.css";
     head.appendChild(link2);
     let link3 = document.createElement("link");
-    link3.rel = "icon";
-    link3.href = "../icon/" + consonants[i] + ".svg";
+    link3.rel = "stylesheet";
+    link3.href = "../style/fonts.css";
     head.appendChild(link3);
+    let link4 = document.createElement("link");
+    link4.rel = "icon";
+    link4.href = "../icon/" + consonants[i] + ".svg";
+    head.appendChild(link4);
 
     let body = document.body;
-
     let header = document.createElement("header");
     let ulHeader = document.createElement("ul");
     let liHeader1 = document.createElement("li");
@@ -139,7 +145,7 @@ async function generateIndex(i) {
 
     let h1 = document.createElement("h1");
     let spanH1 = document.createElement("span");
-    spanH1.className = "elegia"
+    spanH1.className = "piswpi"
     spanH1.textContent = consonants[i];
     h1.appendChild(document.createTextNode("子音"));
     h1.appendChild(spanH1)
@@ -148,7 +154,7 @@ async function generateIndex(i) {
 
     let p = document.createElement("p");
     let span2 = document.createElement("span");
-    span2.className = "elegia"
+    span2.className = "piswpi"
     span2.textContent = consonants[i];
     p.appendChild(document.createTextNode("このページは"));
     p.appendChild(span2)
@@ -160,7 +166,7 @@ async function generateIndex(i) {
         for (let k = 0; k < consonants.length; k++) {
             let li = document.createElement("li");
             let aUl = document.createElement("a");
-            aUl.className = "elegia";
+            aUl.className = "piswpi";
             aUl.href = consonants[i] + "/" + consonants[i] + consonants[j] + consonants[k] + ".html";
             aUl.textContent = consonants[i] + consonants[j] + consonants[k];
             li.appendChild(aUl);
@@ -186,7 +192,6 @@ async function generateIndex(i) {
     footer.appendChild(ulFooter)
     body.appendChild(footer)
 
-    // 完成したHTMLを取得
     let htmlContent = beautify(dom.serialize(), { indent_size: 2, space_in_empty_paren: true });
 
     try {
@@ -238,8 +243,16 @@ async function generateRoot(i, j, k) {
     head.appendChild(link1);
     let link2 = document.createElement("link");
     link2.rel = "stylesheet";
-    link2.href = "../../style/roots.css"
-    head.appendChild(link2)
+    link2.href = "../../style/roots.css";
+    head.appendChild(link2);
+    let link3 = document.createElement("link");
+    link3.rel = "stylesheet";
+    link3.href = "../../style/fonts.css";
+    head.appendChild(link3);
+    let link4 = document.createElement("link");
+    link4.rel = "stylesheet";
+    link4.href = "../../style/table.css";
+    head.appendChild(link4);
 
     let body = document.body;
 
@@ -263,7 +276,7 @@ async function generateRoot(i, j, k) {
     let liHeader3 = document.createElement("li");
     let aHeader3 = document.createElement("a");
     let spanHeader = document.createElement("span");
-    spanHeader.className = "elegia";
+    spanHeader.className = "piswpi";
     aHeader3.href = "../" + consonants[i] + ".html";
     spanHeader.textContent = consonants[i];
     aHeader3.appendChild(document.createTextNode("頭文字"));
@@ -277,7 +290,7 @@ async function generateRoot(i, j, k) {
 
     let h1 = document.createElement("h1");
     let spanH1 = document.createElement("span");
-    spanH1.className = "elegia";
+    spanH1.className = "piswpi";
     spanH1.textContent = consonants[i] + consonants[j] + consonants[k];
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(spanH1);
@@ -294,7 +307,7 @@ async function generateRoot(i, j, k) {
 
     let p = document.createElement("p");
     let spanP = document.createElement("span");
-    spanP.className = "elegia";
+    spanP.className = "piswpi";
     spanP.textContent = consonants[i] + consonants[j] + consonants[k];
     p.appendChild(document.createTextNode("このページは語根"));
     p.appendChild(spanP);
@@ -326,7 +339,7 @@ async function generateRoot(i, j, k) {
         let tr2 = document.createElement("tr");
         vowels.forEach((vowel, l) => {
             let th = document.createElement("th");
-            th.appendChild(createParagraph("-" + vowel, "elegia"));
+            th.appendChild(createParagraph("-" + vowel, "piswpi"));
             th.appendChild(createParagraph(vowels_cases[l] + "格", "case"));
             tr2.appendChild(th);
         });
@@ -346,13 +359,13 @@ async function generateRoot(i, j, k) {
         vowels.forEach((vowel1, l) => {
             let tr = document.createElement("tr");
             let th = document.createElement("th");
-            th.appendChild(createParagraph("-" + vowel1, "elegia"));
+            th.appendChild(createParagraph("-" + vowel1, "piswpi"));
             th.appendChild(createParagraph(vowels_cases[l] + "格", "case"));
             tr.appendChild(th);
 
             vowels.forEach((vowel2, m) => {
                 let td = document.createElement("td");
-                td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "elegia"));
+                td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "piswpi"));
                 td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[l] + consonants_phonetics[j] + vowels_phonetics[m] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"));
                 td.appendChild(createParagraph(vowels_cases[m] + vowels_cases[l] + "格" + vowels_part_of_speech_types[n] + "詞", "root"));
                 tr.appendChild(td);
@@ -382,7 +395,7 @@ async function generateRoot(i, j, k) {
     let liFooter3 = document.createElement("li");
     let aFooter3 = document.createElement("a");
     let spanFooter = document.createElement("span");
-    spanFooter.className = "elegia";
+    spanFooter.className = "piswpi";
     aFooter3.href = "../" + consonants[i] + ".html";
     spanFooter.textContent = consonants[i];
     aFooter3.appendChild(document.createTextNode("頭文字"));

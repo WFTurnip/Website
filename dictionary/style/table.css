@@ -1,0 +1,34 @@
+table,
+thead,
+tbody,
+tfoot,
+th,
+td {
+    font-family: serif;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th p,
+td p,
+.case,
+.part-of-speech,
+.phonetic,
+.root {
+    text-align: center;
+    text-indent: 0rem;
+}
+
+.case,
+.part-of-speech,
+.root {
+    font-family: serif;
+}
+
+.phonetic {
+    font-family: monospace;
+}
+
+sub {
+    font-variant-caps: small-caps;
+}
