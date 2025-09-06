@@ -1,6 +1,19 @@
 table,
 thead,
 tbody,
+tfoot {
+    border: solid 2px;
+}
+
+th,
+td {
+    border: solid 1px;
+}
+
+
+table,
+thead,
+tbody,
 tfoot,
 th,
 td {

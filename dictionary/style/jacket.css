@@ -1,61 +1,65 @@
-@media(prefers-color-scheme: light) {
+@media (prefers-color-scheme: light) {
     body {
-        background-color: #76494c;
+        color: #3b2f2f;
+        background-color: #e3d5b9;
     }
 
-    h1 {
-        color: #daa520;
-    }
-
-    p,
-    a {
-        color: #99989c;
-    }
-
-    a:hover {
-        color: #99989c;
-    }
-
-    a:visited {
-        color: #3E3E3E;
+    h1,
+    h2,
+    h3 {
+        color: #d4af37;
     }
 
     button,
     input {
-        caret-color: #daa520;
-        color: #99989c;
-        background-color: #76494c;
-        border-color: #875a5c;
+        color: #3b2f2f;
+        background-color: #e3d5b9;
+        border-color: #d4af37;
+        caret-color: #b0412e;
+    }
+
+    a {
+        color: #b0412e;
+    }
+
+    a:hover {
+        color: #d4af37;
+    }
+
+    a:visited {
+        color: #a45c3f;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #1f1b1c;
+        color: #e8e5dd;
     }
 
-    h1 {
+    h1,
+    h2,
+    h3 {
         color: #ffcc70;
-    }
-
-    p,
-    a {
-        color: #c4c3c7;
-    }
-
-    a:hover {
-        color: #c4c3c7;
-    }
-
-    a:visited {
-        color: #7a7a7a;
     }
 
     button,
     input {
-        caret-color: #ffcc70;
-        color: #c4c3c7;
+        color: #e8e5dd;
         background-color: #2b2628;
-        border-color: #4b4042;
+        border-color: #ffcc70;
+        caret-color: #b0412e;
+    }
+
+    a {
+        color: #b0412e;
+    }
+
+    a:hover {
+        color: #ffcc70;
+    }
+
+    a:visited {
+        color: #ad5a5d;
     }
 }

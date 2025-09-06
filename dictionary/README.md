@@ -7,7 +7,7 @@
 node.jsを持っている人は以下のコマンドをターミナル上で実行すると、ざらざらとページが生成されていきます。
 
 ```shell
-node make.js
+sh generate.sh
 ```
 
 W.F.Turnip

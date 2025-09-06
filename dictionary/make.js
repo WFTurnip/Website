@@ -39,7 +39,7 @@ async function generateConsonants() {
     link3.rel = "stylesheet";
     link3.href = "../style/fonts.css";
     head.appendChild(link3);
-    
+
     let body = document.body;
     let header = document.createElement("header");
     let ulHeader = document.createElement("ul");
@@ -213,7 +213,7 @@ async function generateIndexDirectory(i) {
     }
 }
 
-async function generateRoot(i, j, k) {
+async function generateRoots(i, j, k) {
 
     const createParagraph = (text, className) => {
         let p = document.createElement("p");
@@ -297,19 +297,18 @@ async function generateRoot(i, j, k) {
     body.appendChild(h1);
 
     let h2 = document.createElement("h2");
-    let spanH2 = document.createElement("span");
-    spanH2.style.fontStyle = "bold";
-    spanH2.textContent = "「" + consonants_means[i] + consonants_means[j] + consonants_means[k] + "」";
+    let q = document.createElement("q");
     h2.appendChild(document.createTextNode("この語根は"));
-    h2.appendChild(spanH2);
+    q.textContent = consonants_means[i] + consonants_means[j] + consonants_means[k];
+    h2.appendChild(q);
     h2.appendChild(document.createTextNode("の概念を持つ"));
     body.appendChild(h2);
 
     let p = document.createElement("p");
-    let spanP = document.createElement("span");
-    spanP.className = "piswpi";
-    spanP.textContent = consonants[i] + consonants[j] + consonants[k];
+    let span = document.createElement("span");
+    span.className = "piswpi";
     p.appendChild(document.createTextNode("このページは語根"));
+    span.textContent = consonants[i] + consonants[j] + consonants[k];
     p.appendChild(spanP);
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
@@ -423,7 +422,7 @@ async function make() {
         await generateIndexDirectory(i);
         for (let j = 0; j < consonants.length; j++) {
             for (let k = 0; k < consonants.length; k++) {
-                await generateRoot(i, j, k);
+                await generateRoots(i, j, k);
             }
         }
     }
