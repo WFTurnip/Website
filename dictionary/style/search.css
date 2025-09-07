@@ -17,7 +17,8 @@ a {
     text-decoration: none;
 }
 
-a:hover {
+a:hover,
+label:hover {
     text-decoration: underline;
 }
 
@@ -26,7 +27,7 @@ input {
     font-family: serif;
     height: auto;
     width: auto;
-    border-radius: 0.25rem;
+    border-radius: 0rem;
 }
 
 button:active {

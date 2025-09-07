@@ -1,34 +1,38 @@
 @media (prefers-color-scheme: light) {
     body {
-        color: #3b2f2f;
-        background-color: #e3d5b9;
+        background-color: #76494c;
+	color: #3e3e3e;
     }
 
     h1,
     h2,
-    h3 {
-        color: #d4af37;
+    h3,
+    label,
+    legend {
+        color: #daa520;
     }
 
     button,
-    input {
-        color: #3b2f2f;
-        background-color: #e3d5b9;
-        border-color: #d4af37;
-        caret-color: #b0412e;
+    input,
+    fieldset {
+	background-color: #76494c;
+        color: #daa520;
+	border-color: #4fb6b6;
+        caret-color: #973c3f;
     }
 
     a {
-        color: #b0412e;
-    }
-
-    a:hover {
-        color: #d4af37;
+	color: #c9b458;
     }
 
     a:visited {
-        color: #a45c3f;
+        color: #973c3f;
     }
+
+    a:hover {
+        color: #daa520;
+    }
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -39,27 +43,30 @@
 
     h1,
     h2,
-    h3 {
+    h3,
+    label,
+    legend {
         color: #ffcc70;
     }
 
     button,
-    input {
+    input,
+    fieldset {
+	background-color: #1f1b1c;
         color: #e8e5dd;
-        background-color: #2b2628;
-        border-color: #ffcc70;
-        caret-color: #b0412e;
+	border-color: #4fb6b6;
+        caret-color: #973c3f;
     }
 
     a {
-        color: #b0412e;
-    }
-
-    a:hover {
-        color: #ffcc70;
+        color: #c9b458;
     }
 
     a:visited {
         color: #ad5a5d;
+    }
+
+    a:hover {
+        color: #ffcc70;
     }
 }

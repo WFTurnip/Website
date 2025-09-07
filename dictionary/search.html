@@ -16,9 +16,29 @@
   </header>
   <h1>検索結果一覧</h1>
   <form action="search.html" method="get">
-    <input type="search" name="q" placeholder="単語を検索">
-    <input type="submit" value="検索">
+    <fieldset>
+      <legend>文字入力欄</legend>
+      <input type="search" id="searchBox" name="searchBox" placeholder="単語を検索">
+    </fieldset>
+    <fieldset>
+      <legend>検索オプション</legend>
+      <input type="checkbox" id="consonants" name="consonants" value="ON">
+      <label for="consonants">見出し</label>
+      <input type="checkbox" id="roots" name="roots" value="ON">
+      <label for="roots">語根</label>
+      <input type="checkbox" id="words" name="words" value="ON">
+      <label for="words">単語</label>
+    </fieldset>
+    <fieldset>
+      <legend>検索ボタン</legend>
+      <input type="submit" value="検索">
+      <input type="reset">
+    </fieldset>
   </form>
+  <script src="search.js"></script>
+  <div id="result_consonants"></div>
+  <div id="result_roots"></div>
+  <div id="result_words"></div>
   <footer>
     <a href="dictionary.html">表紙に戻る</a>
   </footer>

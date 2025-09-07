@@ -2,7 +2,8 @@
 <html lang="ja">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>エレギア語辞書</title>
   <link rel="stylesheet" href="style/jacket.css">
   <link rel="stylesheet" href="style/dictionary.css">
@@ -17,19 +18,35 @@
     <object data="image/emblem.svg" type="image/svg+xml"></object>
   </figure>
   <form action="search.html" method="get">
-    <input type="search" name="q" placeholder="単語を検索">
-    <input type="submit" value="検索">
+    <fieldset>
+      <legend>文字入力欄</legend>
+      <input type="search" name="q" placeholder="単語を検索">
+    </fieldset>
+    <fieldset>
+      <legend>検索オプション</legend>
+      <input type="checkbox" id="consonants" name="consonants" value="ON">
+      <label for="consonants">見出し</label>
+      <input type="checkbox" id="roots" name="roots" value="ON">
+      <label for="roots">語根</label>
+      <input type="checkbox" id="words" name="words" value="ON">
+      <label for="words">単語</label>
+    </fieldset>
+    <fieldset>
+      <legend>検索ボタン</legend>
+      <input type="submit" value="検索">
+      <input type="reset">
+    </fieldset>
   </form>
   <table>
     <tr>
       <td>
-        <a href="index/reference/reference.html">
+        <a href="reference/reference.html">
           <p class="piswpi">Rwfetw</p>
           <p>文法</p>
         </a>
       </td>
       <td>
-        <a href="index/index.html">
+        <a href="html_index/index.html">
           <p class="piswpi">Qidexw</p>
           <p>目次</p>
         </a>

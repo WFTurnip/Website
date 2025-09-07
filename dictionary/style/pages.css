@@ -1,71 +1,59 @@
 @media (prefers-color-scheme: light) {
     body {
-        color: #3b2f2f;
-        background-color: #f7ebd9;
+        background-color: #fff5e1;
+        color: #3b3f3f;
     }
 
     button,
-    input {
-        color: #3b2f2f;
-        background-color: #f7ebd9;
-        border-color: #d4af37;
-        caret-color: #b0412e;
-    }
-
-    table,
-    thead,
-    tbody,
-    tfoot,
-    th,
-    td {
-        border-color: #d4af37;
+    input,
+    label,
+    legend,
+    fieldset {
+	background-color: #fff5e1;
+	color: #3b3f3f;        
+        border-color: #000000;
+        caret-color: #8b8b2b;
     }
 
     a {
-        color: #b0412e;
-    }
-
-    a:hover {
-        color: #d4af37;
+        color: #8b8b2b;
     }
 
     a:visited {
-        color: #a45c3f;
+        color: #973c3f;
+    }
+
+    a:hover {
+        color: #daa520;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     body {
-        color: #e8e5dd;
         background-color: #1b1718;
+	color: #e8e5dd;
     }
 
     button,
-    input {
-        color: #e8e5dd;
+    input,
+    label,
+    legend,
+    fieldset {
         background-color: #1b1718;
-        border-color: #4a3c31;
-        caret-color: #b0412e;
-    }
-
-    table,
-    thead,
-    tbody,
-    tfoot,
-    th,
-    td {
-        border-color: #4a3c31;
+        color: #e8e5dd;
+	border-color: #4a4340;
+        caret-color: #c9b458;
     }
 
     a {
-        color: #b0412e;
-    }
-
-    a:hover {
-        color: #ffcc70;
+        color: #c9b458;
     }
 
     a:visited {
         color: #ad5a5d;
+    }
+
+    a:hover {
+        color: #ffcc70;
     }
 }

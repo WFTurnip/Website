@@ -1,34 +1,43 @@
-let data = [];
+const topJsonPath = 'json_index/index.json';
 
-fetch('data.json')
-    .then(res => res.json())
-    .then(json => data = json);
-
-const form = document.getElementById('searchForm');
-const searchInput = document.getElementById('search');
-const results = document.getElementById('results');
-
-function renderResults(keyword) {
-    results.innerHTML = '';
-    const lowerKeyword = keyword.toLowerCase();
-
-    data
-        .filter(item => item.title.toLowerCase().includes(lowerKeyword))
-        .forEach(item => {
-            const li = document.createElement('li');
-            li.innerHTML = `<strong>${item.item}</strong> (${item.category})`;
-
-            if (item.related && item.related.length > 0) {
-                const relatedSpan = document.createElement('span');
-                relatedSpan.className = 'related';
-                relatedSpan.textContent = '関連: ' + item.related.map(id => {
-                    const relItem = data.find(d => d.id === id);
-                    return relItem ? relItem.title : '';
-                }).join(', ');
-                li.appendchild(relatedSpan);
-            }
-            results.appendchild(li);
-        });
+async function fetchJson(path) {
+    const response = await fetch(path);
+    return await response.json();
 }
 
-searchInput.addEventListener('input', () => renderResults(searchInput.value));
+async function search() {
+    const inputKeyword = document.getElementById('SearchBox').value.trim();
+    const searchConsonants = document.getElementById('consonants').checked;
+    const searchRoots = document.getElementById('roots').checked;
+    const searchWords = document.getElementById('words').checked;
+
+    const resultConsonants = document.getElementById('result_consonants');
+    resultConsonants.innerHTML = '検索中...';
+    const resultRoots = document.getElementById('result_roots');
+    resultRoots.innerHTML = '検索中...';
+    const resultWords = document.getElementById('result_words');
+    resultWords.innerHTML = '検索中...';
+
+    const topJson = await fetchJson(topJsonPath);
+
+    let results = [];
+
+    if (searchConsonants && topJson.index) {
+        results.push(...topJson.index.filter(e => e.value.includes(inputKeyword)));
+    }
+
+    if (searchConsonants) {
+        // 処理
+    }
+    if (searchRoots) {
+        // 処理
+    }
+    if (searchWords) {
+        // 処理
+    }
+}
+
+document.getElementById('searchBox').addEventListener('input', search);
+document.getElementById('consonants').addEventListener('change', search);
+document.getElementById('roots').addEventListener('change', search);
+document.getElementById('words').addEventListener('change', search);
