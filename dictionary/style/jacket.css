@@ -1,7 +1,7 @@
 @media (prefers-color-scheme: light) {
     body {
         background-color: #76494c;
-	color: #3e3e3e;
+        color: #3e3e3e;
     }
 
     h1,
@@ -15,14 +15,14 @@
     button,
     input,
     fieldset {
-	background-color: #76494c;
+        background-color: #76494c;
         color: #daa520;
-	border-color: #4fb6b6;
+        border-color: #4fb6b6;
         caret-color: #973c3f;
     }
 
     a {
-	color: #c9b458;
+        color: #c9b458;
     }
 
     a:visited {
@@ -52,9 +52,9 @@
     button,
     input,
     fieldset {
-	background-color: #1f1b1c;
+        background-color: #1f1b1c;
         color: #e8e5dd;
-	border-color: #4fb6b6;
+        border-color: #4fb6b6;
         caret-color: #973c3f;
     }
 
