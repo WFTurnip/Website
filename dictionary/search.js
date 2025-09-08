@@ -15,9 +15,9 @@ async function search() {
     const resultRoots = document.getElementById('result_roots');
     const resultWords = document.getElementById('result_words');
 
-    resultConsonants.innerHTML = '検索中...';
-    resultRoots.innerHTML = '検索中...';
-    resultWords.innerHTML = '検索中...';
+    resultConsonants.innerText = '検索中...';
+    resultRoots.innerText = '検索中...';
+    resultWords.innerText = '検索中...';
 
     const topJson = await fetchJson(topJsonPath);
 
