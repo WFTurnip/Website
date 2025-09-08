@@ -12,10 +12,10 @@ async function search() {
     const searchWords = document.getElementById('words').checked;
 
     const resultConsonants = document.getElementById('result_consonants');
-    resultConsonants.innerHTML = '検索中...';
     const resultRoots = document.getElementById('result_roots');
-    resultRoots.innerHTML = '検索中...';
     const resultWords = document.getElementById('result_words');
+    resultConsonants.innerHTML = '検索中...';
+    resultRoots.innerHTML = '検索中...';
     resultWords.innerHTML = '検索中...';
 
     const topJson = await fetchJson(topJsonPath);
