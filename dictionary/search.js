@@ -6,7 +6,7 @@ async function fetchJson(path) {
 }
 
 async function search() {
-    const inputKeyword = document.getElementById('SearchBox').value.trim();
+    const search = document.getElementById('search').value.trim();
     const searchConsonants = document.getElementById('consonants').checked;
     const searchRoots = document.getElementById('roots').checked;
     const searchWords = document.getElementById('words').checked;
@@ -38,7 +38,7 @@ async function search() {
     }
 }
 
-document.getElementById('searchBox').addEventListener('input', search);
+document.getElementById('search').addEventListener('input', search);
 document.getElementById('consonants').addEventListener('change', search);
 document.getElementById('roots').addEventListener('change', search);
 document.getElementById('words').addEventListener('change', search);
