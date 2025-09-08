@@ -14,6 +14,7 @@ async function search() {
     const resultConsonants = document.getElementById('result_consonants');
     const resultRoots = document.getElementById('result_roots');
     const resultWords = document.getElementById('result_words');
+
     resultConsonants.innerHTML = '検索中...';
     resultRoots.innerHTML = '検索中...';
     resultWords.innerHTML = '検索中...';
