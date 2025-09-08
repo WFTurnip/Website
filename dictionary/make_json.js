@@ -91,7 +91,7 @@ async function generateRoots(i, j, k) {
                     phonetic: phonetic,
                     part_of_speech: part_of_speech,
                     cases: cases,
-		    word_meaning : ""
+                    word_meaning: ""
                 });
             }
         }
