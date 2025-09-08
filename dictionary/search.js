@@ -26,16 +26,6 @@ async function search() {
     if (searchConsonants && topJson.index) {
         results.push(...topJson.index.filter(e => e.value.includes(inputKeyword)));
     }
-
-    if (searchConsonants) {
-        // 処理
-    }
-    if (searchRoots) {
-        // 処理
-    }
-    if (searchWords) {
-        // 処理
-    }
 }
 
 document.getElementById('search').addEventListener('input', search);
