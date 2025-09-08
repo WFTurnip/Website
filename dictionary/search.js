@@ -22,10 +22,6 @@ async function search() {
     const topJson = await fetchJson(topJsonPath);
 
     let results = [];
-
-    if (searchConsonants && topJson.index) {
-        results.push(...topJson.index.filter(e => e.value.includes(inputKeyword)));
-    }
 }
 
 document.getElementById('search').addEventListener('input', search);
