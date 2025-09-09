@@ -2,7 +2,7 @@ const form = document.getElementById('searchForm');
 const result = document.getElementById('result');
 
 form.addEventListener('submit', function (event) {
-    event.preventDefault();
+    //event.preventDefault();
 
     const formData = new FormData(form);
     const paramaters = {};
