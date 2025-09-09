@@ -15,7 +15,7 @@
             <a href="dictionary.html">表紙に戻る</a>
         </header>
         <h1>検索結果一覧</h1>
-        <form action="search.html" method="get">
+        <form action="search.html" id="searchForm" method="get">
             <fieldset>
                 <legend>文字入力欄</legend>
                 <input type="search" id="search" name="search" placeholder="単語を検索">
@@ -36,9 +36,7 @@
             </fieldset>
         </form>
         <script src="search.js"></script>
-        <div id="result_consonants"></div>
-        <div id="result_roots"></div>
-        <div id="result_words"></div>
+        <pre id="result"></pre>
         <footer>
             <a href="dictionary.html">表紙に戻る</a>
         </footer>
