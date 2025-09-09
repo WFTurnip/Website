@@ -62,9 +62,9 @@ a:hover {
     text-decoration: underline;
 }
 
-h1>ruby>rt,
-h2>ruby>rt,
-a>ruby>rt {
+h1 > ruby > rt,
+h2 > ruby > rt,
+a > ruby > rt {
     font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
     font-weight: bold;
     font-variant-ligatures: common-ligatures;
