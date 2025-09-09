@@ -1,150 +1,150 @@
 <svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
-  <path class="background"
-    d="M300 150a150 150 0 0 1-150 150A150 150 0 0 1 0 150 150 150 0 0 1 150 0a150 150 0 0 1 150 150" />
-  <path class="east"
-    d="M300 150a37.5 37.5 0 0 1-37.5 37.5A37.5 37.5 0 0 1 225 150a37.5 37.5 0 0 1 37.5-37.5A37.5 37.5 0 0 1 300 150" />
-  <path class="south"
-    d="M187.5 262.5A37.5 37.5 0 0 1 150 300a37.5 37.5 0 0 1-37.5-37.5A37.5 37.5 0 0 1 150 225a37.5 37.5 0 0 1 37.5 37.5" />
-  <path class="center" d="M225 150a75 75 0 0 1-75 75 75 75 0 0 1-75-75 75 75 0 0 1 75-75 75 75 0 0 1 75 75" />
-  <path class="west"
-    d="M75 150a37.5 37.5 0 0 1-37.5 37.5A37.5 37.5 0 0 1 0 150a37.5 37.5 0 0 1 37.5-37.5A37.5 37.5 0 0 1 75 150" />
-  <path class="north"
-    d="M187.5 37.5A37.5 37.5 0 0 1 150 75a37.5 37.5 0 0 1-37.5-37.5A37.5 37.5 0 0 1 150 0a37.5 37.5 0 0 1 37.5 37.5" />
-  <path class="others"
-    d="M67.775 33.046a37.5 37.5 0 0 0-23.84 10.888 37.5 37.5 0 0 0-.001 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888m159.1 0a37.5 37.5 0 0 0-23.842 10.888 37.5 37.5 0 0 0 0 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888m-159.099 159.1a37.5 37.5 0 0 0-23.84 10.887 37.5 37.5 0 0 0-.001 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888m159.1 0a37.5 37.5 0 0 0-23.842 10.888 37.5 37.5 0 0 0 0 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888" />
-  <path class="emblem"
-    d="M150 75a75 75 0 0 0-29.314 6.09 75 75 0 0 0-6.838 3.416 37.5 37.5 0 0 0 2.597 7.135A37.5 37.5 0 0 0 150 112.5a37.5 37.5 0 0 0 33.65-21.012 37.5 37.5 0 0 0 2.56-7.146 75 75 0 0 0-6.884-3.358A75 75 0 0 0 150 75m0 37.5a37.5 37.5 0 0 0-37.5 37.5 37.5 37.5 0 0 0 37.5 37.5 37.5 37.5 0 0 0 37.5-37.5 37.5 37.5 0 0 0-37.5-37.5m0 75a37.5 37.5 0 0 0-33.555 20.86 37.5 37.5 0 0 0-2.597 7.134 75 75 0 0 0 6.84 3.416A75 75 0 0 0 150 225a75 75 0 0 0 29.348-6.104 75 75 0 0 0 6.888-3.449 37.5 37.5 0 0 0-2.654-7.103A37.5 37.5 0 0 0 150 187.5m0-105a67.5 67.5 0 0 1 26.957 5.63A30 30 0 0 1 150 105a30 30 0 0 1-26.857-16.71A67.5 67.5 0 0 1 150 82.5m0 37.5a30 30 0 0 1 30 30 30 30 0 0 1-6.396 18.3l-41.905-41.904A30 30 0 0 1 150 120m-23.604 11.7 41.905 41.904A30 30 0 0 1 150 180a30 30 0 0 1-30-30 30 30 0 0 1 6.396-18.3M150 195a30 30 0 0 1 26.867 16.707A67.5 67.5 0 0 1 150 217.5a67.5 67.5 0 0 1-26.857-5.787A30 30 0 0 1 150 195" />
-  <style>
-    .background {
-      animation: background 2.5s;
-      fill: #8f8f8f;
-    }
+    <path class="background"
+        d="M300 150a150 150 0 0 1-150 150A150 150 0 0 1 0 150 150 150 0 0 1 150 0a150 150 0 0 1 150 150" />
+    <path class="east"
+        d="M300 150a37.5 37.5 0 0 1-37.5 37.5A37.5 37.5 0 0 1 225 150a37.5 37.5 0 0 1 37.5-37.5A37.5 37.5 0 0 1 300 150" />
+    <path class="south"
+        d="M187.5 262.5A37.5 37.5 0 0 1 150 300a37.5 37.5 0 0 1-37.5-37.5A37.5 37.5 0 0 1 150 225a37.5 37.5 0 0 1 37.5 37.5" />
+    <path class="center" d="M225 150a75 75 0 0 1-75 75 75 75 0 0 1-75-75 75 75 0 0 1 75-75 75 75 0 0 1 75 75" />
+    <path class="west"
+        d="M75 150a37.5 37.5 0 0 1-37.5 37.5A37.5 37.5 0 0 1 0 150a37.5 37.5 0 0 1 37.5-37.5A37.5 37.5 0 0 1 75 150" />
+    <path class="north"
+        d="M187.5 37.5A37.5 37.5 0 0 1 150 75a37.5 37.5 0 0 1-37.5-37.5A37.5 37.5 0 0 1 150 0a37.5 37.5 0 0 1 37.5 37.5" />
+    <path class="others"
+        d="M67.775 33.046a37.5 37.5 0 0 0-23.84 10.888 37.5 37.5 0 0 0-.001 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888m159.1 0a37.5 37.5 0 0 0-23.842 10.888 37.5 37.5 0 0 0 0 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888m-159.099 159.1a37.5 37.5 0 0 0-23.84 10.887 37.5 37.5 0 0 0-.001 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888m159.1 0a37.5 37.5 0 0 0-23.842 10.888 37.5 37.5 0 0 0 0 53.033 37.5 37.5 0 0 0 53.033 0 37.5 37.5 0 0 0 0-53.033 37.5 37.5 0 0 0-29.192-10.888" />
+    <path class="emblem"
+        d="M150 75a75 75 0 0 0-29.314 6.09 75 75 0 0 0-6.838 3.416 37.5 37.5 0 0 0 2.597 7.135A37.5 37.5 0 0 0 150 112.5a37.5 37.5 0 0 0 33.65-21.012 37.5 37.5 0 0 0 2.56-7.146 75 75 0 0 0-6.884-3.358A75 75 0 0 0 150 75m0 37.5a37.5 37.5 0 0 0-37.5 37.5 37.5 37.5 0 0 0 37.5 37.5 37.5 37.5 0 0 0 37.5-37.5 37.5 37.5 0 0 0-37.5-37.5m0 75a37.5 37.5 0 0 0-33.555 20.86 37.5 37.5 0 0 0-2.597 7.134 75 75 0 0 0 6.84 3.416A75 75 0 0 0 150 225a75 75 0 0 0 29.348-6.104 75 75 0 0 0 6.888-3.449 37.5 37.5 0 0 0-2.654-7.103A37.5 37.5 0 0 0 150 187.5m0-105a67.5 67.5 0 0 1 26.957 5.63A30 30 0 0 1 150 105a30 30 0 0 1-26.857-16.71A67.5 67.5 0 0 1 150 82.5m0 37.5a30 30 0 0 1 30 30 30 30 0 0 1-6.396 18.3l-41.905-41.904A30 30 0 0 1 150 120m-23.604 11.7 41.905 41.904A30 30 0 0 1 150 180a30 30 0 0 1-30-30 30 30 0 0 1 6.396-18.3M150 195a30 30 0 0 1 26.867 16.707A67.5 67.5 0 0 1 150 217.5a67.5 67.5 0 0 1-26.857-5.787A30 30 0 0 1 150 195" />
+    <style>
+        .background {
+            animation: background 2.5s;
+            fill: #8f8f8f;
+        }
 
-    .east {
-      transform-origin: center;
-      animation: east 2.5s;
-      fill: #00ffff;
-    }
+        .east {
+            transform-origin: center;
+            animation: east 2.5s;
+            fill: #00ffff;
+        }
 
-    .south {
-      transform-origin: center;
-      animation: south 2.5s;
-      fill: #ff0000;
-    }
+        .south {
+            transform-origin: center;
+            animation: south 2.5s;
+            fill: #ff0000;
+        }
 
-    .west {
-      transform-origin: center;
-      animation: west 2.5s;
-      fill: #ffffff;
-    }
+        .west {
+            transform-origin: center;
+            animation: west 2.5s;
+            fill: #ffffff;
+        }
 
-    .north {
-      transform-origin: center;
-      animation: north 2.5s;
-      fill: #000000;
-    }
+        .north {
+            transform-origin: center;
+            animation: north 2.5s;
+            fill: #000000;
+        }
 
-    .others {
-      transform-origin: center;
-      animation: others 2.5s;
-      fill: #c8c8c8;
-    }
+        .others {
+            transform-origin: center;
+            animation: others 2.5s;
+            fill: #c8c8c8;
+        }
 
-    .emblem {
-      transform-origin: center;
-      animation: emblem 2.5s;
-      fill: #daa520;
-    }
+        .emblem {
+            transform-origin: center;
+            animation: emblem 2.5s;
+            fill: #daa520;
+        }
 
-    .center {
-      animation: center 2.5s;
-      fill: #ffff00;
-    }
+        .center {
+            animation: center 2.5s;
+            fill: #ffff00;
+        }
 
-    @keyframes background {
-      from {
-        fill-opacity: 0;
-      }
+        @keyframes background {
+            from {
+                fill-opacity: 0;
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes east {
-      from {
-        fill-opacity: 0;
-        transform: rotate(360deg);
-      }
+        @keyframes east {
+            from {
+                fill-opacity: 0;
+                transform: rotate(360deg);
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes south {
-      from {
-        fill-opacity: 0;
-        transform: rotate(360deg);
-      }
+        @keyframes south {
+            from {
+                fill-opacity: 0;
+                transform: rotate(360deg);
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes west {
-      from {
-        fill-opacity: 0;
-        transform: rotate(360deg);
-      }
+        @keyframes west {
+            from {
+                fill-opacity: 0;
+                transform: rotate(360deg);
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes north {
-      from {
-        fill-opacity: 0;
-        transform: rotate(360deg);
-      }
+        @keyframes north {
+            from {
+                fill-opacity: 0;
+                transform: rotate(360deg);
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes others {
-      from {
-        fill-opacity: 0;
-        transform: rotate(-360deg);
-      }
+        @keyframes others {
+            from {
+                fill-opacity: 0;
+                transform: rotate(-360deg);
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes emblem {
-      from {
-        transform: rotate(-720deg);
-        fill-opacity: 0;
-      }
+        @keyframes emblem {
+            from {
+                transform: rotate(-720deg);
+                fill-opacity: 0;
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
+            to {
+                fill-opacity: 1;
+            }
+        }
 
-    @keyframes center {
-      from {
-        fill-opacity: 0;
-      }
+        @keyframes center {
+            from {
+                fill-opacity: 0;
+            }
 
-      to {
-        fill-opacity: 1;
-      }
-    }
-  </style>
+            to {
+                fill-opacity: 1;
+            }
+        }
+    </style>
 </svg>
