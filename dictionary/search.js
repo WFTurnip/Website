@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (consonants) {
             const li = document.createElement('li');
-            li.textContent = '子音検索: ON';
+            li.textContent = '見出し検索: ON';
             list.appendChild(li);
         }
         if (roots) {
