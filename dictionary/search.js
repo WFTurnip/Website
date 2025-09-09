@@ -9,27 +9,50 @@ document.addEventListener('DOMContentLoaded', () => {
     const words = params.get('words') === 'ON';
 
     // フォームに値を反映
-    const searchInput = document.getElementById('search');
-    if (searchInput) searchInput.value = searchWord;
+    document.getElementById('search').value = searchWord;
+    document.getElementById('consonants').checked = consonants;
+    document.getElementById('roots').checked = roots;
+    document.getElementById('words').checked = words;
 
-    const consonantsBox = document.getElementById('consonants');
-    if (consonantsBox) consonantsBox.checked = consonants;
+    const resultContainer = document.getElementById('result');
+    resultContainer.innerHTML = '';
 
-    const rootsBox = document.getElementById('roots');
-    if (rootsBox) rootsBox.checked = roots;
+    if (!searchWord) {
+        const message = document.createElement('p');
+        message.textContent = '検索語が入力されていません。';
+        message.classList.add('warning');
+        resultContainer.appendChild(message);
+    } else {
+        const subtitle = document.createElement('h2');
+        subtitle.textContent = searchWord + "の検索結果";
+        resultContainer.appendChild(subtitle);
 
-    const wordsBox = document.getElementById('words');
-    if (wordsBox) wordsBox.checked = words;
+        const list = document.createElement('ul');
+        list.classList.add('search-options');
 
-    // 結果を表示
-    const result = document.getElementById('result');
-    if (result) {
-        const paramObj = {
-            search: searchWord,
-            consonants: consonants ? 'ON' : 'OFF',
-            roots: roots ? 'ON' : 'OFF',
-            words: words ? 'ON' : 'OFF'
-        };
-        result.textContent = JSON.stringify(paramObj, null, 2);
+        if (consonants) {
+            const li = document.createElement('li');
+            li.textContent = '子音検索: ON';
+            list.appendChild(li);
+        }
+        if (roots) {
+            const li = document.createElement('li');
+            li.textContent = '語根検索: ON';
+            list.appendChild(li);
+        }
+        if (words) {
+            const li = document.createElement('li');
+            li.textContent = '単語検索: ON';
+            list.appendChild(li);
+        }
+
+        if (!consonants && !roots && !words) {
+            const li = document.createElement('li');
+            li.textContent = '絞り込みオプションは指定されていません。';
+            li.classList.add('warning');
+            list.appendChild(li);
+        }
+
+        resultContainer.appendChild(list);
     }
 });
