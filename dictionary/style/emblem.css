@@ -1,0 +1,80 @@
+@keyframes fadeIn {
+    from {
+        fill-opacity: 0;
+    }
+
+    to {
+        fill-opacity: 1;
+    }
+}
+
+@keyframes spinCW {
+    from {
+        transform: rotate(360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes spinCCW {
+    from {
+        transform: rotate(-360deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+svg * {
+    transform-origin: center;
+    fill-opacity: 0;
+    /* 初期は透明 */
+    animation: fadeIn 2.5s forwards;
+}
+
+.east,
+.south,
+.west,
+.north {
+    animation: fadeIn 2.5s forwards, spinCW 2.5s forwards;
+}
+
+.others,
+.emblem {
+    animation: fadeIn 2.5s forwards, spinCCW 2.5s forwards;
+}
+
+.background {
+    fill: #8f8f8f;
+}
+
+.east {
+    fill: #00ffff;
+}
+
+.south {
+    fill: #ff0000;
+}
+
+.west {
+    fill: #ffffff;
+}
+
+.north {
+    fill: #000000;
+}
+
+.others {
+    fill: #c8c8c8;
+}
+
+.emblem {
+    fill: #daa520;
+}
+
+.center {
+    fill: #ffff00;
+}
