@@ -1,1516 +1,1516 @@
 {
-  "words": [
-    {
-      "word": "laraha",
-      "phonetic": "laraha",
-      "part_of_speech": "付詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larahe",
-      "phonetic": "larahe",
-      "part_of_speech": "動詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larahi",
-      "phonetic": "larahi",
-      "part_of_speech": "容詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laraho",
-      "phonetic": "laraho",
-      "part_of_speech": "助詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larahu",
-      "phonetic": "larahu",
-      "part_of_speech": "副詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larahw",
-      "phonetic": "larah",
-      "part_of_speech": "名詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lareha",
-      "phonetic": "lareha",
-      "part_of_speech": "付詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larehe",
-      "phonetic": "larehe",
-      "part_of_speech": "動詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larehi",
-      "phonetic": "larehi",
-      "part_of_speech": "容詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lareho",
-      "phonetic": "lareho",
-      "part_of_speech": "助詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larehu",
-      "phonetic": "larehu",
-      "part_of_speech": "副詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larehw",
-      "phonetic": "lareh",
-      "part_of_speech": "名詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lariha",
-      "phonetic": "lariha",
-      "part_of_speech": "付詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larihe",
-      "phonetic": "larihe",
-      "part_of_speech": "動詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larihi",
-      "phonetic": "larihi",
-      "part_of_speech": "容詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lariho",
-      "phonetic": "lariho",
-      "part_of_speech": "助詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larihu",
-      "phonetic": "larihu",
-      "part_of_speech": "副詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larihw",
-      "phonetic": "larih",
-      "part_of_speech": "名詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laroha",
-      "phonetic": "laroha",
-      "part_of_speech": "付詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larohe",
-      "phonetic": "larohe",
-      "part_of_speech": "動詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larohi",
-      "phonetic": "larohi",
-      "part_of_speech": "容詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laroho",
-      "phonetic": "laroho",
-      "part_of_speech": "助詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larohu",
-      "phonetic": "larohu",
-      "part_of_speech": "副詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larohw",
-      "phonetic": "laroh",
-      "part_of_speech": "名詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laruha",
-      "phonetic": "laruha",
-      "part_of_speech": "付詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laruhe",
-      "phonetic": "laruhe",
-      "part_of_speech": "動詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laruhi",
-      "phonetic": "laruhi",
-      "part_of_speech": "容詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laruho",
-      "phonetic": "laruho",
-      "part_of_speech": "助詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laruhu",
-      "phonetic": "laruhu",
-      "part_of_speech": "副詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "laruhw",
-      "phonetic": "laruh",
-      "part_of_speech": "名詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larwha",
-      "phonetic": "larha",
-      "part_of_speech": "付詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larwhe",
-      "phonetic": "larhe",
-      "part_of_speech": "動詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larwhi",
-      "phonetic": "larhi",
-      "part_of_speech": "容詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larwho",
-      "phonetic": "larho",
-      "part_of_speech": "助詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larwhu",
-      "phonetic": "larhu",
-      "part_of_speech": "副詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "larwhw",
-      "phonetic": "larh",
-      "part_of_speech": "名詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leraha",
-      "phonetic": "leraha",
-      "part_of_speech": "付詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerahe",
-      "phonetic": "lerahe",
-      "part_of_speech": "動詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerahi",
-      "phonetic": "lerahi",
-      "part_of_speech": "容詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leraho",
-      "phonetic": "leraho",
-      "part_of_speech": "助詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerahu",
-      "phonetic": "lerahu",
-      "part_of_speech": "副詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerahw",
-      "phonetic": "lerah",
-      "part_of_speech": "名詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lereha",
-      "phonetic": "lereha",
-      "part_of_speech": "付詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerehe",
-      "phonetic": "lerehe",
-      "part_of_speech": "動詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerehi",
-      "phonetic": "lerehi",
-      "part_of_speech": "容詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lereho",
-      "phonetic": "lereho",
-      "part_of_speech": "助詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerehu",
-      "phonetic": "lerehu",
-      "part_of_speech": "副詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerehw",
-      "phonetic": "lereh",
-      "part_of_speech": "名詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leriha",
-      "phonetic": "leriha",
-      "part_of_speech": "付詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerihe",
-      "phonetic": "lerihe",
-      "part_of_speech": "動詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerihi",
-      "phonetic": "lerihi",
-      "part_of_speech": "容詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leriho",
-      "phonetic": "leriho",
-      "part_of_speech": "助詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerihu",
-      "phonetic": "lerihu",
-      "part_of_speech": "副詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerihw",
-      "phonetic": "lerih",
-      "part_of_speech": "名詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leroha",
-      "phonetic": "leroha",
-      "part_of_speech": "付詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerohe",
-      "phonetic": "lerohe",
-      "part_of_speech": "動詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerohi",
-      "phonetic": "lerohi",
-      "part_of_speech": "容詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leroho",
-      "phonetic": "leroho",
-      "part_of_speech": "助詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerohu",
-      "phonetic": "lerohu",
-      "part_of_speech": "副詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerohw",
-      "phonetic": "leroh",
-      "part_of_speech": "名詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leruha",
-      "phonetic": "leruha",
-      "part_of_speech": "付詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leruhe",
-      "phonetic": "leruhe",
-      "part_of_speech": "動詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leruhi",
-      "phonetic": "leruhi",
-      "part_of_speech": "容詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leruho",
-      "phonetic": "leruho",
-      "part_of_speech": "助詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leruhu",
-      "phonetic": "leruhu",
-      "part_of_speech": "副詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "leruhw",
-      "phonetic": "leruh",
-      "part_of_speech": "名詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerwha",
-      "phonetic": "lerha",
-      "part_of_speech": "付詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerwhe",
-      "phonetic": "lerhe",
-      "part_of_speech": "動詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerwhi",
-      "phonetic": "lerhi",
-      "part_of_speech": "容詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerwho",
-      "phonetic": "lerho",
-      "part_of_speech": "助詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerwhu",
-      "phonetic": "lerhu",
-      "part_of_speech": "副詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lerwhw",
-      "phonetic": "lerh",
-      "part_of_speech": "名詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liraha",
-      "phonetic": "liraha",
-      "part_of_speech": "付詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirahe",
-      "phonetic": "lirahe",
-      "part_of_speech": "動詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirahi",
-      "phonetic": "lirahi",
-      "part_of_speech": "容詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liraho",
-      "phonetic": "liraho",
-      "part_of_speech": "助詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirahu",
-      "phonetic": "lirahu",
-      "part_of_speech": "副詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirahw",
-      "phonetic": "lirah",
-      "part_of_speech": "名詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lireha",
-      "phonetic": "lireha",
-      "part_of_speech": "付詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirehe",
-      "phonetic": "lirehe",
-      "part_of_speech": "動詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirehi",
-      "phonetic": "lirehi",
-      "part_of_speech": "容詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lireho",
-      "phonetic": "lireho",
-      "part_of_speech": "助詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirehu",
-      "phonetic": "lirehu",
-      "part_of_speech": "副詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirehw",
-      "phonetic": "lireh",
-      "part_of_speech": "名詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liriha",
-      "phonetic": "liriha",
-      "part_of_speech": "付詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirihe",
-      "phonetic": "lirihe",
-      "part_of_speech": "動詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirihi",
-      "phonetic": "lirihi",
-      "part_of_speech": "容詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liriho",
-      "phonetic": "liriho",
-      "part_of_speech": "助詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirihu",
-      "phonetic": "lirihu",
-      "part_of_speech": "副詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirihw",
-      "phonetic": "lirih",
-      "part_of_speech": "名詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liroha",
-      "phonetic": "liroha",
-      "part_of_speech": "付詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirohe",
-      "phonetic": "lirohe",
-      "part_of_speech": "動詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirohi",
-      "phonetic": "lirohi",
-      "part_of_speech": "容詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liroho",
-      "phonetic": "liroho",
-      "part_of_speech": "助詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirohu",
-      "phonetic": "lirohu",
-      "part_of_speech": "副詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirohw",
-      "phonetic": "liroh",
-      "part_of_speech": "名詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liruha",
-      "phonetic": "liruha",
-      "part_of_speech": "付詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liruhe",
-      "phonetic": "liruhe",
-      "part_of_speech": "動詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liruhi",
-      "phonetic": "liruhi",
-      "part_of_speech": "容詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liruho",
-      "phonetic": "liruho",
-      "part_of_speech": "助詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liruhu",
-      "phonetic": "liruhu",
-      "part_of_speech": "副詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "liruhw",
-      "phonetic": "liruh",
-      "part_of_speech": "名詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirwha",
-      "phonetic": "lirha",
-      "part_of_speech": "付詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirwhe",
-      "phonetic": "lirhe",
-      "part_of_speech": "動詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirwhi",
-      "phonetic": "lirhi",
-      "part_of_speech": "容詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirwho",
-      "phonetic": "lirho",
-      "part_of_speech": "助詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirwhu",
-      "phonetic": "lirhu",
-      "part_of_speech": "副詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lirwhw",
-      "phonetic": "lirh",
-      "part_of_speech": "名詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loraha",
-      "phonetic": "loraha",
-      "part_of_speech": "付詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorahe",
-      "phonetic": "lorahe",
-      "part_of_speech": "動詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorahi",
-      "phonetic": "lorahi",
-      "part_of_speech": "容詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loraho",
-      "phonetic": "loraho",
-      "part_of_speech": "助詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorahu",
-      "phonetic": "lorahu",
-      "part_of_speech": "副詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorahw",
-      "phonetic": "lorah",
-      "part_of_speech": "名詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loreha",
-      "phonetic": "loreha",
-      "part_of_speech": "付詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorehe",
-      "phonetic": "lorehe",
-      "part_of_speech": "動詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorehi",
-      "phonetic": "lorehi",
-      "part_of_speech": "容詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loreho",
-      "phonetic": "loreho",
-      "part_of_speech": "助詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorehu",
-      "phonetic": "lorehu",
-      "part_of_speech": "副詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorehw",
-      "phonetic": "loreh",
-      "part_of_speech": "名詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loriha",
-      "phonetic": "loriha",
-      "part_of_speech": "付詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorihe",
-      "phonetic": "lorihe",
-      "part_of_speech": "動詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorihi",
-      "phonetic": "lorihi",
-      "part_of_speech": "容詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loriho",
-      "phonetic": "loriho",
-      "part_of_speech": "助詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorihu",
-      "phonetic": "lorihu",
-      "part_of_speech": "副詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorihw",
-      "phonetic": "lorih",
-      "part_of_speech": "名詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loroha",
-      "phonetic": "loroha",
-      "part_of_speech": "付詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorohe",
-      "phonetic": "lorohe",
-      "part_of_speech": "動詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorohi",
-      "phonetic": "lorohi",
-      "part_of_speech": "容詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loroho",
-      "phonetic": "loroho",
-      "part_of_speech": "助詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorohu",
-      "phonetic": "lorohu",
-      "part_of_speech": "副詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorohw",
-      "phonetic": "loroh",
-      "part_of_speech": "名詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loruha",
-      "phonetic": "loruha",
-      "part_of_speech": "付詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loruhe",
-      "phonetic": "loruhe",
-      "part_of_speech": "動詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loruhi",
-      "phonetic": "loruhi",
-      "part_of_speech": "容詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loruho",
-      "phonetic": "loruho",
-      "part_of_speech": "助詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loruhu",
-      "phonetic": "loruhu",
-      "part_of_speech": "副詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "loruhw",
-      "phonetic": "loruh",
-      "part_of_speech": "名詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorwha",
-      "phonetic": "lorha",
-      "part_of_speech": "付詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorwhe",
-      "phonetic": "lorhe",
-      "part_of_speech": "動詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorwhi",
-      "phonetic": "lorhi",
-      "part_of_speech": "容詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorwho",
-      "phonetic": "lorho",
-      "part_of_speech": "助詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorwhu",
-      "phonetic": "lorhu",
-      "part_of_speech": "副詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lorwhw",
-      "phonetic": "lorh",
-      "part_of_speech": "名詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luraha",
-      "phonetic": "luraha",
-      "part_of_speech": "付詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurahe",
-      "phonetic": "lurahe",
-      "part_of_speech": "動詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurahi",
-      "phonetic": "lurahi",
-      "part_of_speech": "容詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luraho",
-      "phonetic": "luraho",
-      "part_of_speech": "助詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurahu",
-      "phonetic": "lurahu",
-      "part_of_speech": "副詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurahw",
-      "phonetic": "lurah",
-      "part_of_speech": "名詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lureha",
-      "phonetic": "lureha",
-      "part_of_speech": "付詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurehe",
-      "phonetic": "lurehe",
-      "part_of_speech": "動詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurehi",
-      "phonetic": "lurehi",
-      "part_of_speech": "容詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lureho",
-      "phonetic": "lureho",
-      "part_of_speech": "助詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurehu",
-      "phonetic": "lurehu",
-      "part_of_speech": "副詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurehw",
-      "phonetic": "lureh",
-      "part_of_speech": "名詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luriha",
-      "phonetic": "luriha",
-      "part_of_speech": "付詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurihe",
-      "phonetic": "lurihe",
-      "part_of_speech": "動詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurihi",
-      "phonetic": "lurihi",
-      "part_of_speech": "容詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luriho",
-      "phonetic": "luriho",
-      "part_of_speech": "助詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurihu",
-      "phonetic": "lurihu",
-      "part_of_speech": "副詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurihw",
-      "phonetic": "lurih",
-      "part_of_speech": "名詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luroha",
-      "phonetic": "luroha",
-      "part_of_speech": "付詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurohe",
-      "phonetic": "lurohe",
-      "part_of_speech": "動詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurohi",
-      "phonetic": "lurohi",
-      "part_of_speech": "容詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luroho",
-      "phonetic": "luroho",
-      "part_of_speech": "助詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurohu",
-      "phonetic": "lurohu",
-      "part_of_speech": "副詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurohw",
-      "phonetic": "luroh",
-      "part_of_speech": "名詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luruha",
-      "phonetic": "luruha",
-      "part_of_speech": "付詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luruhe",
-      "phonetic": "luruhe",
-      "part_of_speech": "動詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luruhi",
-      "phonetic": "luruhi",
-      "part_of_speech": "容詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luruho",
-      "phonetic": "luruho",
-      "part_of_speech": "助詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luruhu",
-      "phonetic": "luruhu",
-      "part_of_speech": "副詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "luruhw",
-      "phonetic": "luruh",
-      "part_of_speech": "名詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurwha",
-      "phonetic": "lurha",
-      "part_of_speech": "付詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurwhe",
-      "phonetic": "lurhe",
-      "part_of_speech": "動詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurwhi",
-      "phonetic": "lurhi",
-      "part_of_speech": "容詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurwho",
-      "phonetic": "lurho",
-      "part_of_speech": "助詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurwhu",
-      "phonetic": "lurhu",
-      "part_of_speech": "副詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lurwhw",
-      "phonetic": "lurh",
-      "part_of_speech": "名詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwraha",
-      "phonetic": "lraha",
-      "part_of_speech": "付詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrahe",
-      "phonetic": "lrahe",
-      "part_of_speech": "動詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrahi",
-      "phonetic": "lrahi",
-      "part_of_speech": "容詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwraho",
-      "phonetic": "lraho",
-      "part_of_speech": "助詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrahu",
-      "phonetic": "lrahu",
-      "part_of_speech": "副詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrahw",
-      "phonetic": "lrah",
-      "part_of_speech": "名詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwreha",
-      "phonetic": "lreha",
-      "part_of_speech": "付詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrehe",
-      "phonetic": "lrehe",
-      "part_of_speech": "動詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrehi",
-      "phonetic": "lrehi",
-      "part_of_speech": "容詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwreho",
-      "phonetic": "lreho",
-      "part_of_speech": "助詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrehu",
-      "phonetic": "lrehu",
-      "part_of_speech": "副詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrehw",
-      "phonetic": "lreh",
-      "part_of_speech": "名詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwriha",
-      "phonetic": "lriha",
-      "part_of_speech": "付詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrihe",
-      "phonetic": "lrihe",
-      "part_of_speech": "動詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrihi",
-      "phonetic": "lrihi",
-      "part_of_speech": "容詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwriho",
-      "phonetic": "lriho",
-      "part_of_speech": "助詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrihu",
-      "phonetic": "lrihu",
-      "part_of_speech": "副詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrihw",
-      "phonetic": "lrih",
-      "part_of_speech": "名詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwroha",
-      "phonetic": "lroha",
-      "part_of_speech": "付詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrohe",
-      "phonetic": "lrohe",
-      "part_of_speech": "動詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrohi",
-      "phonetic": "lrohi",
-      "part_of_speech": "容詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwroho",
-      "phonetic": "lroho",
-      "part_of_speech": "助詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrohu",
-      "phonetic": "lrohu",
-      "part_of_speech": "副詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrohw",
-      "phonetic": "lroh",
-      "part_of_speech": "名詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwruha",
-      "phonetic": "lruha",
-      "part_of_speech": "付詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwruhe",
-      "phonetic": "lruhe",
-      "part_of_speech": "動詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwruhi",
-      "phonetic": "lruhi",
-      "part_of_speech": "容詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwruho",
-      "phonetic": "lruho",
-      "part_of_speech": "助詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwruhu",
-      "phonetic": "lruhu",
-      "part_of_speech": "副詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwruhw",
-      "phonetic": "lruh",
-      "part_of_speech": "名詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrwha",
-      "phonetic": "lrha",
-      "part_of_speech": "付詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrwhe",
-      "phonetic": "lrhe",
-      "part_of_speech": "動詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrwhi",
-      "phonetic": "lrhi",
-      "part_of_speech": "容詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrwho",
-      "phonetic": "lrho",
-      "part_of_speech": "助詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrwhu",
-      "phonetic": "lrhu",
-      "part_of_speech": "副詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "lwrwhw",
-      "phonetic": "lrh",
-      "part_of_speech": "名詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    }
-  ]
+    "words": [
+        {
+            "word": "laraha",
+            "phonetic": "laraha",
+            "part_of_speech": "付詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larahe",
+            "phonetic": "larahe",
+            "part_of_speech": "動詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larahi",
+            "phonetic": "larahi",
+            "part_of_speech": "容詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laraho",
+            "phonetic": "laraho",
+            "part_of_speech": "助詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larahu",
+            "phonetic": "larahu",
+            "part_of_speech": "副詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larahw",
+            "phonetic": "larah",
+            "part_of_speech": "名詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lareha",
+            "phonetic": "lareha",
+            "part_of_speech": "付詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larehe",
+            "phonetic": "larehe",
+            "part_of_speech": "動詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larehi",
+            "phonetic": "larehi",
+            "part_of_speech": "容詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lareho",
+            "phonetic": "lareho",
+            "part_of_speech": "助詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larehu",
+            "phonetic": "larehu",
+            "part_of_speech": "副詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larehw",
+            "phonetic": "lareh",
+            "part_of_speech": "名詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lariha",
+            "phonetic": "lariha",
+            "part_of_speech": "付詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larihe",
+            "phonetic": "larihe",
+            "part_of_speech": "動詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larihi",
+            "phonetic": "larihi",
+            "part_of_speech": "容詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lariho",
+            "phonetic": "lariho",
+            "part_of_speech": "助詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larihu",
+            "phonetic": "larihu",
+            "part_of_speech": "副詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larihw",
+            "phonetic": "larih",
+            "part_of_speech": "名詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laroha",
+            "phonetic": "laroha",
+            "part_of_speech": "付詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larohe",
+            "phonetic": "larohe",
+            "part_of_speech": "動詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larohi",
+            "phonetic": "larohi",
+            "part_of_speech": "容詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laroho",
+            "phonetic": "laroho",
+            "part_of_speech": "助詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larohu",
+            "phonetic": "larohu",
+            "part_of_speech": "副詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larohw",
+            "phonetic": "laroh",
+            "part_of_speech": "名詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laruha",
+            "phonetic": "laruha",
+            "part_of_speech": "付詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laruhe",
+            "phonetic": "laruhe",
+            "part_of_speech": "動詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laruhi",
+            "phonetic": "laruhi",
+            "part_of_speech": "容詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laruho",
+            "phonetic": "laruho",
+            "part_of_speech": "助詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laruhu",
+            "phonetic": "laruhu",
+            "part_of_speech": "副詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "laruhw",
+            "phonetic": "laruh",
+            "part_of_speech": "名詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larwha",
+            "phonetic": "larha",
+            "part_of_speech": "付詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larwhe",
+            "phonetic": "larhe",
+            "part_of_speech": "動詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larwhi",
+            "phonetic": "larhi",
+            "part_of_speech": "容詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larwho",
+            "phonetic": "larho",
+            "part_of_speech": "助詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larwhu",
+            "phonetic": "larhu",
+            "part_of_speech": "副詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "larwhw",
+            "phonetic": "larh",
+            "part_of_speech": "名詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leraha",
+            "phonetic": "leraha",
+            "part_of_speech": "付詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerahe",
+            "phonetic": "lerahe",
+            "part_of_speech": "動詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerahi",
+            "phonetic": "lerahi",
+            "part_of_speech": "容詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leraho",
+            "phonetic": "leraho",
+            "part_of_speech": "助詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerahu",
+            "phonetic": "lerahu",
+            "part_of_speech": "副詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerahw",
+            "phonetic": "lerah",
+            "part_of_speech": "名詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lereha",
+            "phonetic": "lereha",
+            "part_of_speech": "付詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerehe",
+            "phonetic": "lerehe",
+            "part_of_speech": "動詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerehi",
+            "phonetic": "lerehi",
+            "part_of_speech": "容詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lereho",
+            "phonetic": "lereho",
+            "part_of_speech": "助詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerehu",
+            "phonetic": "lerehu",
+            "part_of_speech": "副詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerehw",
+            "phonetic": "lereh",
+            "part_of_speech": "名詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leriha",
+            "phonetic": "leriha",
+            "part_of_speech": "付詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerihe",
+            "phonetic": "lerihe",
+            "part_of_speech": "動詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerihi",
+            "phonetic": "lerihi",
+            "part_of_speech": "容詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leriho",
+            "phonetic": "leriho",
+            "part_of_speech": "助詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerihu",
+            "phonetic": "lerihu",
+            "part_of_speech": "副詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerihw",
+            "phonetic": "lerih",
+            "part_of_speech": "名詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leroha",
+            "phonetic": "leroha",
+            "part_of_speech": "付詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerohe",
+            "phonetic": "lerohe",
+            "part_of_speech": "動詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerohi",
+            "phonetic": "lerohi",
+            "part_of_speech": "容詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leroho",
+            "phonetic": "leroho",
+            "part_of_speech": "助詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerohu",
+            "phonetic": "lerohu",
+            "part_of_speech": "副詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerohw",
+            "phonetic": "leroh",
+            "part_of_speech": "名詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leruha",
+            "phonetic": "leruha",
+            "part_of_speech": "付詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leruhe",
+            "phonetic": "leruhe",
+            "part_of_speech": "動詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leruhi",
+            "phonetic": "leruhi",
+            "part_of_speech": "容詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leruho",
+            "phonetic": "leruho",
+            "part_of_speech": "助詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leruhu",
+            "phonetic": "leruhu",
+            "part_of_speech": "副詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "leruhw",
+            "phonetic": "leruh",
+            "part_of_speech": "名詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerwha",
+            "phonetic": "lerha",
+            "part_of_speech": "付詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerwhe",
+            "phonetic": "lerhe",
+            "part_of_speech": "動詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerwhi",
+            "phonetic": "lerhi",
+            "part_of_speech": "容詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerwho",
+            "phonetic": "lerho",
+            "part_of_speech": "助詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerwhu",
+            "phonetic": "lerhu",
+            "part_of_speech": "副詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lerwhw",
+            "phonetic": "lerh",
+            "part_of_speech": "名詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liraha",
+            "phonetic": "liraha",
+            "part_of_speech": "付詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirahe",
+            "phonetic": "lirahe",
+            "part_of_speech": "動詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirahi",
+            "phonetic": "lirahi",
+            "part_of_speech": "容詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liraho",
+            "phonetic": "liraho",
+            "part_of_speech": "助詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirahu",
+            "phonetic": "lirahu",
+            "part_of_speech": "副詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirahw",
+            "phonetic": "lirah",
+            "part_of_speech": "名詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lireha",
+            "phonetic": "lireha",
+            "part_of_speech": "付詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirehe",
+            "phonetic": "lirehe",
+            "part_of_speech": "動詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirehi",
+            "phonetic": "lirehi",
+            "part_of_speech": "容詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lireho",
+            "phonetic": "lireho",
+            "part_of_speech": "助詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirehu",
+            "phonetic": "lirehu",
+            "part_of_speech": "副詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirehw",
+            "phonetic": "lireh",
+            "part_of_speech": "名詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liriha",
+            "phonetic": "liriha",
+            "part_of_speech": "付詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirihe",
+            "phonetic": "lirihe",
+            "part_of_speech": "動詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirihi",
+            "phonetic": "lirihi",
+            "part_of_speech": "容詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liriho",
+            "phonetic": "liriho",
+            "part_of_speech": "助詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirihu",
+            "phonetic": "lirihu",
+            "part_of_speech": "副詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirihw",
+            "phonetic": "lirih",
+            "part_of_speech": "名詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liroha",
+            "phonetic": "liroha",
+            "part_of_speech": "付詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirohe",
+            "phonetic": "lirohe",
+            "part_of_speech": "動詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirohi",
+            "phonetic": "lirohi",
+            "part_of_speech": "容詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liroho",
+            "phonetic": "liroho",
+            "part_of_speech": "助詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirohu",
+            "phonetic": "lirohu",
+            "part_of_speech": "副詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirohw",
+            "phonetic": "liroh",
+            "part_of_speech": "名詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liruha",
+            "phonetic": "liruha",
+            "part_of_speech": "付詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liruhe",
+            "phonetic": "liruhe",
+            "part_of_speech": "動詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liruhi",
+            "phonetic": "liruhi",
+            "part_of_speech": "容詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liruho",
+            "phonetic": "liruho",
+            "part_of_speech": "助詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liruhu",
+            "phonetic": "liruhu",
+            "part_of_speech": "副詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "liruhw",
+            "phonetic": "liruh",
+            "part_of_speech": "名詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirwha",
+            "phonetic": "lirha",
+            "part_of_speech": "付詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirwhe",
+            "phonetic": "lirhe",
+            "part_of_speech": "動詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirwhi",
+            "phonetic": "lirhi",
+            "part_of_speech": "容詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirwho",
+            "phonetic": "lirho",
+            "part_of_speech": "助詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirwhu",
+            "phonetic": "lirhu",
+            "part_of_speech": "副詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lirwhw",
+            "phonetic": "lirh",
+            "part_of_speech": "名詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loraha",
+            "phonetic": "loraha",
+            "part_of_speech": "付詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorahe",
+            "phonetic": "lorahe",
+            "part_of_speech": "動詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorahi",
+            "phonetic": "lorahi",
+            "part_of_speech": "容詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loraho",
+            "phonetic": "loraho",
+            "part_of_speech": "助詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorahu",
+            "phonetic": "lorahu",
+            "part_of_speech": "副詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorahw",
+            "phonetic": "lorah",
+            "part_of_speech": "名詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loreha",
+            "phonetic": "loreha",
+            "part_of_speech": "付詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorehe",
+            "phonetic": "lorehe",
+            "part_of_speech": "動詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorehi",
+            "phonetic": "lorehi",
+            "part_of_speech": "容詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loreho",
+            "phonetic": "loreho",
+            "part_of_speech": "助詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorehu",
+            "phonetic": "lorehu",
+            "part_of_speech": "副詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorehw",
+            "phonetic": "loreh",
+            "part_of_speech": "名詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loriha",
+            "phonetic": "loriha",
+            "part_of_speech": "付詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorihe",
+            "phonetic": "lorihe",
+            "part_of_speech": "動詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorihi",
+            "phonetic": "lorihi",
+            "part_of_speech": "容詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loriho",
+            "phonetic": "loriho",
+            "part_of_speech": "助詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorihu",
+            "phonetic": "lorihu",
+            "part_of_speech": "副詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorihw",
+            "phonetic": "lorih",
+            "part_of_speech": "名詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loroha",
+            "phonetic": "loroha",
+            "part_of_speech": "付詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorohe",
+            "phonetic": "lorohe",
+            "part_of_speech": "動詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorohi",
+            "phonetic": "lorohi",
+            "part_of_speech": "容詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loroho",
+            "phonetic": "loroho",
+            "part_of_speech": "助詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorohu",
+            "phonetic": "lorohu",
+            "part_of_speech": "副詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorohw",
+            "phonetic": "loroh",
+            "part_of_speech": "名詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loruha",
+            "phonetic": "loruha",
+            "part_of_speech": "付詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loruhe",
+            "phonetic": "loruhe",
+            "part_of_speech": "動詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loruhi",
+            "phonetic": "loruhi",
+            "part_of_speech": "容詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loruho",
+            "phonetic": "loruho",
+            "part_of_speech": "助詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loruhu",
+            "phonetic": "loruhu",
+            "part_of_speech": "副詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "loruhw",
+            "phonetic": "loruh",
+            "part_of_speech": "名詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorwha",
+            "phonetic": "lorha",
+            "part_of_speech": "付詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorwhe",
+            "phonetic": "lorhe",
+            "part_of_speech": "動詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorwhi",
+            "phonetic": "lorhi",
+            "part_of_speech": "容詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorwho",
+            "phonetic": "lorho",
+            "part_of_speech": "助詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorwhu",
+            "phonetic": "lorhu",
+            "part_of_speech": "副詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lorwhw",
+            "phonetic": "lorh",
+            "part_of_speech": "名詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luraha",
+            "phonetic": "luraha",
+            "part_of_speech": "付詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurahe",
+            "phonetic": "lurahe",
+            "part_of_speech": "動詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurahi",
+            "phonetic": "lurahi",
+            "part_of_speech": "容詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luraho",
+            "phonetic": "luraho",
+            "part_of_speech": "助詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurahu",
+            "phonetic": "lurahu",
+            "part_of_speech": "副詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurahw",
+            "phonetic": "lurah",
+            "part_of_speech": "名詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lureha",
+            "phonetic": "lureha",
+            "part_of_speech": "付詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurehe",
+            "phonetic": "lurehe",
+            "part_of_speech": "動詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurehi",
+            "phonetic": "lurehi",
+            "part_of_speech": "容詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lureho",
+            "phonetic": "lureho",
+            "part_of_speech": "助詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurehu",
+            "phonetic": "lurehu",
+            "part_of_speech": "副詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurehw",
+            "phonetic": "lureh",
+            "part_of_speech": "名詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luriha",
+            "phonetic": "luriha",
+            "part_of_speech": "付詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurihe",
+            "phonetic": "lurihe",
+            "part_of_speech": "動詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurihi",
+            "phonetic": "lurihi",
+            "part_of_speech": "容詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luriho",
+            "phonetic": "luriho",
+            "part_of_speech": "助詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurihu",
+            "phonetic": "lurihu",
+            "part_of_speech": "副詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurihw",
+            "phonetic": "lurih",
+            "part_of_speech": "名詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luroha",
+            "phonetic": "luroha",
+            "part_of_speech": "付詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurohe",
+            "phonetic": "lurohe",
+            "part_of_speech": "動詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurohi",
+            "phonetic": "lurohi",
+            "part_of_speech": "容詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luroho",
+            "phonetic": "luroho",
+            "part_of_speech": "助詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurohu",
+            "phonetic": "lurohu",
+            "part_of_speech": "副詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurohw",
+            "phonetic": "luroh",
+            "part_of_speech": "名詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luruha",
+            "phonetic": "luruha",
+            "part_of_speech": "付詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luruhe",
+            "phonetic": "luruhe",
+            "part_of_speech": "動詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luruhi",
+            "phonetic": "luruhi",
+            "part_of_speech": "容詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luruho",
+            "phonetic": "luruho",
+            "part_of_speech": "助詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luruhu",
+            "phonetic": "luruhu",
+            "part_of_speech": "副詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "luruhw",
+            "phonetic": "luruh",
+            "part_of_speech": "名詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurwha",
+            "phonetic": "lurha",
+            "part_of_speech": "付詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurwhe",
+            "phonetic": "lurhe",
+            "part_of_speech": "動詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurwhi",
+            "phonetic": "lurhi",
+            "part_of_speech": "容詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurwho",
+            "phonetic": "lurho",
+            "part_of_speech": "助詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurwhu",
+            "phonetic": "lurhu",
+            "part_of_speech": "副詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lurwhw",
+            "phonetic": "lurh",
+            "part_of_speech": "名詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwraha",
+            "phonetic": "lraha",
+            "part_of_speech": "付詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrahe",
+            "phonetic": "lrahe",
+            "part_of_speech": "動詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrahi",
+            "phonetic": "lrahi",
+            "part_of_speech": "容詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwraho",
+            "phonetic": "lraho",
+            "part_of_speech": "助詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrahu",
+            "phonetic": "lrahu",
+            "part_of_speech": "副詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrahw",
+            "phonetic": "lrah",
+            "part_of_speech": "名詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwreha",
+            "phonetic": "lreha",
+            "part_of_speech": "付詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrehe",
+            "phonetic": "lrehe",
+            "part_of_speech": "動詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrehi",
+            "phonetic": "lrehi",
+            "part_of_speech": "容詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwreho",
+            "phonetic": "lreho",
+            "part_of_speech": "助詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrehu",
+            "phonetic": "lrehu",
+            "part_of_speech": "副詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrehw",
+            "phonetic": "lreh",
+            "part_of_speech": "名詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwriha",
+            "phonetic": "lriha",
+            "part_of_speech": "付詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrihe",
+            "phonetic": "lrihe",
+            "part_of_speech": "動詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrihi",
+            "phonetic": "lrihi",
+            "part_of_speech": "容詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwriho",
+            "phonetic": "lriho",
+            "part_of_speech": "助詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrihu",
+            "phonetic": "lrihu",
+            "part_of_speech": "副詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrihw",
+            "phonetic": "lrih",
+            "part_of_speech": "名詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwroha",
+            "phonetic": "lroha",
+            "part_of_speech": "付詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrohe",
+            "phonetic": "lrohe",
+            "part_of_speech": "動詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrohi",
+            "phonetic": "lrohi",
+            "part_of_speech": "容詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwroho",
+            "phonetic": "lroho",
+            "part_of_speech": "助詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrohu",
+            "phonetic": "lrohu",
+            "part_of_speech": "副詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrohw",
+            "phonetic": "lroh",
+            "part_of_speech": "名詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwruha",
+            "phonetic": "lruha",
+            "part_of_speech": "付詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwruhe",
+            "phonetic": "lruhe",
+            "part_of_speech": "動詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwruhi",
+            "phonetic": "lruhi",
+            "part_of_speech": "容詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwruho",
+            "phonetic": "lruho",
+            "part_of_speech": "助詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwruhu",
+            "phonetic": "lruhu",
+            "part_of_speech": "副詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwruhw",
+            "phonetic": "lruh",
+            "part_of_speech": "名詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrwha",
+            "phonetic": "lrha",
+            "part_of_speech": "付詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrwhe",
+            "phonetic": "lrhe",
+            "part_of_speech": "動詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrwhi",
+            "phonetic": "lrhi",
+            "part_of_speech": "容詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrwho",
+            "phonetic": "lrho",
+            "part_of_speech": "助詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrwhu",
+            "phonetic": "lrhu",
+            "part_of_speech": "副詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "lwrwhw",
+            "phonetic": "lrh",
+            "part_of_speech": "名詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        }
+    ]
 }

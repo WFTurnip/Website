@@ -1,1516 +1,1516 @@
 {
-  "words": [
-    {
-      "word": "ganaha",
-      "phonetic": "ganaha",
-      "part_of_speech": "付詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganahe",
-      "phonetic": "ganahe",
-      "part_of_speech": "動詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganahi",
-      "phonetic": "ganahi",
-      "part_of_speech": "容詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganaho",
-      "phonetic": "ganaho",
-      "part_of_speech": "助詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganahu",
-      "phonetic": "ganahu",
-      "part_of_speech": "副詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganahw",
-      "phonetic": "ganah",
-      "part_of_speech": "名詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganeha",
-      "phonetic": "ganeha",
-      "part_of_speech": "付詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganehe",
-      "phonetic": "ganehe",
-      "part_of_speech": "動詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganehi",
-      "phonetic": "ganehi",
-      "part_of_speech": "容詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganeho",
-      "phonetic": "ganeho",
-      "part_of_speech": "助詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganehu",
-      "phonetic": "ganehu",
-      "part_of_speech": "副詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganehw",
-      "phonetic": "ganeh",
-      "part_of_speech": "名詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganiha",
-      "phonetic": "ganiha",
-      "part_of_speech": "付詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganihe",
-      "phonetic": "ganihe",
-      "part_of_speech": "動詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganihi",
-      "phonetic": "ganihi",
-      "part_of_speech": "容詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganiho",
-      "phonetic": "ganiho",
-      "part_of_speech": "助詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganihu",
-      "phonetic": "ganihu",
-      "part_of_speech": "副詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganihw",
-      "phonetic": "ganih",
-      "part_of_speech": "名詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganoha",
-      "phonetic": "ganoha",
-      "part_of_speech": "付詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganohe",
-      "phonetic": "ganohe",
-      "part_of_speech": "動詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganohi",
-      "phonetic": "ganohi",
-      "part_of_speech": "容詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganoho",
-      "phonetic": "ganoho",
-      "part_of_speech": "助詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganohu",
-      "phonetic": "ganohu",
-      "part_of_speech": "副詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganohw",
-      "phonetic": "ganoh",
-      "part_of_speech": "名詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganuha",
-      "phonetic": "ganuha",
-      "part_of_speech": "付詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganuhe",
-      "phonetic": "ganuhe",
-      "part_of_speech": "動詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganuhi",
-      "phonetic": "ganuhi",
-      "part_of_speech": "容詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganuho",
-      "phonetic": "ganuho",
-      "part_of_speech": "助詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganuhu",
-      "phonetic": "ganuhu",
-      "part_of_speech": "副詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganuhw",
-      "phonetic": "ganuh",
-      "part_of_speech": "名詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganwha",
-      "phonetic": "ganha",
-      "part_of_speech": "付詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganwhe",
-      "phonetic": "ganhe",
-      "part_of_speech": "動詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganwhi",
-      "phonetic": "ganhi",
-      "part_of_speech": "容詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganwho",
-      "phonetic": "ganho",
-      "part_of_speech": "助詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganwhu",
-      "phonetic": "ganhu",
-      "part_of_speech": "副詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ganwhw",
-      "phonetic": "ganh",
-      "part_of_speech": "名詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genaha",
-      "phonetic": "genaha",
-      "part_of_speech": "付詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genahe",
-      "phonetic": "genahe",
-      "part_of_speech": "動詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genahi",
-      "phonetic": "genahi",
-      "part_of_speech": "容詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genaho",
-      "phonetic": "genaho",
-      "part_of_speech": "助詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genahu",
-      "phonetic": "genahu",
-      "part_of_speech": "副詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genahw",
-      "phonetic": "genah",
-      "part_of_speech": "名詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "geneha",
-      "phonetic": "geneha",
-      "part_of_speech": "付詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genehe",
-      "phonetic": "genehe",
-      "part_of_speech": "動詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genehi",
-      "phonetic": "genehi",
-      "part_of_speech": "容詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "geneho",
-      "phonetic": "geneho",
-      "part_of_speech": "助詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genehu",
-      "phonetic": "genehu",
-      "part_of_speech": "副詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genehw",
-      "phonetic": "geneh",
-      "part_of_speech": "名詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "geniha",
-      "phonetic": "geniha",
-      "part_of_speech": "付詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genihe",
-      "phonetic": "genihe",
-      "part_of_speech": "動詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genihi",
-      "phonetic": "genihi",
-      "part_of_speech": "容詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "geniho",
-      "phonetic": "geniho",
-      "part_of_speech": "助詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genihu",
-      "phonetic": "genihu",
-      "part_of_speech": "副詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genihw",
-      "phonetic": "genih",
-      "part_of_speech": "名詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genoha",
-      "phonetic": "genoha",
-      "part_of_speech": "付詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genohe",
-      "phonetic": "genohe",
-      "part_of_speech": "動詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genohi",
-      "phonetic": "genohi",
-      "part_of_speech": "容詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genoho",
-      "phonetic": "genoho",
-      "part_of_speech": "助詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genohu",
-      "phonetic": "genohu",
-      "part_of_speech": "副詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genohw",
-      "phonetic": "genoh",
-      "part_of_speech": "名詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genuha",
-      "phonetic": "genuha",
-      "part_of_speech": "付詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genuhe",
-      "phonetic": "genuhe",
-      "part_of_speech": "動詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genuhi",
-      "phonetic": "genuhi",
-      "part_of_speech": "容詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genuho",
-      "phonetic": "genuho",
-      "part_of_speech": "助詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genuhu",
-      "phonetic": "genuhu",
-      "part_of_speech": "副詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genuhw",
-      "phonetic": "genuh",
-      "part_of_speech": "名詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genwha",
-      "phonetic": "genha",
-      "part_of_speech": "付詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genwhe",
-      "phonetic": "genhe",
-      "part_of_speech": "動詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genwhi",
-      "phonetic": "genhi",
-      "part_of_speech": "容詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genwho",
-      "phonetic": "genho",
-      "part_of_speech": "助詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genwhu",
-      "phonetic": "genhu",
-      "part_of_speech": "副詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "genwhw",
-      "phonetic": "genh",
-      "part_of_speech": "名詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginaha",
-      "phonetic": "ginaha",
-      "part_of_speech": "付詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginahe",
-      "phonetic": "ginahe",
-      "part_of_speech": "動詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginahi",
-      "phonetic": "ginahi",
-      "part_of_speech": "容詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginaho",
-      "phonetic": "ginaho",
-      "part_of_speech": "助詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginahu",
-      "phonetic": "ginahu",
-      "part_of_speech": "副詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginahw",
-      "phonetic": "ginah",
-      "part_of_speech": "名詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gineha",
-      "phonetic": "gineha",
-      "part_of_speech": "付詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginehe",
-      "phonetic": "ginehe",
-      "part_of_speech": "動詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginehi",
-      "phonetic": "ginehi",
-      "part_of_speech": "容詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gineho",
-      "phonetic": "gineho",
-      "part_of_speech": "助詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginehu",
-      "phonetic": "ginehu",
-      "part_of_speech": "副詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginehw",
-      "phonetic": "gineh",
-      "part_of_speech": "名詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "giniha",
-      "phonetic": "giniha",
-      "part_of_speech": "付詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginihe",
-      "phonetic": "ginihe",
-      "part_of_speech": "動詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginihi",
-      "phonetic": "ginihi",
-      "part_of_speech": "容詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "giniho",
-      "phonetic": "giniho",
-      "part_of_speech": "助詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginihu",
-      "phonetic": "ginihu",
-      "part_of_speech": "副詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginihw",
-      "phonetic": "ginih",
-      "part_of_speech": "名詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginoha",
-      "phonetic": "ginoha",
-      "part_of_speech": "付詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginohe",
-      "phonetic": "ginohe",
-      "part_of_speech": "動詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginohi",
-      "phonetic": "ginohi",
-      "part_of_speech": "容詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginoho",
-      "phonetic": "ginoho",
-      "part_of_speech": "助詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginohu",
-      "phonetic": "ginohu",
-      "part_of_speech": "副詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginohw",
-      "phonetic": "ginoh",
-      "part_of_speech": "名詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginuha",
-      "phonetic": "ginuha",
-      "part_of_speech": "付詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginuhe",
-      "phonetic": "ginuhe",
-      "part_of_speech": "動詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginuhi",
-      "phonetic": "ginuhi",
-      "part_of_speech": "容詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginuho",
-      "phonetic": "ginuho",
-      "part_of_speech": "助詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginuhu",
-      "phonetic": "ginuhu",
-      "part_of_speech": "副詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginuhw",
-      "phonetic": "ginuh",
-      "part_of_speech": "名詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginwha",
-      "phonetic": "ginha",
-      "part_of_speech": "付詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginwhe",
-      "phonetic": "ginhe",
-      "part_of_speech": "動詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginwhi",
-      "phonetic": "ginhi",
-      "part_of_speech": "容詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginwho",
-      "phonetic": "ginho",
-      "part_of_speech": "助詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginwhu",
-      "phonetic": "ginhu",
-      "part_of_speech": "副詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "ginwhw",
-      "phonetic": "ginh",
-      "part_of_speech": "名詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonaha",
-      "phonetic": "gonaha",
-      "part_of_speech": "付詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonahe",
-      "phonetic": "gonahe",
-      "part_of_speech": "動詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonahi",
-      "phonetic": "gonahi",
-      "part_of_speech": "容詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonaho",
-      "phonetic": "gonaho",
-      "part_of_speech": "助詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonahu",
-      "phonetic": "gonahu",
-      "part_of_speech": "副詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonahw",
-      "phonetic": "gonah",
-      "part_of_speech": "名詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "goneha",
-      "phonetic": "goneha",
-      "part_of_speech": "付詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonehe",
-      "phonetic": "gonehe",
-      "part_of_speech": "動詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonehi",
-      "phonetic": "gonehi",
-      "part_of_speech": "容詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "goneho",
-      "phonetic": "goneho",
-      "part_of_speech": "助詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonehu",
-      "phonetic": "gonehu",
-      "part_of_speech": "副詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonehw",
-      "phonetic": "goneh",
-      "part_of_speech": "名詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "goniha",
-      "phonetic": "goniha",
-      "part_of_speech": "付詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonihe",
-      "phonetic": "gonihe",
-      "part_of_speech": "動詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonihi",
-      "phonetic": "gonihi",
-      "part_of_speech": "容詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "goniho",
-      "phonetic": "goniho",
-      "part_of_speech": "助詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonihu",
-      "phonetic": "gonihu",
-      "part_of_speech": "副詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonihw",
-      "phonetic": "gonih",
-      "part_of_speech": "名詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonoha",
-      "phonetic": "gonoha",
-      "part_of_speech": "付詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonohe",
-      "phonetic": "gonohe",
-      "part_of_speech": "動詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonohi",
-      "phonetic": "gonohi",
-      "part_of_speech": "容詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonoho",
-      "phonetic": "gonoho",
-      "part_of_speech": "助詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonohu",
-      "phonetic": "gonohu",
-      "part_of_speech": "副詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonohw",
-      "phonetic": "gonoh",
-      "part_of_speech": "名詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonuha",
-      "phonetic": "gonuha",
-      "part_of_speech": "付詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonuhe",
-      "phonetic": "gonuhe",
-      "part_of_speech": "動詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonuhi",
-      "phonetic": "gonuhi",
-      "part_of_speech": "容詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonuho",
-      "phonetic": "gonuho",
-      "part_of_speech": "助詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonuhu",
-      "phonetic": "gonuhu",
-      "part_of_speech": "副詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonuhw",
-      "phonetic": "gonuh",
-      "part_of_speech": "名詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonwha",
-      "phonetic": "gonha",
-      "part_of_speech": "付詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonwhe",
-      "phonetic": "gonhe",
-      "part_of_speech": "動詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonwhi",
-      "phonetic": "gonhi",
-      "part_of_speech": "容詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonwho",
-      "phonetic": "gonho",
-      "part_of_speech": "助詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonwhu",
-      "phonetic": "gonhu",
-      "part_of_speech": "副詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gonwhw",
-      "phonetic": "gonh",
-      "part_of_speech": "名詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunaha",
-      "phonetic": "gunaha",
-      "part_of_speech": "付詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunahe",
-      "phonetic": "gunahe",
-      "part_of_speech": "動詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunahi",
-      "phonetic": "gunahi",
-      "part_of_speech": "容詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunaho",
-      "phonetic": "gunaho",
-      "part_of_speech": "助詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunahu",
-      "phonetic": "gunahu",
-      "part_of_speech": "副詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunahw",
-      "phonetic": "gunah",
-      "part_of_speech": "名詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "guneha",
-      "phonetic": "guneha",
-      "part_of_speech": "付詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunehe",
-      "phonetic": "gunehe",
-      "part_of_speech": "動詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunehi",
-      "phonetic": "gunehi",
-      "part_of_speech": "容詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "guneho",
-      "phonetic": "guneho",
-      "part_of_speech": "助詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunehu",
-      "phonetic": "gunehu",
-      "part_of_speech": "副詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunehw",
-      "phonetic": "guneh",
-      "part_of_speech": "名詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "guniha",
-      "phonetic": "guniha",
-      "part_of_speech": "付詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunihe",
-      "phonetic": "gunihe",
-      "part_of_speech": "動詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunihi",
-      "phonetic": "gunihi",
-      "part_of_speech": "容詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "guniho",
-      "phonetic": "guniho",
-      "part_of_speech": "助詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunihu",
-      "phonetic": "gunihu",
-      "part_of_speech": "副詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunihw",
-      "phonetic": "gunih",
-      "part_of_speech": "名詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunoha",
-      "phonetic": "gunoha",
-      "part_of_speech": "付詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunohe",
-      "phonetic": "gunohe",
-      "part_of_speech": "動詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunohi",
-      "phonetic": "gunohi",
-      "part_of_speech": "容詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunoho",
-      "phonetic": "gunoho",
-      "part_of_speech": "助詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunohu",
-      "phonetic": "gunohu",
-      "part_of_speech": "副詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunohw",
-      "phonetic": "gunoh",
-      "part_of_speech": "名詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunuha",
-      "phonetic": "gunuha",
-      "part_of_speech": "付詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunuhe",
-      "phonetic": "gunuhe",
-      "part_of_speech": "動詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunuhi",
-      "phonetic": "gunuhi",
-      "part_of_speech": "容詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunuho",
-      "phonetic": "gunuho",
-      "part_of_speech": "助詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunuhu",
-      "phonetic": "gunuhu",
-      "part_of_speech": "副詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunuhw",
-      "phonetic": "gunuh",
-      "part_of_speech": "名詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunwha",
-      "phonetic": "gunha",
-      "part_of_speech": "付詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunwhe",
-      "phonetic": "gunhe",
-      "part_of_speech": "動詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunwhi",
-      "phonetic": "gunhi",
-      "part_of_speech": "容詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunwho",
-      "phonetic": "gunho",
-      "part_of_speech": "助詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunwhu",
-      "phonetic": "gunhu",
-      "part_of_speech": "副詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gunwhw",
-      "phonetic": "gunh",
-      "part_of_speech": "名詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnaha",
-      "phonetic": "gnaha",
-      "part_of_speech": "付詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnahe",
-      "phonetic": "gnahe",
-      "part_of_speech": "動詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnahi",
-      "phonetic": "gnahi",
-      "part_of_speech": "容詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnaho",
-      "phonetic": "gnaho",
-      "part_of_speech": "助詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnahu",
-      "phonetic": "gnahu",
-      "part_of_speech": "副詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnahw",
-      "phonetic": "gnah",
-      "part_of_speech": "名詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwneha",
-      "phonetic": "gneha",
-      "part_of_speech": "付詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnehe",
-      "phonetic": "gnehe",
-      "part_of_speech": "動詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnehi",
-      "phonetic": "gnehi",
-      "part_of_speech": "容詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwneho",
-      "phonetic": "gneho",
-      "part_of_speech": "助詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnehu",
-      "phonetic": "gnehu",
-      "part_of_speech": "副詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnehw",
-      "phonetic": "gneh",
-      "part_of_speech": "名詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwniha",
-      "phonetic": "gniha",
-      "part_of_speech": "付詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnihe",
-      "phonetic": "gnihe",
-      "part_of_speech": "動詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnihi",
-      "phonetic": "gnihi",
-      "part_of_speech": "容詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwniho",
-      "phonetic": "gniho",
-      "part_of_speech": "助詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnihu",
-      "phonetic": "gnihu",
-      "part_of_speech": "副詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnihw",
-      "phonetic": "gnih",
-      "part_of_speech": "名詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnoha",
-      "phonetic": "gnoha",
-      "part_of_speech": "付詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnohe",
-      "phonetic": "gnohe",
-      "part_of_speech": "動詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnohi",
-      "phonetic": "gnohi",
-      "part_of_speech": "容詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnoho",
-      "phonetic": "gnoho",
-      "part_of_speech": "助詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnohu",
-      "phonetic": "gnohu",
-      "part_of_speech": "副詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnohw",
-      "phonetic": "gnoh",
-      "part_of_speech": "名詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnuha",
-      "phonetic": "gnuha",
-      "part_of_speech": "付詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnuhe",
-      "phonetic": "gnuhe",
-      "part_of_speech": "動詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnuhi",
-      "phonetic": "gnuhi",
-      "part_of_speech": "容詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnuho",
-      "phonetic": "gnuho",
-      "part_of_speech": "助詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnuhu",
-      "phonetic": "gnuhu",
-      "part_of_speech": "副詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnuhw",
-      "phonetic": "gnuh",
-      "part_of_speech": "名詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnwha",
-      "phonetic": "gnha",
-      "part_of_speech": "付詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnwhe",
-      "phonetic": "gnhe",
-      "part_of_speech": "動詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnwhi",
-      "phonetic": "gnhi",
-      "part_of_speech": "容詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnwho",
-      "phonetic": "gnho",
-      "part_of_speech": "助詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnwhu",
-      "phonetic": "gnhu",
-      "part_of_speech": "副詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "gwnwhw",
-      "phonetic": "gnh",
-      "part_of_speech": "名詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    }
-  ]
+    "words": [
+        {
+            "word": "ganaha",
+            "phonetic": "ganaha",
+            "part_of_speech": "付詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganahe",
+            "phonetic": "ganahe",
+            "part_of_speech": "動詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganahi",
+            "phonetic": "ganahi",
+            "part_of_speech": "容詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganaho",
+            "phonetic": "ganaho",
+            "part_of_speech": "助詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganahu",
+            "phonetic": "ganahu",
+            "part_of_speech": "副詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganahw",
+            "phonetic": "ganah",
+            "part_of_speech": "名詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganeha",
+            "phonetic": "ganeha",
+            "part_of_speech": "付詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganehe",
+            "phonetic": "ganehe",
+            "part_of_speech": "動詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganehi",
+            "phonetic": "ganehi",
+            "part_of_speech": "容詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganeho",
+            "phonetic": "ganeho",
+            "part_of_speech": "助詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganehu",
+            "phonetic": "ganehu",
+            "part_of_speech": "副詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganehw",
+            "phonetic": "ganeh",
+            "part_of_speech": "名詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganiha",
+            "phonetic": "ganiha",
+            "part_of_speech": "付詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganihe",
+            "phonetic": "ganihe",
+            "part_of_speech": "動詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganihi",
+            "phonetic": "ganihi",
+            "part_of_speech": "容詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganiho",
+            "phonetic": "ganiho",
+            "part_of_speech": "助詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganihu",
+            "phonetic": "ganihu",
+            "part_of_speech": "副詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganihw",
+            "phonetic": "ganih",
+            "part_of_speech": "名詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganoha",
+            "phonetic": "ganoha",
+            "part_of_speech": "付詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganohe",
+            "phonetic": "ganohe",
+            "part_of_speech": "動詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganohi",
+            "phonetic": "ganohi",
+            "part_of_speech": "容詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganoho",
+            "phonetic": "ganoho",
+            "part_of_speech": "助詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganohu",
+            "phonetic": "ganohu",
+            "part_of_speech": "副詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganohw",
+            "phonetic": "ganoh",
+            "part_of_speech": "名詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganuha",
+            "phonetic": "ganuha",
+            "part_of_speech": "付詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganuhe",
+            "phonetic": "ganuhe",
+            "part_of_speech": "動詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganuhi",
+            "phonetic": "ganuhi",
+            "part_of_speech": "容詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganuho",
+            "phonetic": "ganuho",
+            "part_of_speech": "助詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganuhu",
+            "phonetic": "ganuhu",
+            "part_of_speech": "副詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganuhw",
+            "phonetic": "ganuh",
+            "part_of_speech": "名詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganwha",
+            "phonetic": "ganha",
+            "part_of_speech": "付詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganwhe",
+            "phonetic": "ganhe",
+            "part_of_speech": "動詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganwhi",
+            "phonetic": "ganhi",
+            "part_of_speech": "容詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganwho",
+            "phonetic": "ganho",
+            "part_of_speech": "助詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganwhu",
+            "phonetic": "ganhu",
+            "part_of_speech": "副詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ganwhw",
+            "phonetic": "ganh",
+            "part_of_speech": "名詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genaha",
+            "phonetic": "genaha",
+            "part_of_speech": "付詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genahe",
+            "phonetic": "genahe",
+            "part_of_speech": "動詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genahi",
+            "phonetic": "genahi",
+            "part_of_speech": "容詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genaho",
+            "phonetic": "genaho",
+            "part_of_speech": "助詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genahu",
+            "phonetic": "genahu",
+            "part_of_speech": "副詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genahw",
+            "phonetic": "genah",
+            "part_of_speech": "名詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "geneha",
+            "phonetic": "geneha",
+            "part_of_speech": "付詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genehe",
+            "phonetic": "genehe",
+            "part_of_speech": "動詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genehi",
+            "phonetic": "genehi",
+            "part_of_speech": "容詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "geneho",
+            "phonetic": "geneho",
+            "part_of_speech": "助詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genehu",
+            "phonetic": "genehu",
+            "part_of_speech": "副詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genehw",
+            "phonetic": "geneh",
+            "part_of_speech": "名詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "geniha",
+            "phonetic": "geniha",
+            "part_of_speech": "付詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genihe",
+            "phonetic": "genihe",
+            "part_of_speech": "動詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genihi",
+            "phonetic": "genihi",
+            "part_of_speech": "容詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "geniho",
+            "phonetic": "geniho",
+            "part_of_speech": "助詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genihu",
+            "phonetic": "genihu",
+            "part_of_speech": "副詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genihw",
+            "phonetic": "genih",
+            "part_of_speech": "名詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genoha",
+            "phonetic": "genoha",
+            "part_of_speech": "付詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genohe",
+            "phonetic": "genohe",
+            "part_of_speech": "動詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genohi",
+            "phonetic": "genohi",
+            "part_of_speech": "容詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genoho",
+            "phonetic": "genoho",
+            "part_of_speech": "助詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genohu",
+            "phonetic": "genohu",
+            "part_of_speech": "副詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genohw",
+            "phonetic": "genoh",
+            "part_of_speech": "名詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genuha",
+            "phonetic": "genuha",
+            "part_of_speech": "付詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genuhe",
+            "phonetic": "genuhe",
+            "part_of_speech": "動詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genuhi",
+            "phonetic": "genuhi",
+            "part_of_speech": "容詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genuho",
+            "phonetic": "genuho",
+            "part_of_speech": "助詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genuhu",
+            "phonetic": "genuhu",
+            "part_of_speech": "副詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genuhw",
+            "phonetic": "genuh",
+            "part_of_speech": "名詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genwha",
+            "phonetic": "genha",
+            "part_of_speech": "付詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genwhe",
+            "phonetic": "genhe",
+            "part_of_speech": "動詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genwhi",
+            "phonetic": "genhi",
+            "part_of_speech": "容詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genwho",
+            "phonetic": "genho",
+            "part_of_speech": "助詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genwhu",
+            "phonetic": "genhu",
+            "part_of_speech": "副詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "genwhw",
+            "phonetic": "genh",
+            "part_of_speech": "名詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginaha",
+            "phonetic": "ginaha",
+            "part_of_speech": "付詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginahe",
+            "phonetic": "ginahe",
+            "part_of_speech": "動詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginahi",
+            "phonetic": "ginahi",
+            "part_of_speech": "容詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginaho",
+            "phonetic": "ginaho",
+            "part_of_speech": "助詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginahu",
+            "phonetic": "ginahu",
+            "part_of_speech": "副詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginahw",
+            "phonetic": "ginah",
+            "part_of_speech": "名詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gineha",
+            "phonetic": "gineha",
+            "part_of_speech": "付詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginehe",
+            "phonetic": "ginehe",
+            "part_of_speech": "動詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginehi",
+            "phonetic": "ginehi",
+            "part_of_speech": "容詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gineho",
+            "phonetic": "gineho",
+            "part_of_speech": "助詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginehu",
+            "phonetic": "ginehu",
+            "part_of_speech": "副詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginehw",
+            "phonetic": "gineh",
+            "part_of_speech": "名詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "giniha",
+            "phonetic": "giniha",
+            "part_of_speech": "付詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginihe",
+            "phonetic": "ginihe",
+            "part_of_speech": "動詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginihi",
+            "phonetic": "ginihi",
+            "part_of_speech": "容詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "giniho",
+            "phonetic": "giniho",
+            "part_of_speech": "助詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginihu",
+            "phonetic": "ginihu",
+            "part_of_speech": "副詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginihw",
+            "phonetic": "ginih",
+            "part_of_speech": "名詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginoha",
+            "phonetic": "ginoha",
+            "part_of_speech": "付詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginohe",
+            "phonetic": "ginohe",
+            "part_of_speech": "動詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginohi",
+            "phonetic": "ginohi",
+            "part_of_speech": "容詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginoho",
+            "phonetic": "ginoho",
+            "part_of_speech": "助詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginohu",
+            "phonetic": "ginohu",
+            "part_of_speech": "副詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginohw",
+            "phonetic": "ginoh",
+            "part_of_speech": "名詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginuha",
+            "phonetic": "ginuha",
+            "part_of_speech": "付詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginuhe",
+            "phonetic": "ginuhe",
+            "part_of_speech": "動詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginuhi",
+            "phonetic": "ginuhi",
+            "part_of_speech": "容詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginuho",
+            "phonetic": "ginuho",
+            "part_of_speech": "助詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginuhu",
+            "phonetic": "ginuhu",
+            "part_of_speech": "副詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginuhw",
+            "phonetic": "ginuh",
+            "part_of_speech": "名詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginwha",
+            "phonetic": "ginha",
+            "part_of_speech": "付詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginwhe",
+            "phonetic": "ginhe",
+            "part_of_speech": "動詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginwhi",
+            "phonetic": "ginhi",
+            "part_of_speech": "容詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginwho",
+            "phonetic": "ginho",
+            "part_of_speech": "助詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginwhu",
+            "phonetic": "ginhu",
+            "part_of_speech": "副詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "ginwhw",
+            "phonetic": "ginh",
+            "part_of_speech": "名詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonaha",
+            "phonetic": "gonaha",
+            "part_of_speech": "付詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonahe",
+            "phonetic": "gonahe",
+            "part_of_speech": "動詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonahi",
+            "phonetic": "gonahi",
+            "part_of_speech": "容詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonaho",
+            "phonetic": "gonaho",
+            "part_of_speech": "助詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonahu",
+            "phonetic": "gonahu",
+            "part_of_speech": "副詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonahw",
+            "phonetic": "gonah",
+            "part_of_speech": "名詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "goneha",
+            "phonetic": "goneha",
+            "part_of_speech": "付詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonehe",
+            "phonetic": "gonehe",
+            "part_of_speech": "動詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonehi",
+            "phonetic": "gonehi",
+            "part_of_speech": "容詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "goneho",
+            "phonetic": "goneho",
+            "part_of_speech": "助詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonehu",
+            "phonetic": "gonehu",
+            "part_of_speech": "副詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonehw",
+            "phonetic": "goneh",
+            "part_of_speech": "名詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "goniha",
+            "phonetic": "goniha",
+            "part_of_speech": "付詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonihe",
+            "phonetic": "gonihe",
+            "part_of_speech": "動詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonihi",
+            "phonetic": "gonihi",
+            "part_of_speech": "容詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "goniho",
+            "phonetic": "goniho",
+            "part_of_speech": "助詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonihu",
+            "phonetic": "gonihu",
+            "part_of_speech": "副詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonihw",
+            "phonetic": "gonih",
+            "part_of_speech": "名詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonoha",
+            "phonetic": "gonoha",
+            "part_of_speech": "付詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonohe",
+            "phonetic": "gonohe",
+            "part_of_speech": "動詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonohi",
+            "phonetic": "gonohi",
+            "part_of_speech": "容詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonoho",
+            "phonetic": "gonoho",
+            "part_of_speech": "助詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonohu",
+            "phonetic": "gonohu",
+            "part_of_speech": "副詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonohw",
+            "phonetic": "gonoh",
+            "part_of_speech": "名詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonuha",
+            "phonetic": "gonuha",
+            "part_of_speech": "付詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonuhe",
+            "phonetic": "gonuhe",
+            "part_of_speech": "動詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonuhi",
+            "phonetic": "gonuhi",
+            "part_of_speech": "容詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonuho",
+            "phonetic": "gonuho",
+            "part_of_speech": "助詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonuhu",
+            "phonetic": "gonuhu",
+            "part_of_speech": "副詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonuhw",
+            "phonetic": "gonuh",
+            "part_of_speech": "名詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonwha",
+            "phonetic": "gonha",
+            "part_of_speech": "付詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonwhe",
+            "phonetic": "gonhe",
+            "part_of_speech": "動詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonwhi",
+            "phonetic": "gonhi",
+            "part_of_speech": "容詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonwho",
+            "phonetic": "gonho",
+            "part_of_speech": "助詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonwhu",
+            "phonetic": "gonhu",
+            "part_of_speech": "副詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gonwhw",
+            "phonetic": "gonh",
+            "part_of_speech": "名詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunaha",
+            "phonetic": "gunaha",
+            "part_of_speech": "付詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunahe",
+            "phonetic": "gunahe",
+            "part_of_speech": "動詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunahi",
+            "phonetic": "gunahi",
+            "part_of_speech": "容詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunaho",
+            "phonetic": "gunaho",
+            "part_of_speech": "助詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunahu",
+            "phonetic": "gunahu",
+            "part_of_speech": "副詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunahw",
+            "phonetic": "gunah",
+            "part_of_speech": "名詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "guneha",
+            "phonetic": "guneha",
+            "part_of_speech": "付詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunehe",
+            "phonetic": "gunehe",
+            "part_of_speech": "動詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunehi",
+            "phonetic": "gunehi",
+            "part_of_speech": "容詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "guneho",
+            "phonetic": "guneho",
+            "part_of_speech": "助詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunehu",
+            "phonetic": "gunehu",
+            "part_of_speech": "副詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunehw",
+            "phonetic": "guneh",
+            "part_of_speech": "名詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "guniha",
+            "phonetic": "guniha",
+            "part_of_speech": "付詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunihe",
+            "phonetic": "gunihe",
+            "part_of_speech": "動詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunihi",
+            "phonetic": "gunihi",
+            "part_of_speech": "容詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "guniho",
+            "phonetic": "guniho",
+            "part_of_speech": "助詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunihu",
+            "phonetic": "gunihu",
+            "part_of_speech": "副詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunihw",
+            "phonetic": "gunih",
+            "part_of_speech": "名詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunoha",
+            "phonetic": "gunoha",
+            "part_of_speech": "付詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunohe",
+            "phonetic": "gunohe",
+            "part_of_speech": "動詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunohi",
+            "phonetic": "gunohi",
+            "part_of_speech": "容詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunoho",
+            "phonetic": "gunoho",
+            "part_of_speech": "助詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunohu",
+            "phonetic": "gunohu",
+            "part_of_speech": "副詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunohw",
+            "phonetic": "gunoh",
+            "part_of_speech": "名詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunuha",
+            "phonetic": "gunuha",
+            "part_of_speech": "付詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunuhe",
+            "phonetic": "gunuhe",
+            "part_of_speech": "動詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunuhi",
+            "phonetic": "gunuhi",
+            "part_of_speech": "容詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunuho",
+            "phonetic": "gunuho",
+            "part_of_speech": "助詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunuhu",
+            "phonetic": "gunuhu",
+            "part_of_speech": "副詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunuhw",
+            "phonetic": "gunuh",
+            "part_of_speech": "名詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunwha",
+            "phonetic": "gunha",
+            "part_of_speech": "付詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunwhe",
+            "phonetic": "gunhe",
+            "part_of_speech": "動詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunwhi",
+            "phonetic": "gunhi",
+            "part_of_speech": "容詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunwho",
+            "phonetic": "gunho",
+            "part_of_speech": "助詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunwhu",
+            "phonetic": "gunhu",
+            "part_of_speech": "副詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gunwhw",
+            "phonetic": "gunh",
+            "part_of_speech": "名詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnaha",
+            "phonetic": "gnaha",
+            "part_of_speech": "付詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnahe",
+            "phonetic": "gnahe",
+            "part_of_speech": "動詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnahi",
+            "phonetic": "gnahi",
+            "part_of_speech": "容詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnaho",
+            "phonetic": "gnaho",
+            "part_of_speech": "助詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnahu",
+            "phonetic": "gnahu",
+            "part_of_speech": "副詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnahw",
+            "phonetic": "gnah",
+            "part_of_speech": "名詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwneha",
+            "phonetic": "gneha",
+            "part_of_speech": "付詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnehe",
+            "phonetic": "gnehe",
+            "part_of_speech": "動詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnehi",
+            "phonetic": "gnehi",
+            "part_of_speech": "容詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwneho",
+            "phonetic": "gneho",
+            "part_of_speech": "助詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnehu",
+            "phonetic": "gnehu",
+            "part_of_speech": "副詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnehw",
+            "phonetic": "gneh",
+            "part_of_speech": "名詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwniha",
+            "phonetic": "gniha",
+            "part_of_speech": "付詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnihe",
+            "phonetic": "gnihe",
+            "part_of_speech": "動詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnihi",
+            "phonetic": "gnihi",
+            "part_of_speech": "容詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwniho",
+            "phonetic": "gniho",
+            "part_of_speech": "助詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnihu",
+            "phonetic": "gnihu",
+            "part_of_speech": "副詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnihw",
+            "phonetic": "gnih",
+            "part_of_speech": "名詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnoha",
+            "phonetic": "gnoha",
+            "part_of_speech": "付詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnohe",
+            "phonetic": "gnohe",
+            "part_of_speech": "動詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnohi",
+            "phonetic": "gnohi",
+            "part_of_speech": "容詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnoho",
+            "phonetic": "gnoho",
+            "part_of_speech": "助詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnohu",
+            "phonetic": "gnohu",
+            "part_of_speech": "副詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnohw",
+            "phonetic": "gnoh",
+            "part_of_speech": "名詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnuha",
+            "phonetic": "gnuha",
+            "part_of_speech": "付詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnuhe",
+            "phonetic": "gnuhe",
+            "part_of_speech": "動詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnuhi",
+            "phonetic": "gnuhi",
+            "part_of_speech": "容詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnuho",
+            "phonetic": "gnuho",
+            "part_of_speech": "助詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnuhu",
+            "phonetic": "gnuhu",
+            "part_of_speech": "副詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnuhw",
+            "phonetic": "gnuh",
+            "part_of_speech": "名詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnwha",
+            "phonetic": "gnha",
+            "part_of_speech": "付詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnwhe",
+            "phonetic": "gnhe",
+            "part_of_speech": "動詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnwhi",
+            "phonetic": "gnhi",
+            "part_of_speech": "容詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnwho",
+            "phonetic": "gnho",
+            "part_of_speech": "助詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnwhu",
+            "phonetic": "gnhu",
+            "part_of_speech": "副詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "gwnwhw",
+            "phonetic": "gnh",
+            "part_of_speech": "名詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        }
+    ]
 }

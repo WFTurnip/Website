@@ -1,1516 +1,1516 @@
 {
-  "words": [
-    {
-      "word": "hasaha",
-      "phonetic": "hasaha",
-      "part_of_speech": "付詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasahe",
-      "phonetic": "hasahe",
-      "part_of_speech": "動詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasahi",
-      "phonetic": "hasahi",
-      "part_of_speech": "容詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasaho",
-      "phonetic": "hasaho",
-      "part_of_speech": "助詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasahu",
-      "phonetic": "hasahu",
-      "part_of_speech": "副詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasahw",
-      "phonetic": "hasah",
-      "part_of_speech": "名詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haseha",
-      "phonetic": "haseha",
-      "part_of_speech": "付詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasehe",
-      "phonetic": "hasehe",
-      "part_of_speech": "動詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasehi",
-      "phonetic": "hasehi",
-      "part_of_speech": "容詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haseho",
-      "phonetic": "haseho",
-      "part_of_speech": "助詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasehu",
-      "phonetic": "hasehu",
-      "part_of_speech": "副詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasehw",
-      "phonetic": "haseh",
-      "part_of_speech": "名詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasiha",
-      "phonetic": "hasiha",
-      "part_of_speech": "付詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasihe",
-      "phonetic": "hasihe",
-      "part_of_speech": "動詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasihi",
-      "phonetic": "hasihi",
-      "part_of_speech": "容詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasiho",
-      "phonetic": "hasiho",
-      "part_of_speech": "助詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasihu",
-      "phonetic": "hasihu",
-      "part_of_speech": "副詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasihw",
-      "phonetic": "hasih",
-      "part_of_speech": "名詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasoha",
-      "phonetic": "hasoha",
-      "part_of_speech": "付詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasohe",
-      "phonetic": "hasohe",
-      "part_of_speech": "動詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasohi",
-      "phonetic": "hasohi",
-      "part_of_speech": "容詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasoho",
-      "phonetic": "hasoho",
-      "part_of_speech": "助詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasohu",
-      "phonetic": "hasohu",
-      "part_of_speech": "副詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasohw",
-      "phonetic": "hasoh",
-      "part_of_speech": "名詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasuha",
-      "phonetic": "hasuha",
-      "part_of_speech": "付詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasuhe",
-      "phonetic": "hasuhe",
-      "part_of_speech": "動詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasuhi",
-      "phonetic": "hasuhi",
-      "part_of_speech": "容詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasuho",
-      "phonetic": "hasuho",
-      "part_of_speech": "助詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasuhu",
-      "phonetic": "hasuhu",
-      "part_of_speech": "副詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hasuhw",
-      "phonetic": "hasuh",
-      "part_of_speech": "名詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haswha",
-      "phonetic": "hasha",
-      "part_of_speech": "付詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haswhe",
-      "phonetic": "hashe",
-      "part_of_speech": "動詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haswhi",
-      "phonetic": "hashi",
-      "part_of_speech": "容詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haswho",
-      "phonetic": "hasho",
-      "part_of_speech": "助詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haswhu",
-      "phonetic": "hashu",
-      "part_of_speech": "副詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "haswhw",
-      "phonetic": "hash",
-      "part_of_speech": "名詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesaha",
-      "phonetic": "hesaha",
-      "part_of_speech": "付詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesahe",
-      "phonetic": "hesahe",
-      "part_of_speech": "動詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesahi",
-      "phonetic": "hesahi",
-      "part_of_speech": "容詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesaho",
-      "phonetic": "hesaho",
-      "part_of_speech": "助詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesahu",
-      "phonetic": "hesahu",
-      "part_of_speech": "副詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesahw",
-      "phonetic": "hesah",
-      "part_of_speech": "名詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heseha",
-      "phonetic": "heseha",
-      "part_of_speech": "付詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesehe",
-      "phonetic": "hesehe",
-      "part_of_speech": "動詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesehi",
-      "phonetic": "hesehi",
-      "part_of_speech": "容詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heseho",
-      "phonetic": "heseho",
-      "part_of_speech": "助詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesehu",
-      "phonetic": "hesehu",
-      "part_of_speech": "副詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesehw",
-      "phonetic": "heseh",
-      "part_of_speech": "名詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesiha",
-      "phonetic": "hesiha",
-      "part_of_speech": "付詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesihe",
-      "phonetic": "hesihe",
-      "part_of_speech": "動詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesihi",
-      "phonetic": "hesihi",
-      "part_of_speech": "容詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesiho",
-      "phonetic": "hesiho",
-      "part_of_speech": "助詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesihu",
-      "phonetic": "hesihu",
-      "part_of_speech": "副詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesihw",
-      "phonetic": "hesih",
-      "part_of_speech": "名詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesoha",
-      "phonetic": "hesoha",
-      "part_of_speech": "付詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesohe",
-      "phonetic": "hesohe",
-      "part_of_speech": "動詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesohi",
-      "phonetic": "hesohi",
-      "part_of_speech": "容詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesoho",
-      "phonetic": "hesoho",
-      "part_of_speech": "助詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesohu",
-      "phonetic": "hesohu",
-      "part_of_speech": "副詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesohw",
-      "phonetic": "hesoh",
-      "part_of_speech": "名詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesuha",
-      "phonetic": "hesuha",
-      "part_of_speech": "付詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesuhe",
-      "phonetic": "hesuhe",
-      "part_of_speech": "動詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesuhi",
-      "phonetic": "hesuhi",
-      "part_of_speech": "容詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesuho",
-      "phonetic": "hesuho",
-      "part_of_speech": "助詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesuhu",
-      "phonetic": "hesuhu",
-      "part_of_speech": "副詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hesuhw",
-      "phonetic": "hesuh",
-      "part_of_speech": "名詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heswha",
-      "phonetic": "hesha",
-      "part_of_speech": "付詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heswhe",
-      "phonetic": "heshe",
-      "part_of_speech": "動詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heswhi",
-      "phonetic": "heshi",
-      "part_of_speech": "容詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heswho",
-      "phonetic": "hesho",
-      "part_of_speech": "助詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heswhu",
-      "phonetic": "heshu",
-      "part_of_speech": "副詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "heswhw",
-      "phonetic": "hesh",
-      "part_of_speech": "名詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisaha",
-      "phonetic": "hisaha",
-      "part_of_speech": "付詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisahe",
-      "phonetic": "hisahe",
-      "part_of_speech": "動詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisahi",
-      "phonetic": "hisahi",
-      "part_of_speech": "容詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisaho",
-      "phonetic": "hisaho",
-      "part_of_speech": "助詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisahu",
-      "phonetic": "hisahu",
-      "part_of_speech": "副詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisahw",
-      "phonetic": "hisah",
-      "part_of_speech": "名詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiseha",
-      "phonetic": "hiseha",
-      "part_of_speech": "付詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisehe",
-      "phonetic": "hisehe",
-      "part_of_speech": "動詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisehi",
-      "phonetic": "hisehi",
-      "part_of_speech": "容詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiseho",
-      "phonetic": "hiseho",
-      "part_of_speech": "助詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisehu",
-      "phonetic": "hisehu",
-      "part_of_speech": "副詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisehw",
-      "phonetic": "hiseh",
-      "part_of_speech": "名詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisiha",
-      "phonetic": "hisiha",
-      "part_of_speech": "付詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisihe",
-      "phonetic": "hisihe",
-      "part_of_speech": "動詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisihi",
-      "phonetic": "hisihi",
-      "part_of_speech": "容詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisiho",
-      "phonetic": "hisiho",
-      "part_of_speech": "助詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisihu",
-      "phonetic": "hisihu",
-      "part_of_speech": "副詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisihw",
-      "phonetic": "hisih",
-      "part_of_speech": "名詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisoha",
-      "phonetic": "hisoha",
-      "part_of_speech": "付詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisohe",
-      "phonetic": "hisohe",
-      "part_of_speech": "動詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisohi",
-      "phonetic": "hisohi",
-      "part_of_speech": "容詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisoho",
-      "phonetic": "hisoho",
-      "part_of_speech": "助詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisohu",
-      "phonetic": "hisohu",
-      "part_of_speech": "副詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisohw",
-      "phonetic": "hisoh",
-      "part_of_speech": "名詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisuha",
-      "phonetic": "hisuha",
-      "part_of_speech": "付詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisuhe",
-      "phonetic": "hisuhe",
-      "part_of_speech": "動詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisuhi",
-      "phonetic": "hisuhi",
-      "part_of_speech": "容詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisuho",
-      "phonetic": "hisuho",
-      "part_of_speech": "助詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisuhu",
-      "phonetic": "hisuhu",
-      "part_of_speech": "副詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hisuhw",
-      "phonetic": "hisuh",
-      "part_of_speech": "名詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiswha",
-      "phonetic": "hisha",
-      "part_of_speech": "付詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiswhe",
-      "phonetic": "hishe",
-      "part_of_speech": "動詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiswhi",
-      "phonetic": "hishi",
-      "part_of_speech": "容詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiswho",
-      "phonetic": "hisho",
-      "part_of_speech": "助詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiswhu",
-      "phonetic": "hishu",
-      "part_of_speech": "副詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hiswhw",
-      "phonetic": "hish",
-      "part_of_speech": "名詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosaha",
-      "phonetic": "hosaha",
-      "part_of_speech": "付詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosahe",
-      "phonetic": "hosahe",
-      "part_of_speech": "動詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosahi",
-      "phonetic": "hosahi",
-      "part_of_speech": "容詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosaho",
-      "phonetic": "hosaho",
-      "part_of_speech": "助詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosahu",
-      "phonetic": "hosahu",
-      "part_of_speech": "副詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosahw",
-      "phonetic": "hosah",
-      "part_of_speech": "名詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoseha",
-      "phonetic": "hoseha",
-      "part_of_speech": "付詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosehe",
-      "phonetic": "hosehe",
-      "part_of_speech": "動詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosehi",
-      "phonetic": "hosehi",
-      "part_of_speech": "容詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoseho",
-      "phonetic": "hoseho",
-      "part_of_speech": "助詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosehu",
-      "phonetic": "hosehu",
-      "part_of_speech": "副詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosehw",
-      "phonetic": "hoseh",
-      "part_of_speech": "名詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosiha",
-      "phonetic": "hosiha",
-      "part_of_speech": "付詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosihe",
-      "phonetic": "hosihe",
-      "part_of_speech": "動詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosihi",
-      "phonetic": "hosihi",
-      "part_of_speech": "容詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosiho",
-      "phonetic": "hosiho",
-      "part_of_speech": "助詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosihu",
-      "phonetic": "hosihu",
-      "part_of_speech": "副詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosihw",
-      "phonetic": "hosih",
-      "part_of_speech": "名詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosoha",
-      "phonetic": "hosoha",
-      "part_of_speech": "付詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosohe",
-      "phonetic": "hosohe",
-      "part_of_speech": "動詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosohi",
-      "phonetic": "hosohi",
-      "part_of_speech": "容詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosoho",
-      "phonetic": "hosoho",
-      "part_of_speech": "助詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosohu",
-      "phonetic": "hosohu",
-      "part_of_speech": "副詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosohw",
-      "phonetic": "hosoh",
-      "part_of_speech": "名詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosuha",
-      "phonetic": "hosuha",
-      "part_of_speech": "付詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosuhe",
-      "phonetic": "hosuhe",
-      "part_of_speech": "動詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosuhi",
-      "phonetic": "hosuhi",
-      "part_of_speech": "容詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosuho",
-      "phonetic": "hosuho",
-      "part_of_speech": "助詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosuhu",
-      "phonetic": "hosuhu",
-      "part_of_speech": "副詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hosuhw",
-      "phonetic": "hosuh",
-      "part_of_speech": "名詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoswha",
-      "phonetic": "hosha",
-      "part_of_speech": "付詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoswhe",
-      "phonetic": "hoshe",
-      "part_of_speech": "動詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoswhi",
-      "phonetic": "hoshi",
-      "part_of_speech": "容詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoswho",
-      "phonetic": "hosho",
-      "part_of_speech": "助詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoswhu",
-      "phonetic": "hoshu",
-      "part_of_speech": "副詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hoswhw",
-      "phonetic": "hosh",
-      "part_of_speech": "名詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husaha",
-      "phonetic": "husaha",
-      "part_of_speech": "付詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husahe",
-      "phonetic": "husahe",
-      "part_of_speech": "動詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husahi",
-      "phonetic": "husahi",
-      "part_of_speech": "容詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husaho",
-      "phonetic": "husaho",
-      "part_of_speech": "助詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husahu",
-      "phonetic": "husahu",
-      "part_of_speech": "副詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husahw",
-      "phonetic": "husah",
-      "part_of_speech": "名詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huseha",
-      "phonetic": "huseha",
-      "part_of_speech": "付詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husehe",
-      "phonetic": "husehe",
-      "part_of_speech": "動詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husehi",
-      "phonetic": "husehi",
-      "part_of_speech": "容詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huseho",
-      "phonetic": "huseho",
-      "part_of_speech": "助詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husehu",
-      "phonetic": "husehu",
-      "part_of_speech": "副詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husehw",
-      "phonetic": "huseh",
-      "part_of_speech": "名詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husiha",
-      "phonetic": "husiha",
-      "part_of_speech": "付詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husihe",
-      "phonetic": "husihe",
-      "part_of_speech": "動詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husihi",
-      "phonetic": "husihi",
-      "part_of_speech": "容詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husiho",
-      "phonetic": "husiho",
-      "part_of_speech": "助詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husihu",
-      "phonetic": "husihu",
-      "part_of_speech": "副詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husihw",
-      "phonetic": "husih",
-      "part_of_speech": "名詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husoha",
-      "phonetic": "husoha",
-      "part_of_speech": "付詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husohe",
-      "phonetic": "husohe",
-      "part_of_speech": "動詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husohi",
-      "phonetic": "husohi",
-      "part_of_speech": "容詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husoho",
-      "phonetic": "husoho",
-      "part_of_speech": "助詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husohu",
-      "phonetic": "husohu",
-      "part_of_speech": "副詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husohw",
-      "phonetic": "husoh",
-      "part_of_speech": "名詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husuha",
-      "phonetic": "husuha",
-      "part_of_speech": "付詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husuhe",
-      "phonetic": "husuhe",
-      "part_of_speech": "動詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husuhi",
-      "phonetic": "husuhi",
-      "part_of_speech": "容詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husuho",
-      "phonetic": "husuho",
-      "part_of_speech": "助詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husuhu",
-      "phonetic": "husuhu",
-      "part_of_speech": "副詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "husuhw",
-      "phonetic": "husuh",
-      "part_of_speech": "名詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huswha",
-      "phonetic": "husha",
-      "part_of_speech": "付詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huswhe",
-      "phonetic": "hushe",
-      "part_of_speech": "動詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huswhi",
-      "phonetic": "hushi",
-      "part_of_speech": "容詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huswho",
-      "phonetic": "husho",
-      "part_of_speech": "助詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huswhu",
-      "phonetic": "hushu",
-      "part_of_speech": "副詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "huswhw",
-      "phonetic": "hush",
-      "part_of_speech": "名詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsaha",
-      "phonetic": "hsaha",
-      "part_of_speech": "付詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsahe",
-      "phonetic": "hsahe",
-      "part_of_speech": "動詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsahi",
-      "phonetic": "hsahi",
-      "part_of_speech": "容詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsaho",
-      "phonetic": "hsaho",
-      "part_of_speech": "助詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsahu",
-      "phonetic": "hsahu",
-      "part_of_speech": "副詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsahw",
-      "phonetic": "hsah",
-      "part_of_speech": "名詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwseha",
-      "phonetic": "hseha",
-      "part_of_speech": "付詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsehe",
-      "phonetic": "hsehe",
-      "part_of_speech": "動詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsehi",
-      "phonetic": "hsehi",
-      "part_of_speech": "容詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwseho",
-      "phonetic": "hseho",
-      "part_of_speech": "助詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsehu",
-      "phonetic": "hsehu",
-      "part_of_speech": "副詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsehw",
-      "phonetic": "hseh",
-      "part_of_speech": "名詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsiha",
-      "phonetic": "hsiha",
-      "part_of_speech": "付詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsihe",
-      "phonetic": "hsihe",
-      "part_of_speech": "動詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsihi",
-      "phonetic": "hsihi",
-      "part_of_speech": "容詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsiho",
-      "phonetic": "hsiho",
-      "part_of_speech": "助詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsihu",
-      "phonetic": "hsihu",
-      "part_of_speech": "副詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsihw",
-      "phonetic": "hsih",
-      "part_of_speech": "名詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsoha",
-      "phonetic": "hsoha",
-      "part_of_speech": "付詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsohe",
-      "phonetic": "hsohe",
-      "part_of_speech": "動詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsohi",
-      "phonetic": "hsohi",
-      "part_of_speech": "容詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsoho",
-      "phonetic": "hsoho",
-      "part_of_speech": "助詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsohu",
-      "phonetic": "hsohu",
-      "part_of_speech": "副詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsohw",
-      "phonetic": "hsoh",
-      "part_of_speech": "名詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsuha",
-      "phonetic": "hsuha",
-      "part_of_speech": "付詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsuhe",
-      "phonetic": "hsuhe",
-      "part_of_speech": "動詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsuhi",
-      "phonetic": "hsuhi",
-      "part_of_speech": "容詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsuho",
-      "phonetic": "hsuho",
-      "part_of_speech": "助詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsuhu",
-      "phonetic": "hsuhu",
-      "part_of_speech": "副詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwsuhw",
-      "phonetic": "hsuh",
-      "part_of_speech": "名詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwswha",
-      "phonetic": "hsha",
-      "part_of_speech": "付詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwswhe",
-      "phonetic": "hshe",
-      "part_of_speech": "動詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwswhi",
-      "phonetic": "hshi",
-      "part_of_speech": "容詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwswho",
-      "phonetic": "hsho",
-      "part_of_speech": "助詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwswhu",
-      "phonetic": "hshu",
-      "part_of_speech": "副詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "hwswhw",
-      "phonetic": "hsh",
-      "part_of_speech": "名詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    }
-  ]
+    "words": [
+        {
+            "word": "hasaha",
+            "phonetic": "hasaha",
+            "part_of_speech": "付詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasahe",
+            "phonetic": "hasahe",
+            "part_of_speech": "動詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasahi",
+            "phonetic": "hasahi",
+            "part_of_speech": "容詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasaho",
+            "phonetic": "hasaho",
+            "part_of_speech": "助詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasahu",
+            "phonetic": "hasahu",
+            "part_of_speech": "副詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasahw",
+            "phonetic": "hasah",
+            "part_of_speech": "名詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haseha",
+            "phonetic": "haseha",
+            "part_of_speech": "付詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasehe",
+            "phonetic": "hasehe",
+            "part_of_speech": "動詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasehi",
+            "phonetic": "hasehi",
+            "part_of_speech": "容詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haseho",
+            "phonetic": "haseho",
+            "part_of_speech": "助詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasehu",
+            "phonetic": "hasehu",
+            "part_of_speech": "副詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasehw",
+            "phonetic": "haseh",
+            "part_of_speech": "名詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasiha",
+            "phonetic": "hasiha",
+            "part_of_speech": "付詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasihe",
+            "phonetic": "hasihe",
+            "part_of_speech": "動詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasihi",
+            "phonetic": "hasihi",
+            "part_of_speech": "容詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasiho",
+            "phonetic": "hasiho",
+            "part_of_speech": "助詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasihu",
+            "phonetic": "hasihu",
+            "part_of_speech": "副詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasihw",
+            "phonetic": "hasih",
+            "part_of_speech": "名詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasoha",
+            "phonetic": "hasoha",
+            "part_of_speech": "付詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasohe",
+            "phonetic": "hasohe",
+            "part_of_speech": "動詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasohi",
+            "phonetic": "hasohi",
+            "part_of_speech": "容詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasoho",
+            "phonetic": "hasoho",
+            "part_of_speech": "助詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasohu",
+            "phonetic": "hasohu",
+            "part_of_speech": "副詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasohw",
+            "phonetic": "hasoh",
+            "part_of_speech": "名詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasuha",
+            "phonetic": "hasuha",
+            "part_of_speech": "付詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasuhe",
+            "phonetic": "hasuhe",
+            "part_of_speech": "動詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasuhi",
+            "phonetic": "hasuhi",
+            "part_of_speech": "容詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasuho",
+            "phonetic": "hasuho",
+            "part_of_speech": "助詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasuhu",
+            "phonetic": "hasuhu",
+            "part_of_speech": "副詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hasuhw",
+            "phonetic": "hasuh",
+            "part_of_speech": "名詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haswha",
+            "phonetic": "hasha",
+            "part_of_speech": "付詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haswhe",
+            "phonetic": "hashe",
+            "part_of_speech": "動詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haswhi",
+            "phonetic": "hashi",
+            "part_of_speech": "容詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haswho",
+            "phonetic": "hasho",
+            "part_of_speech": "助詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haswhu",
+            "phonetic": "hashu",
+            "part_of_speech": "副詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "haswhw",
+            "phonetic": "hash",
+            "part_of_speech": "名詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesaha",
+            "phonetic": "hesaha",
+            "part_of_speech": "付詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesahe",
+            "phonetic": "hesahe",
+            "part_of_speech": "動詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesahi",
+            "phonetic": "hesahi",
+            "part_of_speech": "容詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesaho",
+            "phonetic": "hesaho",
+            "part_of_speech": "助詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesahu",
+            "phonetic": "hesahu",
+            "part_of_speech": "副詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesahw",
+            "phonetic": "hesah",
+            "part_of_speech": "名詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heseha",
+            "phonetic": "heseha",
+            "part_of_speech": "付詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesehe",
+            "phonetic": "hesehe",
+            "part_of_speech": "動詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesehi",
+            "phonetic": "hesehi",
+            "part_of_speech": "容詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heseho",
+            "phonetic": "heseho",
+            "part_of_speech": "助詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesehu",
+            "phonetic": "hesehu",
+            "part_of_speech": "副詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesehw",
+            "phonetic": "heseh",
+            "part_of_speech": "名詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesiha",
+            "phonetic": "hesiha",
+            "part_of_speech": "付詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesihe",
+            "phonetic": "hesihe",
+            "part_of_speech": "動詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesihi",
+            "phonetic": "hesihi",
+            "part_of_speech": "容詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesiho",
+            "phonetic": "hesiho",
+            "part_of_speech": "助詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesihu",
+            "phonetic": "hesihu",
+            "part_of_speech": "副詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesihw",
+            "phonetic": "hesih",
+            "part_of_speech": "名詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesoha",
+            "phonetic": "hesoha",
+            "part_of_speech": "付詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesohe",
+            "phonetic": "hesohe",
+            "part_of_speech": "動詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesohi",
+            "phonetic": "hesohi",
+            "part_of_speech": "容詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesoho",
+            "phonetic": "hesoho",
+            "part_of_speech": "助詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesohu",
+            "phonetic": "hesohu",
+            "part_of_speech": "副詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesohw",
+            "phonetic": "hesoh",
+            "part_of_speech": "名詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesuha",
+            "phonetic": "hesuha",
+            "part_of_speech": "付詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesuhe",
+            "phonetic": "hesuhe",
+            "part_of_speech": "動詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesuhi",
+            "phonetic": "hesuhi",
+            "part_of_speech": "容詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesuho",
+            "phonetic": "hesuho",
+            "part_of_speech": "助詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesuhu",
+            "phonetic": "hesuhu",
+            "part_of_speech": "副詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hesuhw",
+            "phonetic": "hesuh",
+            "part_of_speech": "名詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heswha",
+            "phonetic": "hesha",
+            "part_of_speech": "付詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heswhe",
+            "phonetic": "heshe",
+            "part_of_speech": "動詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heswhi",
+            "phonetic": "heshi",
+            "part_of_speech": "容詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heswho",
+            "phonetic": "hesho",
+            "part_of_speech": "助詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heswhu",
+            "phonetic": "heshu",
+            "part_of_speech": "副詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "heswhw",
+            "phonetic": "hesh",
+            "part_of_speech": "名詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisaha",
+            "phonetic": "hisaha",
+            "part_of_speech": "付詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisahe",
+            "phonetic": "hisahe",
+            "part_of_speech": "動詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisahi",
+            "phonetic": "hisahi",
+            "part_of_speech": "容詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisaho",
+            "phonetic": "hisaho",
+            "part_of_speech": "助詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisahu",
+            "phonetic": "hisahu",
+            "part_of_speech": "副詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisahw",
+            "phonetic": "hisah",
+            "part_of_speech": "名詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiseha",
+            "phonetic": "hiseha",
+            "part_of_speech": "付詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisehe",
+            "phonetic": "hisehe",
+            "part_of_speech": "動詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisehi",
+            "phonetic": "hisehi",
+            "part_of_speech": "容詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiseho",
+            "phonetic": "hiseho",
+            "part_of_speech": "助詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisehu",
+            "phonetic": "hisehu",
+            "part_of_speech": "副詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisehw",
+            "phonetic": "hiseh",
+            "part_of_speech": "名詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisiha",
+            "phonetic": "hisiha",
+            "part_of_speech": "付詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisihe",
+            "phonetic": "hisihe",
+            "part_of_speech": "動詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisihi",
+            "phonetic": "hisihi",
+            "part_of_speech": "容詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisiho",
+            "phonetic": "hisiho",
+            "part_of_speech": "助詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisihu",
+            "phonetic": "hisihu",
+            "part_of_speech": "副詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisihw",
+            "phonetic": "hisih",
+            "part_of_speech": "名詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisoha",
+            "phonetic": "hisoha",
+            "part_of_speech": "付詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisohe",
+            "phonetic": "hisohe",
+            "part_of_speech": "動詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisohi",
+            "phonetic": "hisohi",
+            "part_of_speech": "容詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisoho",
+            "phonetic": "hisoho",
+            "part_of_speech": "助詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisohu",
+            "phonetic": "hisohu",
+            "part_of_speech": "副詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisohw",
+            "phonetic": "hisoh",
+            "part_of_speech": "名詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisuha",
+            "phonetic": "hisuha",
+            "part_of_speech": "付詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisuhe",
+            "phonetic": "hisuhe",
+            "part_of_speech": "動詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisuhi",
+            "phonetic": "hisuhi",
+            "part_of_speech": "容詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisuho",
+            "phonetic": "hisuho",
+            "part_of_speech": "助詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisuhu",
+            "phonetic": "hisuhu",
+            "part_of_speech": "副詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hisuhw",
+            "phonetic": "hisuh",
+            "part_of_speech": "名詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiswha",
+            "phonetic": "hisha",
+            "part_of_speech": "付詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiswhe",
+            "phonetic": "hishe",
+            "part_of_speech": "動詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiswhi",
+            "phonetic": "hishi",
+            "part_of_speech": "容詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiswho",
+            "phonetic": "hisho",
+            "part_of_speech": "助詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiswhu",
+            "phonetic": "hishu",
+            "part_of_speech": "副詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hiswhw",
+            "phonetic": "hish",
+            "part_of_speech": "名詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosaha",
+            "phonetic": "hosaha",
+            "part_of_speech": "付詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosahe",
+            "phonetic": "hosahe",
+            "part_of_speech": "動詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosahi",
+            "phonetic": "hosahi",
+            "part_of_speech": "容詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosaho",
+            "phonetic": "hosaho",
+            "part_of_speech": "助詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosahu",
+            "phonetic": "hosahu",
+            "part_of_speech": "副詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosahw",
+            "phonetic": "hosah",
+            "part_of_speech": "名詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoseha",
+            "phonetic": "hoseha",
+            "part_of_speech": "付詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosehe",
+            "phonetic": "hosehe",
+            "part_of_speech": "動詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosehi",
+            "phonetic": "hosehi",
+            "part_of_speech": "容詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoseho",
+            "phonetic": "hoseho",
+            "part_of_speech": "助詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosehu",
+            "phonetic": "hosehu",
+            "part_of_speech": "副詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosehw",
+            "phonetic": "hoseh",
+            "part_of_speech": "名詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosiha",
+            "phonetic": "hosiha",
+            "part_of_speech": "付詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosihe",
+            "phonetic": "hosihe",
+            "part_of_speech": "動詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosihi",
+            "phonetic": "hosihi",
+            "part_of_speech": "容詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosiho",
+            "phonetic": "hosiho",
+            "part_of_speech": "助詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosihu",
+            "phonetic": "hosihu",
+            "part_of_speech": "副詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosihw",
+            "phonetic": "hosih",
+            "part_of_speech": "名詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosoha",
+            "phonetic": "hosoha",
+            "part_of_speech": "付詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosohe",
+            "phonetic": "hosohe",
+            "part_of_speech": "動詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosohi",
+            "phonetic": "hosohi",
+            "part_of_speech": "容詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosoho",
+            "phonetic": "hosoho",
+            "part_of_speech": "助詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosohu",
+            "phonetic": "hosohu",
+            "part_of_speech": "副詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosohw",
+            "phonetic": "hosoh",
+            "part_of_speech": "名詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosuha",
+            "phonetic": "hosuha",
+            "part_of_speech": "付詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosuhe",
+            "phonetic": "hosuhe",
+            "part_of_speech": "動詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosuhi",
+            "phonetic": "hosuhi",
+            "part_of_speech": "容詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosuho",
+            "phonetic": "hosuho",
+            "part_of_speech": "助詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosuhu",
+            "phonetic": "hosuhu",
+            "part_of_speech": "副詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hosuhw",
+            "phonetic": "hosuh",
+            "part_of_speech": "名詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoswha",
+            "phonetic": "hosha",
+            "part_of_speech": "付詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoswhe",
+            "phonetic": "hoshe",
+            "part_of_speech": "動詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoswhi",
+            "phonetic": "hoshi",
+            "part_of_speech": "容詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoswho",
+            "phonetic": "hosho",
+            "part_of_speech": "助詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoswhu",
+            "phonetic": "hoshu",
+            "part_of_speech": "副詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hoswhw",
+            "phonetic": "hosh",
+            "part_of_speech": "名詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husaha",
+            "phonetic": "husaha",
+            "part_of_speech": "付詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husahe",
+            "phonetic": "husahe",
+            "part_of_speech": "動詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husahi",
+            "phonetic": "husahi",
+            "part_of_speech": "容詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husaho",
+            "phonetic": "husaho",
+            "part_of_speech": "助詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husahu",
+            "phonetic": "husahu",
+            "part_of_speech": "副詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husahw",
+            "phonetic": "husah",
+            "part_of_speech": "名詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huseha",
+            "phonetic": "huseha",
+            "part_of_speech": "付詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husehe",
+            "phonetic": "husehe",
+            "part_of_speech": "動詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husehi",
+            "phonetic": "husehi",
+            "part_of_speech": "容詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huseho",
+            "phonetic": "huseho",
+            "part_of_speech": "助詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husehu",
+            "phonetic": "husehu",
+            "part_of_speech": "副詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husehw",
+            "phonetic": "huseh",
+            "part_of_speech": "名詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husiha",
+            "phonetic": "husiha",
+            "part_of_speech": "付詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husihe",
+            "phonetic": "husihe",
+            "part_of_speech": "動詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husihi",
+            "phonetic": "husihi",
+            "part_of_speech": "容詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husiho",
+            "phonetic": "husiho",
+            "part_of_speech": "助詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husihu",
+            "phonetic": "husihu",
+            "part_of_speech": "副詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husihw",
+            "phonetic": "husih",
+            "part_of_speech": "名詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husoha",
+            "phonetic": "husoha",
+            "part_of_speech": "付詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husohe",
+            "phonetic": "husohe",
+            "part_of_speech": "動詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husohi",
+            "phonetic": "husohi",
+            "part_of_speech": "容詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husoho",
+            "phonetic": "husoho",
+            "part_of_speech": "助詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husohu",
+            "phonetic": "husohu",
+            "part_of_speech": "副詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husohw",
+            "phonetic": "husoh",
+            "part_of_speech": "名詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husuha",
+            "phonetic": "husuha",
+            "part_of_speech": "付詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husuhe",
+            "phonetic": "husuhe",
+            "part_of_speech": "動詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husuhi",
+            "phonetic": "husuhi",
+            "part_of_speech": "容詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husuho",
+            "phonetic": "husuho",
+            "part_of_speech": "助詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husuhu",
+            "phonetic": "husuhu",
+            "part_of_speech": "副詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "husuhw",
+            "phonetic": "husuh",
+            "part_of_speech": "名詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huswha",
+            "phonetic": "husha",
+            "part_of_speech": "付詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huswhe",
+            "phonetic": "hushe",
+            "part_of_speech": "動詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huswhi",
+            "phonetic": "hushi",
+            "part_of_speech": "容詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huswho",
+            "phonetic": "husho",
+            "part_of_speech": "助詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huswhu",
+            "phonetic": "hushu",
+            "part_of_speech": "副詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "huswhw",
+            "phonetic": "hush",
+            "part_of_speech": "名詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsaha",
+            "phonetic": "hsaha",
+            "part_of_speech": "付詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsahe",
+            "phonetic": "hsahe",
+            "part_of_speech": "動詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsahi",
+            "phonetic": "hsahi",
+            "part_of_speech": "容詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsaho",
+            "phonetic": "hsaho",
+            "part_of_speech": "助詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsahu",
+            "phonetic": "hsahu",
+            "part_of_speech": "副詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsahw",
+            "phonetic": "hsah",
+            "part_of_speech": "名詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwseha",
+            "phonetic": "hseha",
+            "part_of_speech": "付詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsehe",
+            "phonetic": "hsehe",
+            "part_of_speech": "動詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsehi",
+            "phonetic": "hsehi",
+            "part_of_speech": "容詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwseho",
+            "phonetic": "hseho",
+            "part_of_speech": "助詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsehu",
+            "phonetic": "hsehu",
+            "part_of_speech": "副詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsehw",
+            "phonetic": "hseh",
+            "part_of_speech": "名詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsiha",
+            "phonetic": "hsiha",
+            "part_of_speech": "付詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsihe",
+            "phonetic": "hsihe",
+            "part_of_speech": "動詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsihi",
+            "phonetic": "hsihi",
+            "part_of_speech": "容詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsiho",
+            "phonetic": "hsiho",
+            "part_of_speech": "助詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsihu",
+            "phonetic": "hsihu",
+            "part_of_speech": "副詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsihw",
+            "phonetic": "hsih",
+            "part_of_speech": "名詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsoha",
+            "phonetic": "hsoha",
+            "part_of_speech": "付詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsohe",
+            "phonetic": "hsohe",
+            "part_of_speech": "動詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsohi",
+            "phonetic": "hsohi",
+            "part_of_speech": "容詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsoho",
+            "phonetic": "hsoho",
+            "part_of_speech": "助詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsohu",
+            "phonetic": "hsohu",
+            "part_of_speech": "副詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsohw",
+            "phonetic": "hsoh",
+            "part_of_speech": "名詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsuha",
+            "phonetic": "hsuha",
+            "part_of_speech": "付詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsuhe",
+            "phonetic": "hsuhe",
+            "part_of_speech": "動詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsuhi",
+            "phonetic": "hsuhi",
+            "part_of_speech": "容詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsuho",
+            "phonetic": "hsuho",
+            "part_of_speech": "助詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsuhu",
+            "phonetic": "hsuhu",
+            "part_of_speech": "副詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwsuhw",
+            "phonetic": "hsuh",
+            "part_of_speech": "名詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwswha",
+            "phonetic": "hsha",
+            "part_of_speech": "付詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwswhe",
+            "phonetic": "hshe",
+            "part_of_speech": "動詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwswhi",
+            "phonetic": "hshi",
+            "part_of_speech": "容詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwswho",
+            "phonetic": "hsho",
+            "part_of_speech": "助詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwswhu",
+            "phonetic": "hshu",
+            "part_of_speech": "副詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "hwswhw",
+            "phonetic": "hsh",
+            "part_of_speech": "名詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        }
+    ]
 }

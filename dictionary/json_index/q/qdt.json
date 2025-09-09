@@ -1,1516 +1,1516 @@
 {
-  "words": [
-    {
-      "word": "qadata",
-      "phonetic": "ʔadata",
-      "part_of_speech": "付詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadate",
-      "phonetic": "ʔadate",
-      "part_of_speech": "動詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadati",
-      "phonetic": "ʔadati",
-      "part_of_speech": "容詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadato",
-      "phonetic": "ʔadato",
-      "part_of_speech": "助詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadatu",
-      "phonetic": "ʔadatu",
-      "part_of_speech": "副詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadatw",
-      "phonetic": "ʔadat",
-      "part_of_speech": "名詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadeta",
-      "phonetic": "ʔadeta",
-      "part_of_speech": "付詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadete",
-      "phonetic": "ʔadete",
-      "part_of_speech": "動詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadeti",
-      "phonetic": "ʔadeti",
-      "part_of_speech": "容詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadeto",
-      "phonetic": "ʔadeto",
-      "part_of_speech": "助詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadetu",
-      "phonetic": "ʔadetu",
-      "part_of_speech": "副詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadetw",
-      "phonetic": "ʔadet",
-      "part_of_speech": "名詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadita",
-      "phonetic": "ʔadita",
-      "part_of_speech": "付詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadite",
-      "phonetic": "ʔadite",
-      "part_of_speech": "動詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qaditi",
-      "phonetic": "ʔaditi",
-      "part_of_speech": "容詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadito",
-      "phonetic": "ʔadito",
-      "part_of_speech": "助詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qaditu",
-      "phonetic": "ʔaditu",
-      "part_of_speech": "副詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qaditw",
-      "phonetic": "ʔadit",
-      "part_of_speech": "名詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadota",
-      "phonetic": "ʔadota",
-      "part_of_speech": "付詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadote",
-      "phonetic": "ʔadote",
-      "part_of_speech": "動詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadoti",
-      "phonetic": "ʔadoti",
-      "part_of_speech": "容詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadoto",
-      "phonetic": "ʔadoto",
-      "part_of_speech": "助詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadotu",
-      "phonetic": "ʔadotu",
-      "part_of_speech": "副詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadotw",
-      "phonetic": "ʔadot",
-      "part_of_speech": "名詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qaduta",
-      "phonetic": "ʔaduta",
-      "part_of_speech": "付詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadute",
-      "phonetic": "ʔadute",
-      "part_of_speech": "動詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qaduti",
-      "phonetic": "ʔaduti",
-      "part_of_speech": "容詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qaduto",
-      "phonetic": "ʔaduto",
-      "part_of_speech": "助詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadutu",
-      "phonetic": "ʔadutu",
-      "part_of_speech": "副詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadutw",
-      "phonetic": "ʔadut",
-      "part_of_speech": "名詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadwta",
-      "phonetic": "ʔadta",
-      "part_of_speech": "付詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadwte",
-      "phonetic": "ʔadte",
-      "part_of_speech": "動詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadwti",
-      "phonetic": "ʔadti",
-      "part_of_speech": "容詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadwto",
-      "phonetic": "ʔadto",
-      "part_of_speech": "助詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadwtu",
-      "phonetic": "ʔadtu",
-      "part_of_speech": "副詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qadwtw",
-      "phonetic": "ʔadt",
-      "part_of_speech": "名詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedata",
-      "phonetic": "ʔedata",
-      "part_of_speech": "付詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedate",
-      "phonetic": "ʔedate",
-      "part_of_speech": "動詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedati",
-      "phonetic": "ʔedati",
-      "part_of_speech": "容詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedato",
-      "phonetic": "ʔedato",
-      "part_of_speech": "助詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedatu",
-      "phonetic": "ʔedatu",
-      "part_of_speech": "副詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedatw",
-      "phonetic": "ʔedat",
-      "part_of_speech": "名詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedeta",
-      "phonetic": "ʔedeta",
-      "part_of_speech": "付詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedete",
-      "phonetic": "ʔedete",
-      "part_of_speech": "動詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedeti",
-      "phonetic": "ʔedeti",
-      "part_of_speech": "容詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedeto",
-      "phonetic": "ʔedeto",
-      "part_of_speech": "助詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedetu",
-      "phonetic": "ʔedetu",
-      "part_of_speech": "副詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedetw",
-      "phonetic": "ʔedet",
-      "part_of_speech": "名詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedita",
-      "phonetic": "ʔedita",
-      "part_of_speech": "付詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedite",
-      "phonetic": "ʔedite",
-      "part_of_speech": "動詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qediti",
-      "phonetic": "ʔediti",
-      "part_of_speech": "容詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedito",
-      "phonetic": "ʔedito",
-      "part_of_speech": "助詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qeditu",
-      "phonetic": "ʔeditu",
-      "part_of_speech": "副詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qeditw",
-      "phonetic": "ʔedit",
-      "part_of_speech": "名詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedota",
-      "phonetic": "ʔedota",
-      "part_of_speech": "付詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedote",
-      "phonetic": "ʔedote",
-      "part_of_speech": "動詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedoti",
-      "phonetic": "ʔedoti",
-      "part_of_speech": "容詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedoto",
-      "phonetic": "ʔedoto",
-      "part_of_speech": "助詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedotu",
-      "phonetic": "ʔedotu",
-      "part_of_speech": "副詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedotw",
-      "phonetic": "ʔedot",
-      "part_of_speech": "名詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qeduta",
-      "phonetic": "ʔeduta",
-      "part_of_speech": "付詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedute",
-      "phonetic": "ʔedute",
-      "part_of_speech": "動詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qeduti",
-      "phonetic": "ʔeduti",
-      "part_of_speech": "容詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qeduto",
-      "phonetic": "ʔeduto",
-      "part_of_speech": "助詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedutu",
-      "phonetic": "ʔedutu",
-      "part_of_speech": "副詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedutw",
-      "phonetic": "ʔedut",
-      "part_of_speech": "名詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedwta",
-      "phonetic": "ʔedta",
-      "part_of_speech": "付詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedwte",
-      "phonetic": "ʔedte",
-      "part_of_speech": "動詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedwti",
-      "phonetic": "ʔedti",
-      "part_of_speech": "容詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedwto",
-      "phonetic": "ʔedto",
-      "part_of_speech": "助詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedwtu",
-      "phonetic": "ʔedtu",
-      "part_of_speech": "副詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qedwtw",
-      "phonetic": "ʔedt",
-      "part_of_speech": "名詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidata",
-      "phonetic": "ʔidata",
-      "part_of_speech": "付詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidate",
-      "phonetic": "ʔidate",
-      "part_of_speech": "動詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidati",
-      "phonetic": "ʔidati",
-      "part_of_speech": "容詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidato",
-      "phonetic": "ʔidato",
-      "part_of_speech": "助詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidatu",
-      "phonetic": "ʔidatu",
-      "part_of_speech": "副詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidatw",
-      "phonetic": "ʔidat",
-      "part_of_speech": "名詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qideta",
-      "phonetic": "ʔideta",
-      "part_of_speech": "付詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidete",
-      "phonetic": "ʔidete",
-      "part_of_speech": "動詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qideti",
-      "phonetic": "ʔideti",
-      "part_of_speech": "容詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qideto",
-      "phonetic": "ʔideto",
-      "part_of_speech": "助詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidetu",
-      "phonetic": "ʔidetu",
-      "part_of_speech": "副詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidetw",
-      "phonetic": "ʔidet",
-      "part_of_speech": "名詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidita",
-      "phonetic": "ʔidita",
-      "part_of_speech": "付詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidite",
-      "phonetic": "ʔidite",
-      "part_of_speech": "動詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qiditi",
-      "phonetic": "ʔiditi",
-      "part_of_speech": "容詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidito",
-      "phonetic": "ʔidito",
-      "part_of_speech": "助詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qiditu",
-      "phonetic": "ʔiditu",
-      "part_of_speech": "副詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qiditw",
-      "phonetic": "ʔidit",
-      "part_of_speech": "名詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidota",
-      "phonetic": "ʔidota",
-      "part_of_speech": "付詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidote",
-      "phonetic": "ʔidote",
-      "part_of_speech": "動詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidoti",
-      "phonetic": "ʔidoti",
-      "part_of_speech": "容詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidoto",
-      "phonetic": "ʔidoto",
-      "part_of_speech": "助詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidotu",
-      "phonetic": "ʔidotu",
-      "part_of_speech": "副詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidotw",
-      "phonetic": "ʔidot",
-      "part_of_speech": "名詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qiduta",
-      "phonetic": "ʔiduta",
-      "part_of_speech": "付詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidute",
-      "phonetic": "ʔidute",
-      "part_of_speech": "動詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qiduti",
-      "phonetic": "ʔiduti",
-      "part_of_speech": "容詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qiduto",
-      "phonetic": "ʔiduto",
-      "part_of_speech": "助詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidutu",
-      "phonetic": "ʔidutu",
-      "part_of_speech": "副詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidutw",
-      "phonetic": "ʔidut",
-      "part_of_speech": "名詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidwta",
-      "phonetic": "ʔidta",
-      "part_of_speech": "付詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidwte",
-      "phonetic": "ʔidte",
-      "part_of_speech": "動詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidwti",
-      "phonetic": "ʔidti",
-      "part_of_speech": "容詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidwto",
-      "phonetic": "ʔidto",
-      "part_of_speech": "助詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidwtu",
-      "phonetic": "ʔidtu",
-      "part_of_speech": "副詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qidwtw",
-      "phonetic": "ʔidt",
-      "part_of_speech": "名詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodata",
-      "phonetic": "ʔodata",
-      "part_of_speech": "付詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodate",
-      "phonetic": "ʔodate",
-      "part_of_speech": "動詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodati",
-      "phonetic": "ʔodati",
-      "part_of_speech": "容詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodato",
-      "phonetic": "ʔodato",
-      "part_of_speech": "助詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodatu",
-      "phonetic": "ʔodatu",
-      "part_of_speech": "副詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodatw",
-      "phonetic": "ʔodat",
-      "part_of_speech": "名詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodeta",
-      "phonetic": "ʔodeta",
-      "part_of_speech": "付詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodete",
-      "phonetic": "ʔodete",
-      "part_of_speech": "動詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodeti",
-      "phonetic": "ʔodeti",
-      "part_of_speech": "容詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodeto",
-      "phonetic": "ʔodeto",
-      "part_of_speech": "助詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodetu",
-      "phonetic": "ʔodetu",
-      "part_of_speech": "副詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodetw",
-      "phonetic": "ʔodet",
-      "part_of_speech": "名詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodita",
-      "phonetic": "ʔodita",
-      "part_of_speech": "付詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodite",
-      "phonetic": "ʔodite",
-      "part_of_speech": "動詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qoditi",
-      "phonetic": "ʔoditi",
-      "part_of_speech": "容詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodito",
-      "phonetic": "ʔodito",
-      "part_of_speech": "助詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qoditu",
-      "phonetic": "ʔoditu",
-      "part_of_speech": "副詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qoditw",
-      "phonetic": "ʔodit",
-      "part_of_speech": "名詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodota",
-      "phonetic": "ʔodota",
-      "part_of_speech": "付詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodote",
-      "phonetic": "ʔodote",
-      "part_of_speech": "動詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodoti",
-      "phonetic": "ʔodoti",
-      "part_of_speech": "容詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodoto",
-      "phonetic": "ʔodoto",
-      "part_of_speech": "助詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodotu",
-      "phonetic": "ʔodotu",
-      "part_of_speech": "副詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodotw",
-      "phonetic": "ʔodot",
-      "part_of_speech": "名詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qoduta",
-      "phonetic": "ʔoduta",
-      "part_of_speech": "付詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodute",
-      "phonetic": "ʔodute",
-      "part_of_speech": "動詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qoduti",
-      "phonetic": "ʔoduti",
-      "part_of_speech": "容詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qoduto",
-      "phonetic": "ʔoduto",
-      "part_of_speech": "助詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodutu",
-      "phonetic": "ʔodutu",
-      "part_of_speech": "副詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodutw",
-      "phonetic": "ʔodut",
-      "part_of_speech": "名詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodwta",
-      "phonetic": "ʔodta",
-      "part_of_speech": "付詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodwte",
-      "phonetic": "ʔodte",
-      "part_of_speech": "動詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodwti",
-      "phonetic": "ʔodti",
-      "part_of_speech": "容詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodwto",
-      "phonetic": "ʔodto",
-      "part_of_speech": "助詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodwtu",
-      "phonetic": "ʔodtu",
-      "part_of_speech": "副詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qodwtw",
-      "phonetic": "ʔodt",
-      "part_of_speech": "名詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudata",
-      "phonetic": "ʔudata",
-      "part_of_speech": "付詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudate",
-      "phonetic": "ʔudate",
-      "part_of_speech": "動詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudati",
-      "phonetic": "ʔudati",
-      "part_of_speech": "容詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudato",
-      "phonetic": "ʔudato",
-      "part_of_speech": "助詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudatu",
-      "phonetic": "ʔudatu",
-      "part_of_speech": "副詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudatw",
-      "phonetic": "ʔudat",
-      "part_of_speech": "名詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudeta",
-      "phonetic": "ʔudeta",
-      "part_of_speech": "付詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudete",
-      "phonetic": "ʔudete",
-      "part_of_speech": "動詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudeti",
-      "phonetic": "ʔudeti",
-      "part_of_speech": "容詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudeto",
-      "phonetic": "ʔudeto",
-      "part_of_speech": "助詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudetu",
-      "phonetic": "ʔudetu",
-      "part_of_speech": "副詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudetw",
-      "phonetic": "ʔudet",
-      "part_of_speech": "名詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudita",
-      "phonetic": "ʔudita",
-      "part_of_speech": "付詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudite",
-      "phonetic": "ʔudite",
-      "part_of_speech": "動詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "quditi",
-      "phonetic": "ʔuditi",
-      "part_of_speech": "容詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudito",
-      "phonetic": "ʔudito",
-      "part_of_speech": "助詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "quditu",
-      "phonetic": "ʔuditu",
-      "part_of_speech": "副詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "quditw",
-      "phonetic": "ʔudit",
-      "part_of_speech": "名詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudota",
-      "phonetic": "ʔudota",
-      "part_of_speech": "付詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudote",
-      "phonetic": "ʔudote",
-      "part_of_speech": "動詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudoti",
-      "phonetic": "ʔudoti",
-      "part_of_speech": "容詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudoto",
-      "phonetic": "ʔudoto",
-      "part_of_speech": "助詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudotu",
-      "phonetic": "ʔudotu",
-      "part_of_speech": "副詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudotw",
-      "phonetic": "ʔudot",
-      "part_of_speech": "名詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "quduta",
-      "phonetic": "ʔuduta",
-      "part_of_speech": "付詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudute",
-      "phonetic": "ʔudute",
-      "part_of_speech": "動詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "quduti",
-      "phonetic": "ʔuduti",
-      "part_of_speech": "容詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "quduto",
-      "phonetic": "ʔuduto",
-      "part_of_speech": "助詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudutu",
-      "phonetic": "ʔudutu",
-      "part_of_speech": "副詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudutw",
-      "phonetic": "ʔudut",
-      "part_of_speech": "名詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudwta",
-      "phonetic": "ʔudta",
-      "part_of_speech": "付詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudwte",
-      "phonetic": "ʔudte",
-      "part_of_speech": "動詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudwti",
-      "phonetic": "ʔudti",
-      "part_of_speech": "容詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudwto",
-      "phonetic": "ʔudto",
-      "part_of_speech": "助詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudwtu",
-      "phonetic": "ʔudtu",
-      "part_of_speech": "副詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qudwtw",
-      "phonetic": "ʔudt",
-      "part_of_speech": "名詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdata",
-      "phonetic": "ʔdata",
-      "part_of_speech": "付詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdate",
-      "phonetic": "ʔdate",
-      "part_of_speech": "動詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdati",
-      "phonetic": "ʔdati",
-      "part_of_speech": "容詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdato",
-      "phonetic": "ʔdato",
-      "part_of_speech": "助詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdatu",
-      "phonetic": "ʔdatu",
-      "part_of_speech": "副詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdatw",
-      "phonetic": "ʔdat",
-      "part_of_speech": "名詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdeta",
-      "phonetic": "ʔdeta",
-      "part_of_speech": "付詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdete",
-      "phonetic": "ʔdete",
-      "part_of_speech": "動詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdeti",
-      "phonetic": "ʔdeti",
-      "part_of_speech": "容詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdeto",
-      "phonetic": "ʔdeto",
-      "part_of_speech": "助詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdetu",
-      "phonetic": "ʔdetu",
-      "part_of_speech": "副詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdetw",
-      "phonetic": "ʔdet",
-      "part_of_speech": "名詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdita",
-      "phonetic": "ʔdita",
-      "part_of_speech": "付詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdite",
-      "phonetic": "ʔdite",
-      "part_of_speech": "動詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwditi",
-      "phonetic": "ʔditi",
-      "part_of_speech": "容詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdito",
-      "phonetic": "ʔdito",
-      "part_of_speech": "助詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwditu",
-      "phonetic": "ʔditu",
-      "part_of_speech": "副詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwditw",
-      "phonetic": "ʔdit",
-      "part_of_speech": "名詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdota",
-      "phonetic": "ʔdota",
-      "part_of_speech": "付詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdote",
-      "phonetic": "ʔdote",
-      "part_of_speech": "動詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdoti",
-      "phonetic": "ʔdoti",
-      "part_of_speech": "容詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdoto",
-      "phonetic": "ʔdoto",
-      "part_of_speech": "助詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdotu",
-      "phonetic": "ʔdotu",
-      "part_of_speech": "副詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdotw",
-      "phonetic": "ʔdot",
-      "part_of_speech": "名詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwduta",
-      "phonetic": "ʔduta",
-      "part_of_speech": "付詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdute",
-      "phonetic": "ʔdute",
-      "part_of_speech": "動詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwduti",
-      "phonetic": "ʔduti",
-      "part_of_speech": "容詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwduto",
-      "phonetic": "ʔduto",
-      "part_of_speech": "助詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdutu",
-      "phonetic": "ʔdutu",
-      "part_of_speech": "副詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdutw",
-      "phonetic": "ʔdut",
-      "part_of_speech": "名詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdwta",
-      "phonetic": "ʔdta",
-      "part_of_speech": "付詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdwte",
-      "phonetic": "ʔdte",
-      "part_of_speech": "動詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdwti",
-      "phonetic": "ʔdti",
-      "part_of_speech": "容詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdwto",
-      "phonetic": "ʔdto",
-      "part_of_speech": "助詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdwtu",
-      "phonetic": "ʔdtu",
-      "part_of_speech": "副詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "qwdwtw",
-      "phonetic": "ʔdt",
-      "part_of_speech": "名詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    }
-  ]
+    "words": [
+        {
+            "word": "qadata",
+            "phonetic": "ʔadata",
+            "part_of_speech": "付詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadate",
+            "phonetic": "ʔadate",
+            "part_of_speech": "動詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadati",
+            "phonetic": "ʔadati",
+            "part_of_speech": "容詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadato",
+            "phonetic": "ʔadato",
+            "part_of_speech": "助詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadatu",
+            "phonetic": "ʔadatu",
+            "part_of_speech": "副詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadatw",
+            "phonetic": "ʔadat",
+            "part_of_speech": "名詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadeta",
+            "phonetic": "ʔadeta",
+            "part_of_speech": "付詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadete",
+            "phonetic": "ʔadete",
+            "part_of_speech": "動詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadeti",
+            "phonetic": "ʔadeti",
+            "part_of_speech": "容詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadeto",
+            "phonetic": "ʔadeto",
+            "part_of_speech": "助詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadetu",
+            "phonetic": "ʔadetu",
+            "part_of_speech": "副詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadetw",
+            "phonetic": "ʔadet",
+            "part_of_speech": "名詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadita",
+            "phonetic": "ʔadita",
+            "part_of_speech": "付詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadite",
+            "phonetic": "ʔadite",
+            "part_of_speech": "動詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qaditi",
+            "phonetic": "ʔaditi",
+            "part_of_speech": "容詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadito",
+            "phonetic": "ʔadito",
+            "part_of_speech": "助詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qaditu",
+            "phonetic": "ʔaditu",
+            "part_of_speech": "副詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qaditw",
+            "phonetic": "ʔadit",
+            "part_of_speech": "名詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadota",
+            "phonetic": "ʔadota",
+            "part_of_speech": "付詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadote",
+            "phonetic": "ʔadote",
+            "part_of_speech": "動詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadoti",
+            "phonetic": "ʔadoti",
+            "part_of_speech": "容詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadoto",
+            "phonetic": "ʔadoto",
+            "part_of_speech": "助詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadotu",
+            "phonetic": "ʔadotu",
+            "part_of_speech": "副詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadotw",
+            "phonetic": "ʔadot",
+            "part_of_speech": "名詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qaduta",
+            "phonetic": "ʔaduta",
+            "part_of_speech": "付詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadute",
+            "phonetic": "ʔadute",
+            "part_of_speech": "動詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qaduti",
+            "phonetic": "ʔaduti",
+            "part_of_speech": "容詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qaduto",
+            "phonetic": "ʔaduto",
+            "part_of_speech": "助詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadutu",
+            "phonetic": "ʔadutu",
+            "part_of_speech": "副詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadutw",
+            "phonetic": "ʔadut",
+            "part_of_speech": "名詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadwta",
+            "phonetic": "ʔadta",
+            "part_of_speech": "付詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadwte",
+            "phonetic": "ʔadte",
+            "part_of_speech": "動詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadwti",
+            "phonetic": "ʔadti",
+            "part_of_speech": "容詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadwto",
+            "phonetic": "ʔadto",
+            "part_of_speech": "助詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadwtu",
+            "phonetic": "ʔadtu",
+            "part_of_speech": "副詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qadwtw",
+            "phonetic": "ʔadt",
+            "part_of_speech": "名詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedata",
+            "phonetic": "ʔedata",
+            "part_of_speech": "付詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedate",
+            "phonetic": "ʔedate",
+            "part_of_speech": "動詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedati",
+            "phonetic": "ʔedati",
+            "part_of_speech": "容詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedato",
+            "phonetic": "ʔedato",
+            "part_of_speech": "助詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedatu",
+            "phonetic": "ʔedatu",
+            "part_of_speech": "副詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedatw",
+            "phonetic": "ʔedat",
+            "part_of_speech": "名詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedeta",
+            "phonetic": "ʔedeta",
+            "part_of_speech": "付詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedete",
+            "phonetic": "ʔedete",
+            "part_of_speech": "動詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedeti",
+            "phonetic": "ʔedeti",
+            "part_of_speech": "容詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedeto",
+            "phonetic": "ʔedeto",
+            "part_of_speech": "助詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedetu",
+            "phonetic": "ʔedetu",
+            "part_of_speech": "副詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedetw",
+            "phonetic": "ʔedet",
+            "part_of_speech": "名詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedita",
+            "phonetic": "ʔedita",
+            "part_of_speech": "付詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedite",
+            "phonetic": "ʔedite",
+            "part_of_speech": "動詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qediti",
+            "phonetic": "ʔediti",
+            "part_of_speech": "容詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedito",
+            "phonetic": "ʔedito",
+            "part_of_speech": "助詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qeditu",
+            "phonetic": "ʔeditu",
+            "part_of_speech": "副詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qeditw",
+            "phonetic": "ʔedit",
+            "part_of_speech": "名詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedota",
+            "phonetic": "ʔedota",
+            "part_of_speech": "付詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedote",
+            "phonetic": "ʔedote",
+            "part_of_speech": "動詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedoti",
+            "phonetic": "ʔedoti",
+            "part_of_speech": "容詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedoto",
+            "phonetic": "ʔedoto",
+            "part_of_speech": "助詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedotu",
+            "phonetic": "ʔedotu",
+            "part_of_speech": "副詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedotw",
+            "phonetic": "ʔedot",
+            "part_of_speech": "名詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qeduta",
+            "phonetic": "ʔeduta",
+            "part_of_speech": "付詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedute",
+            "phonetic": "ʔedute",
+            "part_of_speech": "動詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qeduti",
+            "phonetic": "ʔeduti",
+            "part_of_speech": "容詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qeduto",
+            "phonetic": "ʔeduto",
+            "part_of_speech": "助詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedutu",
+            "phonetic": "ʔedutu",
+            "part_of_speech": "副詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedutw",
+            "phonetic": "ʔedut",
+            "part_of_speech": "名詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedwta",
+            "phonetic": "ʔedta",
+            "part_of_speech": "付詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedwte",
+            "phonetic": "ʔedte",
+            "part_of_speech": "動詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedwti",
+            "phonetic": "ʔedti",
+            "part_of_speech": "容詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedwto",
+            "phonetic": "ʔedto",
+            "part_of_speech": "助詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedwtu",
+            "phonetic": "ʔedtu",
+            "part_of_speech": "副詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qedwtw",
+            "phonetic": "ʔedt",
+            "part_of_speech": "名詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidata",
+            "phonetic": "ʔidata",
+            "part_of_speech": "付詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidate",
+            "phonetic": "ʔidate",
+            "part_of_speech": "動詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidati",
+            "phonetic": "ʔidati",
+            "part_of_speech": "容詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidato",
+            "phonetic": "ʔidato",
+            "part_of_speech": "助詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidatu",
+            "phonetic": "ʔidatu",
+            "part_of_speech": "副詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidatw",
+            "phonetic": "ʔidat",
+            "part_of_speech": "名詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qideta",
+            "phonetic": "ʔideta",
+            "part_of_speech": "付詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidete",
+            "phonetic": "ʔidete",
+            "part_of_speech": "動詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qideti",
+            "phonetic": "ʔideti",
+            "part_of_speech": "容詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qideto",
+            "phonetic": "ʔideto",
+            "part_of_speech": "助詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidetu",
+            "phonetic": "ʔidetu",
+            "part_of_speech": "副詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidetw",
+            "phonetic": "ʔidet",
+            "part_of_speech": "名詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidita",
+            "phonetic": "ʔidita",
+            "part_of_speech": "付詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidite",
+            "phonetic": "ʔidite",
+            "part_of_speech": "動詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qiditi",
+            "phonetic": "ʔiditi",
+            "part_of_speech": "容詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidito",
+            "phonetic": "ʔidito",
+            "part_of_speech": "助詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qiditu",
+            "phonetic": "ʔiditu",
+            "part_of_speech": "副詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qiditw",
+            "phonetic": "ʔidit",
+            "part_of_speech": "名詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidota",
+            "phonetic": "ʔidota",
+            "part_of_speech": "付詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidote",
+            "phonetic": "ʔidote",
+            "part_of_speech": "動詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidoti",
+            "phonetic": "ʔidoti",
+            "part_of_speech": "容詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidoto",
+            "phonetic": "ʔidoto",
+            "part_of_speech": "助詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidotu",
+            "phonetic": "ʔidotu",
+            "part_of_speech": "副詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidotw",
+            "phonetic": "ʔidot",
+            "part_of_speech": "名詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qiduta",
+            "phonetic": "ʔiduta",
+            "part_of_speech": "付詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidute",
+            "phonetic": "ʔidute",
+            "part_of_speech": "動詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qiduti",
+            "phonetic": "ʔiduti",
+            "part_of_speech": "容詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qiduto",
+            "phonetic": "ʔiduto",
+            "part_of_speech": "助詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidutu",
+            "phonetic": "ʔidutu",
+            "part_of_speech": "副詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidutw",
+            "phonetic": "ʔidut",
+            "part_of_speech": "名詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidwta",
+            "phonetic": "ʔidta",
+            "part_of_speech": "付詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidwte",
+            "phonetic": "ʔidte",
+            "part_of_speech": "動詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidwti",
+            "phonetic": "ʔidti",
+            "part_of_speech": "容詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidwto",
+            "phonetic": "ʔidto",
+            "part_of_speech": "助詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidwtu",
+            "phonetic": "ʔidtu",
+            "part_of_speech": "副詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qidwtw",
+            "phonetic": "ʔidt",
+            "part_of_speech": "名詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodata",
+            "phonetic": "ʔodata",
+            "part_of_speech": "付詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodate",
+            "phonetic": "ʔodate",
+            "part_of_speech": "動詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodati",
+            "phonetic": "ʔodati",
+            "part_of_speech": "容詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodato",
+            "phonetic": "ʔodato",
+            "part_of_speech": "助詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodatu",
+            "phonetic": "ʔodatu",
+            "part_of_speech": "副詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodatw",
+            "phonetic": "ʔodat",
+            "part_of_speech": "名詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodeta",
+            "phonetic": "ʔodeta",
+            "part_of_speech": "付詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodete",
+            "phonetic": "ʔodete",
+            "part_of_speech": "動詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodeti",
+            "phonetic": "ʔodeti",
+            "part_of_speech": "容詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodeto",
+            "phonetic": "ʔodeto",
+            "part_of_speech": "助詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodetu",
+            "phonetic": "ʔodetu",
+            "part_of_speech": "副詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodetw",
+            "phonetic": "ʔodet",
+            "part_of_speech": "名詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodita",
+            "phonetic": "ʔodita",
+            "part_of_speech": "付詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodite",
+            "phonetic": "ʔodite",
+            "part_of_speech": "動詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qoditi",
+            "phonetic": "ʔoditi",
+            "part_of_speech": "容詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodito",
+            "phonetic": "ʔodito",
+            "part_of_speech": "助詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qoditu",
+            "phonetic": "ʔoditu",
+            "part_of_speech": "副詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qoditw",
+            "phonetic": "ʔodit",
+            "part_of_speech": "名詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodota",
+            "phonetic": "ʔodota",
+            "part_of_speech": "付詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodote",
+            "phonetic": "ʔodote",
+            "part_of_speech": "動詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodoti",
+            "phonetic": "ʔodoti",
+            "part_of_speech": "容詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodoto",
+            "phonetic": "ʔodoto",
+            "part_of_speech": "助詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodotu",
+            "phonetic": "ʔodotu",
+            "part_of_speech": "副詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodotw",
+            "phonetic": "ʔodot",
+            "part_of_speech": "名詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qoduta",
+            "phonetic": "ʔoduta",
+            "part_of_speech": "付詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodute",
+            "phonetic": "ʔodute",
+            "part_of_speech": "動詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qoduti",
+            "phonetic": "ʔoduti",
+            "part_of_speech": "容詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qoduto",
+            "phonetic": "ʔoduto",
+            "part_of_speech": "助詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodutu",
+            "phonetic": "ʔodutu",
+            "part_of_speech": "副詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodutw",
+            "phonetic": "ʔodut",
+            "part_of_speech": "名詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodwta",
+            "phonetic": "ʔodta",
+            "part_of_speech": "付詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodwte",
+            "phonetic": "ʔodte",
+            "part_of_speech": "動詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodwti",
+            "phonetic": "ʔodti",
+            "part_of_speech": "容詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodwto",
+            "phonetic": "ʔodto",
+            "part_of_speech": "助詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodwtu",
+            "phonetic": "ʔodtu",
+            "part_of_speech": "副詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qodwtw",
+            "phonetic": "ʔodt",
+            "part_of_speech": "名詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudata",
+            "phonetic": "ʔudata",
+            "part_of_speech": "付詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudate",
+            "phonetic": "ʔudate",
+            "part_of_speech": "動詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudati",
+            "phonetic": "ʔudati",
+            "part_of_speech": "容詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudato",
+            "phonetic": "ʔudato",
+            "part_of_speech": "助詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudatu",
+            "phonetic": "ʔudatu",
+            "part_of_speech": "副詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudatw",
+            "phonetic": "ʔudat",
+            "part_of_speech": "名詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudeta",
+            "phonetic": "ʔudeta",
+            "part_of_speech": "付詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudete",
+            "phonetic": "ʔudete",
+            "part_of_speech": "動詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudeti",
+            "phonetic": "ʔudeti",
+            "part_of_speech": "容詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudeto",
+            "phonetic": "ʔudeto",
+            "part_of_speech": "助詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudetu",
+            "phonetic": "ʔudetu",
+            "part_of_speech": "副詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudetw",
+            "phonetic": "ʔudet",
+            "part_of_speech": "名詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudita",
+            "phonetic": "ʔudita",
+            "part_of_speech": "付詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudite",
+            "phonetic": "ʔudite",
+            "part_of_speech": "動詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "quditi",
+            "phonetic": "ʔuditi",
+            "part_of_speech": "容詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudito",
+            "phonetic": "ʔudito",
+            "part_of_speech": "助詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "quditu",
+            "phonetic": "ʔuditu",
+            "part_of_speech": "副詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "quditw",
+            "phonetic": "ʔudit",
+            "part_of_speech": "名詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudota",
+            "phonetic": "ʔudota",
+            "part_of_speech": "付詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudote",
+            "phonetic": "ʔudote",
+            "part_of_speech": "動詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudoti",
+            "phonetic": "ʔudoti",
+            "part_of_speech": "容詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudoto",
+            "phonetic": "ʔudoto",
+            "part_of_speech": "助詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudotu",
+            "phonetic": "ʔudotu",
+            "part_of_speech": "副詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudotw",
+            "phonetic": "ʔudot",
+            "part_of_speech": "名詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "quduta",
+            "phonetic": "ʔuduta",
+            "part_of_speech": "付詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudute",
+            "phonetic": "ʔudute",
+            "part_of_speech": "動詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "quduti",
+            "phonetic": "ʔuduti",
+            "part_of_speech": "容詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "quduto",
+            "phonetic": "ʔuduto",
+            "part_of_speech": "助詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudutu",
+            "phonetic": "ʔudutu",
+            "part_of_speech": "副詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudutw",
+            "phonetic": "ʔudut",
+            "part_of_speech": "名詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudwta",
+            "phonetic": "ʔudta",
+            "part_of_speech": "付詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudwte",
+            "phonetic": "ʔudte",
+            "part_of_speech": "動詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudwti",
+            "phonetic": "ʔudti",
+            "part_of_speech": "容詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudwto",
+            "phonetic": "ʔudto",
+            "part_of_speech": "助詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudwtu",
+            "phonetic": "ʔudtu",
+            "part_of_speech": "副詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qudwtw",
+            "phonetic": "ʔudt",
+            "part_of_speech": "名詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdata",
+            "phonetic": "ʔdata",
+            "part_of_speech": "付詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdate",
+            "phonetic": "ʔdate",
+            "part_of_speech": "動詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdati",
+            "phonetic": "ʔdati",
+            "part_of_speech": "容詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdato",
+            "phonetic": "ʔdato",
+            "part_of_speech": "助詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdatu",
+            "phonetic": "ʔdatu",
+            "part_of_speech": "副詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdatw",
+            "phonetic": "ʔdat",
+            "part_of_speech": "名詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdeta",
+            "phonetic": "ʔdeta",
+            "part_of_speech": "付詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdete",
+            "phonetic": "ʔdete",
+            "part_of_speech": "動詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdeti",
+            "phonetic": "ʔdeti",
+            "part_of_speech": "容詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdeto",
+            "phonetic": "ʔdeto",
+            "part_of_speech": "助詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdetu",
+            "phonetic": "ʔdetu",
+            "part_of_speech": "副詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdetw",
+            "phonetic": "ʔdet",
+            "part_of_speech": "名詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdita",
+            "phonetic": "ʔdita",
+            "part_of_speech": "付詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdite",
+            "phonetic": "ʔdite",
+            "part_of_speech": "動詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwditi",
+            "phonetic": "ʔditi",
+            "part_of_speech": "容詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdito",
+            "phonetic": "ʔdito",
+            "part_of_speech": "助詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwditu",
+            "phonetic": "ʔditu",
+            "part_of_speech": "副詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwditw",
+            "phonetic": "ʔdit",
+            "part_of_speech": "名詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdota",
+            "phonetic": "ʔdota",
+            "part_of_speech": "付詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdote",
+            "phonetic": "ʔdote",
+            "part_of_speech": "動詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdoti",
+            "phonetic": "ʔdoti",
+            "part_of_speech": "容詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdoto",
+            "phonetic": "ʔdoto",
+            "part_of_speech": "助詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdotu",
+            "phonetic": "ʔdotu",
+            "part_of_speech": "副詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdotw",
+            "phonetic": "ʔdot",
+            "part_of_speech": "名詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwduta",
+            "phonetic": "ʔduta",
+            "part_of_speech": "付詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdute",
+            "phonetic": "ʔdute",
+            "part_of_speech": "動詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwduti",
+            "phonetic": "ʔduti",
+            "part_of_speech": "容詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwduto",
+            "phonetic": "ʔduto",
+            "part_of_speech": "助詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdutu",
+            "phonetic": "ʔdutu",
+            "part_of_speech": "副詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdutw",
+            "phonetic": "ʔdut",
+            "part_of_speech": "名詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdwta",
+            "phonetic": "ʔdta",
+            "part_of_speech": "付詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdwte",
+            "phonetic": "ʔdte",
+            "part_of_speech": "動詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdwti",
+            "phonetic": "ʔdti",
+            "part_of_speech": "容詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdwto",
+            "phonetic": "ʔdto",
+            "part_of_speech": "助詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdwtu",
+            "phonetic": "ʔdtu",
+            "part_of_speech": "副詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "qwdwtw",
+            "phonetic": "ʔdt",
+            "part_of_speech": "名詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        }
+    ]
 }

@@ -1,1516 +1,1516 @@
 {
-  "words": [
-    {
-      "word": "pataha",
-      "phonetic": "pataha",
-      "part_of_speech": "付詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patahe",
-      "phonetic": "patahe",
-      "part_of_speech": "動詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patahi",
-      "phonetic": "patahi",
-      "part_of_speech": "容詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pataho",
-      "phonetic": "pataho",
-      "part_of_speech": "助詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patahu",
-      "phonetic": "patahu",
-      "part_of_speech": "副詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patahw",
-      "phonetic": "patah",
-      "part_of_speech": "名詞",
-      "cases": "否否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pateha",
-      "phonetic": "pateha",
-      "part_of_speech": "付詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patehe",
-      "phonetic": "patehe",
-      "part_of_speech": "動詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patehi",
-      "phonetic": "patehi",
-      "part_of_speech": "容詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pateho",
-      "phonetic": "pateho",
-      "part_of_speech": "助詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patehu",
-      "phonetic": "patehu",
-      "part_of_speech": "副詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patehw",
-      "phonetic": "pateh",
-      "part_of_speech": "名詞",
-      "cases": "否与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patiha",
-      "phonetic": "patiha",
-      "part_of_speech": "付詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patihe",
-      "phonetic": "patihe",
-      "part_of_speech": "動詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patihi",
-      "phonetic": "patihi",
-      "part_of_speech": "容詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patiho",
-      "phonetic": "patiho",
-      "part_of_speech": "助詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patihu",
-      "phonetic": "patihu",
-      "part_of_speech": "副詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patihw",
-      "phonetic": "patih",
-      "part_of_speech": "名詞",
-      "cases": "否属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patoha",
-      "phonetic": "patoha",
-      "part_of_speech": "付詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patohe",
-      "phonetic": "patohe",
-      "part_of_speech": "動詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patohi",
-      "phonetic": "patohi",
-      "part_of_speech": "容詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patoho",
-      "phonetic": "patoho",
-      "part_of_speech": "助詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patohu",
-      "phonetic": "patohu",
-      "part_of_speech": "副詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patohw",
-      "phonetic": "patoh",
-      "part_of_speech": "名詞",
-      "cases": "否対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patuha",
-      "phonetic": "patuha",
-      "part_of_speech": "付詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patuhe",
-      "phonetic": "patuhe",
-      "part_of_speech": "動詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patuhi",
-      "phonetic": "patuhi",
-      "part_of_speech": "容詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patuho",
-      "phonetic": "patuho",
-      "part_of_speech": "助詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patuhu",
-      "phonetic": "patuhu",
-      "part_of_speech": "副詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patuhw",
-      "phonetic": "patuh",
-      "part_of_speech": "名詞",
-      "cases": "否主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patwha",
-      "phonetic": "patha",
-      "part_of_speech": "付詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patwhe",
-      "phonetic": "pathe",
-      "part_of_speech": "動詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patwhi",
-      "phonetic": "pathi",
-      "part_of_speech": "容詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patwho",
-      "phonetic": "patho",
-      "part_of_speech": "助詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patwhu",
-      "phonetic": "pathu",
-      "part_of_speech": "副詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "patwhw",
-      "phonetic": "path",
-      "part_of_speech": "名詞",
-      "cases": "否流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petaha",
-      "phonetic": "petaha",
-      "part_of_speech": "付詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petahe",
-      "phonetic": "petahe",
-      "part_of_speech": "動詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petahi",
-      "phonetic": "petahi",
-      "part_of_speech": "容詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petaho",
-      "phonetic": "petaho",
-      "part_of_speech": "助詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petahu",
-      "phonetic": "petahu",
-      "part_of_speech": "副詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petahw",
-      "phonetic": "petah",
-      "part_of_speech": "名詞",
-      "cases": "与否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "peteha",
-      "phonetic": "peteha",
-      "part_of_speech": "付詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petehe",
-      "phonetic": "petehe",
-      "part_of_speech": "動詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petehi",
-      "phonetic": "petehi",
-      "part_of_speech": "容詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "peteho",
-      "phonetic": "peteho",
-      "part_of_speech": "助詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petehu",
-      "phonetic": "petehu",
-      "part_of_speech": "副詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petehw",
-      "phonetic": "peteh",
-      "part_of_speech": "名詞",
-      "cases": "与与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petiha",
-      "phonetic": "petiha",
-      "part_of_speech": "付詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petihe",
-      "phonetic": "petihe",
-      "part_of_speech": "動詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petihi",
-      "phonetic": "petihi",
-      "part_of_speech": "容詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petiho",
-      "phonetic": "petiho",
-      "part_of_speech": "助詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petihu",
-      "phonetic": "petihu",
-      "part_of_speech": "副詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petihw",
-      "phonetic": "petih",
-      "part_of_speech": "名詞",
-      "cases": "与属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petoha",
-      "phonetic": "petoha",
-      "part_of_speech": "付詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petohe",
-      "phonetic": "petohe",
-      "part_of_speech": "動詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petohi",
-      "phonetic": "petohi",
-      "part_of_speech": "容詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petoho",
-      "phonetic": "petoho",
-      "part_of_speech": "助詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petohu",
-      "phonetic": "petohu",
-      "part_of_speech": "副詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petohw",
-      "phonetic": "petoh",
-      "part_of_speech": "名詞",
-      "cases": "与対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petuha",
-      "phonetic": "petuha",
-      "part_of_speech": "付詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petuhe",
-      "phonetic": "petuhe",
-      "part_of_speech": "動詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petuhi",
-      "phonetic": "petuhi",
-      "part_of_speech": "容詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petuho",
-      "phonetic": "petuho",
-      "part_of_speech": "助詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petuhu",
-      "phonetic": "petuhu",
-      "part_of_speech": "副詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petuhw",
-      "phonetic": "petuh",
-      "part_of_speech": "名詞",
-      "cases": "与主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petwha",
-      "phonetic": "petha",
-      "part_of_speech": "付詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petwhe",
-      "phonetic": "pethe",
-      "part_of_speech": "動詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petwhi",
-      "phonetic": "pethi",
-      "part_of_speech": "容詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petwho",
-      "phonetic": "petho",
-      "part_of_speech": "助詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petwhu",
-      "phonetic": "pethu",
-      "part_of_speech": "副詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "petwhw",
-      "phonetic": "peth",
-      "part_of_speech": "名詞",
-      "cases": "与流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitaha",
-      "phonetic": "pitaha",
-      "part_of_speech": "付詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitahe",
-      "phonetic": "pitahe",
-      "part_of_speech": "動詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitahi",
-      "phonetic": "pitahi",
-      "part_of_speech": "容詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitaho",
-      "phonetic": "pitaho",
-      "part_of_speech": "助詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitahu",
-      "phonetic": "pitahu",
-      "part_of_speech": "副詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitahw",
-      "phonetic": "pitah",
-      "part_of_speech": "名詞",
-      "cases": "属否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "piteha",
-      "phonetic": "piteha",
-      "part_of_speech": "付詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitehe",
-      "phonetic": "pitehe",
-      "part_of_speech": "動詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitehi",
-      "phonetic": "pitehi",
-      "part_of_speech": "容詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "piteho",
-      "phonetic": "piteho",
-      "part_of_speech": "助詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitehu",
-      "phonetic": "pitehu",
-      "part_of_speech": "副詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitehw",
-      "phonetic": "piteh",
-      "part_of_speech": "名詞",
-      "cases": "属与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitiha",
-      "phonetic": "pitiha",
-      "part_of_speech": "付詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitihe",
-      "phonetic": "pitihe",
-      "part_of_speech": "動詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitihi",
-      "phonetic": "pitihi",
-      "part_of_speech": "容詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitiho",
-      "phonetic": "pitiho",
-      "part_of_speech": "助詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitihu",
-      "phonetic": "pitihu",
-      "part_of_speech": "副詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitihw",
-      "phonetic": "pitih",
-      "part_of_speech": "名詞",
-      "cases": "属属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitoha",
-      "phonetic": "pitoha",
-      "part_of_speech": "付詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitohe",
-      "phonetic": "pitohe",
-      "part_of_speech": "動詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitohi",
-      "phonetic": "pitohi",
-      "part_of_speech": "容詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitoho",
-      "phonetic": "pitoho",
-      "part_of_speech": "助詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitohu",
-      "phonetic": "pitohu",
-      "part_of_speech": "副詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitohw",
-      "phonetic": "pitoh",
-      "part_of_speech": "名詞",
-      "cases": "属対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pituha",
-      "phonetic": "pituha",
-      "part_of_speech": "付詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pituhe",
-      "phonetic": "pituhe",
-      "part_of_speech": "動詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pituhi",
-      "phonetic": "pituhi",
-      "part_of_speech": "容詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pituho",
-      "phonetic": "pituho",
-      "part_of_speech": "助詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pituhu",
-      "phonetic": "pituhu",
-      "part_of_speech": "副詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pituhw",
-      "phonetic": "pituh",
-      "part_of_speech": "名詞",
-      "cases": "属主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitwha",
-      "phonetic": "pitha",
-      "part_of_speech": "付詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitwhe",
-      "phonetic": "pithe",
-      "part_of_speech": "動詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitwhi",
-      "phonetic": "pithi",
-      "part_of_speech": "容詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitwho",
-      "phonetic": "pitho",
-      "part_of_speech": "助詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitwhu",
-      "phonetic": "pithu",
-      "part_of_speech": "副詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pitwhw",
-      "phonetic": "pith",
-      "part_of_speech": "名詞",
-      "cases": "属流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potaha",
-      "phonetic": "potaha",
-      "part_of_speech": "付詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potahe",
-      "phonetic": "potahe",
-      "part_of_speech": "動詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potahi",
-      "phonetic": "potahi",
-      "part_of_speech": "容詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potaho",
-      "phonetic": "potaho",
-      "part_of_speech": "助詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potahu",
-      "phonetic": "potahu",
-      "part_of_speech": "副詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potahw",
-      "phonetic": "potah",
-      "part_of_speech": "名詞",
-      "cases": "対否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "poteha",
-      "phonetic": "poteha",
-      "part_of_speech": "付詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potehe",
-      "phonetic": "potehe",
-      "part_of_speech": "動詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potehi",
-      "phonetic": "potehi",
-      "part_of_speech": "容詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "poteho",
-      "phonetic": "poteho",
-      "part_of_speech": "助詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potehu",
-      "phonetic": "potehu",
-      "part_of_speech": "副詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potehw",
-      "phonetic": "poteh",
-      "part_of_speech": "名詞",
-      "cases": "対与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potiha",
-      "phonetic": "potiha",
-      "part_of_speech": "付詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potihe",
-      "phonetic": "potihe",
-      "part_of_speech": "動詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potihi",
-      "phonetic": "potihi",
-      "part_of_speech": "容詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potiho",
-      "phonetic": "potiho",
-      "part_of_speech": "助詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potihu",
-      "phonetic": "potihu",
-      "part_of_speech": "副詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potihw",
-      "phonetic": "potih",
-      "part_of_speech": "名詞",
-      "cases": "対属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potoha",
-      "phonetic": "potoha",
-      "part_of_speech": "付詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potohe",
-      "phonetic": "potohe",
-      "part_of_speech": "動詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potohi",
-      "phonetic": "potohi",
-      "part_of_speech": "容詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potoho",
-      "phonetic": "potoho",
-      "part_of_speech": "助詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potohu",
-      "phonetic": "potohu",
-      "part_of_speech": "副詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potohw",
-      "phonetic": "potoh",
-      "part_of_speech": "名詞",
-      "cases": "対対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potuha",
-      "phonetic": "potuha",
-      "part_of_speech": "付詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potuhe",
-      "phonetic": "potuhe",
-      "part_of_speech": "動詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potuhi",
-      "phonetic": "potuhi",
-      "part_of_speech": "容詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potuho",
-      "phonetic": "potuho",
-      "part_of_speech": "助詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potuhu",
-      "phonetic": "potuhu",
-      "part_of_speech": "副詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potuhw",
-      "phonetic": "potuh",
-      "part_of_speech": "名詞",
-      "cases": "対主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potwha",
-      "phonetic": "potha",
-      "part_of_speech": "付詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potwhe",
-      "phonetic": "pothe",
-      "part_of_speech": "動詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potwhi",
-      "phonetic": "pothi",
-      "part_of_speech": "容詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potwho",
-      "phonetic": "potho",
-      "part_of_speech": "助詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potwhu",
-      "phonetic": "pothu",
-      "part_of_speech": "副詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "potwhw",
-      "phonetic": "poth",
-      "part_of_speech": "名詞",
-      "cases": "対流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putaha",
-      "phonetic": "putaha",
-      "part_of_speech": "付詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putahe",
-      "phonetic": "putahe",
-      "part_of_speech": "動詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putahi",
-      "phonetic": "putahi",
-      "part_of_speech": "容詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putaho",
-      "phonetic": "putaho",
-      "part_of_speech": "助詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putahu",
-      "phonetic": "putahu",
-      "part_of_speech": "副詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putahw",
-      "phonetic": "putah",
-      "part_of_speech": "名詞",
-      "cases": "主否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "puteha",
-      "phonetic": "puteha",
-      "part_of_speech": "付詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putehe",
-      "phonetic": "putehe",
-      "part_of_speech": "動詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putehi",
-      "phonetic": "putehi",
-      "part_of_speech": "容詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "puteho",
-      "phonetic": "puteho",
-      "part_of_speech": "助詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putehu",
-      "phonetic": "putehu",
-      "part_of_speech": "副詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putehw",
-      "phonetic": "puteh",
-      "part_of_speech": "名詞",
-      "cases": "主与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putiha",
-      "phonetic": "putiha",
-      "part_of_speech": "付詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putihe",
-      "phonetic": "putihe",
-      "part_of_speech": "動詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putihi",
-      "phonetic": "putihi",
-      "part_of_speech": "容詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putiho",
-      "phonetic": "putiho",
-      "part_of_speech": "助詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putihu",
-      "phonetic": "putihu",
-      "part_of_speech": "副詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putihw",
-      "phonetic": "putih",
-      "part_of_speech": "名詞",
-      "cases": "主属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putoha",
-      "phonetic": "putoha",
-      "part_of_speech": "付詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putohe",
-      "phonetic": "putohe",
-      "part_of_speech": "動詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putohi",
-      "phonetic": "putohi",
-      "part_of_speech": "容詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putoho",
-      "phonetic": "putoho",
-      "part_of_speech": "助詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putohu",
-      "phonetic": "putohu",
-      "part_of_speech": "副詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putohw",
-      "phonetic": "putoh",
-      "part_of_speech": "名詞",
-      "cases": "主対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putuha",
-      "phonetic": "putuha",
-      "part_of_speech": "付詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putuhe",
-      "phonetic": "putuhe",
-      "part_of_speech": "動詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putuhi",
-      "phonetic": "putuhi",
-      "part_of_speech": "容詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putuho",
-      "phonetic": "putuho",
-      "part_of_speech": "助詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putuhu",
-      "phonetic": "putuhu",
-      "part_of_speech": "副詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putuhw",
-      "phonetic": "putuh",
-      "part_of_speech": "名詞",
-      "cases": "主主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putwha",
-      "phonetic": "putha",
-      "part_of_speech": "付詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putwhe",
-      "phonetic": "puthe",
-      "part_of_speech": "動詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putwhi",
-      "phonetic": "puthi",
-      "part_of_speech": "容詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putwho",
-      "phonetic": "putho",
-      "part_of_speech": "助詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putwhu",
-      "phonetic": "puthu",
-      "part_of_speech": "副詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "putwhw",
-      "phonetic": "puth",
-      "part_of_speech": "名詞",
-      "cases": "主流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtaha",
-      "phonetic": "ptaha",
-      "part_of_speech": "付詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtahe",
-      "phonetic": "ptahe",
-      "part_of_speech": "動詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtahi",
-      "phonetic": "ptahi",
-      "part_of_speech": "容詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtaho",
-      "phonetic": "ptaho",
-      "part_of_speech": "助詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtahu",
-      "phonetic": "ptahu",
-      "part_of_speech": "副詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtahw",
-      "phonetic": "ptah",
-      "part_of_speech": "名詞",
-      "cases": "流否格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwteha",
-      "phonetic": "pteha",
-      "part_of_speech": "付詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtehe",
-      "phonetic": "ptehe",
-      "part_of_speech": "動詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtehi",
-      "phonetic": "ptehi",
-      "part_of_speech": "容詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwteho",
-      "phonetic": "pteho",
-      "part_of_speech": "助詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtehu",
-      "phonetic": "ptehu",
-      "part_of_speech": "副詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtehw",
-      "phonetic": "pteh",
-      "part_of_speech": "名詞",
-      "cases": "流与格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtiha",
-      "phonetic": "ptiha",
-      "part_of_speech": "付詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtihe",
-      "phonetic": "ptihe",
-      "part_of_speech": "動詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtihi",
-      "phonetic": "ptihi",
-      "part_of_speech": "容詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtiho",
-      "phonetic": "ptiho",
-      "part_of_speech": "助詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtihu",
-      "phonetic": "ptihu",
-      "part_of_speech": "副詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtihw",
-      "phonetic": "ptih",
-      "part_of_speech": "名詞",
-      "cases": "流属格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtoha",
-      "phonetic": "ptoha",
-      "part_of_speech": "付詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtohe",
-      "phonetic": "ptohe",
-      "part_of_speech": "動詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtohi",
-      "phonetic": "ptohi",
-      "part_of_speech": "容詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtoho",
-      "phonetic": "ptoho",
-      "part_of_speech": "助詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtohu",
-      "phonetic": "ptohu",
-      "part_of_speech": "副詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtohw",
-      "phonetic": "ptoh",
-      "part_of_speech": "名詞",
-      "cases": "流対格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtuha",
-      "phonetic": "ptuha",
-      "part_of_speech": "付詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtuhe",
-      "phonetic": "ptuhe",
-      "part_of_speech": "動詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtuhi",
-      "phonetic": "ptuhi",
-      "part_of_speech": "容詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtuho",
-      "phonetic": "ptuho",
-      "part_of_speech": "助詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtuhu",
-      "phonetic": "ptuhu",
-      "part_of_speech": "副詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtuhw",
-      "phonetic": "ptuh",
-      "part_of_speech": "名詞",
-      "cases": "流主格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtwha",
-      "phonetic": "ptha",
-      "part_of_speech": "付詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtwhe",
-      "phonetic": "pthe",
-      "part_of_speech": "動詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtwhi",
-      "phonetic": "pthi",
-      "part_of_speech": "容詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtwho",
-      "phonetic": "ptho",
-      "part_of_speech": "助詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtwhu",
-      "phonetic": "pthu",
-      "part_of_speech": "副詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    },
-    {
-      "word": "pwtwhw",
-      "phonetic": "pth",
-      "part_of_speech": "名詞",
-      "cases": "流流格",
-      "word_meaning": ""
-    }
-  ]
+    "words": [
+        {
+            "word": "pataha",
+            "phonetic": "pataha",
+            "part_of_speech": "付詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patahe",
+            "phonetic": "patahe",
+            "part_of_speech": "動詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patahi",
+            "phonetic": "patahi",
+            "part_of_speech": "容詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pataho",
+            "phonetic": "pataho",
+            "part_of_speech": "助詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patahu",
+            "phonetic": "patahu",
+            "part_of_speech": "副詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patahw",
+            "phonetic": "patah",
+            "part_of_speech": "名詞",
+            "cases": "否否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pateha",
+            "phonetic": "pateha",
+            "part_of_speech": "付詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patehe",
+            "phonetic": "patehe",
+            "part_of_speech": "動詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patehi",
+            "phonetic": "patehi",
+            "part_of_speech": "容詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pateho",
+            "phonetic": "pateho",
+            "part_of_speech": "助詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patehu",
+            "phonetic": "patehu",
+            "part_of_speech": "副詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patehw",
+            "phonetic": "pateh",
+            "part_of_speech": "名詞",
+            "cases": "否与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patiha",
+            "phonetic": "patiha",
+            "part_of_speech": "付詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patihe",
+            "phonetic": "patihe",
+            "part_of_speech": "動詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patihi",
+            "phonetic": "patihi",
+            "part_of_speech": "容詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patiho",
+            "phonetic": "patiho",
+            "part_of_speech": "助詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patihu",
+            "phonetic": "patihu",
+            "part_of_speech": "副詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patihw",
+            "phonetic": "patih",
+            "part_of_speech": "名詞",
+            "cases": "否属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patoha",
+            "phonetic": "patoha",
+            "part_of_speech": "付詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patohe",
+            "phonetic": "patohe",
+            "part_of_speech": "動詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patohi",
+            "phonetic": "patohi",
+            "part_of_speech": "容詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patoho",
+            "phonetic": "patoho",
+            "part_of_speech": "助詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patohu",
+            "phonetic": "patohu",
+            "part_of_speech": "副詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patohw",
+            "phonetic": "patoh",
+            "part_of_speech": "名詞",
+            "cases": "否対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patuha",
+            "phonetic": "patuha",
+            "part_of_speech": "付詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patuhe",
+            "phonetic": "patuhe",
+            "part_of_speech": "動詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patuhi",
+            "phonetic": "patuhi",
+            "part_of_speech": "容詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patuho",
+            "phonetic": "patuho",
+            "part_of_speech": "助詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patuhu",
+            "phonetic": "patuhu",
+            "part_of_speech": "副詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patuhw",
+            "phonetic": "patuh",
+            "part_of_speech": "名詞",
+            "cases": "否主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patwha",
+            "phonetic": "patha",
+            "part_of_speech": "付詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patwhe",
+            "phonetic": "pathe",
+            "part_of_speech": "動詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patwhi",
+            "phonetic": "pathi",
+            "part_of_speech": "容詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patwho",
+            "phonetic": "patho",
+            "part_of_speech": "助詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patwhu",
+            "phonetic": "pathu",
+            "part_of_speech": "副詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "patwhw",
+            "phonetic": "path",
+            "part_of_speech": "名詞",
+            "cases": "否流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petaha",
+            "phonetic": "petaha",
+            "part_of_speech": "付詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petahe",
+            "phonetic": "petahe",
+            "part_of_speech": "動詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petahi",
+            "phonetic": "petahi",
+            "part_of_speech": "容詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petaho",
+            "phonetic": "petaho",
+            "part_of_speech": "助詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petahu",
+            "phonetic": "petahu",
+            "part_of_speech": "副詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petahw",
+            "phonetic": "petah",
+            "part_of_speech": "名詞",
+            "cases": "与否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "peteha",
+            "phonetic": "peteha",
+            "part_of_speech": "付詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petehe",
+            "phonetic": "petehe",
+            "part_of_speech": "動詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petehi",
+            "phonetic": "petehi",
+            "part_of_speech": "容詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "peteho",
+            "phonetic": "peteho",
+            "part_of_speech": "助詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petehu",
+            "phonetic": "petehu",
+            "part_of_speech": "副詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petehw",
+            "phonetic": "peteh",
+            "part_of_speech": "名詞",
+            "cases": "与与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petiha",
+            "phonetic": "petiha",
+            "part_of_speech": "付詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petihe",
+            "phonetic": "petihe",
+            "part_of_speech": "動詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petihi",
+            "phonetic": "petihi",
+            "part_of_speech": "容詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petiho",
+            "phonetic": "petiho",
+            "part_of_speech": "助詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petihu",
+            "phonetic": "petihu",
+            "part_of_speech": "副詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petihw",
+            "phonetic": "petih",
+            "part_of_speech": "名詞",
+            "cases": "与属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petoha",
+            "phonetic": "petoha",
+            "part_of_speech": "付詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petohe",
+            "phonetic": "petohe",
+            "part_of_speech": "動詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petohi",
+            "phonetic": "petohi",
+            "part_of_speech": "容詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petoho",
+            "phonetic": "petoho",
+            "part_of_speech": "助詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petohu",
+            "phonetic": "petohu",
+            "part_of_speech": "副詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petohw",
+            "phonetic": "petoh",
+            "part_of_speech": "名詞",
+            "cases": "与対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petuha",
+            "phonetic": "petuha",
+            "part_of_speech": "付詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petuhe",
+            "phonetic": "petuhe",
+            "part_of_speech": "動詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petuhi",
+            "phonetic": "petuhi",
+            "part_of_speech": "容詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petuho",
+            "phonetic": "petuho",
+            "part_of_speech": "助詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petuhu",
+            "phonetic": "petuhu",
+            "part_of_speech": "副詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petuhw",
+            "phonetic": "petuh",
+            "part_of_speech": "名詞",
+            "cases": "与主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petwha",
+            "phonetic": "petha",
+            "part_of_speech": "付詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petwhe",
+            "phonetic": "pethe",
+            "part_of_speech": "動詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petwhi",
+            "phonetic": "pethi",
+            "part_of_speech": "容詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petwho",
+            "phonetic": "petho",
+            "part_of_speech": "助詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petwhu",
+            "phonetic": "pethu",
+            "part_of_speech": "副詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "petwhw",
+            "phonetic": "peth",
+            "part_of_speech": "名詞",
+            "cases": "与流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitaha",
+            "phonetic": "pitaha",
+            "part_of_speech": "付詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitahe",
+            "phonetic": "pitahe",
+            "part_of_speech": "動詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitahi",
+            "phonetic": "pitahi",
+            "part_of_speech": "容詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitaho",
+            "phonetic": "pitaho",
+            "part_of_speech": "助詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitahu",
+            "phonetic": "pitahu",
+            "part_of_speech": "副詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitahw",
+            "phonetic": "pitah",
+            "part_of_speech": "名詞",
+            "cases": "属否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "piteha",
+            "phonetic": "piteha",
+            "part_of_speech": "付詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitehe",
+            "phonetic": "pitehe",
+            "part_of_speech": "動詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitehi",
+            "phonetic": "pitehi",
+            "part_of_speech": "容詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "piteho",
+            "phonetic": "piteho",
+            "part_of_speech": "助詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitehu",
+            "phonetic": "pitehu",
+            "part_of_speech": "副詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitehw",
+            "phonetic": "piteh",
+            "part_of_speech": "名詞",
+            "cases": "属与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitiha",
+            "phonetic": "pitiha",
+            "part_of_speech": "付詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitihe",
+            "phonetic": "pitihe",
+            "part_of_speech": "動詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitihi",
+            "phonetic": "pitihi",
+            "part_of_speech": "容詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitiho",
+            "phonetic": "pitiho",
+            "part_of_speech": "助詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitihu",
+            "phonetic": "pitihu",
+            "part_of_speech": "副詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitihw",
+            "phonetic": "pitih",
+            "part_of_speech": "名詞",
+            "cases": "属属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitoha",
+            "phonetic": "pitoha",
+            "part_of_speech": "付詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitohe",
+            "phonetic": "pitohe",
+            "part_of_speech": "動詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitohi",
+            "phonetic": "pitohi",
+            "part_of_speech": "容詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitoho",
+            "phonetic": "pitoho",
+            "part_of_speech": "助詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitohu",
+            "phonetic": "pitohu",
+            "part_of_speech": "副詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitohw",
+            "phonetic": "pitoh",
+            "part_of_speech": "名詞",
+            "cases": "属対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pituha",
+            "phonetic": "pituha",
+            "part_of_speech": "付詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pituhe",
+            "phonetic": "pituhe",
+            "part_of_speech": "動詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pituhi",
+            "phonetic": "pituhi",
+            "part_of_speech": "容詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pituho",
+            "phonetic": "pituho",
+            "part_of_speech": "助詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pituhu",
+            "phonetic": "pituhu",
+            "part_of_speech": "副詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pituhw",
+            "phonetic": "pituh",
+            "part_of_speech": "名詞",
+            "cases": "属主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitwha",
+            "phonetic": "pitha",
+            "part_of_speech": "付詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitwhe",
+            "phonetic": "pithe",
+            "part_of_speech": "動詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitwhi",
+            "phonetic": "pithi",
+            "part_of_speech": "容詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitwho",
+            "phonetic": "pitho",
+            "part_of_speech": "助詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitwhu",
+            "phonetic": "pithu",
+            "part_of_speech": "副詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pitwhw",
+            "phonetic": "pith",
+            "part_of_speech": "名詞",
+            "cases": "属流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potaha",
+            "phonetic": "potaha",
+            "part_of_speech": "付詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potahe",
+            "phonetic": "potahe",
+            "part_of_speech": "動詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potahi",
+            "phonetic": "potahi",
+            "part_of_speech": "容詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potaho",
+            "phonetic": "potaho",
+            "part_of_speech": "助詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potahu",
+            "phonetic": "potahu",
+            "part_of_speech": "副詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potahw",
+            "phonetic": "potah",
+            "part_of_speech": "名詞",
+            "cases": "対否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "poteha",
+            "phonetic": "poteha",
+            "part_of_speech": "付詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potehe",
+            "phonetic": "potehe",
+            "part_of_speech": "動詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potehi",
+            "phonetic": "potehi",
+            "part_of_speech": "容詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "poteho",
+            "phonetic": "poteho",
+            "part_of_speech": "助詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potehu",
+            "phonetic": "potehu",
+            "part_of_speech": "副詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potehw",
+            "phonetic": "poteh",
+            "part_of_speech": "名詞",
+            "cases": "対与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potiha",
+            "phonetic": "potiha",
+            "part_of_speech": "付詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potihe",
+            "phonetic": "potihe",
+            "part_of_speech": "動詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potihi",
+            "phonetic": "potihi",
+            "part_of_speech": "容詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potiho",
+            "phonetic": "potiho",
+            "part_of_speech": "助詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potihu",
+            "phonetic": "potihu",
+            "part_of_speech": "副詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potihw",
+            "phonetic": "potih",
+            "part_of_speech": "名詞",
+            "cases": "対属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potoha",
+            "phonetic": "potoha",
+            "part_of_speech": "付詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potohe",
+            "phonetic": "potohe",
+            "part_of_speech": "動詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potohi",
+            "phonetic": "potohi",
+            "part_of_speech": "容詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potoho",
+            "phonetic": "potoho",
+            "part_of_speech": "助詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potohu",
+            "phonetic": "potohu",
+            "part_of_speech": "副詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potohw",
+            "phonetic": "potoh",
+            "part_of_speech": "名詞",
+            "cases": "対対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potuha",
+            "phonetic": "potuha",
+            "part_of_speech": "付詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potuhe",
+            "phonetic": "potuhe",
+            "part_of_speech": "動詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potuhi",
+            "phonetic": "potuhi",
+            "part_of_speech": "容詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potuho",
+            "phonetic": "potuho",
+            "part_of_speech": "助詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potuhu",
+            "phonetic": "potuhu",
+            "part_of_speech": "副詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potuhw",
+            "phonetic": "potuh",
+            "part_of_speech": "名詞",
+            "cases": "対主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potwha",
+            "phonetic": "potha",
+            "part_of_speech": "付詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potwhe",
+            "phonetic": "pothe",
+            "part_of_speech": "動詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potwhi",
+            "phonetic": "pothi",
+            "part_of_speech": "容詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potwho",
+            "phonetic": "potho",
+            "part_of_speech": "助詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potwhu",
+            "phonetic": "pothu",
+            "part_of_speech": "副詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "potwhw",
+            "phonetic": "poth",
+            "part_of_speech": "名詞",
+            "cases": "対流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putaha",
+            "phonetic": "putaha",
+            "part_of_speech": "付詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putahe",
+            "phonetic": "putahe",
+            "part_of_speech": "動詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putahi",
+            "phonetic": "putahi",
+            "part_of_speech": "容詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putaho",
+            "phonetic": "putaho",
+            "part_of_speech": "助詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putahu",
+            "phonetic": "putahu",
+            "part_of_speech": "副詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putahw",
+            "phonetic": "putah",
+            "part_of_speech": "名詞",
+            "cases": "主否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "puteha",
+            "phonetic": "puteha",
+            "part_of_speech": "付詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putehe",
+            "phonetic": "putehe",
+            "part_of_speech": "動詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putehi",
+            "phonetic": "putehi",
+            "part_of_speech": "容詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "puteho",
+            "phonetic": "puteho",
+            "part_of_speech": "助詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putehu",
+            "phonetic": "putehu",
+            "part_of_speech": "副詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putehw",
+            "phonetic": "puteh",
+            "part_of_speech": "名詞",
+            "cases": "主与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putiha",
+            "phonetic": "putiha",
+            "part_of_speech": "付詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putihe",
+            "phonetic": "putihe",
+            "part_of_speech": "動詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putihi",
+            "phonetic": "putihi",
+            "part_of_speech": "容詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putiho",
+            "phonetic": "putiho",
+            "part_of_speech": "助詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putihu",
+            "phonetic": "putihu",
+            "part_of_speech": "副詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putihw",
+            "phonetic": "putih",
+            "part_of_speech": "名詞",
+            "cases": "主属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putoha",
+            "phonetic": "putoha",
+            "part_of_speech": "付詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putohe",
+            "phonetic": "putohe",
+            "part_of_speech": "動詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putohi",
+            "phonetic": "putohi",
+            "part_of_speech": "容詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putoho",
+            "phonetic": "putoho",
+            "part_of_speech": "助詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putohu",
+            "phonetic": "putohu",
+            "part_of_speech": "副詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putohw",
+            "phonetic": "putoh",
+            "part_of_speech": "名詞",
+            "cases": "主対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putuha",
+            "phonetic": "putuha",
+            "part_of_speech": "付詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putuhe",
+            "phonetic": "putuhe",
+            "part_of_speech": "動詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putuhi",
+            "phonetic": "putuhi",
+            "part_of_speech": "容詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putuho",
+            "phonetic": "putuho",
+            "part_of_speech": "助詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putuhu",
+            "phonetic": "putuhu",
+            "part_of_speech": "副詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putuhw",
+            "phonetic": "putuh",
+            "part_of_speech": "名詞",
+            "cases": "主主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putwha",
+            "phonetic": "putha",
+            "part_of_speech": "付詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putwhe",
+            "phonetic": "puthe",
+            "part_of_speech": "動詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putwhi",
+            "phonetic": "puthi",
+            "part_of_speech": "容詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putwho",
+            "phonetic": "putho",
+            "part_of_speech": "助詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putwhu",
+            "phonetic": "puthu",
+            "part_of_speech": "副詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "putwhw",
+            "phonetic": "puth",
+            "part_of_speech": "名詞",
+            "cases": "主流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtaha",
+            "phonetic": "ptaha",
+            "part_of_speech": "付詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtahe",
+            "phonetic": "ptahe",
+            "part_of_speech": "動詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtahi",
+            "phonetic": "ptahi",
+            "part_of_speech": "容詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtaho",
+            "phonetic": "ptaho",
+            "part_of_speech": "助詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtahu",
+            "phonetic": "ptahu",
+            "part_of_speech": "副詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtahw",
+            "phonetic": "ptah",
+            "part_of_speech": "名詞",
+            "cases": "流否格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwteha",
+            "phonetic": "pteha",
+            "part_of_speech": "付詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtehe",
+            "phonetic": "ptehe",
+            "part_of_speech": "動詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtehi",
+            "phonetic": "ptehi",
+            "part_of_speech": "容詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwteho",
+            "phonetic": "pteho",
+            "part_of_speech": "助詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtehu",
+            "phonetic": "ptehu",
+            "part_of_speech": "副詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtehw",
+            "phonetic": "pteh",
+            "part_of_speech": "名詞",
+            "cases": "流与格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtiha",
+            "phonetic": "ptiha",
+            "part_of_speech": "付詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtihe",
+            "phonetic": "ptihe",
+            "part_of_speech": "動詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtihi",
+            "phonetic": "ptihi",
+            "part_of_speech": "容詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtiho",
+            "phonetic": "ptiho",
+            "part_of_speech": "助詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtihu",
+            "phonetic": "ptihu",
+            "part_of_speech": "副詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtihw",
+            "phonetic": "ptih",
+            "part_of_speech": "名詞",
+            "cases": "流属格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtoha",
+            "phonetic": "ptoha",
+            "part_of_speech": "付詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtohe",
+            "phonetic": "ptohe",
+            "part_of_speech": "動詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtohi",
+            "phonetic": "ptohi",
+            "part_of_speech": "容詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtoho",
+            "phonetic": "ptoho",
+            "part_of_speech": "助詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtohu",
+            "phonetic": "ptohu",
+            "part_of_speech": "副詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtohw",
+            "phonetic": "ptoh",
+            "part_of_speech": "名詞",
+            "cases": "流対格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtuha",
+            "phonetic": "ptuha",
+            "part_of_speech": "付詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtuhe",
+            "phonetic": "ptuhe",
+            "part_of_speech": "動詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtuhi",
+            "phonetic": "ptuhi",
+            "part_of_speech": "容詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtuho",
+            "phonetic": "ptuho",
+            "part_of_speech": "助詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtuhu",
+            "phonetic": "ptuhu",
+            "part_of_speech": "副詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtuhw",
+            "phonetic": "ptuh",
+            "part_of_speech": "名詞",
+            "cases": "流主格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtwha",
+            "phonetic": "ptha",
+            "part_of_speech": "付詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtwhe",
+            "phonetic": "pthe",
+            "part_of_speech": "動詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtwhi",
+            "phonetic": "pthi",
+            "part_of_speech": "容詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtwho",
+            "phonetic": "ptho",
+            "part_of_speech": "助詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtwhu",
+            "phonetic": "pthu",
+            "part_of_speech": "副詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        },
+        {
+            "word": "pwtwhw",
+            "phonetic": "pth",
+            "part_of_speech": "名詞",
+            "cases": "流流格",
+            "word_meaning": ""
+        }
+    ]
 }

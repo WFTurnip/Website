@@ -13,15 +13,15 @@ const vowels_part_of_speech_types = ["付", "動", "容", "助", "副", "名"];
 const vowels_phonetics = ["a", "e", "i", "o", "u", ""];
 
 async function generateConsonants() {
-    let filename = path.join("index", "index.html");
+    let filename = path.join("html_index", "index.html");
 
     const dom = new JSDOM("<!DOCTYPE html><head></head><body></body><html lang='ja'></html>");
     const document = dom.window.document;
 
     let head = document.head;
-    let metaCharset = document.createElement("meta");
-    metaCharset.setAttribute("charset", "UTF-8");
-    head.appendChild(metaCharset);
+    let meta = document.createElement("meta");
+    meta.setAttribute("charset", "UTF-8");
+    head.appendChild(meta);
 
     let title = document.createElement("title");
     title.textContent = "子音見出し";
@@ -83,7 +83,7 @@ async function generateConsonants() {
     footer.appendChild(ulFooter)
     body.appendChild(footer)
 
-    let htmlContent = beautify(dom.serialize(), { indent_size: 2, space_in_empty_paren: true });
+    let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
 
     try {
         await fs.writeFile(filename, htmlContent)
@@ -94,15 +94,15 @@ async function generateConsonants() {
 }
 
 async function generateIndex(i) {
-    let filename = path.join("index", consonants[i] + ".html");
+    let filename = path.join("html_index", consonants[i] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
 
     let head = document.head;
-    let metaCharset = document.createElement("meta");
-    metaCharset.setAttribute("charset", "UTF-8");
-    head.appendChild(metaCharset);
+    let meta = document.createElement("meta");
+    meta.setAttribute("charset", "UTF-8");
+    head.appendChild(meta);
 
     let title = document.createElement("title");
     title.textContent = "頭文字" + consonants[i];
@@ -192,7 +192,7 @@ async function generateIndex(i) {
     footer.appendChild(ulFooter)
     body.appendChild(footer)
 
-    let htmlContent = beautify(dom.serialize(), { indent_size: 2, space_in_empty_paren: true });
+    let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
 
     try {
         await fs.mkdir("index", { recursive: true });
@@ -204,7 +204,7 @@ async function generateIndex(i) {
 }
 
 async function generateIndexDirectory(i) {
-    let directory = path.join("index", consonants[i]);
+    let directory = path.join("html_index", consonants[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
@@ -222,16 +222,16 @@ async function generateRoots(i, j, k) {
         return p;
     };
 
-    let filename = path.join("index", consonants[i] + "/" + consonants[i] + consonants[j] + consonants[k] + ".html");
+    let filename = path.join("html_index", consonants[i] + "/" + consonants[i] + consonants[j] + consonants[k] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
 
     let head = document.head;
 
-    let metaCharset = document.createElement("meta");
-    metaCharset.setAttribute("charset", "UTF-8");
-    head.appendChild(metaCharset);
+    let meta = document.createElement("meta");
+    meta.setAttribute("charset", "UTF-8");
+    head.appendChild(meta);
 
     let title = document.createElement("title");
     title.textContent = "語根" + consonants[i] + consonants[j] + consonants[k];
@@ -405,7 +405,7 @@ async function generateRoots(i, j, k) {
     footer.appendChild(ulFooter);
     body.appendChild(footer);
 
-    let htmlContent = beautify(dom.serialize(), { indent_size: 2, space_in_empty_paren: true });
+    let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
 
     try {
         await fs.writeFile(filename, htmlContent);

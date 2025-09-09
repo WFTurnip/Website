@@ -23,7 +23,7 @@ async function generateConsonants() {
 
     let object = { index };
 
-    let pretty = beautify(object, null, 2, 100);
+    let pretty = beautify(object, null, 4, 100);
 
     try {
         await fs.writeFile(filename, pretty);
@@ -53,7 +53,7 @@ async function generateIndex(i) {
 
     let object = { roots };
 
-    let pretty = beautify(object, null, 2, 100);
+    let pretty = beautify(object, null, 4, 100);
 
     try {
         await fs.writeFile(filename, pretty);
@@ -99,7 +99,7 @@ async function generateRoots(i, j, k) {
 
     let object = { words };
 
-    let pretty = beautify(object, null, 2, 100);
+    let pretty = beautify(object, null, 4, 100);
 
     try {
         await fs.writeFile(filename, pretty);
