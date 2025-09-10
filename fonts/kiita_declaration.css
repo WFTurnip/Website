@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'kodito';
+    src: url('kodito.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lekuta';
+    src: url('lekuta.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lozegw';
+    src: url('lozegw.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'makina';
+    src: url('makina.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'piswpi';
+    src: url('piswpi.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'polwgo';
+    src: url('polwgo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'lozegw';
+    src: url('lozegw.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'silwki';
+    src: url('silwki.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'sulive';
+    src: url('sulive.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'xavani';
+    src: url('xavani.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'xesada';
+    src: url('xesada.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'xidili';
+    src: url('xidili.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'zosokw';
+    src: url('zosokw.ttf') format('truetype');
+}
+
+@media (prefers-color-scheme: light) {
+
+    input,
+    body {
+        background-color: #ffffff;
+        color: #000000;
+    }
+
+    span {
+        color: #8b0000;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+
+    input,
+    body {
+        background-color: #000000;
+        color: #ffffff;
+    }
+
+    span {
+        color: #daa520;
+    }
+}
+
+body {
+    padding: 2rem;
+    text-align: center;
+    writing-mode: horizontal-tb;
+    font-family: "silwki", sans-serif;
+    font-variant-ligatures: contextual;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: right;
+    text-transform: capitalize;
+}
+
+p {
+    text-transform: capitalize;
+}
+
+table {
+    margin: auto;
+}
+
+.kodito {
+    font-family: 'kodito';
+}
+
+.lekuta {
+    font-family: 'lekuta';
+}
+
+.lozegw {
+    font-family: 'lozegw';
+}
+
+.makina {
+    font-family: 'makina';
+}
+
+.piswpi {
+    font-family: 'piswpi';
+}
+
+.polwgo {
+    font-family: 'polwgo';
+}
+
+.lozegw {
+    font-family: 'lozegw';
+}
+
+.silwki {
+    font-family: 'silwki';
+}
+
+.sulive {
+    font-family: 'sulive';
+    font-feature-settings: "calt" 1
+}
+
+.xavani {
+    font-family: 'xavani';
+}
+
+.xesada {
+    font-family: 'xesada';
+}
+
+.xidili {
+    font-family: 'xidili';
+}
+
+.zosokw {
+    font-family: 'zosokw';
+    font-feature-settings: "calt" 1;
+}
+
+input {
+    border-radius: 0%;
+    width: 6rem;
+}
