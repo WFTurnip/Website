@@ -1,68 +1,68 @@
 /* color theme */
 @media (prefers-color-scheme: light) {
 
-  body,
-  button,
-  rt,
-  a {
-    color: #000000;
-  }
+    body,
+    button,
+    rt,
+    a {
+        color: #000000;
+    }
 
-  body {
-    background-color: #ffffff;
-  }
+    body {
+        background-color: #ffffff;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
 
-  h1,
-  h2,
-  button,
-  a,
-  button > ruby > rt {
-    color: #b68d4c;
-  }
+    h1,
+    h2,
+    button,
+    a,
+    button > ruby > rt {
+        color: #b68d4c;
+    }
 
-  p,
-  rt {
-    color: #ffffff;
-  }
+    p,
+    rt {
+        color: #ffffff;
+    }
 
-  body {
-    background-color: #000000;
-  }
+    body {
+        background-color: #000000;
+    }
 }
 
 /* font & size */
 body {
-  padding: 2rem;
-  writing-mode: vertical-rl;
+    padding: 2rem;
+    writing-mode: vertical-rl;
 }
 
 h1,
 h2,
 p {
-  text-orientation: mixed;
+    text-orientation: mixed;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Xingkai TC", serif;
-  font-weight: bold;
+    font-family: "Xingkai TC", serif;
+    font-weight: bold;
 }
 
 p {
-  font-family: "Xingkai TC", serif;
-  font-weight: bold;
+    font-family: "Xingkai TC", serif;
+    font-weight: bold;
 }
 
 a > ruby > rt,
 p > ruby > rt,
 h2 > ruby > rt,
 h1 > ruby > rt {
-  font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
-  font-weight: bold;
-  font-variant-ligatures: common-ligatures;
-  font-feature-settings: "palt";
+    font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
+    font-weight: bold;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "palt";
 }

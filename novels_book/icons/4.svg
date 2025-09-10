@@ -1,16 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
-  <style>
-    @media (prefers-color-scheme: light) {
-      path {
-        fill: #000000;
-      }
-    }
+    <style>
+        @media (prefers-color-scheme: light) {
+            path {
+                fill: #000000;
+            }
+        }
 
-    @media (prefers-color-scheme: dark) {
-      path {
-        fill: #ffffff;
-      }
-    }
-  </style>
-  <path d="M75 75v150h250v-50H125v-50h250v150H75v150h300v50H75v150h300v50H75v150h300v50H75v50h350V775H125v-50h300V575H125v-50h300V75H75zm400 0v850h50V75h-50zm100 0v450h300v50H575v150h300v50H575v150h350v-50H625v-50h300V675H625v-50h300V475H625v-50h300V275H625V125h250v50H675v50h250V75H575zM125 325h250v50H125v-50zm500 0h250v50H625v-50z" />
+        @media (prefers-color-scheme: dark) {
+            path {
+                fill: #ffffff;
+            }
+        }
+    </style>
+    <path
+        d="M75 75v150h250v-50H125v-50h250v150H75v150h300v50H75v150h300v50H75v150h300v50H75v50h350V775H125v-50h300V575H125v-50h300V75H75zm400 0v850h50V75h-50zm100 0v450h300v50H575v150h300v50H575v150h350v-50H625v-50h300V675H625v-50h300V475H625v-50h300V275H625V125h250v50H675v50h250V75H575zM125 325h250v50H125v-50zm500 0h250v50H625v-50z" />
 </svg>

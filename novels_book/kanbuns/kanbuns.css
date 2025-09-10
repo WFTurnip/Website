@@ -1,80 +1,80 @@
 /* color theme */
 @media (prefers-color-scheme: light) {
 
-  body,
-  a {
-    color: #000000;
-  }
+    body,
+    a {
+        color: #000000;
+    }
 
-  body {
-    background-color: #ffffff;
-  }
+    body {
+        background-color: #ffffff;
+    }
 
-  rt,
-  rt,
-  span {
-    color: #a41919;
-  }
+    rt,
+    rt,
+    span {
+        color: #a41919;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
 
-  body,
-  a {
-    color: #b68d4c;
-  }
+    body,
+    a {
+        color: #b68d4c;
+    }
 
-  body {
-    background-color: #000000;
-  }
+    body {
+        background-color: #000000;
+    }
 
-  rt,
-  rt,
-  span {
-    color: #ffffff;
-  }
+    rt,
+    rt,
+    span {
+        color: #ffffff;
+    }
 
-  a {
-    color: #b68d4c;
-  }
+    a {
+        color: #b68d4c;
+    }
 }
 
 /* font & size */
 body {
-  font-style: normal;
-  padding: 2rem;
-  writing-mode: vertical-rl;
+    font-style: normal;
+    padding: 2rem;
+    writing-mode: vertical-rl;
 }
 
 h1,
 p,
 span {
-  text-orientation: mixed;
-  font-weight: normal;
+    text-orientation: mixed;
+    font-weight: normal;
 }
 
 h1,
 h2,
 p,
 a {
-  font-family: "Xingkai TC", serif;
-  font-weight: bold;
+    font-family: "Xingkai TC", serif;
+    font-weight: bold;
 }
 
 span {
-  font-family: "hanzipen SC", serif;
-  font-weight: normal;
+    font-family: "hanzipen SC", serif;
+    font-weight: normal;
 }
 
 p > ruby > rt,
 h2 > a > ruby > rt,
 h1 > ruby > rt {
-  font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
-  font-weight: bold;
-  font-variant-ligatures: common-ligatures;
-  font-feature-settings: "palt";
+    font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
+    font-weight: bold;
+    font-variant-ligatures: common-ligatures;
+    font-feature-settings: "palt";
 }
 
 ruby {
-  ruby-position: alternate;
+    ruby-position: alternate;
 }
