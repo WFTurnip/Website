@@ -55,10 +55,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const resultContainer = document.getElementById("result");
     resultContainer.innerHTML = "";
+
+    const anyOptionOn = consonants || roots || words;
+
+    resultContainer.appendChild(consonantsSearch(searchWord, consonants, anyOptionOn));
+    resultContainer.appendChild(rootsSearch(searchWord, roots, anyOptionOn));
+    resultContainer.appendChild(wordsSearch(searchWord, words, anyOptionOn));
 });
 
-function consonantsSearch(searchWord) { }
+function consonantsSearch(searchWord, isOn, anyOptionOn) {
+    const details = document.createElement("details");
+    details.open = isOn || !anyOptionOn;
 
-function rootsSearch(searchWord) { }
+    const summary = document.createElement("summary");
+    summary.textContent = "見出し検索";
+    details.appendChild(summary);
 
-function wordsSearch(searchWord) { }
+    const h2 = document.createElement("h2");
+    h2.textContent = searchWord.charAt(0);
+    details.appendChild(h2);
+    return details;
+}
+
+function rootsSearch(searchWord, isOn, anyOptionOn) {
+    const details = document.createElement("details");
+    details.open = isOn || !anyOptionOn;
+
+    const summary = document.createElement("summary");
+    summary.textContent = "語根検索";
+    details.appendChild(summary);
+
+    const h2 = document.createElement("h2");
+    h2.textContent = [0, 2, 4].map(i => searchWord.charAt(i) || "").join("");
+    details.appendChild(h2);
+
+    return details;
+}
+
+function wordsSearch(searchWord, isOn, anyOptionOn) {
+    const details = document.createElement("details");
+    details.open = isOn || !anyOptionOn;
+
+    const summary = document.createElement("summary");
+    summary.textContent = "単語検索";
+    details.appendChild(summary);
+
+    const h2 = document.createElement("h2");
+    h2.textContent = searchWord;
+    details.appendChild(h2);
+
+    return details;
+}
