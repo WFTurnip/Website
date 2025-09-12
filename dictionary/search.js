@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async () => {
     const params = new URLSearchParams(window.location.search);
 
     const searchWord = params.get("search") || "";
@@ -58,12 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const anyOptionOn = consonants || roots || words;
 
-    resultContainer.appendChild(consonantsSearch(searchWord, consonants, anyOptionOn));
+    resultContainer.appendChild(await consonantsSearch(searchWord, consonants, anyOptionOn));
     resultContainer.appendChild(rootsSearch(searchWord, roots, anyOptionOn));
     resultContainer.appendChild(wordsSearch(searchWord, words, anyOptionOn));
 });
 
-function consonantsSearch(searchWord, isOn, anyOptionOn) {
+async function consonantsSearch(searchWord, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
 
@@ -74,33 +74,55 @@ function consonantsSearch(searchWord, isOn, anyOptionOn) {
     const h2 = document.createElement("h2");
     h2.textContent = searchWord.charAt(0);
     details.appendChild(h2);
-    fetchFileForSearch("index").then(data => {
+    let filename = "index";
+    try {
+        const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "consonants");
         filtered.forEach(item => {
-            const p = document.createElement("p");
-            p.textContent = item.word + ": " + item.meaning;
-            details.appendChild(p);
+            const p1 = document.createElement("p");
+            p1.textContent = "子音概念：" + item.meaning;
+            details.appendChild(p1);
         });
-    });
+    } catch (error) {
+        console.error(error);
+        const p = document.createElement("p");
+        p.textContent = "データの取得に失敗しました。";
+        p.classList.add("warning");
+        details.appendChild(p);
+    }
     return details;
 }
 
-function rootsSearch(searchWord, isOn, anyOptionOn) {
+async function rootsSearch(searchWord, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
 
     const summary = document.createElement("summary");
     summary.textContent = "語根検索";
     details.appendChild(summary);
-
     const h2 = document.createElement("h2");
     h2.textContent = [0, 2, 4].map(i => searchWord.charAt(i) || "").join("");
     details.appendChild(h2);
-
+    let filename = searchWord.charAt(0);
+    try {
+        const data = await fetchFileForSearch(filename);
+        const filtered = filterData(data, searchWord, "roots");
+        filtered.forEach(item => {
+            const p1 = document.createElement("p");
+            p1.textContent = "語根概念：" + item.root_meaning;
+            details.appendChild(p1);
+        });
+    } catch (error) {
+        console.error(error);
+        const p = document.createElement("p");
+        p.textContent = "データの取得に失敗しました。";
+        p.classList.add("warning");
+        details.appendChild(p);
+    }
     return details;
 }
 
-function wordsSearch(searchWord, isOn, anyOptionOn) {
+async function wordsSearch(searchWord, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
 
@@ -116,7 +138,7 @@ function wordsSearch(searchWord, isOn, anyOptionOn) {
 }
 
 function fetchFileForSearch(searchWord) {
-    const filename = "json_index" + encodeURIComponent(searchWord) + ".json";
+    const filename = "json_index" + "/" + encodeURIComponent(searchWord) + ".json";
     return fetch(filename)
         .then(res => {
             if (!res.ok) throw new Error("ファイルが見つかりません");
@@ -128,7 +150,7 @@ function filterData(data, searchWord, type) {
     switch (type) {
         case "consonants":
             // 先頭文字が一致するものだけ抽出
-            return list.filter(item => item.consonant === searchWord.charAt(0));
+            return data.index.filter(item => item.consonant === searchWord.charAt(0));
         case "roots":
             // 0,2,4文字目が一致するものだけ抽出
             return data.filter(item =>
