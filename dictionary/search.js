@@ -53,3 +53,9 @@ document.addEventListener("DOMContentLoaded", () => {
         resultContainer.appendChild(list);
     }
 });
+
+function consonantsSearch(searchWord) { }
+
+function rootsSearch(searchWord) { }
+
+function wordsSearch(searchWord) { }
