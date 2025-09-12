@@ -29,8 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     searchOptionContainer.innerHTML = "";
     if (!consonants && !roots && !words) {
         const message = document.createElement("p");
-        message.textContent = "検索オプションが選択されていません。";
-        message.classList.add("warning");
+        message.textContent = "オプション選択されていないので、絞り込み検索を行いません。";
         searchOptionContainer.appendChild(message);
     } else {
         const p = document.createElement("p");
