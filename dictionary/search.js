@@ -74,6 +74,14 @@ function consonantsSearch(searchWord, isOn, anyOptionOn) {
     const h2 = document.createElement("h2");
     h2.textContent = searchWord.charAt(0);
     details.appendChild(h2);
+    fetchFileForSearch("index").then(data => {
+        const filtered = filterData(data, searchWord, "consonants");
+        filtered.forEach(item => {
+            const p = document.createElement("p");
+            p.textContent = item.word + ": " + item.meaning;
+            details.appendChild(p);
+        });
+    });
     return details;
 }
 
@@ -105,4 +113,32 @@ function wordsSearch(searchWord, isOn, anyOptionOn) {
     details.appendChild(h2);
 
     return details;
+}
+
+function fetchFileForSearch(searchWord) {
+    const filename = "json_index" + encodeURIComponent(searchWord) + ".json";
+    return fetch(filename)
+        .then(res => {
+            if (!res.ok) throw new Error("ファイルが見つかりません");
+            return res.json();
+        });
+}
+
+function filterData(data, searchWord, type) {
+    switch (type) {
+        case "consonants":
+            // 先頭文字が一致するものだけ抽出
+            return list.filter(item => item.consonant === searchWord.charAt(0));
+        case "roots":
+            // 0,2,4文字目が一致するものだけ抽出
+            return data.filter(item =>
+                [0, 2, 4].map(i => searchWord.charAt(i) || "").join("") ===
+                [0, 2, 4].map(i => item.word.charAt(i) || "").join("")
+            );
+        case "words":
+            // 完全一致
+            return data.filter(item => item.word === searchWord);
+        default:
+            return [];
+    }
 }
