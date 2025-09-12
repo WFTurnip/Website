@@ -32,6 +32,15 @@
     a:hover {
         color: #daa520;
     }
+
+    .warning,
+    .off {
+        color: red;
+    }
+
+    .on {
+        color: blue;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -67,5 +76,14 @@
 
     a:hover {
         color: #ffcc70;
+    }
+
+    .warning,
+    .off {
+        color: red;
+    }
+
+    .on {
+        color: blue;
     }
 }

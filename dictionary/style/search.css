@@ -48,6 +48,21 @@ rt {
     font-variant-east-asian: ruby;
 }
 
-span {
-    margin-left: 0.25rem;
+.search-options span {
+    margin-right: 0.5rem;
+}
+
+strong {
+    margin-right: 0.25rem;
+}
+
+.warning,
+.off {
+    color: red;
+    font-weight: bold;
+}
+
+.on {
+    color: blue;
+    font-weight: bold;
 }

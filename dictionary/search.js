@@ -27,31 +27,32 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const searchOptionContainer = document.getElementById("option");
     searchOptionContainer.innerHTML = "";
+    if (!consonants && !roots && !words) {
+        const message = document.createElement("p");
+        message.textContent = "検索オプションが選択されていません。";
+        message.classList.add("warning");
+        searchOptionContainer.appendChild(message);
+    } else {
+        const p = document.createElement("p");
+        p.classList.add("search-options");
 
-    const p = document.createElement("p");
-    p.classList.add("search-options");
+        const createOptionSpan = (label, isOn) => {
+            const span = document.createElement("span");
+            span.textContent = label;
 
-    const createOptionSpan = (label, isOn) => {
-        const span = document.createElement("span");
-        span.textContent = label;
-
-        const strong = document.createElement("strong");
-        if (isOn) {
-            strong.textContent = "ON";
-            strong.style.color = "blue";
-        } else {
-            strong.textContent = "OFF";
-            strong.style.color = "red";
+            const strong = document.createElement("strong");
+            strong.textContent = isOn ? "ON" : "OFF";
+            strong.classList.add(isOn ? "on" : "off");
+            span.appendChild(strong);
+            return span;
         }
-        span.appendChild(strong);
-        return span;
+
+        p.appendChild(createOptionSpan("見出し検索: ", consonants));
+        p.appendChild(createOptionSpan("語根検索: ", roots));
+        p.appendChild(createOptionSpan("単語検索: ", words));
+
+        searchOptionContainer.appendChild(p);
     }
-
-    p.appendChild(createOptionSpan("見出し検索: ", consonants));
-    p.appendChild(createOptionSpan("語根検索: ", roots));
-    p.appendChild(createOptionSpan("単語検索: ", words));
-
-    searchOptionContainer.appendChild(p);
 
     const resultContainer = document.getElementById("result");
     resultContainer.innerHTML = "";
