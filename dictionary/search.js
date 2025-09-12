@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", async () => {
     const anyOptionOn = consonants || roots || words;
 
     resultContainer.appendChild(await consonantsSearch(searchWord, consonants, anyOptionOn));
-    resultContainer.appendChild(rootsSearch(searchWord, roots, anyOptionOn));
-    resultContainer.appendChild(wordsSearch(searchWord, words, anyOptionOn));
+    resultContainer.appendChild(await rootsSearch(searchWord, roots, anyOptionOn));
+    resultContainer.appendChild(await wordsSearch(searchWord, words, anyOptionOn));
 });
 
 async function consonantsSearch(searchWord, isOn, anyOptionOn) {
@@ -82,6 +82,14 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
             const p1 = document.createElement("p");
             p1.textContent = "子音概念：" + item.meaning;
             details.appendChild(p1);
+            const p2 = document.createElement("p");
+            const a = document.createElement("a");
+            a.href = "html_index" + "/" + item.html_href;
+            a.textContent = "リンクページへ";
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            p2.appendChild(a);
+            details.appendChild(p2);
         });
     } catch (error) {
         console.error(error);
@@ -100,9 +108,7 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
     const summary = document.createElement("summary");
     summary.textContent = "語根検索";
     details.appendChild(summary);
-    const h2 = document.createElement("h2");
-    h2.textContent = [0, 2, 4].map(i => searchWord.charAt(i) || "").join("");
-    details.appendChild(h2);
+
     let filename = searchWord.charAt(0);
     try {
         const data = await fetchFileForSearch(filename);
@@ -111,6 +117,15 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
             const p1 = document.createElement("p");
             p1.textContent = "語根概念：" + item.root_meaning;
             details.appendChild(p1);
+            const p5 = document.createElement("p");
+            const a = document.createElement("a");
+            a.href = "html_index" + "/" + item.html_href;
+            a.textContent = "リンクページへ";
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            p5.appendChild(a);
+            details.appendChild(p5);
+
         });
     } catch (error) {
         console.error(error);
@@ -130,10 +145,36 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
     summary.textContent = "単語検索";
     details.appendChild(summary);
 
-    const h2 = document.createElement("h2");
-    h2.textContent = searchWord;
-    details.appendChild(h2);
+    let filename = searchWord.charAt(0) + "/" + [0, 2, 4].map(i => searchWord.charAt(i) || "").join("");
+    try {
+        const data = await fetchFileForSearch(filename);
+        const filtered = filterData(data, searchWord, "words");
+        filtered.forEach(item => {
+            const p1 = document.createElement("p");
+            p1.textContent = "単語：" + item.word.toLowerCase();
+            details.appendChild(p1);
+            const p2 = document.createElement("p");
+            p2.textContent = "発音：" + item.phonetic.toLowerCase();
+            details.appendChild(p2);
+            const p3 = document.createElement("p");
+            p3.textContent = "品詞：" + item.part_of_speech;
+            details.appendChild(p3);
+            const p4 = document.createElement("p");
+            p4.textContent = "複合格：" + item.cases;
+            details.appendChild(p4);
 
+
+            // const p5 = document.createElement("p");
+            // p4.textContent = "意味：" + item.word_mearning;
+            // details.appendChild(p5);
+        });
+    } catch (error) {
+        console.error(error);
+        const p = document.createElement("p");
+        p.textContent = "データの取得に失敗しました。";
+        p.classList.add("warning");
+        details.appendChild(p);
+    }
     return details;
 }
 
@@ -153,13 +194,12 @@ function filterData(data, searchWord, type) {
             return data.index.filter(item => item.consonant === searchWord.charAt(0));
         case "roots":
             // 0,2,4文字目が一致するものだけ抽出
-            return data.filter(item =>
-                [0, 2, 4].map(i => searchWord.charAt(i) || "").join("") ===
-                [0, 2, 4].map(i => item.word.charAt(i) || "").join("")
+            return data.roots.filter(item =>
+                item.root === [0, 2, 4].map(i => searchWord.charAt(i) || "").join("")
             );
         case "words":
             // 完全一致
-            return data.filter(item => item.word === searchWord);
+            return data.words.filter(item => item.word === searchWord);
         default:
             return [];
     }

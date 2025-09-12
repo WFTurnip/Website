@@ -8,9 +8,12 @@ h1 {
     text-transform: capitalize;
 }
 
+h2 {
+    text-transform:uppercase;
+}
+
 p {
     font-weight: normal;
-    text-transform: capitalize;
 }
 
 a {
