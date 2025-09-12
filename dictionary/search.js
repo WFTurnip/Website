@@ -28,55 +28,33 @@ document.addEventListener("DOMContentLoaded", () => {
     const searchOptionContainer = document.getElementById("option");
     searchOptionContainer.innerHTML = "";
 
-    const dl = document.createElement("dl");
-    dl.classList.add("search-options");
+    const p = document.createElement("p");
+    p.classList.add("search-options");
 
-    const dt1 = document.createElement("dt");
-    dt1.textContent = "見出し検索: ";
-    dl.appendChild(dt1);
-    if (consonants) {
-        const dd = document.createElement("dd");
-        dd.textContent = "ON";
-        dl.appendChild(dd);
-    } else {
-        const dd = document.createElement("dd");
-        dd.textContent = "OFF";
-        dl.appendChild(dd);
+    const createOptionSpan = (label, isOn) => {
+        const span = document.createElement("span");
+        span.textContent = label;
+
+        const strong = document.createElement("strong");
+        if (isOn) {
+            strong.textContent = "ON";
+            strong.style.color = "blue";
+        } else {
+            strong.textContent = "OFF";
+            strong.style.color = "red";
+        }
+        span.appendChild(strong);
+        return span;
     }
 
-    const dt2 = document.createElement("dt");
-    dt2.textContent = "語根検索: ";
-    dl.appendChild(dt2);
+    p.appendChild(createOptionSpan("見出し検索: ", consonants));
+    p.appendChild(createOptionSpan("語根検索: ", roots));
+    p.appendChild(createOptionSpan("単語検索: ", words));
 
-    if (roots) {
-        const dd = document.createElement("dd");
-        dd.textContent = "ON";
-        dl.appendChild(dd);
-    } else {
-        const dd = document.createElement("dd");
-        dd.textContent = "OFF";
-        dl.appendChild(dd);
-    }
-
-    const dt3 = document.createElement("dt");
-    dt3.textContent = "単語検索:";
-    dl.appendChild(dt3);
-
-    if (words) {
-        const dd = document.createElement("dd");
-        dd.textContent = "ON";
-        dl.appendChild(dd);
-    } else {
-        const dd = document.createElement("dd");
-        dd.textContent = "OFF";
-        dl.appendChild(dd);
-    }
-
-    searchOptionContainer.appendChild(dl);
+    searchOptionContainer.appendChild(p);
 
     const resultContainer = document.getElementById("result");
     resultContainer.innerHTML = "";
-
 });
 
 function consonantsSearch(searchWord) { }

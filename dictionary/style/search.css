@@ -47,3 +47,7 @@ rt {
     font-family: serif;
     font-variant-east-asian: ruby;
 }
+
+span {
+    margin-left: 0.25rem;
+}
