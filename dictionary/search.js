@@ -11,47 +11,72 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("roots").checked = roots;
     document.getElementById("words").checked = words;
 
-    const resultContainer = document.getElementById("result");
-    resultContainer.innerHTML = "";
+    const searchWordContainer = document.getElementById("search-word");
+    searchWordContainer.innerHTML = "";
 
     if (!searchWord) {
         const message = document.createElement("p");
         message.textContent = "検索語が入力されていません。";
         message.classList.add("warning");
-        resultContainer.appendChild(message);
+        searchWordContainer.appendChild(message);
     } else {
         const subtitle = document.createElement("h2");
         subtitle.textContent = searchWord + "の検索結果";
-        resultContainer.appendChild(subtitle);
-
-        const list = document.createElement("ul");
-        list.classList.add("search-options");
-
-        if (consonants) {
-            const li = document.createElement("li");
-            li.textContent = "見出し検索: ON";
-            list.appendChild(li);
-        }
-        if (roots) {
-            const li = document.createElement("li");
-            li.textContent = "語根検索: ON";
-            list.appendChild(li);
-        }
-        if (words) {
-            const li = document.createElement("li");
-            li.textContent = "単語検索: ON";
-            list.appendChild(li);
-        }
-
-        if (!consonants && !roots && !words) {
-            const li = document.createElement("li");
-            li.textContent = "絞り込みオプションは指定されていません。";
-            li.classList.add("warning");
-            list.appendChild(li);
-        }
-
-        resultContainer.appendChild(list);
+        searchWordContainer.appendChild(subtitle);
     }
+
+    const searchOptionContainer = document.getElementById("option");
+    searchOptionContainer.innerHTML = "";
+
+    const dl = document.createElement("dl");
+    dl.classList.add("search-options");
+
+    const dt1 = document.createElement("dt");
+    dt1.textContent = "見出し検索: ";
+    dl.appendChild(dt1);
+    if (consonants) {
+        const dd = document.createElement("dd");
+        dd.textContent = "ON";
+        dl.appendChild(dd);
+    } else {
+        const dd = document.createElement("dd");
+        dd.textContent = "OFF";
+        dl.appendChild(dd);
+    }
+
+    const dt2 = document.createElement("dt");
+    dt2.textContent = "語根検索: ";
+    dl.appendChild(dt2);
+
+    if (roots) {
+        const dd = document.createElement("dd");
+        dd.textContent = "ON";
+        dl.appendChild(dd);
+    } else {
+        const dd = document.createElement("dd");
+        dd.textContent = "OFF";
+        dl.appendChild(dd);
+    }
+
+    const dt3 = document.createElement("dt");
+    dt3.textContent = "単語検索:";
+    dl.appendChild(dt3);
+
+    if (words) {
+        const dd = document.createElement("dd");
+        dd.textContent = "ON";
+        dl.appendChild(dd);
+    } else {
+        const dd = document.createElement("dd");
+        dd.textContent = "OFF";
+        dl.appendChild(dd);
+    }
+
+    searchOptionContainer.appendChild(dl);
+
+    const resultContainer = document.getElementById("result");
+    resultContainer.innerHTML = "";
+
 });
 
 function consonantsSearch(searchWord) { }
