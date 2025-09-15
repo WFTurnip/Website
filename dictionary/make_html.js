@@ -49,8 +49,8 @@ async function generateConsonants() {
     aHeader1.textContent = "表紙へ戻る";
     liHeader1.appendChild(aHeader1);
     ulHeader.appendChild(liHeader1);
-    header.appendChild(ulHeader)
-    body.appendChild(header)
+    header.appendChild(ulHeader);
+    body.appendChild(header);
 
     let h1 = document.createElement("h1");
     h1.textContent = "子音見出し";
@@ -80,13 +80,13 @@ async function generateConsonants() {
     aFooter1.textContent = "表紙へ戻る";
     liFooter1.appendChild(aFooter1);
     ulFooter.appendChild(liFooter1);
-    footer.appendChild(ulFooter)
-    body.appendChild(footer)
+    footer.appendChild(ulFooter);
+    body.appendChild(footer);
 
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
 
     try {
-        await fs.writeFile(filename, htmlContent)
+        await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
@@ -105,7 +105,7 @@ async function generateIndex(i) {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "頭文字" + consonants[i];
+    title.textContent = "頭文字" + consonants[i].toUpperCase();
     head.appendChild(title);
 
     let link1 = document.createElement("link");
@@ -140,15 +140,15 @@ async function generateIndex(i) {
     aHeader2.textContent = "子音見出しへ戻る";
     liHeader2.appendChild(aHeader2);
     ulHeader.appendChild(liHeader2);
-    header.appendChild(ulHeader)
-    body.appendChild(header)
+    header.appendChild(ulHeader);
+    body.appendChild(header);
 
     let h1 = document.createElement("h1");
     let spanH1 = document.createElement("span");
     spanH1.className = "piswpi"
     spanH1.textContent = consonants[i];
     h1.appendChild(document.createTextNode("子音"));
-    h1.appendChild(spanH1)
+    h1.appendChild(spanH1);
     h1.appendChild(document.createTextNode("の見出し"));
     body.appendChild(h1);
 
@@ -157,7 +157,7 @@ async function generateIndex(i) {
     span2.className = "piswpi"
     span2.textContent = consonants[i];
     p.appendChild(document.createTextNode("このページは"));
-    p.appendChild(span2)
+    p.appendChild(span2);
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
 
@@ -189,8 +189,8 @@ async function generateIndex(i) {
     aFooter2.textContent = "子音見出しへ戻る";
     liFooter2.appendChild(aFooter2);
     ulFooter.appendChild(liFooter2);
-    footer.appendChild(ulFooter)
-    body.appendChild(footer)
+    footer.appendChild(ulFooter);
+    body.appendChild(footer);
 
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
 
