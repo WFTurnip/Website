@@ -195,7 +195,6 @@ async function generateIndex(i) {
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
 
     try {
-        await fs.mkdir("index", { recursive: true });
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
