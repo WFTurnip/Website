@@ -20,9 +20,13 @@ document.addEventListener("DOMContentLoaded", async () => {
         message.classList.add("warning");
         searchWordContainer.appendChild(message);
     } else {
-        const subtitle = document.createElement("h2");
-        subtitle.textContent = searchWord + "の検索結果";
-        searchWordContainer.appendChild(subtitle);
+        const searchResult = document.createElement("h2");
+        const searchResultSpan = document.createElement("span");
+        searchResultSpan.textContent = searchWord;
+        searchResultSpan.className = "piswpi";
+        searchResult.appendChild(searchResultSpan);
+        searchResult.append("の検索結果");
+        searchWordContainer.appendChild(searchResult);
     }
 
     const searchOptionContainer = document.getElementById("option");
@@ -73,6 +77,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
 
     const h2 = document.createElement("h2");
     h2.textContent = searchWord.charAt(0);
+    h2.className = "piswpi";
     details.appendChild(h2);
     let filename = "index";
     try {
@@ -151,10 +156,18 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWord, "words");
         filtered.forEach(item => {
             const p1 = document.createElement("p");
-            p1.textContent = "単語：" + item.word.toLowerCase();
+            const span1 = document.createElement("span");
+            span1.textContent = item.word.toLowerCase();
+            span1.className = "piswpi";
+            p1.textContent = "単語：";
+            p1.append(span1);
             details.appendChild(p1);
             const p2 = document.createElement("p");
-            p2.textContent = "発音：" + item.phonetic.toLowerCase();
+            const span2 = document.createElement("span");
+            span2.textContent = item.phonetic;
+            span2.style.fontFamily = "monospace";
+            p2.textContent = "発音：";
+            p2.append(span2);
             details.appendChild(p2);
             const p3 = document.createElement("p");
             p3.textContent = "品詞：" + item.part_of_speech;
@@ -162,11 +175,6 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             const p4 = document.createElement("p");
             p4.textContent = "複合格：" + item.cases;
             details.appendChild(p4);
-
-
-            // const p5 = document.createElement("p");
-            // p4.textContent = "意味：" + item.word_mearning;
-            // details.appendChild(p5);
         });
     } catch (error) {
         console.error(error);
@@ -178,13 +186,11 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
     return details;
 }
 
-function fetchFileForSearch(searchWord) {
+async function fetchFileForSearch(searchWord) {
     const filename = "json_index" + "/" + encodeURIComponent(searchWord) + ".json";
-    return fetch(filename)
-        .then(res => {
-            if (!res.ok) throw new Error("ファイルが見つかりません");
-            return res.json();
-        });
+    const res = await fetch(filename);
+    if (!res.ok) throw new Error("ファイルが見つかりません");
+    return await res.json();
 }
 
 function filterData(data, searchWord, type) {
