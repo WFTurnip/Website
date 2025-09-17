@@ -190,16 +190,17 @@ function fetchFileForSearch(searchWord) {
 function filterData(data, searchWord, type) {
     switch (type) {
         case "consonants":
-            // 先頭文字が一致するものだけ抽出
-            return data.index.filter(item => item.consonant === searchWord.charAt(0));
+            return data.index.filter(item =>
+                item.consonant === searchWord.charAt(0)
+            );
         case "roots":
-            // 0,2,4文字目が一致するものだけ抽出
             return data.roots.filter(item =>
                 item.root === [0, 2, 4].map(i => searchWord.charAt(i) || "").join("")
             );
         case "words":
-            // 完全一致
-            return data.words.filter(item => item.word === searchWord);
+            return data.words.filter(item =>
+                item.word === searchWord
+            );
         default:
             return [];
     }
