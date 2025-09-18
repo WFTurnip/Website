@@ -31,7 +31,6 @@
 svg * {
     transform-origin: center;
     fill-opacity: 0;
-    /* 初期は透明 */
     animation: fadeIn 2.5s forwards;
 }
 
