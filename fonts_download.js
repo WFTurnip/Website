@@ -1,4 +1,4 @@
-const text = "Qecelicusw Celemeniki Qoqunoquxw Qinarwziqili";
+const text = "Qecerwlicusw Celemwqeniki Qocoqunoquxw Qinarwziqili";
 let index = 0;
 const elements = document.querySelectorAll('.typing-text');
 
