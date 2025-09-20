@@ -1,6 +1,7 @@
 const fs = require('fs').promises;
 const path = require('path');
 const beautify = require('json-beautify');
+const { console } = require('inspector/promises');
 
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonants_means = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
@@ -110,6 +111,13 @@ async function generateRoots(i, j, k) {
 }
 
 async function make() {
+    let dictionary = path.join("json_index");
+    try {
+        await fs.mkdir(dictionary, { recursive: true });
+        console.log("ディレクトリ" + directory + "を作成しました。");
+    } catch (error) {
+        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+    }
     await generateConsonants();
     for (let i = 0; i < consonants.length; i++) {
         await generateIndex(i);

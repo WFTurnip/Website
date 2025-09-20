@@ -312,68 +312,68 @@ async function generateRoots(i, j, k) {
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
 
-    for (let n = 0; n < vowels.length; n++) {
-        let table = document.createElement("table");
-        let caption = document.createElement("caption");
-        caption.textContent = vowels_part_of_speech_types[n] + "詞活用表";
-        table.appendChild(caption);
-
-        let thead = document.createElement("thead");
-
-        let tr = document.createElement("tr");
-        let th = document.createElement("th");
-        th.textContent = "";
-        th.rowSpan = 2;
-        th.colSpan = 2;
-        tr.appendChild(th);
-
-        let th2 = document.createElement("th");
-        th2.textContent = "第一母音";
-        th2.colSpan = vowels.length;
-        tr.appendChild(th2);
-
-        thead.append(tr);
-
-        let tr2 = document.createElement("tr");
-        vowels.forEach((vowel, l) => {
-            let th = document.createElement("th");
-            th.appendChild(createParagraph("-" + vowel, "piswpi"));
-            th.appendChild(createParagraph(vowels_cases[l] + "格", "case"));
-            tr2.appendChild(th);
-        });
-        thead.appendChild(tr2);
-        table.appendChild(thead);
-        let tbody = document.createElement("tbody");
-        let tr3 = document.createElement("tr");
-        let th3 = document.createElement("th");
-        let p = document.createElement("p");
-        p.textContent = "第二母音";
-        p.className = "vertical";
-        th3.appendChild(p);
-        th3.rowSpan = 7;
-        tr3.appendChild(th3);
-        tbody.appendChild(tr3);
-
-        vowels.forEach((vowel1, l) => {
-            let tr = document.createElement("tr");
-            let th = document.createElement("th");
-            th.appendChild(createParagraph("-" + vowel1, "piswpi"));
-            th.appendChild(createParagraph(vowels_cases[l] + "格", "case"));
-            tr.appendChild(th);
-
-            vowels.forEach((vowel2, m) => {
-                let td = document.createElement("td");
-                td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "piswpi"));
-                td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[l] + consonants_phonetics[j] + vowels_phonetics[m] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"));
-                td.appendChild(createParagraph(vowels_cases[m] + vowels_cases[l] + "格" + vowels_part_of_speech_types[n] + "詞", "root"));
-                tr.appendChild(td);
-            });
-
-            tbody.appendChild(tr);
-        });
-        table.appendChild(tbody);
-        body.appendChild(table);
-    }
+    // for (let n = 0; n < vowels.length; n++) {
+    // let table = document.createElement("table");
+    // let caption = document.createElement("caption");
+    // caption.textContent = vowels_part_of_speech_types[n] + "詞活用表";
+    // table.appendChild(caption);
+    //
+    // let thead = document.createElement("thead");
+    //
+    // let tr = document.createElement("tr");
+    // let th = document.createElement("th");
+    // th.textContent = "";
+    // th.rowSpan = 2;
+    // th.colSpan = 2;
+    // tr.appendChild(th);
+    //
+    // let th2 = document.createElement("th");
+    // th2.textContent = "第一母音";
+    // th2.colSpan = vowels.length;
+    // tr.appendChild(th2);
+    //
+    // thead.append(tr);
+    //
+    // let tr2 = document.createElement("tr");
+    // vowels.forEach((vowel, l) => {
+    // let th = document.createElement("th");
+    // th.appendChild(createParagraph("-" + vowel, "piswpi"));
+    // th.appendChild(createParagraph(vowels_cases[l] + "格", "case"));
+    // tr2.appendChild(th);
+    // });
+    // thead.appendChild(tr2);
+    // table.appendChild(thead);
+    // let tbody = document.createElement("tbody");
+    // let tr3 = document.createElement("tr");
+    // let th3 = document.createElement("th");
+    // let p = document.createElement("p");
+    // p.textContent = "第二母音";
+    // p.className = "vertical";
+    // th3.appendChild(p);
+    // th3.rowSpan = 7;
+    // tr3.appendChild(th3);
+    // tbody.appendChild(tr3);
+    //
+    // vowels.forEach((vowel1, l) => {
+    // let tr = document.createElement("tr");
+    // let th = document.createElement("th");
+    // th.appendChild(createParagraph("-" + vowel1, "piswpi"));
+    // th.appendChild(createParagraph(vowels_cases[l] + "格", "case"));
+    // tr.appendChild(th);
+    //
+    // vowels.forEach((vowel2, m) => {
+    // let td = document.createElement("td");
+    // td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "piswpi"));
+    // td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[l] + consonants_phonetics[j] + vowels_phonetics[m] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"));
+    // td.appendChild(createParagraph(vowels_cases[m] + vowels_cases[l] + "格" + vowels_part_of_speech_types[n] + "詞", "root"));
+    // tr.appendChild(td);
+    // });
+    //
+    // tbody.appendChild(tr);
+    // });
+    // table.appendChild(tbody);
+    // body.appendChild(table);
+    // }
 
     let footer = document.createElement("footer");
     let ulFooter = document.createElement("ul");
@@ -415,6 +415,13 @@ async function generateRoots(i, j, k) {
 }
 
 async function make() {
+    let directory = path.join("html_index");
+    try {
+        await fs.mkdir(directory, { recursive: true });
+        console.log("ディレクトリ" + directory + "を作成しました。");
+    } catch (error) {
+        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+    }
     await generateConsonants();
     for (let i = 0; i < consonants.length; i++) {
         await generateIndex(i);
