@@ -1,4 +1,3 @@
-/* color theme */
 @media (prefers-color-scheme: light) {
 
     body,
@@ -33,7 +32,6 @@
     }
 }
 
-/* font & size */
 body {
     padding: 2rem;
     writing-mode: vertical-rl;
