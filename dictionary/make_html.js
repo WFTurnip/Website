@@ -432,6 +432,7 @@ async function make() {
             }
         }
     }
+    console.log("ディレクトリ" + directory + "の内部データを生成完了");
 }
 
 make();
