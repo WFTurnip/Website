@@ -34,6 +34,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     if (!consonants && !roots && !words) {
         const message = document.createElement("p");
         message.textContent = "オプション選択されていないので、絞り込み検索を行いません。";
+        message.classList.add("warning");
         searchOptionContainer.appendChild(message);
     } else {
         const p = document.createElement("p");
