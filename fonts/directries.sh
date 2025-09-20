@@ -1,12 +1,13 @@
-kodito/
-lekuta/
-lozegw/
-makina/
-piswpi/
-polwgo/
-silwki/
-sulive/
-xavani/
-xesada/
-xidili/
-zosokw/
+open kodito/
+open lekuta/
+open lozegw/
+open makina/
+open piswpi/
+open polwgo/
+open silwki/
+open sulive/
+open xavani/
+open xesada/
+open xidili/
+open zosokw/
+

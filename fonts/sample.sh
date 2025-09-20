@@ -1,20 +1,21 @@
-brakets_concatenator.sh
-brakets_maker.sh
-consonants_concatenator.sh
-consonants_maker.sh
-directries.sh
-generate_fonts.sh
-glyph_copier.sh
-glyph_maker.sh
-input_glyph.sh
-numerals_concatenator.sh
-numerals_maker.sh
-open_directries.sh
-punctuations_concatenator.sh
-punctuations_maker.sh
-sample.sh
-variants_consonants_concatenator.sh
-variants_consonants_maker.sh
-variants_glyph_copier.sh
-vowels_concatenator.sh
-vowels_maker.sh
+touch brakets_concatenator.sh
+touch brakets_maker.sh
+touch consonants_concatenator.sh
+touch consonants_maker.sh
+touch directries.sh
+touch generate_fonts.sh
+touch glyph_copier.sh
+touch glyph_maker.sh
+touch input_glyph.sh
+touch numerals_concatenator.sh
+touch numerals_maker.sh
+touch open_directries.sh
+touch punctuations_concatenator.sh
+touch punctuations_maker.sh
+touch sample.sh
+touch variants_consonants_concatenator.sh
+touch variants_consonants_maker.sh
+touch variants_glyph_copier.sh
+touch vowels_concatenator.sh
+touch vowels_maker.sh
+
