@@ -14,14 +14,14 @@ const vowels_phonetics = ["a", "e", "i", "o", "u", ""];
 async function generateConsonants() {
     let filename = path.join("json_index", "index.json");
 
-    let index = consonants.map((c, i) => ({
+    let consonants = consonants.map((c, i) => ({
         consonant: c,
-        meaning: consonants_means[i],
+        consonant_meaning: consonants_means[i],
         html_href: c + ".html",
         json_href: c + ".json"
     }));
 
-    let object = { index };
+    let object = { consonants };
 
     let pretty = beautify(object, null, 4, 100);
 
