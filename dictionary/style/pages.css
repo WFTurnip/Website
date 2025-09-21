@@ -57,3 +57,12 @@
         color: #ffcc70;
     }
 }
+
+.warning,
+.off {
+    color: red;
+}
+
+.on {
+    color: blue;
+}

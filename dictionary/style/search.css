@@ -9,7 +9,7 @@ h1 {
 }
 
 h2 {
-    text-transform:uppercase;
+    text-transform: uppercase;
 }
 
 p {
@@ -60,12 +60,7 @@ strong {
 }
 
 .warning,
-.off {
-    color: red;
-    font-weight: bold;
-}
-
+.off,
 .on {
-    color: blue;
     font-weight: bold;
 }
