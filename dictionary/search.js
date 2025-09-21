@@ -86,7 +86,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWord, "consonants");
         filtered.forEach(item => {
             const p1 = document.createElement("p");
-            p1.textContent = "子音概念：" + item.meaning;
+            p1.textContent = "子音概念：" + item.consonant_meaning;
             details.appendChild(p1);
             const p2 = document.createElement("p");
             const a = document.createElement("a");
@@ -202,7 +202,7 @@ async function fetchFileForSearch(searchWord) {
 function filterData(data, searchWord, type) {
     switch (type) {
         case "consonants":
-            return data.index.filter(item =>
+            return data.consonants.filter(item =>
                 item.consonant === searchWord.charAt(0)
             );
         case "roots":
