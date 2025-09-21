@@ -3,14 +3,14 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
-const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonants_means = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonants_phonetics = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonants_means_array = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonants_phonetics_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
-const vowels = ["a", "e", "i", "o", "u", "w"];
-const vowels_cases = ["否", "与", "属", "対", "主", "流"];
-const vowels_part_of_speech_types = ["付", "動", "容", "助", "副", "名"];
-const vowels_phonetics = ["a", "e", "i", "o", "u", ""];
+const vowels_array = ["a", "e", "i", "o", "u", "w"];
+const vowels_cases_array = ["否", "与", "属", "対", "主", "流"];
+const vowels_part_of_speech_types_array = ["付", "動", "容", "助", "副", "名"];
+const vowels_phonetics_array = ["a", "e", "i", "o", "u", ""];
 
 async function generateConsonants() {
     let filename = path.join("html_index", "index.html");
@@ -63,11 +63,11 @@ async function generateConsonants() {
     let ul = document.createElement("ul");
     for (let i = 0; i < consonants.length; i++) {
         let li = document.createElement("li");
-        let aUl = document.createElement("a");
-        aUl.className = "piswpi";
-        aUl.href = consonants[i] + ".html";
-        aUl.textContent = consonants[i];
-        li.appendChild(aUl);
+        let a = document.createElement("a");
+        a.className = "piswpi";
+        a.href = consonants_array[i] + ".html";
+        a.textContent = consonants_array[i];
+        li.appendChild(a);
         ul.appendChild(li);
     }
     body.appendChild(ul);
@@ -94,7 +94,7 @@ async function generateConsonants() {
 }
 
 async function generateIndex(i) {
-    let filename = path.join("html_index", consonants[i] + ".html");
+    let filename = path.join("html_index", consonants_array[i] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
@@ -105,7 +105,7 @@ async function generateIndex(i) {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "頭文字" + consonants[i].toUpperCase();
+    title.textContent = "頭文字" + consonants_array[i].toUpperCase();
     head.appendChild(title);
 
     let link1 = document.createElement("link");
@@ -122,7 +122,7 @@ async function generateIndex(i) {
     head.appendChild(link3);
     let link4 = document.createElement("link");
     link4.rel = "icon";
-    link4.href = "../icon/" + consonants[i] + ".svg";
+    link4.href = "../icon/" + consonants_array[i] + ".svg";
     head.appendChild(link4);
 
     let body = document.body;
@@ -146,7 +146,7 @@ async function generateIndex(i) {
     let h1 = document.createElement("h1");
     let spanH1 = document.createElement("span");
     spanH1.className = "piswpi"
-    spanH1.textContent = consonants[i];
+    spanH1.textContent = consonants_array[i];
     h1.appendChild(document.createTextNode("子音"));
     h1.appendChild(spanH1);
     h1.appendChild(document.createTextNode("の見出し"));
@@ -155,7 +155,7 @@ async function generateIndex(i) {
     let p = document.createElement("p");
     let span2 = document.createElement("span");
     span2.className = "piswpi"
-    span2.textContent = consonants[i];
+    span2.textContent = consonants_array[i];
     p.appendChild(document.createTextNode("このページは"));
     p.appendChild(span2);
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
@@ -165,11 +165,11 @@ async function generateIndex(i) {
     for (let j = 0; j < consonants.length; j++) {
         for (let k = 0; k < consonants.length; k++) {
             let li = document.createElement("li");
-            let aUl = document.createElement("a");
-            aUl.className = "piswpi";
-            aUl.href = consonants[i] + "/" + consonants[i] + consonants[j] + consonants[k] + ".html";
-            aUl.textContent = consonants[i] + consonants[j] + consonants[k];
-            li.appendChild(aUl);
+            let a = document.createElement("a");
+            a.className = "piswpi";
+            a.href = consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html";
+            a.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
+            li.appendChild(a);
             ul.appendChild(li);
         };
     };
@@ -203,7 +203,7 @@ async function generateIndex(i) {
 }
 
 async function generateIndexDirectory(i) {
-    let directory = path.join("html_index", consonants[i]);
+    let directory = path.join("html_index", consonants_array[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
@@ -221,7 +221,7 @@ async function generateRoots(i, j, k) {
         return p;
     };
 
-    let filename = path.join("html_index", consonants[i] + "/" + consonants[i] + consonants[j] + consonants[k] + ".html");
+    let filename = path.join("html_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
@@ -233,7 +233,7 @@ async function generateRoots(i, j, k) {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "語根" + consonants[i].toUpperCase + consonants[j].toUpperCase + consonants[k].toUpperCase;
+    title.textContent = "語根" + consonants_array[i].toUpperCase + consonants_array[j].toUpperCase + consonants_array[k].toUpperCase;
     head.appendChild(title);
 
     let link1 = document.createElement("link");
@@ -276,8 +276,8 @@ async function generateRoots(i, j, k) {
     let aHeader3 = document.createElement("a");
     let spanHeader = document.createElement("span");
     spanHeader.className = "piswpi";
-    aHeader3.href = "../" + consonants[i] + ".html";
-    spanHeader.textContent = consonants[i];
+    aHeader3.href = "../" + consonants_array[i] + ".html";
+    spanHeader.textContent = consonants_array[i];
     aHeader3.appendChild(document.createTextNode("頭文字"));
     aHeader3.appendChild(spanHeader);
     aHeader3.appendChild(document.createTextNode("の見出しへ戻る"));
@@ -290,7 +290,7 @@ async function generateRoots(i, j, k) {
     let h1 = document.createElement("h1");
     let spanH1 = document.createElement("span");
     spanH1.className = "piswpi";
-    spanH1.textContent = consonants[i] + consonants[j] + consonants[k];
+    spanH1.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(spanH1);
     body.appendChild(h1);
@@ -307,7 +307,7 @@ async function generateRoots(i, j, k) {
     let span = document.createElement("span");
     span.className = "piswpi";
     p.appendChild(document.createTextNode("このページは語根"));
-    span.textContent = consonants[i] + consonants[j] + consonants[k];
+    span.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     p.appendChild(span);
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
@@ -363,7 +363,7 @@ async function generateRoots(i, j, k) {
     //
     // vowels.forEach((vowel2, m) => {
     // let td = document.createElement("td");
-    // td.appendChild(createParagraph(consonants[i] + vowel1 + consonants[j] + vowel2 + consonants[k] + vowels[n], "piswpi"));
+    // td.appendChild(createParagraph(consonants_array[i] + vowel1 + consonants_array[j] + vowel2 + consonants_array[k] + vowels[n], "piswpi"));
     // td.appendChild(createParagraph("/" + consonants_phonetics[i] + vowels_phonetics[l] + consonants_phonetics[j] + vowels_phonetics[m] + consonants_phonetics[k] + vowels_phonetics[n] + "/", "phonetic"));
     // td.appendChild(createParagraph(vowels_cases[m] + vowels_cases[l] + "格" + vowels_part_of_speech_types[n] + "詞", "root"));
     // tr.appendChild(td);
@@ -394,8 +394,8 @@ async function generateRoots(i, j, k) {
     let aFooter3 = document.createElement("a");
     let spanFooter = document.createElement("span");
     spanFooter.className = "piswpi";
-    aFooter3.href = "../" + consonants[i] + ".html";
-    spanFooter.textContent = consonants[i];
+    aFooter3.href = "../" + consonants_array[i] + ".html";
+    spanFooter.textContent = consonants_array[i];
     aFooter3.appendChild(document.createTextNode("頭文字"));
     aFooter3.appendChild(spanFooter);
     aFooter3.appendChild(document.createTextNode("の見出しへ戻る"));
