@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         message.textContent = "検索語が入力されていませんので、検索を行いません。";
         message.classList.add("warning");
         searchWordContainer.appendChild(message);
+        resultContainer.innerHTML = "";
     } else {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
