@@ -221,7 +221,7 @@ async function generateRoots(i, j, k) {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "語根" + consonants_array[i].toUpperCase + consonants_array[j].toUpperCase + consonants_array[k].toUpperCase;
+    title.textContent = "語根" + consonants_array[i].toUpperCase() + consonants_array[j].toUpperCase() + consonants_array[k].toUpperCase();
     head.appendChild(title);
 
     let link1 = document.createElement("link");
