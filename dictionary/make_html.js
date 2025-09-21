@@ -42,14 +42,10 @@ async function generateConsonants() {
 
     let body = document.body;
     let header = document.createElement("header");
-    let ulHeader = document.createElement("ul");
-    let liHeader1 = document.createElement("li");
-    let aHeader1 = document.createElement("a");
-    aHeader1.href = "../dictionary.html";
-    aHeader1.textContent = "表紙へ戻る";
-    liHeader1.appendChild(aHeader1);
-    ulHeader.appendChild(liHeader1);
-    header.appendChild(ulHeader);
+    let header_a = document.createElement("a");
+    header_a.href = "../dictionary.html";
+    header_a.textContent = "表紙へ戻る";
+    header.appendChild(header_a);
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
@@ -73,10 +69,12 @@ async function generateConsonants() {
     body.appendChild(ol);
 
     let footer = document.createElement("footer");
-    let a = document.createElement("a");
-    a.href = "../dictionary.html";
-    a.textContent = "表紙へ戻る";
-    footer.appendChild(a);
+    let footer_nav = document.createElement("nav");
+    let footer_a = document.createElement("a");
+    footer_a.href = "../dictionary.html";
+    footer_a.textContent = "表紙へ戻る";
+    footer_nav.appendChild(footer_a);
+    footer.appendChild(footer_nav);
     body.appendChild(footer);
 
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
