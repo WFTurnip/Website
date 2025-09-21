@@ -57,10 +57,10 @@ async function generateConsonants() {
     body.appendChild(h1);
 
     let p = document.createElement("p");
-    p.textContent = "このページは子音見出しに関する情報を表示します。"
+    p.textContent = "この章は子音見出し。"
     body.appendChild(p);
 
-    let ul = document.createElement("ul");
+    let ol = document.createElement("ul");
     for (let i = 0; i < consonants_array.length; i++) {
         let li = document.createElement("li");
         let a = document.createElement("a");
@@ -161,7 +161,7 @@ async function generateIndex(i) {
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
 
-    let ul = document.createElement("ul");
+    let ol = document.createElement("ul");
     for (let j = 0; j < consonants_array.length; j++) {
         for (let k = 0; k < consonants_array.length; k++) {
             let li = document.createElement("li");
