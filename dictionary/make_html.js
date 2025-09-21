@@ -140,11 +140,11 @@ async function generateIndex(i) {
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
-    let spanH1 = document.createElement("span");
-    spanH1.className = "piswpi"
-    spanH1.textContent = consonants_array[i];
+    let span1 = document.createElement("span");
+    span1.className = "piswpi"
+    span1.textContent = consonants_array[i];
     h1.appendChild(document.createTextNode("子音"));
-    h1.appendChild(spanH1);
+    h1.appendChild(span1);
     h1.appendChild(document.createTextNode("の見出し"));
     body.appendChild(h1);
 
@@ -276,11 +276,11 @@ async function generateRoots(i, j, k) {
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
-    let spanH1 = document.createElement("span");
-    spanH1.className = "piswpi";
-    spanH1.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
+    let span1 = document.createElement("span");
+    span1.className = "piswpi";
+    span1.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     h1.appendChild(document.createTextNode("語根"));
-    h1.appendChild(spanH1);
+    h1.appendChild(span1);
     body.appendChild(h1);
 
     let h2 = document.createElement("h2");
