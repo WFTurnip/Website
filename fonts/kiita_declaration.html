@@ -1,150 +1,92 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Kiita Declaration</title>
-        <link rel="stylesheet" href="kiita_declaration.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <title>Kiita Declaration</title>
+    <link rel="stylesheet" href="kiita_declaration.css">
+</head>
 
-    <body id="font">
-        <h1>
-            <span>KIQITA BERUVW QINILW GIQWCI</span>
-        </h1>
-        <h2>
-            <span>2021</span>
-            N<span>e</span>r<span>w</span>t<span>a</span>
-            <span>12</span>
-            L<span>u</span>q<span>u</span>n<span>a</span>
-            <span>30</span>
-            Z<span>o</span>l<span>w</span>k<span>a</span>
-        </h2>
-        <h2>
-            <span>Kiqita</span>
-            -
-            <span>Qulemi Berwvw</span>
-            ,
-            <span>Suveli Cedwqw</span>
-        </h2>
-        <h2>
-            <span>QULENI GAVWLW</span>
-            :
-            H<span>a</span>r<span>u</span>k<span>a</span>
-            S<span>a</span>t<span>o</span>q<span>u</span>
-        </h2>
-        <h2>
-            &
-            <span>QULENI DEDAGW</span>
-        </h2>
-        <p>Nwqiqw celeme beruvw pelufw</p>
-        <p>Nwquqw cumilw bireve comona</p>
-        <div id="table">
-        </div>
-        <script>
-            const controlChars = {
-                0: "NUL", 1: "SOH", 2: "STX", 3: "ETX", 4: "EOT", 5: "ENQ", 6: "ACK", 7: "BEL",
-                8: "BS", 9: "TAB", 10: "LF", 11: "VT", 12: "FF", 13: "CR", 14: "SO", 15: "SI",
-                16: "DLE", 17: "DC1", 18: "DC2", 19: "DC3", 20: "DC4", 21: "NAK", 22: "SYN", 23: "ETB",
-                24: "CAN", 25: "EM", 26: "SUB", 27: "ESC", 28: "FS", 29: "GS", 30: "RS", 31: "US",
-                127: "DEL"
-            };
-            const table = document.createElement("table");
-            const caption = document.createElement("caption");
-            caption.textContent = "わからない人のためのASCII表";
-            caption.style.fontFamily = "monospace";
-            table.appendChild(caption);
-            // ヘッダー行（16進数の列ラベル）
-            const thead = document.createElement("thead");
-            const headerRow = document.createElement("tr");
-            const emptyCell = document.createElement("th");
-            headerRow.appendChild(emptyCell); // 左上の空白セル
-            for (let col = 0; col < 16; col++) {
-                const th = document.createElement("th");
-                th.textContent = "X" + col.toString(16).toUpperCase(); // 0～F
-                th.style.fontFamily = "monospace";
-                headerRow.appendChild(th);
-            }
-            thead.appendChild(headerRow);
-            table.appendChild(thead);
-
-            // テーブル本体
-            const tbody = document.createElement("tbody");
-
-            for (let row = 0; row < 8; row++) { // 8行
-                const tr = document.createElement("tr");
-
-                // 先頭列（行ラベル）
-                const rowLabel = document.createElement("th");
-                rowLabel.textContent = (row * 16).toString(16).toUpperCase().padStart(2, "0");
-                rowLabel.style.fontFamily = "monospace"
-                tr.appendChild(rowLabel);
-                for (let col = 0; col < 16; col++) { // 16列
-                    const code = row * 16 + col; // ASCIIコード
-                    const td = document.createElement("td");
-                    if (controlChars[code]) {
-                        td.textContent = controlChars[code]; // コントロールキャラ名
-                        td.classList.add("control-char");
-                        td.style.fontFamily = "monospace";
-                    } else {
-                        td.textContent = String.fromCharCode(code); // ASCII文字
-                    }
-                    tr.appendChild(td);
-                }
-                tbody.appendChild(tr);
-            }
-            table.appendChild(tbody);
-
-            // 表を表示
-            document.getElementById("table").appendChild(table);
-        </script>
-        <form>
-            <!-- <input type="button" name="form" value="kodito" class="kodito" onclick="changeFont(0)"> -->
-            <table>
-                <tr>
-                    <td>
-                        <input type="button" name="form" value="kodito" class="kodito" onclick="changeFont(0)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="lekuta" class="lekuta" onclick="changeFont(1)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="lozegw" class="lozegw" onclick="changeFont(2)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="makina" class="makina" onclick="changeFont(3)">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" name="form" value="piswpi" class="piswpi" onclick="changeFont(4)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="polwgo" class="polwgo" onclick="changeFont(5)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="silwki" class="silwki" onclick="changeFont(6)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="sulive" class="sulive" onclick="changeFont(7)">
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="button" name="form" value="xavani" class="xavani" onclick="changeFont(8)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="xesada" class="xesada" onclick="changeFont(9)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="xidili" class="xidili" onclick="changeFont(10)">
-                    </td>
-                    <td>
-                        <input type="button" name="form" value="zosokw" class="zosokw" onclick="changeFont(11)">
-                    </td>
-                </tr>
-            </table>
-        </form>
-        <script src="kiita_declaration.js"></script>
-    </body>
+<body id="font">
+    <h1>
+        <span>KIQITA BERUVW QINILW GIQWCI</span>
+    </h1>
+    <h2>
+        <span>2021</span>
+        N<span>e</span>r<span>w</span>t<span>a</span>
+        <span>12</span>
+        L<span>u</span>q<span>u</span>n<span>a</span>
+        <span>30</span>
+        Z<span>o</span>l<span>w</span>k<span>a</span>
+    </h2>
+    <h2>
+        <span>Kiqita</span>
+        -
+        <span>Qulemi Berwvw</span>
+        ,
+        <span>Suveli Cedwqw</span>
+    </h2>
+    <h2>
+        <span>QULENI GAVWLW</span>
+        :
+        H<span>a</span>r<span>u</span>k<span>a</span>
+        S<span>a</span>t<span>o</span>q<span>u</span>
+    </h2>
+    <h2>
+        &
+        <span>QULENI DEDAGW</span>
+    </h2>
+    <p>Nwqiqw celeme beruvw pelufw</p>
+    <p>Nwquqw cumilw bireve comona</p>
+    <div id="table">
+    </div>
+    <form>
+        <table>
+            <tr>
+                <td>
+                    <input type="button" name="form" value="kodito" class="kodito" onclick="changeFont(0)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="lekuta" class="lekuta" onclick="changeFont(1)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="lozegw" class="lozegw" onclick="changeFont(2)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="makina" class="makina" onclick="changeFont(3)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="form" value="piswpi" class="piswpi" onclick="changeFont(4)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="polwgo" class="polwgo" onclick="changeFont(5)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="silwki" class="silwki" onclick="changeFont(6)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="sulive" class="sulive" onclick="changeFont(7)">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="form" value="xavani" class="xavani" onclick="changeFont(8)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="xesada" class="xesada" onclick="changeFont(9)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="xidili" class="xidili" onclick="changeFont(10)">
+                </td>
+                <td>
+                    <input type="button" name="form" value="zosokw" class="zosokw" onclick="changeFont(11)">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="kiita_declaration.js"></script>
+</body>
 
 </html>
