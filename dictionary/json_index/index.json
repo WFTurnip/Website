@@ -1,22 +1,112 @@
 {
     "index": [
-        { "consonant": "k", "meaning": "剥離", "html_href": "k.html", "json_href": "k.json" },
-        { "consonant": "g", "meaning": "癒着", "html_href": "g.html", "json_href": "g.json" },
-        { "consonant": "t", "meaning": "乖離", "html_href": "t.html", "json_href": "t.json" },
-        { "consonant": "d", "meaning": "同一", "html_href": "d.html", "json_href": "d.json" },
-        { "consonant": "s", "meaning": "肉体", "html_href": "s.html", "json_href": "s.json" },
-        { "consonant": "z", "meaning": "精神", "html_href": "z.html", "json_href": "z.json" },
-        { "consonant": "q", "meaning": "空白", "html_href": "q.html", "json_href": "q.json" },
-        { "consonant": "c", "meaning": "物質", "html_href": "c.html", "json_href": "c.json" },
-        { "consonant": "r", "meaning": "過去", "html_href": "r.html", "json_href": "r.json" },
-        { "consonant": "l", "meaning": "未来", "html_href": "l.html", "json_href": "l.json" },
-        { "consonant": "p", "meaning": "鎮静", "html_href": "p.html", "json_href": "p.json" },
-        { "consonant": "b", "meaning": "高揚", "html_href": "b.html", "json_href": "b.json" },
-        { "consonant": "h", "meaning": "受動", "html_href": "h.html", "json_href": "h.json" },
-        { "consonant": "x", "meaning": "能動", "html_href": "x.html", "json_href": "x.json" },
-        { "consonant": "f", "meaning": "創造", "html_href": "f.html", "json_href": "f.json" },
-        { "consonant": "v", "meaning": "破壊", "html_href": "v.html", "json_href": "v.json" },
-        { "consonant": "m", "meaning": "流動", "html_href": "m.html", "json_href": "m.json" },
-        { "consonant": "n", "meaning": "固定", "html_href": "n.html", "json_href": "n.json" }
+        {
+            "consonant": "k",
+            "meaning": "剥離",
+            "html_href": "k.html",
+            "json_href": "k.json"
+        },
+        {
+            "consonant": "g",
+            "meaning": "癒着",
+            "html_href": "g.html",
+            "json_href": "g.json"
+        },
+        {
+            "consonant": "t",
+            "meaning": "乖離",
+            "html_href": "t.html",
+            "json_href": "t.json"
+        },
+        {
+            "consonant": "d",
+            "meaning": "同一",
+            "html_href": "d.html",
+            "json_href": "d.json"
+        },
+        {
+            "consonant": "s",
+            "meaning": "肉体",
+            "html_href": "s.html",
+            "json_href": "s.json"
+        },
+        {
+            "consonant": "z",
+            "meaning": "精神",
+            "html_href": "z.html",
+            "json_href": "z.json"
+        },
+        {
+            "consonant": "q",
+            "meaning": "空白",
+            "html_href": "q.html",
+            "json_href": "q.json"
+        },
+        {
+            "consonant": "c",
+            "meaning": "物質",
+            "html_href": "c.html",
+            "json_href": "c.json"
+        },
+        {
+            "consonant": "r",
+            "meaning": "過去",
+            "html_href": "r.html",
+            "json_href": "r.json"
+        },
+        {
+            "consonant": "l",
+            "meaning": "未来",
+            "html_href": "l.html",
+            "json_href": "l.json"
+        },
+        {
+            "consonant": "p",
+            "meaning": "鎮静",
+            "html_href": "p.html",
+            "json_href": "p.json"
+        },
+        {
+            "consonant": "b",
+            "meaning": "高揚",
+            "html_href": "b.html",
+            "json_href": "b.json"
+        },
+        {
+            "consonant": "h",
+            "meaning": "受動",
+            "html_href": "h.html",
+            "json_href": "h.json"
+        },
+        {
+            "consonant": "x",
+            "meaning": "能動",
+            "html_href": "x.html",
+            "json_href": "x.json"
+        },
+        {
+            "consonant": "f",
+            "meaning": "創造",
+            "html_href": "f.html",
+            "json_href": "f.json"
+        },
+        {
+            "consonant": "v",
+            "meaning": "破壊",
+            "html_href": "v.html",
+            "json_href": "v.json"
+        },
+        {
+            "consonant": "m",
+            "meaning": "流動",
+            "html_href": "m.html",
+            "json_href": "m.json"
+        },
+        {
+            "consonant": "n",
+            "meaning": "固定",
+            "html_href": "n.html",
+            "json_href": "n.json"
+        }
     ]
 }
