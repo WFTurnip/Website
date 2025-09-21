@@ -61,7 +61,7 @@ async function generateConsonants() {
     body.appendChild(p);
 
     let ul = document.createElement("ul");
-    for (let i = 0; i < consonants.length; i++) {
+    for (let i = 0; i < consonants_array.length; i++) {
         let li = document.createElement("li");
         let a = document.createElement("a");
         a.className = "piswpi";
@@ -162,8 +162,8 @@ async function generateIndex(i) {
     body.appendChild(p);
 
     let ul = document.createElement("ul");
-    for (let j = 0; j < consonants.length; j++) {
-        for (let k = 0; k < consonants.length; k++) {
+    for (let j = 0; j < consonants_array.length; j++) {
+        for (let k = 0; k < consonants_array.length; k++) {
             let li = document.createElement("li");
             let a = document.createElement("a");
             a.className = "piswpi";
@@ -360,11 +360,11 @@ async function make() {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
     await generateConsonants();
-    for (let i = 0; i < consonants.length; i++) {
+    for (let i = 0; i < consonants_array.length; i++) {
         await generateIndex(i);
         await generateIndexDirectory(i);
-        for (let j = 0; j < consonants.length; j++) {
-            for (let k = 0; k < consonants.length; k++) {
+        for (let j = 0; j < consonants_array.length; j++) {
+            for (let k = 0; k < consonants_array.length; k++) {
                 await generateRoots(i, j, k);
             }
         }
