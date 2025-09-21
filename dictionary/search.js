@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     searchOptionContainer.innerHTML = "";
     if (!consonants && !roots && !words) {
         const message = document.createElement("p");
-        message.textContent = "オプション選択されていないので、絞り込み検索を行いません。";
+        message.textContent = "オプションが選択されていないので、絞り込み検索を行いません。";
         message.classList.add("warning");
         searchOptionContainer.appendChild(message);
     } else {
@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         const createOptionSpan = (label, isOn) => {
             const span = document.createElement("span");
             span.textContent = label;
-
             const strong = document.createElement("strong");
             strong.textContent = isOn ? "ON" : "OFF";
             strong.classList.add(isOn ? "on" : "off");
@@ -121,17 +120,23 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWord, "roots");
         filtered.forEach(item => {
             const p1 = document.createElement("p");
-            p1.textContent = "語根概念：" + item.root_meaning;
+            const span = document.createElement("span");
+            span.textContent = item.root;
+            span.classList.add("piswpi");
+            p1.textContent = "語根：";
+            p1.append(span);
             details.appendChild(p1);
-            const p5 = document.createElement("p");
+            const p2 = document.createElement("p");
+            p2.textContent = "語根概念：" + item.root_meaning;
+            details.appendChild(p2);
+            const p3 = document.createElement("p");
             const a = document.createElement("a");
             a.href = "html_index" + "/" + item.html_href;
             a.textContent = "リンクページへ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
-            p5.appendChild(a);
-            details.appendChild(p5);
-
+            p3.appendChild(a);
+            details.appendChild(p3);
         });
     } catch (error) {
         console.error(error);
@@ -165,7 +170,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             details.appendChild(p1);
             const p2 = document.createElement("p");
             p2.textContent = "品詞：" + item.part_of_speech;
-            details.appendChild(p3);
+            details.appendChild(p2);
             const p3 = document.createElement("p");
             const span2 = document.createElement("span");
             span2.textContent = "/" + item.phonetic + "/";
