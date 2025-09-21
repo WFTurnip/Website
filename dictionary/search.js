@@ -174,7 +174,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             details.appendChild(p2);
             const p3 = document.createElement("p");
             const span2 = document.createElement("span");
-            span2.textContent = "/" + item.phonetic + "/";
+            span2.textContent = "|" + item.phonetic + "|";
             span2.style.fontFamily = "monospace";
             p3.textContent = "発音：";
             p3.append(span2);
