@@ -61,7 +61,7 @@ const emptyCell = document.createElement("th");
 headerRow.appendChild(emptyCell);
 for (let col = 0; col < 16; col++) {
     const th = document.createElement("th");
-    th.textContent = "X" + col.toString(16).toUpperCase(); // 0～F
+    th.textContent = "X" + col.toString(16).toUpperCase();
     th.style.fontFamily = "monospace";
     headerRow.appendChild(th);
 }
