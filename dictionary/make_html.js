@@ -73,14 +73,10 @@ async function generateConsonants() {
     body.appendChild(ol);
 
     let footer = document.createElement("footer");
-    let ulFooter = document.createElement("ul");
-    let liFooter1 = document.createElement("li");
-    let aFooter1 = document.createElement("a");
-    aFooter1.href = "../dictionary.html";
-    aFooter1.textContent = "表紙へ戻る";
-    liFooter1.appendChild(aFooter1);
-    ulFooter.appendChild(liFooter1);
-    footer.appendChild(ulFooter);
+    let a = document.createElement("a");
+    a.href = "../dictionary.html";
+    a.textContent = "表紙へ戻る";
+    footer.appendChild(a);
     body.appendChild(footer);
 
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
