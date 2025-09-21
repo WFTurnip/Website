@@ -22,8 +22,8 @@ async function generateConsonants() {
         consonants.push({
             consonant: consonant,
             consonant_meaning: consonant_meaning,
-            html_href: consonant + ".html",
-            json_href: consonant + ".json"
+            consonant_html_href: consonant + ".html",
+            consonant_json_href: consonant + ".json"
         });
     }
 
@@ -51,8 +51,8 @@ async function generateIndex(i) {
             roots.push({
                 root: root,
                 root_meaning: meaning,
-                html_href: consonants_array[i] + "/" + root + ".html",
-                json_href: consonants_array[i] + "/" + root + ".json"
+                root_html_href: consonants_array[i] + "/" + root + ".html",
+                root_json_href: consonants_array[i] + "/" + root + ".json"
             });
         }
     }
@@ -94,9 +94,9 @@ async function generateRoots(i, j, k) {
                 let cases = vowels_cases_array[l] + vowels_cases_array[m] + "格";
                 words.push({
                     word: word,
-                    phonetic: phonetic,
-                    part_of_speech: part_of_speech,
-                    cases: cases,
+                    word_phonetic: phonetic,
+                    word_part_of_speech: part_of_speech,
+                    word_cases: cases,
                     word_meaning: ""
                 });
             }

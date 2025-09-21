@@ -90,7 +90,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
             details.appendChild(p1);
             const p2 = document.createElement("p");
             const a = document.createElement("a");
-            a.href = "html_index" + "/" + item.html_href;
+            a.href = "html_index" + "/" + item.consonant_html_href;
             a.textContent = "リンクページへ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
@@ -132,7 +132,7 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
             details.appendChild(p2);
             const p3 = document.createElement("p");
             const a = document.createElement("a");
-            a.href = "html_index" + "/" + item.html_href;
+            a.href = "html_index" + "/" + item.root_html_href;
             a.textContent = "リンクページへ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
@@ -168,14 +168,14 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             span1.className = "piswpi";
             p1.append(span1);
             const span2 = document.createElement("span");
-            span2.textContent = item.part_of_speech;
+            span2.textContent = item.word_part_of_speech;
             p1.append(span2);
             const span3 = document.createElement("span");
-            span3.textContent = "/" + item.phonetic + "/";
+            span3.textContent = "/" + item.word_phonetic + "/";
             span3.style.fontFamily = "monospace";
             p1.append(span3);
             const span4 = document.createElement("span");
-            span4.textContent = item.cases;
+            span4.textContent = item.word_cases;
             p1.append(span4);
             details.appendChild(p1);
             const p2 = document.createElement("p");
