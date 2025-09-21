@@ -213,14 +213,6 @@ async function generateIndexDirectory(i) {
 }
 
 async function generateRoots(i, j, k) {
-
-    const createParagraph = (text, className) => {
-        let p = document.createElement("p");
-        p.textContent = text;
-        p.className = className;
-        return p;
-    };
-
     let filename = path.join("html_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
