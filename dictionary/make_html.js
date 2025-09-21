@@ -283,14 +283,6 @@ async function generateRoots(i, j, k) {
     h1.appendChild(span1);
     body.appendChild(h1);
 
-    let h2 = document.createElement("h2");
-    let q = document.createElement("q");
-    h2.appendChild(document.createTextNode("この語根は"));
-    q.textContent = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
-    h2.appendChild(q);
-    h2.appendChild(document.createTextNode("の概念を持つ"));
-    body.appendChild(h2);
-
     let p = document.createElement("p");
     let span = document.createElement("span");
     span.className = "piswpi";
@@ -299,6 +291,14 @@ async function generateRoots(i, j, k) {
     p.appendChild(span);
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
+
+    let p2 = document.createElement("p");
+    let strong = document.createElement("strong");
+    p2.appendChild(document.createTextNode("この語根は"));
+    strong.textContent = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
+    p2.appendChild(strong);
+    p2.appendChild(document.createTextNode("の概念を持つ"));
+    body.appendChild(p2);
 
     let footer = document.createElement("footer");
     let ulFooter = document.createElement("ul");
