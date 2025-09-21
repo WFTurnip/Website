@@ -42,10 +42,12 @@ async function generateConsonants() {
 
     let body = document.body;
     let header = document.createElement("header");
+    let header_nav = document.createElement("nav");
     let header_a = document.createElement("a");
     header_a.href = "../dictionary.html";
     header_a.textContent = "表紙へ戻る";
-    header.appendChild(header_a);
+    header_nav.appendChild(header_a);
+    header.appendChild(header_nav);
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
