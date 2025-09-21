@@ -47,3 +47,14 @@ rt {
     font-family: serif;
     font-variant-east-asian: ruby;
 }
+
+figure {
+    display: block;
+    text-align: center;
+}
+
+figure object {
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
