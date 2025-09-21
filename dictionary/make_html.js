@@ -60,7 +60,7 @@ async function generateConsonants() {
     p.textContent = "この章は子音見出し。"
     body.appendChild(p);
 
-    let ol = document.createElement("ul");
+    let ol = document.createElement("ol");
     for (let i = 0; i < consonants_array.length; i++) {
         let li = document.createElement("li");
         let a = document.createElement("a");
@@ -68,9 +68,9 @@ async function generateConsonants() {
         a.href = consonants_array[i] + ".html";
         a.textContent = consonants_array[i];
         li.appendChild(a);
-        ul.appendChild(li);
+        ol.appendChild(li);
     }
-    body.appendChild(ul);
+    body.appendChild(ol);
 
     let footer = document.createElement("footer");
     let ulFooter = document.createElement("ul");
@@ -161,7 +161,7 @@ async function generateIndex(i) {
     p.appendChild(document.createTextNode("に関する情報を表示します。"));
     body.appendChild(p);
 
-    let ol = document.createElement("ul");
+    let ol = document.createElement("ol");
     for (let j = 0; j < consonants_array.length; j++) {
         for (let k = 0; k < consonants_array.length; k++) {
             let li = document.createElement("li");
@@ -170,10 +170,10 @@ async function generateIndex(i) {
             a.href = consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html";
             a.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
             li.appendChild(a);
-            ul.appendChild(li);
+            ol.appendChild(li);
         };
     };
-    body.appendChild(ul);
+    body.appendChild(ol);
 
     let footer = document.createElement("footer");
     let ulFooter = document.createElement("ul");
