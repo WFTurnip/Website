@@ -41,6 +41,10 @@
     .on {
         color: blue;
     }
+
+    figure {
+        background-color: #76494c;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -85,5 +89,9 @@
 
     .on {
         color: blue;
+    }
+
+    figure {
+        background-color: #1f1b1c;
     }
 }
