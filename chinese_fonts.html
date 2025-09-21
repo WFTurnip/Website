@@ -1,53 +1,53 @@
 <!DOCTYPE html>
 <html lang="ja">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>中華フォントとウェブサイトのお話</title>
-        <link rel="stylesheet" href="index.css">
-        <link rel="stylesheet" href="chinese_fonts.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中華フォントとウェブサイトのお話</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="chinese_fonts.css">
+</head>
 
-    <body>
-        <header><a href="index.html">トップページに戻る</a></header>
-        <header><a href="index_software.html">ソフトウェアの扉に戻る</a></header>
-        <h1>中華フォントとウェブサイトのお話</h1>
-        <p>中華フォントを使ったウェブサイトのデザインについての考察。</p>
-        <p>
-            中華フォントは、主に中国語の文字を表示するためにデザインされたフォントのことを指します。これらのフォントは、主に中国語圏の漢字の形状やスタイルに特化しており、ウェブサイトのデザインにおいても重要な役割を果たします。ただし、日本語とは見た目が大幅に違うので、注意が必要です。
-        </p>
-        <p>
-            ただし、Unicodeは文字コードであり、言語や地域ごとの見た目の違い（ローカライズされた字形）までは区別していません。そのため、表示側（OSやブラウザ）は、ドキュメントの言語情報やフォントの言語対応をもとに、適切な字形を選んで表示します。
-        </p>
-        <dl>
-            <dt>
-                <h2>中華フォントの使用例</h2>
-            </dt>
-            <dd>
-                <dl>
-                    <dt>日本語<br><code>&lt;span lang="ja"&gt;</code></dt>
-                    <dd><span lang="ja" class="serif">刃直海角骨入</span></dd>
-                    <dd><span lang="ja" class="sans-serif">刃直海角骨入</span></dd>
-                    <dt>簡体中国語<br><code>&lt;span lang="zh-cn"&gt;</code></dt>
-                    <dd><span lang="zh-cn" class="serif">刃直海角骨入</span></dd>
-                    <dd><span lang="zh-cn" class="sans-serif">刃直海角骨入</span></dd>
-                    <dt>繁体中国語<br><code>&lt;span lang="zh-tw"&gt;</code></dt>
-                    <dd><span lang="zh-tw" class="serif">刃直海角骨入</span></dd>
-                    <dd><span lang="zh-tw" class="sans-serif">刃直海角骨入</span></dd>
-                </dl>
-            </dd>
-        </dl>
-        <p>
-            上記の例では、同じ文字列を日本語、簡体中国語、繁体中国語で表示しています。フォントの種類によって、文字の見た目が異なることがわかります。
-        </p>
-        <p>
-            一つのウェブサイトで多言語を使用する際は、フォントの選択や言語設定に注意が必要です。特に言語ごとの字形の違いを理解し、適切なフォントを選ぶことが重要です。また、Google
-            Fontsなどのウェブフォントを使用することで、ユーザーの環境に依存せずに一貫した表示を実現できます。
-        </p>
-        <p>
-            このような場合に多言語用フォントを使用する際は、フォントのライセンスや使用条件にも注意が必要です。商用利用や再配布に制限がある場合がありますので、事前に確認しておくことをおすすめします。
-        </p>
-    </body>
+<body>
+    <header><a href="index.html">トップページに戻る</a></header>
+    <header><a href="index_software.html">ソフトウェアの扉に戻る</a></header>
+    <h1>中華フォントとウェブサイトのお話</h1>
+    <p>中華フォントを使ったウェブサイトのデザインについての考察。</p>
+    <p>
+        中華フォントは、主に中国語の文字を表示するためにデザインされたフォントのことを指します。これらのフォントは、主に中国語圏の漢字の形状やスタイルに特化しており、ウェブサイトのデザインにおいても重要な役割を果たします。ただし、日本語とは見た目が大幅に違うので、注意が必要です。
+    </p>
+    <p>
+        ただし、Unicodeは文字コードであり、言語や地域ごとの見た目の違い（ローカライズされた字形）までは区別していません。そのため、表示側（OSやブラウザ）は、ドキュメントの言語情報やフォントの言語対応をもとに、適切な字形を選んで表示します。
+    </p>
+    <dl>
+        <dt>
+            <h2>中華フォントの使用例</h2>
+        </dt>
+        <dd>
+            <dl>
+                <dt>日本語<br><code>&lt;span lang="ja"&gt;</code></dt>
+                <dd><span lang="ja" class="serif">刃直海角骨入</span></dd>
+                <dd><span lang="ja" class="sans-serif">刃直海角骨入</span></dd>
+                <dt>簡体中国語<br><code>&lt;span lang="zh-cn"&gt;</code></dt>
+                <dd><span lang="zh-cn" class="serif">刃直海角骨入</span></dd>
+                <dd><span lang="zh-cn" class="sans-serif">刃直海角骨入</span></dd>
+                <dt>繁体中国語<br><code>&lt;span lang="zh-tw"&gt;</code></dt>
+                <dd><span lang="zh-tw" class="serif">刃直海角骨入</span></dd>
+                <dd><span lang="zh-tw" class="sans-serif">刃直海角骨入</span></dd>
+            </dl>
+        </dd>
+    </dl>
+    <p>
+        上記の例では、同じ文字列を日本語、簡体中国語、繁体中国語で表示しています。フォントの種類によって、文字の見た目が異なることがわかります。
+    </p>
+    <p>
+        一つのウェブサイトで多言語を使用する際は、フォントの選択や言語設定に注意が必要です。特に言語ごとの字形の違いを理解し、適切なフォントを選ぶことが重要です。また、Google
+        Fontsなどのウェブフォントを使用することで、ユーザーの環境に依存せずに一貫した表示を実現できます。
+    </p>
+    <p>
+        このような場合に多言語用フォントを使用する際は、フォントのライセンスや使用条件にも注意が必要です。商用利用や再配布に制限がある場合がありますので、事前に確認しておくことをおすすめします。
+    </p>
+</body>
 
 </html>
