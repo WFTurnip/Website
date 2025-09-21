@@ -14,7 +14,6 @@
         <header>
             <a href="dictionary.html">表紙に戻る</a>
         </header>
-        <h1>検索結果</h1>
         <form action="search.html" id="searchForm" method="get">
             <fieldset>
                 <legend>文字入力欄</legend>
@@ -34,11 +33,14 @@
                 <input type="submit" value="検索">
                 <input type="reset" value="初期化">
             </fieldset>
+            <h1>検索結果</h1>
         </form>
         <script src="search.js"></script>
-        <main id="search-word"></main>
-        <main id="option"></main>
-        <main id="result"></main>
+        <main>
+            <article id="search-word"></article>
+            <article id="option"></article>
+            <article id="result"></article>
+        </main>
         <footer>
             <a href="dictionary.html">表紙に戻る</a>
         </footer>

@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     if (!searchWord) {
         const message = document.createElement("p");
-        message.textContent = "検索語が入力されていません。";
+        message.textContent = "検索語が入力されていませんので、検索を行いません。";
         message.classList.add("warning");
         searchWordContainer.appendChild(message);
     } else {
