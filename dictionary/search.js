@@ -120,13 +120,13 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "roots");
         filtered.forEach(item => {
-            const h2 = document.createElement("p");
+            const p1 = document.createElement("p");
             const span = document.createElement("span");
             span.textContent = item.root;
             span.classList.add("piswpi");
-            h2.textContent = "語根：";
-            h2.append(span);
-            details.appendChild(h2);
+            p1.textContent = "語根：";
+            p1.append(span);
+            details.appendChild(p1);
             const p2 = document.createElement("p");
             p2.textContent = "語根概念：" + item.root_meaning;
             details.appendChild(p2);
@@ -162,25 +162,25 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "words");
         filtered.forEach(item => {
-            const h2 = document.createElement("h2");
+            const p1 = document.createElement("p");
             const strong = document.createElement("strong");
             strong.textContent = item.word.toLowerCase();
             strong.className = "piswpi";
-            h2.append(strong);
+            p1.append(strong);
             const span2 = document.createElement("span");
             span2.textContent = item.word_part_of_speech;
-            h2.append(span2);
+            p1.append(span2);
             const span3 = document.createElement("span");
             span3.textContent = "/" + item.word_phonetic + "/";
-            span3.style.fontFamily = "monospace";
-            h2.append(span3);
+            span3.classList.add("phonetic");
+            p1.append(span3);
             const span4 = document.createElement("span");
             span4.textContent = item.word_cases;
-            h2.append(span4);
-            details.appendChild(h2);
-            const p = document.createElement("p");
-            p.textContent = item.word_meaning;
-            details.appendChild(p);
+            p1.append(span4);
+            details.appendChild(p1);
+            const p2 = document.createElement("p");
+            p2.textContent = item.word_meaning;
+            details.appendChild(p2);
         });
     } catch (error) {
         console.error(error);

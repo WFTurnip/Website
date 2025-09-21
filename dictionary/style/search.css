@@ -4,14 +4,6 @@ body {
     padding: 2rem;
 }
 
-h1 {
-    text-transform: capitalize;
-}
-
-h2 {
-    text-transform: uppercase;
-}
-
 p {
     font-weight: normal;
 }
@@ -63,4 +55,8 @@ strong {
 .off,
 .on {
     font-weight: bold;
+}
+
+.phonetic {
+    font-family: 'Courier New', Courier, monospace;
 }
