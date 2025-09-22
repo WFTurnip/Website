@@ -24,7 +24,7 @@ async function generateIndex() {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "子音見出し";
+    title.textContent = "子音一覧";
     head.appendChild(title);
 
     let link1 = document.createElement("link");
@@ -51,7 +51,7 @@ async function generateIndex() {
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
-    h1.textContent = "子音見出し";
+    h1.textContent = "子音一覧";
     body.appendChild(h1);
 
     let ol = document.createElement("ol");
