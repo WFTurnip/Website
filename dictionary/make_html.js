@@ -54,10 +54,6 @@ async function generateIndex() {
     h1.textContent = "子音見出し";
     body.appendChild(h1);
 
-    let p = document.createElement("p");
-    p.textContent = "この章は子音見出し。"
-    body.appendChild(p);
-
     let ol = document.createElement("ol");
     for (let i = 0; i < consonants_array.length; i++) {
         let li = document.createElement("li");

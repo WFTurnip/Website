@@ -13,9 +13,7 @@ const vowels_pronunciation_array = ["a", "e", "i", "o", "u", ""];
 
 async function generateIndex() {
     let filename = path.join("json_index", "index.json");
-
     let consonants = [];
-
     for (let i = 0; i < consonants_array.length; i++) {
         let consonant = consonants_array[i];
         let consonant_meaning = consonants_means_array[i];
@@ -26,11 +24,8 @@ async function generateIndex() {
             consonant_json_href: consonant + ".json"
         });
     }
-
     let object = { consonants };
-
     let pretty = beautify(object, null, 4, 100);
-
     try {
         await fs.writeFile(filename, pretty);
         console.log("ファイル" + filename + "を作成しました。");
@@ -41,9 +36,7 @@ async function generateIndex() {
 
 async function generateConsonant(i) {
     let filename = path.join("json_index", consonants_array[i] + ".json");
-
     let roots = [];
-
     for (let j = 0; j < consonants_array.length; j++) {
         for (let k = 0; k < consonants_array.length; k++) {
             let root = consonants_array[i] + consonants_array[j] + consonants_array[k];
@@ -56,11 +49,8 @@ async function generateConsonant(i) {
             });
         }
     }
-
     let object = { roots };
-
     let pretty = beautify(object, null, 4, 100);
-
     try {
         await fs.writeFile(filename, pretty);
         console.log("ファイル" + filename + "を作成しました。");
@@ -71,7 +61,6 @@ async function generateConsonant(i) {
 
 async function generateConsonantDirectory(i) {
     let directory = path.join("json_index", consonants_array[i]);
-
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
@@ -82,9 +71,7 @@ async function generateConsonantDirectory(i) {
 
 async function generateRoot(i, j, k) {
     let filename = path.join("json_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".json");
-
     let words = [];
-
     for (let l = 0; l < vowels_array.length; l++) {
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
@@ -102,11 +89,8 @@ async function generateRoot(i, j, k) {
             }
         }
     }
-
     let object = { words };
-
     let pretty = beautify(object, null, 4, 100);
-
     try {
         await fs.writeFile(filename, pretty);
         console.log("ファイル" + filename + "を作成しました。");
