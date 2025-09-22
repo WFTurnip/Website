@@ -270,14 +270,14 @@ async function generateRoot(i, j, k) {
     h1.appendChild(span1);
     body.appendChild(h1);
 
-    let p = document.createElement("p");
+    let p1 = document.createElement("p");
     let span = document.createElement("span");
     span.className = "piswpi";
-    p.appendChild(document.createTextNode("このページは語根"));
+    p1.appendChild(document.createTextNode("このページは語根"));
     span.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
-    p.appendChild(span);
-    p.appendChild(document.createTextNode("に関する情報を表示します。"));
-    body.appendChild(p);
+    p1.appendChild(span);
+    p1.appendChild(document.createTextNode("に関する情報を表示します。"));
+    body.appendChild(p1);
 
     let p2 = document.createElement("p");
     let strong = document.createElement("strong");
