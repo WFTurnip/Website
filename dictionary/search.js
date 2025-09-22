@@ -171,8 +171,8 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             span2.textContent = item.word_part_of_speech;
             p1.append(span2);
             const span3 = document.createElement("span");
-            span3.textContent = "/" + item.word_phonetic + "/";
-            span3.classList.add("phonetic");
+            span3.textContent = "/" + item.word_pronunciation + "/";
+            span3.classList.add("pronunciation");
             p1.append(span3);
             const span4 = document.createElement("span");
             span4.textContent = item.word_cases;

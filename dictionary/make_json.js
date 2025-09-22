@@ -1,15 +1,15 @@
-const fs = require('fs').promises;
-const path = require('path');
-const beautify = require('json-beautify');
+const fs = require("fs").promises;
+const path = require("path");
+const beautify = require("json-beautify");
 
 const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonants_means_array = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonants_phonetics_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonants_pronunciation_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowels_array = ["a", "e", "i", "o", "u", "w"];
 const vowels_cases_array = ["否", "与", "属", "対", "主", "流"];
 const vowels_part_of_speech_types_array = ["付", "動", "容", "助", "副", "名"];
-const vowels_phonetics_array = ["a", "e", "i", "o", "u", ""];
+const vowels_pronunciation_array = ["a", "e", "i", "o", "u", ""];
 
 async function generateConsonants() {
     let filename = path.join("json_index", "index.json");
@@ -89,12 +89,12 @@ async function generateRoots(i, j, k) {
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
                 let word = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
-                let phonetic = consonants_phonetics_array[i] + vowels_phonetics_array[l] + consonants_phonetics_array[j] + vowels_phonetics_array[m] + consonants_phonetics_array[k] + vowels_phonetics_array[n];
+                let pronunciation = consonants_pronunciation_array[i] + vowels_pronunciation_array[l] + consonants_pronunciation_array[j] + vowels_pronunciation_array[m] + consonants_pronunciation_array[k] + vowels_pronunciation_array[n];
                 let part_of_speech = vowels_part_of_speech_types_array[n] + "詞";
                 let cases = vowels_cases_array[l] + vowels_cases_array[m] + "格";
                 words.push({
                     word: word,
-                    word_phonetic: phonetic,
+                    word_pronunciation: pronunciation,
                     word_part_of_speech: part_of_speech,
                     word_cases: cases,
                     word_meaning: ""

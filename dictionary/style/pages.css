@@ -60,13 +60,13 @@
 
 .warning,
 .off {
-    color: red;
+    color: #ff0000;
 }
 
 .on {
-    color: blue;
+    color: #0000ff;
 }
 
-.phonetic {
+.pronunciation {
     color: #7f7f7f;
 }
