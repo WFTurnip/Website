@@ -11,7 +11,7 @@ const vowels_cases_array = ["否", "与", "属", "対", "主", "流"];
 const vowels_part_of_speech_types_array = ["付", "動", "容", "助", "副", "名"];
 const vowels_pronunciation_array = ["a", "e", "i", "o", "u", ""];
 
-async function generateConsonants() {
+async function generateIndex() {
     let filename = path.join("json_index", "index.json");
 
     let consonants = [];
@@ -39,7 +39,7 @@ async function generateConsonants() {
     }
 }
 
-async function generateIndex(i) {
+async function generateConsonant(i) {
     let filename = path.join("json_index", consonants_array[i] + ".json");
 
     let roots = [];
@@ -69,7 +69,7 @@ async function generateIndex(i) {
     }
 }
 
-async function generateIndexDirectory(i) {
+async function generateConsonantDirectory(i) {
     let directory = path.join("json_index", consonants_array[i]);
 
     try {
@@ -80,7 +80,7 @@ async function generateIndexDirectory(i) {
     }
 }
 
-async function generateRoots(i, j, k) {
+async function generateRoot(i, j, k) {
     let filename = path.join("json_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".json");
 
     let words = [];
@@ -123,13 +123,13 @@ async function make() {
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
-    await generateConsonants();
+    await generateIndex();
     for (let i = 0; i < consonants_array.length; i++) {
-        await generateIndex(i);
-        await generateIndexDirectory(i);
+        await generateConsonant(i);
+        await generateConsonantDirectory(i);
         for (let j = 0; j < consonants_array.length; j++) {
             for (let k = 0; k < consonants_array.length; k++) {
-                await generateRoots(i, j, k);
+                await generateRoot(i, j, k);
             }
         }
     }
