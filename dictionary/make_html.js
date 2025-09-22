@@ -289,7 +289,6 @@ async function generateRoot(i, j, k) {
 
     let footer = document.createElement("footer");
     let ulFooter = document.createElement("ul");
-
     let liFooter1 = document.createElement("li");
     let aFooter1 = document.createElement("a");
     aFooter1.href = "../../dictionary.html";
