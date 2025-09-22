@@ -144,15 +144,6 @@ async function generateConsonant(i) {
     h1.appendChild(document.createTextNode("の見出し"));
     body.appendChild(h1);
 
-    let p = document.createElement("p");
-    let span2 = document.createElement("span");
-    span2.className = "piswpi"
-    span2.textContent = consonants_array[i];
-    p.appendChild(document.createTextNode("このページは"));
-    p.appendChild(span2);
-    p.appendChild(document.createTextNode("に関する情報を表示します。"));
-    body.appendChild(p);
-
     let ol = document.createElement("ol");
     for (let j = 0; j < consonants_array.length; j++) {
         for (let k = 0; k < consonants_array.length; k++) {
