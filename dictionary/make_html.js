@@ -318,7 +318,7 @@ async function generateRoot(i, j, k) {
     header_ol.appendChild(header_li3);
     let header_li4 = document.createElement("li");
     let header_span2 = document.createElement("span");
-    header_span2.classList("zosokw");
+    header_span2.classList.add("zosokw");
     header_span2.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     header_li4.appendChild(document.createTextNode("語根"));
     header_li4.appendChild(header_span2);
@@ -409,7 +409,7 @@ async function generateRoot(i, j, k) {
     footer_ol.appendChild(footer_li3);
     let footer_li4 = document.createElement("li");
     let footer_span2 = document.createElement("span");
-    footer_span2.classList("zosokw");
+    footer_span2.classList.add("zosokw");
     footer_span2.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     footer_li4.appendChild(document.createTextNode("語根"));
     footer_li4.appendChild(footer_span2);

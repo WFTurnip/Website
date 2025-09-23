@@ -69,7 +69,7 @@ ol {
 }
 
 nav li::after {
-    content: ">";
+    content: "＞";
 }
 
 nav li:last-child::after {
