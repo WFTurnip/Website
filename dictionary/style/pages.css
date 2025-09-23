@@ -58,6 +58,10 @@
     }
 }
 
+.warning {
+    color: #ff00ff;
+}
+
 .off {
     color: #ff0000;
 }
