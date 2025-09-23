@@ -167,6 +167,9 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             strong.textContent = item.word.toLowerCase();
             strong.classList.add("zosokw");
             p1.append(strong);
+            const span1 = document.createElement("span");
+            span1.textContent = item.word_cases;
+            p1.append(span1);
             const span2 = document.createElement("span");
             span2.textContent = item.word_part_of_speech;
             p1.append(span2);
@@ -174,9 +177,6 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             span3.textContent = "/" + item.word_pronunciation + "/";
             span3.classList.add("pronunciation");
             p1.append(span3);
-            const span4 = document.createElement("span");
-            span4.textContent = item.word_cases;
-            p1.append(span4);
             details.appendChild(p1);
             const p2 = document.createElement("p");
             p2.textContent = item.word_meaning;
