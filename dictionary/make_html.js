@@ -45,7 +45,7 @@ async function generateIndex() {
     let header_nav = document.createElement("nav");
     let header_a = document.createElement("a");
     header_a.href = "../dictionary.html";
-    header_a.textContent = "表紙へ戻る";
+    header_a.textContent = "表紙";
     header_nav.appendChild(header_a);
     header.appendChild(header_nav);
     body.appendChild(header);
@@ -57,13 +57,19 @@ async function generateIndex() {
     let main = document.createElement("main");
     for (let i = 0; i < consonants_array.length; i++) {
         let p = document.createElement("p");
+
         let index = document.createElement("span");
         let a = document.createElement("a");
         a.classList.add("zosokw");
         a.href = consonants_array[i] + ".html";
         a.textContent = consonants_array[i];
-        span.appendChild(a);
-        p.appendChild(span);
+        index.appendChild(a);
+        p.appendChild(index);
+
+        let index_meaning = document.createElement("span");
+        index_meaning.textContent = consonants_means_array[i];
+        p.appendChild(index_meaning);
+
         main.appendChild(p);
     }
     body.appendChild(main);
@@ -72,7 +78,7 @@ async function generateIndex() {
     let footer_nav = document.createElement("nav");
     let footer_a = document.createElement("a");
     footer_a.href = "../dictionary.html";
-    footer_a.textContent = "表紙へ戻る";
+    footer_a.textContent = "表紙";
     footer_nav.appendChild(footer_a);
     footer.appendChild(footer_nav);
     body.appendChild(footer);
@@ -125,13 +131,13 @@ async function generateConsonant(i) {
     let liHeader1 = document.createElement("li");
     let aHeader1 = document.createElement("a");
     aHeader1.href = "../dictionary.html";
-    aHeader1.textContent = "表紙へ戻る";
+    aHeader1.textContent = "表紙";
     liHeader1.appendChild(aHeader1);
     ulHeader.appendChild(liHeader1);
     let liHeader2 = document.createElement("li");
     let aHeader2 = document.createElement("a");
     aHeader2.href = "index.html";
-    aHeader2.textContent = "子音見出しへ戻る";
+    aHeader2.textContent = "子音一覧";
     liHeader2.appendChild(aHeader2);
     ulHeader.appendChild(liHeader2);
     header.appendChild(ulHeader);
@@ -165,13 +171,13 @@ async function generateConsonant(i) {
     let liFooter1 = document.createElement("li");
     let aFooter1 = document.createElement("a");
     aFooter1.href = "../dictionary.html";
-    aFooter1.textContent = "表紙へ戻る";
+    aFooter1.textContent = "表紙";
     liFooter1.appendChild(aFooter1);
     ulFooter.appendChild(liFooter1);
     let liFooter2 = document.createElement("li");
     let aFooter2 = document.createElement("a");
     aFooter2.href = "index.html";
-    aFooter2.textContent = "子音見出しへ戻る";
+    aFooter2.textContent = "子音一覧";
     liFooter2.appendChild(aFooter2);
     ulFooter.appendChild(liFooter2);
     footer.appendChild(ulFooter);
@@ -238,14 +244,14 @@ async function generateRoot(i, j, k) {
     let liHeader1 = document.createElement("li");
     let aHeader1 = document.createElement("a");
     aHeader1.href = "../../dictionary.html";
-    aHeader1.textContent = "表紙へ戻る";
+    aHeader1.textContent = "表紙";
     liHeader1.appendChild(aHeader1);
     ulHeader.appendChild(liHeader1);
 
     let liHeader2 = document.createElement("li");
     let aHeader2 = document.createElement("a");
     aHeader2.href = "../index.html";
-    aHeader2.textContent = "子音見出しへ戻る";
+    aHeader2.textContent = "子音一覧";
     liHeader2.appendChild(aHeader2);
     ulHeader.appendChild(liHeader2);
 
@@ -323,13 +329,13 @@ async function generateRoot(i, j, k) {
     let liFooter1 = document.createElement("li");
     let aFooter1 = document.createElement("a");
     aFooter1.href = "../../dictionary.html";
-    aFooter1.textContent = "表紙へ戻る";
+    aFooter1.textContent = "表紙";
     liFooter1.appendChild(aFooter1);
     ulFooter.appendChild(liFooter1);
     let liFooter2 = document.createElement("li");
     let aFooter2 = document.createElement("a");
     aFooter2.href = "../index.html";
-    aFooter2.textContent = "子音見出しへ戻る";
+    aFooter2.textContent = "子音一覧";
     liFooter2.appendChild(aFooter2);
     ulFooter.appendChild(liFooter2);
     let liFooter3 = document.createElement("li");
