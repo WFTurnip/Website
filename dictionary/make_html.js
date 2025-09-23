@@ -283,9 +283,25 @@ async function generateRoot(i, j, k) {
     for (let l = 0; l < vowels_array.length; l++) {
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
-                let mainP = document.createElement("p");
-                mainP.textContent = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
-                main.appendChild(mainP);
+                let index = document.createElement("p");
+                let word = document.createElement("span");
+                word.classList.add("zosokw");
+                word.textContent = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
+                index.appendChild(word);
+                let word_pronunciation = document.createElement("span");
+                word_pronunciation.classList.add("pronunciation");
+                word_pronunciation.textContent = "/" + consonants_pronunciation_array[i] + vowels_pronunciation_array[l] + consonants_pronunciation_array[j] + vowels_pronunciation_array[m] + consonants_pronunciation_array[k] + vowels_pronunciation_array[n] + "/";
+                index.appendChild(word_pronunciation);
+                let word_part_of_speech = document.createElement("span");
+                word_part_of_speech.textContent = vowels_part_of_speech_types_array[n] + "詞";
+                index.appendChild(word_part_of_speech);
+                let word_cases = document.createElement("span");
+                word_cases.textContent = vowels_cases_array[l] + vowels_cases_array[m] + "格";
+                index.appendChild(word_cases);
+                main.appendChild(index);
+                let index_meaning = document.createElement("p");
+                index_meaning.textContent = "";
+                main.appendChild(index_meaning);
             }
         }
     }

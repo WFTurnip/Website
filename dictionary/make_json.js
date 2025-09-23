@@ -76,14 +76,14 @@ async function generateRoot(i, j, k) {
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
                 let word = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
-                let pronunciation = consonants_pronunciation_array[i] + vowels_pronunciation_array[l] + consonants_pronunciation_array[j] + vowels_pronunciation_array[m] + consonants_pronunciation_array[k] + vowels_pronunciation_array[n];
-                let part_of_speech = vowels_part_of_speech_types_array[n] + "詞";
-                let cases = vowels_cases_array[l] + vowels_cases_array[m] + "格";
+                let word_pronunciation = consonants_pronunciation_array[i] + vowels_pronunciation_array[l] + consonants_pronunciation_array[j] + vowels_pronunciation_array[m] + consonants_pronunciation_array[k] + vowels_pronunciation_array[n];
+                let word_part_of_speech = vowels_part_of_speech_types_array[n] + "詞";
+                let word_cases = vowels_cases_array[l] + vowels_cases_array[m] + "格";
                 words.push({
                     word: word,
-                    word_pronunciation: pronunciation,
-                    word_part_of_speech: part_of_speech,
-                    word_cases: cases,
+                    word_pronunciation: word_pronunciation,
+                    word_part_of_speech: word_part_of_speech,
+                    word_cases: word_cases,
                     word_meaning: ""
                 });
             }
