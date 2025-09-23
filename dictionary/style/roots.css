@@ -103,3 +103,21 @@ main {
 main p {
     break-inside: avoid;
 }
+
+nav {
+    padding: 0.5rem;
+}
+
+nav a {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:not(:last-child)::after {
+    display: inline-block;
+    margin: 0.25rem;
+    content: ">";
+}
