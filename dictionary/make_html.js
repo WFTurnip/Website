@@ -247,12 +247,12 @@ async function generateRoot(i, j, k) {
     let link4 = document.createElement("link");
     link4.rel = "stylesheet";
     link4.href = "../../style/table.css";
+    head.appendChild(link4);
     let link5 = document.createElement("link");
     link5.rel = "icon";
     link5.href = "../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
     head.appendChild(link5);
 
-    head.appendChild(link4);
 
     let body = document.body;
 
