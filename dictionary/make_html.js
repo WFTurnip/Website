@@ -287,6 +287,20 @@ async function generateRoot(i, j, k) {
     p2.appendChild(document.createTextNode("の概念を持つ"));
     body.appendChild(p2);
 
+    let main = document.createElement("main");
+
+    for (let l = 0; l < vowels_array.length; l++) {
+        for (let m = 0; m < vowels_array.length; m++) {
+            for (let n = 0; n < vowels_array.length; n++) {
+                let mainP = document.createElement("p");
+                mainP.textContent = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
+                main.appendChild(mainP);
+            }
+        }
+    }
+
+    body.appendChild(main);
+
     let footer = document.createElement("footer");
     let ulFooter = document.createElement("ul");
     let liFooter1 = document.createElement("li");
