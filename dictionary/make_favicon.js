@@ -188,8 +188,212 @@ async function generateRoot(i, j, k) {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 1000);
+    svg.setAttribute("height", 1000);
+
+    if (i % 2 === 1) {
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", 500);
+        circle.setAttribute("cy", 250);
+        circle.setAttribute("r", 150);
+        svg.appendChild(circle);
+    }
+
+    let min, max;
+
+    switch (i) {
+        case 0:
+        case 1:
+            min = -4;
+            max = -1;
+            break;
+        case 2:
+        case 3:
+            min = -3;
+            max = 0;
+            break;
+        case 4:
+        case 5:
+            min = -2;
+            max = 1;
+            break;
+        case 6:
+        case 7:
+            min = -5;
+            max = -2;
+            break;
+        case 8:
+        case 9:
+            min = 0;
+            max = 8;
+        case 10:
+        case 11:
+            min = -1;
+            max = 2;
+            break;
+        case 12:
+        case 13:
+            min = 2;
+            max = 5;
+            break;
+        case 14:
+        case 15:
+            min = 1;
+            max = 4;
+            break;
+        case 16:
+        case 17:
+            min = 0;
+            max = 3;
+            break;
+        default:
+            break;
+    }
+
+    for (let l = min; l < max; l++) {
+        let cx = 500 + 200 * Math.cos(l * Math.PI / 4);
+        let cy = 250 + 200 * Math.sin(l * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 50);
+        svg.appendChild(circle);
+    }
+
+    if (j % 2 === 1) {
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", 250);
+        circle.setAttribute("cy", 750);
+        circle.setAttribute("r", 150);
+        svg.appendChild(circle);
+    }
+
+    switch (j) {
+        case 0:
+        case 1:
+            min = -4;
+            max = -1;
+            break;
+        case 2:
+        case 3:
+            min = -3;
+            max = 0;
+            break;
+        case 4:
+        case 5:
+            min = -2;
+            max = 1;
+            break;
+        case 6:
+        case 7:
+            min = -5;
+            max = -2;
+            break;
+        case 8:
+        case 9:
+            min = 0;
+            max = 8;
+        case 10:
+        case 11:
+            min = -1;
+            max = 2;
+            break;
+        case 12:
+        case 13:
+            min = 2;
+            max = 5;
+            break;
+        case 14:
+        case 15:
+            min = 1;
+            max = 4;
+            break;
+        case 16:
+        case 17:
+            min = 0;
+            max = 3;
+            break;
+        default:
+            break;
+    }
+
+    for (let m = min; m < max; m++) {
+        let cx = 250 + 200 * Math.cos(m * Math.PI / 4);
+        let cy = 750 + 200 * Math.sin(m * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 50);
+        svg.appendChild(circle);
+    }
+
+    if (k % 2 === 1) {
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", 750);
+        circle.setAttribute("cy", 750);
+        circle.setAttribute("r", 150);
+        svg.appendChild(circle);
+    }
+
+    switch (k) {
+        case 0:
+        case 1:
+            min = -4;
+            max = -1;
+            break;
+        case 2:
+        case 3:
+            min = -3;
+            max = 0;
+            break;
+        case 4:
+        case 5:
+            min = -2;
+            max = 1;
+            break;
+        case 6:
+        case 7:
+            min = -5;
+            max = -2;
+            break;
+        case 8:
+        case 9:
+            min = 0;
+            max = 8;
+        case 10:
+        case 11:
+            min = -1;
+            max = 2;
+            break;
+        case 12:
+        case 13:
+            min = 2;
+            max = 5;
+            break;
+        case 14:
+        case 15:
+            min = 1;
+            max = 4;
+            break;
+        case 16:
+        case 17:
+            min = 0;
+            max = 3;
+            break;
+        default:
+            break;
+    }
+
+    for (let n = min; n < max; n++) {
+        let cx = 750 + 200 * Math.cos(n * Math.PI / 4);
+        let cy = 750 + 200 * Math.sin(n * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 50);
+        svg.appendChild(circle);
+    }
+
 
     let style = document.createElementNS(svgns, "style");
     style.textContent = `
