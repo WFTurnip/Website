@@ -82,12 +82,8 @@ rt {
     font-variant-east-asian: ruby;
 }
 
-p {
-    text-indent: 1rem;
-}
-
-header,
-footer {
+header nav a,
+footer nav a {
     text-align: center;
 }
 

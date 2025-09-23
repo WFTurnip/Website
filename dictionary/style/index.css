@@ -82,12 +82,8 @@ rt {
     font-variant-east-asian: ruby;
 }
 
-p {
-    text-indent: 1rem;
-}
-
-header,
-footer {
+header nav a,
+footer nav a {
     text-align: center;
 }
 
@@ -102,6 +98,18 @@ main {
 
 main p {
     break-inside: avoid;
+}
+
+nav {
+    padding: 0.5rem;
+}
+
+nav a {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav a:not(:last-child)::after {
