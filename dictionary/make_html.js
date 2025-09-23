@@ -226,7 +226,7 @@ async function generateConsonant(i) {
     footer_li3.appendChild(document.createTextNode("子音"));
     footer_li3.appendChild(footer_span);
     footer_li3.appendChild(document.createTextNode("見出し"));
-    footer_ol.appendChild(header_li3);
+    footer_ol.appendChild(footer_li3);
     footer_nav.appendChild(footer_ol);
     footer.appendChild(footer_nav);
     body.appendChild(footer);
