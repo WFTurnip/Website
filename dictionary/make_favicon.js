@@ -15,8 +15,33 @@ async function generateIndex() {
 }
 
 async function generateConsonant(i) {
-    let filename = path.join("favicon", consonants_array[i] + ".svg");
-    
+    let filename = path.join("favicon_index", consonants_array[i] + ".svg");
+    try {
+        await fs.writeFile(filename, "");
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.error("ファイル" + filename + "を作成できませんでした。", error);
+    }
+}
+
+async function generateConsonantDirectory(i) {
+    let directory = path.join("favicon", consonants_array[i]);
+    try {
+        await fs.mkdir(directory, { recursive: true });
+        console.log("ディレクトリ" + directory + "を作成しました。");
+    } catch (error) {
+        console.error("ディレクトリ" + directory + "を作成できませんでした。");
+    }
+}
+
+async function generateRoot(i, j, k) {
+    let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html");
+    try {
+        await fs.writeFile(filename, "");
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.error("ファイル" + filename + "を作成できませんでした。", error);
+    }
 }
 
 async function make() {
