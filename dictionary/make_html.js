@@ -132,20 +132,16 @@ async function generateConsonant(i) {
 
     let body = document.body;
     let header = document.createElement("header");
-    let ulHeader = document.createElement("ul");
-    let liHeader1 = document.createElement("li");
+    let navHeader = document.createElement("nav");
     let aHeader1 = document.createElement("a");
     aHeader1.href = "../dictionary.html";
     aHeader1.textContent = "表紙";
-    liHeader1.appendChild(aHeader1);
-    ulHeader.appendChild(liHeader1);
-    let liHeader2 = document.createElement("li");
+    navHeader.appendChild(aHeader1);
     let aHeader2 = document.createElement("a");
     aHeader2.href = "index.html";
     aHeader2.textContent = "子音一覧";
-    liHeader2.appendChild(aHeader2);
-    ulHeader.appendChild(liHeader2);
-    header.appendChild(ulHeader);
+    navHeader.appendChild(aHeader2);
+    header.appendChild(navHeader);
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
@@ -180,20 +176,18 @@ async function generateConsonant(i) {
     body.appendChild(main);
 
     let footer = document.createElement("footer");
-    let ulFooter = document.createElement("ul");
-    let liFooter1 = document.createElement("li");
+    let navFooter = document.createElement("nav");
+
     let aFooter1 = document.createElement("a");
     aFooter1.href = "../dictionary.html";
     aFooter1.textContent = "表紙";
-    liFooter1.appendChild(aFooter1);
-    ulFooter.appendChild(liFooter1);
-    let liFooter2 = document.createElement("li");
+    navFooter.appendChild(aFooter1);
+
     let aFooter2 = document.createElement("a");
     aFooter2.href = "index.html";
     aFooter2.textContent = "子音一覧";
-    liFooter2.appendChild(aFooter2);
-    ulFooter.appendChild(liFooter2);
-    footer.appendChild(ulFooter);
+    navFooter.appendChild(aFooter2);
+    footer.appendChild(navFooter);
     body.appendChild(footer);
 
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
@@ -256,23 +250,15 @@ async function generateRoot(i, j, k) {
     let body = document.body;
 
     let header = document.createElement("header");
-    let ulHeader = document.createElement("ul");
-
-    let liHeader1 = document.createElement("li");
+    let navHeader = document.createElement("nav");
     let aHeader1 = document.createElement("a");
     aHeader1.href = "../../dictionary.html";
     aHeader1.textContent = "表紙";
-    liHeader1.appendChild(aHeader1);
-    ulHeader.appendChild(liHeader1);
-
-    let liHeader2 = document.createElement("li");
+    navHeader.appendChild(aHeader1);
     let aHeader2 = document.createElement("a");
     aHeader2.href = "../index.html";
     aHeader2.textContent = "子音一覧";
-    liHeader2.appendChild(aHeader2);
-    ulHeader.appendChild(liHeader2);
-
-    let liHeader3 = document.createElement("li");
+    navHeader.appendChild(aHeader2);
     let aHeader3 = document.createElement("a");
     let spanHeader = document.createElement("span");
     spanHeader.classList.add("zosokw");
@@ -281,10 +267,9 @@ async function generateRoot(i, j, k) {
     aHeader3.appendChild(document.createTextNode("子音"));
     aHeader3.appendChild(spanHeader);
     aHeader3.appendChild(document.createTextNode("の見出し"));
-    liHeader3.appendChild(aHeader3);
-    ulHeader.appendChild(liHeader3);
+    navHeader.appendChild(aHeader3);
 
-    header.appendChild(ulHeader);
+    header.appendChild(navHeader);
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
@@ -342,20 +327,15 @@ async function generateRoot(i, j, k) {
     body.appendChild(main);
 
     let footer = document.createElement("footer");
-    let ulFooter = document.createElement("ul");
-    let liFooter1 = document.createElement("li");
+    let navFooter = document.createElement("nav");
     let aFooter1 = document.createElement("a");
     aFooter1.href = "../../dictionary.html";
     aFooter1.textContent = "表紙";
-    liFooter1.appendChild(aFooter1);
-    ulFooter.appendChild(liFooter1);
-    let liFooter2 = document.createElement("li");
+    navFooter.appendChild(aFooter1);
     let aFooter2 = document.createElement("a");
     aFooter2.href = "../index.html";
     aFooter2.textContent = "子音一覧";
-    liFooter2.appendChild(aFooter2);
-    ulFooter.appendChild(liFooter2);
-    let liFooter3 = document.createElement("li");
+    navFooter.appendChild(aFooter2);
     let aFooter3 = document.createElement("a");
     let spanFooter = document.createElement("span");
     spanFooter.classList.add("zosokw");
@@ -364,9 +344,8 @@ async function generateRoot(i, j, k) {
     aFooter3.appendChild(document.createTextNode("子音"));
     aFooter3.appendChild(spanFooter);
     aFooter3.appendChild(document.createTextNode("の見出し"));
-    liFooter3.appendChild(aFooter3);
-    ulFooter.appendChild(liFooter3);
-    footer.appendChild(ulFooter);
+    navFooter.appendChild(aFooter3);
+    footer.appendChild(navFooter);
     body.appendChild(footer);
 
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
