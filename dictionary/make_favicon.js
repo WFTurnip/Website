@@ -13,18 +13,18 @@ async function generateIndex() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 350);
-    svg.setAttribute("height", 350);
+    svg.setAttribute("width", 500);
+    svg.setAttribute("height", 500);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 175);
-    circle.setAttribute("cy", 175);
-    circle.setAttribute("r", 125);
+    circle.setAttribute("cx", 250);
+    circle.setAttribute("cy", 250);
+    circle.setAttribute("r", 200);
     svg.appendChild(circle);
 
     for (let i = 0; i < 8; i++) {
-        let cx = 175 + 150 * Math.cos(i * Math.PI / 4);
-        let cy = 175 + 150 * Math.sin(i * Math.PI / 4);
+        let cx = 250 + 225 * Math.cos(i * Math.PI / 4);
+        let cy = 250 + 225 * Math.sin(i * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
         circle.setAttribute("cy", cy);
@@ -64,34 +64,56 @@ async function generateIndex() {
 async function generateConsonant(i) {
     let filename = path.join("favicon_index", consonants_array[i] + ".svg");
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 350);
-    svg.setAttribute("height", 350);
+    const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+    const document = dom.window.document;
+    let svgns = "http://www.w3.org/2000/svg";
 
-    if (i % 2 === 0) {
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", 500);
+    svg.setAttribute("height", 500);
+
+    if (i % 2 === 1) {
         let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 175);
-        circle.setAttribute("cy", 175);
-        circle.setAttribute("r", 125);
+        circle.setAttribute("cx", 250);
+        circle.setAttribute("cy", 250);
+        circle.setAttribute("r", 150);
         svg.appendChild(circle);
     }
 
-    switch (key) {
-        case value:
-            
-            break;
+    let min, max;
 
+    switch (i) {
+        case 0:
+        case 1:
+            min = -4;
+            max = -1;
+            break;
+        case 2:
+        case 3:
+            min = -3;
+            max = 0;
+            break;
+        case 4:
+        case 5:
+            min = -2;
+            max = 1;
+            break;
+        case 6:
+        case 7:
+            min = -1;
+            max = 2;
+            break;
         default:
             break;
     }
 
-    for (let j = 0; k < 8; j++) {
-        let cx = 175 + 150 * Math.cos(j * Math.PI / 4);
-        let cy = 175 + 150 * Math.sin(j * Math.PI / 4);
+    for (let j = min; j < max; j++) {
+        let cx = 250 + 200 * Math.cos(j * Math.PI / 4);
+        let cy = 250 + 200 * Math.sin(j * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
         circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 25);
+        circle.setAttribute("r", 50);
         svg.appendChild(circle);
     }
 

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+    <circle cx="250" cy="250" r="150" />
+    <style>
+        @media(prefers-color-scheme: light) {
+            circle {
+                fill: #000
+            }
+        }
+
+        @media(prefers-color-scheme: dark) {
+            circle {
+                fill: #c99410
+            }
+        }
+    </style>
+</svg>
