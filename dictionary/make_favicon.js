@@ -100,8 +100,32 @@ async function generateConsonant(i) {
             break;
         case 6:
         case 7:
+            min = -5;
+            max = -2;
+            break;
+        case 8:
+        case 9:
+            min = 0;
+            max = 8;
+        case 10:
+        case 11:
             min = -1;
             max = 2;
+            break;
+        case 12:
+        case 13:
+            min = 2;
+            max = 5;
+            break;
+        case 14:
+        case 15:
+            min = 1;
+            max = 4;
+            break;
+        case 16:
+        case 17:
+            min = 0;
+            max = 3;
             break;
         default:
             break;

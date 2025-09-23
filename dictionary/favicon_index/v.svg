@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
     <circle cx="250" cy="250" r="150" />
+    <circle cx="391.4213562373095" cy="391.4213562373095" r="50" />
+    <circle cx="250" cy="450" r="50" />
+    <circle cx="108.57864376269052" cy="391.4213562373095" r="50" />
     <style>
         @media(prefers-color-scheme: light) {
             circle {
