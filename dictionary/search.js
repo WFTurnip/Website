@@ -165,7 +165,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             const p1 = document.createElement("p");
             const strong = document.createElement("strong");
             strong.textContent = item.word.toLowerCase();
-            strong.className = "piswpi";
+            strong.classList.add("zosokw");
             p1.append(strong);
             const span2 = document.createElement("span");
             span2.textContent = item.word_part_of_speech;
