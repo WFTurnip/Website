@@ -17,13 +17,40 @@ async function generateIndex() {
     svg.setAttribute("height", 350);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 350 / 2);
-    circle.setAttribute("cy", 350 / 2);
-    circle.setAttribute("r", 50);
-
-    
-
+    circle.setAttribute("cx", 175);
+    circle.setAttribute("cy", 175);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
+
+    for (let i = 0; i < 8; i++) {
+        let cx = 175 + 150 * Math.cos(i * Math.PI / 4);
+        let cy = 175 + 150 * Math.sin(i * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 25);
+        svg.appendChild(circle);
+    }
+
+    for (let i = 0; i < 8; i++) {
+        let cx = 175 + 100 * Math.cos(i * Math.PI / 4);
+        let cy = 175 + 100 * Math.sin(i * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 25);
+        svg.appendChild(circle);
+    }
+
+    for (let i = 0; i < 8; i++) {
+        let cx = 175 + 50 * Math.cos(i * Math.PI / 4);
+        let cy = 175 + 50 * Math.sin(i * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 25 / 2);
+        svg.appendChild(circle);
+    }
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -32,9 +59,9 @@ async function generateIndex() {
 
     try {
         await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
+        // console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
-        console.error("ファイル" + filename + "を作成できませんでした。", error);
+        // console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
@@ -42,9 +69,9 @@ async function generateConsonant(i) {
     let filename = path.join("favicon_index", consonants_array[i] + ".svg");
     try {
         await fs.writeFile(filename, "");
-        console.log("ファイル" + filename + "を作成しました。");
+        // console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
-        console.error("ファイル" + filename + "を作成できませんでした。", error);
+        // console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
@@ -52,9 +79,9 @@ async function generateConsonantDirectory(i) {
     let directory = path.join("favicon_index", consonants_array[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
-        console.log("ディレクトリ" + directory + "を作成しました。");
+        // console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。");
+        // console.error("ディレクトリ" + directory + "を作成できませんでした。");
     }
 }
 
@@ -62,9 +89,9 @@ async function generateRoot(i, j, k) {
     let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg");
     try {
         await fs.writeFile(filename, "");
-        console.log("ファイル" + filename + "を作成しました。");
+        // console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
-        console.error("ファイル" + filename + "を作成できませんでした。", error);
+        // console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
