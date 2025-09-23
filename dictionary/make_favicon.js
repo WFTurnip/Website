@@ -25,7 +25,7 @@ async function generateConsonant(i) {
 }
 
 async function generateConsonantDirectory(i) {
-    let directory = path.join("favicon", consonants_array[i]);
+    let directory = path.join("favicon_index", consonants_array[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
