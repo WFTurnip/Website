@@ -14,6 +14,11 @@ async function generateIndex() {
     }
 }
 
+async function generateConsonant(i) {
+    let filename = path.join("favicon", consonants_array[i] + ".svg");
+    
+}
+
 async function make() {
     let directory = path.join("favicon_index");
     try {
@@ -24,11 +29,11 @@ async function make() {
     }
     await generateIndex();
     for (let i = 0; i < consonants_array.length; i++) {
-        // await generateConsonant(i);
-        // await generateConsonantDirectory(i);
+        await generateConsonant(i);
+        await generateConsonantDirectory(i);
         for (let j = 0; j < consonants_array.length; j++) {
             for (let k = 0; k < consonants_array.length; k++) {
-                // await generateRoot(i, j, k);
+                await generateRoot(i, j, k);
             }
         }
     }
