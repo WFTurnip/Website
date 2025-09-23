@@ -107,6 +107,7 @@ async function generateConsonant(i) {
         case 9:
             min = 0;
             max = 8;
+            break;
         case 10:
         case 11:
             min = -1;
@@ -226,6 +227,7 @@ async function generateRoot(i, j, k) {
         case 9:
             min = 0;
             max = 8;
+            break;
         case 10:
         case 11:
             min = -1;
@@ -293,6 +295,7 @@ async function generateRoot(i, j, k) {
         case 9:
             min = 0;
             max = 8;
+            break;
         case 10:
         case 11:
             min = -1;
@@ -360,6 +363,7 @@ async function generateRoot(i, j, k) {
         case 9:
             min = 0;
             max = 8;
+            break;
         case 10:
         case 11:
             min = -1;

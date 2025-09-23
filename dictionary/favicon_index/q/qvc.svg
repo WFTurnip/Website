@@ -1,4 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000">
+    <circle cx="358.5786437626905" cy="391.4213562373095" r="50" />
+    <circle cx="300" cy="249.99999999999997" r="50" />
+    <circle cx="358.5786437626905" cy="108.57864376269049" r="50" />
+    <circle cx="250" cy="750" r="150" />
+    <circle cx="391.4213562373095" cy="891.4213562373095" r="50" />
+    <circle cx="250" cy="950" r="50" />
+    <circle cx="108.57864376269052" cy="891.4213562373095" r="50" />
+    <circle cx="750" cy="750" r="150" />
+    <circle cx="608.5786437626905" cy="891.4213562373095" r="50" />
+    <circle cx="550" cy="750" r="50" />
+    <circle cx="608.5786437626905" cy="608.5786437626905" r="50" />
     <style>
         @media(prefers-color-scheme: light) {
             circle {
