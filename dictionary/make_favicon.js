@@ -55,9 +55,9 @@ async function generateIndex() {
 
     try {
         await fs.writeFile(filename, svgContent);
-        // console.log("ファイル" + filename + "を作成しました。");
+        console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
-        // console.error("ファイル" + filename + "を作成できませんでした。", error);
+        console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
@@ -164,9 +164,9 @@ async function generateConsonant(i) {
 
     try {
         await fs.writeFile(filename, svgContent);
-        // console.log("ファイル" + filename + "を作成しました。");
+        console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
-        // console.error("ファイル" + filename + "を作成できませんでした。", error);
+        console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
@@ -174,19 +174,49 @@ async function generateConsonantDirectory(i) {
     let directory = path.join("favicon_index", consonants_array[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
-        // console.log("ディレクトリ" + directory + "を作成しました。");
+        console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
-        // console.error("ディレクトリ" + directory + "を作成できませんでした。");
+        console.error("ディレクトリ" + directory + "を作成できませんでした。");
     }
 }
 
 async function generateRoot(i, j, k) {
     let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg");
+
+    const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+    const document = dom.window.document;
+    let svgns = "http://www.w3.org/2000/svg";
+
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", 500);
+    svg.setAttribute("height", 500);
+
+    let style = document.createElementNS(svgns, "style");
+    style.textContent = `
+    @media(prefers-color-scheme: light) {
+        circle {
+            fill: #000
+        }
+    }
+
+    @media(prefers-color-scheme: dark) {
+        circle {
+            fill: #c99410
+        }
+    }
+    `;
+    svg.appendChild(style);
+
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+
+    let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
+
     try {
-        await fs.writeFile(filename, "");
-        // console.log("ファイル" + filename + "を作成しました。");
+        await fs.writeFile(filename, svgContent);
+        console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
-        // console.error("ファイル" + filename + "を作成できませんでした。", error);
+        console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
