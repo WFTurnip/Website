@@ -349,12 +349,12 @@ async function generateRoot(i, j, k) {
     let liFooter3 = document.createElement("li");
     let aFooter3 = document.createElement("a");
     let spanFooter = document.createElement("span");
-    spanFooter.className = "piswpi";
+    spanFooter.classList.add("zosokw");
     aFooter3.href = "../" + consonants_array[i] + ".html";
     spanFooter.textContent = consonants_array[i];
-    aFooter3.appendChild(document.createTextNode("頭文字"));
+    aFooter3.appendChild(document.createTextNode("子音"));
     aFooter3.appendChild(spanFooter);
-    aFooter3.appendChild(document.createTextNode("の見出しへ戻る"));
+    aFooter3.appendChild(document.createTextNode("の見出し"));
     liFooter3.appendChild(aFooter3);
     ulFooter.appendChild(liFooter3);
     footer.appendChild(ulFooter);
