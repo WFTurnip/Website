@@ -6,8 +6,29 @@ const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p",
 
 async function generateIndex() {
     let filename = path.join("favicon_index", "index.svg");
+
+    let svgns = "http://www.w3.org/2000/svg";
+
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", 200);
+    svg.setAttribute("height", 200);
+
+    let circle = document.createElementNS(svgns, "circle");
+    circle.setAttribute("cx", 100);
+    circle.setAttribute("cy", 100);
+    circle.setAttribute("r", 50);
+    circle.setAttribute("fill", "skyblue");
+
+    svg.appendChild(circle);
+    document.getElementById("container").appendChild(svg);
+
+    let serializer = new XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+
+    let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
+
     try {
-        await fs.writeFile(filename, "");
+        await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
