@@ -1,5 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
+const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
 const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
@@ -7,22 +8,24 @@ const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p",
 async function generateIndex() {
     let filename = path.join("favicon_index", "index.svg");
 
+    const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+    const document = dom.window.document;
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 200);
-    svg.setAttribute("height", 200);
+    svg.setAttribute("width", 350);
+    svg.setAttribute("height", 350);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 100);
-    circle.setAttribute("cy", 100);
+    circle.setAttribute("cx", 350 / 2);
+    circle.setAttribute("cy", 350 / 2);
     circle.setAttribute("r", 50);
-    circle.setAttribute("fill", "skyblue");
+
+    
 
     svg.appendChild(circle);
-    document.getElementById("container").appendChild(svg);
 
-    let serializer = new XMLSerializer();
+    let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
     let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
@@ -56,7 +59,7 @@ async function generateConsonantDirectory(i) {
 }
 
 async function generateRoot(i, j, k) {
-    let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html");
+    let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg");
     try {
         await fs.writeFile(filename, "");
         console.log("ファイル" + filename + "を作成しました。");
