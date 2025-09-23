@@ -2,71 +2,6 @@ body {
     padding: 2rem;
     font-family: serif;
     writing-mode: horizontal-tb;
-    counter-reset: chapter;
-}
-
-body h2 {
-    counter-increment: chapter;
-    counter-reset: section;
-}
-
-body h3 {
-    counter-increment: section;
-}
-
-#toc summary h2,
-#toc summary h3 {
-    counter-increment: none;
-}
-
-#toc summary h2::before,
-#toc summary h3::before {
-    content: "";
-}
-
-body h2::before {
-    content: "第" counter(chapter, japanese-informal) "章\3000";
-}
-
-body h3::before {
-    content: "第" counter(chapter, japanese-informal) "章\3000" counter(section, japanese-informal) "節\3000";
-}
-
-nav {
-    counter-reset: toc-chapter;
-}
-
-nav h2 {
-    counter-increment: toc-chapter;
-    counter-reset: toc-section;
-}
-
-nav h3 {
-    counter-increment: toc-section;
-}
-
-nav h2::before {
-    content: "第" counter(toc-chapter, japanese-informal) "章\3000";
-}
-
-nav h3::before {
-    content: "第" counter(toc-chapter, japanese-informal) "章\3000" counter(toc-section, japanese-informal) "節\3000";
-}
-
-h1 {
-    text-indent: 0rem;
-}
-
-h2 {
-    text-indent: 0rem;
-}
-
-h3 {
-    text-indent: 1rem;
-}
-
-h4 {
-    text-indent: 2rem;
 }
 
 a {
@@ -82,8 +17,8 @@ rt {
     font-variant-east-asian: ruby;
 }
 
-header nav a,
-footer nav a {
+header,
+footer {
     text-align: center;
 }
 
@@ -100,20 +35,17 @@ main p {
     break-inside: avoid;
 }
 
-nav {
-    padding: 0.5rem;
-}
-
-nav a {
-    display: flex;
-    flex-wrap: wrap;
+nav,
+ol {
     list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
-nav a:not(:last-child)::after {
-    display: inline-block;
-    margin: 0.25rem;
+nav li::after {
     content: ">";
+}
+
+nav li:last-child::after {
+    content: "";
 }
