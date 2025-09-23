@@ -19,7 +19,7 @@ async function generateIndex() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 175);
     circle.setAttribute("cy", 175);
-    circle.setAttribute("r", 25);
+    circle.setAttribute("r", 125);
     svg.appendChild(circle);
 
     for (let i = 0; i < 8; i++) {
@@ -32,25 +32,21 @@ async function generateIndex() {
         svg.appendChild(circle);
     }
 
-    for (let i = 0; i < 8; i++) {
-        let cx = 175 + 100 * Math.cos(i * Math.PI / 4);
-        let cy = 175 + 100 * Math.sin(i * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 25);
-        svg.appendChild(circle);
+    let style = document.createElementNS(svgns, "style");
+    style.textContent = `
+    @media(prefers-color-scheme: light) {
+        circle {
+            fill: #000
+        }
     }
 
-    for (let i = 0; i < 8; i++) {
-        let cx = 175 + 50 * Math.cos(i * Math.PI / 4);
-        let cy = 175 + 50 * Math.sin(i * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 25 / 2);
-        svg.appendChild(circle);
+    @media(prefers-color-scheme: dark) {
+        circle {
+            fill: #c99410
+        }
     }
+    `;
+    svg.appendChild(style);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -67,8 +63,61 @@ async function generateIndex() {
 
 async function generateConsonant(i) {
     let filename = path.join("favicon_index", consonants_array[i] + ".svg");
+
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", 350);
+    svg.setAttribute("height", 350);
+
+    if (i % 2 === 0) {
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", 175);
+        circle.setAttribute("cy", 175);
+        circle.setAttribute("r", 125);
+        svg.appendChild(circle);
+    }
+
+    switch (key) {
+        case value:
+            
+            break;
+
+        default:
+            break;
+    }
+
+    for (let j = 0; k < 8; j++) {
+        let cx = 175 + 150 * Math.cos(j * Math.PI / 4);
+        let cy = 175 + 150 * Math.sin(j * Math.PI / 4);
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", cx);
+        circle.setAttribute("cy", cy);
+        circle.setAttribute("r", 25);
+        svg.appendChild(circle);
+    }
+
+    let style = document.createElementNS(svgns, "style");
+    style.textContent = `
+    @media(prefers-color-scheme: light) {
+        circle {
+            fill: #000
+        }
+    }
+
+    @media(prefers-color-scheme: dark) {
+        circle {
+            fill: #c99410
+        }
+    }
+    `;
+    svg.appendChild(style);
+
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+
+    let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
+
     try {
-        await fs.writeFile(filename, "");
+        await fs.writeFile(filename, svgContent);
         // console.log("ファイル" + filename + "を作成しました。");
     } catch (error) {
         // console.error("ファイル" + filename + "を作成できませんでした。", error);

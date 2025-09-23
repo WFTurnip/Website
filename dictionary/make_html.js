@@ -39,6 +39,11 @@ async function generateIndex() {
     link3.rel = "stylesheet";
     link3.href = "../style/fonts.css";
     head.appendChild(link3);
+    let link4 = document.createElement("link");
+    link4.rel = "icon";
+    link4.href = "../favicon_index/" + "index" + ".svg";
+    head.appendChild(link4);
+
 
     let body = document.body;
     let header = document.createElement("header");
@@ -122,7 +127,7 @@ async function generateConsonant(i) {
     head.appendChild(link3);
     let link4 = document.createElement("link");
     link4.rel = "icon";
-    link4.href = "../icon/" + consonants_array[i] + ".svg";
+    link4.href = "../favicon_index/" + consonants_array[i] + ".svg";
     head.appendChild(link4);
 
     let body = document.body;
