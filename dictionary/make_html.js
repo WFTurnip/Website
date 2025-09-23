@@ -253,7 +253,6 @@ async function generateRoot(i, j, k) {
     link5.href = "../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
     head.appendChild(link5);
 
-
     let body = document.body;
 
     let header = document.createElement("header");
