@@ -161,16 +161,24 @@ async function generateConsonant(i) {
     header_a2.textContent = "子音一覧";
     header_li2.appendChild(header_a2);
     header_ol.appendChild(header_li2);
+    let header_li3 = document.createElement("li");
+    let header_span = document.createElement("span");
+    header_span.classList.add("zosokw");
+    header_span.textContent = consonants_array[i];
+    header_li3.appendChild(document.createTextNode("子音"));
+    header_li3.appendChild(header_span);
+    header_li3.appendChild(document.createTextNode("見出し"));
+    header_ol.appendChild(header_li3);
     header_nav.appendChild(header_ol);
     header.appendChild(header_nav);
     body.appendChild(header);
 
     let h1 = document.createElement("h1");
-    let span1 = document.createElement("span");
-    span1.classList.add("zosokw");
-    span1.textContent = consonants_array[i];
+    let h1_span = document.createElement("span");
+    h1_span.classList.add("zosokw");
+    h1_span.textContent = consonants_array[i];
     h1.appendChild(document.createTextNode("子音"));
-    h1.appendChild(span1);
+    h1.appendChild(h1_span);
     h1.appendChild(document.createTextNode("の見出し"));
     body.appendChild(h1);
 
@@ -211,6 +219,14 @@ async function generateConsonant(i) {
     footer_a2.textContent = "子音一覧";
     footer_li2.appendChild(footer_a2);
     footer_ol.appendChild(footer_li2);
+    let footer_li3 = document.createElement("li");
+    let footer_span = document.createElement("span");
+    footer_span.classList.add("zosokw");
+    footer_span.textContent = consonants_array[i];
+    footer_li3.appendChild(document.createTextNode("子音"));
+    footer_li3.appendChild(footer_span);
+    footer_li3.appendChild(document.createTextNode("見出し"));
+    footer_ol.appendChild(header_li3);
     footer_nav.appendChild(footer_ol);
     footer.appendChild(footer_nav);
     body.appendChild(footer);
