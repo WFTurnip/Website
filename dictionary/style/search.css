@@ -60,3 +60,18 @@ strong {
 .pronunciation {
     font-family: 'Courier New', Courier, monospace;
 }
+
+nav,
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li::after {
+    content: ">";
+}
+
+nav li:last-child::after {
+    content: "";
+}

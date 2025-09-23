@@ -90,3 +90,19 @@ header,
 footer {
     text-align: center;
 }
+
+header nav,
+footer nav,
+ol {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li::after {
+    content: ">";
+}
+
+nav li:last-child::after {
+    content: "";
+}
