@@ -54,17 +54,19 @@ async function generateIndex() {
     h1.textContent = "子音一覧";
     body.appendChild(h1);
 
-    let ol = document.createElement("ol");
+    let main = document.createElement("main");
     for (let i = 0; i < consonants_array.length; i++) {
-        let li = document.createElement("li");
+        let p = document.createElement("p");
+        let index = document.createElement("span");
         let a = document.createElement("a");
-        a.className = "piswpi";
+        a.classList.add("zosokw");
         a.href = consonants_array[i] + ".html";
         a.textContent = consonants_array[i];
-        li.appendChild(a);
-        ol.appendChild(li);
+        span.appendChild(a);
+        p.appendChild(span);
+        main.appendChild(p);
     }
-    body.appendChild(ol);
+    body.appendChild(main);
 
     let footer = document.createElement("footer");
     let footer_nav = document.createElement("nav");
@@ -296,7 +298,7 @@ async function generateRoot(i, j, k) {
                 index.appendChild(word_pronunciation);
 
                 let word_part_of_speech = document.createElement("span");
-                word_part_of_speech.classList.add(part - of - speech);
+                word_part_of_speech.classList.add("part-of-speech");
                 word_part_of_speech.textContent = vowels_part_of_speech_types_array[n] + "詞";
                 index.appendChild(word_part_of_speech);
 
