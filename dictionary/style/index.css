@@ -103,3 +103,9 @@ main {
 main p {
     break-inside: avoid;
 }
+
+nav a:not(:last-child)::after {
+    display: inline-block;
+    margin: 0.25rem;
+    content: ">";
+}
