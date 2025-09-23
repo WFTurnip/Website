@@ -194,7 +194,7 @@ async function generateRoot(i, j, k) {
 
     if (i % 2 === 1) {
         let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 500);
+        circle.setAttribute("cx", 250);
         circle.setAttribute("cy", 250);
         circle.setAttribute("r", 150);
         svg.appendChild(circle);
@@ -253,7 +253,7 @@ async function generateRoot(i, j, k) {
     }
 
     for (let l = min; l < max; l++) {
-        let cx = 500 + 200 * Math.cos(l * Math.PI / 4);
+        let cx = 250 + 200 * Math.cos(l * Math.PI / 4);
         let cy = 250 + 200 * Math.sin(l * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
@@ -264,8 +264,8 @@ async function generateRoot(i, j, k) {
 
     if (j % 2 === 1) {
         let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 250);
-        circle.setAttribute("cy", 750);
+        circle.setAttribute("cx", 750);
+        circle.setAttribute("cy", 250);
         circle.setAttribute("r", 150);
         svg.appendChild(circle);
     }
@@ -321,8 +321,8 @@ async function generateRoot(i, j, k) {
     }
 
     for (let m = min; m < max; m++) {
-        let cx = 250 + 200 * Math.cos(m * Math.PI / 4);
-        let cy = 750 + 200 * Math.sin(m * Math.PI / 4);
+        let cx = 750 + 200 * Math.cos(m * Math.PI / 4);
+        let cy = 250 + 200 * Math.sin(m * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
         circle.setAttribute("cy", cy);
@@ -332,7 +332,7 @@ async function generateRoot(i, j, k) {
 
     if (k % 2 === 1) {
         let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 750);
+        circle.setAttribute("cx", 500);
         circle.setAttribute("cy", 750);
         circle.setAttribute("r", 150);
         svg.appendChild(circle);
@@ -389,7 +389,7 @@ async function generateRoot(i, j, k) {
     }
 
     for (let n = min; n < max; n++) {
-        let cx = 750 + 200 * Math.cos(n * Math.PI / 4);
+        let cx = 500 + 200 * Math.cos(n * Math.PI / 4);
         let cy = 750 + 200 * Math.sin(n * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
