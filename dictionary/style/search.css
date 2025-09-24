@@ -2,6 +2,7 @@ body {
     padding: 2rem;
     font-family: serif;
     writing-mode: horizontal-tb;
+    text-align: center;
 }
 
 p {
