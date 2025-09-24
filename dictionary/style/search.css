@@ -1,7 +1,7 @@
 body {
-    font-family: serif;
-    text-align: center;
     padding: 2rem;
+    font-family: serif;
+    writing-mode: horizontal-tb;
 }
 
 p {
