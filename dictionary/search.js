@@ -162,22 +162,22 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "words");
         filtered.forEach(item => {
-            const p1 = document.createElement("p");
+            const word_index = document.createElement("p");
             const strong = document.createElement("strong");
             strong.textContent = item.word.toLowerCase();
             strong.classList.add("zosokw");
-            p1.append(strong);
+            word_index.append(strong);
             const pronunciation = document.createElement("span");
             pronunciation.textContent = "/" + item.word_pronunciation + "/";
             pronunciation.classList.add("pronunciation");
-            p1.append(pronunciation);
+            word_index.append(pronunciation);
             const cases = document.createElement("span");
             cases.textContent = item.word_cases;
-            p1.append(cases);
+            word_index.append(cases);
             const word_part_of_speech = document.createElement("span");
             word_part_of_speech.textContent = item.word_part_of_speech;
-            p1.append(word_part_of_speech);
-            details.appendChild(p1);
+            word_index.append(word_part_of_speech);
+            details.appendChild(word_index);
             const word_meaning = document.createElement("p");
             word_meaning.textContent = item.word_meaning;
             details.appendChild(word_meaning);
