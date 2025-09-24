@@ -29,7 +29,7 @@ body h2::before {
 }
 
 body h3::before {
-    content: "第" counter(chapter, japanese-informal) "章\3000" counter(section, japanese-informal) "節\3000";
+    content: "第" counter(section, japanese-informal) "節\3000";
 }
 
 nav {
