@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
         searchResultSpan.textContent = searchWord;
-        searchResultSpan.className = "piswpi";
+        searchResultSpan.className = "zosokw";
         searchResult.appendChild(searchResultSpan);
         searchResult.append("の検索結果");
         searchWordContainer.appendChild(searchResult);
@@ -78,7 +78,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
 
     const h2 = document.createElement("h2");
     h2.textContent = searchWord.charAt(0);
-    h2.className = "piswpi";
+    h2.className = "zosokw";
     details.appendChild(h2);
     let filename = "index";
     try {
@@ -123,7 +123,7 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
             const p1 = document.createElement("p");
             const span = document.createElement("span");
             span.textContent = item.root;
-            span.classList.add("piswpi");
+            span.classList.add("zosokw");
             p1.textContent = "語根：";
             p1.append(span);
             details.appendChild(p1);
