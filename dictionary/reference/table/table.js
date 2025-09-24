@@ -356,7 +356,7 @@ function generateConjunctCaseTable() {
         vowels.forEach((vowel2, j) => {
             let td = document.createElement("td");
             td.appendChild(createParagraph("-" + vowel2 + "-" + vowel1, "zosokw"));
-            td.appendChild(createParagraph(vowels_cases_array[j] + vowels_cases_array[i] + "格", "root"));
+            td.appendChild(createParagraph(vowels_cases_array[j] + vowels_cases_array[i] + "格", "conjunct-case"));
             tr.appendChild(td);
         });
 
