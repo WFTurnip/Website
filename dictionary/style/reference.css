@@ -106,3 +106,7 @@ nav li::after {
 nav li:last-child::after {
     content: "";
 }
+
+.pronunciation {
+    font-family: 'Courier New', Courier, monospace;
+}

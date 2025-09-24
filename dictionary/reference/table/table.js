@@ -5,12 +5,12 @@ const consonants_pronunciation_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ"
 const vowels = ["a", "e", "i", "o", "u", "w"];
 const vowels_cases_array = ["否", "与", "属", "対", "主", "流"];
 const vowels_part_of_speech_types_array = ["付", "動", "容", "助", "副", "名"];
-const vowels_pronunciation_array = ["a", "e", "i", "o", "u", "∅"];
+const vowels_pronunciation_array = ["a", "e", "i", "o", "u", "Ø"];
 
-function generateConstonantTable() {
+function generateConsonantTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "子音の表";
+    caption.textContent = "子音表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let tr = document.createElement("tr");
@@ -51,11 +51,11 @@ function generateConstonantTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + consonants_pronunciation_array[i] + "/";
-        p2.className = "phonetic";
+        p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr3.appendChild(td);
     }
@@ -68,11 +68,11 @@ function generateConstonantTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + consonants_pronunciation_array[i] + "/";
-        p2.className = "phonetic";
+        p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr4.appendChild(td);
     }
@@ -85,25 +85,25 @@ function generateConstonantTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + consonants_pronunciation_array[i] + "/";
-        p2.className = "phonetic";
+        p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr5.appendChild(td);
     }
     tbody.appendChild(tr5);
     table.appendChild(tbody);
     document.querySelectorAll(".consonant-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
 function generateVowelTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "母音の表";
+    caption.textContent = "母音表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let tr = document.createElement("tr");
@@ -130,11 +130,11 @@ function generateVowelTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + vowels_pronunciation_array[i] + "/";
-        p2.className = "phonetic";
+        p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr2.appendChild(td);
     }
@@ -147,25 +147,25 @@ function generateVowelTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = "/" + vowels_pronunciation_array[i] + "/";
-        p2.className = "phonetic";
+        p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr3.appendChild(td);
     }
     tbody.appendChild(tr3);
     table.appendChild(tbody);
     document.querySelectorAll(".vowel-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
-function generateConstonantMeansTable() {
+function generateConsonantMeansTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "子音の概念の表";
+    caption.textContent = "子音の概念表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let tr = document.createElement("tr");
@@ -206,11 +206,11 @@ function generateConstonantMeansTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = consonants_means_array[i];
-        p2.className = "root";
+        p2.classList.add("root");
         td.appendChild(p2);
         tr3.appendChild(td);
     }
@@ -223,11 +223,11 @@ function generateConstonantMeansTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = consonants_means_array[i];
-        p2.className = "root";
+        p2.classList.add("root");
         td.appendChild(p2);
         tr4.appendChild(td);
     }
@@ -240,30 +240,30 @@ function generateConstonantMeansTable() {
         let td = document.createElement("td");
         let p = document.createElement("p");
         p.textContent = consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         td.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = consonants_means_array[i];
-        p2.className = "root";
+        p2.classList.add("root");
         td.appendChild(p2);
         tr5.appendChild(td);
     }
     tbody.appendChild(tr5);
     table.appendChild(tbody);
     document.querySelectorAll(".consonant-means-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
 function generateCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "格の表";
+    caption.textContent = "単独格表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let tr = document.createElement("tr");
     let th = document.createElement("th");
-    th.textContent = "格の種類";
+    th.textContent = "格種別";
     tr.appendChild(th);
     let th2 = document.createElement("th");
     th2.textContent = "用法";
@@ -276,24 +276,24 @@ function generateCaseTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = vowels_cases_array[i] + "格";
-        p2.className = "case";
+        p2.classList.add("case");
         th.appendChild(p2);
         tr.appendChild(th);
         let td = document.createElement("td");
         let p3 = document.createElement("p");
-        p3.textContent = vowels_cases_array[i] + "格の用法";
-        p3.className = "part-of-speech";
+        p3.textContent = vowels_cases_array[i] + "格用法";
+        p3.classList.add("part-of-speech");
         td.appendChild(p3);
         tr.appendChild(td);
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
     document.querySelectorAll(".case-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -308,7 +308,7 @@ function generateConjunctCaseTable() {
     let table = document.createElement("table");
 
     let caption = document.createElement("caption");
-    caption.textContent = "複合格の表";
+    caption.textContent = "複合格表";
     table.appendChild(caption);
 
     let thead = document.createElement("thead");
@@ -364,19 +364,19 @@ function generateConjunctCaseTable() {
     });
     table.appendChild(tbody);
     document.querySelectorAll(".conjunct-case-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
 function generateCaseOfSpeechTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "品詞の表";
+    caption.textContent = "品詞表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let tr = document.createElement("tr");
     let th = document.createElement("th");
-    th.textContent = "品詞の種類";
+    th.textContent = "品詞種別";
     tr.appendChild(th);
     let th2 = document.createElement("th");
     th2.textContent = "用法";
@@ -389,24 +389,24 @@ function generateCaseOfSpeechTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = "-" + vowels[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = vowels_part_of_speech_types_array[i] + "詞";
-        p2.className = "case";
+        p2.classList.add("case");
         th.appendChild(p2);
         tr.appendChild(th);
         let td = document.createElement("td");
         let p3 = document.createElement("p");
         p3.textContent = vowels_part_of_speech_types_array[i] + "詞の用法";
-        p3.className = "part-of-speech";
+        p3.classList.add("part-of-speech");
         td.appendChild(p3);
         tr.appendChild(td);
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
     document.querySelectorAll(".case-of-speech-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -426,9 +426,9 @@ function generateArticleConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "piswpi";
+    p2.classList.add("piswpi");
     let span = document.createElement("span");
-    span.className = "root";
+    span.classList.add("root");
     span.style.fontSize = "0.5rem";
     for (let k = 1; k <= 3; k++) {
         let subC = document.createElement("sub");
@@ -450,7 +450,7 @@ function generateArticleConjugationTable() {
     tbody.appendChild(tr2);
     table.appendChild(tbody);
     document.querySelectorAll(".article-conjugation-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -474,11 +474,11 @@ function generateVerbConjugationTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = tense_consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = tense_array[i] + "形";
-        p2.className = "mean";
+        p2.classList.add("mean");
         p2.style.fontSize = "0.5rem";
         th.appendChild(p2);
         tr.appendChild(th);
@@ -491,21 +491,21 @@ function generateVerbConjugationTable() {
         let th = document.createElement("th");
         let p = document.createElement("p");
         p.textContent = aspect_consonants_array[i];
-        p.className = "piswpi";
+        p.classList.add("piswpi");
         th.appendChild(p);
         let p2 = document.createElement("p");
         p2.textContent = aspect_array[i] + "相";
-        p2.className = "mean";
+        p2.classList.add("mean");
         p2.style.fontSize = "0.5rem";
         th.appendChild(p2);
         tr.appendChild(th);
         for (let j = 0; j < tense_consonants_array.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("p");
-            p.className = "piswpi";
+            p.classList.add("piswpi");
             p.appendChild(document.createTextNode(aspect_consonants_array[i]));
             let span = document.createElement("span");
-            span.className = "root";
+            span.classList.add("root");
             span.style.fontSize = "0.5rem";
             span.appendChild(document.createTextNode(" + "));
             for (let k = 1; k <= 3; k++) {
@@ -527,7 +527,7 @@ function generateVerbConjugationTable() {
             td.appendChild(p);
             let p2 = document.createElement("p");
             p2.textContent = aspect_array[i] + "相" + tense_array[j] + "形";
-            p2.className = "root";
+            p2.classList.add("root");
             p2.style.fontSize = "0.5rem";
             td.appendChild(p2);
             tr.appendChild(td);
@@ -536,7 +536,7 @@ function generateVerbConjugationTable() {
     }
     table.appendChild(tbody);
     document.querySelectorAll(".verb-conjugation-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -559,9 +559,9 @@ function generateAdjectiveConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "piswpi";
+    p2.classList.add("piswpi");
     let span = document.createElement("span");
-    span.className = "root";
+    span.classList.add("root");
     span.style.fontSize = "0.5rem";
     for (let k = 1; k <= 3; k++) {
         let subC = document.createElement("sub");
@@ -583,7 +583,7 @@ function generateAdjectiveConjugationTable() {
     tbody.appendChild(tr2);
     table.appendChild(tbody);
     document.querySelectorAll(".adjective-conjugation-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -603,9 +603,9 @@ function generateParticleConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "piswpi";
+    p2.classList.add("piswpi");
     let span = document.createElement("span");
-    span.className = "root";
+    span.classList.add("root");
     span.style.fontSize = "0.5rem";
     for (let k = 1; k <= 3; k++) {
         let subC = document.createElement("sub");
@@ -627,7 +627,7 @@ function generateParticleConjugationTable() {
     tbody.appendChild(tr2);
     table.appendChild(tbody);
     document.querySelectorAll(".particle-conjugation-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -647,9 +647,9 @@ function generateAdverbConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "piswpi";
+    p2.classList.add("piswpi");
     let span = document.createElement("span");
-    span.className = "root";
+    span.classList.add("root");
     span.style.fontSize = "0.5rem";
     for (let k = 1; k <= 3; k++) {
         let subC = document.createElement("sub");
@@ -671,7 +671,7 @@ function generateAdverbConjugationTable() {
     tbody.appendChild(tr2);
     table.appendChild(tbody);
     document.querySelectorAll(".adverb-conjugation-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
@@ -691,9 +691,9 @@ function generateNounConjugationTable() {
     let tr2 = document.createElement("tr");
     let td = document.createElement("td");
     let p2 = document.createElement("p");
-    p2.className = "piswpi";
+    p2.classList.add("piswpi");
     let span = document.createElement("span");
-    span.className = "root";
+    span.classList.add("root");
     span.style.fontSize = "0.5rem";
     for (let k = 1; k <= 3; k++) {
         let subC = document.createElement("sub");
@@ -715,14 +715,14 @@ function generateNounConjugationTable() {
     tbody.appendChild(tr2);
     table.appendChild(tbody);
     document.querySelectorAll(".noun-conjugation-table").forEach(function (element) {
-        element.appendChild(table);
+        element.appendChild(table.cloneNode(true));
     });
 }
 
 window.onload = function () {
-    generateConstonantTable();
+    generateConsonantTable();
     generateVowelTable();
-    generateConstonantMeansTable();
+    generateConsonantMeansTable();
     generateCaseTable();
     generateConjunctCaseTable();
     generateCaseOfSpeechTable();
