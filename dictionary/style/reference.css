@@ -110,3 +110,7 @@ nav li:last-child::after {
 .pronunciation {
     font-family: 'Courier New', Courier, monospace;
 }
+
+.root {
+    font-size: 0.5rem;
+}
