@@ -11,7 +11,6 @@ async function generateArticleConjugationFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -24,9 +23,7 @@ async function generateArticleConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
-${svgString}`;
-
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -46,7 +43,6 @@ async function generateVerbConjugationFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -59,9 +55,7 @@ async function generateVerbConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
-${svgString}`;
-
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -81,7 +75,6 @@ async function generateAdjectiveConjugationFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -94,9 +87,7 @@ async function generateAdjectiveConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
-${svgString}`;
-
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -116,7 +107,6 @@ async function generateParticleConjugationFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -129,9 +119,7 @@ async function generateParticleConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
-${svgString}`;
-
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -151,7 +139,6 @@ async function generateAdverbConjugationFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -164,9 +151,7 @@ async function generateAdverbConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
-${svgString}`;
-
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
     svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
@@ -185,7 +170,6 @@ async function generateNounConjugationFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -198,9 +182,7 @@ async function generateNounConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
-${svgString}`;
-
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
