@@ -63,32 +63,6 @@
     src: url('zosokw.ttf') format('truetype');
 }
 
-@media (prefers-color-scheme: light) {
-
-    input,
-    body {
-        background-color: #ffffff;
-        color: #000000;
-    }
-
-    span {
-        color: #8b0000;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-
-    input,
-    body {
-        background-color: #000000;
-        color: #ffffff;
-    }
-
-    span {
-        color: #daa520;
-    }
-}
-
 body {
     padding: 2rem;
     text-align: center;
