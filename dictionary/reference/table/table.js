@@ -408,7 +408,7 @@ function generateArticleConjugationTable() {
     let p2 = document.createElement("p");
     p2.classList.add("zosokw");
     let span = document.createElement("span");
-    span.classList.add("root");
+    span.classList.add("original-form");
     span.textContent = "---a";
     p2.appendChild(span);
     td.appendChild(p2);
