@@ -12,8 +12,8 @@ async function generateArticleConjugationFigure() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 250);
@@ -43,8 +43,8 @@ async function generateVerbConjugationFigure() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 250);
@@ -74,8 +74,8 @@ async function generateAdjectiveConjugationFigure() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 250);
@@ -105,8 +105,8 @@ async function generateParticleConjugationFigure() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 250);
@@ -135,8 +135,8 @@ async function generateAdverbConjugationFigure() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 250);
@@ -166,8 +166,8 @@ async function generateNounConjugationFigure() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 250);
