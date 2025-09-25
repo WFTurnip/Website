@@ -8,7 +8,7 @@ const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p",
 async function generateIndex() {
     let filename = path.join("favicon_index", "index.svg");
 
-    const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+    const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const document = dom.window.document;
     let svgns = "http://www.w3.org/2000/svg";
 
@@ -64,7 +64,7 @@ async function generateIndex() {
 async function generateConsonant(i) {
     let filename = path.join("favicon_index", consonants_array[i] + ".svg");
 
-    const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+    const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const document = dom.window.document;
     let svgns = "http://www.w3.org/2000/svg";
 
@@ -184,7 +184,7 @@ async function generateConsonantDirectory(i) {
 async function generateRoot(i, j, k) {
     let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg");
 
-    const dom = new JSDOM(`<!DOCTYPE html><body></body>`);
+    const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const document = dom.window.document;
     let svgns = "http://www.w3.org/2000/svg";
 
