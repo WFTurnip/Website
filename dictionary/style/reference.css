@@ -108,11 +108,16 @@ nav li:last-child::after {
 }
 
 
+details figure,
 article table {
     margin: auto;
 }
 
-figure img,
 figcaption {
     text-align: center;
+}
+
+dd details img {
+    display: block;
+    margin: auto;
 }
