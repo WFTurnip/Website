@@ -107,7 +107,6 @@ nav li:last-child::after {
     content: "";
 }
 
-
 details figure,
 article table {
     margin: auto;
