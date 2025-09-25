@@ -116,7 +116,7 @@ figcaption {
     text-align: center;
 }
 
-details img {
+details object {
     display: block;
     margin: auto;
 }
