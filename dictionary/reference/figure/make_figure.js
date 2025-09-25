@@ -16,9 +16,9 @@ async function generateArticleConjugationFigure() {
     svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -47,9 +47,9 @@ async function generateVerbConjugationFigure() {
     svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -78,9 +78,9 @@ async function generateAdjectiveConjugationFigure() {
     svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -109,9 +109,9 @@ async function generateParticleConjugationFigure() {
     svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -139,9 +139,9 @@ async function generateAdverbConjugationFigure() {
     svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -170,9 +170,9 @@ async function generateNounConjugationFigure() {
     svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
