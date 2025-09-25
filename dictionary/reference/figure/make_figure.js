@@ -5,12 +5,13 @@ const beautify = require("js-beautify").html;
 
 async function generateArticleConjugationFigure() {
     let filename = path.join("article_conjugation_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
 
-    const dom = new JSDOM("<!DOCTYPE html><body></body>");
+    const dom = new JSDOM();
     const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -20,20 +21,14 @@ async function generateArticleConjugationFigure() {
     circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
-    const pi = document.createProcessingInstruction(
-        "xml-stylesheet",
-        'href="../../style/figure.css" type="text/css"' 
-    );
-
-    document.insertBefore(pi, document.firstChild);
-    document.body.appendChild(svg);
-
     let serializer = new dom.window.XMLSerializer();
-    let svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(svg);
+    let svgString = serializer.serializeToString(svg);
 
-    let svgContent = beautify(svgString, {
-        indent_size: 4, space_in_empty_paren: true
-    })
+    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
+${svgString}`;
+
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
         await fs.writeFile(filename, svgContent);
@@ -45,12 +40,13 @@ async function generateArticleConjugationFigure() {
 
 async function generateVerbConjugationFigure() {
     let filename = path.join("verb_conjugation_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
 
-    const dom = new JSDOM("<!DOCTYPE html><body></body>");
+    const dom = new JSDOM();
     const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -60,20 +56,14 @@ async function generateVerbConjugationFigure() {
     circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
-    const pi = document.createProcessingInstruction(
-        "xml-stylesheet",
-        'href="../../style/figure.css" type="text/css"'
-    );
-
-    document.insertBefore(pi, document.firstChild);
-    document.body.appendChild(svg);
-
     let serializer = new dom.window.XMLSerializer();
-    let svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(svg);
+    let svgString = serializer.serializeToString(svg);
 
-    let svgContent = beautify(svgString, {
-        indent_size: 4, space_in_empty_paren: true
-    })
+    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
+${svgString}`;
+
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
         await fs.writeFile(filename, svgContent);
@@ -85,12 +75,13 @@ async function generateVerbConjugationFigure() {
 
 async function generateAdjectiveConjugationFigure() {
     let filename = path.join("adjective_conjugation_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
 
-    const dom = new JSDOM("<!DOCTYPE html><body></body>");
+    const dom = new JSDOM();
     const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -100,20 +91,14 @@ async function generateAdjectiveConjugationFigure() {
     circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
-    const pi = document.createProcessingInstruction(
-        "xml-stylesheet",
-        'href="../../style/figure.css" type="text/css"'
-    );
-
-    document.insertBefore(pi, document.firstChild);
-    document.body.appendChild(svg);
-
     let serializer = new dom.window.XMLSerializer();
-    let svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(svg);
+    let svgString = serializer.serializeToString(svg);
 
-    let svgContent = beautify(svgString, {
-        indent_size: 4, space_in_empty_paren: true
-    })
+    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
+${svgString}`;
+
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
         await fs.writeFile(filename, svgContent);
@@ -125,12 +110,13 @@ async function generateAdjectiveConjugationFigure() {
 
 async function generateParticleConjugationFigure() {
     let filename = path.join("particle_conjugation_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
 
-    const dom = new JSDOM("<!DOCTYPE html><body></body>");
+    const dom = new JSDOM();
     const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -140,20 +126,14 @@ async function generateParticleConjugationFigure() {
     circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
-    const pi = document.createProcessingInstruction(
-        "xml-stylesheet",
-        'href="../../style/figure.css" type="text/css"'
-    );
-
-    document.insertBefore(pi, document.firstChild);
-    document.body.appendChild(svg);
-
     let serializer = new dom.window.XMLSerializer();
-    let svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(svg);
+    let svgString = serializer.serializeToString(svg);
 
-    let svgContent = beautify(svgString, {
-        indent_size: 4, space_in_empty_paren: true
-    })
+    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
+${svgString}`;
+
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
         await fs.writeFile(filename, svgContent);
@@ -165,12 +145,13 @@ async function generateParticleConjugationFigure() {
 
 async function generateAdverbConjugationFigure() {
     let filename = path.join("adverb_conjugation_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
 
-    const dom = new JSDOM("<!DOCTYPE html><body></body>");
+    const dom = new JSDOM();
     const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -180,20 +161,13 @@ async function generateAdverbConjugationFigure() {
     circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
-    const pi = document.createProcessingInstruction(
-        "xml-stylesheet",
-        'href="../../style/figure.css" type="text/css"'
-    );
-
-    document.insertBefore(pi, document.firstChild);
-    document.body.appendChild(svg);
-
     let serializer = new dom.window.XMLSerializer();
-    let svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(svg);
+    let svgString = serializer.serializeToString(svg);
 
-    let svgContent = beautify(svgString, {
-        indent_size: 4, space_in_empty_paren: true
-    })
+    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
+${svgString}`;
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
         await fs.writeFile(filename, svgContent);
@@ -205,12 +179,13 @@ async function generateAdverbConjugationFigure() {
 
 async function generateNounConjugationFigure() {
     let filename = path.join("noun_conjugation_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
 
-    const dom = new JSDOM("<!DOCTYPE html><body></body>");
+    const dom = new JSDOM();
     const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("xmls", svgns);
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
@@ -220,20 +195,14 @@ async function generateNounConjugationFigure() {
     circle.setAttribute("r", 50);
     svg.appendChild(circle);
 
-    const pi = document.createProcessingInstruction(
-        "xml-stylesheet",
-        'href="../../style/figure.css" type="text/css"'
-    );
-
-    document.insertBefore(pi, document.firstChild);
-    document.body.appendChild(svg);
-
     let serializer = new dom.window.XMLSerializer();
-    let svgString = '<?xml version="1.0" encoding="UTF-8"?>\n' + serializer.serializeToString(svg);
+    let svgString = serializer.serializeToString(svg);
 
-    let svgContent = beautify(svgString, {
-        indent_size: 4, space_in_empty_paren: true
-    })
+    let svgContent = `<?xml-stylesheet href="../../style/figure.css" type="text/css"?>
+${svgString}`;
+
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
         await fs.writeFile(filename, svgContent);
