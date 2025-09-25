@@ -111,3 +111,8 @@ nav li:last-child::after {
 article table {
     margin: auto;
 }
+
+figure img,
+figcaption {
+    text-align: center;
+}
