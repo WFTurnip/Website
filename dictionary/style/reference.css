@@ -110,7 +110,6 @@ nav li:last-child::after {
 
 details figure,
 article table {
-    display: block;
     margin: auto;
 }
 
