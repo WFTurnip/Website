@@ -32,6 +32,7 @@ button {
     font-family: "zosokw";
     font-size: 1rem;
     border-radius: 2rem;
+    border-color: aquamarine;
     width: 4rem;
     height: 4rem;
 }
