@@ -10,4 +10,3 @@ open xavani/
 open xesada/
 open xidili/
 open zosokw/
-
