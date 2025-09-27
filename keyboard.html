@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>創作言語キーボード</title>
-    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="keyboard.css">
     <link rel="stylesheet" href="fonts_download.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 
-<body>
+<bod id="body">
     <header>
         <nav>
             <ol>
@@ -21,7 +21,7 @@
         </nav>
     </header>
     <h1>創作言語キーボード</h1>
-    <textarea name="" id=""></textarea>
+    <textarea></textarea>
     <table id="keyboard">
         <tr>
             <td>
@@ -226,19 +226,19 @@
             <td></td>
         </tr>
     </table>
-    <select name="" id="">
-        <option value="">kodito</option>
-        <option value="">lekuta</option>
-        <option value="">lozegw</option>
-        <option value="">makina</option>
-        <option value="">piswpi</option>
-        <option value="">polwgo</option>
-        <option value="">silwki</option>
-        <option value="">sulive</option>
-        <option value="">xavani</option>
-        <option value="">xesada</option>
-        <option value="">xidili</option>
-        <option value="">zosokw</option>
+    <select id="fontSelector" onchange="changeFont(this.value)">
+        <option value="0">コディート体</option>
+        <option value="1">レクータ体</option>
+        <option value="2">ロゼーグ体</option>
+        <option value="3">マキーナ体</option>
+        <option value="4">ピスピ体</option>
+        <option value="5">ポルゴ体</option>
+        <option value="6">シルキ体</option>
+        <option value="7">スリーヴェ体</option>
+        <option value="8">ハヴァーニ体</option>
+        <option value="9">ヘサーダ体</option>
+        <option value="10">ヒディーリ体</option>
+        <option value="11">ゾソーク体</option>
     </select>
     <script src="keyboard.js"></script>
     <footer>
@@ -250,6 +250,6 @@
             </ol>
         </nav>
     </footer>
-</body>
+    </body>
 
 </html>
