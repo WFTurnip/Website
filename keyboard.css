@@ -9,7 +9,8 @@
     }
 
     textarea,
-    select {
+    select,
+    fieldset {
         border-color: #333;
     }
 }
@@ -25,7 +26,8 @@
     }
 
     textarea,
-    select {
+    select,
+    fieldset {
         border-color: #f0f0f0;
     }
 }
