@@ -42,44 +42,44 @@ textarea {
     font-family: "piswpi";
     width: 22.5rem;
     height: 4rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .key {
     font-family: "piswpi";
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 4rem;
+    height: 4rem;
     position: relative;
-    border-radius: 1rem;
+    border-radius: 1.5rem;
 }
 
 .space {
-    width: 7.5rem;
+    width: 12rem;
 }
 
 .key .shifted {
     position: absolute;
-    top: 0.25rem;
-    right: 0.25rem;
-    font-size: 0.75rem;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1.5rem;
     opacity: 0.25;
 }
 
 .key .no-shifted {
     position: absolute;
-    bottom: 0.25rem;
-    left: 0.25rem;
-    font-size: 1rem;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    font-size: 2rem;
     opacity: 1;
 }
 
 .shift-active .shifted {
-    font-size: 1rem;
+    font-size: 2rem;
     opacity: 1;
 }
 
 .shift-active .no-shifted {
-    font-size: 0.75rem;
+    font-size: 1.5rem;
     opacity: 0.25;
 }
 

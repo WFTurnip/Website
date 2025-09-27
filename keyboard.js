@@ -7,14 +7,12 @@ let shiftActive = false;
 keys.forEach(key => {
     key.addEventListener("click", () => {
 
-        if (key.classList.contains("space")) {
-            char = ' ';
-            return;
-        }
-
         if (key.dataset.key === "shift") {
             shiftActive = !shiftActive;
-            key.classList.add("shift-active", shiftActive);
+
+            document.querySelectorAll(".key").forEach(k => {
+                k.classList.toggle("shift-active", shiftActive);
+            });
             return;
         }
 
