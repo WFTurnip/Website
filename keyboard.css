@@ -81,4 +81,6 @@ textarea {
     opacity: 0.25;
 }
 
-p {text-align:left;}
+p {
+    text-align: left;
+}
