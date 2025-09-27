@@ -34,14 +34,19 @@ body {
     text-align: center;
 }
 
-table,
-textarea {
-    font-family: "sulive";
+table {
     margin: auto;
 }
 
+textarea {
+    width: 22.5rem;
+    height: 4rem;
+    font-size: 1rem;
+    font-family: "zosokw";
+}
+
 .key {
-    font-family: "sulive";
+    font-family: "zosokw";
     width: 2.5rem;
     height: 2.5rem;
     position: relative;
