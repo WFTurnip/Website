@@ -17,20 +17,7 @@ document.addEventListener("keyup", e => {
 
 function changeFont(number) {
 
-    const fontClasses = [
-        "kodito",
-        "lekuta",
-        "lozegw",
-        "makina",
-        "piswpi",
-        "polwgo",
-        "silwki",
-        "sulive",
-        "xavani",
-        "xesada",
-        "xidili",
-        "zosokw",
-    ];
+    const fontClasses = ["kodito", "lekuta", "lozegw", "makina", "piswpi", "polwgo", "silwki", "sulive", "xavani", "xesada", "xidili", "zosokw"];
 
     const selectedClass = fontClasses[number];
 
