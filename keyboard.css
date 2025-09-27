@@ -48,12 +48,16 @@ textarea {
     border-radius: 1rem;
 }
 
+.space {
+    width: 7.5rem;
+}
+
 .key .shifted {
     position: absolute;
     top: 0.25rem;
     right: 0.25rem;
     font-size: 0.75rem;
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 .key .no-shifted {
@@ -64,6 +68,10 @@ textarea {
     opacity: 1;
 }
 
-.space {
-    width: 7.5rem;
+.shift-active .shifted {
+    opacity: 1;
+}
+
+.shift-active .no-shifted {
+    opacity: 0.25;
 }
