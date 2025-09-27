@@ -80,3 +80,5 @@ textarea {
 .shift-active .no-shifted {
     opacity: 0.25;
 }
+
+p {text-align:left;}
