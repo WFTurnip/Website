@@ -39,12 +39,14 @@ table {
 }
 
 textarea {
+    font-family: "piswpi";
     width: 22.5rem;
     height: 4rem;
     font-size: 1rem;
 }
 
 .key {
+    font-family: "piswpi";
     width: 2.5rem;
     height: 2.5rem;
     position: relative;
