@@ -1,18 +1,32 @@
-const keyboard = document.getElementById("keyboard");
-let shiftPressed = false;
+const textarea = document.querySelector("textarea");
 
-document.addEventListener("keydown", e => {
-    if (e.key === "Shift") {
-        shiftPressed = true;
-        keyboard.classList.add("shift-active");
-    }
-});
+const keys = document.querySelectorAll(".key");
 
-document.addEventListener("keyup", e => {
-    if (e.key === "Shift") {
-        shiftPressed = false;
-        keyboard.classList.remove("shift-active");
-    }
+let shiftActive = false;
+
+keys.forEach(key => {
+    key.addEventListener("click", () => {
+
+        if (key.classList.contains("space")) {
+            char = ' ';
+            return;
+        }
+
+        if (key.dataset.key === "shift") {
+            shiftActive = !shiftActive;
+            key.classList.add("shift-active", shiftActive);
+            return;
+        }
+
+        let char;
+        if (shiftActive && key.dataset.shift) {
+            char = key.dataset.shift;
+        } else {
+            char = key.dataset.normal;
+        }
+
+        textarea.value += char ?? '';
+    });
 });
 
 function changeFont(number) {
