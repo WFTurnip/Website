@@ -53,6 +53,7 @@ textarea {
     top: 2px;
     right: 2px;
     font-size: 1rem;
+    opacity: 0.5;
 }
 
 .key .no-shifted {
@@ -60,6 +61,7 @@ textarea {
     bottom: 2px;
     left: 2px;
     font-size: 1rem;
+    opacity: 1;
 }
 
 .space {
