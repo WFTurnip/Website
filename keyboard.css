@@ -40,14 +40,29 @@ textarea {
     margin: auto;
 }
 
-button {
+.key {
     font-family: "zosokw";
+    width: 40px;
+    height: 40px;
+    position: relative;
     font-size: 1rem;
-    border-radius: 2rem;
-    width: 4rem;
-    height: 4rem;
+}
+
+.key .shifted {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    font-size: 0.75rem;
+    opacity: 0.5;
+}
+
+.key .no-shifted {
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+    font-size: 1rem;
 }
 
 .space {
-    width: 100%;
+    width: 120px;
 }
