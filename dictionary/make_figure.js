@@ -195,14 +195,12 @@ async function generateNounConjugationFigure() {
 }
 
 async function make() {
-    console.log("図表生成開始");
     generateArticleConjugationFigure();
     generateVerbConjugationFigure();
     generateAdjectiveConjugationFigure();
     generateParticleConjugationFigure();
     generateAdverbConjugationFigure();
     generateNounConjugationFigure();
-    console.log("図表生成完了");
 }
 
 make();
