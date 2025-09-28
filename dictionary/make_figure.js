@@ -4,7 +4,7 @@ const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
 async function generateArticleConjugationFigure() {
-    let filename = path.join("article_conjugation_figure.svg");
+    let filename = path.join("reference/", "figure/", "article_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -36,7 +36,7 @@ async function generateArticleConjugationFigure() {
 }
 
 async function generateVerbConjugationFigure() {
-    let filename = path.join("verb_conjugation_figure.svg");
+    let filename = path.join("reference/", "figure/", "verb_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -68,7 +68,7 @@ async function generateVerbConjugationFigure() {
 }
 
 async function generateAdjectiveConjugationFigure() {
-    let filename = path.join("adjective_conjugation_figure.svg");
+    let filename = path.join("reference/", "figure/", "adjective_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -100,7 +100,7 @@ async function generateAdjectiveConjugationFigure() {
 }
 
 async function generateParticleConjugationFigure() {
-    let filename = path.join("particle_conjugation_figure.svg");
+    let filename = path.join("reference/", "figure/", "particle_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -132,7 +132,7 @@ async function generateParticleConjugationFigure() {
 }
 
 async function generateAdverbConjugationFigure() {
-    let filename = path.join("adverb_conjugation_figure.svg");
+    let filename = path.join("reference/", "figure/", "adverb_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -163,7 +163,7 @@ async function generateAdverbConjugationFigure() {
 }
 
 async function generateNounConjugationFigure() {
-    let filename = path.join("noun_conjugation_figure.svg");
+    let filename = path.join("reference/", "figure/", "noun_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
