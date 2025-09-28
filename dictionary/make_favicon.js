@@ -1,515 +1,147 @@
 const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
-const cssom = require("cssom");
 const beautify = require("js-beautify").html;
 
-const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+
+const minMaxMap = [
+    [-4, -1], [-4, -1], [-3, 0], [-3, 0], [-2, 1], [-2, 1],
+    [-5, -2], [-5, -2], [0, 8], [0, 8], [-1, 2], [-1, 2],
+    [2, 5], [2, 5], [1, 4], [1, 4], [0, 3], [0, 3]
+];
+
+const circleStyle = `
+@media(prefers-color-scheme: light){circle{fill:#000}}
+@media(prefers-color-scheme: dark){circle{fill:#c99410}}
+`;
+
+function getMinMax(i) {
+    return minMaxMap[i] || [0, 0];
+}
+
+function addCircle(svg, cx, cy, r) {
+    const circle = svg.ownerDocument.createElementNS("http://www.w3.org/2000/svg", "circle");
+    circle.setAttribute("cx", cx);
+    circle.setAttribute("cy", cy);
+    circle.setAttribute("r", r);
+    svg.appendChild(circle);
+}
+
+function addStyle(svg, styleText) {
+    const style = svg.ownerDocument.createElementNS("http://www.w3.org/2000/svg", "style");
+    style.textContent = styleText;
+    svg.appendChild(style);
+}
+
+async function writeSVG(filename, svg) {
+    const serializer = new svg.ownerDocument.defaultView.XMLSerializer();
+    const svgString = serializer.serializeToString(svg);
+    const content = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
+    try {
+        await fs.writeFile(filename, content);
+        console.log(`ファイル ${filename} を作成しました。`);
+    } catch (e) {
+        console.error(`ファイル ${filename} を作成できませんでした。`, e);
+    }
+}
 
 async function generateIndex() {
-    let filename = path.join("favicon_index", "index.svg");
-
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
-    const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
-
-    let svg = document.createElementNS(svgns, "svg");
+    const doc = dom.window.document;
+    const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 40);
-    svg.appendChild(circle);
-
+    addCircle(svg, 50, 50, 40);
     for (let i = 0; i < 8; i++) {
-        let cx = 50 + 45 * Math.cos(i * Math.PI / 4);
-        let cy = 50 + 45 * Math.sin(i * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 5);
-        svg.appendChild(circle);
+        addCircle(svg, 50 + 45 * Math.cos(i * Math.PI / 4), 50 + 45 * Math.sin(i * Math.PI / 4), 5);
     }
+    addStyle(svg, circleStyle);
 
-    let style = document.createElementNS(svgns, "style");
-    style.textContent = `
-    @media(prefers-color-scheme: light) {
-        circle {
-            fill: #000
-        }
-    }
-
-    @media(prefers-color-scheme: dark) {
-        circle {
-            fill: #c99410
-        }
-    }
-    `;
-    svg.appendChild(style);
-
-    let serializer = new dom.window.XMLSerializer();
-    let svgString = serializer.serializeToString(svg);
-
-    let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
-
-    try {
-        await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
-    } catch (error) {
-        console.error("ファイル" + filename + "を作成できませんでした。", error);
-    }
+    await writeSVG(path.join("favicon_index", "index.svg"), svg);
 }
 
 async function generateConsonant(i) {
-    let filename = path.join("favicon_index", consonants_array[i] + ".svg");
-
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
-    const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
-
-    let svg = document.createElementNS(svgns, "svg");
+    const doc = dom.window.document;
+    const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    if (i % 2 === 1) {
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 50);
-        circle.setAttribute("cy", 50);
-        circle.setAttribute("r", 30);
-        svg.appendChild(circle);
-    }
+    if (i % 2 === 1) addCircle(svg, 50, 50, 30);
 
-    let min, max;
-
-    switch (i) {
-        case 0:
-        case 1:
-            min = -4;
-            max = -1;
-            break;
-        case 2:
-        case 3:
-            min = -3;
-            max = 0;
-            break;
-        case 4:
-        case 5:
-            min = -2;
-            max = 1;
-            break;
-        case 6:
-        case 7:
-            min = -5;
-            max = -2;
-            break;
-        case 8:
-        case 9:
-            min = 0;
-            max = 8;
-            break;
-        case 10:
-        case 11:
-            min = -1;
-            max = 2;
-            break;
-        case 12:
-        case 13:
-            min = 2;
-            max = 5;
-            break;
-        case 14:
-        case 15:
-            min = 1;
-            max = 4;
-            break;
-        case 16:
-        case 17:
-            min = 0;
-            max = 3;
-            break;
-        default:
-            break;
-    }
-
+    const [min, max] = getMinMax(i);
     for (let j = min; j < max; j++) {
-        let cx = 50 + 40 * Math.cos(j * Math.PI / 4);
-        let cy = 50 + 40 * Math.sin(j * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 10);
-        svg.appendChild(circle);
+        const cx = 50 + 40 * Math.cos(j * Math.PI / 4);
+        const cy = 50 + 40 * Math.sin(j * Math.PI / 4);
+        addCircle(svg, cx, cy, 10);
     }
+    addStyle(svg, circleStyle);
 
-    let style = document.createElementNS(svgns, "style");
-    style.textContent = `
-    @media(prefers-color-scheme: light) {
-        circle {
-            fill: #000
-        }
-    }
-
-    @media(prefers-color-scheme: dark) {
-        circle {
-            fill: #c99410
-        }
-    }
-    `;
-    svg.appendChild(style);
-
-    let serializer = new dom.window.XMLSerializer();
-    let svgString = serializer.serializeToString(svg);
-
-    let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
-
-    try {
-        await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
-    } catch (error) {
-        console.error("ファイル" + filename + "を作成できませんでした。", error);
-    }
-}
-
-async function generateConsonantDirectory(i) {
-    let directory = path.join("favicon_index", consonants_array[i]);
-    try {
-        await fs.mkdir(directory, { recursive: true });
-        console.log("ディレクトリ" + directory + "を作成しました。");
-    } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。");
-    }
+    await writeSVG(path.join("favicon_index", `${consonants[i]}.svg`), svg);
 }
 
 async function generateRoot(i, j, k) {
-    let filename = path.join("favicon_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg");
-
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
-    const document = dom.window.document;
-    let svgns = "http://www.w3.org/2000/svg";
-
-    let svg = document.createElementNS(svgns, "svg");
+    const doc = dom.window.document;
+    const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("width", 1000);
     svg.setAttribute("height", 1000);
 
-    if (i % 2 === 1) {
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 250);
-        circle.setAttribute("cy", 250);
-        circle.setAttribute("r", 150);
-        svg.appendChild(circle);
-    }
+    const positions = [
+        [250, 250, i],
+        [750, 250, j],
+        [500, 750, k]
+    ];
 
-    let min, max;
+    const radii = [150, 150, 150];
+    const circleOffset = 200;
+    const circleRadius = 50;
 
-    switch (i) {
-        case 0:
-        case 1:
-            min = -4;
-            max = -1;
-            break;
-        case 2:
-        case 3:
-            min = -3;
-            max = 0;
-            break;
-        case 4:
-        case 5:
-            min = -2;
-            max = 1;
-            break;
-        case 6:
-        case 7:
-            min = -5;
-            max = -2;
-            break;
-        case 8:
-        case 9:
-            min = 0;
-            max = 8;
-            break;
-        case 10:
-        case 11:
-            min = -1;
-            max = 2;
-            break;
-        case 12:
-        case 13:
-            min = 2;
-            max = 5;
-            break;
-        case 14:
-        case 15:
-            min = 1;
-            max = 4;
-            break;
-        case 16:
-        case 17:
-            min = 0;
-            max = 3;
-            break;
-        default:
-            break;
-    }
-
-    for (let l = min; l < max; l++) {
-        let cx = 250 + 200 * Math.cos(l * Math.PI / 4);
-        let cy = 250 + 200 * Math.sin(l * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 50);
-        svg.appendChild(circle);
-    }
-
-    if (j % 2 === 1) {
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 750);
-        circle.setAttribute("cy", 250);
-        circle.setAttribute("r", 150);
-        svg.appendChild(circle);
-    }
-
-    switch (j) {
-        case 0:
-        case 1:
-            min = -4;
-            max = -1;
-            break;
-        case 2:
-        case 3:
-            min = -3;
-            max = 0;
-            break;
-        case 4:
-        case 5:
-            min = -2;
-            max = 1;
-            break;
-        case 6:
-        case 7:
-            min = -5;
-            max = -2;
-            break;
-        case 8:
-        case 9:
-            min = 0;
-            max = 8;
-            break;
-        case 10:
-        case 11:
-            min = -1;
-            max = 2;
-            break;
-        case 12:
-        case 13:
-            min = 2;
-            max = 5;
-            break;
-        case 14:
-        case 15:
-            min = 1;
-            max = 4;
-            break;
-        case 16:
-        case 17:
-            min = 0;
-            max = 3;
-            break;
-        default:
-            break;
-    }
-
-    for (let m = min; m < max; m++) {
-        let cx = 750 + 200 * Math.cos(m * Math.PI / 4);
-        let cy = 250 + 200 * Math.sin(m * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 50);
-        svg.appendChild(circle);
-    }
-
-    if (k % 2 === 1) {
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 500);
-        circle.setAttribute("cy", 750);
-        circle.setAttribute("r", 150);
-        svg.appendChild(circle);
-    }
-
-    switch (k) {
-        case 0:
-        case 1:
-            min = -4;
-            max = -1;
-            break;
-        case 2:
-        case 3:
-            min = -3;
-            max = 0;
-            break;
-        case 4:
-        case 5:
-            min = -2;
-            max = 1;
-            break;
-        case 6:
-        case 7:
-            min = -5;
-            max = -2;
-            break;
-        case 8:
-        case 9:
-            min = 0;
-            max = 8;
-            break;
-        case 10:
-        case 11:
-            min = -1;
-            max = 2;
-            break;
-        case 12:
-        case 13:
-            min = 2;
-            max = 5;
-            break;
-        case 14:
-        case 15:
-            min = 1;
-            max = 4;
-            break;
-        case 16:
-        case 17:
-            min = 0;
-            max = 3;
-            break;
-        default:
-            break;
-    }
-
-    for (let n = min; n < max; n++) {
-        let cx = 500 + 200 * Math.cos(n * Math.PI / 4);
-        let cy = 750 + 200 * Math.sin(n * Math.PI / 4);
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", cx);
-        circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 50);
-        svg.appendChild(circle);
-    }
-
-    let style = document.createElementNS(svgns, "style");
-    style.textContent = `
-    @media(prefers-color-scheme: light) {
-        circle {
-            fill: #000
+    positions.forEach(([cx, cy, idx]) => {
+        if (idx % 2 === 1) addCircle(svg, cx, cy, radii[positions.indexOf([cx, cy, idx])]);
+        const [min, max] = getMinMax(idx);
+        for (let n = min; n < max; n++) {
+            const x = cx + circleOffset * Math.cos(n * Math.PI / 4);
+            const y = cy + circleOffset * Math.sin(n * Math.PI / 4);
+            addCircle(svg, x, y, circleRadius);
         }
-    }
+    });
 
-    @media(prefers-color-scheme: dark) {
-        circle {
-            fill: #c99410
-        }
-    }
-    `;
-    svg.appendChild(style);
+    addStyle(svg, circleStyle);
 
-    let serializer = new dom.window.XMLSerializer();
-    let svgString = serializer.serializeToString(svg);
-
-    let svgContent = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
-
-    try {
-        await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
-    } catch (error) {
-        console.error("ファイル" + filename + "を作成できませんでした。", error);
-    }
+    const filename = path.join("favicon_index", consonants[i], `${consonants[i]}${consonants[j]}${consonants[k]}.svg`);
+    await writeSVG(filename, svg);
 }
 
-function glyphsetter(i) {
-    if (i % 2 === 1) {
-        let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 250);
-        circle.setAttribute("cy", 250);
-        circle.setAttribute("r", 150);
-        svg.appendChild(circle);
+async function generateConsonantDirectory(i) {
+    const dir = path.join("favicon_index", consonants[i]);
+    try {
+        await fs.mkdir(dir, { recursive: true });
+        console.log(`ディレクトリ ${dir} を作成しました。`);
+    } catch (e) {
+        console.error(`ディレクトリ ${dir} を作成できませんでした。`, e);
     }
-
-    let min, max;
-
-    switch (i) {
-        case 0:
-        case 1:
-            min = -4;
-            max = -1;
-            break;
-        case 2:
-        case 3:
-            min = -3;
-            max = 0;
-            break;
-        case 4:
-        case 5:
-            min = -2;
-            max = 1;
-            break;
-        case 6:
-        case 7:
-            min = -5;
-            max = -2;
-            break;
-        case 8:
-        case 9:
-            min = 0;
-            max = 8;
-            break;
-        case 10:
-        case 11:
-            min = -1;
-            max = 2;
-            break;
-        case 12:
-        case 13:
-            min = 2;
-            max = 5;
-            break;
-        case 14:
-        case 15:
-            min = 1;
-            max = 4;
-            break;
-        case 16:
-        case 17:
-            min = 0;
-            max = 3;
-            break;
-        default:
-            break;
-    }
-    return min, max;
 }
 
 async function make() {
-    let directory = path.join("favicon_index");
-    try {
-        await fs.mkdir(directory, { recursive: true });
-        console.log("ディレクトリ" + directory + "を作成しました。");
-    } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。");
-    }
+    await fs.mkdir("favicon_index", { recursive: true });
+    console.log("ディレクトリ favicon_index を作成しました。");
+
     await generateIndex();
-    for (let i = 0; i < consonants_array.length; i++) {
+
+    for (let i = 0; i < consonants.length; i++) {
         await generateConsonant(i);
         await generateConsonantDirectory(i);
-        for (let j = 0; j < consonants_array.length; j++) {
-            for (let k = 0; k < consonants_array.length; k++) {
+        for (let j = 0; j < consonants.length; j++) {
+            for (let k = 0; k < consonants.length; k++) {
                 await generateRoot(i, j, k);
             }
         }
     }
-    console.log("ディレクトリ" + directory + "の内部データを生成完了");
+
+    console.log("生成完了");
 }
 
 make();
