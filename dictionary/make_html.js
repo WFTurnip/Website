@@ -340,6 +340,13 @@ async function generateRoot(i, j, k) {
     header.appendChild(header_nav);
     body.appendChild(header);
 
+    let figure = document.createElement("figure");
+    let object = document.createElement("object");
+    object.data = "../../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
+    object.type = "image/svg+xml";
+    figure.appendChild(object);
+    body.appendChild(figure);
+
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("zosokw");
