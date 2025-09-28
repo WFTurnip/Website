@@ -86,18 +86,18 @@ async function generateRoot(i, j, k) {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
     const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
-    svg.setAttribute("width", 1000);
-    svg.setAttribute("height", 1000);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     const positions = [
-        [250, 250, i],
-        [750, 250, j],
-        [500, 750, k]
+        [25, 25, i],
+        [75, 25, j],
+        [50, 75, k]
     ];
 
-    const radii = [150, 150, 150];
-    const circleOffset = 200;
-    const circleRadius = 50;
+    const radii = [15, 15, 15];
+    const circleOffset = 20;
+    const circleRadius = 5;
 
     positions.forEach(([cx, cy, idx]) => {
         if (idx % 2 === 1) addCircle(svg, cx, cy, radii[positions.indexOf([cx, cy, idx])]);
