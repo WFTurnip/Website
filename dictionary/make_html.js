@@ -61,6 +61,13 @@ async function generateIndex() {
     header.appendChild(header_nav);
     body.appendChild(header);
 
+    let figure = document.createElement("figure");
+    let object = document.createElement("object");
+    object.data = "../favicon_index/" + "index" + ".svg";
+    object.type = "image/svg+xml";
+    figure.appendChild(object);
+    body.appendChild(figure);
+
     let h1 = document.createElement("h1");
     h1.textContent = "子音一覧";
     body.appendChild(h1);
@@ -171,6 +178,13 @@ async function generateConsonant(i) {
     header_nav.appendChild(header_ol);
     header.appendChild(header_nav);
     body.appendChild(header);
+
+    let figure = document.createElement("figure");
+    let object = document.createElement("object");
+    object.data = "../favicon_index/" + consonants_array[i] + ".svg";
+    object.type = "image/svg+xml";
+    figure.appendChild(object);
+    body.appendChild(figure);
 
     let h1 = document.createElement("h1");
     let h1_span = document.createElement("span");

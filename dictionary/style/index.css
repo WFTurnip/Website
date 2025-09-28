@@ -49,3 +49,7 @@ nav li::after {
 nav li:last-child::after {
     content: "";
 }
+
+figure {
+    text-align: center;
+}
