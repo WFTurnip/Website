@@ -398,7 +398,6 @@ async function generateRoot(i, j, k) {
         svg.appendChild(circle);
     }
 
-
     let style = document.createElementNS(svgns, "style");
     style.textContent = `
     @media(prefers-color-scheme: light) {

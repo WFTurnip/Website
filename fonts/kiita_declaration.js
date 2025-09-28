@@ -68,7 +68,6 @@ for (let col = 0; col < 16; col++) {
 thead.appendChild(headerRow);
 table.appendChild(thead);
 
-
 const tbody = document.createElement("tbody");
 
 for (let row = 0; row < 8; row++) {

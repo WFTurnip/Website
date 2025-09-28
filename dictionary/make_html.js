@@ -44,7 +44,6 @@ async function generateIndex() {
     link4.href = "../favicon_index/" + "index" + ".svg";
     head.appendChild(link4);
 
-
     let body = document.body;
     let header = document.createElement("header");
     let header_nav = document.createElement("nav");
