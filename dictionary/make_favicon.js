@@ -428,6 +428,69 @@ async function generateRoot(i, j, k) {
     }
 }
 
+function glyphsetter(i) {
+    if (i % 2 === 1) {
+        let circle = document.createElementNS(svgns, "circle");
+        circle.setAttribute("cx", 250);
+        circle.setAttribute("cy", 250);
+        circle.setAttribute("r", 150);
+        svg.appendChild(circle);
+    }
+
+    let min, max;
+
+    switch (i) {
+        case 0:
+        case 1:
+            min = -4;
+            max = -1;
+            break;
+        case 2:
+        case 3:
+            min = -3;
+            max = 0;
+            break;
+        case 4:
+        case 5:
+            min = -2;
+            max = 1;
+            break;
+        case 6:
+        case 7:
+            min = -5;
+            max = -2;
+            break;
+        case 8:
+        case 9:
+            min = 0;
+            max = 8;
+            break;
+        case 10:
+        case 11:
+            min = -1;
+            max = 2;
+            break;
+        case 12:
+        case 13:
+            min = 2;
+            max = 5;
+            break;
+        case 14:
+        case 15:
+            min = 1;
+            max = 4;
+            break;
+        case 16:
+        case 17:
+            min = 0;
+            max = 3;
+            break;
+        default:
+            break;
+    }
+    return min, max;
+}
+
 async function make() {
     let directory = path.join("favicon_index");
     try {
