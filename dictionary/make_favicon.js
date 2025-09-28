@@ -53,9 +53,9 @@ async function generateIndex() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    addCircle(svg, 50, 50, 40);
+    addCircle(svg, 50, 50, 25);
     for (let i = 0; i < 8; i++) {
-        addCircle(svg, 50 + 45 * Math.cos(i * Math.PI / 4), 50 + 45 * Math.sin(i * Math.PI / 4), 5);
+        addCircle(svg, 50 + 37.5 * Math.cos(i * Math.PI / 4), 50 + 37.5 * Math.sin(i * Math.PI / 4), 12.5);
     }
     addStyle(svg, circleStyle);
 
