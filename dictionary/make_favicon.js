@@ -70,14 +70,14 @@ async function generateConsonant(i) {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     if (i % 2 === 1) {
         let circle = document.createElementNS(svgns, "circle");
-        circle.setAttribute("cx", 250);
-        circle.setAttribute("cy", 250);
-        circle.setAttribute("r", 150);
+        circle.setAttribute("cx", 50);
+        circle.setAttribute("cy", 50);
+        circle.setAttribute("r", 30);
         svg.appendChild(circle);
     }
 
@@ -134,12 +134,12 @@ async function generateConsonant(i) {
     }
 
     for (let j = min; j < max; j++) {
-        let cx = 250 + 200 * Math.cos(j * Math.PI / 4);
-        let cy = 250 + 200 * Math.sin(j * Math.PI / 4);
+        let cx = 50 + 40 * Math.cos(j * Math.PI / 4);
+        let cy = 50 + 40 * Math.sin(j * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
         circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 50);
+        circle.setAttribute("r", 10);
         svg.appendChild(circle);
     }
 
