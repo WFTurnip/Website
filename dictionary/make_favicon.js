@@ -1,6 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
+const cssom = require("cssom");
 const beautify = require("js-beautify").html;
 
 const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
@@ -13,22 +14,22 @@ async function generateIndex() {
     let svgns = "http://www.w3.org/2000/svg";
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 500);
-    svg.setAttribute("height", 500);
+    svg.setAttribute("width", 100);
+    svg.setAttribute("height", 100);
 
     let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 250);
-    circle.setAttribute("cy", 250);
-    circle.setAttribute("r", 200);
+    circle.setAttribute("cx", 50);
+    circle.setAttribute("cy", 50);
+    circle.setAttribute("r", 40);
     svg.appendChild(circle);
 
     for (let i = 0; i < 8; i++) {
-        let cx = 250 + 225 * Math.cos(i * Math.PI / 4);
-        let cy = 250 + 225 * Math.sin(i * Math.PI / 4);
+        let cx = 50 + 45 * Math.cos(i * Math.PI / 4);
+        let cy = 50 + 45 * Math.sin(i * Math.PI / 4);
         let circle = document.createElementNS(svgns, "circle");
         circle.setAttribute("cx", cx);
         circle.setAttribute("cy", cy);
-        circle.setAttribute("r", 25);
+        circle.setAttribute("r", 5);
         svg.appendChild(circle);
     }
 
