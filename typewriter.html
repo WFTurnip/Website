@@ -1,9 +1,11 @@
+<!DOCTYPE html>
+<html lang="ja">
 
-<html lang="ja"><head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>創作言語タイプライター</title>
-    <link rel="stylesheet" href="keyboard.css">
+    <link rel="stylesheet" href="typewriter.css">
     <link rel="stylesheet" href="fonts_download.css">
     <link rel="stylesheet" href="index.css">
 </head>
@@ -26,209 +28,211 @@
     <fieldset>
         <legend>タイプキー</legend>
         <table id="keyboard">
-            <tbody><tr>
-                <td>
-                    <button class="key" data-normal="k" data-shift="1" data-key="k">
-                        <span class="shifted">1</span>
-                        <span class="no-shifted">k</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="t" data-shift="2" data-key="t">
-                        <span class="shifted">2</span>
-                        <span class="no-shifted">t</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="s" data-shift="3" data-key="s">
-                        <span class="shifted">3</span>
-                        <span class="no-shifted">s</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="a" data-shift="(" data-key="a">
-                        <span class="shifted">(</span>
-                        <span class="no-shifted">-a</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="?" data-shift="!" data-key="?">
-                        <span class="shifted">!</span>
-                        <span class="no-shifted">?</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="o" data-shift=")" data-key="o">
-                        <span class="shifted">)</span>
-                        <span class="no-shifted">-o</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="g" data-shift="+" data-key="g">
-                        <span class="shifted">+</span>
-                        <span class="no-shifted">g</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="d" data-shift="-" data-key="d">
-                        <span class="shifted">-</span>
-                        <span class="no-shifted">d</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="z" data-shift="*" data-key="z">
-                        <span class="shifted">*</span>
-                        <span class="no-shifted">z</span>
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button class="key" data-normal="q" data-shift="4" data-key="q">
-                        <span class="shifted">4</span>
-                        <span class="no-shifted">q</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="r" data-shift="5" data-key="r">
-                        <span class="shifted">5</span>
-                        <span class="no-shifted">r</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="p" data-shift="6" data-key="p">
-                        <span class="shifted">6</span>
-                        <span class="no-shifted">p</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="e" data-shift="{" data-key="e">
-                        <span class="shifted">{</span>
-                        <span class="no-shifted">-e</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="," data-shift=";" data-key=",">
-                        <span class="shifted">;</span>
-                        <span class="no-shifted">,</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="u" data-shift="}" data-key="u">
-                        <span class="shifted">}</span>
-                        <span class="no-shifted">-u</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="c" data-shift="'" data-key="c">
-                        <span class="shifted">&lt;</span>
-                        <span class="no-shifted">c</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="l" data-shift="&quot;" data-key="l">
-                        <span class="shifted">=</span>
-                        <span class="no-shifted">l</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="b" data-shift="|" data-key="b">
-                        <span class="shifted">&gt;</span>
-                        <span class="no-shifted">b</span>
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button class="key" data-normal="h" data-shift="7" data-key="h">
-                        <span class="shifted">7</span>
-                        <span class="no-shifted">h</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="f" data-shift="8" data-key="f">
-                        <span class="shifted">8</span>
-                        <span class="no-shifted">f</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="m" data-shift="9" data-key="m">
-                        <span class="shifted">9</span>
-                        <span class="no-shifted">m</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="i" data-shift="[" data-key="i">
-                        <span class="shifted">[</span>
-                        <span class="no-shifted">-i</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="." data-shift=":" data-key=".">
-                        <span class="shifted">:</span>
-                        <span class="no-shifted">.</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="w" data-shift="]" data-key="w">
-                        <span class="shifted">]</span>
-                        <span class="no-shifted">-w</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="x" data-shift="'" data-key="x">
-                        <span class="shifted">'</span>
-                        <span class="no-shifted">x</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="v" data-shift="&quot;" data-key="v">
-                        <span class="shifted">"</span>
-                        <span class="no-shifted">v</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="n" data-shift="|" data-key="n">
-                        <span class="shifted">|</span>
-                        <span class="no-shifted">n</span>
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <button class="key" data-normal="&amp;" data-shift="0" data-key="&amp;">
-                        <span class="shifted">0</span>
-                        <span class="no-shifted">&amp;</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="shift" data-shift="shifted" data-key="shift">
-                        <span class="shifted">sa</span>
-                        <span class="no-shifted">si</span>
-                    </button>
-                </td>
-                <td colspan="3">
-                    <button class="key space" data-normal=" " data-shift=" " data-key=" ">
-                        <span class="shifted">Qinarwziqili</span>
-                        <span class="no-shifted">swpase</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="shift" data-shift="shifted" data-key="shift">
-                        <span class="shifted">sa</span>
-                        <span class="no-shifted">si</span>
-                    </button>
-                </td>
-                <td>
-                    <button class="key" data-normal="/" data-shift="\" data-key="/">
-                        <span class="shifted">\</span>
-                        <span class="no-shifted">/</span>
-                    </button>
-                </td>
-                <td></td>
-            </tr>
-        </tbody></table>
+            <tbody>
+                <tr>
+                    <td>
+                        <button class="key" data-normal="k" data-shift="1" data-key="k">
+                            <span class="shifted">1</span>
+                            <span class="no-shifted">k</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="t" data-shift="2" data-key="t">
+                            <span class="shifted">2</span>
+                            <span class="no-shifted">t</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="s" data-shift="3" data-key="s">
+                            <span class="shifted">3</span>
+                            <span class="no-shifted">s</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="a" data-shift="(" data-key="a">
+                            <span class="shifted">(</span>
+                            <span class="no-shifted">-a</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="?" data-shift="!" data-key="?">
+                            <span class="shifted">!</span>
+                            <span class="no-shifted">?</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="o" data-shift=")" data-key="o">
+                            <span class="shifted">)</span>
+                            <span class="no-shifted">-o</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="g" data-shift="+" data-key="g">
+                            <span class="shifted">+</span>
+                            <span class="no-shifted">g</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="d" data-shift="-" data-key="d">
+                            <span class="shifted">-</span>
+                            <span class="no-shifted">d</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="z" data-shift="*" data-key="z">
+                            <span class="shifted">*</span>
+                            <span class="no-shifted">z</span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="key" data-normal="q" data-shift="4" data-key="q">
+                            <span class="shifted">4</span>
+                            <span class="no-shifted">q</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="r" data-shift="5" data-key="r">
+                            <span class="shifted">5</span>
+                            <span class="no-shifted">r</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="p" data-shift="6" data-key="p">
+                            <span class="shifted">6</span>
+                            <span class="no-shifted">p</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="e" data-shift="{" data-key="e">
+                            <span class="shifted">{</span>
+                            <span class="no-shifted">-e</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="," data-shift=";" data-key=",">
+                            <span class="shifted">;</span>
+                            <span class="no-shifted">,</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="u" data-shift="}" data-key="u">
+                            <span class="shifted">}</span>
+                            <span class="no-shifted">-u</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="c" data-shift="'" data-key="c">
+                            <span class="shifted">&lt;</span>
+                            <span class="no-shifted">c</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="l" data-shift="&quot;" data-key="l">
+                            <span class="shifted">=</span>
+                            <span class="no-shifted">l</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="b" data-shift="|" data-key="b">
+                            <span class="shifted">&gt;</span>
+                            <span class="no-shifted">b</span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button class="key" data-normal="h" data-shift="7" data-key="h">
+                            <span class="shifted">7</span>
+                            <span class="no-shifted">h</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="f" data-shift="8" data-key="f">
+                            <span class="shifted">8</span>
+                            <span class="no-shifted">f</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="m" data-shift="9" data-key="m">
+                            <span class="shifted">9</span>
+                            <span class="no-shifted">m</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="i" data-shift="[" data-key="i">
+                            <span class="shifted">[</span>
+                            <span class="no-shifted">-i</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="." data-shift=":" data-key=".">
+                            <span class="shifted">:</span>
+                            <span class="no-shifted">.</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="w" data-shift="]" data-key="w">
+                            <span class="shifted">]</span>
+                            <span class="no-shifted">-w</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="x" data-shift="'" data-key="x">
+                            <span class="shifted">'</span>
+                            <span class="no-shifted">x</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="v" data-shift="&quot;" data-key="v">
+                            <span class="shifted">"</span>
+                            <span class="no-shifted">v</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="n" data-shift="|" data-key="n">
+                            <span class="shifted">|</span>
+                            <span class="no-shifted">n</span>
+                        </button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button class="key" data-normal="&amp;" data-shift="0" data-key="&amp;">
+                            <span class="shifted">0</span>
+                            <span class="no-shifted">&amp;</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="shift" data-shift="shifted" data-key="shift">
+                            <span class="shifted">sa</span>
+                            <span class="no-shifted">si</span>
+                        </button>
+                    </td>
+                    <td colspan="3">
+                        <button class="key space" data-normal=" " data-shift=" " data-key=" ">
+                            <span class="shifted">Qinarwziqili</span>
+                            <span class="no-shifted">swpase</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="shift" data-shift="shifted" data-key="shift">
+                            <span class="shifted">sa</span>
+                            <span class="no-shifted">si</span>
+                        </button>
+                    </td>
+                    <td>
+                        <button class="key" data-normal="/" data-shift="\" data-key="/">
+                            <span class="shifted">\</span>
+                            <span class="no-shifted">/</span>
+                        </button>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
     </fieldset>
     <fieldset>
         <legend>書体切り替え</legend>
@@ -247,9 +251,9 @@
             <option value="11">ゾソーク体</option>
         </select>
     </fieldset>
-    <p>創作している言語のタイプライターを制作してみました。上記のセレクトカラムに表示される書体名については<a href="fonts_download.html" target="_blank" rel="noopener noreferrer">こちらのページ</a>を参照してください。別のタブで書体名目録が開いてくれます。
+    <p>創作している言語のタイプライターを制作してみました。上記のセレクトカラムに表示される書体名については<a href="fonts_download.html" target="_blank"
+            rel="noopener noreferrer">こちらのページ</a>を参照してください。別のタブで書体名目録が開いてくれます。
     </p>
-    <script src="keyboard.js"></script>
     <footer>
         <nav>
             <ol>
@@ -259,6 +263,7 @@
             </ol>
         </nav>
     </footer>
+    <script src="typewriter.js"></script>
+</body>
 
-
-</body></html>
+</html>
