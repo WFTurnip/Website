@@ -11,10 +11,7 @@ const minMaxMap = [
     [2, 5], [2, 5], [1, 4], [1, 4], [0, 3], [0, 3]
 ];
 
-const circleStyle = `
-@media(prefers-color-scheme: light){circle{fill:#000}}
-@media(prefers-color-scheme: dark){circle{fill:#c99410}}
-`;
+const circleStyle = "@media(prefers-color-scheme: light){circle{fill:#000}}@media(prefers-color-scheme: dark){circle{fill:#c99410}}";
 
 function getMinMax(i) {
     return minMaxMap[i] || [0, 0];
@@ -40,9 +37,9 @@ async function writeSVG(filename, svg) {
     const content = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
     try {
         await fs.writeFile(filename, content);
-        console.log(`ファイル ${filename} を作成しました。`);
+        console.log("ファイル " + filename + "を作成しました。");
     } catch (e) {
-        console.error(`ファイル ${filename} を作成できませんでした。`, e);
+        console.error("ファイル " + filename + "を作成できませんでした。", e);
     }
 }
 
@@ -119,9 +116,9 @@ async function generateConsonantDirectory(i) {
     const dir = path.join("favicon_index", consonants[i]);
     try {
         await fs.mkdir(dir, { recursive: true });
-        console.log(`ディレクトリ ${dir} を作成しました。`);
+        console.log("ディレクトリ" + dir + "を作成しました。");
     } catch (e) {
-        console.error(`ディレクトリ ${dir} を作成できませんでした。`, e);
+        console.error("ディレクトリ" + dir + "を作成できませんでした。", e);
     }
 }
 
