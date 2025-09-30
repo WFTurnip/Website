@@ -1,6 +1,7 @@
 const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
+const { dir } = require("console");
 const beautify = require("js-beautify").html;
 
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
@@ -108,26 +109,27 @@ async function generateRoot(i, j, k) {
 
     addStyle(svg, circleStyle);
 
-    const filename = path.join("favicon_index", consonants[i], `${consonants[i]}${consonants[j]}${consonants[k]}.svg`);
+    const filename = path.join("favicon_index", consonants[i], consonants[i] + consonants[j] + consonants[k] + ".svg");
     await writeSVG(filename, svg);
 }
 
 async function generateConsonantDirectory(i) {
-    const dir = path.join("favicon_index", consonants[i]);
+    const directory = path.join("favicon_index", consonants[i]);
     try {
-        await fs.mkdir(dir, { recursive: true });
-        console.log("ディレクトリ" + dir + "を作成しました。");
+        await fs.mkdir(directory, { recursive: true });
+        console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (e) {
-        console.error("ディレクトリ" + dir + "を作成できませんでした。", e);
+        console.error("ディレクトリ" + directory + "を作成できませんでした。", e);
     }
 }
 
 async function make() {
-    await fs.mkdir("favicon_index", { recursive: true });
-    console.log("ディレクトリfavicon_indexを作成しました。");
+    const directory = "favicon_index";
+    await fs.mkdir(directory, { recursive: true });
+
+    console.log("ディレクトリ" + directory + "を作成しました。");
 
     await generateIndex();
-
     for (let i = 0; i < consonants.length; i++) {
         await generateConsonant(i);
         await generateConsonantDirectory(i);
@@ -138,7 +140,7 @@ async function make() {
         }
     }
 
-    console.log("生成完了");
+    console.log("ディレクトリ" + directory + "内部データ生成完了");
 }
 
 make();
