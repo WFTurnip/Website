@@ -1,12 +1,13 @@
 <?xml-stylesheet href="../style/emblem.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="300">
-    <path class="background"
+    <path class="background" fill="#7f7f7f"
         d="M300 150a150 150 0 0 1-150 150A150 150 0 0 1 0 150 150 150 0 0 1 150 0a150 150 0 0 1 150 150" />
-    <path class="east"
+    <path class="east" fill="#00ffff"
         d="M300 150a37.5 37.5 0 0 1-37.5 37.5A37.5 37.5 0 0 1 225 150a37.5 37.5 0 0 1 37.5-37.5A37.5 37.5 0 0 1 300 150" />
-    <path class="south"
+    <path class="south" fill="#ff0000"
         d="M187.5 262.5A37.5 37.5 0 0 1 150 300a37.5 37.5 0 0 1-37.5-37.5A37.5 37.5 0 0 1 150 225a37.5 37.5 0 0 1 37.5 37.5" />
-    <path class="center" d="M225 150a75 75 0 0 1-75 75 75 75 0 0 1-75-75 75 75 0 0 1 75-75 75 75 0 0 1 75 75" />
+    <path class="center" fill="#ffff00"
+        d="M225 150a75 75 0 0 1-75 75 75 75 0 0 1-75-75 75 75 0 0 1 75-75 75 75 0 0 1 75 75" />
     <path class="west"
         d="M75 150a37.5 37.5 0 0 1-37.5 37.5A37.5 37.5 0 0 1 0 150a37.5 37.5 0 0 1 37.5-37.5A37.5 37.5 0 0 1 75 150" />
     <path class="north"
