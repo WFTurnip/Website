@@ -369,6 +369,7 @@ async function generateRoot(i, j, k) {
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
                 let index = document.createElement("p");
+                index.id = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
 
                 let word = document.createElement("span");
                 word.classList.add("zosokw");

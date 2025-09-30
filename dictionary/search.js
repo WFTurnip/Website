@@ -181,6 +181,15 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             const word_meaning = document.createElement("p");
             word_meaning.textContent = item.word_meaning;
             details.appendChild(word_meaning);
+
+            const p3 = document.createElement("p");
+            const a = document.createElement("a");
+            a.href = "html_index" + "/" + item.root_html_href + "#" + item.word.toLowerCase();
+            a.textContent = "リンクページへ";
+            a.target = "_blank";
+            a.rel = "noopener noreferrer";
+            p3.appendChild(a);
+            details.appendChild(p3);
         });
     } catch (error) {
         console.error(error);
