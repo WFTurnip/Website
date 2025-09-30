@@ -91,7 +91,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
             const p2 = document.createElement("p");
             const a = document.createElement("a");
             a.href = "html_index" + "/" + item.consonant_html_href;
-            a.textContent = "リンクページへ";
+            a.textContent = "詳細ページ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
             p2.appendChild(a);
@@ -133,7 +133,7 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
             const p3 = document.createElement("p");
             const a = document.createElement("a");
             a.href = "html_index" + "/" + item.root_html_href;
-            a.textContent = "リンクページへ";
+            a.textContent = "詳細ページ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
             p3.appendChild(a);
@@ -185,7 +185,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             const word_link = document.createElement("p");
             const a = document.createElement("a");
             a.href = "html_index" + "/" + filename + ".html" + "#" + item.word.toLowerCase();
-            a.textContent = "リンクページへ";
+            a.textContent = "詳細ページ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
             word_link.appendChild(a);
