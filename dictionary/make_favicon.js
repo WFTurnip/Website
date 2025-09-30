@@ -1,7 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
-const { dir } = require("console");
 const beautify = require("js-beautify").html;
 
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
