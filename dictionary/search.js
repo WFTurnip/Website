@@ -1,10 +1,10 @@
 document.addEventListener("DOMContentLoaded", async () => {
-    const params = new URLSearchParams(window.location.search);
+    const parameters = new URLSearchParams(window.location.search);
 
-    const searchWord = params.get("search") || "";
-    const consonants = params.get("consonants") === "ON";
-    const roots = params.get("roots") === "ON";
-    const words = params.get("words") === "ON";
+    const searchWord = parameters.get("search") || "";
+    const consonants = parameters.get("consonants") === "ON";
+    const roots = parameters.get("roots") === "ON";
+    const words = parameters.get("words") === "ON";
 
     document.getElementById("search").value = searchWord;
     document.getElementById("consonants").checked = consonants;
