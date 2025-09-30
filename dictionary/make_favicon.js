@@ -38,8 +38,8 @@ async function writeSVG(filename, svg) {
     try {
         await fs.writeFile(filename, content);
         console.log("ファイル" + filename + "を作成しました。");
-    } catch (e) {
-        console.error("ファイル" + filename + "を作成できませんでした。", e);
+    } catch (error) {
+        console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
 
@@ -117,17 +117,19 @@ async function generateConsonantDirectory(i) {
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
-    } catch (e) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。", e);
+    } catch (error) {
+        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
 
 async function make() {
     const directory = "favicon_index";
-    await fs.mkdir(directory, { recursive: true });
-
-    console.log("ディレクトリ" + directory + "を作成しました。");
-
+    try {
+        await fs.mkdir(directory, { recursive: true });
+        console.log("ディレクトリ" + directory + "を作成しました。");
+    } catch (error) {
+        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+    }
     await generateIndex();
     for (let i = 0; i < consonants.length; i++) {
         await generateConsonant(i);
