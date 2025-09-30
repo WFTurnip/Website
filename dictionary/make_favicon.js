@@ -37,9 +37,9 @@ async function writeSVG(filename, svg) {
     const content = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
     try {
         await fs.writeFile(filename, content);
-        console.log("ファイル " + filename + "を作成しました。");
+        console.log("ファイル" + filename + "を作成しました。");
     } catch (e) {
-        console.error("ファイル " + filename + "を作成できませんでした。", e);
+        console.error("ファイル" + filename + "を作成できませんでした。", e);
     }
 }
 
@@ -124,7 +124,7 @@ async function generateConsonantDirectory(i) {
 
 async function make() {
     await fs.mkdir("favicon_index", { recursive: true });
-    console.log("ディレクトリ favicon_index を作成しました。");
+    console.log("ディレクトリfavicon_indexを作成しました。");
 
     await generateIndex();
 

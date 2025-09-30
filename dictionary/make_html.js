@@ -75,7 +75,7 @@ async function generateIndex() {
     let main = document.createElement("main");
     for (let i = 0; i < consonants_array.length; i++) {
         let consonant = document.createElement("p");
-        consonant.id = consonant[i];
+        consonant.id = consonants_array[i];
 
         let index = document.createElement("span");
         let a = document.createElement("a");
