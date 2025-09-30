@@ -182,14 +182,14 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             word_meaning.textContent = item.word_meaning;
             details.appendChild(word_meaning);
 
-            const p3 = document.createElement("p");
+            const word_link = document.createElement("p");
             const a = document.createElement("a");
-            a.href = "html_index" + "/" + item.root_html_href + "#" + item.word.toLowerCase();
+            a.href = "html_index" + "/" + filename + ".html" + "#" + item.word.toLowerCase();
             a.textContent = "リンクページへ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
-            p3.appendChild(a);
-            details.appendChild(p3);
+            word_link.appendChild(a);
+            details.appendChild(word_link);
         });
     } catch (error) {
         console.error(error);
