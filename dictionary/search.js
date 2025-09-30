@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("roots").checked = roots;
     document.getElementById("words").checked = words;
 
-    const searchWordContainer = document.getElementById("search-word");
+    const searchWordContainer = document.getElementById("search");
     searchWordContainer.innerHTML = "";
 
     if (!searchWord) {
