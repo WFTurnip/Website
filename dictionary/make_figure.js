@@ -17,7 +17,7 @@ async function generateArticleConjugationFigure() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 50);
     circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 50);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -49,7 +49,7 @@ async function generateVerbConjugationFigure() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 50);
     circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 50);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -81,7 +81,7 @@ async function generateAdjectiveConjugationFigure() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 50);
     circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 50);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -113,7 +113,7 @@ async function generateParticleConjugationFigure() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 50);
     circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 50);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -145,7 +145,7 @@ async function generateAdverbConjugationFigure() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 50);
     circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 50);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
@@ -176,7 +176,7 @@ async function generateNounConjugationFigure() {
     let circle = document.createElementNS(svgns, "circle");
     circle.setAttribute("cx", 50);
     circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 50);
+    circle.setAttribute("r", 25);
     svg.appendChild(circle);
 
     let serializer = new dom.window.XMLSerializer();
