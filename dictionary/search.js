@@ -193,10 +193,13 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
 
             const word_link = document.createElement("p");
             const a = document.createElement("a");
+            const span = document.createElement("span");
+            span.classList.add("zosokw");
+            span.textContent =   item.word.toLowerCase();
             a.href = "html_index" + "/" + filename + ".html" + "#" + item.word.toLowerCase();
-            a.textContent = "" + "詳細ページ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
+            a.appendChild(span);
             word_link.appendChild(a);
             details.appendChild(word_link);
         });
