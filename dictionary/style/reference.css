@@ -14,13 +14,13 @@ body h3 {
     counter-increment: section;
 }
 
-#toc summary h2,
-#toc summary h3 {
+#table-of-content summary h2,
+#table-of-content summary h3 {
     counter-increment: none;
 }
 
-#toc summary h2::before,
-#toc summary h3::before {
+#table-of-content summary h2::before,
+#table-of-content summary h3::before {
     content: "";
 }
 
