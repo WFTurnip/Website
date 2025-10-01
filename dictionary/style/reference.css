@@ -50,7 +50,7 @@ nav h2::before {
 }
 
 nav h3::before {
-    content: "第" counter(toc-chapter, japanese-informal) "章\3000" counter(toc-section, japanese-informal) "節\3000";
+    content: "第" counter(toc-section, japanese-informal) "節\3000";
 }
 
 h1 {
