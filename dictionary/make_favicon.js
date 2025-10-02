@@ -66,7 +66,9 @@ async function generateConsonant(i) {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    if (i % 2 === 1) addCircle(svg, 50, 50, 30);
+    if (i % 2 === 1) {
+        addCircle(svg, 50, 50, 30);
+    }
 
     const [min, max] = getMinMax(i);
     for (let j = min; j < max; j++) {
@@ -92,12 +94,15 @@ async function generateRoot(i, j, k) {
         [50, 75, k]
     ];
 
-    const radii = [15, 15, 15];
     const circleOffset = 20;
     const circleRadius = 5;
 
     positions.forEach(([cx, cy, idx]) => {
-        if (idx % 2 === 1) addCircle(svg, cx, cy, radii[positions.indexOf([cx, cy, idx])]);
+
+        if (idx % 2 === 1) {
+            addCircle(svg, cx, cy, 15);
+        }
+
         const [min, max] = getMinMax(idx);
         for (let n = min; n < max; n++) {
             const x = cx + circleOffset * Math.cos(n * Math.PI / 4);
