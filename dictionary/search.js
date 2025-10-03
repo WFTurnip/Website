@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const parameters = new URLSearchParams(window.location.search);
 
-    const searchWord = parameters.get("search") || "";
+    const searchWord = parameters.get("searchInput") || "";
     const consonants = parameters.get("consonants") === "ON";
     const roots = parameters.get("roots") === "ON";
     const words = parameters.get("words") === "ON";
 
-    document.getElementById("search").value = searchWord;
+    document.getElementById("searchInput").value = searchWord;
     document.getElementById("consonants").checked = consonants;
     document.getElementById("roots").checked = roots;
     document.getElementById("words").checked = words;
 
-    const searchWordContainer = document.getElementById("search");
+    const searchWordContainer = document.getElementById("searchResult");
     searchWordContainer.innerHTML = "";
 
     if (!searchWord) {
@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         message.textContent = "検索語が入力されていませんので、検索を行いません。";
         message.classList.add("warning");
         searchWordContainer.appendChild(message);
-        resultContainer.innerHTML = "";
     } else {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
@@ -39,7 +38,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         searchOptionContainer.appendChild(message);
     } else {
         const p = document.createElement("p");
-        p.classList.add("search-options");
+        p.classList.add("options");
 
         const createOptionSpan = (label, isOn) => {
             const span = document.createElement("span");
