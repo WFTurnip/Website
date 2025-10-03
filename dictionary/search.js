@@ -11,14 +11,18 @@ document.addEventListener("DOMContentLoaded", async () => {
     document.getElementById("roots").checked = roots;
     document.getElementById("words").checked = words;
 
-    const searchWordContainer = document.getElementById("searchResult");
-    searchWordContainer.innerHTML = "";
+    const searchResultContainer = document.getElementById("searchResult");
+    const searchOptionContainer = document.getElementById("option");
+    const resultContainer = document.getElementById("result");
+    searchResultContainer.innerHTML = "";
+    searchOptionContainer.innerHTML = "";
+    resultContainer.innerHTML = "";
 
     if (!searchWord) {
         const message = document.createElement("p");
         message.textContent = "検索語が入力されていませんので、検索を行いません。";
         message.classList.add("warning");
-        searchWordContainer.appendChild(message);
+        searchResultContainer.appendChild(message);
     } else {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
@@ -26,11 +30,9 @@ document.addEventListener("DOMContentLoaded", async () => {
         searchResultSpan.className = "zosokw";
         searchResult.appendChild(searchResultSpan);
         searchResult.append("の検索結果");
-        searchWordContainer.appendChild(searchResult);
+        searchResultContainer.appendChild(searchResult);
     }
 
-    const searchOptionContainer = document.getElementById("option");
-    searchOptionContainer.innerHTML = "";
     if (!consonants && !roots && !words) {
         const message = document.createElement("p");
         message.textContent = "オプションが選択されていないので、絞り込み検索を行いません。";
@@ -57,8 +59,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         searchOptionContainer.appendChild(p);
     }
 
-    const resultContainer = document.getElementById("result");
-    resultContainer.innerHTML = "";
 
     const anyOptionOn = consonants || roots || words;
 
@@ -204,7 +204,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             a.target = "_blank";
             a.rel = "noopener noreferrer";
             a.append(span);
-            a.append("の詳細");
+            a.append("の詳細ページ");
             word_link.appendChild(a);
 
             details.appendChild(word_link);
@@ -227,18 +227,19 @@ async function fetchFileForSearch(searchWord) {
 }
 
 function filterData(data, searchWord, type) {
+    const wordLower = searchWord.toLowerCase();
     switch (type) {
         case "consonants":
             return data.consonants.filter(item =>
-                item.consonant === searchWord.charAt(0)
+                item.consonant.toLowerCase() === wordLower.charAt(0)
             );
         case "roots":
             return data.roots.filter(item =>
-                item.root === [0, 2, 4].map(i => searchWord.charAt(i) || "").join("")
+                item.root.toLowerCase() === [0, 2, 4].map(i => wordLower.charAt(i) || "").join("")
             );
         case "words":
             return data.words.filter(item =>
-                item.word === searchWord
+                item.word.toLowerCase() === wordLower
             );
         default:
             return [];
