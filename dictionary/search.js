@@ -224,6 +224,7 @@ async function fetchFileForSearch(searchWord) {
 
 function filterData(data, searchWord, type) {
     const wordLower = searchWord.toLowerCase();
+
     switch (type) {
         case "consonants":
             return data.consonants.filter(item =>
