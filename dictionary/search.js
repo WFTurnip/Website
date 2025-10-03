@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const searchResultContainer = document.getElementById("searchResult");
     const searchOptionContainer = document.getElementById("option");
     const resultContainer = document.getElementById("result");
+
     searchResultContainer.innerHTML = "";
     searchOptionContainer.innerHTML = "";
     resultContainer.innerHTML = "";
@@ -41,7 +42,6 @@ document.addEventListener("DOMContentLoaded", async () => {
     } else {
         const p = document.createElement("p");
         p.classList.add("options");
-
         const createOptionSpan = (label, isOn) => {
             const span = document.createElement("span");
             span.textContent = label;
@@ -51,17 +51,13 @@ document.addEventListener("DOMContentLoaded", async () => {
             span.appendChild(strong);
             return span;
         }
-
         p.appendChild(createOptionSpan("見出し検索: ", consonants));
         p.appendChild(createOptionSpan("語根検索: ", roots));
         p.appendChild(createOptionSpan("単語検索: ", words));
-
         searchOptionContainer.appendChild(p);
     }
 
-
     const anyOptionOn = consonants || roots || words;
-
     resultContainer.appendChild(await consonantsSearch(searchWord, consonants, anyOptionOn));
     resultContainer.appendChild(await rootsSearch(searchWord, roots, anyOptionOn));
     resultContainer.appendChild(await wordsSearch(searchWord, words, anyOptionOn));
