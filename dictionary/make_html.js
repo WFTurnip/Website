@@ -70,9 +70,11 @@ async function generateIndex() {
     article.appendChild(figure);
     body.appendChild(article);
 
+    let hgroup = document.createElement("hgroup");
     let h1 = document.createElement("h1");
     h1.textContent = "子音一覧";
-    body.appendChild(h1);
+    hgroup.appendChild(h1);
+    body.appendChild(hgroup);
 
     let main = document.createElement("main");
     for (let i = 0; i < consonants_array.length; i++) {
