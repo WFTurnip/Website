@@ -99,11 +99,9 @@ async function generateRoot(i, j, k) {
     const circleRadius = 5;
 
     positions.forEach(([cx, cy, idx]) => {
-
         if (idx % 2 === 1) {
             addCircle(svg, cx, cy, centerCircleRadius);
         }
-
         const [min, max] = getMinMax(idx);
         for (let n = min; n < max; n++) {
             const x = cx + circleOffset * Math.cos(n * Math.PI / 4);
