@@ -89,10 +89,15 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
 
             const p2 = document.createElement("p");
             const a = document.createElement("a");
+            const span = document.createElement("span");
+            span.classList.add("zosokw");
+            span.textContent = item.consonant;
             a.href = "html_index" + "/" + item.consonant_html_href;
-            a.textContent = "詳細ページ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
+            a.append("子音");
+            a.append(span);
+            a.append("の詳細ページ");
             p2.appendChild(a);
             details.appendChild(p2);
         });
@@ -129,14 +134,19 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
             root_index.appendChild(root_meaning);
             details.appendChild(root_index);
 
-            const p3 = document.createElement("p");
+            const root_href = document.createElement("p");
             const a = document.createElement("a");
+            const span = document.createElement("span");
+            span.classList.add("zosokw");
+            span.textContent = item.root;
             a.href = "html_index" + "/" + item.root_html_href;
-            a.textContent = "詳細ページ";
             a.target = "_blank";
             a.rel = "noopener noreferrer";
-            p3.appendChild(a);
-            details.appendChild(p3);
+            a.append("語根");
+            a.append(span);
+            a.append("の詳細ページ");
+            root_href.appendChild(a);
+            details.appendChild(root_href);
         });
     } catch (error) {
         console.error(error);
@@ -196,6 +206,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             a.href = "html_index" + "/" + filename + ".html" + "#" + item.word.toLowerCase();
             a.target = "_blank";
             a.rel = "noopener noreferrer";
+            a.append("単語")
             a.append(span);
             a.append("の詳細ページ");
             word_link.appendChild(a);
