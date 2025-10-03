@@ -5,11 +5,7 @@ const beautify = require("js-beautify").html;
 
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
-const minMaxMap = [
-    [-4, -1], [-4, -1], [-3, 0], [-3, 0], [-2, 1], [-2, 1],
-    [-5, -2], [-5, -2], [0, 8], [0, 8], [-1, 2], [-1, 2],
-    [2, 5], [2, 5], [1, 4], [1, 4], [0, 3], [0, 3]
-];
+const minMaxMap = [[-4, -1], [-4, -1], [-3, 0], [-3, 0], [-2, 1], [-2, 1], [-5, -2], [-5, -2], [0, 8], [0, 8], [-1, 2], [-1, 2], [2, 5], [2, 5], [1, 4], [1, 4], [0, 3], [0, 3]];
 
 const circleStyle = "@media(prefers-color-scheme: light){circle{fill:#000}}@media(prefers-color-scheme: dark){circle{fill:#c99410}}";
 
