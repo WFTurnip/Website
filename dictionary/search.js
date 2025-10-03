@@ -76,18 +76,22 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
     summary.textContent = "見出し検索";
     details.appendChild(summary);
 
-    const h2 = document.createElement("h2");
-    h2.textContent = searchWord.charAt(0);
-    h2.className = "zosokw";
-    details.appendChild(h2);
     let filename = "index";
     try {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "consonants");
         filtered.forEach(item => {
-            const h2 = document.createElement("p");
-            h2.textContent = "子音概念：" + item.consonant_meaning;
-            details.appendChild(h2);
+            const consonant_index = document.createElement("p");
+            const consonant = document.createElement("span");
+            consonant.textContent = searchWord.charAt(0);
+            consonant.classList.add("zosokw");
+            consonant_index.append(consonant);
+
+            const consonant_meaning = document.createElement("span");
+            consonant_meaning.textContent = item.consonant_meaning;
+            consonant_index.append(consonant_meaning);
+            details.appendChild(consonant_index);
+
             const p2 = document.createElement("p");
             const a = document.createElement("a");
             a.href = "html_index" + "/" + item.consonant_html_href;
