@@ -61,12 +61,14 @@ async function generateIndex() {
     header.appendChild(header_nav);
     body.appendChild(header);
 
+    let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
     object.data = "../favicon_index/" + "index" + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
-    body.appendChild(figure);
+    article.appendChild(figure);
+    body.appendChild(article);
 
     let h1 = document.createElement("h1");
     h1.textContent = "子音一覧";
