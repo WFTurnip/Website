@@ -71,8 +71,8 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
     summary.textContent = "見出し検索";
     details.appendChild(summary);
 
-    let filename = "index";
     try {
+        let filename = "index";
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "consonants");
         filtered.forEach(item => {
