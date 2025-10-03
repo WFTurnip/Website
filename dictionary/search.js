@@ -214,7 +214,9 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
 async function fetchFileForSearch(searchWord) {
     const filename = "json_index" + "/" + encodeURIComponent(searchWord) + ".json";
     const res = await fetch(filename);
-    if (!res.ok) throw new Error("ファイルが見つかりません");
+    if (!res.ok) {
+        throw new Error("ファイルが見つかりません");
+    }
     return await res.json();
 }
 
