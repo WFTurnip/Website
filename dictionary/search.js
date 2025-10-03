@@ -182,16 +182,13 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             word_part_of_speech.textContent = item.word_part_of_speech;
             word_part_of_speech.classList.add("part-of-speech");
             word_index.append(word_part_of_speech);
-
             details.appendChild(word_index);
 
             const word_meaning = document.createElement("p");
             word_meaning.textContent = item.word_meaning;
-
             details.appendChild(word_meaning);
 
             const word_link = document.createElement("p");
-
             const a = document.createElement("a");
             const span = document.createElement("span");
             span.classList.add("zosokw");
@@ -202,7 +199,6 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             a.append(span);
             a.append("の詳細ページ");
             word_link.appendChild(a);
-
             details.appendChild(word_link);
         });
     } catch (error) {
