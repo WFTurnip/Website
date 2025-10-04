@@ -24,29 +24,31 @@
         <h1>創作通貨両替計算機</h1>
     </hgroup>
     <main class="container">
-        <input type="number" id="amount" placeholder="金額を入力" oninput="convertCurrency()">
-        <hr>
-        <select id="from" onchange="convertCurrency()">
-            <option value="100000000">紙（チー）</option>
-            <option value="1000000">金（ジン）</option>
-            <option value="10000">銀（イン）</option>
-            <option value="100">銅（トゥン）</option>
-            <option value="10">鉄（ティエ）</option>
-            <option value="1">錫（シー）</option>
-        </select>
-        から
-        <select id="to" onchange="convertCurrency()">
-            <option value="100000000">紙（チー）</option>
-            <option value="1000000">金（ジン）</option>
-            <option value="10000">銀（イン）</option>
-            <option value="100">銅（トゥン）</option>
-            <option value="10">鉄（ティエ）</option>
-            <option value="1">錫（シー）</option>
-        </select>
-        <hr>
-        <div class="result" id="result"></div>
-        <hr>
-        <div class="result" id="result_yen"></div>
+        <article>
+            <input type="number" id="amount" placeholder="金額を入力" oninput="convertCurrency()">
+            <hr>
+            <select id="from" onchange="convertCurrency()">
+                <option value="100000000">紙（チー）</option>
+                <option value="1000000">金（ジン）</option>
+                <option value="10000">銀（イン）</option>
+                <option value="100">銅（トゥン）</option>
+                <option value="10">鉄（ティエ）</option>
+                <option value="1">錫（シー）</option>
+            </select>
+            から
+            <select id="to" onchange="convertCurrency()">
+                <option value="100000000">紙（チー）</option>
+                <option value="1000000">金（ジン）</option>
+                <option value="10000">銀（イン）</option>
+                <option value="100">銅（トゥン）</option>
+                <option value="10">鉄（ティエ）</option>
+                <option value="1">錫（シー）</option>
+            </select>
+            <hr>
+            <div class="result" id="result"></div>
+            <hr>
+            <div class="result" id="result_yen"></div>
+        </article>
         <dl>
             <dt>エレギア帝国の通貨について</dt>
             <dd>
