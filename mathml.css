@@ -1,0 +1,7 @@
+p:lang(ja) {
+    text-indent: 1rem;
+}
+
+p:lang(en) {
+    text-indent: 2rem;
+}

@@ -67,14 +67,6 @@ a:hover {
     font-weight: bold;
 }
 
-p:lang(ja) {
-    text-indent: 1rem;
-}
-
-p:lang(en) {
-    text-indent: 2rem;
-}
-
 nav,
 ol {
     list-style: none;
