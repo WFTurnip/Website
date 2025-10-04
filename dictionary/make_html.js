@@ -359,13 +359,15 @@ async function generateRoot(i, j, k) {
     article.appendChild(figure);
     body.appendChild(article);
 
+    let hgroup = document.createElement("hgroup");
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("zosokw");
     span1.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(span1);
-    body.appendChild(h1);
+    hgroup.appendChild(h1);
+    body.appendChild(hgroup);
 
     let p1 = document.createElement("p");
     let strong = document.createElement("strong");
