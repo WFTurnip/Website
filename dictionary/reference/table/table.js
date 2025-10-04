@@ -250,7 +250,7 @@ function generateConsonantMeansTable() {
     }
     tbody.appendChild(tr5);
     table.appendChild(tbody);
-    document.querySelectorAll(".consonant-means-table").forEach(function (element) {
+    document.querySelectorAll(".consonant-meaning-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
