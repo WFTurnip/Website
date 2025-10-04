@@ -80,11 +80,12 @@ async function generateArticleConjugationFigure() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 25);
-    svg.appendChild(circle);
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 25);
+    rect.setAttribute("y", 25);
+    rect.setAttribute("width", 50);
+    rect.setAttribute("height", 50);
+    svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -112,11 +113,12 @@ async function generateVerbConjugationFigure() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 25);
-    svg.appendChild(circle);
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 25);
+    rect.setAttribute("y", 25);
+    rect.setAttribute("width", 50);
+    rect.setAttribute("height", 50);
+    svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -144,11 +146,12 @@ async function generateAdjectiveConjugationFigure() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 25);
-    svg.appendChild(circle);
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 25);
+    rect.setAttribute("y", 25);
+    rect.setAttribute("width", 50);
+    rect.setAttribute("height", 50);
+    svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -176,11 +179,12 @@ async function generateParticleConjugationFigure() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 25);
-    svg.appendChild(circle);
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 25);
+    rect.setAttribute("y", 25);
+    rect.setAttribute("width", 50);
+    rect.setAttribute("height", 50);
+    svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -208,11 +212,12 @@ async function generateAdverbConjugationFigure() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 25);
-    svg.appendChild(circle);
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 25);
+    rect.setAttribute("y", 25);
+    rect.setAttribute("width", 50);
+    rect.setAttribute("height", 50);
+    svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -239,11 +244,12 @@ async function generateNounConjugationFigure() {
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
 
-    let circle = document.createElementNS(svgns, "circle");
-    circle.setAttribute("cx", 50);
-    circle.setAttribute("cy", 50);
-    circle.setAttribute("r", 25);
-    svg.appendChild(circle);
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 25);
+    rect.setAttribute("y", 25);
+    rect.setAttribute("width", 50);
+    rect.setAttribute("height", 50);
+    svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
