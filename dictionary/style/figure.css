@@ -1,10 +1,14 @@
 @media (prefers-color-scheme: light) {
+
+    rect,
     circle {
         fill: #3b3f3f;
     }
 }
 
 @media (prefers-color-scheme: dark) {
+
+    rect,
     circle {
         fill: #e8e5dd;
     }
