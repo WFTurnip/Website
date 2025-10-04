@@ -5,15 +5,6 @@ body {
     counter-reset: chapter;
 }
 
-body h2 {
-    counter-increment: chapter;
-    counter-reset: section;
-}
-
-body h3 {
-    counter-increment: section;
-}
-
 #table-of-content summary h2,
 #table-of-content summary h3 {
     counter-increment: none;
@@ -22,6 +13,15 @@ body h3 {
 #table-of-content summary h2::before,
 #table-of-content summary h3::before {
     content: "";
+}
+
+body h2 {
+    counter-increment: chapter;
+    counter-reset: section;
+}
+
+body h3 {
+    counter-increment: section;
 }
 
 body h2::before {
