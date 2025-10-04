@@ -77,6 +77,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWord, "consonants");
         filtered.forEach(item => {
             const consonant_index = document.createElement("p");
+
             const consonant = document.createElement("span");
             consonant.textContent = searchWord.charAt(0);
             consonant.classList.add("zosokw");
@@ -97,6 +98,7 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
             a.append(span);
             a.append("の詳細ページ");
             consonant_href.appendChild(a);
+
             details.appendChild(consonant_href);
         });
     } catch (error) {
