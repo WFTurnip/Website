@@ -87,19 +87,17 @@ async function consonantsSearch(searchWord, isOn, anyOptionOn) {
             consonant_index.append(consonant_meaning);
             details.appendChild(consonant_index);
 
-            const p2 = document.createElement("p");
+            const consonant_href = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
             span.classList.add("zosokw");
             span.textContent = item.consonant;
             a.href = "html_index" + "/" + item.consonant_html_href;
-            a.target = "_blank";
-            a.rel = "noopener noreferrer";
             a.append("子音");
             a.append(span);
             a.append("の詳細ページ");
-            p2.appendChild(a);
-            details.appendChild(p2);
+            consonant_href.appendChild(a);
+            details.appendChild(consonant_href);
         });
     } catch (error) {
         console.error(error);
@@ -125,10 +123,12 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWord, "roots");
         filtered.forEach(item => {
             const root_index = document.createElement("p");
+
             const root = document.createElement("span");
             root.textContent = item.root;
             root.classList.add("zosokw");
             root_index.append(root);
+
             const root_meaning = document.createElement("span");
             root_meaning.textContent = item.root_meaning;
             root_index.appendChild(root_meaning);
@@ -140,12 +140,11 @@ async function rootsSearch(searchWord, isOn, anyOptionOn) {
             span.classList.add("zosokw");
             span.textContent = item.root;
             a.href = "html_index" + "/" + item.root_html_href;
-            a.target = "_blank";
-            a.rel = "noopener noreferrer";
             a.append("語根");
             a.append(span);
             a.append("の詳細ページ");
             root_href.appendChild(a);
+
             details.appendChild(root_href);
         });
     } catch (error) {
@@ -204,8 +203,6 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             span.classList.add("zosokw");
             span.textContent = item.word.toLowerCase();
             a.href = "html_index" + "/" + filename + ".html" + "#" + item.word.toLowerCase();
-            a.target = "_blank";
-            a.rel = "noopener noreferrer";
             a.append("単語")
             a.append(span);
             a.append("の詳細ページ");
