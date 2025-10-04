@@ -369,16 +369,7 @@ async function generateRoot(i, j, k) {
     hgroup.appendChild(h1);
     body.appendChild(hgroup);
 
-    let p1 = document.createElement("p");
-    let strong = document.createElement("strong");
-    p1.appendChild(document.createTextNode("この語根は"));
-    strong.textContent = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
-    p1.appendChild(strong);
-    p1.appendChild(document.createTextNode("の概念を持つ"));
-    body.appendChild(p1);
-
     let main = document.createElement("main");
-
     for (let l = 0; l < vowels_array.length; l++) {
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
