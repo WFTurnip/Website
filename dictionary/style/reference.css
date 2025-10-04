@@ -5,6 +5,23 @@ body {
     counter-reset: chapter;
 }
 
+body h2 {
+    counter-increment: chapter;
+    counter-reset: section;
+}
+
+body h3 {
+    counter-increment: section;
+}
+
+body h2::before {
+    content: "第" counter(chapter, japanese-informal) "章\3000";
+}
+
+body h3::before {
+    content: "第" counter(section, japanese-informal) "節\3000";
+}
+
 #table-of-content summary h2,
 #table-of-content summary h3 {
     counter-increment: none;
@@ -35,24 +52,6 @@ nav h2::before {
 nav h3::before {
     content: "第" counter(toc-section, japanese-informal) "節\3000";
 }
-
-body h2 {
-    counter-increment: chapter;
-    counter-reset: section;
-}
-
-body h3 {
-    counter-increment: section;
-}
-
-body h2::before {
-    content: "第" counter(chapter, japanese-informal) "章\3000";
-}
-
-body h3::before {
-    content: "第" counter(section, japanese-informal) "節\3000";
-}
-
 
 h1 {
     text-indent: 0rem;
