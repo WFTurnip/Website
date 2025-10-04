@@ -53,6 +53,7 @@ h2 {
 }
 
 h3,
+p,
 a {
     font-family: "Xingkai TC", serif;
     text-decoration: none;
@@ -64,6 +65,7 @@ a:hover {
 
 h1 > ruby > rt,
 h2 > ruby > rt,
+p > ruby > rt,
 a > ruby > rt {
     font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
     font-weight: bold;
