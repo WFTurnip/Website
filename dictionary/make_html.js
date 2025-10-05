@@ -299,13 +299,9 @@ async function generateRoot(i, j, k) {
     link3.href = "../../style/fonts.css";
     head.appendChild(link3);
     let link4 = document.createElement("link");
-    link4.rel = "stylesheet";
-    link4.href = "../../style/table.css";
+    link4.rel = "icon";
+    link4.href = "../../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
     head.appendChild(link4);
-    let link5 = document.createElement("link");
-    link5.rel = "icon";
-    link5.href = "../../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
-    head.appendChild(link5);
 
     let body = document.body;
 
