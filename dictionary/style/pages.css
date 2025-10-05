@@ -26,6 +26,26 @@
     a:hover {
         color: #daa520;
     }
+
+    main {
+        column-rule-color: #daa520;
+    }
+
+    hr {
+        background-color: #daa520;
+    }
+
+    .warning {
+        color: #ff00ff;
+    }
+
+    .off {
+        color: #ff0000;
+    }
+
+    .on {
+        color: #0000ff;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,20 +76,24 @@
     a:hover {
         color: #ffcc70;
     }
-}
 
-.warning {
-    color: #ff00ff;
-}
+    main {
+        column-rule-color: #c9b458;
+    }
 
-.off {
-    color: #ff0000;
-}
+    hr {
+        background-color: #c9b458;
+    }
 
-.on {
-    color: #0000ff;
-}
+    .warning {
+        color: #ee00ee;
+    }
 
-main {
-    column-rule-color: #daa520;
+    .off {
+        color: #ee0000;
+    }
+
+    .on {
+        color: #0000ee;
+    }
 }

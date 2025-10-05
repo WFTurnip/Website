@@ -33,13 +33,16 @@
         color: #daa520;
     }
 
-    .warning,
+    .warning {
+        color: #ff00ff;
+    }
+
     .off {
-        color: red;
+        color: #ff0000;
     }
 
     .on {
-        color: blue;
+        color: #0000ff;
     }
 
     figure {
@@ -82,13 +85,16 @@
         color: #ffcc70;
     }
 
-    .warning,
+    .warning {
+        color: #ee00ee;
+    }
+
     .off {
-        color: red;
+        color: #ee0000;
     }
 
     .on {
-        color: blue;
+        color: #0000ee;
     }
 
     figure {

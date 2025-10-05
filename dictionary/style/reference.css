@@ -120,3 +120,7 @@ details object {
     display: block;
     margin: auto;
 }
+
+hr {
+    height: 0.125rem;
+}
