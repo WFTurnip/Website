@@ -123,4 +123,5 @@ details object {
 
 hr {
     height: 0.125rem;
+    border-width: 0;
 }
