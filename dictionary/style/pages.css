@@ -27,7 +27,8 @@
         color: #daa520;
     }
 
-    main {
+    main,
+    dl {
         column-rule-color: #daa520;
     }
 
@@ -77,7 +78,8 @@
         color: #ffcc70;
     }
 
-    main {
+    main,
+    dl {
         column-rule-color: #c9b458;
     }
 

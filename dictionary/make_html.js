@@ -70,11 +70,9 @@ async function generateIndex() {
     article.appendChild(figure);
     body.appendChild(article);
 
-    let hgroup = document.createElement("hgroup");
     let h1 = document.createElement("h1");
     h1.textContent = "子音一覧";
-    hgroup.appendChild(h1);
-    body.appendChild(hgroup);
+    body.appendChild(h1);
 
     let main = document.createElement("main");
     for (let i = 0; i < consonants_array.length; i++) {
@@ -193,7 +191,6 @@ async function generateConsonant(i) {
     article.appendChild(figure);
     body.appendChild(article);
 
-    let hgroup = document.createElement("hgroup");
     let h1 = document.createElement("h1");
     let h1_span = document.createElement("span");
     h1_span.classList.add("zosokw");
@@ -201,8 +198,7 @@ async function generateConsonant(i) {
     h1.appendChild(document.createTextNode("子音"));
     h1.appendChild(h1_span);
     h1.appendChild(document.createTextNode("の見出し"));
-    hgroup.appendChild(h1);
-    body.appendChild(hgroup);
+    body.appendChild(h1);
 
     let main = document.createElement("main");
     for (let j = 0; j < consonants_array.length; j++) {
@@ -359,15 +355,13 @@ async function generateRoot(i, j, k) {
     article.appendChild(figure);
     body.appendChild(article);
 
-    let hgroup = document.createElement("hgroup");
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("zosokw");
     span1.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(span1);
-    hgroup.appendChild(h1);
-    body.appendChild(hgroup);
+    body.appendChild(h1);
 
     let main = document.createElement("main");
     for (let l = 0; l < vowels_array.length; l++) {

@@ -125,3 +125,13 @@ hr {
     height: 0.125rem;
     border-width: 0;
 }
+
+dl {
+    column-count: 2;
+    column-rule-style: solid;
+}
+
+dl dt,
+dl dd {
+    break-inside: avoid;
+}
