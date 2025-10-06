@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
         searchResultSpan.textContent = searchWord;
-        searchResultSpan.className = "zosokw";
+        searchResultSpan.classList.add("zosokw");
         searchResult.appendChild(searchResultSpan);
         searchResult.append("の検索結果");
         searchResultContainer.appendChild(searchResult);

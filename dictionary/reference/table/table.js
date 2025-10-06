@@ -291,7 +291,7 @@ function generateConjunctCaseTable() {
     const createParagraph = (text, className) => {
         let p = document.createElement("p");
         p.textContent = text;
-        p.className = className;
+        p.classList.add(className);
         return p;
     };
 
