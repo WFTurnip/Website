@@ -1,0 +1,26 @@
+ruby {
+    margin: 0%;
+}
+
+rt {
+    font-variant-east-asian: ruby;
+}
+
+ul {
+    counter-reset: chapter;
+}
+
+ul li {
+    counter-increment: chapter;
+}
+
+ul li::before {
+    content: "第" counter(chapter, japanese-informal) "章　";
+}
+
+p {
+    text-indent: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+}
