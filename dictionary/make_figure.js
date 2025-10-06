@@ -69,6 +69,72 @@ async function generateVowelFigure() {
     }
 }
 
+async function generateRtlFigure() {
+    let filename = path.join("reference/", "figure/", "rtl_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
+
+    const dom = new JSDOM();
+    const document = dom.window.document;
+
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", 16);
+    svg.setAttribute("height", 16);
+
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 0);
+    rect.setAttribute("y", 0);
+    rect.setAttribute("width", 16);
+    rect.setAttribute("height", 16);
+    svg.appendChild(rect);
+
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
+
+    try {
+        await fs.writeFile(filename, svgContent);
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.log("ファイル" + filename + "を作成できませんでした。");
+    }
+}
+
+async function generateLtrFigure() {
+    let filename = path.join("reference/", "figure/", "ltr_figure.svg");
+    const svgns = "http://www.w3.org/2000/svg";
+
+    const dom = new JSDOM();
+    const document = dom.window.document;
+
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", 16);
+    svg.setAttribute("height", 16);
+
+    let rect = document.createElementNS(svgns, "rect");
+    rect.setAttribute("x", 0);
+    rect.setAttribute("y", 0);
+    rect.setAttribute("width", 16);
+    rect.setAttribute("height", 16);
+    svg.appendChild(rect);
+
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+
+    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+
+    svgContent = beautify(svgContent, { indent_size: 4 });
+
+    try {
+        await fs.writeFile(filename, svgContent);
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.log("ファイル" + filename + "を作成できませんでした。");
+    }
+}
+
 async function generateArticleConjugationFigure() {
     let filename = path.join("reference/", "figure/", "article_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
@@ -269,6 +335,8 @@ async function generateNounConjugationFigure() {
 async function make() {
     generateConsonantFigure();
     generateVowelFigure();
+    generateRtlFigure();
+    generateLtrFigure();
     generateArticleConjugationFigure();
     generateVerbConjugationFigure();
     generateAdjectiveConjugationFigure();
