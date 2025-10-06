@@ -70,7 +70,7 @@ ol {
 }
 
 nav li::after {
-    content: "＞";
+    content: "\FF1E";
 }
 
 nav li:last-child::after {
