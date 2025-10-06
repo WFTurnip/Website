@@ -333,6 +333,13 @@ async function generateNounConjugationFigure() {
 }
 
 async function make() {
+    let directory = path.join("reference/", "figure");
+    try {
+        await fs.mkdir(directory, { recursive: true });
+        console.log("ディレクトリ" + directory + "を作成しました。");
+    } catch (error) {
+        console.log("ディレクトリ" + directory + "を作成できませんでした。");
+    }
     generateConsonantFigure();
     generateVowelFigure();
     generateRtlFigure();
