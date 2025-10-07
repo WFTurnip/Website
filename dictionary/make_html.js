@@ -75,9 +75,10 @@ async function generateIndex() {
     body.appendChild(h1);
 
     let main = document.createElement("main");
+    let dl = document.createElement("dl");
     for (let i = 0; i < consonants_array.length; i++) {
-        let consonant = document.createElement("p");
-        consonant.id = consonants_array[i];
+        let dt = document.createElement("dt");
+        dt.id = consonants_array[i];
 
         let index = document.createElement("span");
         let a = document.createElement("a");
@@ -85,13 +86,14 @@ async function generateIndex() {
         a.href = consonants_array[i] + ".html";
         a.textContent = consonants_array[i];
         index.appendChild(a);
-        consonant.appendChild(index);
+        dt.appendChild(index);
+        dl.appendChild(dt);
 
-        let index_meaning = document.createElement("span");
-        index_meaning.textContent = consonants_means_array[i];
-        consonant.appendChild(index_meaning);
+        let dd = document.createElement("dd");
+        dd.textContent = consonants_means_array[i];
+        dl.appendChild(dd);
 
-        main.appendChild(consonant);
+        main.appendChild(dl);
     }
     body.appendChild(main);
 
