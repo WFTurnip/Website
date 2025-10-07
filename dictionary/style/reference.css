@@ -12,6 +12,11 @@ body h2 {
 
 body h3 {
     counter-increment: section;
+    counter-reset: subsection;
+}
+
+body h4 {
+    counter-increment: subsection;
 }
 
 body h2::before {
@@ -19,16 +24,22 @@ body h2::before {
 }
 
 body h3::before {
-    content: "第" counter(section, japanese-informal) "節　";
+    content: counter(section, japanese-informal) "節　";
+}
+
+body h4::before {
+    content: counter(subsection, japanese-informal) "小節　";
 }
 
 #table-of-content summary h2,
-#table-of-content summary h3 {
+#table-of-content summary h3,
+#table-of-content summary h4 {
     counter-increment: none;
 }
 
 #table-of-content summary h2::before,
-#table-of-content summary h3::before {
+#table-of-content summary h3::before,
+#table-of-content summary h4::before {
     content: "";
 }
 
@@ -43,6 +54,11 @@ nav h2 {
 
 nav h3 {
     counter-increment: toc-section;
+    counter-reset: toc-subsection;
+}
+
+nav h4 {
+    counter-increment: toc-subsection;
 }
 
 nav h2::before {
@@ -50,7 +66,11 @@ nav h2::before {
 }
 
 nav h3::before {
-    content: "第" counter(toc-section, japanese-informal) "節　";
+    content: counter(toc-section, japanese-informal) "節　";
+}
+
+nav h4::before {
+    content: counter(toc-subsection, japanese-informal) "小節　";
 }
 
 h1 {
