@@ -47,7 +47,6 @@ toc.querySelectorAll("a").forEach(a => {
     a.addEventListener("click", e => {
         const target = document.querySelector(a.getAttribute("href"));
         if (!target) return;
-
         // 親の <details> をすべて開く
         let parent = target.parentElement;
         while (parent) {
