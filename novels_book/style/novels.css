@@ -35,6 +35,7 @@
 body {
     padding: 2rem;
     writing-mode: vertical-rl;
+    font-family: "Xingkai TC", serif;
 }
 
 h1,
@@ -45,13 +46,10 @@ p {
 
 h1,
 h2,
-h3 {
-    font-family: "Xingkai TC", serif;
-    font-weight: bold;
-}
-
-p {
-    font-family: "Xingkai TC", serif;
+h3,
+p,
+header,
+footer {
     font-weight: bold;
 }
 

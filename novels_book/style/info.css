@@ -1,6 +1,8 @@
 @media (prefers-color-scheme: light) {
 
     body,
+    button,
+    rt,
     a {
         color: #000000;
     }
@@ -9,17 +11,16 @@
         background-color: #ffffff;
     }
 
-    rt,
-    rt,
-    span {
-        color: #a41919;
+    button,
+    a {
+        border-color: #b68d4c;
     }
 }
 
 @media (prefers-color-scheme: dark) {
 
     body,
-    a {
+    button {
         color: #b68d4c;
     }
 
@@ -27,52 +28,52 @@
         background-color: #000000;
     }
 
-    rt,
-    rt,
-    span {
-        color: #ffffff;
+    button,
+    a {
+        border-color: #a41919;
     }
 
     a {
-        color: #b68d4c;
+        color: #ffffff;
     }
 }
 
 body {
-    font-style: normal;
+    font-family: "Xingkai TC", serif;
     padding: 2rem;
     writing-mode: vertical-rl;
+    line-height: 1rem;
 }
 
 h1,
-p,
-span {
+h2 {
+    font-style: normal;
+    font-weight: bold;
     text-orientation: mixed;
-    font-weight: normal;
 }
 
-h1,
-h2,
+h3,
 p,
 a {
-    font-family: "Xingkai TC", serif;
-    font-weight: bold;
+    text-decoration: none;
 }
 
-span {
-    font-family: "hanzipen SC", serif;
-    font-weight: normal;
+a:hover {
+    text-decoration: underline;
 }
 
+h1 > ruby > rt,
+h2 > ruby > rt,
 p > ruby > rt,
-h2 > a > ruby > rt,
-h1 > ruby > rt {
+a > ruby > rt {
     font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
     font-weight: bold;
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "palt";
 }
 
-ruby {
-    ruby-position: alternate;
+table {
+    box-align: center;
+    empty-cells: hide;
+    margin: auto;
 }
