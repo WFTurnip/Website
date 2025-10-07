@@ -80,13 +80,13 @@ async function generateIndex() {
         let dt = document.createElement("dt");
         dt.id = consonants_array[i];
 
-        let index = document.createElement("span");
+        let consonant = document.createElement("span");
         let a = document.createElement("a");
         a.classList.add("zosokw");
         a.href = consonants_array[i] + ".html";
         a.textContent = consonants_array[i];
-        index.appendChild(a);
-        dt.appendChild(index);
+        consonant.appendChild(a);
+        dt.appendChild(consonant);
         dl.appendChild(dt);
 
         let dd = document.createElement("dd");
@@ -203,10 +203,11 @@ async function generateConsonant(i) {
     body.appendChild(h1);
 
     let main = document.createElement("main");
+    let dl = document.createElement("dl");
     for (let j = 0; j < consonants_array.length; j++) {
         for (let k = 0; k < consonants_array.length; k++) {
-            let index = document.createElement("p");
-            index.id = consonants_array[i] + consonants_array[j] + consonants_array[k];
+            let dt = document.createElement("dt");
+            dt.id = consonants_array[i] + consonants_array[j] + consonants_array[k];
 
             let root = document.createElement("span");
             let a = document.createElement("a");
@@ -214,13 +215,14 @@ async function generateConsonant(i) {
             a.href = consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html";
             a.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
             root.appendChild(a);
-            index.appendChild(root);
+            dt.appendChild(root);
+            dl.appendChild(dt);
 
-            let root_meaning = document.createElement("span");
-            root_meaning.textContent = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
-            index.appendChild(root_meaning);
+            let dd = document.createElement("dd");
+            dd.textContent = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
+            dl.appendChild(dd);
 
-            main.appendChild(index);
+            main.appendChild(dl);
         };
     };
     body.appendChild(main);
