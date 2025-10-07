@@ -361,14 +361,18 @@ async function generateRoot(i, j, k) {
 
     let main = document.createElement("main");
     for (let l = 0; l < vowels_array.length; l++) {
-        let section = document.createElement("section");
+        let details = document.createElement("details");
+        details.setAttribute("open", "");
+        let summary = document.createElement("summary");
         let h2 = document.createElement("h2");
         h2.textContent = vowels_part_of_speech_types_array[l] + "詞";
-        section.appendChild(h2);
+        summary.appendChild(h2);
+        details.appendChild(summary);
+        let dl = document.createElement("dl");
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
-                let index = document.createElement("p");
-                index.id =
+                let dt = document.createElement("dt");
+                dt.id =
                     consonants_array[i] + vowels_array[m] +
                     consonants_array[j] + vowels_array[n] +
                     consonants_array[k] + vowels_array[l];
@@ -379,7 +383,7 @@ async function generateRoot(i, j, k) {
                     consonants_array[i] + vowels_array[m] +
                     consonants_array[j] + vowels_array[n] +
                     consonants_array[k] + vowels_array[l];
-                index.appendChild(word);
+                dt.appendChild(word);
 
                 let word_pronunciation = document.createElement("span");
                 word_pronunciation.classList.add("pronunciation");
@@ -389,26 +393,32 @@ async function generateRoot(i, j, k) {
                     consonants_pronunciation_array[j] + vowels_pronunciation_array[n] +
                     consonants_pronunciation_array[k] + vowels_pronunciation_array[l] +
                     "/";
-                index.appendChild(word_pronunciation);
+                dt.appendChild(word_pronunciation);
 
                 let word_cases = document.createElement("span");
                 word_cases.classList.add("cases");
                 word_cases.textContent = vowels_cases_array[m] + vowels_cases_array[n] + "格";
-                index.appendChild(word_cases);
+                dt.appendChild(word_cases);
 
                 let word_part_of_speech = document.createElement("span");
                 word_part_of_speech.classList.add("part-of-speech");
                 word_part_of_speech.textContent = vowels_part_of_speech_types_array[l] + "詞";
-                index.appendChild(word_part_of_speech);
+                dt.appendChild(word_part_of_speech);
 
-                section.appendChild(index);
+                dl.appendChild(dt);
 
-                let index_meaning = document.createElement("p");
-                index_meaning.textContent = "";
-                section.appendChild(index_meaning);
+                let dd = document.createElement("dd");
+                dd.textContent =
+                    consonants_means_array[i] + vowels_cases_array[m] + "格" +
+                    consonants_means_array[j] + vowels_cases_array[n] + "格" +
+                    consonants_means_array[k] + vowels_part_of_speech_types_array[l] + "詞";
+                dl.appendChild(dd);
             }
         }
-        main.appendChild(section);
+        details.appendChild(dl);
+        main.appendChild(details);
+        let hr = document.createElement("hr");
+        main.appendChild(hr);
     }
     body.appendChild(main);
 
