@@ -42,3 +42,19 @@ document.querySelectorAll("main section[id^='chapter']").forEach(section => {
     });
 });
 // 目次が空なら非表示にする
+// 目次のリンクにクリックイベントを追加
+toc.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", e => {
+        const target = document.querySelector(a.getAttribute("href"));
+        if (!target) return;
+
+        // 親の <details> をすべて開く
+        let parent = target.parentElement;
+        while (parent) {
+            if (parent.tagName.toLowerCase() === "details") parent.open = true;
+            parent = parent.parentElement;
+        }
+        // なめらかにスクロール
+        target.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+});
