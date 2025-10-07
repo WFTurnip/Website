@@ -1,0 +1,16 @@
+mode_setup;
+
+proofing := 2;
+
+beginchar("g",5pt#,14pt#,2pt#);
+  z1 = (0.0w,0.7h);
+  z2 = (0.5w,0.3h);
+  z3 = (0.1w,0.1h);
+  
+  % 本線
+  pickup pencircle scaled 1pt;
+  draw z1..z2..z3;
+  labels(1,2,3);
+endchar;
+
+end

@@ -1,0 +1,25 @@
+mode_setup;
+
+proofing := 2;
+proofrulethickness := 0.3pt#;
+
+w#:=5pt#;
+h#:=(700/500)*w#;
+d#:=(200/500)*w#;
+
+def makegrid =
+  pickup rulepen;
+  for i = 0 upto 8:
+    proofrule((i,8),(i,8));
+  endfor;
+enddef;
+
+beginchar("A",w#,h#,d#);
+
+  if proofing = 2:
+    makegrid;
+  fi
+
+endchar;
+
+end
