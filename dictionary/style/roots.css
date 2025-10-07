@@ -26,12 +26,13 @@ footer {
     font-family: 'Courier New', Courier, monospace;
 }
 
-main {
+section {
     column-count: 3;
     column-rule-style: solid;
 }
 
-main p {
+section h2,
+section p {
     break-inside: avoid;
 }
 

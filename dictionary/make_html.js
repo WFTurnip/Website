@@ -361,40 +361,55 @@ async function generateRoot(i, j, k) {
 
     let main = document.createElement("main");
     for (let l = 0; l < vowels_array.length; l++) {
+        let section = document.createElement("section");
+        let h2 = document.createElement("h2");
+        h2.textContent = vowels_part_of_speech_types_array[l] + "詞";
+        section.appendChild(h2);
         for (let m = 0; m < vowels_array.length; m++) {
             for (let n = 0; n < vowels_array.length; n++) {
                 let index = document.createElement("p");
-                index.id = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
+                index.id =
+                    consonants_array[i] + vowels_array[m] +
+                    consonants_array[j] + vowels_array[n] +
+                    consonants_array[k] + vowels_array[l];
 
                 let word = document.createElement("span");
                 word.classList.add("zosokw");
-                word.textContent = consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
+                word.textContent =
+                    consonants_array[i] + vowels_array[m] +
+                    consonants_array[j] + vowels_array[n] +
+                    consonants_array[k] + vowels_array[l];
                 index.appendChild(word);
 
                 let word_pronunciation = document.createElement("span");
                 word_pronunciation.classList.add("pronunciation");
-                word_pronunciation.textContent = "/" + consonants_pronunciation_array[i] + vowels_pronunciation_array[l] + consonants_pronunciation_array[j] + vowels_pronunciation_array[m] + consonants_pronunciation_array[k] + vowels_pronunciation_array[n] + "/";
+                word_pronunciation.textContent =
+                    "/" +
+                    consonants_pronunciation_array[i] + vowels_pronunciation_array[m] +
+                    consonants_pronunciation_array[j] + vowels_pronunciation_array[n] +
+                    consonants_pronunciation_array[k] + vowels_pronunciation_array[l] +
+                    "/";
                 index.appendChild(word_pronunciation);
 
                 let word_cases = document.createElement("span");
                 word_cases.classList.add("cases");
-                word_cases.textContent = vowels_cases_array[l] + vowels_cases_array[m] + "格";
+                word_cases.textContent = vowels_cases_array[m] + vowels_cases_array[n] + "格";
                 index.appendChild(word_cases);
 
                 let word_part_of_speech = document.createElement("span");
                 word_part_of_speech.classList.add("part-of-speech");
-                word_part_of_speech.textContent = vowels_part_of_speech_types_array[n] + "詞";
+                word_part_of_speech.textContent = vowels_part_of_speech_types_array[l] + "詞";
                 index.appendChild(word_part_of_speech);
 
-                main.appendChild(index);
+                section.appendChild(index);
 
                 let index_meaning = document.createElement("p");
                 index_meaning.textContent = "";
-                main.appendChild(index_meaning);
+                section.appendChild(index_meaning);
             }
         }
+        main.appendChild(section);
     }
-
     body.appendChild(main);
 
     let footer = document.createElement("footer");
