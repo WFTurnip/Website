@@ -1,41 +1,41 @@
-echo "序章">                chapter1.tex
-echo "はじめに">            section1.1.tex
-echo "エレギア語の概要">     section1.2.tex
-echo "音韻体系">              chapter2.tex
-echo "子音">                section2.1.tex
-echo "母音">                section2.2.tex
-echo "書記体系">        chapter3.tex
-echo "文字体系">        section3.1.tex
-echo "標準字体の相違">        section3.2.tex
-echo "約物">            section3.3.tex
-echo "語根">              chapter4.tex
-echo "単語構造">        section4.1.tex
-echo "子音概念">        section4.2.tex
-echo "語根">        section4.3.tex
-echo "接辞">        section4.4.tex
-echo "格">              chapter5.tex
-echo "語根格">        section5.1.tex
-echo "接辞格">        section5.2.tex
-echo "品詞">        chapter6.tex
-echo "品詞分類">        section6.1.tex
-echo "文構造">        chapter7.tex
-echo "基本文型">        section7.1.tex
-echo "複文と従属文">        section7.2.tex
-echo "否定文と疑問文">        section7.3.tex
-echo "強調と焦点">        section7.4.tex
-echo "特殊構文">        chapter8.tex
-echo "受動態">        section8.1.tex
-echo "能動態と中動態">        section8.2.tex
-echo "命令文">        section8.3.tex
-echo "語彙と辞書の使用方法">        chapter9.tex
-echo "語彙の形成">        section9.1.tex
-echo "辞書の使用方法">        section9.2.tex
-echo "付録">        chapter10.tex
-echo "重要なフレーズ">        section10.1.tex
-echo "活用図表">        chapter11.tex
-echo "付詞活用図表">        section11.1.tex
-echo "動詞活用図表">        section11.2.tex
-echo "容詞活用図表">        section11.3.tex
-echo "助詞活用図表">        section11.4.tex
-echo "副詞活用図表">        section11.5.tex
-echo "名詞活用図表">        section11.6.tex
+echo "\chapter{序章}\n\label{chap:1}">chapter1.tex
+echo "\section{はじめに}\n\label{sec:1.1}">section1.1.tex
+echo "\section{エレギア語の概要}\n\label{sec:1.2}">section1.2.tex
+echo "\chapter{音韻体系}\n\label{chap:2}">chapter2.tex
+echo "\section{子音}\n\label{sec:2.1}">section2.1.tex
+echo "\section{母音}\n\label{sec:2.2}">section2.2.tex
+echo "\chapter{書記体系}\n\label{chap:3}">chapter3.tex
+echo "\section{文字体系}\n\label{sec:3.1}">section3.1.tex
+echo "\section{標準字体の相違}\n\label{sec:3.2}">section3.2.tex
+echo "\section{約物}\n\label{sec:3.3}">section3.3.tex
+echo "\chapter{語根}\n\label{chap:4}">chapter4.tex
+echo "\section{単語構造}\n\label{sec:4.1}">section4.1.tex
+echo "\section{子音概念}\n\label{sec:4.2}">section4.2.tex
+echo "\section{語根}\n\label{sec:4.3}">section4.3.tex
+echo "\section{接辞}\n\label{sec:4.4}">section4.4.tex
+echo "\chapter{格}\n\label{chap:5}">chapter5.tex
+echo "\section{語根格}\n\label{sec:5.1}">section5.1.tex
+echo "\section{接辞格}\n\label{sec:5.2}">section5.2.tex
+echo "\chapter{品詞}\n\label{chap:6}">chapter6.tex
+echo "\section{品詞分類}\n\label{sec:6.1}">section6.1.tex
+echo "\chapter{文構造}\n\label{chap:7}">chapter7.tex
+echo "\section{基本文型}\n\label{sec:7.1}">section7.1.tex
+echo "\section{複文と従属文}\n\label{sec:7.2}">section7.2.tex
+echo "\section{否定文と疑問文}\n\label{sec:7.3}">section7.3.tex
+echo "\section{強調と焦点}\n\label{sec:7.4}">section7.4.tex
+echo "\chapter{特殊構文}\n\label{chap:8}">chapter8.tex
+echo "\section{受動態}\n\label{sec:8.1}">section8.1.tex
+echo "\section{能動態と中動態}\n\label{sec:8.2}">section8.2.tex
+echo "\section{命令文}\n\label{sec:8.3}">section8.3.tex
+echo "\chapter{語彙と辞書の使用方法}\n\label{chap:9}">chapter9.tex
+echo "\section{語彙の形成}\n\label{sec:9.1}">section9.1.tex
+echo "\section{辞書の使用方法}\n\label{sec:9.2}">section9.2.tex
+echo "\chapter{付録}\n\label{chap:10}">chapter10.tex
+echo "\section{重要なフレーズ}\n\label{sec:10.1}">section10.1.tex
+echo "\chapter{活用図表}\n\label{chap:11}">chapter11.tex
+echo "\section{付詞活用図表}\n\label{sec:11.1}">section11.1.tex
+echo "\section{動詞活用図表}\n\label{sec:11.2}">section11.2.tex
+echo "\section{容詞活用図表}\n\label{sec:11.3}">section11.3.tex
+echo "\section{助詞活用図表}\n\label{sec:11.4}">section11.4.tex
+echo "\section{副詞活用図表}\n\label{sec:11.5}">section11.5.tex
+echo "\section{名詞活用図表}\n\label{sec:11.6}">section11.6.tex
