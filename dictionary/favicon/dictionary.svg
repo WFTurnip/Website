@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150">
     <style>
-        @media (prefers-color-scheme:light) {
+        @media (prefers-color-scheme: light) {
             path {
                 fill: #000
             }
         }
 
-        @media (prefers-color-scheme:dark) {
+        @media (prefers-color-scheme: dark) {
             path {
                 fill: #c99410
             }
