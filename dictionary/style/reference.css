@@ -146,7 +146,8 @@ hr {
     border-width: 0;
 }
 
-dl {
+dl,
+nav {
     column-count: 2;
     column-rule-style: solid;
 }
