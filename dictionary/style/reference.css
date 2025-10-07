@@ -82,11 +82,11 @@ h2 {
 }
 
 h3 {
-    text-indent: 1rem;
+    text-indent: 0rem;
 }
 
 h4 {
-    text-indent: 2rem;
+    text-indent: rem;
 }
 
 a {
