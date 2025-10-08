@@ -144,7 +144,7 @@ async function generateConsonant(i) {
     head.appendChild(link1);
     let link2 = document.createElement("link");
     link2.rel = "stylesheet";
-    link2.href = "../style/consonants.css";
+    link2.href = "../style/index.css";
     head.appendChild(link2);
     let link3 = document.createElement("link");
     link3.rel = "stylesheet";
@@ -296,7 +296,7 @@ async function generateRoot(i, j, k) {
     head.appendChild(link1);
     let link2 = document.createElement("link");
     link2.rel = "stylesheet";
-    link2.href = "../../style/roots.css";
+    link2.href = "../../style/index.css";
     head.appendChild(link2);
     let link3 = document.createElement("link");
     link3.rel = "stylesheet";
@@ -412,10 +412,7 @@ async function generateRoot(i, j, k) {
                 dl.appendChild(dt);
 
                 let dd = document.createElement("dd");
-                dd.textContent =
-                    consonants_means_array[i] + vowels_cases_array[m] + "格" +
-                    consonants_means_array[j] + vowels_cases_array[n] + "格" +
-                    consonants_means_array[k] + vowels_part_of_speech_types_array[l] + "詞";
+                dd.textContent = "";
                 dl.appendChild(dd);
             }
         }

@@ -26,12 +26,13 @@ footer {
     font-family: 'Courier New', Courier, monospace;
 }
 
-main {
+dl {
     column-count: 3;
     column-rule-style: solid;
 }
 
-main p {
+dl dt,
+dl dd {
     break-inside: avoid;
 }
 
@@ -55,6 +56,6 @@ figure {
 }
 
 hr {
-    height: 0.125rem;
+    height: 0.25rem;
     border-width: 0;
 }
