@@ -1,3 +1,7 @@
+body {
+    writing-mode: vertical-rl;
+}
+
 ruby {
     margin: 0%;
 }
