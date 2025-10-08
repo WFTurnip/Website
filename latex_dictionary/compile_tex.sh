@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -e
 
-rm -f -- *~ *gf *pk *dvi *l*g *ps *tfm *png *gif *pdf 
+rm -f -- *~ *gf *pk *dvi *l*g *ps *tfm *png *gif *pdf
 
 touch *
 
