@@ -66,14 +66,14 @@ svg * {
     fill: #000000;
 }
 
+.center {
+    fill: #ffff00;
+}
+
 .others {
     fill: #c8c8c8;
 }
 
 .emblem {
     fill: #daa520;
-}
-
-.center {
-    fill: #ffff00;
 }
