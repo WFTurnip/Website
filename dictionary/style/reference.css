@@ -82,7 +82,23 @@ h3 {
 }
 
 h4 {
-    text-indent: rem;
+    text-indent: 0rem;
+}
+
+nav h1 {
+    text-indent: 0rem;
+}
+
+nav h2 {
+    text-indent: 0rem;
+}
+
+nav h3 {
+    text-indent: 0rem;
+}
+
+nav h4 {
+    text-indent: 0rem;
 }
 
 a {
