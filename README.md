@@ -4,7 +4,7 @@
 
 このリポジトリはフォントと辞典と創作言語、技術的なこと諸々についてまとめています。
 
-フォントはFontForgeとInkscape、WebサイトはVisual Stadio Code（最近はEmacsばかり）で作りました。
+フォントはFontForgeとInkscape、WebサイトはVisual Stadio CodeとEmacsで作りました。
 
 これから先も何かと増えていく予定ですので、楽しみに待っておいてください。
 
