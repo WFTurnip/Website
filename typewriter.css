@@ -61,7 +61,7 @@ textarea {
     position: absolute;
     top: 0.5vw;
     right: 0.5vw;
-    font-size: 3vw;
+    font-size: 4vw;
     opacity: 0.25;
 }
 
@@ -69,17 +69,17 @@ textarea {
     position: absolute;
     bottom: 0.5vw;
     left: 0.5vw;
-    font-size: 4vw;
+    font-size: 5vw;
     opacity: 1;
 }
 
 .shift-active .shifted {
-    font-size: 3vw;
+    font-size: 5vw;
     opacity: 1;
 }
 
 .shift-active .no-shifted {
-    font-size: 2vw;
+    font-size: 4vw;
     opacity: 0.25;
 }
 
