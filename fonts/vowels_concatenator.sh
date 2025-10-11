@@ -1,5 +1,5 @@
-cat silwki/uni0048.svg silwki/uni004d.svg silwki.svg >silwki/uni0049.svg
-cat silwki/uni0053.svg silwki/uni004b.svg silwki.svg >silwki/uni0057.svg
+cat zosokw/uni0049.svg zosokw/uni0045.svg >zosokw/uni0041.svg
+cat zosokw/uni0057.svg zosokw/uni0055.svg >zosokw/uni004F.svg
 
-cat silwki/uni0049.svg silwki/uni0045.svg >silwki/uni0041.svg
-cat silwki/uni0057.svg silwki/uni0055.svg >silwki/uni004F.svg
+svgo zosokw/uni0041.svg
+svgo zosokw/uni004F.svg

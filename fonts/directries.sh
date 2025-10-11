@@ -3,7 +3,7 @@ open lekuta/
 open lozegw/
 open makina/
 open piswpi/
-open polwgo/
+open zosokw/
 open silwki/
 open sulive/
 open xavani/
