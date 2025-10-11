@@ -19,11 +19,11 @@ function generateConsonantTable() {
     th.rowSpan = 2;
     tr.appendChild(th);
     let th2 = document.createElement("th");
-    th2.textContent = "舌背音・喉音";
+    th2.textContent = "喉音";
     th2.colSpan = 2;
     tr.appendChild(th2);
     let th3 = document.createElement("th");
-    th3.textContent = "舌頂音";
+    th3.textContent = "前舌音";
     th3.colSpan = 2;
     tr.appendChild(th3);
     let th4 = document.createElement("th");
@@ -174,7 +174,7 @@ function generateConsonantMeansTable() {
     th.rowSpan = 2;
     tr.appendChild(th);
     let th2 = document.createElement("th");
-    th2.textContent = "清音";
+    th2.textContent = "喉音";
     th2.colSpan = 2;
     tr.appendChild(th2);
     let th3 = document.createElement("th");
@@ -182,7 +182,7 @@ function generateConsonantMeansTable() {
     th3.colSpan = 2;
     tr.appendChild(th3);
     let th4 = document.createElement("th");
-    th4.textContent = "無声音";
+    th4.textContent = "唇音";
     th4.colSpan = 2;
     tr.appendChild(th4);
     thead.appendChild(tr);
