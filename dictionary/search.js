@@ -201,7 +201,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             const span = document.createElement("span");
             span.classList.add("zosokw");
             span.textContent = item.word;
-            a.href = "html_index" + "/" + filename + ".html" + "#" + item.word;
+            a.href = "html_index" + "/" + item.word_html_href;
             a.append("単語")
             a.append(span);
             a.append("の詳細ページ");

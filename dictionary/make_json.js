@@ -21,7 +21,6 @@ async function generateIndex() {
             consonant: consonant,
             consonant_meaning: consonant_meaning,
             consonant_html_href: consonant + ".html",
-            consonant_json_href: consonant + ".json"
         });
     }
     let object = { consonants };
@@ -41,10 +40,11 @@ async function generateConsonant(i) {
         for (let k = 0; k < consonants_array.length; k++) {
             let root = consonants_array[i] + consonants_array[j] + consonants_array[k];
             let meaning = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
+            let root_html_href = consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html";
             roots.push({
                 root: root,
                 root_meaning: meaning,
-                root_html_href: consonants_array[i] + "/" + root + ".html",
+                root_html_href: root_html_href,
             });
         }
     }
@@ -78,11 +78,13 @@ async function generateRoot(i, j, k) {
                 let word_pronunciation = consonants_pronunciation_array[i] + vowels_pronunciation_array[l] + consonants_pronunciation_array[j] + vowels_pronunciation_array[m] + consonants_pronunciation_array[k] + vowels_pronunciation_array[n];
                 let word_part_of_speech = vowels_part_of_speech_types_array[n] + "詞";
                 let word_cases = vowels_cases_array[l] + vowels_cases_array[m] + "格";
+                let word_html_href = consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html" + "#" + consonants_array[i] + vowels_array[l] + consonants_array[j] + vowels_array[m] + consonants_array[k] + vowels_array[n];
                 words.push({
                     word: word,
                     word_pronunciation: word_pronunciation,
                     word_part_of_speech: word_part_of_speech,
                     word_cases: word_cases,
+                    word_html_href: word_html_href,
                     word_meaning: ""
                 });
             }
