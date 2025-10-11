@@ -67,6 +67,9 @@ async function generateIndex() {
     object.data = "../favicon_index/" + "index" + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
+    let figcaption = document.createElement("figcaption");
+    figcaption.textContent = "";
+    figure.appendChild(figcaption);
     article.appendChild(figure);
     body.appendChild(article);
 
@@ -190,6 +193,9 @@ async function generateConsonant(i) {
     object.data = "../favicon_index/" + consonants_array[i] + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
+    let figcaption = document.createElement("figcaption");
+    figcaption.textContent = "";
+    figure.appendChild(figcaption);
     article.appendChild(figure);
     body.appendChild(article);
 
@@ -352,6 +358,9 @@ async function generateRoot(i, j, k) {
     object.data = "../../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
+    let figcaption = document.createElement("figcaption");
+    figcaption.textContent = "";
+    figure.appendChild(figcaption);
     article.appendChild(figure);
     body.appendChild(article);
 
