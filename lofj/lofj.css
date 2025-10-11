@@ -16,7 +16,7 @@ ul li {
 }
 
 ul li::before {
-    content: "第" counter(chapter, japanese-informal) "章\3000";
+    content: "第" counter(chapter, japanese-informal) "話\3000";
 }
 
 p {
