@@ -158,12 +158,16 @@ hr {
     border-width: 0;
 }
 
-dl,
-nav {
+nav,
+dl {
     column-count: 2;
     column-rule-style: solid;
 }
 
+nav h1,
+nav h2,
+nav h3,
+nav h4,
 dl dt,
 dl dd {
     break-inside: avoid;
