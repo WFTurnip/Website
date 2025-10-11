@@ -3,72 +3,6 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
-async function generateConsonantFigure() {
-    let filename = path.join("reference/", "figure/", "consonant_figure.svg");
-    const svgns = "http://www.w3.org/2000/svg";
-
-    const dom = new JSDOM();
-    const document = dom.window.document;
-
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 100);
-    svg.setAttribute("height", 100);
-
-    let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
-    svg.appendChild(rect);
-
-    let serializer = new dom.window.XMLSerializer();
-    let svgString = serializer.serializeToString(svg);
-
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
-
-    svgContent = beautify(svgContent, { indent_size: 4 });
-
-    try {
-        await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
-    } catch (error) {
-        console.log("ファイル" + filename + "を作成できませんでした。");
-    }
-}
-
-async function generateVowelFigure() {
-    let filename = path.join("reference/", "figure/", "vowel_figure.svg");
-    const svgns = "http://www.w3.org/2000/svg";
-
-    const dom = new JSDOM();
-    const document = dom.window.document;
-
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 100);
-    svg.setAttribute("height", 100);
-
-    let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
-    svg.appendChild(rect);
-
-    let serializer = new dom.window.XMLSerializer();
-    let svgString = serializer.serializeToString(svg);
-
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
-
-    svgContent = beautify(svgContent, { indent_size: 4 });
-
-    try {
-        await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
-    } catch (error) {
-        console.log("ファイル" + filename + "を作成できませんでした。");
-    }
-}
-
 async function generateRtlFigure() {
     let filename = path.join("reference/", "figure/", "rtl_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
@@ -340,8 +274,6 @@ async function make() {
     } catch (error) {
         console.log("ディレクトリ" + directory + "を作成できませんでした。");
     }
-    generateConsonantFigure();
-    generateVowelFigure();
     generateRtlFigure();
     generateLtrFigure();
     generateArticleConjugationFigure();
