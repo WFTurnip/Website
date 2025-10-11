@@ -1,1948 +1,328 @@
 {
     "roots": [
-        {
-            "root": "dkk",
-            "root_meaning": "同一剥離剥離",
-            "root_html_href": "d/dkk.html",
-            "root_json_href": "d/dkk.json"
-        },
-        {
-            "root": "dkg",
-            "root_meaning": "同一剥離癒着",
-            "root_html_href": "d/dkg.html",
-            "root_json_href": "d/dkg.json"
-        },
-        {
-            "root": "dkt",
-            "root_meaning": "同一剥離乖離",
-            "root_html_href": "d/dkt.html",
-            "root_json_href": "d/dkt.json"
-        },
-        {
-            "root": "dkd",
-            "root_meaning": "同一剥離同一",
-            "root_html_href": "d/dkd.html",
-            "root_json_href": "d/dkd.json"
-        },
-        {
-            "root": "dks",
-            "root_meaning": "同一剥離肉体",
-            "root_html_href": "d/dks.html",
-            "root_json_href": "d/dks.json"
-        },
-        {
-            "root": "dkz",
-            "root_meaning": "同一剥離精神",
-            "root_html_href": "d/dkz.html",
-            "root_json_href": "d/dkz.json"
-        },
-        {
-            "root": "dkq",
-            "root_meaning": "同一剥離空白",
-            "root_html_href": "d/dkq.html",
-            "root_json_href": "d/dkq.json"
-        },
-        {
-            "root": "dkc",
-            "root_meaning": "同一剥離物質",
-            "root_html_href": "d/dkc.html",
-            "root_json_href": "d/dkc.json"
-        },
-        {
-            "root": "dkr",
-            "root_meaning": "同一剥離過去",
-            "root_html_href": "d/dkr.html",
-            "root_json_href": "d/dkr.json"
-        },
-        {
-            "root": "dkl",
-            "root_meaning": "同一剥離未来",
-            "root_html_href": "d/dkl.html",
-            "root_json_href": "d/dkl.json"
-        },
-        {
-            "root": "dkp",
-            "root_meaning": "同一剥離鎮静",
-            "root_html_href": "d/dkp.html",
-            "root_json_href": "d/dkp.json"
-        },
-        {
-            "root": "dkb",
-            "root_meaning": "同一剥離高揚",
-            "root_html_href": "d/dkb.html",
-            "root_json_href": "d/dkb.json"
-        },
-        {
-            "root": "dkh",
-            "root_meaning": "同一剥離受動",
-            "root_html_href": "d/dkh.html",
-            "root_json_href": "d/dkh.json"
-        },
-        {
-            "root": "dkx",
-            "root_meaning": "同一剥離能動",
-            "root_html_href": "d/dkx.html",
-            "root_json_href": "d/dkx.json"
-        },
-        {
-            "root": "dkf",
-            "root_meaning": "同一剥離創造",
-            "root_html_href": "d/dkf.html",
-            "root_json_href": "d/dkf.json"
-        },
-        {
-            "root": "dkv",
-            "root_meaning": "同一剥離破壊",
-            "root_html_href": "d/dkv.html",
-            "root_json_href": "d/dkv.json"
-        },
-        {
-            "root": "dkm",
-            "root_meaning": "同一剥離流動",
-            "root_html_href": "d/dkm.html",
-            "root_json_href": "d/dkm.json"
-        },
-        {
-            "root": "dkn",
-            "root_meaning": "同一剥離固定",
-            "root_html_href": "d/dkn.html",
-            "root_json_href": "d/dkn.json"
-        },
-        {
-            "root": "dgk",
-            "root_meaning": "同一癒着剥離",
-            "root_html_href": "d/dgk.html",
-            "root_json_href": "d/dgk.json"
-        },
-        {
-            "root": "dgg",
-            "root_meaning": "同一癒着癒着",
-            "root_html_href": "d/dgg.html",
-            "root_json_href": "d/dgg.json"
-        },
-        {
-            "root": "dgt",
-            "root_meaning": "同一癒着乖離",
-            "root_html_href": "d/dgt.html",
-            "root_json_href": "d/dgt.json"
-        },
-        {
-            "root": "dgd",
-            "root_meaning": "同一癒着同一",
-            "root_html_href": "d/dgd.html",
-            "root_json_href": "d/dgd.json"
-        },
-        {
-            "root": "dgs",
-            "root_meaning": "同一癒着肉体",
-            "root_html_href": "d/dgs.html",
-            "root_json_href": "d/dgs.json"
-        },
-        {
-            "root": "dgz",
-            "root_meaning": "同一癒着精神",
-            "root_html_href": "d/dgz.html",
-            "root_json_href": "d/dgz.json"
-        },
-        {
-            "root": "dgq",
-            "root_meaning": "同一癒着空白",
-            "root_html_href": "d/dgq.html",
-            "root_json_href": "d/dgq.json"
-        },
-        {
-            "root": "dgc",
-            "root_meaning": "同一癒着物質",
-            "root_html_href": "d/dgc.html",
-            "root_json_href": "d/dgc.json"
-        },
-        {
-            "root": "dgr",
-            "root_meaning": "同一癒着過去",
-            "root_html_href": "d/dgr.html",
-            "root_json_href": "d/dgr.json"
-        },
-        {
-            "root": "dgl",
-            "root_meaning": "同一癒着未来",
-            "root_html_href": "d/dgl.html",
-            "root_json_href": "d/dgl.json"
-        },
-        {
-            "root": "dgp",
-            "root_meaning": "同一癒着鎮静",
-            "root_html_href": "d/dgp.html",
-            "root_json_href": "d/dgp.json"
-        },
-        {
-            "root": "dgb",
-            "root_meaning": "同一癒着高揚",
-            "root_html_href": "d/dgb.html",
-            "root_json_href": "d/dgb.json"
-        },
-        {
-            "root": "dgh",
-            "root_meaning": "同一癒着受動",
-            "root_html_href": "d/dgh.html",
-            "root_json_href": "d/dgh.json"
-        },
-        {
-            "root": "dgx",
-            "root_meaning": "同一癒着能動",
-            "root_html_href": "d/dgx.html",
-            "root_json_href": "d/dgx.json"
-        },
-        {
-            "root": "dgf",
-            "root_meaning": "同一癒着創造",
-            "root_html_href": "d/dgf.html",
-            "root_json_href": "d/dgf.json"
-        },
-        {
-            "root": "dgv",
-            "root_meaning": "同一癒着破壊",
-            "root_html_href": "d/dgv.html",
-            "root_json_href": "d/dgv.json"
-        },
-        {
-            "root": "dgm",
-            "root_meaning": "同一癒着流動",
-            "root_html_href": "d/dgm.html",
-            "root_json_href": "d/dgm.json"
-        },
-        {
-            "root": "dgn",
-            "root_meaning": "同一癒着固定",
-            "root_html_href": "d/dgn.html",
-            "root_json_href": "d/dgn.json"
-        },
-        {
-            "root": "dtk",
-            "root_meaning": "同一乖離剥離",
-            "root_html_href": "d/dtk.html",
-            "root_json_href": "d/dtk.json"
-        },
-        {
-            "root": "dtg",
-            "root_meaning": "同一乖離癒着",
-            "root_html_href": "d/dtg.html",
-            "root_json_href": "d/dtg.json"
-        },
-        {
-            "root": "dtt",
-            "root_meaning": "同一乖離乖離",
-            "root_html_href": "d/dtt.html",
-            "root_json_href": "d/dtt.json"
-        },
-        {
-            "root": "dtd",
-            "root_meaning": "同一乖離同一",
-            "root_html_href": "d/dtd.html",
-            "root_json_href": "d/dtd.json"
-        },
-        {
-            "root": "dts",
-            "root_meaning": "同一乖離肉体",
-            "root_html_href": "d/dts.html",
-            "root_json_href": "d/dts.json"
-        },
-        {
-            "root": "dtz",
-            "root_meaning": "同一乖離精神",
-            "root_html_href": "d/dtz.html",
-            "root_json_href": "d/dtz.json"
-        },
-        {
-            "root": "dtq",
-            "root_meaning": "同一乖離空白",
-            "root_html_href": "d/dtq.html",
-            "root_json_href": "d/dtq.json"
-        },
-        {
-            "root": "dtc",
-            "root_meaning": "同一乖離物質",
-            "root_html_href": "d/dtc.html",
-            "root_json_href": "d/dtc.json"
-        },
-        {
-            "root": "dtr",
-            "root_meaning": "同一乖離過去",
-            "root_html_href": "d/dtr.html",
-            "root_json_href": "d/dtr.json"
-        },
-        {
-            "root": "dtl",
-            "root_meaning": "同一乖離未来",
-            "root_html_href": "d/dtl.html",
-            "root_json_href": "d/dtl.json"
-        },
-        {
-            "root": "dtp",
-            "root_meaning": "同一乖離鎮静",
-            "root_html_href": "d/dtp.html",
-            "root_json_href": "d/dtp.json"
-        },
-        {
-            "root": "dtb",
-            "root_meaning": "同一乖離高揚",
-            "root_html_href": "d/dtb.html",
-            "root_json_href": "d/dtb.json"
-        },
-        {
-            "root": "dth",
-            "root_meaning": "同一乖離受動",
-            "root_html_href": "d/dth.html",
-            "root_json_href": "d/dth.json"
-        },
-        {
-            "root": "dtx",
-            "root_meaning": "同一乖離能動",
-            "root_html_href": "d/dtx.html",
-            "root_json_href": "d/dtx.json"
-        },
-        {
-            "root": "dtf",
-            "root_meaning": "同一乖離創造",
-            "root_html_href": "d/dtf.html",
-            "root_json_href": "d/dtf.json"
-        },
-        {
-            "root": "dtv",
-            "root_meaning": "同一乖離破壊",
-            "root_html_href": "d/dtv.html",
-            "root_json_href": "d/dtv.json"
-        },
-        {
-            "root": "dtm",
-            "root_meaning": "同一乖離流動",
-            "root_html_href": "d/dtm.html",
-            "root_json_href": "d/dtm.json"
-        },
-        {
-            "root": "dtn",
-            "root_meaning": "同一乖離固定",
-            "root_html_href": "d/dtn.html",
-            "root_json_href": "d/dtn.json"
-        },
-        {
-            "root": "ddk",
-            "root_meaning": "同一同一剥離",
-            "root_html_href": "d/ddk.html",
-            "root_json_href": "d/ddk.json"
-        },
-        {
-            "root": "ddg",
-            "root_meaning": "同一同一癒着",
-            "root_html_href": "d/ddg.html",
-            "root_json_href": "d/ddg.json"
-        },
-        {
-            "root": "ddt",
-            "root_meaning": "同一同一乖離",
-            "root_html_href": "d/ddt.html",
-            "root_json_href": "d/ddt.json"
-        },
-        {
-            "root": "ddd",
-            "root_meaning": "同一同一同一",
-            "root_html_href": "d/ddd.html",
-            "root_json_href": "d/ddd.json"
-        },
-        {
-            "root": "dds",
-            "root_meaning": "同一同一肉体",
-            "root_html_href": "d/dds.html",
-            "root_json_href": "d/dds.json"
-        },
-        {
-            "root": "ddz",
-            "root_meaning": "同一同一精神",
-            "root_html_href": "d/ddz.html",
-            "root_json_href": "d/ddz.json"
-        },
-        {
-            "root": "ddq",
-            "root_meaning": "同一同一空白",
-            "root_html_href": "d/ddq.html",
-            "root_json_href": "d/ddq.json"
-        },
-        {
-            "root": "ddc",
-            "root_meaning": "同一同一物質",
-            "root_html_href": "d/ddc.html",
-            "root_json_href": "d/ddc.json"
-        },
-        {
-            "root": "ddr",
-            "root_meaning": "同一同一過去",
-            "root_html_href": "d/ddr.html",
-            "root_json_href": "d/ddr.json"
-        },
-        {
-            "root": "ddl",
-            "root_meaning": "同一同一未来",
-            "root_html_href": "d/ddl.html",
-            "root_json_href": "d/ddl.json"
-        },
-        {
-            "root": "ddp",
-            "root_meaning": "同一同一鎮静",
-            "root_html_href": "d/ddp.html",
-            "root_json_href": "d/ddp.json"
-        },
-        {
-            "root": "ddb",
-            "root_meaning": "同一同一高揚",
-            "root_html_href": "d/ddb.html",
-            "root_json_href": "d/ddb.json"
-        },
-        {
-            "root": "ddh",
-            "root_meaning": "同一同一受動",
-            "root_html_href": "d/ddh.html",
-            "root_json_href": "d/ddh.json"
-        },
-        {
-            "root": "ddx",
-            "root_meaning": "同一同一能動",
-            "root_html_href": "d/ddx.html",
-            "root_json_href": "d/ddx.json"
-        },
-        {
-            "root": "ddf",
-            "root_meaning": "同一同一創造",
-            "root_html_href": "d/ddf.html",
-            "root_json_href": "d/ddf.json"
-        },
-        {
-            "root": "ddv",
-            "root_meaning": "同一同一破壊",
-            "root_html_href": "d/ddv.html",
-            "root_json_href": "d/ddv.json"
-        },
-        {
-            "root": "ddm",
-            "root_meaning": "同一同一流動",
-            "root_html_href": "d/ddm.html",
-            "root_json_href": "d/ddm.json"
-        },
-        {
-            "root": "ddn",
-            "root_meaning": "同一同一固定",
-            "root_html_href": "d/ddn.html",
-            "root_json_href": "d/ddn.json"
-        },
-        {
-            "root": "dsk",
-            "root_meaning": "同一肉体剥離",
-            "root_html_href": "d/dsk.html",
-            "root_json_href": "d/dsk.json"
-        },
-        {
-            "root": "dsg",
-            "root_meaning": "同一肉体癒着",
-            "root_html_href": "d/dsg.html",
-            "root_json_href": "d/dsg.json"
-        },
-        {
-            "root": "dst",
-            "root_meaning": "同一肉体乖離",
-            "root_html_href": "d/dst.html",
-            "root_json_href": "d/dst.json"
-        },
-        {
-            "root": "dsd",
-            "root_meaning": "同一肉体同一",
-            "root_html_href": "d/dsd.html",
-            "root_json_href": "d/dsd.json"
-        },
-        {
-            "root": "dss",
-            "root_meaning": "同一肉体肉体",
-            "root_html_href": "d/dss.html",
-            "root_json_href": "d/dss.json"
-        },
-        {
-            "root": "dsz",
-            "root_meaning": "同一肉体精神",
-            "root_html_href": "d/dsz.html",
-            "root_json_href": "d/dsz.json"
-        },
-        {
-            "root": "dsq",
-            "root_meaning": "同一肉体空白",
-            "root_html_href": "d/dsq.html",
-            "root_json_href": "d/dsq.json"
-        },
-        {
-            "root": "dsc",
-            "root_meaning": "同一肉体物質",
-            "root_html_href": "d/dsc.html",
-            "root_json_href": "d/dsc.json"
-        },
-        {
-            "root": "dsr",
-            "root_meaning": "同一肉体過去",
-            "root_html_href": "d/dsr.html",
-            "root_json_href": "d/dsr.json"
-        },
-        {
-            "root": "dsl",
-            "root_meaning": "同一肉体未来",
-            "root_html_href": "d/dsl.html",
-            "root_json_href": "d/dsl.json"
-        },
-        {
-            "root": "dsp",
-            "root_meaning": "同一肉体鎮静",
-            "root_html_href": "d/dsp.html",
-            "root_json_href": "d/dsp.json"
-        },
-        {
-            "root": "dsb",
-            "root_meaning": "同一肉体高揚",
-            "root_html_href": "d/dsb.html",
-            "root_json_href": "d/dsb.json"
-        },
-        {
-            "root": "dsh",
-            "root_meaning": "同一肉体受動",
-            "root_html_href": "d/dsh.html",
-            "root_json_href": "d/dsh.json"
-        },
-        {
-            "root": "dsx",
-            "root_meaning": "同一肉体能動",
-            "root_html_href": "d/dsx.html",
-            "root_json_href": "d/dsx.json"
-        },
-        {
-            "root": "dsf",
-            "root_meaning": "同一肉体創造",
-            "root_html_href": "d/dsf.html",
-            "root_json_href": "d/dsf.json"
-        },
-        {
-            "root": "dsv",
-            "root_meaning": "同一肉体破壊",
-            "root_html_href": "d/dsv.html",
-            "root_json_href": "d/dsv.json"
-        },
-        {
-            "root": "dsm",
-            "root_meaning": "同一肉体流動",
-            "root_html_href": "d/dsm.html",
-            "root_json_href": "d/dsm.json"
-        },
-        {
-            "root": "dsn",
-            "root_meaning": "同一肉体固定",
-            "root_html_href": "d/dsn.html",
-            "root_json_href": "d/dsn.json"
-        },
-        {
-            "root": "dzk",
-            "root_meaning": "同一精神剥離",
-            "root_html_href": "d/dzk.html",
-            "root_json_href": "d/dzk.json"
-        },
-        {
-            "root": "dzg",
-            "root_meaning": "同一精神癒着",
-            "root_html_href": "d/dzg.html",
-            "root_json_href": "d/dzg.json"
-        },
-        {
-            "root": "dzt",
-            "root_meaning": "同一精神乖離",
-            "root_html_href": "d/dzt.html",
-            "root_json_href": "d/dzt.json"
-        },
-        {
-            "root": "dzd",
-            "root_meaning": "同一精神同一",
-            "root_html_href": "d/dzd.html",
-            "root_json_href": "d/dzd.json"
-        },
-        {
-            "root": "dzs",
-            "root_meaning": "同一精神肉体",
-            "root_html_href": "d/dzs.html",
-            "root_json_href": "d/dzs.json"
-        },
-        {
-            "root": "dzz",
-            "root_meaning": "同一精神精神",
-            "root_html_href": "d/dzz.html",
-            "root_json_href": "d/dzz.json"
-        },
-        {
-            "root": "dzq",
-            "root_meaning": "同一精神空白",
-            "root_html_href": "d/dzq.html",
-            "root_json_href": "d/dzq.json"
-        },
-        {
-            "root": "dzc",
-            "root_meaning": "同一精神物質",
-            "root_html_href": "d/dzc.html",
-            "root_json_href": "d/dzc.json"
-        },
-        {
-            "root": "dzr",
-            "root_meaning": "同一精神過去",
-            "root_html_href": "d/dzr.html",
-            "root_json_href": "d/dzr.json"
-        },
-        {
-            "root": "dzl",
-            "root_meaning": "同一精神未来",
-            "root_html_href": "d/dzl.html",
-            "root_json_href": "d/dzl.json"
-        },
-        {
-            "root": "dzp",
-            "root_meaning": "同一精神鎮静",
-            "root_html_href": "d/dzp.html",
-            "root_json_href": "d/dzp.json"
-        },
-        {
-            "root": "dzb",
-            "root_meaning": "同一精神高揚",
-            "root_html_href": "d/dzb.html",
-            "root_json_href": "d/dzb.json"
-        },
-        {
-            "root": "dzh",
-            "root_meaning": "同一精神受動",
-            "root_html_href": "d/dzh.html",
-            "root_json_href": "d/dzh.json"
-        },
-        {
-            "root": "dzx",
-            "root_meaning": "同一精神能動",
-            "root_html_href": "d/dzx.html",
-            "root_json_href": "d/dzx.json"
-        },
-        {
-            "root": "dzf",
-            "root_meaning": "同一精神創造",
-            "root_html_href": "d/dzf.html",
-            "root_json_href": "d/dzf.json"
-        },
-        {
-            "root": "dzv",
-            "root_meaning": "同一精神破壊",
-            "root_html_href": "d/dzv.html",
-            "root_json_href": "d/dzv.json"
-        },
-        {
-            "root": "dzm",
-            "root_meaning": "同一精神流動",
-            "root_html_href": "d/dzm.html",
-            "root_json_href": "d/dzm.json"
-        },
-        {
-            "root": "dzn",
-            "root_meaning": "同一精神固定",
-            "root_html_href": "d/dzn.html",
-            "root_json_href": "d/dzn.json"
-        },
-        {
-            "root": "dqk",
-            "root_meaning": "同一空白剥離",
-            "root_html_href": "d/dqk.html",
-            "root_json_href": "d/dqk.json"
-        },
-        {
-            "root": "dqg",
-            "root_meaning": "同一空白癒着",
-            "root_html_href": "d/dqg.html",
-            "root_json_href": "d/dqg.json"
-        },
-        {
-            "root": "dqt",
-            "root_meaning": "同一空白乖離",
-            "root_html_href": "d/dqt.html",
-            "root_json_href": "d/dqt.json"
-        },
-        {
-            "root": "dqd",
-            "root_meaning": "同一空白同一",
-            "root_html_href": "d/dqd.html",
-            "root_json_href": "d/dqd.json"
-        },
-        {
-            "root": "dqs",
-            "root_meaning": "同一空白肉体",
-            "root_html_href": "d/dqs.html",
-            "root_json_href": "d/dqs.json"
-        },
-        {
-            "root": "dqz",
-            "root_meaning": "同一空白精神",
-            "root_html_href": "d/dqz.html",
-            "root_json_href": "d/dqz.json"
-        },
-        {
-            "root": "dqq",
-            "root_meaning": "同一空白空白",
-            "root_html_href": "d/dqq.html",
-            "root_json_href": "d/dqq.json"
-        },
-        {
-            "root": "dqc",
-            "root_meaning": "同一空白物質",
-            "root_html_href": "d/dqc.html",
-            "root_json_href": "d/dqc.json"
-        },
-        {
-            "root": "dqr",
-            "root_meaning": "同一空白過去",
-            "root_html_href": "d/dqr.html",
-            "root_json_href": "d/dqr.json"
-        },
-        {
-            "root": "dql",
-            "root_meaning": "同一空白未来",
-            "root_html_href": "d/dql.html",
-            "root_json_href": "d/dql.json"
-        },
-        {
-            "root": "dqp",
-            "root_meaning": "同一空白鎮静",
-            "root_html_href": "d/dqp.html",
-            "root_json_href": "d/dqp.json"
-        },
-        {
-            "root": "dqb",
-            "root_meaning": "同一空白高揚",
-            "root_html_href": "d/dqb.html",
-            "root_json_href": "d/dqb.json"
-        },
-        {
-            "root": "dqh",
-            "root_meaning": "同一空白受動",
-            "root_html_href": "d/dqh.html",
-            "root_json_href": "d/dqh.json"
-        },
-        {
-            "root": "dqx",
-            "root_meaning": "同一空白能動",
-            "root_html_href": "d/dqx.html",
-            "root_json_href": "d/dqx.json"
-        },
-        {
-            "root": "dqf",
-            "root_meaning": "同一空白創造",
-            "root_html_href": "d/dqf.html",
-            "root_json_href": "d/dqf.json"
-        },
-        {
-            "root": "dqv",
-            "root_meaning": "同一空白破壊",
-            "root_html_href": "d/dqv.html",
-            "root_json_href": "d/dqv.json"
-        },
-        {
-            "root": "dqm",
-            "root_meaning": "同一空白流動",
-            "root_html_href": "d/dqm.html",
-            "root_json_href": "d/dqm.json"
-        },
-        {
-            "root": "dqn",
-            "root_meaning": "同一空白固定",
-            "root_html_href": "d/dqn.html",
-            "root_json_href": "d/dqn.json"
-        },
-        {
-            "root": "dck",
-            "root_meaning": "同一物質剥離",
-            "root_html_href": "d/dck.html",
-            "root_json_href": "d/dck.json"
-        },
-        {
-            "root": "dcg",
-            "root_meaning": "同一物質癒着",
-            "root_html_href": "d/dcg.html",
-            "root_json_href": "d/dcg.json"
-        },
-        {
-            "root": "dct",
-            "root_meaning": "同一物質乖離",
-            "root_html_href": "d/dct.html",
-            "root_json_href": "d/dct.json"
-        },
-        {
-            "root": "dcd",
-            "root_meaning": "同一物質同一",
-            "root_html_href": "d/dcd.html",
-            "root_json_href": "d/dcd.json"
-        },
-        {
-            "root": "dcs",
-            "root_meaning": "同一物質肉体",
-            "root_html_href": "d/dcs.html",
-            "root_json_href": "d/dcs.json"
-        },
-        {
-            "root": "dcz",
-            "root_meaning": "同一物質精神",
-            "root_html_href": "d/dcz.html",
-            "root_json_href": "d/dcz.json"
-        },
-        {
-            "root": "dcq",
-            "root_meaning": "同一物質空白",
-            "root_html_href": "d/dcq.html",
-            "root_json_href": "d/dcq.json"
-        },
-        {
-            "root": "dcc",
-            "root_meaning": "同一物質物質",
-            "root_html_href": "d/dcc.html",
-            "root_json_href": "d/dcc.json"
-        },
-        {
-            "root": "dcr",
-            "root_meaning": "同一物質過去",
-            "root_html_href": "d/dcr.html",
-            "root_json_href": "d/dcr.json"
-        },
-        {
-            "root": "dcl",
-            "root_meaning": "同一物質未来",
-            "root_html_href": "d/dcl.html",
-            "root_json_href": "d/dcl.json"
-        },
-        {
-            "root": "dcp",
-            "root_meaning": "同一物質鎮静",
-            "root_html_href": "d/dcp.html",
-            "root_json_href": "d/dcp.json"
-        },
-        {
-            "root": "dcb",
-            "root_meaning": "同一物質高揚",
-            "root_html_href": "d/dcb.html",
-            "root_json_href": "d/dcb.json"
-        },
-        {
-            "root": "dch",
-            "root_meaning": "同一物質受動",
-            "root_html_href": "d/dch.html",
-            "root_json_href": "d/dch.json"
-        },
-        {
-            "root": "dcx",
-            "root_meaning": "同一物質能動",
-            "root_html_href": "d/dcx.html",
-            "root_json_href": "d/dcx.json"
-        },
-        {
-            "root": "dcf",
-            "root_meaning": "同一物質創造",
-            "root_html_href": "d/dcf.html",
-            "root_json_href": "d/dcf.json"
-        },
-        {
-            "root": "dcv",
-            "root_meaning": "同一物質破壊",
-            "root_html_href": "d/dcv.html",
-            "root_json_href": "d/dcv.json"
-        },
-        {
-            "root": "dcm",
-            "root_meaning": "同一物質流動",
-            "root_html_href": "d/dcm.html",
-            "root_json_href": "d/dcm.json"
-        },
-        {
-            "root": "dcn",
-            "root_meaning": "同一物質固定",
-            "root_html_href": "d/dcn.html",
-            "root_json_href": "d/dcn.json"
-        },
-        {
-            "root": "drk",
-            "root_meaning": "同一過去剥離",
-            "root_html_href": "d/drk.html",
-            "root_json_href": "d/drk.json"
-        },
-        {
-            "root": "drg",
-            "root_meaning": "同一過去癒着",
-            "root_html_href": "d/drg.html",
-            "root_json_href": "d/drg.json"
-        },
-        {
-            "root": "drt",
-            "root_meaning": "同一過去乖離",
-            "root_html_href": "d/drt.html",
-            "root_json_href": "d/drt.json"
-        },
-        {
-            "root": "drd",
-            "root_meaning": "同一過去同一",
-            "root_html_href": "d/drd.html",
-            "root_json_href": "d/drd.json"
-        },
-        {
-            "root": "drs",
-            "root_meaning": "同一過去肉体",
-            "root_html_href": "d/drs.html",
-            "root_json_href": "d/drs.json"
-        },
-        {
-            "root": "drz",
-            "root_meaning": "同一過去精神",
-            "root_html_href": "d/drz.html",
-            "root_json_href": "d/drz.json"
-        },
-        {
-            "root": "drq",
-            "root_meaning": "同一過去空白",
-            "root_html_href": "d/drq.html",
-            "root_json_href": "d/drq.json"
-        },
-        {
-            "root": "drc",
-            "root_meaning": "同一過去物質",
-            "root_html_href": "d/drc.html",
-            "root_json_href": "d/drc.json"
-        },
-        {
-            "root": "drr",
-            "root_meaning": "同一過去過去",
-            "root_html_href": "d/drr.html",
-            "root_json_href": "d/drr.json"
-        },
-        {
-            "root": "drl",
-            "root_meaning": "同一過去未来",
-            "root_html_href": "d/drl.html",
-            "root_json_href": "d/drl.json"
-        },
-        {
-            "root": "drp",
-            "root_meaning": "同一過去鎮静",
-            "root_html_href": "d/drp.html",
-            "root_json_href": "d/drp.json"
-        },
-        {
-            "root": "drb",
-            "root_meaning": "同一過去高揚",
-            "root_html_href": "d/drb.html",
-            "root_json_href": "d/drb.json"
-        },
-        {
-            "root": "drh",
-            "root_meaning": "同一過去受動",
-            "root_html_href": "d/drh.html",
-            "root_json_href": "d/drh.json"
-        },
-        {
-            "root": "drx",
-            "root_meaning": "同一過去能動",
-            "root_html_href": "d/drx.html",
-            "root_json_href": "d/drx.json"
-        },
-        {
-            "root": "drf",
-            "root_meaning": "同一過去創造",
-            "root_html_href": "d/drf.html",
-            "root_json_href": "d/drf.json"
-        },
-        {
-            "root": "drv",
-            "root_meaning": "同一過去破壊",
-            "root_html_href": "d/drv.html",
-            "root_json_href": "d/drv.json"
-        },
-        {
-            "root": "drm",
-            "root_meaning": "同一過去流動",
-            "root_html_href": "d/drm.html",
-            "root_json_href": "d/drm.json"
-        },
-        {
-            "root": "drn",
-            "root_meaning": "同一過去固定",
-            "root_html_href": "d/drn.html",
-            "root_json_href": "d/drn.json"
-        },
-        {
-            "root": "dlk",
-            "root_meaning": "同一未来剥離",
-            "root_html_href": "d/dlk.html",
-            "root_json_href": "d/dlk.json"
-        },
-        {
-            "root": "dlg",
-            "root_meaning": "同一未来癒着",
-            "root_html_href": "d/dlg.html",
-            "root_json_href": "d/dlg.json"
-        },
-        {
-            "root": "dlt",
-            "root_meaning": "同一未来乖離",
-            "root_html_href": "d/dlt.html",
-            "root_json_href": "d/dlt.json"
-        },
-        {
-            "root": "dld",
-            "root_meaning": "同一未来同一",
-            "root_html_href": "d/dld.html",
-            "root_json_href": "d/dld.json"
-        },
-        {
-            "root": "dls",
-            "root_meaning": "同一未来肉体",
-            "root_html_href": "d/dls.html",
-            "root_json_href": "d/dls.json"
-        },
-        {
-            "root": "dlz",
-            "root_meaning": "同一未来精神",
-            "root_html_href": "d/dlz.html",
-            "root_json_href": "d/dlz.json"
-        },
-        {
-            "root": "dlq",
-            "root_meaning": "同一未来空白",
-            "root_html_href": "d/dlq.html",
-            "root_json_href": "d/dlq.json"
-        },
-        {
-            "root": "dlc",
-            "root_meaning": "同一未来物質",
-            "root_html_href": "d/dlc.html",
-            "root_json_href": "d/dlc.json"
-        },
-        {
-            "root": "dlr",
-            "root_meaning": "同一未来過去",
-            "root_html_href": "d/dlr.html",
-            "root_json_href": "d/dlr.json"
-        },
-        {
-            "root": "dll",
-            "root_meaning": "同一未来未来",
-            "root_html_href": "d/dll.html",
-            "root_json_href": "d/dll.json"
-        },
-        {
-            "root": "dlp",
-            "root_meaning": "同一未来鎮静",
-            "root_html_href": "d/dlp.html",
-            "root_json_href": "d/dlp.json"
-        },
-        {
-            "root": "dlb",
-            "root_meaning": "同一未来高揚",
-            "root_html_href": "d/dlb.html",
-            "root_json_href": "d/dlb.json"
-        },
-        {
-            "root": "dlh",
-            "root_meaning": "同一未来受動",
-            "root_html_href": "d/dlh.html",
-            "root_json_href": "d/dlh.json"
-        },
-        {
-            "root": "dlx",
-            "root_meaning": "同一未来能動",
-            "root_html_href": "d/dlx.html",
-            "root_json_href": "d/dlx.json"
-        },
-        {
-            "root": "dlf",
-            "root_meaning": "同一未来創造",
-            "root_html_href": "d/dlf.html",
-            "root_json_href": "d/dlf.json"
-        },
-        {
-            "root": "dlv",
-            "root_meaning": "同一未来破壊",
-            "root_html_href": "d/dlv.html",
-            "root_json_href": "d/dlv.json"
-        },
-        {
-            "root": "dlm",
-            "root_meaning": "同一未来流動",
-            "root_html_href": "d/dlm.html",
-            "root_json_href": "d/dlm.json"
-        },
-        {
-            "root": "dln",
-            "root_meaning": "同一未来固定",
-            "root_html_href": "d/dln.html",
-            "root_json_href": "d/dln.json"
-        },
-        {
-            "root": "dpk",
-            "root_meaning": "同一鎮静剥離",
-            "root_html_href": "d/dpk.html",
-            "root_json_href": "d/dpk.json"
-        },
-        {
-            "root": "dpg",
-            "root_meaning": "同一鎮静癒着",
-            "root_html_href": "d/dpg.html",
-            "root_json_href": "d/dpg.json"
-        },
-        {
-            "root": "dpt",
-            "root_meaning": "同一鎮静乖離",
-            "root_html_href": "d/dpt.html",
-            "root_json_href": "d/dpt.json"
-        },
-        {
-            "root": "dpd",
-            "root_meaning": "同一鎮静同一",
-            "root_html_href": "d/dpd.html",
-            "root_json_href": "d/dpd.json"
-        },
-        {
-            "root": "dps",
-            "root_meaning": "同一鎮静肉体",
-            "root_html_href": "d/dps.html",
-            "root_json_href": "d/dps.json"
-        },
-        {
-            "root": "dpz",
-            "root_meaning": "同一鎮静精神",
-            "root_html_href": "d/dpz.html",
-            "root_json_href": "d/dpz.json"
-        },
-        {
-            "root": "dpq",
-            "root_meaning": "同一鎮静空白",
-            "root_html_href": "d/dpq.html",
-            "root_json_href": "d/dpq.json"
-        },
-        {
-            "root": "dpc",
-            "root_meaning": "同一鎮静物質",
-            "root_html_href": "d/dpc.html",
-            "root_json_href": "d/dpc.json"
-        },
-        {
-            "root": "dpr",
-            "root_meaning": "同一鎮静過去",
-            "root_html_href": "d/dpr.html",
-            "root_json_href": "d/dpr.json"
-        },
-        {
-            "root": "dpl",
-            "root_meaning": "同一鎮静未来",
-            "root_html_href": "d/dpl.html",
-            "root_json_href": "d/dpl.json"
-        },
-        {
-            "root": "dpp",
-            "root_meaning": "同一鎮静鎮静",
-            "root_html_href": "d/dpp.html",
-            "root_json_href": "d/dpp.json"
-        },
-        {
-            "root": "dpb",
-            "root_meaning": "同一鎮静高揚",
-            "root_html_href": "d/dpb.html",
-            "root_json_href": "d/dpb.json"
-        },
-        {
-            "root": "dph",
-            "root_meaning": "同一鎮静受動",
-            "root_html_href": "d/dph.html",
-            "root_json_href": "d/dph.json"
-        },
-        {
-            "root": "dpx",
-            "root_meaning": "同一鎮静能動",
-            "root_html_href": "d/dpx.html",
-            "root_json_href": "d/dpx.json"
-        },
-        {
-            "root": "dpf",
-            "root_meaning": "同一鎮静創造",
-            "root_html_href": "d/dpf.html",
-            "root_json_href": "d/dpf.json"
-        },
-        {
-            "root": "dpv",
-            "root_meaning": "同一鎮静破壊",
-            "root_html_href": "d/dpv.html",
-            "root_json_href": "d/dpv.json"
-        },
-        {
-            "root": "dpm",
-            "root_meaning": "同一鎮静流動",
-            "root_html_href": "d/dpm.html",
-            "root_json_href": "d/dpm.json"
-        },
-        {
-            "root": "dpn",
-            "root_meaning": "同一鎮静固定",
-            "root_html_href": "d/dpn.html",
-            "root_json_href": "d/dpn.json"
-        },
-        {
-            "root": "dbk",
-            "root_meaning": "同一高揚剥離",
-            "root_html_href": "d/dbk.html",
-            "root_json_href": "d/dbk.json"
-        },
-        {
-            "root": "dbg",
-            "root_meaning": "同一高揚癒着",
-            "root_html_href": "d/dbg.html",
-            "root_json_href": "d/dbg.json"
-        },
-        {
-            "root": "dbt",
-            "root_meaning": "同一高揚乖離",
-            "root_html_href": "d/dbt.html",
-            "root_json_href": "d/dbt.json"
-        },
-        {
-            "root": "dbd",
-            "root_meaning": "同一高揚同一",
-            "root_html_href": "d/dbd.html",
-            "root_json_href": "d/dbd.json"
-        },
-        {
-            "root": "dbs",
-            "root_meaning": "同一高揚肉体",
-            "root_html_href": "d/dbs.html",
-            "root_json_href": "d/dbs.json"
-        },
-        {
-            "root": "dbz",
-            "root_meaning": "同一高揚精神",
-            "root_html_href": "d/dbz.html",
-            "root_json_href": "d/dbz.json"
-        },
-        {
-            "root": "dbq",
-            "root_meaning": "同一高揚空白",
-            "root_html_href": "d/dbq.html",
-            "root_json_href": "d/dbq.json"
-        },
-        {
-            "root": "dbc",
-            "root_meaning": "同一高揚物質",
-            "root_html_href": "d/dbc.html",
-            "root_json_href": "d/dbc.json"
-        },
-        {
-            "root": "dbr",
-            "root_meaning": "同一高揚過去",
-            "root_html_href": "d/dbr.html",
-            "root_json_href": "d/dbr.json"
-        },
-        {
-            "root": "dbl",
-            "root_meaning": "同一高揚未来",
-            "root_html_href": "d/dbl.html",
-            "root_json_href": "d/dbl.json"
-        },
-        {
-            "root": "dbp",
-            "root_meaning": "同一高揚鎮静",
-            "root_html_href": "d/dbp.html",
-            "root_json_href": "d/dbp.json"
-        },
-        {
-            "root": "dbb",
-            "root_meaning": "同一高揚高揚",
-            "root_html_href": "d/dbb.html",
-            "root_json_href": "d/dbb.json"
-        },
-        {
-            "root": "dbh",
-            "root_meaning": "同一高揚受動",
-            "root_html_href": "d/dbh.html",
-            "root_json_href": "d/dbh.json"
-        },
-        {
-            "root": "dbx",
-            "root_meaning": "同一高揚能動",
-            "root_html_href": "d/dbx.html",
-            "root_json_href": "d/dbx.json"
-        },
-        {
-            "root": "dbf",
-            "root_meaning": "同一高揚創造",
-            "root_html_href": "d/dbf.html",
-            "root_json_href": "d/dbf.json"
-        },
-        {
-            "root": "dbv",
-            "root_meaning": "同一高揚破壊",
-            "root_html_href": "d/dbv.html",
-            "root_json_href": "d/dbv.json"
-        },
-        {
-            "root": "dbm",
-            "root_meaning": "同一高揚流動",
-            "root_html_href": "d/dbm.html",
-            "root_json_href": "d/dbm.json"
-        },
-        {
-            "root": "dbn",
-            "root_meaning": "同一高揚固定",
-            "root_html_href": "d/dbn.html",
-            "root_json_href": "d/dbn.json"
-        },
-        {
-            "root": "dhk",
-            "root_meaning": "同一受動剥離",
-            "root_html_href": "d/dhk.html",
-            "root_json_href": "d/dhk.json"
-        },
-        {
-            "root": "dhg",
-            "root_meaning": "同一受動癒着",
-            "root_html_href": "d/dhg.html",
-            "root_json_href": "d/dhg.json"
-        },
-        {
-            "root": "dht",
-            "root_meaning": "同一受動乖離",
-            "root_html_href": "d/dht.html",
-            "root_json_href": "d/dht.json"
-        },
-        {
-            "root": "dhd",
-            "root_meaning": "同一受動同一",
-            "root_html_href": "d/dhd.html",
-            "root_json_href": "d/dhd.json"
-        },
-        {
-            "root": "dhs",
-            "root_meaning": "同一受動肉体",
-            "root_html_href": "d/dhs.html",
-            "root_json_href": "d/dhs.json"
-        },
-        {
-            "root": "dhz",
-            "root_meaning": "同一受動精神",
-            "root_html_href": "d/dhz.html",
-            "root_json_href": "d/dhz.json"
-        },
-        {
-            "root": "dhq",
-            "root_meaning": "同一受動空白",
-            "root_html_href": "d/dhq.html",
-            "root_json_href": "d/dhq.json"
-        },
-        {
-            "root": "dhc",
-            "root_meaning": "同一受動物質",
-            "root_html_href": "d/dhc.html",
-            "root_json_href": "d/dhc.json"
-        },
-        {
-            "root": "dhr",
-            "root_meaning": "同一受動過去",
-            "root_html_href": "d/dhr.html",
-            "root_json_href": "d/dhr.json"
-        },
-        {
-            "root": "dhl",
-            "root_meaning": "同一受動未来",
-            "root_html_href": "d/dhl.html",
-            "root_json_href": "d/dhl.json"
-        },
-        {
-            "root": "dhp",
-            "root_meaning": "同一受動鎮静",
-            "root_html_href": "d/dhp.html",
-            "root_json_href": "d/dhp.json"
-        },
-        {
-            "root": "dhb",
-            "root_meaning": "同一受動高揚",
-            "root_html_href": "d/dhb.html",
-            "root_json_href": "d/dhb.json"
-        },
-        {
-            "root": "dhh",
-            "root_meaning": "同一受動受動",
-            "root_html_href": "d/dhh.html",
-            "root_json_href": "d/dhh.json"
-        },
-        {
-            "root": "dhx",
-            "root_meaning": "同一受動能動",
-            "root_html_href": "d/dhx.html",
-            "root_json_href": "d/dhx.json"
-        },
-        {
-            "root": "dhf",
-            "root_meaning": "同一受動創造",
-            "root_html_href": "d/dhf.html",
-            "root_json_href": "d/dhf.json"
-        },
-        {
-            "root": "dhv",
-            "root_meaning": "同一受動破壊",
-            "root_html_href": "d/dhv.html",
-            "root_json_href": "d/dhv.json"
-        },
-        {
-            "root": "dhm",
-            "root_meaning": "同一受動流動",
-            "root_html_href": "d/dhm.html",
-            "root_json_href": "d/dhm.json"
-        },
-        {
-            "root": "dhn",
-            "root_meaning": "同一受動固定",
-            "root_html_href": "d/dhn.html",
-            "root_json_href": "d/dhn.json"
-        },
-        {
-            "root": "dxk",
-            "root_meaning": "同一能動剥離",
-            "root_html_href": "d/dxk.html",
-            "root_json_href": "d/dxk.json"
-        },
-        {
-            "root": "dxg",
-            "root_meaning": "同一能動癒着",
-            "root_html_href": "d/dxg.html",
-            "root_json_href": "d/dxg.json"
-        },
-        {
-            "root": "dxt",
-            "root_meaning": "同一能動乖離",
-            "root_html_href": "d/dxt.html",
-            "root_json_href": "d/dxt.json"
-        },
-        {
-            "root": "dxd",
-            "root_meaning": "同一能動同一",
-            "root_html_href": "d/dxd.html",
-            "root_json_href": "d/dxd.json"
-        },
-        {
-            "root": "dxs",
-            "root_meaning": "同一能動肉体",
-            "root_html_href": "d/dxs.html",
-            "root_json_href": "d/dxs.json"
-        },
-        {
-            "root": "dxz",
-            "root_meaning": "同一能動精神",
-            "root_html_href": "d/dxz.html",
-            "root_json_href": "d/dxz.json"
-        },
-        {
-            "root": "dxq",
-            "root_meaning": "同一能動空白",
-            "root_html_href": "d/dxq.html",
-            "root_json_href": "d/dxq.json"
-        },
-        {
-            "root": "dxc",
-            "root_meaning": "同一能動物質",
-            "root_html_href": "d/dxc.html",
-            "root_json_href": "d/dxc.json"
-        },
-        {
-            "root": "dxr",
-            "root_meaning": "同一能動過去",
-            "root_html_href": "d/dxr.html",
-            "root_json_href": "d/dxr.json"
-        },
-        {
-            "root": "dxl",
-            "root_meaning": "同一能動未来",
-            "root_html_href": "d/dxl.html",
-            "root_json_href": "d/dxl.json"
-        },
-        {
-            "root": "dxp",
-            "root_meaning": "同一能動鎮静",
-            "root_html_href": "d/dxp.html",
-            "root_json_href": "d/dxp.json"
-        },
-        {
-            "root": "dxb",
-            "root_meaning": "同一能動高揚",
-            "root_html_href": "d/dxb.html",
-            "root_json_href": "d/dxb.json"
-        },
-        {
-            "root": "dxh",
-            "root_meaning": "同一能動受動",
-            "root_html_href": "d/dxh.html",
-            "root_json_href": "d/dxh.json"
-        },
-        {
-            "root": "dxx",
-            "root_meaning": "同一能動能動",
-            "root_html_href": "d/dxx.html",
-            "root_json_href": "d/dxx.json"
-        },
-        {
-            "root": "dxf",
-            "root_meaning": "同一能動創造",
-            "root_html_href": "d/dxf.html",
-            "root_json_href": "d/dxf.json"
-        },
-        {
-            "root": "dxv",
-            "root_meaning": "同一能動破壊",
-            "root_html_href": "d/dxv.html",
-            "root_json_href": "d/dxv.json"
-        },
-        {
-            "root": "dxm",
-            "root_meaning": "同一能動流動",
-            "root_html_href": "d/dxm.html",
-            "root_json_href": "d/dxm.json"
-        },
-        {
-            "root": "dxn",
-            "root_meaning": "同一能動固定",
-            "root_html_href": "d/dxn.html",
-            "root_json_href": "d/dxn.json"
-        },
-        {
-            "root": "dfk",
-            "root_meaning": "同一創造剥離",
-            "root_html_href": "d/dfk.html",
-            "root_json_href": "d/dfk.json"
-        },
-        {
-            "root": "dfg",
-            "root_meaning": "同一創造癒着",
-            "root_html_href": "d/dfg.html",
-            "root_json_href": "d/dfg.json"
-        },
-        {
-            "root": "dft",
-            "root_meaning": "同一創造乖離",
-            "root_html_href": "d/dft.html",
-            "root_json_href": "d/dft.json"
-        },
-        {
-            "root": "dfd",
-            "root_meaning": "同一創造同一",
-            "root_html_href": "d/dfd.html",
-            "root_json_href": "d/dfd.json"
-        },
-        {
-            "root": "dfs",
-            "root_meaning": "同一創造肉体",
-            "root_html_href": "d/dfs.html",
-            "root_json_href": "d/dfs.json"
-        },
-        {
-            "root": "dfz",
-            "root_meaning": "同一創造精神",
-            "root_html_href": "d/dfz.html",
-            "root_json_href": "d/dfz.json"
-        },
-        {
-            "root": "dfq",
-            "root_meaning": "同一創造空白",
-            "root_html_href": "d/dfq.html",
-            "root_json_href": "d/dfq.json"
-        },
-        {
-            "root": "dfc",
-            "root_meaning": "同一創造物質",
-            "root_html_href": "d/dfc.html",
-            "root_json_href": "d/dfc.json"
-        },
-        {
-            "root": "dfr",
-            "root_meaning": "同一創造過去",
-            "root_html_href": "d/dfr.html",
-            "root_json_href": "d/dfr.json"
-        },
-        {
-            "root": "dfl",
-            "root_meaning": "同一創造未来",
-            "root_html_href": "d/dfl.html",
-            "root_json_href": "d/dfl.json"
-        },
-        {
-            "root": "dfp",
-            "root_meaning": "同一創造鎮静",
-            "root_html_href": "d/dfp.html",
-            "root_json_href": "d/dfp.json"
-        },
-        {
-            "root": "dfb",
-            "root_meaning": "同一創造高揚",
-            "root_html_href": "d/dfb.html",
-            "root_json_href": "d/dfb.json"
-        },
-        {
-            "root": "dfh",
-            "root_meaning": "同一創造受動",
-            "root_html_href": "d/dfh.html",
-            "root_json_href": "d/dfh.json"
-        },
-        {
-            "root": "dfx",
-            "root_meaning": "同一創造能動",
-            "root_html_href": "d/dfx.html",
-            "root_json_href": "d/dfx.json"
-        },
-        {
-            "root": "dff",
-            "root_meaning": "同一創造創造",
-            "root_html_href": "d/dff.html",
-            "root_json_href": "d/dff.json"
-        },
-        {
-            "root": "dfv",
-            "root_meaning": "同一創造破壊",
-            "root_html_href": "d/dfv.html",
-            "root_json_href": "d/dfv.json"
-        },
-        {
-            "root": "dfm",
-            "root_meaning": "同一創造流動",
-            "root_html_href": "d/dfm.html",
-            "root_json_href": "d/dfm.json"
-        },
-        {
-            "root": "dfn",
-            "root_meaning": "同一創造固定",
-            "root_html_href": "d/dfn.html",
-            "root_json_href": "d/dfn.json"
-        },
-        {
-            "root": "dvk",
-            "root_meaning": "同一破壊剥離",
-            "root_html_href": "d/dvk.html",
-            "root_json_href": "d/dvk.json"
-        },
-        {
-            "root": "dvg",
-            "root_meaning": "同一破壊癒着",
-            "root_html_href": "d/dvg.html",
-            "root_json_href": "d/dvg.json"
-        },
-        {
-            "root": "dvt",
-            "root_meaning": "同一破壊乖離",
-            "root_html_href": "d/dvt.html",
-            "root_json_href": "d/dvt.json"
-        },
-        {
-            "root": "dvd",
-            "root_meaning": "同一破壊同一",
-            "root_html_href": "d/dvd.html",
-            "root_json_href": "d/dvd.json"
-        },
-        {
-            "root": "dvs",
-            "root_meaning": "同一破壊肉体",
-            "root_html_href": "d/dvs.html",
-            "root_json_href": "d/dvs.json"
-        },
-        {
-            "root": "dvz",
-            "root_meaning": "同一破壊精神",
-            "root_html_href": "d/dvz.html",
-            "root_json_href": "d/dvz.json"
-        },
-        {
-            "root": "dvq",
-            "root_meaning": "同一破壊空白",
-            "root_html_href": "d/dvq.html",
-            "root_json_href": "d/dvq.json"
-        },
-        {
-            "root": "dvc",
-            "root_meaning": "同一破壊物質",
-            "root_html_href": "d/dvc.html",
-            "root_json_href": "d/dvc.json"
-        },
-        {
-            "root": "dvr",
-            "root_meaning": "同一破壊過去",
-            "root_html_href": "d/dvr.html",
-            "root_json_href": "d/dvr.json"
-        },
-        {
-            "root": "dvl",
-            "root_meaning": "同一破壊未来",
-            "root_html_href": "d/dvl.html",
-            "root_json_href": "d/dvl.json"
-        },
-        {
-            "root": "dvp",
-            "root_meaning": "同一破壊鎮静",
-            "root_html_href": "d/dvp.html",
-            "root_json_href": "d/dvp.json"
-        },
-        {
-            "root": "dvb",
-            "root_meaning": "同一破壊高揚",
-            "root_html_href": "d/dvb.html",
-            "root_json_href": "d/dvb.json"
-        },
-        {
-            "root": "dvh",
-            "root_meaning": "同一破壊受動",
-            "root_html_href": "d/dvh.html",
-            "root_json_href": "d/dvh.json"
-        },
-        {
-            "root": "dvx",
-            "root_meaning": "同一破壊能動",
-            "root_html_href": "d/dvx.html",
-            "root_json_href": "d/dvx.json"
-        },
-        {
-            "root": "dvf",
-            "root_meaning": "同一破壊創造",
-            "root_html_href": "d/dvf.html",
-            "root_json_href": "d/dvf.json"
-        },
-        {
-            "root": "dvv",
-            "root_meaning": "同一破壊破壊",
-            "root_html_href": "d/dvv.html",
-            "root_json_href": "d/dvv.json"
-        },
-        {
-            "root": "dvm",
-            "root_meaning": "同一破壊流動",
-            "root_html_href": "d/dvm.html",
-            "root_json_href": "d/dvm.json"
-        },
-        {
-            "root": "dvn",
-            "root_meaning": "同一破壊固定",
-            "root_html_href": "d/dvn.html",
-            "root_json_href": "d/dvn.json"
-        },
-        {
-            "root": "dmk",
-            "root_meaning": "同一流動剥離",
-            "root_html_href": "d/dmk.html",
-            "root_json_href": "d/dmk.json"
-        },
-        {
-            "root": "dmg",
-            "root_meaning": "同一流動癒着",
-            "root_html_href": "d/dmg.html",
-            "root_json_href": "d/dmg.json"
-        },
-        {
-            "root": "dmt",
-            "root_meaning": "同一流動乖離",
-            "root_html_href": "d/dmt.html",
-            "root_json_href": "d/dmt.json"
-        },
-        {
-            "root": "dmd",
-            "root_meaning": "同一流動同一",
-            "root_html_href": "d/dmd.html",
-            "root_json_href": "d/dmd.json"
-        },
-        {
-            "root": "dms",
-            "root_meaning": "同一流動肉体",
-            "root_html_href": "d/dms.html",
-            "root_json_href": "d/dms.json"
-        },
-        {
-            "root": "dmz",
-            "root_meaning": "同一流動精神",
-            "root_html_href": "d/dmz.html",
-            "root_json_href": "d/dmz.json"
-        },
-        {
-            "root": "dmq",
-            "root_meaning": "同一流動空白",
-            "root_html_href": "d/dmq.html",
-            "root_json_href": "d/dmq.json"
-        },
-        {
-            "root": "dmc",
-            "root_meaning": "同一流動物質",
-            "root_html_href": "d/dmc.html",
-            "root_json_href": "d/dmc.json"
-        },
-        {
-            "root": "dmr",
-            "root_meaning": "同一流動過去",
-            "root_html_href": "d/dmr.html",
-            "root_json_href": "d/dmr.json"
-        },
-        {
-            "root": "dml",
-            "root_meaning": "同一流動未来",
-            "root_html_href": "d/dml.html",
-            "root_json_href": "d/dml.json"
-        },
-        {
-            "root": "dmp",
-            "root_meaning": "同一流動鎮静",
-            "root_html_href": "d/dmp.html",
-            "root_json_href": "d/dmp.json"
-        },
-        {
-            "root": "dmb",
-            "root_meaning": "同一流動高揚",
-            "root_html_href": "d/dmb.html",
-            "root_json_href": "d/dmb.json"
-        },
-        {
-            "root": "dmh",
-            "root_meaning": "同一流動受動",
-            "root_html_href": "d/dmh.html",
-            "root_json_href": "d/dmh.json"
-        },
-        {
-            "root": "dmx",
-            "root_meaning": "同一流動能動",
-            "root_html_href": "d/dmx.html",
-            "root_json_href": "d/dmx.json"
-        },
-        {
-            "root": "dmf",
-            "root_meaning": "同一流動創造",
-            "root_html_href": "d/dmf.html",
-            "root_json_href": "d/dmf.json"
-        },
-        {
-            "root": "dmv",
-            "root_meaning": "同一流動破壊",
-            "root_html_href": "d/dmv.html",
-            "root_json_href": "d/dmv.json"
-        },
-        {
-            "root": "dmm",
-            "root_meaning": "同一流動流動",
-            "root_html_href": "d/dmm.html",
-            "root_json_href": "d/dmm.json"
-        },
-        {
-            "root": "dmn",
-            "root_meaning": "同一流動固定",
-            "root_html_href": "d/dmn.html",
-            "root_json_href": "d/dmn.json"
-        },
-        {
-            "root": "dnk",
-            "root_meaning": "同一固定剥離",
-            "root_html_href": "d/dnk.html",
-            "root_json_href": "d/dnk.json"
-        },
-        {
-            "root": "dng",
-            "root_meaning": "同一固定癒着",
-            "root_html_href": "d/dng.html",
-            "root_json_href": "d/dng.json"
-        },
-        {
-            "root": "dnt",
-            "root_meaning": "同一固定乖離",
-            "root_html_href": "d/dnt.html",
-            "root_json_href": "d/dnt.json"
-        },
-        {
-            "root": "dnd",
-            "root_meaning": "同一固定同一",
-            "root_html_href": "d/dnd.html",
-            "root_json_href": "d/dnd.json"
-        },
-        {
-            "root": "dns",
-            "root_meaning": "同一固定肉体",
-            "root_html_href": "d/dns.html",
-            "root_json_href": "d/dns.json"
-        },
-        {
-            "root": "dnz",
-            "root_meaning": "同一固定精神",
-            "root_html_href": "d/dnz.html",
-            "root_json_href": "d/dnz.json"
-        },
-        {
-            "root": "dnq",
-            "root_meaning": "同一固定空白",
-            "root_html_href": "d/dnq.html",
-            "root_json_href": "d/dnq.json"
-        },
-        {
-            "root": "dnc",
-            "root_meaning": "同一固定物質",
-            "root_html_href": "d/dnc.html",
-            "root_json_href": "d/dnc.json"
-        },
-        {
-            "root": "dnr",
-            "root_meaning": "同一固定過去",
-            "root_html_href": "d/dnr.html",
-            "root_json_href": "d/dnr.json"
-        },
-        {
-            "root": "dnl",
-            "root_meaning": "同一固定未来",
-            "root_html_href": "d/dnl.html",
-            "root_json_href": "d/dnl.json"
-        },
-        {
-            "root": "dnp",
-            "root_meaning": "同一固定鎮静",
-            "root_html_href": "d/dnp.html",
-            "root_json_href": "d/dnp.json"
-        },
-        {
-            "root": "dnb",
-            "root_meaning": "同一固定高揚",
-            "root_html_href": "d/dnb.html",
-            "root_json_href": "d/dnb.json"
-        },
-        {
-            "root": "dnh",
-            "root_meaning": "同一固定受動",
-            "root_html_href": "d/dnh.html",
-            "root_json_href": "d/dnh.json"
-        },
-        {
-            "root": "dnx",
-            "root_meaning": "同一固定能動",
-            "root_html_href": "d/dnx.html",
-            "root_json_href": "d/dnx.json"
-        },
-        {
-            "root": "dnf",
-            "root_meaning": "同一固定創造",
-            "root_html_href": "d/dnf.html",
-            "root_json_href": "d/dnf.json"
-        },
-        {
-            "root": "dnv",
-            "root_meaning": "同一固定破壊",
-            "root_html_href": "d/dnv.html",
-            "root_json_href": "d/dnv.json"
-        },
-        {
-            "root": "dnm",
-            "root_meaning": "同一固定流動",
-            "root_html_href": "d/dnm.html",
-            "root_json_href": "d/dnm.json"
-        },
-        {
-            "root": "dnn",
-            "root_meaning": "同一固定固定",
-            "root_html_href": "d/dnn.html",
-            "root_json_href": "d/dnn.json"
-        }
+        { "root": "dkk", "root_meaning": "同一剥離剥離", "root_html_href": "d/dkk.html" },
+        { "root": "dkg", "root_meaning": "同一剥離癒着", "root_html_href": "d/dkg.html" },
+        { "root": "dkt", "root_meaning": "同一剥離乖離", "root_html_href": "d/dkt.html" },
+        { "root": "dkd", "root_meaning": "同一剥離同一", "root_html_href": "d/dkd.html" },
+        { "root": "dks", "root_meaning": "同一剥離肉体", "root_html_href": "d/dks.html" },
+        { "root": "dkz", "root_meaning": "同一剥離精神", "root_html_href": "d/dkz.html" },
+        { "root": "dkq", "root_meaning": "同一剥離空白", "root_html_href": "d/dkq.html" },
+        { "root": "dkc", "root_meaning": "同一剥離物質", "root_html_href": "d/dkc.html" },
+        { "root": "dkr", "root_meaning": "同一剥離過去", "root_html_href": "d/dkr.html" },
+        { "root": "dkl", "root_meaning": "同一剥離未来", "root_html_href": "d/dkl.html" },
+        { "root": "dkp", "root_meaning": "同一剥離鎮静", "root_html_href": "d/dkp.html" },
+        { "root": "dkb", "root_meaning": "同一剥離高揚", "root_html_href": "d/dkb.html" },
+        { "root": "dkh", "root_meaning": "同一剥離受動", "root_html_href": "d/dkh.html" },
+        { "root": "dkx", "root_meaning": "同一剥離能動", "root_html_href": "d/dkx.html" },
+        { "root": "dkf", "root_meaning": "同一剥離創造", "root_html_href": "d/dkf.html" },
+        { "root": "dkv", "root_meaning": "同一剥離破壊", "root_html_href": "d/dkv.html" },
+        { "root": "dkm", "root_meaning": "同一剥離流動", "root_html_href": "d/dkm.html" },
+        { "root": "dkn", "root_meaning": "同一剥離固定", "root_html_href": "d/dkn.html" },
+        { "root": "dgk", "root_meaning": "同一癒着剥離", "root_html_href": "d/dgk.html" },
+        { "root": "dgg", "root_meaning": "同一癒着癒着", "root_html_href": "d/dgg.html" },
+        { "root": "dgt", "root_meaning": "同一癒着乖離", "root_html_href": "d/dgt.html" },
+        { "root": "dgd", "root_meaning": "同一癒着同一", "root_html_href": "d/dgd.html" },
+        { "root": "dgs", "root_meaning": "同一癒着肉体", "root_html_href": "d/dgs.html" },
+        { "root": "dgz", "root_meaning": "同一癒着精神", "root_html_href": "d/dgz.html" },
+        { "root": "dgq", "root_meaning": "同一癒着空白", "root_html_href": "d/dgq.html" },
+        { "root": "dgc", "root_meaning": "同一癒着物質", "root_html_href": "d/dgc.html" },
+        { "root": "dgr", "root_meaning": "同一癒着過去", "root_html_href": "d/dgr.html" },
+        { "root": "dgl", "root_meaning": "同一癒着未来", "root_html_href": "d/dgl.html" },
+        { "root": "dgp", "root_meaning": "同一癒着鎮静", "root_html_href": "d/dgp.html" },
+        { "root": "dgb", "root_meaning": "同一癒着高揚", "root_html_href": "d/dgb.html" },
+        { "root": "dgh", "root_meaning": "同一癒着受動", "root_html_href": "d/dgh.html" },
+        { "root": "dgx", "root_meaning": "同一癒着能動", "root_html_href": "d/dgx.html" },
+        { "root": "dgf", "root_meaning": "同一癒着創造", "root_html_href": "d/dgf.html" },
+        { "root": "dgv", "root_meaning": "同一癒着破壊", "root_html_href": "d/dgv.html" },
+        { "root": "dgm", "root_meaning": "同一癒着流動", "root_html_href": "d/dgm.html" },
+        { "root": "dgn", "root_meaning": "同一癒着固定", "root_html_href": "d/dgn.html" },
+        { "root": "dtk", "root_meaning": "同一乖離剥離", "root_html_href": "d/dtk.html" },
+        { "root": "dtg", "root_meaning": "同一乖離癒着", "root_html_href": "d/dtg.html" },
+        { "root": "dtt", "root_meaning": "同一乖離乖離", "root_html_href": "d/dtt.html" },
+        { "root": "dtd", "root_meaning": "同一乖離同一", "root_html_href": "d/dtd.html" },
+        { "root": "dts", "root_meaning": "同一乖離肉体", "root_html_href": "d/dts.html" },
+        { "root": "dtz", "root_meaning": "同一乖離精神", "root_html_href": "d/dtz.html" },
+        { "root": "dtq", "root_meaning": "同一乖離空白", "root_html_href": "d/dtq.html" },
+        { "root": "dtc", "root_meaning": "同一乖離物質", "root_html_href": "d/dtc.html" },
+        { "root": "dtr", "root_meaning": "同一乖離過去", "root_html_href": "d/dtr.html" },
+        { "root": "dtl", "root_meaning": "同一乖離未来", "root_html_href": "d/dtl.html" },
+        { "root": "dtp", "root_meaning": "同一乖離鎮静", "root_html_href": "d/dtp.html" },
+        { "root": "dtb", "root_meaning": "同一乖離高揚", "root_html_href": "d/dtb.html" },
+        { "root": "dth", "root_meaning": "同一乖離受動", "root_html_href": "d/dth.html" },
+        { "root": "dtx", "root_meaning": "同一乖離能動", "root_html_href": "d/dtx.html" },
+        { "root": "dtf", "root_meaning": "同一乖離創造", "root_html_href": "d/dtf.html" },
+        { "root": "dtv", "root_meaning": "同一乖離破壊", "root_html_href": "d/dtv.html" },
+        { "root": "dtm", "root_meaning": "同一乖離流動", "root_html_href": "d/dtm.html" },
+        { "root": "dtn", "root_meaning": "同一乖離固定", "root_html_href": "d/dtn.html" },
+        { "root": "ddk", "root_meaning": "同一同一剥離", "root_html_href": "d/ddk.html" },
+        { "root": "ddg", "root_meaning": "同一同一癒着", "root_html_href": "d/ddg.html" },
+        { "root": "ddt", "root_meaning": "同一同一乖離", "root_html_href": "d/ddt.html" },
+        { "root": "ddd", "root_meaning": "同一同一同一", "root_html_href": "d/ddd.html" },
+        { "root": "dds", "root_meaning": "同一同一肉体", "root_html_href": "d/dds.html" },
+        { "root": "ddz", "root_meaning": "同一同一精神", "root_html_href": "d/ddz.html" },
+        { "root": "ddq", "root_meaning": "同一同一空白", "root_html_href": "d/ddq.html" },
+        { "root": "ddc", "root_meaning": "同一同一物質", "root_html_href": "d/ddc.html" },
+        { "root": "ddr", "root_meaning": "同一同一過去", "root_html_href": "d/ddr.html" },
+        { "root": "ddl", "root_meaning": "同一同一未来", "root_html_href": "d/ddl.html" },
+        { "root": "ddp", "root_meaning": "同一同一鎮静", "root_html_href": "d/ddp.html" },
+        { "root": "ddb", "root_meaning": "同一同一高揚", "root_html_href": "d/ddb.html" },
+        { "root": "ddh", "root_meaning": "同一同一受動", "root_html_href": "d/ddh.html" },
+        { "root": "ddx", "root_meaning": "同一同一能動", "root_html_href": "d/ddx.html" },
+        { "root": "ddf", "root_meaning": "同一同一創造", "root_html_href": "d/ddf.html" },
+        { "root": "ddv", "root_meaning": "同一同一破壊", "root_html_href": "d/ddv.html" },
+        { "root": "ddm", "root_meaning": "同一同一流動", "root_html_href": "d/ddm.html" },
+        { "root": "ddn", "root_meaning": "同一同一固定", "root_html_href": "d/ddn.html" },
+        { "root": "dsk", "root_meaning": "同一肉体剥離", "root_html_href": "d/dsk.html" },
+        { "root": "dsg", "root_meaning": "同一肉体癒着", "root_html_href": "d/dsg.html" },
+        { "root": "dst", "root_meaning": "同一肉体乖離", "root_html_href": "d/dst.html" },
+        { "root": "dsd", "root_meaning": "同一肉体同一", "root_html_href": "d/dsd.html" },
+        { "root": "dss", "root_meaning": "同一肉体肉体", "root_html_href": "d/dss.html" },
+        { "root": "dsz", "root_meaning": "同一肉体精神", "root_html_href": "d/dsz.html" },
+        { "root": "dsq", "root_meaning": "同一肉体空白", "root_html_href": "d/dsq.html" },
+        { "root": "dsc", "root_meaning": "同一肉体物質", "root_html_href": "d/dsc.html" },
+        { "root": "dsr", "root_meaning": "同一肉体過去", "root_html_href": "d/dsr.html" },
+        { "root": "dsl", "root_meaning": "同一肉体未来", "root_html_href": "d/dsl.html" },
+        { "root": "dsp", "root_meaning": "同一肉体鎮静", "root_html_href": "d/dsp.html" },
+        { "root": "dsb", "root_meaning": "同一肉体高揚", "root_html_href": "d/dsb.html" },
+        { "root": "dsh", "root_meaning": "同一肉体受動", "root_html_href": "d/dsh.html" },
+        { "root": "dsx", "root_meaning": "同一肉体能動", "root_html_href": "d/dsx.html" },
+        { "root": "dsf", "root_meaning": "同一肉体創造", "root_html_href": "d/dsf.html" },
+        { "root": "dsv", "root_meaning": "同一肉体破壊", "root_html_href": "d/dsv.html" },
+        { "root": "dsm", "root_meaning": "同一肉体流動", "root_html_href": "d/dsm.html" },
+        { "root": "dsn", "root_meaning": "同一肉体固定", "root_html_href": "d/dsn.html" },
+        { "root": "dzk", "root_meaning": "同一精神剥離", "root_html_href": "d/dzk.html" },
+        { "root": "dzg", "root_meaning": "同一精神癒着", "root_html_href": "d/dzg.html" },
+        { "root": "dzt", "root_meaning": "同一精神乖離", "root_html_href": "d/dzt.html" },
+        { "root": "dzd", "root_meaning": "同一精神同一", "root_html_href": "d/dzd.html" },
+        { "root": "dzs", "root_meaning": "同一精神肉体", "root_html_href": "d/dzs.html" },
+        { "root": "dzz", "root_meaning": "同一精神精神", "root_html_href": "d/dzz.html" },
+        { "root": "dzq", "root_meaning": "同一精神空白", "root_html_href": "d/dzq.html" },
+        { "root": "dzc", "root_meaning": "同一精神物質", "root_html_href": "d/dzc.html" },
+        { "root": "dzr", "root_meaning": "同一精神過去", "root_html_href": "d/dzr.html" },
+        { "root": "dzl", "root_meaning": "同一精神未来", "root_html_href": "d/dzl.html" },
+        { "root": "dzp", "root_meaning": "同一精神鎮静", "root_html_href": "d/dzp.html" },
+        { "root": "dzb", "root_meaning": "同一精神高揚", "root_html_href": "d/dzb.html" },
+        { "root": "dzh", "root_meaning": "同一精神受動", "root_html_href": "d/dzh.html" },
+        { "root": "dzx", "root_meaning": "同一精神能動", "root_html_href": "d/dzx.html" },
+        { "root": "dzf", "root_meaning": "同一精神創造", "root_html_href": "d/dzf.html" },
+        { "root": "dzv", "root_meaning": "同一精神破壊", "root_html_href": "d/dzv.html" },
+        { "root": "dzm", "root_meaning": "同一精神流動", "root_html_href": "d/dzm.html" },
+        { "root": "dzn", "root_meaning": "同一精神固定", "root_html_href": "d/dzn.html" },
+        { "root": "dqk", "root_meaning": "同一空白剥離", "root_html_href": "d/dqk.html" },
+        { "root": "dqg", "root_meaning": "同一空白癒着", "root_html_href": "d/dqg.html" },
+        { "root": "dqt", "root_meaning": "同一空白乖離", "root_html_href": "d/dqt.html" },
+        { "root": "dqd", "root_meaning": "同一空白同一", "root_html_href": "d/dqd.html" },
+        { "root": "dqs", "root_meaning": "同一空白肉体", "root_html_href": "d/dqs.html" },
+        { "root": "dqz", "root_meaning": "同一空白精神", "root_html_href": "d/dqz.html" },
+        { "root": "dqq", "root_meaning": "同一空白空白", "root_html_href": "d/dqq.html" },
+        { "root": "dqc", "root_meaning": "同一空白物質", "root_html_href": "d/dqc.html" },
+        { "root": "dqr", "root_meaning": "同一空白過去", "root_html_href": "d/dqr.html" },
+        { "root": "dql", "root_meaning": "同一空白未来", "root_html_href": "d/dql.html" },
+        { "root": "dqp", "root_meaning": "同一空白鎮静", "root_html_href": "d/dqp.html" },
+        { "root": "dqb", "root_meaning": "同一空白高揚", "root_html_href": "d/dqb.html" },
+        { "root": "dqh", "root_meaning": "同一空白受動", "root_html_href": "d/dqh.html" },
+        { "root": "dqx", "root_meaning": "同一空白能動", "root_html_href": "d/dqx.html" },
+        { "root": "dqf", "root_meaning": "同一空白創造", "root_html_href": "d/dqf.html" },
+        { "root": "dqv", "root_meaning": "同一空白破壊", "root_html_href": "d/dqv.html" },
+        { "root": "dqm", "root_meaning": "同一空白流動", "root_html_href": "d/dqm.html" },
+        { "root": "dqn", "root_meaning": "同一空白固定", "root_html_href": "d/dqn.html" },
+        { "root": "dck", "root_meaning": "同一物質剥離", "root_html_href": "d/dck.html" },
+        { "root": "dcg", "root_meaning": "同一物質癒着", "root_html_href": "d/dcg.html" },
+        { "root": "dct", "root_meaning": "同一物質乖離", "root_html_href": "d/dct.html" },
+        { "root": "dcd", "root_meaning": "同一物質同一", "root_html_href": "d/dcd.html" },
+        { "root": "dcs", "root_meaning": "同一物質肉体", "root_html_href": "d/dcs.html" },
+        { "root": "dcz", "root_meaning": "同一物質精神", "root_html_href": "d/dcz.html" },
+        { "root": "dcq", "root_meaning": "同一物質空白", "root_html_href": "d/dcq.html" },
+        { "root": "dcc", "root_meaning": "同一物質物質", "root_html_href": "d/dcc.html" },
+        { "root": "dcr", "root_meaning": "同一物質過去", "root_html_href": "d/dcr.html" },
+        { "root": "dcl", "root_meaning": "同一物質未来", "root_html_href": "d/dcl.html" },
+        { "root": "dcp", "root_meaning": "同一物質鎮静", "root_html_href": "d/dcp.html" },
+        { "root": "dcb", "root_meaning": "同一物質高揚", "root_html_href": "d/dcb.html" },
+        { "root": "dch", "root_meaning": "同一物質受動", "root_html_href": "d/dch.html" },
+        { "root": "dcx", "root_meaning": "同一物質能動", "root_html_href": "d/dcx.html" },
+        { "root": "dcf", "root_meaning": "同一物質創造", "root_html_href": "d/dcf.html" },
+        { "root": "dcv", "root_meaning": "同一物質破壊", "root_html_href": "d/dcv.html" },
+        { "root": "dcm", "root_meaning": "同一物質流動", "root_html_href": "d/dcm.html" },
+        { "root": "dcn", "root_meaning": "同一物質固定", "root_html_href": "d/dcn.html" },
+        { "root": "drk", "root_meaning": "同一過去剥離", "root_html_href": "d/drk.html" },
+        { "root": "drg", "root_meaning": "同一過去癒着", "root_html_href": "d/drg.html" },
+        { "root": "drt", "root_meaning": "同一過去乖離", "root_html_href": "d/drt.html" },
+        { "root": "drd", "root_meaning": "同一過去同一", "root_html_href": "d/drd.html" },
+        { "root": "drs", "root_meaning": "同一過去肉体", "root_html_href": "d/drs.html" },
+        { "root": "drz", "root_meaning": "同一過去精神", "root_html_href": "d/drz.html" },
+        { "root": "drq", "root_meaning": "同一過去空白", "root_html_href": "d/drq.html" },
+        { "root": "drc", "root_meaning": "同一過去物質", "root_html_href": "d/drc.html" },
+        { "root": "drr", "root_meaning": "同一過去過去", "root_html_href": "d/drr.html" },
+        { "root": "drl", "root_meaning": "同一過去未来", "root_html_href": "d/drl.html" },
+        { "root": "drp", "root_meaning": "同一過去鎮静", "root_html_href": "d/drp.html" },
+        { "root": "drb", "root_meaning": "同一過去高揚", "root_html_href": "d/drb.html" },
+        { "root": "drh", "root_meaning": "同一過去受動", "root_html_href": "d/drh.html" },
+        { "root": "drx", "root_meaning": "同一過去能動", "root_html_href": "d/drx.html" },
+        { "root": "drf", "root_meaning": "同一過去創造", "root_html_href": "d/drf.html" },
+        { "root": "drv", "root_meaning": "同一過去破壊", "root_html_href": "d/drv.html" },
+        { "root": "drm", "root_meaning": "同一過去流動", "root_html_href": "d/drm.html" },
+        { "root": "drn", "root_meaning": "同一過去固定", "root_html_href": "d/drn.html" },
+        { "root": "dlk", "root_meaning": "同一未来剥離", "root_html_href": "d/dlk.html" },
+        { "root": "dlg", "root_meaning": "同一未来癒着", "root_html_href": "d/dlg.html" },
+        { "root": "dlt", "root_meaning": "同一未来乖離", "root_html_href": "d/dlt.html" },
+        { "root": "dld", "root_meaning": "同一未来同一", "root_html_href": "d/dld.html" },
+        { "root": "dls", "root_meaning": "同一未来肉体", "root_html_href": "d/dls.html" },
+        { "root": "dlz", "root_meaning": "同一未来精神", "root_html_href": "d/dlz.html" },
+        { "root": "dlq", "root_meaning": "同一未来空白", "root_html_href": "d/dlq.html" },
+        { "root": "dlc", "root_meaning": "同一未来物質", "root_html_href": "d/dlc.html" },
+        { "root": "dlr", "root_meaning": "同一未来過去", "root_html_href": "d/dlr.html" },
+        { "root": "dll", "root_meaning": "同一未来未来", "root_html_href": "d/dll.html" },
+        { "root": "dlp", "root_meaning": "同一未来鎮静", "root_html_href": "d/dlp.html" },
+        { "root": "dlb", "root_meaning": "同一未来高揚", "root_html_href": "d/dlb.html" },
+        { "root": "dlh", "root_meaning": "同一未来受動", "root_html_href": "d/dlh.html" },
+        { "root": "dlx", "root_meaning": "同一未来能動", "root_html_href": "d/dlx.html" },
+        { "root": "dlf", "root_meaning": "同一未来創造", "root_html_href": "d/dlf.html" },
+        { "root": "dlv", "root_meaning": "同一未来破壊", "root_html_href": "d/dlv.html" },
+        { "root": "dlm", "root_meaning": "同一未来流動", "root_html_href": "d/dlm.html" },
+        { "root": "dln", "root_meaning": "同一未来固定", "root_html_href": "d/dln.html" },
+        { "root": "dpk", "root_meaning": "同一鎮静剥離", "root_html_href": "d/dpk.html" },
+        { "root": "dpg", "root_meaning": "同一鎮静癒着", "root_html_href": "d/dpg.html" },
+        { "root": "dpt", "root_meaning": "同一鎮静乖離", "root_html_href": "d/dpt.html" },
+        { "root": "dpd", "root_meaning": "同一鎮静同一", "root_html_href": "d/dpd.html" },
+        { "root": "dps", "root_meaning": "同一鎮静肉体", "root_html_href": "d/dps.html" },
+        { "root": "dpz", "root_meaning": "同一鎮静精神", "root_html_href": "d/dpz.html" },
+        { "root": "dpq", "root_meaning": "同一鎮静空白", "root_html_href": "d/dpq.html" },
+        { "root": "dpc", "root_meaning": "同一鎮静物質", "root_html_href": "d/dpc.html" },
+        { "root": "dpr", "root_meaning": "同一鎮静過去", "root_html_href": "d/dpr.html" },
+        { "root": "dpl", "root_meaning": "同一鎮静未来", "root_html_href": "d/dpl.html" },
+        { "root": "dpp", "root_meaning": "同一鎮静鎮静", "root_html_href": "d/dpp.html" },
+        { "root": "dpb", "root_meaning": "同一鎮静高揚", "root_html_href": "d/dpb.html" },
+        { "root": "dph", "root_meaning": "同一鎮静受動", "root_html_href": "d/dph.html" },
+        { "root": "dpx", "root_meaning": "同一鎮静能動", "root_html_href": "d/dpx.html" },
+        { "root": "dpf", "root_meaning": "同一鎮静創造", "root_html_href": "d/dpf.html" },
+        { "root": "dpv", "root_meaning": "同一鎮静破壊", "root_html_href": "d/dpv.html" },
+        { "root": "dpm", "root_meaning": "同一鎮静流動", "root_html_href": "d/dpm.html" },
+        { "root": "dpn", "root_meaning": "同一鎮静固定", "root_html_href": "d/dpn.html" },
+        { "root": "dbk", "root_meaning": "同一高揚剥離", "root_html_href": "d/dbk.html" },
+        { "root": "dbg", "root_meaning": "同一高揚癒着", "root_html_href": "d/dbg.html" },
+        { "root": "dbt", "root_meaning": "同一高揚乖離", "root_html_href": "d/dbt.html" },
+        { "root": "dbd", "root_meaning": "同一高揚同一", "root_html_href": "d/dbd.html" },
+        { "root": "dbs", "root_meaning": "同一高揚肉体", "root_html_href": "d/dbs.html" },
+        { "root": "dbz", "root_meaning": "同一高揚精神", "root_html_href": "d/dbz.html" },
+        { "root": "dbq", "root_meaning": "同一高揚空白", "root_html_href": "d/dbq.html" },
+        { "root": "dbc", "root_meaning": "同一高揚物質", "root_html_href": "d/dbc.html" },
+        { "root": "dbr", "root_meaning": "同一高揚過去", "root_html_href": "d/dbr.html" },
+        { "root": "dbl", "root_meaning": "同一高揚未来", "root_html_href": "d/dbl.html" },
+        { "root": "dbp", "root_meaning": "同一高揚鎮静", "root_html_href": "d/dbp.html" },
+        { "root": "dbb", "root_meaning": "同一高揚高揚", "root_html_href": "d/dbb.html" },
+        { "root": "dbh", "root_meaning": "同一高揚受動", "root_html_href": "d/dbh.html" },
+        { "root": "dbx", "root_meaning": "同一高揚能動", "root_html_href": "d/dbx.html" },
+        { "root": "dbf", "root_meaning": "同一高揚創造", "root_html_href": "d/dbf.html" },
+        { "root": "dbv", "root_meaning": "同一高揚破壊", "root_html_href": "d/dbv.html" },
+        { "root": "dbm", "root_meaning": "同一高揚流動", "root_html_href": "d/dbm.html" },
+        { "root": "dbn", "root_meaning": "同一高揚固定", "root_html_href": "d/dbn.html" },
+        { "root": "dhk", "root_meaning": "同一受動剥離", "root_html_href": "d/dhk.html" },
+        { "root": "dhg", "root_meaning": "同一受動癒着", "root_html_href": "d/dhg.html" },
+        { "root": "dht", "root_meaning": "同一受動乖離", "root_html_href": "d/dht.html" },
+        { "root": "dhd", "root_meaning": "同一受動同一", "root_html_href": "d/dhd.html" },
+        { "root": "dhs", "root_meaning": "同一受動肉体", "root_html_href": "d/dhs.html" },
+        { "root": "dhz", "root_meaning": "同一受動精神", "root_html_href": "d/dhz.html" },
+        { "root": "dhq", "root_meaning": "同一受動空白", "root_html_href": "d/dhq.html" },
+        { "root": "dhc", "root_meaning": "同一受動物質", "root_html_href": "d/dhc.html" },
+        { "root": "dhr", "root_meaning": "同一受動過去", "root_html_href": "d/dhr.html" },
+        { "root": "dhl", "root_meaning": "同一受動未来", "root_html_href": "d/dhl.html" },
+        { "root": "dhp", "root_meaning": "同一受動鎮静", "root_html_href": "d/dhp.html" },
+        { "root": "dhb", "root_meaning": "同一受動高揚", "root_html_href": "d/dhb.html" },
+        { "root": "dhh", "root_meaning": "同一受動受動", "root_html_href": "d/dhh.html" },
+        { "root": "dhx", "root_meaning": "同一受動能動", "root_html_href": "d/dhx.html" },
+        { "root": "dhf", "root_meaning": "同一受動創造", "root_html_href": "d/dhf.html" },
+        { "root": "dhv", "root_meaning": "同一受動破壊", "root_html_href": "d/dhv.html" },
+        { "root": "dhm", "root_meaning": "同一受動流動", "root_html_href": "d/dhm.html" },
+        { "root": "dhn", "root_meaning": "同一受動固定", "root_html_href": "d/dhn.html" },
+        { "root": "dxk", "root_meaning": "同一能動剥離", "root_html_href": "d/dxk.html" },
+        { "root": "dxg", "root_meaning": "同一能動癒着", "root_html_href": "d/dxg.html" },
+        { "root": "dxt", "root_meaning": "同一能動乖離", "root_html_href": "d/dxt.html" },
+        { "root": "dxd", "root_meaning": "同一能動同一", "root_html_href": "d/dxd.html" },
+        { "root": "dxs", "root_meaning": "同一能動肉体", "root_html_href": "d/dxs.html" },
+        { "root": "dxz", "root_meaning": "同一能動精神", "root_html_href": "d/dxz.html" },
+        { "root": "dxq", "root_meaning": "同一能動空白", "root_html_href": "d/dxq.html" },
+        { "root": "dxc", "root_meaning": "同一能動物質", "root_html_href": "d/dxc.html" },
+        { "root": "dxr", "root_meaning": "同一能動過去", "root_html_href": "d/dxr.html" },
+        { "root": "dxl", "root_meaning": "同一能動未来", "root_html_href": "d/dxl.html" },
+        { "root": "dxp", "root_meaning": "同一能動鎮静", "root_html_href": "d/dxp.html" },
+        { "root": "dxb", "root_meaning": "同一能動高揚", "root_html_href": "d/dxb.html" },
+        { "root": "dxh", "root_meaning": "同一能動受動", "root_html_href": "d/dxh.html" },
+        { "root": "dxx", "root_meaning": "同一能動能動", "root_html_href": "d/dxx.html" },
+        { "root": "dxf", "root_meaning": "同一能動創造", "root_html_href": "d/dxf.html" },
+        { "root": "dxv", "root_meaning": "同一能動破壊", "root_html_href": "d/dxv.html" },
+        { "root": "dxm", "root_meaning": "同一能動流動", "root_html_href": "d/dxm.html" },
+        { "root": "dxn", "root_meaning": "同一能動固定", "root_html_href": "d/dxn.html" },
+        { "root": "dfk", "root_meaning": "同一創造剥離", "root_html_href": "d/dfk.html" },
+        { "root": "dfg", "root_meaning": "同一創造癒着", "root_html_href": "d/dfg.html" },
+        { "root": "dft", "root_meaning": "同一創造乖離", "root_html_href": "d/dft.html" },
+        { "root": "dfd", "root_meaning": "同一創造同一", "root_html_href": "d/dfd.html" },
+        { "root": "dfs", "root_meaning": "同一創造肉体", "root_html_href": "d/dfs.html" },
+        { "root": "dfz", "root_meaning": "同一創造精神", "root_html_href": "d/dfz.html" },
+        { "root": "dfq", "root_meaning": "同一創造空白", "root_html_href": "d/dfq.html" },
+        { "root": "dfc", "root_meaning": "同一創造物質", "root_html_href": "d/dfc.html" },
+        { "root": "dfr", "root_meaning": "同一創造過去", "root_html_href": "d/dfr.html" },
+        { "root": "dfl", "root_meaning": "同一創造未来", "root_html_href": "d/dfl.html" },
+        { "root": "dfp", "root_meaning": "同一創造鎮静", "root_html_href": "d/dfp.html" },
+        { "root": "dfb", "root_meaning": "同一創造高揚", "root_html_href": "d/dfb.html" },
+        { "root": "dfh", "root_meaning": "同一創造受動", "root_html_href": "d/dfh.html" },
+        { "root": "dfx", "root_meaning": "同一創造能動", "root_html_href": "d/dfx.html" },
+        { "root": "dff", "root_meaning": "同一創造創造", "root_html_href": "d/dff.html" },
+        { "root": "dfv", "root_meaning": "同一創造破壊", "root_html_href": "d/dfv.html" },
+        { "root": "dfm", "root_meaning": "同一創造流動", "root_html_href": "d/dfm.html" },
+        { "root": "dfn", "root_meaning": "同一創造固定", "root_html_href": "d/dfn.html" },
+        { "root": "dvk", "root_meaning": "同一破壊剥離", "root_html_href": "d/dvk.html" },
+        { "root": "dvg", "root_meaning": "同一破壊癒着", "root_html_href": "d/dvg.html" },
+        { "root": "dvt", "root_meaning": "同一破壊乖離", "root_html_href": "d/dvt.html" },
+        { "root": "dvd", "root_meaning": "同一破壊同一", "root_html_href": "d/dvd.html" },
+        { "root": "dvs", "root_meaning": "同一破壊肉体", "root_html_href": "d/dvs.html" },
+        { "root": "dvz", "root_meaning": "同一破壊精神", "root_html_href": "d/dvz.html" },
+        { "root": "dvq", "root_meaning": "同一破壊空白", "root_html_href": "d/dvq.html" },
+        { "root": "dvc", "root_meaning": "同一破壊物質", "root_html_href": "d/dvc.html" },
+        { "root": "dvr", "root_meaning": "同一破壊過去", "root_html_href": "d/dvr.html" },
+        { "root": "dvl", "root_meaning": "同一破壊未来", "root_html_href": "d/dvl.html" },
+        { "root": "dvp", "root_meaning": "同一破壊鎮静", "root_html_href": "d/dvp.html" },
+        { "root": "dvb", "root_meaning": "同一破壊高揚", "root_html_href": "d/dvb.html" },
+        { "root": "dvh", "root_meaning": "同一破壊受動", "root_html_href": "d/dvh.html" },
+        { "root": "dvx", "root_meaning": "同一破壊能動", "root_html_href": "d/dvx.html" },
+        { "root": "dvf", "root_meaning": "同一破壊創造", "root_html_href": "d/dvf.html" },
+        { "root": "dvv", "root_meaning": "同一破壊破壊", "root_html_href": "d/dvv.html" },
+        { "root": "dvm", "root_meaning": "同一破壊流動", "root_html_href": "d/dvm.html" },
+        { "root": "dvn", "root_meaning": "同一破壊固定", "root_html_href": "d/dvn.html" },
+        { "root": "dmk", "root_meaning": "同一流動剥離", "root_html_href": "d/dmk.html" },
+        { "root": "dmg", "root_meaning": "同一流動癒着", "root_html_href": "d/dmg.html" },
+        { "root": "dmt", "root_meaning": "同一流動乖離", "root_html_href": "d/dmt.html" },
+        { "root": "dmd", "root_meaning": "同一流動同一", "root_html_href": "d/dmd.html" },
+        { "root": "dms", "root_meaning": "同一流動肉体", "root_html_href": "d/dms.html" },
+        { "root": "dmz", "root_meaning": "同一流動精神", "root_html_href": "d/dmz.html" },
+        { "root": "dmq", "root_meaning": "同一流動空白", "root_html_href": "d/dmq.html" },
+        { "root": "dmc", "root_meaning": "同一流動物質", "root_html_href": "d/dmc.html" },
+        { "root": "dmr", "root_meaning": "同一流動過去", "root_html_href": "d/dmr.html" },
+        { "root": "dml", "root_meaning": "同一流動未来", "root_html_href": "d/dml.html" },
+        { "root": "dmp", "root_meaning": "同一流動鎮静", "root_html_href": "d/dmp.html" },
+        { "root": "dmb", "root_meaning": "同一流動高揚", "root_html_href": "d/dmb.html" },
+        { "root": "dmh", "root_meaning": "同一流動受動", "root_html_href": "d/dmh.html" },
+        { "root": "dmx", "root_meaning": "同一流動能動", "root_html_href": "d/dmx.html" },
+        { "root": "dmf", "root_meaning": "同一流動創造", "root_html_href": "d/dmf.html" },
+        { "root": "dmv", "root_meaning": "同一流動破壊", "root_html_href": "d/dmv.html" },
+        { "root": "dmm", "root_meaning": "同一流動流動", "root_html_href": "d/dmm.html" },
+        { "root": "dmn", "root_meaning": "同一流動固定", "root_html_href": "d/dmn.html" },
+        { "root": "dnk", "root_meaning": "同一固定剥離", "root_html_href": "d/dnk.html" },
+        { "root": "dng", "root_meaning": "同一固定癒着", "root_html_href": "d/dng.html" },
+        { "root": "dnt", "root_meaning": "同一固定乖離", "root_html_href": "d/dnt.html" },
+        { "root": "dnd", "root_meaning": "同一固定同一", "root_html_href": "d/dnd.html" },
+        { "root": "dns", "root_meaning": "同一固定肉体", "root_html_href": "d/dns.html" },
+        { "root": "dnz", "root_meaning": "同一固定精神", "root_html_href": "d/dnz.html" },
+        { "root": "dnq", "root_meaning": "同一固定空白", "root_html_href": "d/dnq.html" },
+        { "root": "dnc", "root_meaning": "同一固定物質", "root_html_href": "d/dnc.html" },
+        { "root": "dnr", "root_meaning": "同一固定過去", "root_html_href": "d/dnr.html" },
+        { "root": "dnl", "root_meaning": "同一固定未来", "root_html_href": "d/dnl.html" },
+        { "root": "dnp", "root_meaning": "同一固定鎮静", "root_html_href": "d/dnp.html" },
+        { "root": "dnb", "root_meaning": "同一固定高揚", "root_html_href": "d/dnb.html" },
+        { "root": "dnh", "root_meaning": "同一固定受動", "root_html_href": "d/dnh.html" },
+        { "root": "dnx", "root_meaning": "同一固定能動", "root_html_href": "d/dnx.html" },
+        { "root": "dnf", "root_meaning": "同一固定創造", "root_html_href": "d/dnf.html" },
+        { "root": "dnv", "root_meaning": "同一固定破壊", "root_html_href": "d/dnv.html" },
+        { "root": "dnm", "root_meaning": "同一固定流動", "root_html_href": "d/dnm.html" },
+        { "root": "dnn", "root_meaning": "同一固定固定", "root_html_href": "d/dnn.html" }
     ]
 }

@@ -45,7 +45,6 @@ async function generateConsonant(i) {
                 root: root,
                 root_meaning: meaning,
                 root_html_href: consonants_array[i] + "/" + root + ".html",
-                root_json_href: consonants_array[i] + "/" + root + ".json"
             });
         }
     }

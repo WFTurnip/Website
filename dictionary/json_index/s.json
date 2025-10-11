@@ -1,1948 +1,328 @@
 {
     "roots": [
-        {
-            "root": "skk",
-            "root_meaning": "肉体剥離剥離",
-            "root_html_href": "s/skk.html",
-            "root_json_href": "s/skk.json"
-        },
-        {
-            "root": "skg",
-            "root_meaning": "肉体剥離癒着",
-            "root_html_href": "s/skg.html",
-            "root_json_href": "s/skg.json"
-        },
-        {
-            "root": "skt",
-            "root_meaning": "肉体剥離乖離",
-            "root_html_href": "s/skt.html",
-            "root_json_href": "s/skt.json"
-        },
-        {
-            "root": "skd",
-            "root_meaning": "肉体剥離同一",
-            "root_html_href": "s/skd.html",
-            "root_json_href": "s/skd.json"
-        },
-        {
-            "root": "sks",
-            "root_meaning": "肉体剥離肉体",
-            "root_html_href": "s/sks.html",
-            "root_json_href": "s/sks.json"
-        },
-        {
-            "root": "skz",
-            "root_meaning": "肉体剥離精神",
-            "root_html_href": "s/skz.html",
-            "root_json_href": "s/skz.json"
-        },
-        {
-            "root": "skq",
-            "root_meaning": "肉体剥離空白",
-            "root_html_href": "s/skq.html",
-            "root_json_href": "s/skq.json"
-        },
-        {
-            "root": "skc",
-            "root_meaning": "肉体剥離物質",
-            "root_html_href": "s/skc.html",
-            "root_json_href": "s/skc.json"
-        },
-        {
-            "root": "skr",
-            "root_meaning": "肉体剥離過去",
-            "root_html_href": "s/skr.html",
-            "root_json_href": "s/skr.json"
-        },
-        {
-            "root": "skl",
-            "root_meaning": "肉体剥離未来",
-            "root_html_href": "s/skl.html",
-            "root_json_href": "s/skl.json"
-        },
-        {
-            "root": "skp",
-            "root_meaning": "肉体剥離鎮静",
-            "root_html_href": "s/skp.html",
-            "root_json_href": "s/skp.json"
-        },
-        {
-            "root": "skb",
-            "root_meaning": "肉体剥離高揚",
-            "root_html_href": "s/skb.html",
-            "root_json_href": "s/skb.json"
-        },
-        {
-            "root": "skh",
-            "root_meaning": "肉体剥離受動",
-            "root_html_href": "s/skh.html",
-            "root_json_href": "s/skh.json"
-        },
-        {
-            "root": "skx",
-            "root_meaning": "肉体剥離能動",
-            "root_html_href": "s/skx.html",
-            "root_json_href": "s/skx.json"
-        },
-        {
-            "root": "skf",
-            "root_meaning": "肉体剥離創造",
-            "root_html_href": "s/skf.html",
-            "root_json_href": "s/skf.json"
-        },
-        {
-            "root": "skv",
-            "root_meaning": "肉体剥離破壊",
-            "root_html_href": "s/skv.html",
-            "root_json_href": "s/skv.json"
-        },
-        {
-            "root": "skm",
-            "root_meaning": "肉体剥離流動",
-            "root_html_href": "s/skm.html",
-            "root_json_href": "s/skm.json"
-        },
-        {
-            "root": "skn",
-            "root_meaning": "肉体剥離固定",
-            "root_html_href": "s/skn.html",
-            "root_json_href": "s/skn.json"
-        },
-        {
-            "root": "sgk",
-            "root_meaning": "肉体癒着剥離",
-            "root_html_href": "s/sgk.html",
-            "root_json_href": "s/sgk.json"
-        },
-        {
-            "root": "sgg",
-            "root_meaning": "肉体癒着癒着",
-            "root_html_href": "s/sgg.html",
-            "root_json_href": "s/sgg.json"
-        },
-        {
-            "root": "sgt",
-            "root_meaning": "肉体癒着乖離",
-            "root_html_href": "s/sgt.html",
-            "root_json_href": "s/sgt.json"
-        },
-        {
-            "root": "sgd",
-            "root_meaning": "肉体癒着同一",
-            "root_html_href": "s/sgd.html",
-            "root_json_href": "s/sgd.json"
-        },
-        {
-            "root": "sgs",
-            "root_meaning": "肉体癒着肉体",
-            "root_html_href": "s/sgs.html",
-            "root_json_href": "s/sgs.json"
-        },
-        {
-            "root": "sgz",
-            "root_meaning": "肉体癒着精神",
-            "root_html_href": "s/sgz.html",
-            "root_json_href": "s/sgz.json"
-        },
-        {
-            "root": "sgq",
-            "root_meaning": "肉体癒着空白",
-            "root_html_href": "s/sgq.html",
-            "root_json_href": "s/sgq.json"
-        },
-        {
-            "root": "sgc",
-            "root_meaning": "肉体癒着物質",
-            "root_html_href": "s/sgc.html",
-            "root_json_href": "s/sgc.json"
-        },
-        {
-            "root": "sgr",
-            "root_meaning": "肉体癒着過去",
-            "root_html_href": "s/sgr.html",
-            "root_json_href": "s/sgr.json"
-        },
-        {
-            "root": "sgl",
-            "root_meaning": "肉体癒着未来",
-            "root_html_href": "s/sgl.html",
-            "root_json_href": "s/sgl.json"
-        },
-        {
-            "root": "sgp",
-            "root_meaning": "肉体癒着鎮静",
-            "root_html_href": "s/sgp.html",
-            "root_json_href": "s/sgp.json"
-        },
-        {
-            "root": "sgb",
-            "root_meaning": "肉体癒着高揚",
-            "root_html_href": "s/sgb.html",
-            "root_json_href": "s/sgb.json"
-        },
-        {
-            "root": "sgh",
-            "root_meaning": "肉体癒着受動",
-            "root_html_href": "s/sgh.html",
-            "root_json_href": "s/sgh.json"
-        },
-        {
-            "root": "sgx",
-            "root_meaning": "肉体癒着能動",
-            "root_html_href": "s/sgx.html",
-            "root_json_href": "s/sgx.json"
-        },
-        {
-            "root": "sgf",
-            "root_meaning": "肉体癒着創造",
-            "root_html_href": "s/sgf.html",
-            "root_json_href": "s/sgf.json"
-        },
-        {
-            "root": "sgv",
-            "root_meaning": "肉体癒着破壊",
-            "root_html_href": "s/sgv.html",
-            "root_json_href": "s/sgv.json"
-        },
-        {
-            "root": "sgm",
-            "root_meaning": "肉体癒着流動",
-            "root_html_href": "s/sgm.html",
-            "root_json_href": "s/sgm.json"
-        },
-        {
-            "root": "sgn",
-            "root_meaning": "肉体癒着固定",
-            "root_html_href": "s/sgn.html",
-            "root_json_href": "s/sgn.json"
-        },
-        {
-            "root": "stk",
-            "root_meaning": "肉体乖離剥離",
-            "root_html_href": "s/stk.html",
-            "root_json_href": "s/stk.json"
-        },
-        {
-            "root": "stg",
-            "root_meaning": "肉体乖離癒着",
-            "root_html_href": "s/stg.html",
-            "root_json_href": "s/stg.json"
-        },
-        {
-            "root": "stt",
-            "root_meaning": "肉体乖離乖離",
-            "root_html_href": "s/stt.html",
-            "root_json_href": "s/stt.json"
-        },
-        {
-            "root": "std",
-            "root_meaning": "肉体乖離同一",
-            "root_html_href": "s/std.html",
-            "root_json_href": "s/std.json"
-        },
-        {
-            "root": "sts",
-            "root_meaning": "肉体乖離肉体",
-            "root_html_href": "s/sts.html",
-            "root_json_href": "s/sts.json"
-        },
-        {
-            "root": "stz",
-            "root_meaning": "肉体乖離精神",
-            "root_html_href": "s/stz.html",
-            "root_json_href": "s/stz.json"
-        },
-        {
-            "root": "stq",
-            "root_meaning": "肉体乖離空白",
-            "root_html_href": "s/stq.html",
-            "root_json_href": "s/stq.json"
-        },
-        {
-            "root": "stc",
-            "root_meaning": "肉体乖離物質",
-            "root_html_href": "s/stc.html",
-            "root_json_href": "s/stc.json"
-        },
-        {
-            "root": "str",
-            "root_meaning": "肉体乖離過去",
-            "root_html_href": "s/str.html",
-            "root_json_href": "s/str.json"
-        },
-        {
-            "root": "stl",
-            "root_meaning": "肉体乖離未来",
-            "root_html_href": "s/stl.html",
-            "root_json_href": "s/stl.json"
-        },
-        {
-            "root": "stp",
-            "root_meaning": "肉体乖離鎮静",
-            "root_html_href": "s/stp.html",
-            "root_json_href": "s/stp.json"
-        },
-        {
-            "root": "stb",
-            "root_meaning": "肉体乖離高揚",
-            "root_html_href": "s/stb.html",
-            "root_json_href": "s/stb.json"
-        },
-        {
-            "root": "sth",
-            "root_meaning": "肉体乖離受動",
-            "root_html_href": "s/sth.html",
-            "root_json_href": "s/sth.json"
-        },
-        {
-            "root": "stx",
-            "root_meaning": "肉体乖離能動",
-            "root_html_href": "s/stx.html",
-            "root_json_href": "s/stx.json"
-        },
-        {
-            "root": "stf",
-            "root_meaning": "肉体乖離創造",
-            "root_html_href": "s/stf.html",
-            "root_json_href": "s/stf.json"
-        },
-        {
-            "root": "stv",
-            "root_meaning": "肉体乖離破壊",
-            "root_html_href": "s/stv.html",
-            "root_json_href": "s/stv.json"
-        },
-        {
-            "root": "stm",
-            "root_meaning": "肉体乖離流動",
-            "root_html_href": "s/stm.html",
-            "root_json_href": "s/stm.json"
-        },
-        {
-            "root": "stn",
-            "root_meaning": "肉体乖離固定",
-            "root_html_href": "s/stn.html",
-            "root_json_href": "s/stn.json"
-        },
-        {
-            "root": "sdk",
-            "root_meaning": "肉体同一剥離",
-            "root_html_href": "s/sdk.html",
-            "root_json_href": "s/sdk.json"
-        },
-        {
-            "root": "sdg",
-            "root_meaning": "肉体同一癒着",
-            "root_html_href": "s/sdg.html",
-            "root_json_href": "s/sdg.json"
-        },
-        {
-            "root": "sdt",
-            "root_meaning": "肉体同一乖離",
-            "root_html_href": "s/sdt.html",
-            "root_json_href": "s/sdt.json"
-        },
-        {
-            "root": "sdd",
-            "root_meaning": "肉体同一同一",
-            "root_html_href": "s/sdd.html",
-            "root_json_href": "s/sdd.json"
-        },
-        {
-            "root": "sds",
-            "root_meaning": "肉体同一肉体",
-            "root_html_href": "s/sds.html",
-            "root_json_href": "s/sds.json"
-        },
-        {
-            "root": "sdz",
-            "root_meaning": "肉体同一精神",
-            "root_html_href": "s/sdz.html",
-            "root_json_href": "s/sdz.json"
-        },
-        {
-            "root": "sdq",
-            "root_meaning": "肉体同一空白",
-            "root_html_href": "s/sdq.html",
-            "root_json_href": "s/sdq.json"
-        },
-        {
-            "root": "sdc",
-            "root_meaning": "肉体同一物質",
-            "root_html_href": "s/sdc.html",
-            "root_json_href": "s/sdc.json"
-        },
-        {
-            "root": "sdr",
-            "root_meaning": "肉体同一過去",
-            "root_html_href": "s/sdr.html",
-            "root_json_href": "s/sdr.json"
-        },
-        {
-            "root": "sdl",
-            "root_meaning": "肉体同一未来",
-            "root_html_href": "s/sdl.html",
-            "root_json_href": "s/sdl.json"
-        },
-        {
-            "root": "sdp",
-            "root_meaning": "肉体同一鎮静",
-            "root_html_href": "s/sdp.html",
-            "root_json_href": "s/sdp.json"
-        },
-        {
-            "root": "sdb",
-            "root_meaning": "肉体同一高揚",
-            "root_html_href": "s/sdb.html",
-            "root_json_href": "s/sdb.json"
-        },
-        {
-            "root": "sdh",
-            "root_meaning": "肉体同一受動",
-            "root_html_href": "s/sdh.html",
-            "root_json_href": "s/sdh.json"
-        },
-        {
-            "root": "sdx",
-            "root_meaning": "肉体同一能動",
-            "root_html_href": "s/sdx.html",
-            "root_json_href": "s/sdx.json"
-        },
-        {
-            "root": "sdf",
-            "root_meaning": "肉体同一創造",
-            "root_html_href": "s/sdf.html",
-            "root_json_href": "s/sdf.json"
-        },
-        {
-            "root": "sdv",
-            "root_meaning": "肉体同一破壊",
-            "root_html_href": "s/sdv.html",
-            "root_json_href": "s/sdv.json"
-        },
-        {
-            "root": "sdm",
-            "root_meaning": "肉体同一流動",
-            "root_html_href": "s/sdm.html",
-            "root_json_href": "s/sdm.json"
-        },
-        {
-            "root": "sdn",
-            "root_meaning": "肉体同一固定",
-            "root_html_href": "s/sdn.html",
-            "root_json_href": "s/sdn.json"
-        },
-        {
-            "root": "ssk",
-            "root_meaning": "肉体肉体剥離",
-            "root_html_href": "s/ssk.html",
-            "root_json_href": "s/ssk.json"
-        },
-        {
-            "root": "ssg",
-            "root_meaning": "肉体肉体癒着",
-            "root_html_href": "s/ssg.html",
-            "root_json_href": "s/ssg.json"
-        },
-        {
-            "root": "sst",
-            "root_meaning": "肉体肉体乖離",
-            "root_html_href": "s/sst.html",
-            "root_json_href": "s/sst.json"
-        },
-        {
-            "root": "ssd",
-            "root_meaning": "肉体肉体同一",
-            "root_html_href": "s/ssd.html",
-            "root_json_href": "s/ssd.json"
-        },
-        {
-            "root": "sss",
-            "root_meaning": "肉体肉体肉体",
-            "root_html_href": "s/sss.html",
-            "root_json_href": "s/sss.json"
-        },
-        {
-            "root": "ssz",
-            "root_meaning": "肉体肉体精神",
-            "root_html_href": "s/ssz.html",
-            "root_json_href": "s/ssz.json"
-        },
-        {
-            "root": "ssq",
-            "root_meaning": "肉体肉体空白",
-            "root_html_href": "s/ssq.html",
-            "root_json_href": "s/ssq.json"
-        },
-        {
-            "root": "ssc",
-            "root_meaning": "肉体肉体物質",
-            "root_html_href": "s/ssc.html",
-            "root_json_href": "s/ssc.json"
-        },
-        {
-            "root": "ssr",
-            "root_meaning": "肉体肉体過去",
-            "root_html_href": "s/ssr.html",
-            "root_json_href": "s/ssr.json"
-        },
-        {
-            "root": "ssl",
-            "root_meaning": "肉体肉体未来",
-            "root_html_href": "s/ssl.html",
-            "root_json_href": "s/ssl.json"
-        },
-        {
-            "root": "ssp",
-            "root_meaning": "肉体肉体鎮静",
-            "root_html_href": "s/ssp.html",
-            "root_json_href": "s/ssp.json"
-        },
-        {
-            "root": "ssb",
-            "root_meaning": "肉体肉体高揚",
-            "root_html_href": "s/ssb.html",
-            "root_json_href": "s/ssb.json"
-        },
-        {
-            "root": "ssh",
-            "root_meaning": "肉体肉体受動",
-            "root_html_href": "s/ssh.html",
-            "root_json_href": "s/ssh.json"
-        },
-        {
-            "root": "ssx",
-            "root_meaning": "肉体肉体能動",
-            "root_html_href": "s/ssx.html",
-            "root_json_href": "s/ssx.json"
-        },
-        {
-            "root": "ssf",
-            "root_meaning": "肉体肉体創造",
-            "root_html_href": "s/ssf.html",
-            "root_json_href": "s/ssf.json"
-        },
-        {
-            "root": "ssv",
-            "root_meaning": "肉体肉体破壊",
-            "root_html_href": "s/ssv.html",
-            "root_json_href": "s/ssv.json"
-        },
-        {
-            "root": "ssm",
-            "root_meaning": "肉体肉体流動",
-            "root_html_href": "s/ssm.html",
-            "root_json_href": "s/ssm.json"
-        },
-        {
-            "root": "ssn",
-            "root_meaning": "肉体肉体固定",
-            "root_html_href": "s/ssn.html",
-            "root_json_href": "s/ssn.json"
-        },
-        {
-            "root": "szk",
-            "root_meaning": "肉体精神剥離",
-            "root_html_href": "s/szk.html",
-            "root_json_href": "s/szk.json"
-        },
-        {
-            "root": "szg",
-            "root_meaning": "肉体精神癒着",
-            "root_html_href": "s/szg.html",
-            "root_json_href": "s/szg.json"
-        },
-        {
-            "root": "szt",
-            "root_meaning": "肉体精神乖離",
-            "root_html_href": "s/szt.html",
-            "root_json_href": "s/szt.json"
-        },
-        {
-            "root": "szd",
-            "root_meaning": "肉体精神同一",
-            "root_html_href": "s/szd.html",
-            "root_json_href": "s/szd.json"
-        },
-        {
-            "root": "szs",
-            "root_meaning": "肉体精神肉体",
-            "root_html_href": "s/szs.html",
-            "root_json_href": "s/szs.json"
-        },
-        {
-            "root": "szz",
-            "root_meaning": "肉体精神精神",
-            "root_html_href": "s/szz.html",
-            "root_json_href": "s/szz.json"
-        },
-        {
-            "root": "szq",
-            "root_meaning": "肉体精神空白",
-            "root_html_href": "s/szq.html",
-            "root_json_href": "s/szq.json"
-        },
-        {
-            "root": "szc",
-            "root_meaning": "肉体精神物質",
-            "root_html_href": "s/szc.html",
-            "root_json_href": "s/szc.json"
-        },
-        {
-            "root": "szr",
-            "root_meaning": "肉体精神過去",
-            "root_html_href": "s/szr.html",
-            "root_json_href": "s/szr.json"
-        },
-        {
-            "root": "szl",
-            "root_meaning": "肉体精神未来",
-            "root_html_href": "s/szl.html",
-            "root_json_href": "s/szl.json"
-        },
-        {
-            "root": "szp",
-            "root_meaning": "肉体精神鎮静",
-            "root_html_href": "s/szp.html",
-            "root_json_href": "s/szp.json"
-        },
-        {
-            "root": "szb",
-            "root_meaning": "肉体精神高揚",
-            "root_html_href": "s/szb.html",
-            "root_json_href": "s/szb.json"
-        },
-        {
-            "root": "szh",
-            "root_meaning": "肉体精神受動",
-            "root_html_href": "s/szh.html",
-            "root_json_href": "s/szh.json"
-        },
-        {
-            "root": "szx",
-            "root_meaning": "肉体精神能動",
-            "root_html_href": "s/szx.html",
-            "root_json_href": "s/szx.json"
-        },
-        {
-            "root": "szf",
-            "root_meaning": "肉体精神創造",
-            "root_html_href": "s/szf.html",
-            "root_json_href": "s/szf.json"
-        },
-        {
-            "root": "szv",
-            "root_meaning": "肉体精神破壊",
-            "root_html_href": "s/szv.html",
-            "root_json_href": "s/szv.json"
-        },
-        {
-            "root": "szm",
-            "root_meaning": "肉体精神流動",
-            "root_html_href": "s/szm.html",
-            "root_json_href": "s/szm.json"
-        },
-        {
-            "root": "szn",
-            "root_meaning": "肉体精神固定",
-            "root_html_href": "s/szn.html",
-            "root_json_href": "s/szn.json"
-        },
-        {
-            "root": "sqk",
-            "root_meaning": "肉体空白剥離",
-            "root_html_href": "s/sqk.html",
-            "root_json_href": "s/sqk.json"
-        },
-        {
-            "root": "sqg",
-            "root_meaning": "肉体空白癒着",
-            "root_html_href": "s/sqg.html",
-            "root_json_href": "s/sqg.json"
-        },
-        {
-            "root": "sqt",
-            "root_meaning": "肉体空白乖離",
-            "root_html_href": "s/sqt.html",
-            "root_json_href": "s/sqt.json"
-        },
-        {
-            "root": "sqd",
-            "root_meaning": "肉体空白同一",
-            "root_html_href": "s/sqd.html",
-            "root_json_href": "s/sqd.json"
-        },
-        {
-            "root": "sqs",
-            "root_meaning": "肉体空白肉体",
-            "root_html_href": "s/sqs.html",
-            "root_json_href": "s/sqs.json"
-        },
-        {
-            "root": "sqz",
-            "root_meaning": "肉体空白精神",
-            "root_html_href": "s/sqz.html",
-            "root_json_href": "s/sqz.json"
-        },
-        {
-            "root": "sqq",
-            "root_meaning": "肉体空白空白",
-            "root_html_href": "s/sqq.html",
-            "root_json_href": "s/sqq.json"
-        },
-        {
-            "root": "sqc",
-            "root_meaning": "肉体空白物質",
-            "root_html_href": "s/sqc.html",
-            "root_json_href": "s/sqc.json"
-        },
-        {
-            "root": "sqr",
-            "root_meaning": "肉体空白過去",
-            "root_html_href": "s/sqr.html",
-            "root_json_href": "s/sqr.json"
-        },
-        {
-            "root": "sql",
-            "root_meaning": "肉体空白未来",
-            "root_html_href": "s/sql.html",
-            "root_json_href": "s/sql.json"
-        },
-        {
-            "root": "sqp",
-            "root_meaning": "肉体空白鎮静",
-            "root_html_href": "s/sqp.html",
-            "root_json_href": "s/sqp.json"
-        },
-        {
-            "root": "sqb",
-            "root_meaning": "肉体空白高揚",
-            "root_html_href": "s/sqb.html",
-            "root_json_href": "s/sqb.json"
-        },
-        {
-            "root": "sqh",
-            "root_meaning": "肉体空白受動",
-            "root_html_href": "s/sqh.html",
-            "root_json_href": "s/sqh.json"
-        },
-        {
-            "root": "sqx",
-            "root_meaning": "肉体空白能動",
-            "root_html_href": "s/sqx.html",
-            "root_json_href": "s/sqx.json"
-        },
-        {
-            "root": "sqf",
-            "root_meaning": "肉体空白創造",
-            "root_html_href": "s/sqf.html",
-            "root_json_href": "s/sqf.json"
-        },
-        {
-            "root": "sqv",
-            "root_meaning": "肉体空白破壊",
-            "root_html_href": "s/sqv.html",
-            "root_json_href": "s/sqv.json"
-        },
-        {
-            "root": "sqm",
-            "root_meaning": "肉体空白流動",
-            "root_html_href": "s/sqm.html",
-            "root_json_href": "s/sqm.json"
-        },
-        {
-            "root": "sqn",
-            "root_meaning": "肉体空白固定",
-            "root_html_href": "s/sqn.html",
-            "root_json_href": "s/sqn.json"
-        },
-        {
-            "root": "sck",
-            "root_meaning": "肉体物質剥離",
-            "root_html_href": "s/sck.html",
-            "root_json_href": "s/sck.json"
-        },
-        {
-            "root": "scg",
-            "root_meaning": "肉体物質癒着",
-            "root_html_href": "s/scg.html",
-            "root_json_href": "s/scg.json"
-        },
-        {
-            "root": "sct",
-            "root_meaning": "肉体物質乖離",
-            "root_html_href": "s/sct.html",
-            "root_json_href": "s/sct.json"
-        },
-        {
-            "root": "scd",
-            "root_meaning": "肉体物質同一",
-            "root_html_href": "s/scd.html",
-            "root_json_href": "s/scd.json"
-        },
-        {
-            "root": "scs",
-            "root_meaning": "肉体物質肉体",
-            "root_html_href": "s/scs.html",
-            "root_json_href": "s/scs.json"
-        },
-        {
-            "root": "scz",
-            "root_meaning": "肉体物質精神",
-            "root_html_href": "s/scz.html",
-            "root_json_href": "s/scz.json"
-        },
-        {
-            "root": "scq",
-            "root_meaning": "肉体物質空白",
-            "root_html_href": "s/scq.html",
-            "root_json_href": "s/scq.json"
-        },
-        {
-            "root": "scc",
-            "root_meaning": "肉体物質物質",
-            "root_html_href": "s/scc.html",
-            "root_json_href": "s/scc.json"
-        },
-        {
-            "root": "scr",
-            "root_meaning": "肉体物質過去",
-            "root_html_href": "s/scr.html",
-            "root_json_href": "s/scr.json"
-        },
-        {
-            "root": "scl",
-            "root_meaning": "肉体物質未来",
-            "root_html_href": "s/scl.html",
-            "root_json_href": "s/scl.json"
-        },
-        {
-            "root": "scp",
-            "root_meaning": "肉体物質鎮静",
-            "root_html_href": "s/scp.html",
-            "root_json_href": "s/scp.json"
-        },
-        {
-            "root": "scb",
-            "root_meaning": "肉体物質高揚",
-            "root_html_href": "s/scb.html",
-            "root_json_href": "s/scb.json"
-        },
-        {
-            "root": "sch",
-            "root_meaning": "肉体物質受動",
-            "root_html_href": "s/sch.html",
-            "root_json_href": "s/sch.json"
-        },
-        {
-            "root": "scx",
-            "root_meaning": "肉体物質能動",
-            "root_html_href": "s/scx.html",
-            "root_json_href": "s/scx.json"
-        },
-        {
-            "root": "scf",
-            "root_meaning": "肉体物質創造",
-            "root_html_href": "s/scf.html",
-            "root_json_href": "s/scf.json"
-        },
-        {
-            "root": "scv",
-            "root_meaning": "肉体物質破壊",
-            "root_html_href": "s/scv.html",
-            "root_json_href": "s/scv.json"
-        },
-        {
-            "root": "scm",
-            "root_meaning": "肉体物質流動",
-            "root_html_href": "s/scm.html",
-            "root_json_href": "s/scm.json"
-        },
-        {
-            "root": "scn",
-            "root_meaning": "肉体物質固定",
-            "root_html_href": "s/scn.html",
-            "root_json_href": "s/scn.json"
-        },
-        {
-            "root": "srk",
-            "root_meaning": "肉体過去剥離",
-            "root_html_href": "s/srk.html",
-            "root_json_href": "s/srk.json"
-        },
-        {
-            "root": "srg",
-            "root_meaning": "肉体過去癒着",
-            "root_html_href": "s/srg.html",
-            "root_json_href": "s/srg.json"
-        },
-        {
-            "root": "srt",
-            "root_meaning": "肉体過去乖離",
-            "root_html_href": "s/srt.html",
-            "root_json_href": "s/srt.json"
-        },
-        {
-            "root": "srd",
-            "root_meaning": "肉体過去同一",
-            "root_html_href": "s/srd.html",
-            "root_json_href": "s/srd.json"
-        },
-        {
-            "root": "srs",
-            "root_meaning": "肉体過去肉体",
-            "root_html_href": "s/srs.html",
-            "root_json_href": "s/srs.json"
-        },
-        {
-            "root": "srz",
-            "root_meaning": "肉体過去精神",
-            "root_html_href": "s/srz.html",
-            "root_json_href": "s/srz.json"
-        },
-        {
-            "root": "srq",
-            "root_meaning": "肉体過去空白",
-            "root_html_href": "s/srq.html",
-            "root_json_href": "s/srq.json"
-        },
-        {
-            "root": "src",
-            "root_meaning": "肉体過去物質",
-            "root_html_href": "s/src.html",
-            "root_json_href": "s/src.json"
-        },
-        {
-            "root": "srr",
-            "root_meaning": "肉体過去過去",
-            "root_html_href": "s/srr.html",
-            "root_json_href": "s/srr.json"
-        },
-        {
-            "root": "srl",
-            "root_meaning": "肉体過去未来",
-            "root_html_href": "s/srl.html",
-            "root_json_href": "s/srl.json"
-        },
-        {
-            "root": "srp",
-            "root_meaning": "肉体過去鎮静",
-            "root_html_href": "s/srp.html",
-            "root_json_href": "s/srp.json"
-        },
-        {
-            "root": "srb",
-            "root_meaning": "肉体過去高揚",
-            "root_html_href": "s/srb.html",
-            "root_json_href": "s/srb.json"
-        },
-        {
-            "root": "srh",
-            "root_meaning": "肉体過去受動",
-            "root_html_href": "s/srh.html",
-            "root_json_href": "s/srh.json"
-        },
-        {
-            "root": "srx",
-            "root_meaning": "肉体過去能動",
-            "root_html_href": "s/srx.html",
-            "root_json_href": "s/srx.json"
-        },
-        {
-            "root": "srf",
-            "root_meaning": "肉体過去創造",
-            "root_html_href": "s/srf.html",
-            "root_json_href": "s/srf.json"
-        },
-        {
-            "root": "srv",
-            "root_meaning": "肉体過去破壊",
-            "root_html_href": "s/srv.html",
-            "root_json_href": "s/srv.json"
-        },
-        {
-            "root": "srm",
-            "root_meaning": "肉体過去流動",
-            "root_html_href": "s/srm.html",
-            "root_json_href": "s/srm.json"
-        },
-        {
-            "root": "srn",
-            "root_meaning": "肉体過去固定",
-            "root_html_href": "s/srn.html",
-            "root_json_href": "s/srn.json"
-        },
-        {
-            "root": "slk",
-            "root_meaning": "肉体未来剥離",
-            "root_html_href": "s/slk.html",
-            "root_json_href": "s/slk.json"
-        },
-        {
-            "root": "slg",
-            "root_meaning": "肉体未来癒着",
-            "root_html_href": "s/slg.html",
-            "root_json_href": "s/slg.json"
-        },
-        {
-            "root": "slt",
-            "root_meaning": "肉体未来乖離",
-            "root_html_href": "s/slt.html",
-            "root_json_href": "s/slt.json"
-        },
-        {
-            "root": "sld",
-            "root_meaning": "肉体未来同一",
-            "root_html_href": "s/sld.html",
-            "root_json_href": "s/sld.json"
-        },
-        {
-            "root": "sls",
-            "root_meaning": "肉体未来肉体",
-            "root_html_href": "s/sls.html",
-            "root_json_href": "s/sls.json"
-        },
-        {
-            "root": "slz",
-            "root_meaning": "肉体未来精神",
-            "root_html_href": "s/slz.html",
-            "root_json_href": "s/slz.json"
-        },
-        {
-            "root": "slq",
-            "root_meaning": "肉体未来空白",
-            "root_html_href": "s/slq.html",
-            "root_json_href": "s/slq.json"
-        },
-        {
-            "root": "slc",
-            "root_meaning": "肉体未来物質",
-            "root_html_href": "s/slc.html",
-            "root_json_href": "s/slc.json"
-        },
-        {
-            "root": "slr",
-            "root_meaning": "肉体未来過去",
-            "root_html_href": "s/slr.html",
-            "root_json_href": "s/slr.json"
-        },
-        {
-            "root": "sll",
-            "root_meaning": "肉体未来未来",
-            "root_html_href": "s/sll.html",
-            "root_json_href": "s/sll.json"
-        },
-        {
-            "root": "slp",
-            "root_meaning": "肉体未来鎮静",
-            "root_html_href": "s/slp.html",
-            "root_json_href": "s/slp.json"
-        },
-        {
-            "root": "slb",
-            "root_meaning": "肉体未来高揚",
-            "root_html_href": "s/slb.html",
-            "root_json_href": "s/slb.json"
-        },
-        {
-            "root": "slh",
-            "root_meaning": "肉体未来受動",
-            "root_html_href": "s/slh.html",
-            "root_json_href": "s/slh.json"
-        },
-        {
-            "root": "slx",
-            "root_meaning": "肉体未来能動",
-            "root_html_href": "s/slx.html",
-            "root_json_href": "s/slx.json"
-        },
-        {
-            "root": "slf",
-            "root_meaning": "肉体未来創造",
-            "root_html_href": "s/slf.html",
-            "root_json_href": "s/slf.json"
-        },
-        {
-            "root": "slv",
-            "root_meaning": "肉体未来破壊",
-            "root_html_href": "s/slv.html",
-            "root_json_href": "s/slv.json"
-        },
-        {
-            "root": "slm",
-            "root_meaning": "肉体未来流動",
-            "root_html_href": "s/slm.html",
-            "root_json_href": "s/slm.json"
-        },
-        {
-            "root": "sln",
-            "root_meaning": "肉体未来固定",
-            "root_html_href": "s/sln.html",
-            "root_json_href": "s/sln.json"
-        },
-        {
-            "root": "spk",
-            "root_meaning": "肉体鎮静剥離",
-            "root_html_href": "s/spk.html",
-            "root_json_href": "s/spk.json"
-        },
-        {
-            "root": "spg",
-            "root_meaning": "肉体鎮静癒着",
-            "root_html_href": "s/spg.html",
-            "root_json_href": "s/spg.json"
-        },
-        {
-            "root": "spt",
-            "root_meaning": "肉体鎮静乖離",
-            "root_html_href": "s/spt.html",
-            "root_json_href": "s/spt.json"
-        },
-        {
-            "root": "spd",
-            "root_meaning": "肉体鎮静同一",
-            "root_html_href": "s/spd.html",
-            "root_json_href": "s/spd.json"
-        },
-        {
-            "root": "sps",
-            "root_meaning": "肉体鎮静肉体",
-            "root_html_href": "s/sps.html",
-            "root_json_href": "s/sps.json"
-        },
-        {
-            "root": "spz",
-            "root_meaning": "肉体鎮静精神",
-            "root_html_href": "s/spz.html",
-            "root_json_href": "s/spz.json"
-        },
-        {
-            "root": "spq",
-            "root_meaning": "肉体鎮静空白",
-            "root_html_href": "s/spq.html",
-            "root_json_href": "s/spq.json"
-        },
-        {
-            "root": "spc",
-            "root_meaning": "肉体鎮静物質",
-            "root_html_href": "s/spc.html",
-            "root_json_href": "s/spc.json"
-        },
-        {
-            "root": "spr",
-            "root_meaning": "肉体鎮静過去",
-            "root_html_href": "s/spr.html",
-            "root_json_href": "s/spr.json"
-        },
-        {
-            "root": "spl",
-            "root_meaning": "肉体鎮静未来",
-            "root_html_href": "s/spl.html",
-            "root_json_href": "s/spl.json"
-        },
-        {
-            "root": "spp",
-            "root_meaning": "肉体鎮静鎮静",
-            "root_html_href": "s/spp.html",
-            "root_json_href": "s/spp.json"
-        },
-        {
-            "root": "spb",
-            "root_meaning": "肉体鎮静高揚",
-            "root_html_href": "s/spb.html",
-            "root_json_href": "s/spb.json"
-        },
-        {
-            "root": "sph",
-            "root_meaning": "肉体鎮静受動",
-            "root_html_href": "s/sph.html",
-            "root_json_href": "s/sph.json"
-        },
-        {
-            "root": "spx",
-            "root_meaning": "肉体鎮静能動",
-            "root_html_href": "s/spx.html",
-            "root_json_href": "s/spx.json"
-        },
-        {
-            "root": "spf",
-            "root_meaning": "肉体鎮静創造",
-            "root_html_href": "s/spf.html",
-            "root_json_href": "s/spf.json"
-        },
-        {
-            "root": "spv",
-            "root_meaning": "肉体鎮静破壊",
-            "root_html_href": "s/spv.html",
-            "root_json_href": "s/spv.json"
-        },
-        {
-            "root": "spm",
-            "root_meaning": "肉体鎮静流動",
-            "root_html_href": "s/spm.html",
-            "root_json_href": "s/spm.json"
-        },
-        {
-            "root": "spn",
-            "root_meaning": "肉体鎮静固定",
-            "root_html_href": "s/spn.html",
-            "root_json_href": "s/spn.json"
-        },
-        {
-            "root": "sbk",
-            "root_meaning": "肉体高揚剥離",
-            "root_html_href": "s/sbk.html",
-            "root_json_href": "s/sbk.json"
-        },
-        {
-            "root": "sbg",
-            "root_meaning": "肉体高揚癒着",
-            "root_html_href": "s/sbg.html",
-            "root_json_href": "s/sbg.json"
-        },
-        {
-            "root": "sbt",
-            "root_meaning": "肉体高揚乖離",
-            "root_html_href": "s/sbt.html",
-            "root_json_href": "s/sbt.json"
-        },
-        {
-            "root": "sbd",
-            "root_meaning": "肉体高揚同一",
-            "root_html_href": "s/sbd.html",
-            "root_json_href": "s/sbd.json"
-        },
-        {
-            "root": "sbs",
-            "root_meaning": "肉体高揚肉体",
-            "root_html_href": "s/sbs.html",
-            "root_json_href": "s/sbs.json"
-        },
-        {
-            "root": "sbz",
-            "root_meaning": "肉体高揚精神",
-            "root_html_href": "s/sbz.html",
-            "root_json_href": "s/sbz.json"
-        },
-        {
-            "root": "sbq",
-            "root_meaning": "肉体高揚空白",
-            "root_html_href": "s/sbq.html",
-            "root_json_href": "s/sbq.json"
-        },
-        {
-            "root": "sbc",
-            "root_meaning": "肉体高揚物質",
-            "root_html_href": "s/sbc.html",
-            "root_json_href": "s/sbc.json"
-        },
-        {
-            "root": "sbr",
-            "root_meaning": "肉体高揚過去",
-            "root_html_href": "s/sbr.html",
-            "root_json_href": "s/sbr.json"
-        },
-        {
-            "root": "sbl",
-            "root_meaning": "肉体高揚未来",
-            "root_html_href": "s/sbl.html",
-            "root_json_href": "s/sbl.json"
-        },
-        {
-            "root": "sbp",
-            "root_meaning": "肉体高揚鎮静",
-            "root_html_href": "s/sbp.html",
-            "root_json_href": "s/sbp.json"
-        },
-        {
-            "root": "sbb",
-            "root_meaning": "肉体高揚高揚",
-            "root_html_href": "s/sbb.html",
-            "root_json_href": "s/sbb.json"
-        },
-        {
-            "root": "sbh",
-            "root_meaning": "肉体高揚受動",
-            "root_html_href": "s/sbh.html",
-            "root_json_href": "s/sbh.json"
-        },
-        {
-            "root": "sbx",
-            "root_meaning": "肉体高揚能動",
-            "root_html_href": "s/sbx.html",
-            "root_json_href": "s/sbx.json"
-        },
-        {
-            "root": "sbf",
-            "root_meaning": "肉体高揚創造",
-            "root_html_href": "s/sbf.html",
-            "root_json_href": "s/sbf.json"
-        },
-        {
-            "root": "sbv",
-            "root_meaning": "肉体高揚破壊",
-            "root_html_href": "s/sbv.html",
-            "root_json_href": "s/sbv.json"
-        },
-        {
-            "root": "sbm",
-            "root_meaning": "肉体高揚流動",
-            "root_html_href": "s/sbm.html",
-            "root_json_href": "s/sbm.json"
-        },
-        {
-            "root": "sbn",
-            "root_meaning": "肉体高揚固定",
-            "root_html_href": "s/sbn.html",
-            "root_json_href": "s/sbn.json"
-        },
-        {
-            "root": "shk",
-            "root_meaning": "肉体受動剥離",
-            "root_html_href": "s/shk.html",
-            "root_json_href": "s/shk.json"
-        },
-        {
-            "root": "shg",
-            "root_meaning": "肉体受動癒着",
-            "root_html_href": "s/shg.html",
-            "root_json_href": "s/shg.json"
-        },
-        {
-            "root": "sht",
-            "root_meaning": "肉体受動乖離",
-            "root_html_href": "s/sht.html",
-            "root_json_href": "s/sht.json"
-        },
-        {
-            "root": "shd",
-            "root_meaning": "肉体受動同一",
-            "root_html_href": "s/shd.html",
-            "root_json_href": "s/shd.json"
-        },
-        {
-            "root": "shs",
-            "root_meaning": "肉体受動肉体",
-            "root_html_href": "s/shs.html",
-            "root_json_href": "s/shs.json"
-        },
-        {
-            "root": "shz",
-            "root_meaning": "肉体受動精神",
-            "root_html_href": "s/shz.html",
-            "root_json_href": "s/shz.json"
-        },
-        {
-            "root": "shq",
-            "root_meaning": "肉体受動空白",
-            "root_html_href": "s/shq.html",
-            "root_json_href": "s/shq.json"
-        },
-        {
-            "root": "shc",
-            "root_meaning": "肉体受動物質",
-            "root_html_href": "s/shc.html",
-            "root_json_href": "s/shc.json"
-        },
-        {
-            "root": "shr",
-            "root_meaning": "肉体受動過去",
-            "root_html_href": "s/shr.html",
-            "root_json_href": "s/shr.json"
-        },
-        {
-            "root": "shl",
-            "root_meaning": "肉体受動未来",
-            "root_html_href": "s/shl.html",
-            "root_json_href": "s/shl.json"
-        },
-        {
-            "root": "shp",
-            "root_meaning": "肉体受動鎮静",
-            "root_html_href": "s/shp.html",
-            "root_json_href": "s/shp.json"
-        },
-        {
-            "root": "shb",
-            "root_meaning": "肉体受動高揚",
-            "root_html_href": "s/shb.html",
-            "root_json_href": "s/shb.json"
-        },
-        {
-            "root": "shh",
-            "root_meaning": "肉体受動受動",
-            "root_html_href": "s/shh.html",
-            "root_json_href": "s/shh.json"
-        },
-        {
-            "root": "shx",
-            "root_meaning": "肉体受動能動",
-            "root_html_href": "s/shx.html",
-            "root_json_href": "s/shx.json"
-        },
-        {
-            "root": "shf",
-            "root_meaning": "肉体受動創造",
-            "root_html_href": "s/shf.html",
-            "root_json_href": "s/shf.json"
-        },
-        {
-            "root": "shv",
-            "root_meaning": "肉体受動破壊",
-            "root_html_href": "s/shv.html",
-            "root_json_href": "s/shv.json"
-        },
-        {
-            "root": "shm",
-            "root_meaning": "肉体受動流動",
-            "root_html_href": "s/shm.html",
-            "root_json_href": "s/shm.json"
-        },
-        {
-            "root": "shn",
-            "root_meaning": "肉体受動固定",
-            "root_html_href": "s/shn.html",
-            "root_json_href": "s/shn.json"
-        },
-        {
-            "root": "sxk",
-            "root_meaning": "肉体能動剥離",
-            "root_html_href": "s/sxk.html",
-            "root_json_href": "s/sxk.json"
-        },
-        {
-            "root": "sxg",
-            "root_meaning": "肉体能動癒着",
-            "root_html_href": "s/sxg.html",
-            "root_json_href": "s/sxg.json"
-        },
-        {
-            "root": "sxt",
-            "root_meaning": "肉体能動乖離",
-            "root_html_href": "s/sxt.html",
-            "root_json_href": "s/sxt.json"
-        },
-        {
-            "root": "sxd",
-            "root_meaning": "肉体能動同一",
-            "root_html_href": "s/sxd.html",
-            "root_json_href": "s/sxd.json"
-        },
-        {
-            "root": "sxs",
-            "root_meaning": "肉体能動肉体",
-            "root_html_href": "s/sxs.html",
-            "root_json_href": "s/sxs.json"
-        },
-        {
-            "root": "sxz",
-            "root_meaning": "肉体能動精神",
-            "root_html_href": "s/sxz.html",
-            "root_json_href": "s/sxz.json"
-        },
-        {
-            "root": "sxq",
-            "root_meaning": "肉体能動空白",
-            "root_html_href": "s/sxq.html",
-            "root_json_href": "s/sxq.json"
-        },
-        {
-            "root": "sxc",
-            "root_meaning": "肉体能動物質",
-            "root_html_href": "s/sxc.html",
-            "root_json_href": "s/sxc.json"
-        },
-        {
-            "root": "sxr",
-            "root_meaning": "肉体能動過去",
-            "root_html_href": "s/sxr.html",
-            "root_json_href": "s/sxr.json"
-        },
-        {
-            "root": "sxl",
-            "root_meaning": "肉体能動未来",
-            "root_html_href": "s/sxl.html",
-            "root_json_href": "s/sxl.json"
-        },
-        {
-            "root": "sxp",
-            "root_meaning": "肉体能動鎮静",
-            "root_html_href": "s/sxp.html",
-            "root_json_href": "s/sxp.json"
-        },
-        {
-            "root": "sxb",
-            "root_meaning": "肉体能動高揚",
-            "root_html_href": "s/sxb.html",
-            "root_json_href": "s/sxb.json"
-        },
-        {
-            "root": "sxh",
-            "root_meaning": "肉体能動受動",
-            "root_html_href": "s/sxh.html",
-            "root_json_href": "s/sxh.json"
-        },
-        {
-            "root": "sxx",
-            "root_meaning": "肉体能動能動",
-            "root_html_href": "s/sxx.html",
-            "root_json_href": "s/sxx.json"
-        },
-        {
-            "root": "sxf",
-            "root_meaning": "肉体能動創造",
-            "root_html_href": "s/sxf.html",
-            "root_json_href": "s/sxf.json"
-        },
-        {
-            "root": "sxv",
-            "root_meaning": "肉体能動破壊",
-            "root_html_href": "s/sxv.html",
-            "root_json_href": "s/sxv.json"
-        },
-        {
-            "root": "sxm",
-            "root_meaning": "肉体能動流動",
-            "root_html_href": "s/sxm.html",
-            "root_json_href": "s/sxm.json"
-        },
-        {
-            "root": "sxn",
-            "root_meaning": "肉体能動固定",
-            "root_html_href": "s/sxn.html",
-            "root_json_href": "s/sxn.json"
-        },
-        {
-            "root": "sfk",
-            "root_meaning": "肉体創造剥離",
-            "root_html_href": "s/sfk.html",
-            "root_json_href": "s/sfk.json"
-        },
-        {
-            "root": "sfg",
-            "root_meaning": "肉体創造癒着",
-            "root_html_href": "s/sfg.html",
-            "root_json_href": "s/sfg.json"
-        },
-        {
-            "root": "sft",
-            "root_meaning": "肉体創造乖離",
-            "root_html_href": "s/sft.html",
-            "root_json_href": "s/sft.json"
-        },
-        {
-            "root": "sfd",
-            "root_meaning": "肉体創造同一",
-            "root_html_href": "s/sfd.html",
-            "root_json_href": "s/sfd.json"
-        },
-        {
-            "root": "sfs",
-            "root_meaning": "肉体創造肉体",
-            "root_html_href": "s/sfs.html",
-            "root_json_href": "s/sfs.json"
-        },
-        {
-            "root": "sfz",
-            "root_meaning": "肉体創造精神",
-            "root_html_href": "s/sfz.html",
-            "root_json_href": "s/sfz.json"
-        },
-        {
-            "root": "sfq",
-            "root_meaning": "肉体創造空白",
-            "root_html_href": "s/sfq.html",
-            "root_json_href": "s/sfq.json"
-        },
-        {
-            "root": "sfc",
-            "root_meaning": "肉体創造物質",
-            "root_html_href": "s/sfc.html",
-            "root_json_href": "s/sfc.json"
-        },
-        {
-            "root": "sfr",
-            "root_meaning": "肉体創造過去",
-            "root_html_href": "s/sfr.html",
-            "root_json_href": "s/sfr.json"
-        },
-        {
-            "root": "sfl",
-            "root_meaning": "肉体創造未来",
-            "root_html_href": "s/sfl.html",
-            "root_json_href": "s/sfl.json"
-        },
-        {
-            "root": "sfp",
-            "root_meaning": "肉体創造鎮静",
-            "root_html_href": "s/sfp.html",
-            "root_json_href": "s/sfp.json"
-        },
-        {
-            "root": "sfb",
-            "root_meaning": "肉体創造高揚",
-            "root_html_href": "s/sfb.html",
-            "root_json_href": "s/sfb.json"
-        },
-        {
-            "root": "sfh",
-            "root_meaning": "肉体創造受動",
-            "root_html_href": "s/sfh.html",
-            "root_json_href": "s/sfh.json"
-        },
-        {
-            "root": "sfx",
-            "root_meaning": "肉体創造能動",
-            "root_html_href": "s/sfx.html",
-            "root_json_href": "s/sfx.json"
-        },
-        {
-            "root": "sff",
-            "root_meaning": "肉体創造創造",
-            "root_html_href": "s/sff.html",
-            "root_json_href": "s/sff.json"
-        },
-        {
-            "root": "sfv",
-            "root_meaning": "肉体創造破壊",
-            "root_html_href": "s/sfv.html",
-            "root_json_href": "s/sfv.json"
-        },
-        {
-            "root": "sfm",
-            "root_meaning": "肉体創造流動",
-            "root_html_href": "s/sfm.html",
-            "root_json_href": "s/sfm.json"
-        },
-        {
-            "root": "sfn",
-            "root_meaning": "肉体創造固定",
-            "root_html_href": "s/sfn.html",
-            "root_json_href": "s/sfn.json"
-        },
-        {
-            "root": "svk",
-            "root_meaning": "肉体破壊剥離",
-            "root_html_href": "s/svk.html",
-            "root_json_href": "s/svk.json"
-        },
-        {
-            "root": "svg",
-            "root_meaning": "肉体破壊癒着",
-            "root_html_href": "s/svg.html",
-            "root_json_href": "s/svg.json"
-        },
-        {
-            "root": "svt",
-            "root_meaning": "肉体破壊乖離",
-            "root_html_href": "s/svt.html",
-            "root_json_href": "s/svt.json"
-        },
-        {
-            "root": "svd",
-            "root_meaning": "肉体破壊同一",
-            "root_html_href": "s/svd.html",
-            "root_json_href": "s/svd.json"
-        },
-        {
-            "root": "svs",
-            "root_meaning": "肉体破壊肉体",
-            "root_html_href": "s/svs.html",
-            "root_json_href": "s/svs.json"
-        },
-        {
-            "root": "svz",
-            "root_meaning": "肉体破壊精神",
-            "root_html_href": "s/svz.html",
-            "root_json_href": "s/svz.json"
-        },
-        {
-            "root": "svq",
-            "root_meaning": "肉体破壊空白",
-            "root_html_href": "s/svq.html",
-            "root_json_href": "s/svq.json"
-        },
-        {
-            "root": "svc",
-            "root_meaning": "肉体破壊物質",
-            "root_html_href": "s/svc.html",
-            "root_json_href": "s/svc.json"
-        },
-        {
-            "root": "svr",
-            "root_meaning": "肉体破壊過去",
-            "root_html_href": "s/svr.html",
-            "root_json_href": "s/svr.json"
-        },
-        {
-            "root": "svl",
-            "root_meaning": "肉体破壊未来",
-            "root_html_href": "s/svl.html",
-            "root_json_href": "s/svl.json"
-        },
-        {
-            "root": "svp",
-            "root_meaning": "肉体破壊鎮静",
-            "root_html_href": "s/svp.html",
-            "root_json_href": "s/svp.json"
-        },
-        {
-            "root": "svb",
-            "root_meaning": "肉体破壊高揚",
-            "root_html_href": "s/svb.html",
-            "root_json_href": "s/svb.json"
-        },
-        {
-            "root": "svh",
-            "root_meaning": "肉体破壊受動",
-            "root_html_href": "s/svh.html",
-            "root_json_href": "s/svh.json"
-        },
-        {
-            "root": "svx",
-            "root_meaning": "肉体破壊能動",
-            "root_html_href": "s/svx.html",
-            "root_json_href": "s/svx.json"
-        },
-        {
-            "root": "svf",
-            "root_meaning": "肉体破壊創造",
-            "root_html_href": "s/svf.html",
-            "root_json_href": "s/svf.json"
-        },
-        {
-            "root": "svv",
-            "root_meaning": "肉体破壊破壊",
-            "root_html_href": "s/svv.html",
-            "root_json_href": "s/svv.json"
-        },
-        {
-            "root": "svm",
-            "root_meaning": "肉体破壊流動",
-            "root_html_href": "s/svm.html",
-            "root_json_href": "s/svm.json"
-        },
-        {
-            "root": "svn",
-            "root_meaning": "肉体破壊固定",
-            "root_html_href": "s/svn.html",
-            "root_json_href": "s/svn.json"
-        },
-        {
-            "root": "smk",
-            "root_meaning": "肉体流動剥離",
-            "root_html_href": "s/smk.html",
-            "root_json_href": "s/smk.json"
-        },
-        {
-            "root": "smg",
-            "root_meaning": "肉体流動癒着",
-            "root_html_href": "s/smg.html",
-            "root_json_href": "s/smg.json"
-        },
-        {
-            "root": "smt",
-            "root_meaning": "肉体流動乖離",
-            "root_html_href": "s/smt.html",
-            "root_json_href": "s/smt.json"
-        },
-        {
-            "root": "smd",
-            "root_meaning": "肉体流動同一",
-            "root_html_href": "s/smd.html",
-            "root_json_href": "s/smd.json"
-        },
-        {
-            "root": "sms",
-            "root_meaning": "肉体流動肉体",
-            "root_html_href": "s/sms.html",
-            "root_json_href": "s/sms.json"
-        },
-        {
-            "root": "smz",
-            "root_meaning": "肉体流動精神",
-            "root_html_href": "s/smz.html",
-            "root_json_href": "s/smz.json"
-        },
-        {
-            "root": "smq",
-            "root_meaning": "肉体流動空白",
-            "root_html_href": "s/smq.html",
-            "root_json_href": "s/smq.json"
-        },
-        {
-            "root": "smc",
-            "root_meaning": "肉体流動物質",
-            "root_html_href": "s/smc.html",
-            "root_json_href": "s/smc.json"
-        },
-        {
-            "root": "smr",
-            "root_meaning": "肉体流動過去",
-            "root_html_href": "s/smr.html",
-            "root_json_href": "s/smr.json"
-        },
-        {
-            "root": "sml",
-            "root_meaning": "肉体流動未来",
-            "root_html_href": "s/sml.html",
-            "root_json_href": "s/sml.json"
-        },
-        {
-            "root": "smp",
-            "root_meaning": "肉体流動鎮静",
-            "root_html_href": "s/smp.html",
-            "root_json_href": "s/smp.json"
-        },
-        {
-            "root": "smb",
-            "root_meaning": "肉体流動高揚",
-            "root_html_href": "s/smb.html",
-            "root_json_href": "s/smb.json"
-        },
-        {
-            "root": "smh",
-            "root_meaning": "肉体流動受動",
-            "root_html_href": "s/smh.html",
-            "root_json_href": "s/smh.json"
-        },
-        {
-            "root": "smx",
-            "root_meaning": "肉体流動能動",
-            "root_html_href": "s/smx.html",
-            "root_json_href": "s/smx.json"
-        },
-        {
-            "root": "smf",
-            "root_meaning": "肉体流動創造",
-            "root_html_href": "s/smf.html",
-            "root_json_href": "s/smf.json"
-        },
-        {
-            "root": "smv",
-            "root_meaning": "肉体流動破壊",
-            "root_html_href": "s/smv.html",
-            "root_json_href": "s/smv.json"
-        },
-        {
-            "root": "smm",
-            "root_meaning": "肉体流動流動",
-            "root_html_href": "s/smm.html",
-            "root_json_href": "s/smm.json"
-        },
-        {
-            "root": "smn",
-            "root_meaning": "肉体流動固定",
-            "root_html_href": "s/smn.html",
-            "root_json_href": "s/smn.json"
-        },
-        {
-            "root": "snk",
-            "root_meaning": "肉体固定剥離",
-            "root_html_href": "s/snk.html",
-            "root_json_href": "s/snk.json"
-        },
-        {
-            "root": "sng",
-            "root_meaning": "肉体固定癒着",
-            "root_html_href": "s/sng.html",
-            "root_json_href": "s/sng.json"
-        },
-        {
-            "root": "snt",
-            "root_meaning": "肉体固定乖離",
-            "root_html_href": "s/snt.html",
-            "root_json_href": "s/snt.json"
-        },
-        {
-            "root": "snd",
-            "root_meaning": "肉体固定同一",
-            "root_html_href": "s/snd.html",
-            "root_json_href": "s/snd.json"
-        },
-        {
-            "root": "sns",
-            "root_meaning": "肉体固定肉体",
-            "root_html_href": "s/sns.html",
-            "root_json_href": "s/sns.json"
-        },
-        {
-            "root": "snz",
-            "root_meaning": "肉体固定精神",
-            "root_html_href": "s/snz.html",
-            "root_json_href": "s/snz.json"
-        },
-        {
-            "root": "snq",
-            "root_meaning": "肉体固定空白",
-            "root_html_href": "s/snq.html",
-            "root_json_href": "s/snq.json"
-        },
-        {
-            "root": "snc",
-            "root_meaning": "肉体固定物質",
-            "root_html_href": "s/snc.html",
-            "root_json_href": "s/snc.json"
-        },
-        {
-            "root": "snr",
-            "root_meaning": "肉体固定過去",
-            "root_html_href": "s/snr.html",
-            "root_json_href": "s/snr.json"
-        },
-        {
-            "root": "snl",
-            "root_meaning": "肉体固定未来",
-            "root_html_href": "s/snl.html",
-            "root_json_href": "s/snl.json"
-        },
-        {
-            "root": "snp",
-            "root_meaning": "肉体固定鎮静",
-            "root_html_href": "s/snp.html",
-            "root_json_href": "s/snp.json"
-        },
-        {
-            "root": "snb",
-            "root_meaning": "肉体固定高揚",
-            "root_html_href": "s/snb.html",
-            "root_json_href": "s/snb.json"
-        },
-        {
-            "root": "snh",
-            "root_meaning": "肉体固定受動",
-            "root_html_href": "s/snh.html",
-            "root_json_href": "s/snh.json"
-        },
-        {
-            "root": "snx",
-            "root_meaning": "肉体固定能動",
-            "root_html_href": "s/snx.html",
-            "root_json_href": "s/snx.json"
-        },
-        {
-            "root": "snf",
-            "root_meaning": "肉体固定創造",
-            "root_html_href": "s/snf.html",
-            "root_json_href": "s/snf.json"
-        },
-        {
-            "root": "snv",
-            "root_meaning": "肉体固定破壊",
-            "root_html_href": "s/snv.html",
-            "root_json_href": "s/snv.json"
-        },
-        {
-            "root": "snm",
-            "root_meaning": "肉体固定流動",
-            "root_html_href": "s/snm.html",
-            "root_json_href": "s/snm.json"
-        },
-        {
-            "root": "snn",
-            "root_meaning": "肉体固定固定",
-            "root_html_href": "s/snn.html",
-            "root_json_href": "s/snn.json"
-        }
+        { "root": "skk", "root_meaning": "肉体剥離剥離", "root_html_href": "s/skk.html" },
+        { "root": "skg", "root_meaning": "肉体剥離癒着", "root_html_href": "s/skg.html" },
+        { "root": "skt", "root_meaning": "肉体剥離乖離", "root_html_href": "s/skt.html" },
+        { "root": "skd", "root_meaning": "肉体剥離同一", "root_html_href": "s/skd.html" },
+        { "root": "sks", "root_meaning": "肉体剥離肉体", "root_html_href": "s/sks.html" },
+        { "root": "skz", "root_meaning": "肉体剥離精神", "root_html_href": "s/skz.html" },
+        { "root": "skq", "root_meaning": "肉体剥離空白", "root_html_href": "s/skq.html" },
+        { "root": "skc", "root_meaning": "肉体剥離物質", "root_html_href": "s/skc.html" },
+        { "root": "skr", "root_meaning": "肉体剥離過去", "root_html_href": "s/skr.html" },
+        { "root": "skl", "root_meaning": "肉体剥離未来", "root_html_href": "s/skl.html" },
+        { "root": "skp", "root_meaning": "肉体剥離鎮静", "root_html_href": "s/skp.html" },
+        { "root": "skb", "root_meaning": "肉体剥離高揚", "root_html_href": "s/skb.html" },
+        { "root": "skh", "root_meaning": "肉体剥離受動", "root_html_href": "s/skh.html" },
+        { "root": "skx", "root_meaning": "肉体剥離能動", "root_html_href": "s/skx.html" },
+        { "root": "skf", "root_meaning": "肉体剥離創造", "root_html_href": "s/skf.html" },
+        { "root": "skv", "root_meaning": "肉体剥離破壊", "root_html_href": "s/skv.html" },
+        { "root": "skm", "root_meaning": "肉体剥離流動", "root_html_href": "s/skm.html" },
+        { "root": "skn", "root_meaning": "肉体剥離固定", "root_html_href": "s/skn.html" },
+        { "root": "sgk", "root_meaning": "肉体癒着剥離", "root_html_href": "s/sgk.html" },
+        { "root": "sgg", "root_meaning": "肉体癒着癒着", "root_html_href": "s/sgg.html" },
+        { "root": "sgt", "root_meaning": "肉体癒着乖離", "root_html_href": "s/sgt.html" },
+        { "root": "sgd", "root_meaning": "肉体癒着同一", "root_html_href": "s/sgd.html" },
+        { "root": "sgs", "root_meaning": "肉体癒着肉体", "root_html_href": "s/sgs.html" },
+        { "root": "sgz", "root_meaning": "肉体癒着精神", "root_html_href": "s/sgz.html" },
+        { "root": "sgq", "root_meaning": "肉体癒着空白", "root_html_href": "s/sgq.html" },
+        { "root": "sgc", "root_meaning": "肉体癒着物質", "root_html_href": "s/sgc.html" },
+        { "root": "sgr", "root_meaning": "肉体癒着過去", "root_html_href": "s/sgr.html" },
+        { "root": "sgl", "root_meaning": "肉体癒着未来", "root_html_href": "s/sgl.html" },
+        { "root": "sgp", "root_meaning": "肉体癒着鎮静", "root_html_href": "s/sgp.html" },
+        { "root": "sgb", "root_meaning": "肉体癒着高揚", "root_html_href": "s/sgb.html" },
+        { "root": "sgh", "root_meaning": "肉体癒着受動", "root_html_href": "s/sgh.html" },
+        { "root": "sgx", "root_meaning": "肉体癒着能動", "root_html_href": "s/sgx.html" },
+        { "root": "sgf", "root_meaning": "肉体癒着創造", "root_html_href": "s/sgf.html" },
+        { "root": "sgv", "root_meaning": "肉体癒着破壊", "root_html_href": "s/sgv.html" },
+        { "root": "sgm", "root_meaning": "肉体癒着流動", "root_html_href": "s/sgm.html" },
+        { "root": "sgn", "root_meaning": "肉体癒着固定", "root_html_href": "s/sgn.html" },
+        { "root": "stk", "root_meaning": "肉体乖離剥離", "root_html_href": "s/stk.html" },
+        { "root": "stg", "root_meaning": "肉体乖離癒着", "root_html_href": "s/stg.html" },
+        { "root": "stt", "root_meaning": "肉体乖離乖離", "root_html_href": "s/stt.html" },
+        { "root": "std", "root_meaning": "肉体乖離同一", "root_html_href": "s/std.html" },
+        { "root": "sts", "root_meaning": "肉体乖離肉体", "root_html_href": "s/sts.html" },
+        { "root": "stz", "root_meaning": "肉体乖離精神", "root_html_href": "s/stz.html" },
+        { "root": "stq", "root_meaning": "肉体乖離空白", "root_html_href": "s/stq.html" },
+        { "root": "stc", "root_meaning": "肉体乖離物質", "root_html_href": "s/stc.html" },
+        { "root": "str", "root_meaning": "肉体乖離過去", "root_html_href": "s/str.html" },
+        { "root": "stl", "root_meaning": "肉体乖離未来", "root_html_href": "s/stl.html" },
+        { "root": "stp", "root_meaning": "肉体乖離鎮静", "root_html_href": "s/stp.html" },
+        { "root": "stb", "root_meaning": "肉体乖離高揚", "root_html_href": "s/stb.html" },
+        { "root": "sth", "root_meaning": "肉体乖離受動", "root_html_href": "s/sth.html" },
+        { "root": "stx", "root_meaning": "肉体乖離能動", "root_html_href": "s/stx.html" },
+        { "root": "stf", "root_meaning": "肉体乖離創造", "root_html_href": "s/stf.html" },
+        { "root": "stv", "root_meaning": "肉体乖離破壊", "root_html_href": "s/stv.html" },
+        { "root": "stm", "root_meaning": "肉体乖離流動", "root_html_href": "s/stm.html" },
+        { "root": "stn", "root_meaning": "肉体乖離固定", "root_html_href": "s/stn.html" },
+        { "root": "sdk", "root_meaning": "肉体同一剥離", "root_html_href": "s/sdk.html" },
+        { "root": "sdg", "root_meaning": "肉体同一癒着", "root_html_href": "s/sdg.html" },
+        { "root": "sdt", "root_meaning": "肉体同一乖離", "root_html_href": "s/sdt.html" },
+        { "root": "sdd", "root_meaning": "肉体同一同一", "root_html_href": "s/sdd.html" },
+        { "root": "sds", "root_meaning": "肉体同一肉体", "root_html_href": "s/sds.html" },
+        { "root": "sdz", "root_meaning": "肉体同一精神", "root_html_href": "s/sdz.html" },
+        { "root": "sdq", "root_meaning": "肉体同一空白", "root_html_href": "s/sdq.html" },
+        { "root": "sdc", "root_meaning": "肉体同一物質", "root_html_href": "s/sdc.html" },
+        { "root": "sdr", "root_meaning": "肉体同一過去", "root_html_href": "s/sdr.html" },
+        { "root": "sdl", "root_meaning": "肉体同一未来", "root_html_href": "s/sdl.html" },
+        { "root": "sdp", "root_meaning": "肉体同一鎮静", "root_html_href": "s/sdp.html" },
+        { "root": "sdb", "root_meaning": "肉体同一高揚", "root_html_href": "s/sdb.html" },
+        { "root": "sdh", "root_meaning": "肉体同一受動", "root_html_href": "s/sdh.html" },
+        { "root": "sdx", "root_meaning": "肉体同一能動", "root_html_href": "s/sdx.html" },
+        { "root": "sdf", "root_meaning": "肉体同一創造", "root_html_href": "s/sdf.html" },
+        { "root": "sdv", "root_meaning": "肉体同一破壊", "root_html_href": "s/sdv.html" },
+        { "root": "sdm", "root_meaning": "肉体同一流動", "root_html_href": "s/sdm.html" },
+        { "root": "sdn", "root_meaning": "肉体同一固定", "root_html_href": "s/sdn.html" },
+        { "root": "ssk", "root_meaning": "肉体肉体剥離", "root_html_href": "s/ssk.html" },
+        { "root": "ssg", "root_meaning": "肉体肉体癒着", "root_html_href": "s/ssg.html" },
+        { "root": "sst", "root_meaning": "肉体肉体乖離", "root_html_href": "s/sst.html" },
+        { "root": "ssd", "root_meaning": "肉体肉体同一", "root_html_href": "s/ssd.html" },
+        { "root": "sss", "root_meaning": "肉体肉体肉体", "root_html_href": "s/sss.html" },
+        { "root": "ssz", "root_meaning": "肉体肉体精神", "root_html_href": "s/ssz.html" },
+        { "root": "ssq", "root_meaning": "肉体肉体空白", "root_html_href": "s/ssq.html" },
+        { "root": "ssc", "root_meaning": "肉体肉体物質", "root_html_href": "s/ssc.html" },
+        { "root": "ssr", "root_meaning": "肉体肉体過去", "root_html_href": "s/ssr.html" },
+        { "root": "ssl", "root_meaning": "肉体肉体未来", "root_html_href": "s/ssl.html" },
+        { "root": "ssp", "root_meaning": "肉体肉体鎮静", "root_html_href": "s/ssp.html" },
+        { "root": "ssb", "root_meaning": "肉体肉体高揚", "root_html_href": "s/ssb.html" },
+        { "root": "ssh", "root_meaning": "肉体肉体受動", "root_html_href": "s/ssh.html" },
+        { "root": "ssx", "root_meaning": "肉体肉体能動", "root_html_href": "s/ssx.html" },
+        { "root": "ssf", "root_meaning": "肉体肉体創造", "root_html_href": "s/ssf.html" },
+        { "root": "ssv", "root_meaning": "肉体肉体破壊", "root_html_href": "s/ssv.html" },
+        { "root": "ssm", "root_meaning": "肉体肉体流動", "root_html_href": "s/ssm.html" },
+        { "root": "ssn", "root_meaning": "肉体肉体固定", "root_html_href": "s/ssn.html" },
+        { "root": "szk", "root_meaning": "肉体精神剥離", "root_html_href": "s/szk.html" },
+        { "root": "szg", "root_meaning": "肉体精神癒着", "root_html_href": "s/szg.html" },
+        { "root": "szt", "root_meaning": "肉体精神乖離", "root_html_href": "s/szt.html" },
+        { "root": "szd", "root_meaning": "肉体精神同一", "root_html_href": "s/szd.html" },
+        { "root": "szs", "root_meaning": "肉体精神肉体", "root_html_href": "s/szs.html" },
+        { "root": "szz", "root_meaning": "肉体精神精神", "root_html_href": "s/szz.html" },
+        { "root": "szq", "root_meaning": "肉体精神空白", "root_html_href": "s/szq.html" },
+        { "root": "szc", "root_meaning": "肉体精神物質", "root_html_href": "s/szc.html" },
+        { "root": "szr", "root_meaning": "肉体精神過去", "root_html_href": "s/szr.html" },
+        { "root": "szl", "root_meaning": "肉体精神未来", "root_html_href": "s/szl.html" },
+        { "root": "szp", "root_meaning": "肉体精神鎮静", "root_html_href": "s/szp.html" },
+        { "root": "szb", "root_meaning": "肉体精神高揚", "root_html_href": "s/szb.html" },
+        { "root": "szh", "root_meaning": "肉体精神受動", "root_html_href": "s/szh.html" },
+        { "root": "szx", "root_meaning": "肉体精神能動", "root_html_href": "s/szx.html" },
+        { "root": "szf", "root_meaning": "肉体精神創造", "root_html_href": "s/szf.html" },
+        { "root": "szv", "root_meaning": "肉体精神破壊", "root_html_href": "s/szv.html" },
+        { "root": "szm", "root_meaning": "肉体精神流動", "root_html_href": "s/szm.html" },
+        { "root": "szn", "root_meaning": "肉体精神固定", "root_html_href": "s/szn.html" },
+        { "root": "sqk", "root_meaning": "肉体空白剥離", "root_html_href": "s/sqk.html" },
+        { "root": "sqg", "root_meaning": "肉体空白癒着", "root_html_href": "s/sqg.html" },
+        { "root": "sqt", "root_meaning": "肉体空白乖離", "root_html_href": "s/sqt.html" },
+        { "root": "sqd", "root_meaning": "肉体空白同一", "root_html_href": "s/sqd.html" },
+        { "root": "sqs", "root_meaning": "肉体空白肉体", "root_html_href": "s/sqs.html" },
+        { "root": "sqz", "root_meaning": "肉体空白精神", "root_html_href": "s/sqz.html" },
+        { "root": "sqq", "root_meaning": "肉体空白空白", "root_html_href": "s/sqq.html" },
+        { "root": "sqc", "root_meaning": "肉体空白物質", "root_html_href": "s/sqc.html" },
+        { "root": "sqr", "root_meaning": "肉体空白過去", "root_html_href": "s/sqr.html" },
+        { "root": "sql", "root_meaning": "肉体空白未来", "root_html_href": "s/sql.html" },
+        { "root": "sqp", "root_meaning": "肉体空白鎮静", "root_html_href": "s/sqp.html" },
+        { "root": "sqb", "root_meaning": "肉体空白高揚", "root_html_href": "s/sqb.html" },
+        { "root": "sqh", "root_meaning": "肉体空白受動", "root_html_href": "s/sqh.html" },
+        { "root": "sqx", "root_meaning": "肉体空白能動", "root_html_href": "s/sqx.html" },
+        { "root": "sqf", "root_meaning": "肉体空白創造", "root_html_href": "s/sqf.html" },
+        { "root": "sqv", "root_meaning": "肉体空白破壊", "root_html_href": "s/sqv.html" },
+        { "root": "sqm", "root_meaning": "肉体空白流動", "root_html_href": "s/sqm.html" },
+        { "root": "sqn", "root_meaning": "肉体空白固定", "root_html_href": "s/sqn.html" },
+        { "root": "sck", "root_meaning": "肉体物質剥離", "root_html_href": "s/sck.html" },
+        { "root": "scg", "root_meaning": "肉体物質癒着", "root_html_href": "s/scg.html" },
+        { "root": "sct", "root_meaning": "肉体物質乖離", "root_html_href": "s/sct.html" },
+        { "root": "scd", "root_meaning": "肉体物質同一", "root_html_href": "s/scd.html" },
+        { "root": "scs", "root_meaning": "肉体物質肉体", "root_html_href": "s/scs.html" },
+        { "root": "scz", "root_meaning": "肉体物質精神", "root_html_href": "s/scz.html" },
+        { "root": "scq", "root_meaning": "肉体物質空白", "root_html_href": "s/scq.html" },
+        { "root": "scc", "root_meaning": "肉体物質物質", "root_html_href": "s/scc.html" },
+        { "root": "scr", "root_meaning": "肉体物質過去", "root_html_href": "s/scr.html" },
+        { "root": "scl", "root_meaning": "肉体物質未来", "root_html_href": "s/scl.html" },
+        { "root": "scp", "root_meaning": "肉体物質鎮静", "root_html_href": "s/scp.html" },
+        { "root": "scb", "root_meaning": "肉体物質高揚", "root_html_href": "s/scb.html" },
+        { "root": "sch", "root_meaning": "肉体物質受動", "root_html_href": "s/sch.html" },
+        { "root": "scx", "root_meaning": "肉体物質能動", "root_html_href": "s/scx.html" },
+        { "root": "scf", "root_meaning": "肉体物質創造", "root_html_href": "s/scf.html" },
+        { "root": "scv", "root_meaning": "肉体物質破壊", "root_html_href": "s/scv.html" },
+        { "root": "scm", "root_meaning": "肉体物質流動", "root_html_href": "s/scm.html" },
+        { "root": "scn", "root_meaning": "肉体物質固定", "root_html_href": "s/scn.html" },
+        { "root": "srk", "root_meaning": "肉体過去剥離", "root_html_href": "s/srk.html" },
+        { "root": "srg", "root_meaning": "肉体過去癒着", "root_html_href": "s/srg.html" },
+        { "root": "srt", "root_meaning": "肉体過去乖離", "root_html_href": "s/srt.html" },
+        { "root": "srd", "root_meaning": "肉体過去同一", "root_html_href": "s/srd.html" },
+        { "root": "srs", "root_meaning": "肉体過去肉体", "root_html_href": "s/srs.html" },
+        { "root": "srz", "root_meaning": "肉体過去精神", "root_html_href": "s/srz.html" },
+        { "root": "srq", "root_meaning": "肉体過去空白", "root_html_href": "s/srq.html" },
+        { "root": "src", "root_meaning": "肉体過去物質", "root_html_href": "s/src.html" },
+        { "root": "srr", "root_meaning": "肉体過去過去", "root_html_href": "s/srr.html" },
+        { "root": "srl", "root_meaning": "肉体過去未来", "root_html_href": "s/srl.html" },
+        { "root": "srp", "root_meaning": "肉体過去鎮静", "root_html_href": "s/srp.html" },
+        { "root": "srb", "root_meaning": "肉体過去高揚", "root_html_href": "s/srb.html" },
+        { "root": "srh", "root_meaning": "肉体過去受動", "root_html_href": "s/srh.html" },
+        { "root": "srx", "root_meaning": "肉体過去能動", "root_html_href": "s/srx.html" },
+        { "root": "srf", "root_meaning": "肉体過去創造", "root_html_href": "s/srf.html" },
+        { "root": "srv", "root_meaning": "肉体過去破壊", "root_html_href": "s/srv.html" },
+        { "root": "srm", "root_meaning": "肉体過去流動", "root_html_href": "s/srm.html" },
+        { "root": "srn", "root_meaning": "肉体過去固定", "root_html_href": "s/srn.html" },
+        { "root": "slk", "root_meaning": "肉体未来剥離", "root_html_href": "s/slk.html" },
+        { "root": "slg", "root_meaning": "肉体未来癒着", "root_html_href": "s/slg.html" },
+        { "root": "slt", "root_meaning": "肉体未来乖離", "root_html_href": "s/slt.html" },
+        { "root": "sld", "root_meaning": "肉体未来同一", "root_html_href": "s/sld.html" },
+        { "root": "sls", "root_meaning": "肉体未来肉体", "root_html_href": "s/sls.html" },
+        { "root": "slz", "root_meaning": "肉体未来精神", "root_html_href": "s/slz.html" },
+        { "root": "slq", "root_meaning": "肉体未来空白", "root_html_href": "s/slq.html" },
+        { "root": "slc", "root_meaning": "肉体未来物質", "root_html_href": "s/slc.html" },
+        { "root": "slr", "root_meaning": "肉体未来過去", "root_html_href": "s/slr.html" },
+        { "root": "sll", "root_meaning": "肉体未来未来", "root_html_href": "s/sll.html" },
+        { "root": "slp", "root_meaning": "肉体未来鎮静", "root_html_href": "s/slp.html" },
+        { "root": "slb", "root_meaning": "肉体未来高揚", "root_html_href": "s/slb.html" },
+        { "root": "slh", "root_meaning": "肉体未来受動", "root_html_href": "s/slh.html" },
+        { "root": "slx", "root_meaning": "肉体未来能動", "root_html_href": "s/slx.html" },
+        { "root": "slf", "root_meaning": "肉体未来創造", "root_html_href": "s/slf.html" },
+        { "root": "slv", "root_meaning": "肉体未来破壊", "root_html_href": "s/slv.html" },
+        { "root": "slm", "root_meaning": "肉体未来流動", "root_html_href": "s/slm.html" },
+        { "root": "sln", "root_meaning": "肉体未来固定", "root_html_href": "s/sln.html" },
+        { "root": "spk", "root_meaning": "肉体鎮静剥離", "root_html_href": "s/spk.html" },
+        { "root": "spg", "root_meaning": "肉体鎮静癒着", "root_html_href": "s/spg.html" },
+        { "root": "spt", "root_meaning": "肉体鎮静乖離", "root_html_href": "s/spt.html" },
+        { "root": "spd", "root_meaning": "肉体鎮静同一", "root_html_href": "s/spd.html" },
+        { "root": "sps", "root_meaning": "肉体鎮静肉体", "root_html_href": "s/sps.html" },
+        { "root": "spz", "root_meaning": "肉体鎮静精神", "root_html_href": "s/spz.html" },
+        { "root": "spq", "root_meaning": "肉体鎮静空白", "root_html_href": "s/spq.html" },
+        { "root": "spc", "root_meaning": "肉体鎮静物質", "root_html_href": "s/spc.html" },
+        { "root": "spr", "root_meaning": "肉体鎮静過去", "root_html_href": "s/spr.html" },
+        { "root": "spl", "root_meaning": "肉体鎮静未来", "root_html_href": "s/spl.html" },
+        { "root": "spp", "root_meaning": "肉体鎮静鎮静", "root_html_href": "s/spp.html" },
+        { "root": "spb", "root_meaning": "肉体鎮静高揚", "root_html_href": "s/spb.html" },
+        { "root": "sph", "root_meaning": "肉体鎮静受動", "root_html_href": "s/sph.html" },
+        { "root": "spx", "root_meaning": "肉体鎮静能動", "root_html_href": "s/spx.html" },
+        { "root": "spf", "root_meaning": "肉体鎮静創造", "root_html_href": "s/spf.html" },
+        { "root": "spv", "root_meaning": "肉体鎮静破壊", "root_html_href": "s/spv.html" },
+        { "root": "spm", "root_meaning": "肉体鎮静流動", "root_html_href": "s/spm.html" },
+        { "root": "spn", "root_meaning": "肉体鎮静固定", "root_html_href": "s/spn.html" },
+        { "root": "sbk", "root_meaning": "肉体高揚剥離", "root_html_href": "s/sbk.html" },
+        { "root": "sbg", "root_meaning": "肉体高揚癒着", "root_html_href": "s/sbg.html" },
+        { "root": "sbt", "root_meaning": "肉体高揚乖離", "root_html_href": "s/sbt.html" },
+        { "root": "sbd", "root_meaning": "肉体高揚同一", "root_html_href": "s/sbd.html" },
+        { "root": "sbs", "root_meaning": "肉体高揚肉体", "root_html_href": "s/sbs.html" },
+        { "root": "sbz", "root_meaning": "肉体高揚精神", "root_html_href": "s/sbz.html" },
+        { "root": "sbq", "root_meaning": "肉体高揚空白", "root_html_href": "s/sbq.html" },
+        { "root": "sbc", "root_meaning": "肉体高揚物質", "root_html_href": "s/sbc.html" },
+        { "root": "sbr", "root_meaning": "肉体高揚過去", "root_html_href": "s/sbr.html" },
+        { "root": "sbl", "root_meaning": "肉体高揚未来", "root_html_href": "s/sbl.html" },
+        { "root": "sbp", "root_meaning": "肉体高揚鎮静", "root_html_href": "s/sbp.html" },
+        { "root": "sbb", "root_meaning": "肉体高揚高揚", "root_html_href": "s/sbb.html" },
+        { "root": "sbh", "root_meaning": "肉体高揚受動", "root_html_href": "s/sbh.html" },
+        { "root": "sbx", "root_meaning": "肉体高揚能動", "root_html_href": "s/sbx.html" },
+        { "root": "sbf", "root_meaning": "肉体高揚創造", "root_html_href": "s/sbf.html" },
+        { "root": "sbv", "root_meaning": "肉体高揚破壊", "root_html_href": "s/sbv.html" },
+        { "root": "sbm", "root_meaning": "肉体高揚流動", "root_html_href": "s/sbm.html" },
+        { "root": "sbn", "root_meaning": "肉体高揚固定", "root_html_href": "s/sbn.html" },
+        { "root": "shk", "root_meaning": "肉体受動剥離", "root_html_href": "s/shk.html" },
+        { "root": "shg", "root_meaning": "肉体受動癒着", "root_html_href": "s/shg.html" },
+        { "root": "sht", "root_meaning": "肉体受動乖離", "root_html_href": "s/sht.html" },
+        { "root": "shd", "root_meaning": "肉体受動同一", "root_html_href": "s/shd.html" },
+        { "root": "shs", "root_meaning": "肉体受動肉体", "root_html_href": "s/shs.html" },
+        { "root": "shz", "root_meaning": "肉体受動精神", "root_html_href": "s/shz.html" },
+        { "root": "shq", "root_meaning": "肉体受動空白", "root_html_href": "s/shq.html" },
+        { "root": "shc", "root_meaning": "肉体受動物質", "root_html_href": "s/shc.html" },
+        { "root": "shr", "root_meaning": "肉体受動過去", "root_html_href": "s/shr.html" },
+        { "root": "shl", "root_meaning": "肉体受動未来", "root_html_href": "s/shl.html" },
+        { "root": "shp", "root_meaning": "肉体受動鎮静", "root_html_href": "s/shp.html" },
+        { "root": "shb", "root_meaning": "肉体受動高揚", "root_html_href": "s/shb.html" },
+        { "root": "shh", "root_meaning": "肉体受動受動", "root_html_href": "s/shh.html" },
+        { "root": "shx", "root_meaning": "肉体受動能動", "root_html_href": "s/shx.html" },
+        { "root": "shf", "root_meaning": "肉体受動創造", "root_html_href": "s/shf.html" },
+        { "root": "shv", "root_meaning": "肉体受動破壊", "root_html_href": "s/shv.html" },
+        { "root": "shm", "root_meaning": "肉体受動流動", "root_html_href": "s/shm.html" },
+        { "root": "shn", "root_meaning": "肉体受動固定", "root_html_href": "s/shn.html" },
+        { "root": "sxk", "root_meaning": "肉体能動剥離", "root_html_href": "s/sxk.html" },
+        { "root": "sxg", "root_meaning": "肉体能動癒着", "root_html_href": "s/sxg.html" },
+        { "root": "sxt", "root_meaning": "肉体能動乖離", "root_html_href": "s/sxt.html" },
+        { "root": "sxd", "root_meaning": "肉体能動同一", "root_html_href": "s/sxd.html" },
+        { "root": "sxs", "root_meaning": "肉体能動肉体", "root_html_href": "s/sxs.html" },
+        { "root": "sxz", "root_meaning": "肉体能動精神", "root_html_href": "s/sxz.html" },
+        { "root": "sxq", "root_meaning": "肉体能動空白", "root_html_href": "s/sxq.html" },
+        { "root": "sxc", "root_meaning": "肉体能動物質", "root_html_href": "s/sxc.html" },
+        { "root": "sxr", "root_meaning": "肉体能動過去", "root_html_href": "s/sxr.html" },
+        { "root": "sxl", "root_meaning": "肉体能動未来", "root_html_href": "s/sxl.html" },
+        { "root": "sxp", "root_meaning": "肉体能動鎮静", "root_html_href": "s/sxp.html" },
+        { "root": "sxb", "root_meaning": "肉体能動高揚", "root_html_href": "s/sxb.html" },
+        { "root": "sxh", "root_meaning": "肉体能動受動", "root_html_href": "s/sxh.html" },
+        { "root": "sxx", "root_meaning": "肉体能動能動", "root_html_href": "s/sxx.html" },
+        { "root": "sxf", "root_meaning": "肉体能動創造", "root_html_href": "s/sxf.html" },
+        { "root": "sxv", "root_meaning": "肉体能動破壊", "root_html_href": "s/sxv.html" },
+        { "root": "sxm", "root_meaning": "肉体能動流動", "root_html_href": "s/sxm.html" },
+        { "root": "sxn", "root_meaning": "肉体能動固定", "root_html_href": "s/sxn.html" },
+        { "root": "sfk", "root_meaning": "肉体創造剥離", "root_html_href": "s/sfk.html" },
+        { "root": "sfg", "root_meaning": "肉体創造癒着", "root_html_href": "s/sfg.html" },
+        { "root": "sft", "root_meaning": "肉体創造乖離", "root_html_href": "s/sft.html" },
+        { "root": "sfd", "root_meaning": "肉体創造同一", "root_html_href": "s/sfd.html" },
+        { "root": "sfs", "root_meaning": "肉体創造肉体", "root_html_href": "s/sfs.html" },
+        { "root": "sfz", "root_meaning": "肉体創造精神", "root_html_href": "s/sfz.html" },
+        { "root": "sfq", "root_meaning": "肉体創造空白", "root_html_href": "s/sfq.html" },
+        { "root": "sfc", "root_meaning": "肉体創造物質", "root_html_href": "s/sfc.html" },
+        { "root": "sfr", "root_meaning": "肉体創造過去", "root_html_href": "s/sfr.html" },
+        { "root": "sfl", "root_meaning": "肉体創造未来", "root_html_href": "s/sfl.html" },
+        { "root": "sfp", "root_meaning": "肉体創造鎮静", "root_html_href": "s/sfp.html" },
+        { "root": "sfb", "root_meaning": "肉体創造高揚", "root_html_href": "s/sfb.html" },
+        { "root": "sfh", "root_meaning": "肉体創造受動", "root_html_href": "s/sfh.html" },
+        { "root": "sfx", "root_meaning": "肉体創造能動", "root_html_href": "s/sfx.html" },
+        { "root": "sff", "root_meaning": "肉体創造創造", "root_html_href": "s/sff.html" },
+        { "root": "sfv", "root_meaning": "肉体創造破壊", "root_html_href": "s/sfv.html" },
+        { "root": "sfm", "root_meaning": "肉体創造流動", "root_html_href": "s/sfm.html" },
+        { "root": "sfn", "root_meaning": "肉体創造固定", "root_html_href": "s/sfn.html" },
+        { "root": "svk", "root_meaning": "肉体破壊剥離", "root_html_href": "s/svk.html" },
+        { "root": "svg", "root_meaning": "肉体破壊癒着", "root_html_href": "s/svg.html" },
+        { "root": "svt", "root_meaning": "肉体破壊乖離", "root_html_href": "s/svt.html" },
+        { "root": "svd", "root_meaning": "肉体破壊同一", "root_html_href": "s/svd.html" },
+        { "root": "svs", "root_meaning": "肉体破壊肉体", "root_html_href": "s/svs.html" },
+        { "root": "svz", "root_meaning": "肉体破壊精神", "root_html_href": "s/svz.html" },
+        { "root": "svq", "root_meaning": "肉体破壊空白", "root_html_href": "s/svq.html" },
+        { "root": "svc", "root_meaning": "肉体破壊物質", "root_html_href": "s/svc.html" },
+        { "root": "svr", "root_meaning": "肉体破壊過去", "root_html_href": "s/svr.html" },
+        { "root": "svl", "root_meaning": "肉体破壊未来", "root_html_href": "s/svl.html" },
+        { "root": "svp", "root_meaning": "肉体破壊鎮静", "root_html_href": "s/svp.html" },
+        { "root": "svb", "root_meaning": "肉体破壊高揚", "root_html_href": "s/svb.html" },
+        { "root": "svh", "root_meaning": "肉体破壊受動", "root_html_href": "s/svh.html" },
+        { "root": "svx", "root_meaning": "肉体破壊能動", "root_html_href": "s/svx.html" },
+        { "root": "svf", "root_meaning": "肉体破壊創造", "root_html_href": "s/svf.html" },
+        { "root": "svv", "root_meaning": "肉体破壊破壊", "root_html_href": "s/svv.html" },
+        { "root": "svm", "root_meaning": "肉体破壊流動", "root_html_href": "s/svm.html" },
+        { "root": "svn", "root_meaning": "肉体破壊固定", "root_html_href": "s/svn.html" },
+        { "root": "smk", "root_meaning": "肉体流動剥離", "root_html_href": "s/smk.html" },
+        { "root": "smg", "root_meaning": "肉体流動癒着", "root_html_href": "s/smg.html" },
+        { "root": "smt", "root_meaning": "肉体流動乖離", "root_html_href": "s/smt.html" },
+        { "root": "smd", "root_meaning": "肉体流動同一", "root_html_href": "s/smd.html" },
+        { "root": "sms", "root_meaning": "肉体流動肉体", "root_html_href": "s/sms.html" },
+        { "root": "smz", "root_meaning": "肉体流動精神", "root_html_href": "s/smz.html" },
+        { "root": "smq", "root_meaning": "肉体流動空白", "root_html_href": "s/smq.html" },
+        { "root": "smc", "root_meaning": "肉体流動物質", "root_html_href": "s/smc.html" },
+        { "root": "smr", "root_meaning": "肉体流動過去", "root_html_href": "s/smr.html" },
+        { "root": "sml", "root_meaning": "肉体流動未来", "root_html_href": "s/sml.html" },
+        { "root": "smp", "root_meaning": "肉体流動鎮静", "root_html_href": "s/smp.html" },
+        { "root": "smb", "root_meaning": "肉体流動高揚", "root_html_href": "s/smb.html" },
+        { "root": "smh", "root_meaning": "肉体流動受動", "root_html_href": "s/smh.html" },
+        { "root": "smx", "root_meaning": "肉体流動能動", "root_html_href": "s/smx.html" },
+        { "root": "smf", "root_meaning": "肉体流動創造", "root_html_href": "s/smf.html" },
+        { "root": "smv", "root_meaning": "肉体流動破壊", "root_html_href": "s/smv.html" },
+        { "root": "smm", "root_meaning": "肉体流動流動", "root_html_href": "s/smm.html" },
+        { "root": "smn", "root_meaning": "肉体流動固定", "root_html_href": "s/smn.html" },
+        { "root": "snk", "root_meaning": "肉体固定剥離", "root_html_href": "s/snk.html" },
+        { "root": "sng", "root_meaning": "肉体固定癒着", "root_html_href": "s/sng.html" },
+        { "root": "snt", "root_meaning": "肉体固定乖離", "root_html_href": "s/snt.html" },
+        { "root": "snd", "root_meaning": "肉体固定同一", "root_html_href": "s/snd.html" },
+        { "root": "sns", "root_meaning": "肉体固定肉体", "root_html_href": "s/sns.html" },
+        { "root": "snz", "root_meaning": "肉体固定精神", "root_html_href": "s/snz.html" },
+        { "root": "snq", "root_meaning": "肉体固定空白", "root_html_href": "s/snq.html" },
+        { "root": "snc", "root_meaning": "肉体固定物質", "root_html_href": "s/snc.html" },
+        { "root": "snr", "root_meaning": "肉体固定過去", "root_html_href": "s/snr.html" },
+        { "root": "snl", "root_meaning": "肉体固定未来", "root_html_href": "s/snl.html" },
+        { "root": "snp", "root_meaning": "肉体固定鎮静", "root_html_href": "s/snp.html" },
+        { "root": "snb", "root_meaning": "肉体固定高揚", "root_html_href": "s/snb.html" },
+        { "root": "snh", "root_meaning": "肉体固定受動", "root_html_href": "s/snh.html" },
+        { "root": "snx", "root_meaning": "肉体固定能動", "root_html_href": "s/snx.html" },
+        { "root": "snf", "root_meaning": "肉体固定創造", "root_html_href": "s/snf.html" },
+        { "root": "snv", "root_meaning": "肉体固定破壊", "root_html_href": "s/snv.html" },
+        { "root": "snm", "root_meaning": "肉体固定流動", "root_html_href": "s/snm.html" },
+        { "root": "snn", "root_meaning": "肉体固定固定", "root_html_href": "s/snn.html" }
     ]
 }

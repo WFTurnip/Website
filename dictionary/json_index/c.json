@@ -1,1948 +1,328 @@
 {
     "roots": [
-        {
-            "root": "ckk",
-            "root_meaning": "物質剥離剥離",
-            "root_html_href": "c/ckk.html",
-            "root_json_href": "c/ckk.json"
-        },
-        {
-            "root": "ckg",
-            "root_meaning": "物質剥離癒着",
-            "root_html_href": "c/ckg.html",
-            "root_json_href": "c/ckg.json"
-        },
-        {
-            "root": "ckt",
-            "root_meaning": "物質剥離乖離",
-            "root_html_href": "c/ckt.html",
-            "root_json_href": "c/ckt.json"
-        },
-        {
-            "root": "ckd",
-            "root_meaning": "物質剥離同一",
-            "root_html_href": "c/ckd.html",
-            "root_json_href": "c/ckd.json"
-        },
-        {
-            "root": "cks",
-            "root_meaning": "物質剥離肉体",
-            "root_html_href": "c/cks.html",
-            "root_json_href": "c/cks.json"
-        },
-        {
-            "root": "ckz",
-            "root_meaning": "物質剥離精神",
-            "root_html_href": "c/ckz.html",
-            "root_json_href": "c/ckz.json"
-        },
-        {
-            "root": "ckq",
-            "root_meaning": "物質剥離空白",
-            "root_html_href": "c/ckq.html",
-            "root_json_href": "c/ckq.json"
-        },
-        {
-            "root": "ckc",
-            "root_meaning": "物質剥離物質",
-            "root_html_href": "c/ckc.html",
-            "root_json_href": "c/ckc.json"
-        },
-        {
-            "root": "ckr",
-            "root_meaning": "物質剥離過去",
-            "root_html_href": "c/ckr.html",
-            "root_json_href": "c/ckr.json"
-        },
-        {
-            "root": "ckl",
-            "root_meaning": "物質剥離未来",
-            "root_html_href": "c/ckl.html",
-            "root_json_href": "c/ckl.json"
-        },
-        {
-            "root": "ckp",
-            "root_meaning": "物質剥離鎮静",
-            "root_html_href": "c/ckp.html",
-            "root_json_href": "c/ckp.json"
-        },
-        {
-            "root": "ckb",
-            "root_meaning": "物質剥離高揚",
-            "root_html_href": "c/ckb.html",
-            "root_json_href": "c/ckb.json"
-        },
-        {
-            "root": "ckh",
-            "root_meaning": "物質剥離受動",
-            "root_html_href": "c/ckh.html",
-            "root_json_href": "c/ckh.json"
-        },
-        {
-            "root": "ckx",
-            "root_meaning": "物質剥離能動",
-            "root_html_href": "c/ckx.html",
-            "root_json_href": "c/ckx.json"
-        },
-        {
-            "root": "ckf",
-            "root_meaning": "物質剥離創造",
-            "root_html_href": "c/ckf.html",
-            "root_json_href": "c/ckf.json"
-        },
-        {
-            "root": "ckv",
-            "root_meaning": "物質剥離破壊",
-            "root_html_href": "c/ckv.html",
-            "root_json_href": "c/ckv.json"
-        },
-        {
-            "root": "ckm",
-            "root_meaning": "物質剥離流動",
-            "root_html_href": "c/ckm.html",
-            "root_json_href": "c/ckm.json"
-        },
-        {
-            "root": "ckn",
-            "root_meaning": "物質剥離固定",
-            "root_html_href": "c/ckn.html",
-            "root_json_href": "c/ckn.json"
-        },
-        {
-            "root": "cgk",
-            "root_meaning": "物質癒着剥離",
-            "root_html_href": "c/cgk.html",
-            "root_json_href": "c/cgk.json"
-        },
-        {
-            "root": "cgg",
-            "root_meaning": "物質癒着癒着",
-            "root_html_href": "c/cgg.html",
-            "root_json_href": "c/cgg.json"
-        },
-        {
-            "root": "cgt",
-            "root_meaning": "物質癒着乖離",
-            "root_html_href": "c/cgt.html",
-            "root_json_href": "c/cgt.json"
-        },
-        {
-            "root": "cgd",
-            "root_meaning": "物質癒着同一",
-            "root_html_href": "c/cgd.html",
-            "root_json_href": "c/cgd.json"
-        },
-        {
-            "root": "cgs",
-            "root_meaning": "物質癒着肉体",
-            "root_html_href": "c/cgs.html",
-            "root_json_href": "c/cgs.json"
-        },
-        {
-            "root": "cgz",
-            "root_meaning": "物質癒着精神",
-            "root_html_href": "c/cgz.html",
-            "root_json_href": "c/cgz.json"
-        },
-        {
-            "root": "cgq",
-            "root_meaning": "物質癒着空白",
-            "root_html_href": "c/cgq.html",
-            "root_json_href": "c/cgq.json"
-        },
-        {
-            "root": "cgc",
-            "root_meaning": "物質癒着物質",
-            "root_html_href": "c/cgc.html",
-            "root_json_href": "c/cgc.json"
-        },
-        {
-            "root": "cgr",
-            "root_meaning": "物質癒着過去",
-            "root_html_href": "c/cgr.html",
-            "root_json_href": "c/cgr.json"
-        },
-        {
-            "root": "cgl",
-            "root_meaning": "物質癒着未来",
-            "root_html_href": "c/cgl.html",
-            "root_json_href": "c/cgl.json"
-        },
-        {
-            "root": "cgp",
-            "root_meaning": "物質癒着鎮静",
-            "root_html_href": "c/cgp.html",
-            "root_json_href": "c/cgp.json"
-        },
-        {
-            "root": "cgb",
-            "root_meaning": "物質癒着高揚",
-            "root_html_href": "c/cgb.html",
-            "root_json_href": "c/cgb.json"
-        },
-        {
-            "root": "cgh",
-            "root_meaning": "物質癒着受動",
-            "root_html_href": "c/cgh.html",
-            "root_json_href": "c/cgh.json"
-        },
-        {
-            "root": "cgx",
-            "root_meaning": "物質癒着能動",
-            "root_html_href": "c/cgx.html",
-            "root_json_href": "c/cgx.json"
-        },
-        {
-            "root": "cgf",
-            "root_meaning": "物質癒着創造",
-            "root_html_href": "c/cgf.html",
-            "root_json_href": "c/cgf.json"
-        },
-        {
-            "root": "cgv",
-            "root_meaning": "物質癒着破壊",
-            "root_html_href": "c/cgv.html",
-            "root_json_href": "c/cgv.json"
-        },
-        {
-            "root": "cgm",
-            "root_meaning": "物質癒着流動",
-            "root_html_href": "c/cgm.html",
-            "root_json_href": "c/cgm.json"
-        },
-        {
-            "root": "cgn",
-            "root_meaning": "物質癒着固定",
-            "root_html_href": "c/cgn.html",
-            "root_json_href": "c/cgn.json"
-        },
-        {
-            "root": "ctk",
-            "root_meaning": "物質乖離剥離",
-            "root_html_href": "c/ctk.html",
-            "root_json_href": "c/ctk.json"
-        },
-        {
-            "root": "ctg",
-            "root_meaning": "物質乖離癒着",
-            "root_html_href": "c/ctg.html",
-            "root_json_href": "c/ctg.json"
-        },
-        {
-            "root": "ctt",
-            "root_meaning": "物質乖離乖離",
-            "root_html_href": "c/ctt.html",
-            "root_json_href": "c/ctt.json"
-        },
-        {
-            "root": "ctd",
-            "root_meaning": "物質乖離同一",
-            "root_html_href": "c/ctd.html",
-            "root_json_href": "c/ctd.json"
-        },
-        {
-            "root": "cts",
-            "root_meaning": "物質乖離肉体",
-            "root_html_href": "c/cts.html",
-            "root_json_href": "c/cts.json"
-        },
-        {
-            "root": "ctz",
-            "root_meaning": "物質乖離精神",
-            "root_html_href": "c/ctz.html",
-            "root_json_href": "c/ctz.json"
-        },
-        {
-            "root": "ctq",
-            "root_meaning": "物質乖離空白",
-            "root_html_href": "c/ctq.html",
-            "root_json_href": "c/ctq.json"
-        },
-        {
-            "root": "ctc",
-            "root_meaning": "物質乖離物質",
-            "root_html_href": "c/ctc.html",
-            "root_json_href": "c/ctc.json"
-        },
-        {
-            "root": "ctr",
-            "root_meaning": "物質乖離過去",
-            "root_html_href": "c/ctr.html",
-            "root_json_href": "c/ctr.json"
-        },
-        {
-            "root": "ctl",
-            "root_meaning": "物質乖離未来",
-            "root_html_href": "c/ctl.html",
-            "root_json_href": "c/ctl.json"
-        },
-        {
-            "root": "ctp",
-            "root_meaning": "物質乖離鎮静",
-            "root_html_href": "c/ctp.html",
-            "root_json_href": "c/ctp.json"
-        },
-        {
-            "root": "ctb",
-            "root_meaning": "物質乖離高揚",
-            "root_html_href": "c/ctb.html",
-            "root_json_href": "c/ctb.json"
-        },
-        {
-            "root": "cth",
-            "root_meaning": "物質乖離受動",
-            "root_html_href": "c/cth.html",
-            "root_json_href": "c/cth.json"
-        },
-        {
-            "root": "ctx",
-            "root_meaning": "物質乖離能動",
-            "root_html_href": "c/ctx.html",
-            "root_json_href": "c/ctx.json"
-        },
-        {
-            "root": "ctf",
-            "root_meaning": "物質乖離創造",
-            "root_html_href": "c/ctf.html",
-            "root_json_href": "c/ctf.json"
-        },
-        {
-            "root": "ctv",
-            "root_meaning": "物質乖離破壊",
-            "root_html_href": "c/ctv.html",
-            "root_json_href": "c/ctv.json"
-        },
-        {
-            "root": "ctm",
-            "root_meaning": "物質乖離流動",
-            "root_html_href": "c/ctm.html",
-            "root_json_href": "c/ctm.json"
-        },
-        {
-            "root": "ctn",
-            "root_meaning": "物質乖離固定",
-            "root_html_href": "c/ctn.html",
-            "root_json_href": "c/ctn.json"
-        },
-        {
-            "root": "cdk",
-            "root_meaning": "物質同一剥離",
-            "root_html_href": "c/cdk.html",
-            "root_json_href": "c/cdk.json"
-        },
-        {
-            "root": "cdg",
-            "root_meaning": "物質同一癒着",
-            "root_html_href": "c/cdg.html",
-            "root_json_href": "c/cdg.json"
-        },
-        {
-            "root": "cdt",
-            "root_meaning": "物質同一乖離",
-            "root_html_href": "c/cdt.html",
-            "root_json_href": "c/cdt.json"
-        },
-        {
-            "root": "cdd",
-            "root_meaning": "物質同一同一",
-            "root_html_href": "c/cdd.html",
-            "root_json_href": "c/cdd.json"
-        },
-        {
-            "root": "cds",
-            "root_meaning": "物質同一肉体",
-            "root_html_href": "c/cds.html",
-            "root_json_href": "c/cds.json"
-        },
-        {
-            "root": "cdz",
-            "root_meaning": "物質同一精神",
-            "root_html_href": "c/cdz.html",
-            "root_json_href": "c/cdz.json"
-        },
-        {
-            "root": "cdq",
-            "root_meaning": "物質同一空白",
-            "root_html_href": "c/cdq.html",
-            "root_json_href": "c/cdq.json"
-        },
-        {
-            "root": "cdc",
-            "root_meaning": "物質同一物質",
-            "root_html_href": "c/cdc.html",
-            "root_json_href": "c/cdc.json"
-        },
-        {
-            "root": "cdr",
-            "root_meaning": "物質同一過去",
-            "root_html_href": "c/cdr.html",
-            "root_json_href": "c/cdr.json"
-        },
-        {
-            "root": "cdl",
-            "root_meaning": "物質同一未来",
-            "root_html_href": "c/cdl.html",
-            "root_json_href": "c/cdl.json"
-        },
-        {
-            "root": "cdp",
-            "root_meaning": "物質同一鎮静",
-            "root_html_href": "c/cdp.html",
-            "root_json_href": "c/cdp.json"
-        },
-        {
-            "root": "cdb",
-            "root_meaning": "物質同一高揚",
-            "root_html_href": "c/cdb.html",
-            "root_json_href": "c/cdb.json"
-        },
-        {
-            "root": "cdh",
-            "root_meaning": "物質同一受動",
-            "root_html_href": "c/cdh.html",
-            "root_json_href": "c/cdh.json"
-        },
-        {
-            "root": "cdx",
-            "root_meaning": "物質同一能動",
-            "root_html_href": "c/cdx.html",
-            "root_json_href": "c/cdx.json"
-        },
-        {
-            "root": "cdf",
-            "root_meaning": "物質同一創造",
-            "root_html_href": "c/cdf.html",
-            "root_json_href": "c/cdf.json"
-        },
-        {
-            "root": "cdv",
-            "root_meaning": "物質同一破壊",
-            "root_html_href": "c/cdv.html",
-            "root_json_href": "c/cdv.json"
-        },
-        {
-            "root": "cdm",
-            "root_meaning": "物質同一流動",
-            "root_html_href": "c/cdm.html",
-            "root_json_href": "c/cdm.json"
-        },
-        {
-            "root": "cdn",
-            "root_meaning": "物質同一固定",
-            "root_html_href": "c/cdn.html",
-            "root_json_href": "c/cdn.json"
-        },
-        {
-            "root": "csk",
-            "root_meaning": "物質肉体剥離",
-            "root_html_href": "c/csk.html",
-            "root_json_href": "c/csk.json"
-        },
-        {
-            "root": "csg",
-            "root_meaning": "物質肉体癒着",
-            "root_html_href": "c/csg.html",
-            "root_json_href": "c/csg.json"
-        },
-        {
-            "root": "cst",
-            "root_meaning": "物質肉体乖離",
-            "root_html_href": "c/cst.html",
-            "root_json_href": "c/cst.json"
-        },
-        {
-            "root": "csd",
-            "root_meaning": "物質肉体同一",
-            "root_html_href": "c/csd.html",
-            "root_json_href": "c/csd.json"
-        },
-        {
-            "root": "css",
-            "root_meaning": "物質肉体肉体",
-            "root_html_href": "c/css.html",
-            "root_json_href": "c/css.json"
-        },
-        {
-            "root": "csz",
-            "root_meaning": "物質肉体精神",
-            "root_html_href": "c/csz.html",
-            "root_json_href": "c/csz.json"
-        },
-        {
-            "root": "csq",
-            "root_meaning": "物質肉体空白",
-            "root_html_href": "c/csq.html",
-            "root_json_href": "c/csq.json"
-        },
-        {
-            "root": "csc",
-            "root_meaning": "物質肉体物質",
-            "root_html_href": "c/csc.html",
-            "root_json_href": "c/csc.json"
-        },
-        {
-            "root": "csr",
-            "root_meaning": "物質肉体過去",
-            "root_html_href": "c/csr.html",
-            "root_json_href": "c/csr.json"
-        },
-        {
-            "root": "csl",
-            "root_meaning": "物質肉体未来",
-            "root_html_href": "c/csl.html",
-            "root_json_href": "c/csl.json"
-        },
-        {
-            "root": "csp",
-            "root_meaning": "物質肉体鎮静",
-            "root_html_href": "c/csp.html",
-            "root_json_href": "c/csp.json"
-        },
-        {
-            "root": "csb",
-            "root_meaning": "物質肉体高揚",
-            "root_html_href": "c/csb.html",
-            "root_json_href": "c/csb.json"
-        },
-        {
-            "root": "csh",
-            "root_meaning": "物質肉体受動",
-            "root_html_href": "c/csh.html",
-            "root_json_href": "c/csh.json"
-        },
-        {
-            "root": "csx",
-            "root_meaning": "物質肉体能動",
-            "root_html_href": "c/csx.html",
-            "root_json_href": "c/csx.json"
-        },
-        {
-            "root": "csf",
-            "root_meaning": "物質肉体創造",
-            "root_html_href": "c/csf.html",
-            "root_json_href": "c/csf.json"
-        },
-        {
-            "root": "csv",
-            "root_meaning": "物質肉体破壊",
-            "root_html_href": "c/csv.html",
-            "root_json_href": "c/csv.json"
-        },
-        {
-            "root": "csm",
-            "root_meaning": "物質肉体流動",
-            "root_html_href": "c/csm.html",
-            "root_json_href": "c/csm.json"
-        },
-        {
-            "root": "csn",
-            "root_meaning": "物質肉体固定",
-            "root_html_href": "c/csn.html",
-            "root_json_href": "c/csn.json"
-        },
-        {
-            "root": "czk",
-            "root_meaning": "物質精神剥離",
-            "root_html_href": "c/czk.html",
-            "root_json_href": "c/czk.json"
-        },
-        {
-            "root": "czg",
-            "root_meaning": "物質精神癒着",
-            "root_html_href": "c/czg.html",
-            "root_json_href": "c/czg.json"
-        },
-        {
-            "root": "czt",
-            "root_meaning": "物質精神乖離",
-            "root_html_href": "c/czt.html",
-            "root_json_href": "c/czt.json"
-        },
-        {
-            "root": "czd",
-            "root_meaning": "物質精神同一",
-            "root_html_href": "c/czd.html",
-            "root_json_href": "c/czd.json"
-        },
-        {
-            "root": "czs",
-            "root_meaning": "物質精神肉体",
-            "root_html_href": "c/czs.html",
-            "root_json_href": "c/czs.json"
-        },
-        {
-            "root": "czz",
-            "root_meaning": "物質精神精神",
-            "root_html_href": "c/czz.html",
-            "root_json_href": "c/czz.json"
-        },
-        {
-            "root": "czq",
-            "root_meaning": "物質精神空白",
-            "root_html_href": "c/czq.html",
-            "root_json_href": "c/czq.json"
-        },
-        {
-            "root": "czc",
-            "root_meaning": "物質精神物質",
-            "root_html_href": "c/czc.html",
-            "root_json_href": "c/czc.json"
-        },
-        {
-            "root": "czr",
-            "root_meaning": "物質精神過去",
-            "root_html_href": "c/czr.html",
-            "root_json_href": "c/czr.json"
-        },
-        {
-            "root": "czl",
-            "root_meaning": "物質精神未来",
-            "root_html_href": "c/czl.html",
-            "root_json_href": "c/czl.json"
-        },
-        {
-            "root": "czp",
-            "root_meaning": "物質精神鎮静",
-            "root_html_href": "c/czp.html",
-            "root_json_href": "c/czp.json"
-        },
-        {
-            "root": "czb",
-            "root_meaning": "物質精神高揚",
-            "root_html_href": "c/czb.html",
-            "root_json_href": "c/czb.json"
-        },
-        {
-            "root": "czh",
-            "root_meaning": "物質精神受動",
-            "root_html_href": "c/czh.html",
-            "root_json_href": "c/czh.json"
-        },
-        {
-            "root": "czx",
-            "root_meaning": "物質精神能動",
-            "root_html_href": "c/czx.html",
-            "root_json_href": "c/czx.json"
-        },
-        {
-            "root": "czf",
-            "root_meaning": "物質精神創造",
-            "root_html_href": "c/czf.html",
-            "root_json_href": "c/czf.json"
-        },
-        {
-            "root": "czv",
-            "root_meaning": "物質精神破壊",
-            "root_html_href": "c/czv.html",
-            "root_json_href": "c/czv.json"
-        },
-        {
-            "root": "czm",
-            "root_meaning": "物質精神流動",
-            "root_html_href": "c/czm.html",
-            "root_json_href": "c/czm.json"
-        },
-        {
-            "root": "czn",
-            "root_meaning": "物質精神固定",
-            "root_html_href": "c/czn.html",
-            "root_json_href": "c/czn.json"
-        },
-        {
-            "root": "cqk",
-            "root_meaning": "物質空白剥離",
-            "root_html_href": "c/cqk.html",
-            "root_json_href": "c/cqk.json"
-        },
-        {
-            "root": "cqg",
-            "root_meaning": "物質空白癒着",
-            "root_html_href": "c/cqg.html",
-            "root_json_href": "c/cqg.json"
-        },
-        {
-            "root": "cqt",
-            "root_meaning": "物質空白乖離",
-            "root_html_href": "c/cqt.html",
-            "root_json_href": "c/cqt.json"
-        },
-        {
-            "root": "cqd",
-            "root_meaning": "物質空白同一",
-            "root_html_href": "c/cqd.html",
-            "root_json_href": "c/cqd.json"
-        },
-        {
-            "root": "cqs",
-            "root_meaning": "物質空白肉体",
-            "root_html_href": "c/cqs.html",
-            "root_json_href": "c/cqs.json"
-        },
-        {
-            "root": "cqz",
-            "root_meaning": "物質空白精神",
-            "root_html_href": "c/cqz.html",
-            "root_json_href": "c/cqz.json"
-        },
-        {
-            "root": "cqq",
-            "root_meaning": "物質空白空白",
-            "root_html_href": "c/cqq.html",
-            "root_json_href": "c/cqq.json"
-        },
-        {
-            "root": "cqc",
-            "root_meaning": "物質空白物質",
-            "root_html_href": "c/cqc.html",
-            "root_json_href": "c/cqc.json"
-        },
-        {
-            "root": "cqr",
-            "root_meaning": "物質空白過去",
-            "root_html_href": "c/cqr.html",
-            "root_json_href": "c/cqr.json"
-        },
-        {
-            "root": "cql",
-            "root_meaning": "物質空白未来",
-            "root_html_href": "c/cql.html",
-            "root_json_href": "c/cql.json"
-        },
-        {
-            "root": "cqp",
-            "root_meaning": "物質空白鎮静",
-            "root_html_href": "c/cqp.html",
-            "root_json_href": "c/cqp.json"
-        },
-        {
-            "root": "cqb",
-            "root_meaning": "物質空白高揚",
-            "root_html_href": "c/cqb.html",
-            "root_json_href": "c/cqb.json"
-        },
-        {
-            "root": "cqh",
-            "root_meaning": "物質空白受動",
-            "root_html_href": "c/cqh.html",
-            "root_json_href": "c/cqh.json"
-        },
-        {
-            "root": "cqx",
-            "root_meaning": "物質空白能動",
-            "root_html_href": "c/cqx.html",
-            "root_json_href": "c/cqx.json"
-        },
-        {
-            "root": "cqf",
-            "root_meaning": "物質空白創造",
-            "root_html_href": "c/cqf.html",
-            "root_json_href": "c/cqf.json"
-        },
-        {
-            "root": "cqv",
-            "root_meaning": "物質空白破壊",
-            "root_html_href": "c/cqv.html",
-            "root_json_href": "c/cqv.json"
-        },
-        {
-            "root": "cqm",
-            "root_meaning": "物質空白流動",
-            "root_html_href": "c/cqm.html",
-            "root_json_href": "c/cqm.json"
-        },
-        {
-            "root": "cqn",
-            "root_meaning": "物質空白固定",
-            "root_html_href": "c/cqn.html",
-            "root_json_href": "c/cqn.json"
-        },
-        {
-            "root": "cck",
-            "root_meaning": "物質物質剥離",
-            "root_html_href": "c/cck.html",
-            "root_json_href": "c/cck.json"
-        },
-        {
-            "root": "ccg",
-            "root_meaning": "物質物質癒着",
-            "root_html_href": "c/ccg.html",
-            "root_json_href": "c/ccg.json"
-        },
-        {
-            "root": "cct",
-            "root_meaning": "物質物質乖離",
-            "root_html_href": "c/cct.html",
-            "root_json_href": "c/cct.json"
-        },
-        {
-            "root": "ccd",
-            "root_meaning": "物質物質同一",
-            "root_html_href": "c/ccd.html",
-            "root_json_href": "c/ccd.json"
-        },
-        {
-            "root": "ccs",
-            "root_meaning": "物質物質肉体",
-            "root_html_href": "c/ccs.html",
-            "root_json_href": "c/ccs.json"
-        },
-        {
-            "root": "ccz",
-            "root_meaning": "物質物質精神",
-            "root_html_href": "c/ccz.html",
-            "root_json_href": "c/ccz.json"
-        },
-        {
-            "root": "ccq",
-            "root_meaning": "物質物質空白",
-            "root_html_href": "c/ccq.html",
-            "root_json_href": "c/ccq.json"
-        },
-        {
-            "root": "ccc",
-            "root_meaning": "物質物質物質",
-            "root_html_href": "c/ccc.html",
-            "root_json_href": "c/ccc.json"
-        },
-        {
-            "root": "ccr",
-            "root_meaning": "物質物質過去",
-            "root_html_href": "c/ccr.html",
-            "root_json_href": "c/ccr.json"
-        },
-        {
-            "root": "ccl",
-            "root_meaning": "物質物質未来",
-            "root_html_href": "c/ccl.html",
-            "root_json_href": "c/ccl.json"
-        },
-        {
-            "root": "ccp",
-            "root_meaning": "物質物質鎮静",
-            "root_html_href": "c/ccp.html",
-            "root_json_href": "c/ccp.json"
-        },
-        {
-            "root": "ccb",
-            "root_meaning": "物質物質高揚",
-            "root_html_href": "c/ccb.html",
-            "root_json_href": "c/ccb.json"
-        },
-        {
-            "root": "cch",
-            "root_meaning": "物質物質受動",
-            "root_html_href": "c/cch.html",
-            "root_json_href": "c/cch.json"
-        },
-        {
-            "root": "ccx",
-            "root_meaning": "物質物質能動",
-            "root_html_href": "c/ccx.html",
-            "root_json_href": "c/ccx.json"
-        },
-        {
-            "root": "ccf",
-            "root_meaning": "物質物質創造",
-            "root_html_href": "c/ccf.html",
-            "root_json_href": "c/ccf.json"
-        },
-        {
-            "root": "ccv",
-            "root_meaning": "物質物質破壊",
-            "root_html_href": "c/ccv.html",
-            "root_json_href": "c/ccv.json"
-        },
-        {
-            "root": "ccm",
-            "root_meaning": "物質物質流動",
-            "root_html_href": "c/ccm.html",
-            "root_json_href": "c/ccm.json"
-        },
-        {
-            "root": "ccn",
-            "root_meaning": "物質物質固定",
-            "root_html_href": "c/ccn.html",
-            "root_json_href": "c/ccn.json"
-        },
-        {
-            "root": "crk",
-            "root_meaning": "物質過去剥離",
-            "root_html_href": "c/crk.html",
-            "root_json_href": "c/crk.json"
-        },
-        {
-            "root": "crg",
-            "root_meaning": "物質過去癒着",
-            "root_html_href": "c/crg.html",
-            "root_json_href": "c/crg.json"
-        },
-        {
-            "root": "crt",
-            "root_meaning": "物質過去乖離",
-            "root_html_href": "c/crt.html",
-            "root_json_href": "c/crt.json"
-        },
-        {
-            "root": "crd",
-            "root_meaning": "物質過去同一",
-            "root_html_href": "c/crd.html",
-            "root_json_href": "c/crd.json"
-        },
-        {
-            "root": "crs",
-            "root_meaning": "物質過去肉体",
-            "root_html_href": "c/crs.html",
-            "root_json_href": "c/crs.json"
-        },
-        {
-            "root": "crz",
-            "root_meaning": "物質過去精神",
-            "root_html_href": "c/crz.html",
-            "root_json_href": "c/crz.json"
-        },
-        {
-            "root": "crq",
-            "root_meaning": "物質過去空白",
-            "root_html_href": "c/crq.html",
-            "root_json_href": "c/crq.json"
-        },
-        {
-            "root": "crc",
-            "root_meaning": "物質過去物質",
-            "root_html_href": "c/crc.html",
-            "root_json_href": "c/crc.json"
-        },
-        {
-            "root": "crr",
-            "root_meaning": "物質過去過去",
-            "root_html_href": "c/crr.html",
-            "root_json_href": "c/crr.json"
-        },
-        {
-            "root": "crl",
-            "root_meaning": "物質過去未来",
-            "root_html_href": "c/crl.html",
-            "root_json_href": "c/crl.json"
-        },
-        {
-            "root": "crp",
-            "root_meaning": "物質過去鎮静",
-            "root_html_href": "c/crp.html",
-            "root_json_href": "c/crp.json"
-        },
-        {
-            "root": "crb",
-            "root_meaning": "物質過去高揚",
-            "root_html_href": "c/crb.html",
-            "root_json_href": "c/crb.json"
-        },
-        {
-            "root": "crh",
-            "root_meaning": "物質過去受動",
-            "root_html_href": "c/crh.html",
-            "root_json_href": "c/crh.json"
-        },
-        {
-            "root": "crx",
-            "root_meaning": "物質過去能動",
-            "root_html_href": "c/crx.html",
-            "root_json_href": "c/crx.json"
-        },
-        {
-            "root": "crf",
-            "root_meaning": "物質過去創造",
-            "root_html_href": "c/crf.html",
-            "root_json_href": "c/crf.json"
-        },
-        {
-            "root": "crv",
-            "root_meaning": "物質過去破壊",
-            "root_html_href": "c/crv.html",
-            "root_json_href": "c/crv.json"
-        },
-        {
-            "root": "crm",
-            "root_meaning": "物質過去流動",
-            "root_html_href": "c/crm.html",
-            "root_json_href": "c/crm.json"
-        },
-        {
-            "root": "crn",
-            "root_meaning": "物質過去固定",
-            "root_html_href": "c/crn.html",
-            "root_json_href": "c/crn.json"
-        },
-        {
-            "root": "clk",
-            "root_meaning": "物質未来剥離",
-            "root_html_href": "c/clk.html",
-            "root_json_href": "c/clk.json"
-        },
-        {
-            "root": "clg",
-            "root_meaning": "物質未来癒着",
-            "root_html_href": "c/clg.html",
-            "root_json_href": "c/clg.json"
-        },
-        {
-            "root": "clt",
-            "root_meaning": "物質未来乖離",
-            "root_html_href": "c/clt.html",
-            "root_json_href": "c/clt.json"
-        },
-        {
-            "root": "cld",
-            "root_meaning": "物質未来同一",
-            "root_html_href": "c/cld.html",
-            "root_json_href": "c/cld.json"
-        },
-        {
-            "root": "cls",
-            "root_meaning": "物質未来肉体",
-            "root_html_href": "c/cls.html",
-            "root_json_href": "c/cls.json"
-        },
-        {
-            "root": "clz",
-            "root_meaning": "物質未来精神",
-            "root_html_href": "c/clz.html",
-            "root_json_href": "c/clz.json"
-        },
-        {
-            "root": "clq",
-            "root_meaning": "物質未来空白",
-            "root_html_href": "c/clq.html",
-            "root_json_href": "c/clq.json"
-        },
-        {
-            "root": "clc",
-            "root_meaning": "物質未来物質",
-            "root_html_href": "c/clc.html",
-            "root_json_href": "c/clc.json"
-        },
-        {
-            "root": "clr",
-            "root_meaning": "物質未来過去",
-            "root_html_href": "c/clr.html",
-            "root_json_href": "c/clr.json"
-        },
-        {
-            "root": "cll",
-            "root_meaning": "物質未来未来",
-            "root_html_href": "c/cll.html",
-            "root_json_href": "c/cll.json"
-        },
-        {
-            "root": "clp",
-            "root_meaning": "物質未来鎮静",
-            "root_html_href": "c/clp.html",
-            "root_json_href": "c/clp.json"
-        },
-        {
-            "root": "clb",
-            "root_meaning": "物質未来高揚",
-            "root_html_href": "c/clb.html",
-            "root_json_href": "c/clb.json"
-        },
-        {
-            "root": "clh",
-            "root_meaning": "物質未来受動",
-            "root_html_href": "c/clh.html",
-            "root_json_href": "c/clh.json"
-        },
-        {
-            "root": "clx",
-            "root_meaning": "物質未来能動",
-            "root_html_href": "c/clx.html",
-            "root_json_href": "c/clx.json"
-        },
-        {
-            "root": "clf",
-            "root_meaning": "物質未来創造",
-            "root_html_href": "c/clf.html",
-            "root_json_href": "c/clf.json"
-        },
-        {
-            "root": "clv",
-            "root_meaning": "物質未来破壊",
-            "root_html_href": "c/clv.html",
-            "root_json_href": "c/clv.json"
-        },
-        {
-            "root": "clm",
-            "root_meaning": "物質未来流動",
-            "root_html_href": "c/clm.html",
-            "root_json_href": "c/clm.json"
-        },
-        {
-            "root": "cln",
-            "root_meaning": "物質未来固定",
-            "root_html_href": "c/cln.html",
-            "root_json_href": "c/cln.json"
-        },
-        {
-            "root": "cpk",
-            "root_meaning": "物質鎮静剥離",
-            "root_html_href": "c/cpk.html",
-            "root_json_href": "c/cpk.json"
-        },
-        {
-            "root": "cpg",
-            "root_meaning": "物質鎮静癒着",
-            "root_html_href": "c/cpg.html",
-            "root_json_href": "c/cpg.json"
-        },
-        {
-            "root": "cpt",
-            "root_meaning": "物質鎮静乖離",
-            "root_html_href": "c/cpt.html",
-            "root_json_href": "c/cpt.json"
-        },
-        {
-            "root": "cpd",
-            "root_meaning": "物質鎮静同一",
-            "root_html_href": "c/cpd.html",
-            "root_json_href": "c/cpd.json"
-        },
-        {
-            "root": "cps",
-            "root_meaning": "物質鎮静肉体",
-            "root_html_href": "c/cps.html",
-            "root_json_href": "c/cps.json"
-        },
-        {
-            "root": "cpz",
-            "root_meaning": "物質鎮静精神",
-            "root_html_href": "c/cpz.html",
-            "root_json_href": "c/cpz.json"
-        },
-        {
-            "root": "cpq",
-            "root_meaning": "物質鎮静空白",
-            "root_html_href": "c/cpq.html",
-            "root_json_href": "c/cpq.json"
-        },
-        {
-            "root": "cpc",
-            "root_meaning": "物質鎮静物質",
-            "root_html_href": "c/cpc.html",
-            "root_json_href": "c/cpc.json"
-        },
-        {
-            "root": "cpr",
-            "root_meaning": "物質鎮静過去",
-            "root_html_href": "c/cpr.html",
-            "root_json_href": "c/cpr.json"
-        },
-        {
-            "root": "cpl",
-            "root_meaning": "物質鎮静未来",
-            "root_html_href": "c/cpl.html",
-            "root_json_href": "c/cpl.json"
-        },
-        {
-            "root": "cpp",
-            "root_meaning": "物質鎮静鎮静",
-            "root_html_href": "c/cpp.html",
-            "root_json_href": "c/cpp.json"
-        },
-        {
-            "root": "cpb",
-            "root_meaning": "物質鎮静高揚",
-            "root_html_href": "c/cpb.html",
-            "root_json_href": "c/cpb.json"
-        },
-        {
-            "root": "cph",
-            "root_meaning": "物質鎮静受動",
-            "root_html_href": "c/cph.html",
-            "root_json_href": "c/cph.json"
-        },
-        {
-            "root": "cpx",
-            "root_meaning": "物質鎮静能動",
-            "root_html_href": "c/cpx.html",
-            "root_json_href": "c/cpx.json"
-        },
-        {
-            "root": "cpf",
-            "root_meaning": "物質鎮静創造",
-            "root_html_href": "c/cpf.html",
-            "root_json_href": "c/cpf.json"
-        },
-        {
-            "root": "cpv",
-            "root_meaning": "物質鎮静破壊",
-            "root_html_href": "c/cpv.html",
-            "root_json_href": "c/cpv.json"
-        },
-        {
-            "root": "cpm",
-            "root_meaning": "物質鎮静流動",
-            "root_html_href": "c/cpm.html",
-            "root_json_href": "c/cpm.json"
-        },
-        {
-            "root": "cpn",
-            "root_meaning": "物質鎮静固定",
-            "root_html_href": "c/cpn.html",
-            "root_json_href": "c/cpn.json"
-        },
-        {
-            "root": "cbk",
-            "root_meaning": "物質高揚剥離",
-            "root_html_href": "c/cbk.html",
-            "root_json_href": "c/cbk.json"
-        },
-        {
-            "root": "cbg",
-            "root_meaning": "物質高揚癒着",
-            "root_html_href": "c/cbg.html",
-            "root_json_href": "c/cbg.json"
-        },
-        {
-            "root": "cbt",
-            "root_meaning": "物質高揚乖離",
-            "root_html_href": "c/cbt.html",
-            "root_json_href": "c/cbt.json"
-        },
-        {
-            "root": "cbd",
-            "root_meaning": "物質高揚同一",
-            "root_html_href": "c/cbd.html",
-            "root_json_href": "c/cbd.json"
-        },
-        {
-            "root": "cbs",
-            "root_meaning": "物質高揚肉体",
-            "root_html_href": "c/cbs.html",
-            "root_json_href": "c/cbs.json"
-        },
-        {
-            "root": "cbz",
-            "root_meaning": "物質高揚精神",
-            "root_html_href": "c/cbz.html",
-            "root_json_href": "c/cbz.json"
-        },
-        {
-            "root": "cbq",
-            "root_meaning": "物質高揚空白",
-            "root_html_href": "c/cbq.html",
-            "root_json_href": "c/cbq.json"
-        },
-        {
-            "root": "cbc",
-            "root_meaning": "物質高揚物質",
-            "root_html_href": "c/cbc.html",
-            "root_json_href": "c/cbc.json"
-        },
-        {
-            "root": "cbr",
-            "root_meaning": "物質高揚過去",
-            "root_html_href": "c/cbr.html",
-            "root_json_href": "c/cbr.json"
-        },
-        {
-            "root": "cbl",
-            "root_meaning": "物質高揚未来",
-            "root_html_href": "c/cbl.html",
-            "root_json_href": "c/cbl.json"
-        },
-        {
-            "root": "cbp",
-            "root_meaning": "物質高揚鎮静",
-            "root_html_href": "c/cbp.html",
-            "root_json_href": "c/cbp.json"
-        },
-        {
-            "root": "cbb",
-            "root_meaning": "物質高揚高揚",
-            "root_html_href": "c/cbb.html",
-            "root_json_href": "c/cbb.json"
-        },
-        {
-            "root": "cbh",
-            "root_meaning": "物質高揚受動",
-            "root_html_href": "c/cbh.html",
-            "root_json_href": "c/cbh.json"
-        },
-        {
-            "root": "cbx",
-            "root_meaning": "物質高揚能動",
-            "root_html_href": "c/cbx.html",
-            "root_json_href": "c/cbx.json"
-        },
-        {
-            "root": "cbf",
-            "root_meaning": "物質高揚創造",
-            "root_html_href": "c/cbf.html",
-            "root_json_href": "c/cbf.json"
-        },
-        {
-            "root": "cbv",
-            "root_meaning": "物質高揚破壊",
-            "root_html_href": "c/cbv.html",
-            "root_json_href": "c/cbv.json"
-        },
-        {
-            "root": "cbm",
-            "root_meaning": "物質高揚流動",
-            "root_html_href": "c/cbm.html",
-            "root_json_href": "c/cbm.json"
-        },
-        {
-            "root": "cbn",
-            "root_meaning": "物質高揚固定",
-            "root_html_href": "c/cbn.html",
-            "root_json_href": "c/cbn.json"
-        },
-        {
-            "root": "chk",
-            "root_meaning": "物質受動剥離",
-            "root_html_href": "c/chk.html",
-            "root_json_href": "c/chk.json"
-        },
-        {
-            "root": "chg",
-            "root_meaning": "物質受動癒着",
-            "root_html_href": "c/chg.html",
-            "root_json_href": "c/chg.json"
-        },
-        {
-            "root": "cht",
-            "root_meaning": "物質受動乖離",
-            "root_html_href": "c/cht.html",
-            "root_json_href": "c/cht.json"
-        },
-        {
-            "root": "chd",
-            "root_meaning": "物質受動同一",
-            "root_html_href": "c/chd.html",
-            "root_json_href": "c/chd.json"
-        },
-        {
-            "root": "chs",
-            "root_meaning": "物質受動肉体",
-            "root_html_href": "c/chs.html",
-            "root_json_href": "c/chs.json"
-        },
-        {
-            "root": "chz",
-            "root_meaning": "物質受動精神",
-            "root_html_href": "c/chz.html",
-            "root_json_href": "c/chz.json"
-        },
-        {
-            "root": "chq",
-            "root_meaning": "物質受動空白",
-            "root_html_href": "c/chq.html",
-            "root_json_href": "c/chq.json"
-        },
-        {
-            "root": "chc",
-            "root_meaning": "物質受動物質",
-            "root_html_href": "c/chc.html",
-            "root_json_href": "c/chc.json"
-        },
-        {
-            "root": "chr",
-            "root_meaning": "物質受動過去",
-            "root_html_href": "c/chr.html",
-            "root_json_href": "c/chr.json"
-        },
-        {
-            "root": "chl",
-            "root_meaning": "物質受動未来",
-            "root_html_href": "c/chl.html",
-            "root_json_href": "c/chl.json"
-        },
-        {
-            "root": "chp",
-            "root_meaning": "物質受動鎮静",
-            "root_html_href": "c/chp.html",
-            "root_json_href": "c/chp.json"
-        },
-        {
-            "root": "chb",
-            "root_meaning": "物質受動高揚",
-            "root_html_href": "c/chb.html",
-            "root_json_href": "c/chb.json"
-        },
-        {
-            "root": "chh",
-            "root_meaning": "物質受動受動",
-            "root_html_href": "c/chh.html",
-            "root_json_href": "c/chh.json"
-        },
-        {
-            "root": "chx",
-            "root_meaning": "物質受動能動",
-            "root_html_href": "c/chx.html",
-            "root_json_href": "c/chx.json"
-        },
-        {
-            "root": "chf",
-            "root_meaning": "物質受動創造",
-            "root_html_href": "c/chf.html",
-            "root_json_href": "c/chf.json"
-        },
-        {
-            "root": "chv",
-            "root_meaning": "物質受動破壊",
-            "root_html_href": "c/chv.html",
-            "root_json_href": "c/chv.json"
-        },
-        {
-            "root": "chm",
-            "root_meaning": "物質受動流動",
-            "root_html_href": "c/chm.html",
-            "root_json_href": "c/chm.json"
-        },
-        {
-            "root": "chn",
-            "root_meaning": "物質受動固定",
-            "root_html_href": "c/chn.html",
-            "root_json_href": "c/chn.json"
-        },
-        {
-            "root": "cxk",
-            "root_meaning": "物質能動剥離",
-            "root_html_href": "c/cxk.html",
-            "root_json_href": "c/cxk.json"
-        },
-        {
-            "root": "cxg",
-            "root_meaning": "物質能動癒着",
-            "root_html_href": "c/cxg.html",
-            "root_json_href": "c/cxg.json"
-        },
-        {
-            "root": "cxt",
-            "root_meaning": "物質能動乖離",
-            "root_html_href": "c/cxt.html",
-            "root_json_href": "c/cxt.json"
-        },
-        {
-            "root": "cxd",
-            "root_meaning": "物質能動同一",
-            "root_html_href": "c/cxd.html",
-            "root_json_href": "c/cxd.json"
-        },
-        {
-            "root": "cxs",
-            "root_meaning": "物質能動肉体",
-            "root_html_href": "c/cxs.html",
-            "root_json_href": "c/cxs.json"
-        },
-        {
-            "root": "cxz",
-            "root_meaning": "物質能動精神",
-            "root_html_href": "c/cxz.html",
-            "root_json_href": "c/cxz.json"
-        },
-        {
-            "root": "cxq",
-            "root_meaning": "物質能動空白",
-            "root_html_href": "c/cxq.html",
-            "root_json_href": "c/cxq.json"
-        },
-        {
-            "root": "cxc",
-            "root_meaning": "物質能動物質",
-            "root_html_href": "c/cxc.html",
-            "root_json_href": "c/cxc.json"
-        },
-        {
-            "root": "cxr",
-            "root_meaning": "物質能動過去",
-            "root_html_href": "c/cxr.html",
-            "root_json_href": "c/cxr.json"
-        },
-        {
-            "root": "cxl",
-            "root_meaning": "物質能動未来",
-            "root_html_href": "c/cxl.html",
-            "root_json_href": "c/cxl.json"
-        },
-        {
-            "root": "cxp",
-            "root_meaning": "物質能動鎮静",
-            "root_html_href": "c/cxp.html",
-            "root_json_href": "c/cxp.json"
-        },
-        {
-            "root": "cxb",
-            "root_meaning": "物質能動高揚",
-            "root_html_href": "c/cxb.html",
-            "root_json_href": "c/cxb.json"
-        },
-        {
-            "root": "cxh",
-            "root_meaning": "物質能動受動",
-            "root_html_href": "c/cxh.html",
-            "root_json_href": "c/cxh.json"
-        },
-        {
-            "root": "cxx",
-            "root_meaning": "物質能動能動",
-            "root_html_href": "c/cxx.html",
-            "root_json_href": "c/cxx.json"
-        },
-        {
-            "root": "cxf",
-            "root_meaning": "物質能動創造",
-            "root_html_href": "c/cxf.html",
-            "root_json_href": "c/cxf.json"
-        },
-        {
-            "root": "cxv",
-            "root_meaning": "物質能動破壊",
-            "root_html_href": "c/cxv.html",
-            "root_json_href": "c/cxv.json"
-        },
-        {
-            "root": "cxm",
-            "root_meaning": "物質能動流動",
-            "root_html_href": "c/cxm.html",
-            "root_json_href": "c/cxm.json"
-        },
-        {
-            "root": "cxn",
-            "root_meaning": "物質能動固定",
-            "root_html_href": "c/cxn.html",
-            "root_json_href": "c/cxn.json"
-        },
-        {
-            "root": "cfk",
-            "root_meaning": "物質創造剥離",
-            "root_html_href": "c/cfk.html",
-            "root_json_href": "c/cfk.json"
-        },
-        {
-            "root": "cfg",
-            "root_meaning": "物質創造癒着",
-            "root_html_href": "c/cfg.html",
-            "root_json_href": "c/cfg.json"
-        },
-        {
-            "root": "cft",
-            "root_meaning": "物質創造乖離",
-            "root_html_href": "c/cft.html",
-            "root_json_href": "c/cft.json"
-        },
-        {
-            "root": "cfd",
-            "root_meaning": "物質創造同一",
-            "root_html_href": "c/cfd.html",
-            "root_json_href": "c/cfd.json"
-        },
-        {
-            "root": "cfs",
-            "root_meaning": "物質創造肉体",
-            "root_html_href": "c/cfs.html",
-            "root_json_href": "c/cfs.json"
-        },
-        {
-            "root": "cfz",
-            "root_meaning": "物質創造精神",
-            "root_html_href": "c/cfz.html",
-            "root_json_href": "c/cfz.json"
-        },
-        {
-            "root": "cfq",
-            "root_meaning": "物質創造空白",
-            "root_html_href": "c/cfq.html",
-            "root_json_href": "c/cfq.json"
-        },
-        {
-            "root": "cfc",
-            "root_meaning": "物質創造物質",
-            "root_html_href": "c/cfc.html",
-            "root_json_href": "c/cfc.json"
-        },
-        {
-            "root": "cfr",
-            "root_meaning": "物質創造過去",
-            "root_html_href": "c/cfr.html",
-            "root_json_href": "c/cfr.json"
-        },
-        {
-            "root": "cfl",
-            "root_meaning": "物質創造未来",
-            "root_html_href": "c/cfl.html",
-            "root_json_href": "c/cfl.json"
-        },
-        {
-            "root": "cfp",
-            "root_meaning": "物質創造鎮静",
-            "root_html_href": "c/cfp.html",
-            "root_json_href": "c/cfp.json"
-        },
-        {
-            "root": "cfb",
-            "root_meaning": "物質創造高揚",
-            "root_html_href": "c/cfb.html",
-            "root_json_href": "c/cfb.json"
-        },
-        {
-            "root": "cfh",
-            "root_meaning": "物質創造受動",
-            "root_html_href": "c/cfh.html",
-            "root_json_href": "c/cfh.json"
-        },
-        {
-            "root": "cfx",
-            "root_meaning": "物質創造能動",
-            "root_html_href": "c/cfx.html",
-            "root_json_href": "c/cfx.json"
-        },
-        {
-            "root": "cff",
-            "root_meaning": "物質創造創造",
-            "root_html_href": "c/cff.html",
-            "root_json_href": "c/cff.json"
-        },
-        {
-            "root": "cfv",
-            "root_meaning": "物質創造破壊",
-            "root_html_href": "c/cfv.html",
-            "root_json_href": "c/cfv.json"
-        },
-        {
-            "root": "cfm",
-            "root_meaning": "物質創造流動",
-            "root_html_href": "c/cfm.html",
-            "root_json_href": "c/cfm.json"
-        },
-        {
-            "root": "cfn",
-            "root_meaning": "物質創造固定",
-            "root_html_href": "c/cfn.html",
-            "root_json_href": "c/cfn.json"
-        },
-        {
-            "root": "cvk",
-            "root_meaning": "物質破壊剥離",
-            "root_html_href": "c/cvk.html",
-            "root_json_href": "c/cvk.json"
-        },
-        {
-            "root": "cvg",
-            "root_meaning": "物質破壊癒着",
-            "root_html_href": "c/cvg.html",
-            "root_json_href": "c/cvg.json"
-        },
-        {
-            "root": "cvt",
-            "root_meaning": "物質破壊乖離",
-            "root_html_href": "c/cvt.html",
-            "root_json_href": "c/cvt.json"
-        },
-        {
-            "root": "cvd",
-            "root_meaning": "物質破壊同一",
-            "root_html_href": "c/cvd.html",
-            "root_json_href": "c/cvd.json"
-        },
-        {
-            "root": "cvs",
-            "root_meaning": "物質破壊肉体",
-            "root_html_href": "c/cvs.html",
-            "root_json_href": "c/cvs.json"
-        },
-        {
-            "root": "cvz",
-            "root_meaning": "物質破壊精神",
-            "root_html_href": "c/cvz.html",
-            "root_json_href": "c/cvz.json"
-        },
-        {
-            "root": "cvq",
-            "root_meaning": "物質破壊空白",
-            "root_html_href": "c/cvq.html",
-            "root_json_href": "c/cvq.json"
-        },
-        {
-            "root": "cvc",
-            "root_meaning": "物質破壊物質",
-            "root_html_href": "c/cvc.html",
-            "root_json_href": "c/cvc.json"
-        },
-        {
-            "root": "cvr",
-            "root_meaning": "物質破壊過去",
-            "root_html_href": "c/cvr.html",
-            "root_json_href": "c/cvr.json"
-        },
-        {
-            "root": "cvl",
-            "root_meaning": "物質破壊未来",
-            "root_html_href": "c/cvl.html",
-            "root_json_href": "c/cvl.json"
-        },
-        {
-            "root": "cvp",
-            "root_meaning": "物質破壊鎮静",
-            "root_html_href": "c/cvp.html",
-            "root_json_href": "c/cvp.json"
-        },
-        {
-            "root": "cvb",
-            "root_meaning": "物質破壊高揚",
-            "root_html_href": "c/cvb.html",
-            "root_json_href": "c/cvb.json"
-        },
-        {
-            "root": "cvh",
-            "root_meaning": "物質破壊受動",
-            "root_html_href": "c/cvh.html",
-            "root_json_href": "c/cvh.json"
-        },
-        {
-            "root": "cvx",
-            "root_meaning": "物質破壊能動",
-            "root_html_href": "c/cvx.html",
-            "root_json_href": "c/cvx.json"
-        },
-        {
-            "root": "cvf",
-            "root_meaning": "物質破壊創造",
-            "root_html_href": "c/cvf.html",
-            "root_json_href": "c/cvf.json"
-        },
-        {
-            "root": "cvv",
-            "root_meaning": "物質破壊破壊",
-            "root_html_href": "c/cvv.html",
-            "root_json_href": "c/cvv.json"
-        },
-        {
-            "root": "cvm",
-            "root_meaning": "物質破壊流動",
-            "root_html_href": "c/cvm.html",
-            "root_json_href": "c/cvm.json"
-        },
-        {
-            "root": "cvn",
-            "root_meaning": "物質破壊固定",
-            "root_html_href": "c/cvn.html",
-            "root_json_href": "c/cvn.json"
-        },
-        {
-            "root": "cmk",
-            "root_meaning": "物質流動剥離",
-            "root_html_href": "c/cmk.html",
-            "root_json_href": "c/cmk.json"
-        },
-        {
-            "root": "cmg",
-            "root_meaning": "物質流動癒着",
-            "root_html_href": "c/cmg.html",
-            "root_json_href": "c/cmg.json"
-        },
-        {
-            "root": "cmt",
-            "root_meaning": "物質流動乖離",
-            "root_html_href": "c/cmt.html",
-            "root_json_href": "c/cmt.json"
-        },
-        {
-            "root": "cmd",
-            "root_meaning": "物質流動同一",
-            "root_html_href": "c/cmd.html",
-            "root_json_href": "c/cmd.json"
-        },
-        {
-            "root": "cms",
-            "root_meaning": "物質流動肉体",
-            "root_html_href": "c/cms.html",
-            "root_json_href": "c/cms.json"
-        },
-        {
-            "root": "cmz",
-            "root_meaning": "物質流動精神",
-            "root_html_href": "c/cmz.html",
-            "root_json_href": "c/cmz.json"
-        },
-        {
-            "root": "cmq",
-            "root_meaning": "物質流動空白",
-            "root_html_href": "c/cmq.html",
-            "root_json_href": "c/cmq.json"
-        },
-        {
-            "root": "cmc",
-            "root_meaning": "物質流動物質",
-            "root_html_href": "c/cmc.html",
-            "root_json_href": "c/cmc.json"
-        },
-        {
-            "root": "cmr",
-            "root_meaning": "物質流動過去",
-            "root_html_href": "c/cmr.html",
-            "root_json_href": "c/cmr.json"
-        },
-        {
-            "root": "cml",
-            "root_meaning": "物質流動未来",
-            "root_html_href": "c/cml.html",
-            "root_json_href": "c/cml.json"
-        },
-        {
-            "root": "cmp",
-            "root_meaning": "物質流動鎮静",
-            "root_html_href": "c/cmp.html",
-            "root_json_href": "c/cmp.json"
-        },
-        {
-            "root": "cmb",
-            "root_meaning": "物質流動高揚",
-            "root_html_href": "c/cmb.html",
-            "root_json_href": "c/cmb.json"
-        },
-        {
-            "root": "cmh",
-            "root_meaning": "物質流動受動",
-            "root_html_href": "c/cmh.html",
-            "root_json_href": "c/cmh.json"
-        },
-        {
-            "root": "cmx",
-            "root_meaning": "物質流動能動",
-            "root_html_href": "c/cmx.html",
-            "root_json_href": "c/cmx.json"
-        },
-        {
-            "root": "cmf",
-            "root_meaning": "物質流動創造",
-            "root_html_href": "c/cmf.html",
-            "root_json_href": "c/cmf.json"
-        },
-        {
-            "root": "cmv",
-            "root_meaning": "物質流動破壊",
-            "root_html_href": "c/cmv.html",
-            "root_json_href": "c/cmv.json"
-        },
-        {
-            "root": "cmm",
-            "root_meaning": "物質流動流動",
-            "root_html_href": "c/cmm.html",
-            "root_json_href": "c/cmm.json"
-        },
-        {
-            "root": "cmn",
-            "root_meaning": "物質流動固定",
-            "root_html_href": "c/cmn.html",
-            "root_json_href": "c/cmn.json"
-        },
-        {
-            "root": "cnk",
-            "root_meaning": "物質固定剥離",
-            "root_html_href": "c/cnk.html",
-            "root_json_href": "c/cnk.json"
-        },
-        {
-            "root": "cng",
-            "root_meaning": "物質固定癒着",
-            "root_html_href": "c/cng.html",
-            "root_json_href": "c/cng.json"
-        },
-        {
-            "root": "cnt",
-            "root_meaning": "物質固定乖離",
-            "root_html_href": "c/cnt.html",
-            "root_json_href": "c/cnt.json"
-        },
-        {
-            "root": "cnd",
-            "root_meaning": "物質固定同一",
-            "root_html_href": "c/cnd.html",
-            "root_json_href": "c/cnd.json"
-        },
-        {
-            "root": "cns",
-            "root_meaning": "物質固定肉体",
-            "root_html_href": "c/cns.html",
-            "root_json_href": "c/cns.json"
-        },
-        {
-            "root": "cnz",
-            "root_meaning": "物質固定精神",
-            "root_html_href": "c/cnz.html",
-            "root_json_href": "c/cnz.json"
-        },
-        {
-            "root": "cnq",
-            "root_meaning": "物質固定空白",
-            "root_html_href": "c/cnq.html",
-            "root_json_href": "c/cnq.json"
-        },
-        {
-            "root": "cnc",
-            "root_meaning": "物質固定物質",
-            "root_html_href": "c/cnc.html",
-            "root_json_href": "c/cnc.json"
-        },
-        {
-            "root": "cnr",
-            "root_meaning": "物質固定過去",
-            "root_html_href": "c/cnr.html",
-            "root_json_href": "c/cnr.json"
-        },
-        {
-            "root": "cnl",
-            "root_meaning": "物質固定未来",
-            "root_html_href": "c/cnl.html",
-            "root_json_href": "c/cnl.json"
-        },
-        {
-            "root": "cnp",
-            "root_meaning": "物質固定鎮静",
-            "root_html_href": "c/cnp.html",
-            "root_json_href": "c/cnp.json"
-        },
-        {
-            "root": "cnb",
-            "root_meaning": "物質固定高揚",
-            "root_html_href": "c/cnb.html",
-            "root_json_href": "c/cnb.json"
-        },
-        {
-            "root": "cnh",
-            "root_meaning": "物質固定受動",
-            "root_html_href": "c/cnh.html",
-            "root_json_href": "c/cnh.json"
-        },
-        {
-            "root": "cnx",
-            "root_meaning": "物質固定能動",
-            "root_html_href": "c/cnx.html",
-            "root_json_href": "c/cnx.json"
-        },
-        {
-            "root": "cnf",
-            "root_meaning": "物質固定創造",
-            "root_html_href": "c/cnf.html",
-            "root_json_href": "c/cnf.json"
-        },
-        {
-            "root": "cnv",
-            "root_meaning": "物質固定破壊",
-            "root_html_href": "c/cnv.html",
-            "root_json_href": "c/cnv.json"
-        },
-        {
-            "root": "cnm",
-            "root_meaning": "物質固定流動",
-            "root_html_href": "c/cnm.html",
-            "root_json_href": "c/cnm.json"
-        },
-        {
-            "root": "cnn",
-            "root_meaning": "物質固定固定",
-            "root_html_href": "c/cnn.html",
-            "root_json_href": "c/cnn.json"
-        }
+        { "root": "ckk", "root_meaning": "物質剥離剥離", "root_html_href": "c/ckk.html" },
+        { "root": "ckg", "root_meaning": "物質剥離癒着", "root_html_href": "c/ckg.html" },
+        { "root": "ckt", "root_meaning": "物質剥離乖離", "root_html_href": "c/ckt.html" },
+        { "root": "ckd", "root_meaning": "物質剥離同一", "root_html_href": "c/ckd.html" },
+        { "root": "cks", "root_meaning": "物質剥離肉体", "root_html_href": "c/cks.html" },
+        { "root": "ckz", "root_meaning": "物質剥離精神", "root_html_href": "c/ckz.html" },
+        { "root": "ckq", "root_meaning": "物質剥離空白", "root_html_href": "c/ckq.html" },
+        { "root": "ckc", "root_meaning": "物質剥離物質", "root_html_href": "c/ckc.html" },
+        { "root": "ckr", "root_meaning": "物質剥離過去", "root_html_href": "c/ckr.html" },
+        { "root": "ckl", "root_meaning": "物質剥離未来", "root_html_href": "c/ckl.html" },
+        { "root": "ckp", "root_meaning": "物質剥離鎮静", "root_html_href": "c/ckp.html" },
+        { "root": "ckb", "root_meaning": "物質剥離高揚", "root_html_href": "c/ckb.html" },
+        { "root": "ckh", "root_meaning": "物質剥離受動", "root_html_href": "c/ckh.html" },
+        { "root": "ckx", "root_meaning": "物質剥離能動", "root_html_href": "c/ckx.html" },
+        { "root": "ckf", "root_meaning": "物質剥離創造", "root_html_href": "c/ckf.html" },
+        { "root": "ckv", "root_meaning": "物質剥離破壊", "root_html_href": "c/ckv.html" },
+        { "root": "ckm", "root_meaning": "物質剥離流動", "root_html_href": "c/ckm.html" },
+        { "root": "ckn", "root_meaning": "物質剥離固定", "root_html_href": "c/ckn.html" },
+        { "root": "cgk", "root_meaning": "物質癒着剥離", "root_html_href": "c/cgk.html" },
+        { "root": "cgg", "root_meaning": "物質癒着癒着", "root_html_href": "c/cgg.html" },
+        { "root": "cgt", "root_meaning": "物質癒着乖離", "root_html_href": "c/cgt.html" },
+        { "root": "cgd", "root_meaning": "物質癒着同一", "root_html_href": "c/cgd.html" },
+        { "root": "cgs", "root_meaning": "物質癒着肉体", "root_html_href": "c/cgs.html" },
+        { "root": "cgz", "root_meaning": "物質癒着精神", "root_html_href": "c/cgz.html" },
+        { "root": "cgq", "root_meaning": "物質癒着空白", "root_html_href": "c/cgq.html" },
+        { "root": "cgc", "root_meaning": "物質癒着物質", "root_html_href": "c/cgc.html" },
+        { "root": "cgr", "root_meaning": "物質癒着過去", "root_html_href": "c/cgr.html" },
+        { "root": "cgl", "root_meaning": "物質癒着未来", "root_html_href": "c/cgl.html" },
+        { "root": "cgp", "root_meaning": "物質癒着鎮静", "root_html_href": "c/cgp.html" },
+        { "root": "cgb", "root_meaning": "物質癒着高揚", "root_html_href": "c/cgb.html" },
+        { "root": "cgh", "root_meaning": "物質癒着受動", "root_html_href": "c/cgh.html" },
+        { "root": "cgx", "root_meaning": "物質癒着能動", "root_html_href": "c/cgx.html" },
+        { "root": "cgf", "root_meaning": "物質癒着創造", "root_html_href": "c/cgf.html" },
+        { "root": "cgv", "root_meaning": "物質癒着破壊", "root_html_href": "c/cgv.html" },
+        { "root": "cgm", "root_meaning": "物質癒着流動", "root_html_href": "c/cgm.html" },
+        { "root": "cgn", "root_meaning": "物質癒着固定", "root_html_href": "c/cgn.html" },
+        { "root": "ctk", "root_meaning": "物質乖離剥離", "root_html_href": "c/ctk.html" },
+        { "root": "ctg", "root_meaning": "物質乖離癒着", "root_html_href": "c/ctg.html" },
+        { "root": "ctt", "root_meaning": "物質乖離乖離", "root_html_href": "c/ctt.html" },
+        { "root": "ctd", "root_meaning": "物質乖離同一", "root_html_href": "c/ctd.html" },
+        { "root": "cts", "root_meaning": "物質乖離肉体", "root_html_href": "c/cts.html" },
+        { "root": "ctz", "root_meaning": "物質乖離精神", "root_html_href": "c/ctz.html" },
+        { "root": "ctq", "root_meaning": "物質乖離空白", "root_html_href": "c/ctq.html" },
+        { "root": "ctc", "root_meaning": "物質乖離物質", "root_html_href": "c/ctc.html" },
+        { "root": "ctr", "root_meaning": "物質乖離過去", "root_html_href": "c/ctr.html" },
+        { "root": "ctl", "root_meaning": "物質乖離未来", "root_html_href": "c/ctl.html" },
+        { "root": "ctp", "root_meaning": "物質乖離鎮静", "root_html_href": "c/ctp.html" },
+        { "root": "ctb", "root_meaning": "物質乖離高揚", "root_html_href": "c/ctb.html" },
+        { "root": "cth", "root_meaning": "物質乖離受動", "root_html_href": "c/cth.html" },
+        { "root": "ctx", "root_meaning": "物質乖離能動", "root_html_href": "c/ctx.html" },
+        { "root": "ctf", "root_meaning": "物質乖離創造", "root_html_href": "c/ctf.html" },
+        { "root": "ctv", "root_meaning": "物質乖離破壊", "root_html_href": "c/ctv.html" },
+        { "root": "ctm", "root_meaning": "物質乖離流動", "root_html_href": "c/ctm.html" },
+        { "root": "ctn", "root_meaning": "物質乖離固定", "root_html_href": "c/ctn.html" },
+        { "root": "cdk", "root_meaning": "物質同一剥離", "root_html_href": "c/cdk.html" },
+        { "root": "cdg", "root_meaning": "物質同一癒着", "root_html_href": "c/cdg.html" },
+        { "root": "cdt", "root_meaning": "物質同一乖離", "root_html_href": "c/cdt.html" },
+        { "root": "cdd", "root_meaning": "物質同一同一", "root_html_href": "c/cdd.html" },
+        { "root": "cds", "root_meaning": "物質同一肉体", "root_html_href": "c/cds.html" },
+        { "root": "cdz", "root_meaning": "物質同一精神", "root_html_href": "c/cdz.html" },
+        { "root": "cdq", "root_meaning": "物質同一空白", "root_html_href": "c/cdq.html" },
+        { "root": "cdc", "root_meaning": "物質同一物質", "root_html_href": "c/cdc.html" },
+        { "root": "cdr", "root_meaning": "物質同一過去", "root_html_href": "c/cdr.html" },
+        { "root": "cdl", "root_meaning": "物質同一未来", "root_html_href": "c/cdl.html" },
+        { "root": "cdp", "root_meaning": "物質同一鎮静", "root_html_href": "c/cdp.html" },
+        { "root": "cdb", "root_meaning": "物質同一高揚", "root_html_href": "c/cdb.html" },
+        { "root": "cdh", "root_meaning": "物質同一受動", "root_html_href": "c/cdh.html" },
+        { "root": "cdx", "root_meaning": "物質同一能動", "root_html_href": "c/cdx.html" },
+        { "root": "cdf", "root_meaning": "物質同一創造", "root_html_href": "c/cdf.html" },
+        { "root": "cdv", "root_meaning": "物質同一破壊", "root_html_href": "c/cdv.html" },
+        { "root": "cdm", "root_meaning": "物質同一流動", "root_html_href": "c/cdm.html" },
+        { "root": "cdn", "root_meaning": "物質同一固定", "root_html_href": "c/cdn.html" },
+        { "root": "csk", "root_meaning": "物質肉体剥離", "root_html_href": "c/csk.html" },
+        { "root": "csg", "root_meaning": "物質肉体癒着", "root_html_href": "c/csg.html" },
+        { "root": "cst", "root_meaning": "物質肉体乖離", "root_html_href": "c/cst.html" },
+        { "root": "csd", "root_meaning": "物質肉体同一", "root_html_href": "c/csd.html" },
+        { "root": "css", "root_meaning": "物質肉体肉体", "root_html_href": "c/css.html" },
+        { "root": "csz", "root_meaning": "物質肉体精神", "root_html_href": "c/csz.html" },
+        { "root": "csq", "root_meaning": "物質肉体空白", "root_html_href": "c/csq.html" },
+        { "root": "csc", "root_meaning": "物質肉体物質", "root_html_href": "c/csc.html" },
+        { "root": "csr", "root_meaning": "物質肉体過去", "root_html_href": "c/csr.html" },
+        { "root": "csl", "root_meaning": "物質肉体未来", "root_html_href": "c/csl.html" },
+        { "root": "csp", "root_meaning": "物質肉体鎮静", "root_html_href": "c/csp.html" },
+        { "root": "csb", "root_meaning": "物質肉体高揚", "root_html_href": "c/csb.html" },
+        { "root": "csh", "root_meaning": "物質肉体受動", "root_html_href": "c/csh.html" },
+        { "root": "csx", "root_meaning": "物質肉体能動", "root_html_href": "c/csx.html" },
+        { "root": "csf", "root_meaning": "物質肉体創造", "root_html_href": "c/csf.html" },
+        { "root": "csv", "root_meaning": "物質肉体破壊", "root_html_href": "c/csv.html" },
+        { "root": "csm", "root_meaning": "物質肉体流動", "root_html_href": "c/csm.html" },
+        { "root": "csn", "root_meaning": "物質肉体固定", "root_html_href": "c/csn.html" },
+        { "root": "czk", "root_meaning": "物質精神剥離", "root_html_href": "c/czk.html" },
+        { "root": "czg", "root_meaning": "物質精神癒着", "root_html_href": "c/czg.html" },
+        { "root": "czt", "root_meaning": "物質精神乖離", "root_html_href": "c/czt.html" },
+        { "root": "czd", "root_meaning": "物質精神同一", "root_html_href": "c/czd.html" },
+        { "root": "czs", "root_meaning": "物質精神肉体", "root_html_href": "c/czs.html" },
+        { "root": "czz", "root_meaning": "物質精神精神", "root_html_href": "c/czz.html" },
+        { "root": "czq", "root_meaning": "物質精神空白", "root_html_href": "c/czq.html" },
+        { "root": "czc", "root_meaning": "物質精神物質", "root_html_href": "c/czc.html" },
+        { "root": "czr", "root_meaning": "物質精神過去", "root_html_href": "c/czr.html" },
+        { "root": "czl", "root_meaning": "物質精神未来", "root_html_href": "c/czl.html" },
+        { "root": "czp", "root_meaning": "物質精神鎮静", "root_html_href": "c/czp.html" },
+        { "root": "czb", "root_meaning": "物質精神高揚", "root_html_href": "c/czb.html" },
+        { "root": "czh", "root_meaning": "物質精神受動", "root_html_href": "c/czh.html" },
+        { "root": "czx", "root_meaning": "物質精神能動", "root_html_href": "c/czx.html" },
+        { "root": "czf", "root_meaning": "物質精神創造", "root_html_href": "c/czf.html" },
+        { "root": "czv", "root_meaning": "物質精神破壊", "root_html_href": "c/czv.html" },
+        { "root": "czm", "root_meaning": "物質精神流動", "root_html_href": "c/czm.html" },
+        { "root": "czn", "root_meaning": "物質精神固定", "root_html_href": "c/czn.html" },
+        { "root": "cqk", "root_meaning": "物質空白剥離", "root_html_href": "c/cqk.html" },
+        { "root": "cqg", "root_meaning": "物質空白癒着", "root_html_href": "c/cqg.html" },
+        { "root": "cqt", "root_meaning": "物質空白乖離", "root_html_href": "c/cqt.html" },
+        { "root": "cqd", "root_meaning": "物質空白同一", "root_html_href": "c/cqd.html" },
+        { "root": "cqs", "root_meaning": "物質空白肉体", "root_html_href": "c/cqs.html" },
+        { "root": "cqz", "root_meaning": "物質空白精神", "root_html_href": "c/cqz.html" },
+        { "root": "cqq", "root_meaning": "物質空白空白", "root_html_href": "c/cqq.html" },
+        { "root": "cqc", "root_meaning": "物質空白物質", "root_html_href": "c/cqc.html" },
+        { "root": "cqr", "root_meaning": "物質空白過去", "root_html_href": "c/cqr.html" },
+        { "root": "cql", "root_meaning": "物質空白未来", "root_html_href": "c/cql.html" },
+        { "root": "cqp", "root_meaning": "物質空白鎮静", "root_html_href": "c/cqp.html" },
+        { "root": "cqb", "root_meaning": "物質空白高揚", "root_html_href": "c/cqb.html" },
+        { "root": "cqh", "root_meaning": "物質空白受動", "root_html_href": "c/cqh.html" },
+        { "root": "cqx", "root_meaning": "物質空白能動", "root_html_href": "c/cqx.html" },
+        { "root": "cqf", "root_meaning": "物質空白創造", "root_html_href": "c/cqf.html" },
+        { "root": "cqv", "root_meaning": "物質空白破壊", "root_html_href": "c/cqv.html" },
+        { "root": "cqm", "root_meaning": "物質空白流動", "root_html_href": "c/cqm.html" },
+        { "root": "cqn", "root_meaning": "物質空白固定", "root_html_href": "c/cqn.html" },
+        { "root": "cck", "root_meaning": "物質物質剥離", "root_html_href": "c/cck.html" },
+        { "root": "ccg", "root_meaning": "物質物質癒着", "root_html_href": "c/ccg.html" },
+        { "root": "cct", "root_meaning": "物質物質乖離", "root_html_href": "c/cct.html" },
+        { "root": "ccd", "root_meaning": "物質物質同一", "root_html_href": "c/ccd.html" },
+        { "root": "ccs", "root_meaning": "物質物質肉体", "root_html_href": "c/ccs.html" },
+        { "root": "ccz", "root_meaning": "物質物質精神", "root_html_href": "c/ccz.html" },
+        { "root": "ccq", "root_meaning": "物質物質空白", "root_html_href": "c/ccq.html" },
+        { "root": "ccc", "root_meaning": "物質物質物質", "root_html_href": "c/ccc.html" },
+        { "root": "ccr", "root_meaning": "物質物質過去", "root_html_href": "c/ccr.html" },
+        { "root": "ccl", "root_meaning": "物質物質未来", "root_html_href": "c/ccl.html" },
+        { "root": "ccp", "root_meaning": "物質物質鎮静", "root_html_href": "c/ccp.html" },
+        { "root": "ccb", "root_meaning": "物質物質高揚", "root_html_href": "c/ccb.html" },
+        { "root": "cch", "root_meaning": "物質物質受動", "root_html_href": "c/cch.html" },
+        { "root": "ccx", "root_meaning": "物質物質能動", "root_html_href": "c/ccx.html" },
+        { "root": "ccf", "root_meaning": "物質物質創造", "root_html_href": "c/ccf.html" },
+        { "root": "ccv", "root_meaning": "物質物質破壊", "root_html_href": "c/ccv.html" },
+        { "root": "ccm", "root_meaning": "物質物質流動", "root_html_href": "c/ccm.html" },
+        { "root": "ccn", "root_meaning": "物質物質固定", "root_html_href": "c/ccn.html" },
+        { "root": "crk", "root_meaning": "物質過去剥離", "root_html_href": "c/crk.html" },
+        { "root": "crg", "root_meaning": "物質過去癒着", "root_html_href": "c/crg.html" },
+        { "root": "crt", "root_meaning": "物質過去乖離", "root_html_href": "c/crt.html" },
+        { "root": "crd", "root_meaning": "物質過去同一", "root_html_href": "c/crd.html" },
+        { "root": "crs", "root_meaning": "物質過去肉体", "root_html_href": "c/crs.html" },
+        { "root": "crz", "root_meaning": "物質過去精神", "root_html_href": "c/crz.html" },
+        { "root": "crq", "root_meaning": "物質過去空白", "root_html_href": "c/crq.html" },
+        { "root": "crc", "root_meaning": "物質過去物質", "root_html_href": "c/crc.html" },
+        { "root": "crr", "root_meaning": "物質過去過去", "root_html_href": "c/crr.html" },
+        { "root": "crl", "root_meaning": "物質過去未来", "root_html_href": "c/crl.html" },
+        { "root": "crp", "root_meaning": "物質過去鎮静", "root_html_href": "c/crp.html" },
+        { "root": "crb", "root_meaning": "物質過去高揚", "root_html_href": "c/crb.html" },
+        { "root": "crh", "root_meaning": "物質過去受動", "root_html_href": "c/crh.html" },
+        { "root": "crx", "root_meaning": "物質過去能動", "root_html_href": "c/crx.html" },
+        { "root": "crf", "root_meaning": "物質過去創造", "root_html_href": "c/crf.html" },
+        { "root": "crv", "root_meaning": "物質過去破壊", "root_html_href": "c/crv.html" },
+        { "root": "crm", "root_meaning": "物質過去流動", "root_html_href": "c/crm.html" },
+        { "root": "crn", "root_meaning": "物質過去固定", "root_html_href": "c/crn.html" },
+        { "root": "clk", "root_meaning": "物質未来剥離", "root_html_href": "c/clk.html" },
+        { "root": "clg", "root_meaning": "物質未来癒着", "root_html_href": "c/clg.html" },
+        { "root": "clt", "root_meaning": "物質未来乖離", "root_html_href": "c/clt.html" },
+        { "root": "cld", "root_meaning": "物質未来同一", "root_html_href": "c/cld.html" },
+        { "root": "cls", "root_meaning": "物質未来肉体", "root_html_href": "c/cls.html" },
+        { "root": "clz", "root_meaning": "物質未来精神", "root_html_href": "c/clz.html" },
+        { "root": "clq", "root_meaning": "物質未来空白", "root_html_href": "c/clq.html" },
+        { "root": "clc", "root_meaning": "物質未来物質", "root_html_href": "c/clc.html" },
+        { "root": "clr", "root_meaning": "物質未来過去", "root_html_href": "c/clr.html" },
+        { "root": "cll", "root_meaning": "物質未来未来", "root_html_href": "c/cll.html" },
+        { "root": "clp", "root_meaning": "物質未来鎮静", "root_html_href": "c/clp.html" },
+        { "root": "clb", "root_meaning": "物質未来高揚", "root_html_href": "c/clb.html" },
+        { "root": "clh", "root_meaning": "物質未来受動", "root_html_href": "c/clh.html" },
+        { "root": "clx", "root_meaning": "物質未来能動", "root_html_href": "c/clx.html" },
+        { "root": "clf", "root_meaning": "物質未来創造", "root_html_href": "c/clf.html" },
+        { "root": "clv", "root_meaning": "物質未来破壊", "root_html_href": "c/clv.html" },
+        { "root": "clm", "root_meaning": "物質未来流動", "root_html_href": "c/clm.html" },
+        { "root": "cln", "root_meaning": "物質未来固定", "root_html_href": "c/cln.html" },
+        { "root": "cpk", "root_meaning": "物質鎮静剥離", "root_html_href": "c/cpk.html" },
+        { "root": "cpg", "root_meaning": "物質鎮静癒着", "root_html_href": "c/cpg.html" },
+        { "root": "cpt", "root_meaning": "物質鎮静乖離", "root_html_href": "c/cpt.html" },
+        { "root": "cpd", "root_meaning": "物質鎮静同一", "root_html_href": "c/cpd.html" },
+        { "root": "cps", "root_meaning": "物質鎮静肉体", "root_html_href": "c/cps.html" },
+        { "root": "cpz", "root_meaning": "物質鎮静精神", "root_html_href": "c/cpz.html" },
+        { "root": "cpq", "root_meaning": "物質鎮静空白", "root_html_href": "c/cpq.html" },
+        { "root": "cpc", "root_meaning": "物質鎮静物質", "root_html_href": "c/cpc.html" },
+        { "root": "cpr", "root_meaning": "物質鎮静過去", "root_html_href": "c/cpr.html" },
+        { "root": "cpl", "root_meaning": "物質鎮静未来", "root_html_href": "c/cpl.html" },
+        { "root": "cpp", "root_meaning": "物質鎮静鎮静", "root_html_href": "c/cpp.html" },
+        { "root": "cpb", "root_meaning": "物質鎮静高揚", "root_html_href": "c/cpb.html" },
+        { "root": "cph", "root_meaning": "物質鎮静受動", "root_html_href": "c/cph.html" },
+        { "root": "cpx", "root_meaning": "物質鎮静能動", "root_html_href": "c/cpx.html" },
+        { "root": "cpf", "root_meaning": "物質鎮静創造", "root_html_href": "c/cpf.html" },
+        { "root": "cpv", "root_meaning": "物質鎮静破壊", "root_html_href": "c/cpv.html" },
+        { "root": "cpm", "root_meaning": "物質鎮静流動", "root_html_href": "c/cpm.html" },
+        { "root": "cpn", "root_meaning": "物質鎮静固定", "root_html_href": "c/cpn.html" },
+        { "root": "cbk", "root_meaning": "物質高揚剥離", "root_html_href": "c/cbk.html" },
+        { "root": "cbg", "root_meaning": "物質高揚癒着", "root_html_href": "c/cbg.html" },
+        { "root": "cbt", "root_meaning": "物質高揚乖離", "root_html_href": "c/cbt.html" },
+        { "root": "cbd", "root_meaning": "物質高揚同一", "root_html_href": "c/cbd.html" },
+        { "root": "cbs", "root_meaning": "物質高揚肉体", "root_html_href": "c/cbs.html" },
+        { "root": "cbz", "root_meaning": "物質高揚精神", "root_html_href": "c/cbz.html" },
+        { "root": "cbq", "root_meaning": "物質高揚空白", "root_html_href": "c/cbq.html" },
+        { "root": "cbc", "root_meaning": "物質高揚物質", "root_html_href": "c/cbc.html" },
+        { "root": "cbr", "root_meaning": "物質高揚過去", "root_html_href": "c/cbr.html" },
+        { "root": "cbl", "root_meaning": "物質高揚未来", "root_html_href": "c/cbl.html" },
+        { "root": "cbp", "root_meaning": "物質高揚鎮静", "root_html_href": "c/cbp.html" },
+        { "root": "cbb", "root_meaning": "物質高揚高揚", "root_html_href": "c/cbb.html" },
+        { "root": "cbh", "root_meaning": "物質高揚受動", "root_html_href": "c/cbh.html" },
+        { "root": "cbx", "root_meaning": "物質高揚能動", "root_html_href": "c/cbx.html" },
+        { "root": "cbf", "root_meaning": "物質高揚創造", "root_html_href": "c/cbf.html" },
+        { "root": "cbv", "root_meaning": "物質高揚破壊", "root_html_href": "c/cbv.html" },
+        { "root": "cbm", "root_meaning": "物質高揚流動", "root_html_href": "c/cbm.html" },
+        { "root": "cbn", "root_meaning": "物質高揚固定", "root_html_href": "c/cbn.html" },
+        { "root": "chk", "root_meaning": "物質受動剥離", "root_html_href": "c/chk.html" },
+        { "root": "chg", "root_meaning": "物質受動癒着", "root_html_href": "c/chg.html" },
+        { "root": "cht", "root_meaning": "物質受動乖離", "root_html_href": "c/cht.html" },
+        { "root": "chd", "root_meaning": "物質受動同一", "root_html_href": "c/chd.html" },
+        { "root": "chs", "root_meaning": "物質受動肉体", "root_html_href": "c/chs.html" },
+        { "root": "chz", "root_meaning": "物質受動精神", "root_html_href": "c/chz.html" },
+        { "root": "chq", "root_meaning": "物質受動空白", "root_html_href": "c/chq.html" },
+        { "root": "chc", "root_meaning": "物質受動物質", "root_html_href": "c/chc.html" },
+        { "root": "chr", "root_meaning": "物質受動過去", "root_html_href": "c/chr.html" },
+        { "root": "chl", "root_meaning": "物質受動未来", "root_html_href": "c/chl.html" },
+        { "root": "chp", "root_meaning": "物質受動鎮静", "root_html_href": "c/chp.html" },
+        { "root": "chb", "root_meaning": "物質受動高揚", "root_html_href": "c/chb.html" },
+        { "root": "chh", "root_meaning": "物質受動受動", "root_html_href": "c/chh.html" },
+        { "root": "chx", "root_meaning": "物質受動能動", "root_html_href": "c/chx.html" },
+        { "root": "chf", "root_meaning": "物質受動創造", "root_html_href": "c/chf.html" },
+        { "root": "chv", "root_meaning": "物質受動破壊", "root_html_href": "c/chv.html" },
+        { "root": "chm", "root_meaning": "物質受動流動", "root_html_href": "c/chm.html" },
+        { "root": "chn", "root_meaning": "物質受動固定", "root_html_href": "c/chn.html" },
+        { "root": "cxk", "root_meaning": "物質能動剥離", "root_html_href": "c/cxk.html" },
+        { "root": "cxg", "root_meaning": "物質能動癒着", "root_html_href": "c/cxg.html" },
+        { "root": "cxt", "root_meaning": "物質能動乖離", "root_html_href": "c/cxt.html" },
+        { "root": "cxd", "root_meaning": "物質能動同一", "root_html_href": "c/cxd.html" },
+        { "root": "cxs", "root_meaning": "物質能動肉体", "root_html_href": "c/cxs.html" },
+        { "root": "cxz", "root_meaning": "物質能動精神", "root_html_href": "c/cxz.html" },
+        { "root": "cxq", "root_meaning": "物質能動空白", "root_html_href": "c/cxq.html" },
+        { "root": "cxc", "root_meaning": "物質能動物質", "root_html_href": "c/cxc.html" },
+        { "root": "cxr", "root_meaning": "物質能動過去", "root_html_href": "c/cxr.html" },
+        { "root": "cxl", "root_meaning": "物質能動未来", "root_html_href": "c/cxl.html" },
+        { "root": "cxp", "root_meaning": "物質能動鎮静", "root_html_href": "c/cxp.html" },
+        { "root": "cxb", "root_meaning": "物質能動高揚", "root_html_href": "c/cxb.html" },
+        { "root": "cxh", "root_meaning": "物質能動受動", "root_html_href": "c/cxh.html" },
+        { "root": "cxx", "root_meaning": "物質能動能動", "root_html_href": "c/cxx.html" },
+        { "root": "cxf", "root_meaning": "物質能動創造", "root_html_href": "c/cxf.html" },
+        { "root": "cxv", "root_meaning": "物質能動破壊", "root_html_href": "c/cxv.html" },
+        { "root": "cxm", "root_meaning": "物質能動流動", "root_html_href": "c/cxm.html" },
+        { "root": "cxn", "root_meaning": "物質能動固定", "root_html_href": "c/cxn.html" },
+        { "root": "cfk", "root_meaning": "物質創造剥離", "root_html_href": "c/cfk.html" },
+        { "root": "cfg", "root_meaning": "物質創造癒着", "root_html_href": "c/cfg.html" },
+        { "root": "cft", "root_meaning": "物質創造乖離", "root_html_href": "c/cft.html" },
+        { "root": "cfd", "root_meaning": "物質創造同一", "root_html_href": "c/cfd.html" },
+        { "root": "cfs", "root_meaning": "物質創造肉体", "root_html_href": "c/cfs.html" },
+        { "root": "cfz", "root_meaning": "物質創造精神", "root_html_href": "c/cfz.html" },
+        { "root": "cfq", "root_meaning": "物質創造空白", "root_html_href": "c/cfq.html" },
+        { "root": "cfc", "root_meaning": "物質創造物質", "root_html_href": "c/cfc.html" },
+        { "root": "cfr", "root_meaning": "物質創造過去", "root_html_href": "c/cfr.html" },
+        { "root": "cfl", "root_meaning": "物質創造未来", "root_html_href": "c/cfl.html" },
+        { "root": "cfp", "root_meaning": "物質創造鎮静", "root_html_href": "c/cfp.html" },
+        { "root": "cfb", "root_meaning": "物質創造高揚", "root_html_href": "c/cfb.html" },
+        { "root": "cfh", "root_meaning": "物質創造受動", "root_html_href": "c/cfh.html" },
+        { "root": "cfx", "root_meaning": "物質創造能動", "root_html_href": "c/cfx.html" },
+        { "root": "cff", "root_meaning": "物質創造創造", "root_html_href": "c/cff.html" },
+        { "root": "cfv", "root_meaning": "物質創造破壊", "root_html_href": "c/cfv.html" },
+        { "root": "cfm", "root_meaning": "物質創造流動", "root_html_href": "c/cfm.html" },
+        { "root": "cfn", "root_meaning": "物質創造固定", "root_html_href": "c/cfn.html" },
+        { "root": "cvk", "root_meaning": "物質破壊剥離", "root_html_href": "c/cvk.html" },
+        { "root": "cvg", "root_meaning": "物質破壊癒着", "root_html_href": "c/cvg.html" },
+        { "root": "cvt", "root_meaning": "物質破壊乖離", "root_html_href": "c/cvt.html" },
+        { "root": "cvd", "root_meaning": "物質破壊同一", "root_html_href": "c/cvd.html" },
+        { "root": "cvs", "root_meaning": "物質破壊肉体", "root_html_href": "c/cvs.html" },
+        { "root": "cvz", "root_meaning": "物質破壊精神", "root_html_href": "c/cvz.html" },
+        { "root": "cvq", "root_meaning": "物質破壊空白", "root_html_href": "c/cvq.html" },
+        { "root": "cvc", "root_meaning": "物質破壊物質", "root_html_href": "c/cvc.html" },
+        { "root": "cvr", "root_meaning": "物質破壊過去", "root_html_href": "c/cvr.html" },
+        { "root": "cvl", "root_meaning": "物質破壊未来", "root_html_href": "c/cvl.html" },
+        { "root": "cvp", "root_meaning": "物質破壊鎮静", "root_html_href": "c/cvp.html" },
+        { "root": "cvb", "root_meaning": "物質破壊高揚", "root_html_href": "c/cvb.html" },
+        { "root": "cvh", "root_meaning": "物質破壊受動", "root_html_href": "c/cvh.html" },
+        { "root": "cvx", "root_meaning": "物質破壊能動", "root_html_href": "c/cvx.html" },
+        { "root": "cvf", "root_meaning": "物質破壊創造", "root_html_href": "c/cvf.html" },
+        { "root": "cvv", "root_meaning": "物質破壊破壊", "root_html_href": "c/cvv.html" },
+        { "root": "cvm", "root_meaning": "物質破壊流動", "root_html_href": "c/cvm.html" },
+        { "root": "cvn", "root_meaning": "物質破壊固定", "root_html_href": "c/cvn.html" },
+        { "root": "cmk", "root_meaning": "物質流動剥離", "root_html_href": "c/cmk.html" },
+        { "root": "cmg", "root_meaning": "物質流動癒着", "root_html_href": "c/cmg.html" },
+        { "root": "cmt", "root_meaning": "物質流動乖離", "root_html_href": "c/cmt.html" },
+        { "root": "cmd", "root_meaning": "物質流動同一", "root_html_href": "c/cmd.html" },
+        { "root": "cms", "root_meaning": "物質流動肉体", "root_html_href": "c/cms.html" },
+        { "root": "cmz", "root_meaning": "物質流動精神", "root_html_href": "c/cmz.html" },
+        { "root": "cmq", "root_meaning": "物質流動空白", "root_html_href": "c/cmq.html" },
+        { "root": "cmc", "root_meaning": "物質流動物質", "root_html_href": "c/cmc.html" },
+        { "root": "cmr", "root_meaning": "物質流動過去", "root_html_href": "c/cmr.html" },
+        { "root": "cml", "root_meaning": "物質流動未来", "root_html_href": "c/cml.html" },
+        { "root": "cmp", "root_meaning": "物質流動鎮静", "root_html_href": "c/cmp.html" },
+        { "root": "cmb", "root_meaning": "物質流動高揚", "root_html_href": "c/cmb.html" },
+        { "root": "cmh", "root_meaning": "物質流動受動", "root_html_href": "c/cmh.html" },
+        { "root": "cmx", "root_meaning": "物質流動能動", "root_html_href": "c/cmx.html" },
+        { "root": "cmf", "root_meaning": "物質流動創造", "root_html_href": "c/cmf.html" },
+        { "root": "cmv", "root_meaning": "物質流動破壊", "root_html_href": "c/cmv.html" },
+        { "root": "cmm", "root_meaning": "物質流動流動", "root_html_href": "c/cmm.html" },
+        { "root": "cmn", "root_meaning": "物質流動固定", "root_html_href": "c/cmn.html" },
+        { "root": "cnk", "root_meaning": "物質固定剥離", "root_html_href": "c/cnk.html" },
+        { "root": "cng", "root_meaning": "物質固定癒着", "root_html_href": "c/cng.html" },
+        { "root": "cnt", "root_meaning": "物質固定乖離", "root_html_href": "c/cnt.html" },
+        { "root": "cnd", "root_meaning": "物質固定同一", "root_html_href": "c/cnd.html" },
+        { "root": "cns", "root_meaning": "物質固定肉体", "root_html_href": "c/cns.html" },
+        { "root": "cnz", "root_meaning": "物質固定精神", "root_html_href": "c/cnz.html" },
+        { "root": "cnq", "root_meaning": "物質固定空白", "root_html_href": "c/cnq.html" },
+        { "root": "cnc", "root_meaning": "物質固定物質", "root_html_href": "c/cnc.html" },
+        { "root": "cnr", "root_meaning": "物質固定過去", "root_html_href": "c/cnr.html" },
+        { "root": "cnl", "root_meaning": "物質固定未来", "root_html_href": "c/cnl.html" },
+        { "root": "cnp", "root_meaning": "物質固定鎮静", "root_html_href": "c/cnp.html" },
+        { "root": "cnb", "root_meaning": "物質固定高揚", "root_html_href": "c/cnb.html" },
+        { "root": "cnh", "root_meaning": "物質固定受動", "root_html_href": "c/cnh.html" },
+        { "root": "cnx", "root_meaning": "物質固定能動", "root_html_href": "c/cnx.html" },
+        { "root": "cnf", "root_meaning": "物質固定創造", "root_html_href": "c/cnf.html" },
+        { "root": "cnv", "root_meaning": "物質固定破壊", "root_html_href": "c/cnv.html" },
+        { "root": "cnm", "root_meaning": "物質固定流動", "root_html_href": "c/cnm.html" },
+        { "root": "cnn", "root_meaning": "物質固定固定", "root_html_href": "c/cnn.html" }
     ]
 }

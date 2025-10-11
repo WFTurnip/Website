@@ -1,1948 +1,328 @@
 {
     "roots": [
-        {
-            "root": "fkk",
-            "root_meaning": "創造剥離剥離",
-            "root_html_href": "f/fkk.html",
-            "root_json_href": "f/fkk.json"
-        },
-        {
-            "root": "fkg",
-            "root_meaning": "創造剥離癒着",
-            "root_html_href": "f/fkg.html",
-            "root_json_href": "f/fkg.json"
-        },
-        {
-            "root": "fkt",
-            "root_meaning": "創造剥離乖離",
-            "root_html_href": "f/fkt.html",
-            "root_json_href": "f/fkt.json"
-        },
-        {
-            "root": "fkd",
-            "root_meaning": "創造剥離同一",
-            "root_html_href": "f/fkd.html",
-            "root_json_href": "f/fkd.json"
-        },
-        {
-            "root": "fks",
-            "root_meaning": "創造剥離肉体",
-            "root_html_href": "f/fks.html",
-            "root_json_href": "f/fks.json"
-        },
-        {
-            "root": "fkz",
-            "root_meaning": "創造剥離精神",
-            "root_html_href": "f/fkz.html",
-            "root_json_href": "f/fkz.json"
-        },
-        {
-            "root": "fkq",
-            "root_meaning": "創造剥離空白",
-            "root_html_href": "f/fkq.html",
-            "root_json_href": "f/fkq.json"
-        },
-        {
-            "root": "fkc",
-            "root_meaning": "創造剥離物質",
-            "root_html_href": "f/fkc.html",
-            "root_json_href": "f/fkc.json"
-        },
-        {
-            "root": "fkr",
-            "root_meaning": "創造剥離過去",
-            "root_html_href": "f/fkr.html",
-            "root_json_href": "f/fkr.json"
-        },
-        {
-            "root": "fkl",
-            "root_meaning": "創造剥離未来",
-            "root_html_href": "f/fkl.html",
-            "root_json_href": "f/fkl.json"
-        },
-        {
-            "root": "fkp",
-            "root_meaning": "創造剥離鎮静",
-            "root_html_href": "f/fkp.html",
-            "root_json_href": "f/fkp.json"
-        },
-        {
-            "root": "fkb",
-            "root_meaning": "創造剥離高揚",
-            "root_html_href": "f/fkb.html",
-            "root_json_href": "f/fkb.json"
-        },
-        {
-            "root": "fkh",
-            "root_meaning": "創造剥離受動",
-            "root_html_href": "f/fkh.html",
-            "root_json_href": "f/fkh.json"
-        },
-        {
-            "root": "fkx",
-            "root_meaning": "創造剥離能動",
-            "root_html_href": "f/fkx.html",
-            "root_json_href": "f/fkx.json"
-        },
-        {
-            "root": "fkf",
-            "root_meaning": "創造剥離創造",
-            "root_html_href": "f/fkf.html",
-            "root_json_href": "f/fkf.json"
-        },
-        {
-            "root": "fkv",
-            "root_meaning": "創造剥離破壊",
-            "root_html_href": "f/fkv.html",
-            "root_json_href": "f/fkv.json"
-        },
-        {
-            "root": "fkm",
-            "root_meaning": "創造剥離流動",
-            "root_html_href": "f/fkm.html",
-            "root_json_href": "f/fkm.json"
-        },
-        {
-            "root": "fkn",
-            "root_meaning": "創造剥離固定",
-            "root_html_href": "f/fkn.html",
-            "root_json_href": "f/fkn.json"
-        },
-        {
-            "root": "fgk",
-            "root_meaning": "創造癒着剥離",
-            "root_html_href": "f/fgk.html",
-            "root_json_href": "f/fgk.json"
-        },
-        {
-            "root": "fgg",
-            "root_meaning": "創造癒着癒着",
-            "root_html_href": "f/fgg.html",
-            "root_json_href": "f/fgg.json"
-        },
-        {
-            "root": "fgt",
-            "root_meaning": "創造癒着乖離",
-            "root_html_href": "f/fgt.html",
-            "root_json_href": "f/fgt.json"
-        },
-        {
-            "root": "fgd",
-            "root_meaning": "創造癒着同一",
-            "root_html_href": "f/fgd.html",
-            "root_json_href": "f/fgd.json"
-        },
-        {
-            "root": "fgs",
-            "root_meaning": "創造癒着肉体",
-            "root_html_href": "f/fgs.html",
-            "root_json_href": "f/fgs.json"
-        },
-        {
-            "root": "fgz",
-            "root_meaning": "創造癒着精神",
-            "root_html_href": "f/fgz.html",
-            "root_json_href": "f/fgz.json"
-        },
-        {
-            "root": "fgq",
-            "root_meaning": "創造癒着空白",
-            "root_html_href": "f/fgq.html",
-            "root_json_href": "f/fgq.json"
-        },
-        {
-            "root": "fgc",
-            "root_meaning": "創造癒着物質",
-            "root_html_href": "f/fgc.html",
-            "root_json_href": "f/fgc.json"
-        },
-        {
-            "root": "fgr",
-            "root_meaning": "創造癒着過去",
-            "root_html_href": "f/fgr.html",
-            "root_json_href": "f/fgr.json"
-        },
-        {
-            "root": "fgl",
-            "root_meaning": "創造癒着未来",
-            "root_html_href": "f/fgl.html",
-            "root_json_href": "f/fgl.json"
-        },
-        {
-            "root": "fgp",
-            "root_meaning": "創造癒着鎮静",
-            "root_html_href": "f/fgp.html",
-            "root_json_href": "f/fgp.json"
-        },
-        {
-            "root": "fgb",
-            "root_meaning": "創造癒着高揚",
-            "root_html_href": "f/fgb.html",
-            "root_json_href": "f/fgb.json"
-        },
-        {
-            "root": "fgh",
-            "root_meaning": "創造癒着受動",
-            "root_html_href": "f/fgh.html",
-            "root_json_href": "f/fgh.json"
-        },
-        {
-            "root": "fgx",
-            "root_meaning": "創造癒着能動",
-            "root_html_href": "f/fgx.html",
-            "root_json_href": "f/fgx.json"
-        },
-        {
-            "root": "fgf",
-            "root_meaning": "創造癒着創造",
-            "root_html_href": "f/fgf.html",
-            "root_json_href": "f/fgf.json"
-        },
-        {
-            "root": "fgv",
-            "root_meaning": "創造癒着破壊",
-            "root_html_href": "f/fgv.html",
-            "root_json_href": "f/fgv.json"
-        },
-        {
-            "root": "fgm",
-            "root_meaning": "創造癒着流動",
-            "root_html_href": "f/fgm.html",
-            "root_json_href": "f/fgm.json"
-        },
-        {
-            "root": "fgn",
-            "root_meaning": "創造癒着固定",
-            "root_html_href": "f/fgn.html",
-            "root_json_href": "f/fgn.json"
-        },
-        {
-            "root": "ftk",
-            "root_meaning": "創造乖離剥離",
-            "root_html_href": "f/ftk.html",
-            "root_json_href": "f/ftk.json"
-        },
-        {
-            "root": "ftg",
-            "root_meaning": "創造乖離癒着",
-            "root_html_href": "f/ftg.html",
-            "root_json_href": "f/ftg.json"
-        },
-        {
-            "root": "ftt",
-            "root_meaning": "創造乖離乖離",
-            "root_html_href": "f/ftt.html",
-            "root_json_href": "f/ftt.json"
-        },
-        {
-            "root": "ftd",
-            "root_meaning": "創造乖離同一",
-            "root_html_href": "f/ftd.html",
-            "root_json_href": "f/ftd.json"
-        },
-        {
-            "root": "fts",
-            "root_meaning": "創造乖離肉体",
-            "root_html_href": "f/fts.html",
-            "root_json_href": "f/fts.json"
-        },
-        {
-            "root": "ftz",
-            "root_meaning": "創造乖離精神",
-            "root_html_href": "f/ftz.html",
-            "root_json_href": "f/ftz.json"
-        },
-        {
-            "root": "ftq",
-            "root_meaning": "創造乖離空白",
-            "root_html_href": "f/ftq.html",
-            "root_json_href": "f/ftq.json"
-        },
-        {
-            "root": "ftc",
-            "root_meaning": "創造乖離物質",
-            "root_html_href": "f/ftc.html",
-            "root_json_href": "f/ftc.json"
-        },
-        {
-            "root": "ftr",
-            "root_meaning": "創造乖離過去",
-            "root_html_href": "f/ftr.html",
-            "root_json_href": "f/ftr.json"
-        },
-        {
-            "root": "ftl",
-            "root_meaning": "創造乖離未来",
-            "root_html_href": "f/ftl.html",
-            "root_json_href": "f/ftl.json"
-        },
-        {
-            "root": "ftp",
-            "root_meaning": "創造乖離鎮静",
-            "root_html_href": "f/ftp.html",
-            "root_json_href": "f/ftp.json"
-        },
-        {
-            "root": "ftb",
-            "root_meaning": "創造乖離高揚",
-            "root_html_href": "f/ftb.html",
-            "root_json_href": "f/ftb.json"
-        },
-        {
-            "root": "fth",
-            "root_meaning": "創造乖離受動",
-            "root_html_href": "f/fth.html",
-            "root_json_href": "f/fth.json"
-        },
-        {
-            "root": "ftx",
-            "root_meaning": "創造乖離能動",
-            "root_html_href": "f/ftx.html",
-            "root_json_href": "f/ftx.json"
-        },
-        {
-            "root": "ftf",
-            "root_meaning": "創造乖離創造",
-            "root_html_href": "f/ftf.html",
-            "root_json_href": "f/ftf.json"
-        },
-        {
-            "root": "ftv",
-            "root_meaning": "創造乖離破壊",
-            "root_html_href": "f/ftv.html",
-            "root_json_href": "f/ftv.json"
-        },
-        {
-            "root": "ftm",
-            "root_meaning": "創造乖離流動",
-            "root_html_href": "f/ftm.html",
-            "root_json_href": "f/ftm.json"
-        },
-        {
-            "root": "ftn",
-            "root_meaning": "創造乖離固定",
-            "root_html_href": "f/ftn.html",
-            "root_json_href": "f/ftn.json"
-        },
-        {
-            "root": "fdk",
-            "root_meaning": "創造同一剥離",
-            "root_html_href": "f/fdk.html",
-            "root_json_href": "f/fdk.json"
-        },
-        {
-            "root": "fdg",
-            "root_meaning": "創造同一癒着",
-            "root_html_href": "f/fdg.html",
-            "root_json_href": "f/fdg.json"
-        },
-        {
-            "root": "fdt",
-            "root_meaning": "創造同一乖離",
-            "root_html_href": "f/fdt.html",
-            "root_json_href": "f/fdt.json"
-        },
-        {
-            "root": "fdd",
-            "root_meaning": "創造同一同一",
-            "root_html_href": "f/fdd.html",
-            "root_json_href": "f/fdd.json"
-        },
-        {
-            "root": "fds",
-            "root_meaning": "創造同一肉体",
-            "root_html_href": "f/fds.html",
-            "root_json_href": "f/fds.json"
-        },
-        {
-            "root": "fdz",
-            "root_meaning": "創造同一精神",
-            "root_html_href": "f/fdz.html",
-            "root_json_href": "f/fdz.json"
-        },
-        {
-            "root": "fdq",
-            "root_meaning": "創造同一空白",
-            "root_html_href": "f/fdq.html",
-            "root_json_href": "f/fdq.json"
-        },
-        {
-            "root": "fdc",
-            "root_meaning": "創造同一物質",
-            "root_html_href": "f/fdc.html",
-            "root_json_href": "f/fdc.json"
-        },
-        {
-            "root": "fdr",
-            "root_meaning": "創造同一過去",
-            "root_html_href": "f/fdr.html",
-            "root_json_href": "f/fdr.json"
-        },
-        {
-            "root": "fdl",
-            "root_meaning": "創造同一未来",
-            "root_html_href": "f/fdl.html",
-            "root_json_href": "f/fdl.json"
-        },
-        {
-            "root": "fdp",
-            "root_meaning": "創造同一鎮静",
-            "root_html_href": "f/fdp.html",
-            "root_json_href": "f/fdp.json"
-        },
-        {
-            "root": "fdb",
-            "root_meaning": "創造同一高揚",
-            "root_html_href": "f/fdb.html",
-            "root_json_href": "f/fdb.json"
-        },
-        {
-            "root": "fdh",
-            "root_meaning": "創造同一受動",
-            "root_html_href": "f/fdh.html",
-            "root_json_href": "f/fdh.json"
-        },
-        {
-            "root": "fdx",
-            "root_meaning": "創造同一能動",
-            "root_html_href": "f/fdx.html",
-            "root_json_href": "f/fdx.json"
-        },
-        {
-            "root": "fdf",
-            "root_meaning": "創造同一創造",
-            "root_html_href": "f/fdf.html",
-            "root_json_href": "f/fdf.json"
-        },
-        {
-            "root": "fdv",
-            "root_meaning": "創造同一破壊",
-            "root_html_href": "f/fdv.html",
-            "root_json_href": "f/fdv.json"
-        },
-        {
-            "root": "fdm",
-            "root_meaning": "創造同一流動",
-            "root_html_href": "f/fdm.html",
-            "root_json_href": "f/fdm.json"
-        },
-        {
-            "root": "fdn",
-            "root_meaning": "創造同一固定",
-            "root_html_href": "f/fdn.html",
-            "root_json_href": "f/fdn.json"
-        },
-        {
-            "root": "fsk",
-            "root_meaning": "創造肉体剥離",
-            "root_html_href": "f/fsk.html",
-            "root_json_href": "f/fsk.json"
-        },
-        {
-            "root": "fsg",
-            "root_meaning": "創造肉体癒着",
-            "root_html_href": "f/fsg.html",
-            "root_json_href": "f/fsg.json"
-        },
-        {
-            "root": "fst",
-            "root_meaning": "創造肉体乖離",
-            "root_html_href": "f/fst.html",
-            "root_json_href": "f/fst.json"
-        },
-        {
-            "root": "fsd",
-            "root_meaning": "創造肉体同一",
-            "root_html_href": "f/fsd.html",
-            "root_json_href": "f/fsd.json"
-        },
-        {
-            "root": "fss",
-            "root_meaning": "創造肉体肉体",
-            "root_html_href": "f/fss.html",
-            "root_json_href": "f/fss.json"
-        },
-        {
-            "root": "fsz",
-            "root_meaning": "創造肉体精神",
-            "root_html_href": "f/fsz.html",
-            "root_json_href": "f/fsz.json"
-        },
-        {
-            "root": "fsq",
-            "root_meaning": "創造肉体空白",
-            "root_html_href": "f/fsq.html",
-            "root_json_href": "f/fsq.json"
-        },
-        {
-            "root": "fsc",
-            "root_meaning": "創造肉体物質",
-            "root_html_href": "f/fsc.html",
-            "root_json_href": "f/fsc.json"
-        },
-        {
-            "root": "fsr",
-            "root_meaning": "創造肉体過去",
-            "root_html_href": "f/fsr.html",
-            "root_json_href": "f/fsr.json"
-        },
-        {
-            "root": "fsl",
-            "root_meaning": "創造肉体未来",
-            "root_html_href": "f/fsl.html",
-            "root_json_href": "f/fsl.json"
-        },
-        {
-            "root": "fsp",
-            "root_meaning": "創造肉体鎮静",
-            "root_html_href": "f/fsp.html",
-            "root_json_href": "f/fsp.json"
-        },
-        {
-            "root": "fsb",
-            "root_meaning": "創造肉体高揚",
-            "root_html_href": "f/fsb.html",
-            "root_json_href": "f/fsb.json"
-        },
-        {
-            "root": "fsh",
-            "root_meaning": "創造肉体受動",
-            "root_html_href": "f/fsh.html",
-            "root_json_href": "f/fsh.json"
-        },
-        {
-            "root": "fsx",
-            "root_meaning": "創造肉体能動",
-            "root_html_href": "f/fsx.html",
-            "root_json_href": "f/fsx.json"
-        },
-        {
-            "root": "fsf",
-            "root_meaning": "創造肉体創造",
-            "root_html_href": "f/fsf.html",
-            "root_json_href": "f/fsf.json"
-        },
-        {
-            "root": "fsv",
-            "root_meaning": "創造肉体破壊",
-            "root_html_href": "f/fsv.html",
-            "root_json_href": "f/fsv.json"
-        },
-        {
-            "root": "fsm",
-            "root_meaning": "創造肉体流動",
-            "root_html_href": "f/fsm.html",
-            "root_json_href": "f/fsm.json"
-        },
-        {
-            "root": "fsn",
-            "root_meaning": "創造肉体固定",
-            "root_html_href": "f/fsn.html",
-            "root_json_href": "f/fsn.json"
-        },
-        {
-            "root": "fzk",
-            "root_meaning": "創造精神剥離",
-            "root_html_href": "f/fzk.html",
-            "root_json_href": "f/fzk.json"
-        },
-        {
-            "root": "fzg",
-            "root_meaning": "創造精神癒着",
-            "root_html_href": "f/fzg.html",
-            "root_json_href": "f/fzg.json"
-        },
-        {
-            "root": "fzt",
-            "root_meaning": "創造精神乖離",
-            "root_html_href": "f/fzt.html",
-            "root_json_href": "f/fzt.json"
-        },
-        {
-            "root": "fzd",
-            "root_meaning": "創造精神同一",
-            "root_html_href": "f/fzd.html",
-            "root_json_href": "f/fzd.json"
-        },
-        {
-            "root": "fzs",
-            "root_meaning": "創造精神肉体",
-            "root_html_href": "f/fzs.html",
-            "root_json_href": "f/fzs.json"
-        },
-        {
-            "root": "fzz",
-            "root_meaning": "創造精神精神",
-            "root_html_href": "f/fzz.html",
-            "root_json_href": "f/fzz.json"
-        },
-        {
-            "root": "fzq",
-            "root_meaning": "創造精神空白",
-            "root_html_href": "f/fzq.html",
-            "root_json_href": "f/fzq.json"
-        },
-        {
-            "root": "fzc",
-            "root_meaning": "創造精神物質",
-            "root_html_href": "f/fzc.html",
-            "root_json_href": "f/fzc.json"
-        },
-        {
-            "root": "fzr",
-            "root_meaning": "創造精神過去",
-            "root_html_href": "f/fzr.html",
-            "root_json_href": "f/fzr.json"
-        },
-        {
-            "root": "fzl",
-            "root_meaning": "創造精神未来",
-            "root_html_href": "f/fzl.html",
-            "root_json_href": "f/fzl.json"
-        },
-        {
-            "root": "fzp",
-            "root_meaning": "創造精神鎮静",
-            "root_html_href": "f/fzp.html",
-            "root_json_href": "f/fzp.json"
-        },
-        {
-            "root": "fzb",
-            "root_meaning": "創造精神高揚",
-            "root_html_href": "f/fzb.html",
-            "root_json_href": "f/fzb.json"
-        },
-        {
-            "root": "fzh",
-            "root_meaning": "創造精神受動",
-            "root_html_href": "f/fzh.html",
-            "root_json_href": "f/fzh.json"
-        },
-        {
-            "root": "fzx",
-            "root_meaning": "創造精神能動",
-            "root_html_href": "f/fzx.html",
-            "root_json_href": "f/fzx.json"
-        },
-        {
-            "root": "fzf",
-            "root_meaning": "創造精神創造",
-            "root_html_href": "f/fzf.html",
-            "root_json_href": "f/fzf.json"
-        },
-        {
-            "root": "fzv",
-            "root_meaning": "創造精神破壊",
-            "root_html_href": "f/fzv.html",
-            "root_json_href": "f/fzv.json"
-        },
-        {
-            "root": "fzm",
-            "root_meaning": "創造精神流動",
-            "root_html_href": "f/fzm.html",
-            "root_json_href": "f/fzm.json"
-        },
-        {
-            "root": "fzn",
-            "root_meaning": "創造精神固定",
-            "root_html_href": "f/fzn.html",
-            "root_json_href": "f/fzn.json"
-        },
-        {
-            "root": "fqk",
-            "root_meaning": "創造空白剥離",
-            "root_html_href": "f/fqk.html",
-            "root_json_href": "f/fqk.json"
-        },
-        {
-            "root": "fqg",
-            "root_meaning": "創造空白癒着",
-            "root_html_href": "f/fqg.html",
-            "root_json_href": "f/fqg.json"
-        },
-        {
-            "root": "fqt",
-            "root_meaning": "創造空白乖離",
-            "root_html_href": "f/fqt.html",
-            "root_json_href": "f/fqt.json"
-        },
-        {
-            "root": "fqd",
-            "root_meaning": "創造空白同一",
-            "root_html_href": "f/fqd.html",
-            "root_json_href": "f/fqd.json"
-        },
-        {
-            "root": "fqs",
-            "root_meaning": "創造空白肉体",
-            "root_html_href": "f/fqs.html",
-            "root_json_href": "f/fqs.json"
-        },
-        {
-            "root": "fqz",
-            "root_meaning": "創造空白精神",
-            "root_html_href": "f/fqz.html",
-            "root_json_href": "f/fqz.json"
-        },
-        {
-            "root": "fqq",
-            "root_meaning": "創造空白空白",
-            "root_html_href": "f/fqq.html",
-            "root_json_href": "f/fqq.json"
-        },
-        {
-            "root": "fqc",
-            "root_meaning": "創造空白物質",
-            "root_html_href": "f/fqc.html",
-            "root_json_href": "f/fqc.json"
-        },
-        {
-            "root": "fqr",
-            "root_meaning": "創造空白過去",
-            "root_html_href": "f/fqr.html",
-            "root_json_href": "f/fqr.json"
-        },
-        {
-            "root": "fql",
-            "root_meaning": "創造空白未来",
-            "root_html_href": "f/fql.html",
-            "root_json_href": "f/fql.json"
-        },
-        {
-            "root": "fqp",
-            "root_meaning": "創造空白鎮静",
-            "root_html_href": "f/fqp.html",
-            "root_json_href": "f/fqp.json"
-        },
-        {
-            "root": "fqb",
-            "root_meaning": "創造空白高揚",
-            "root_html_href": "f/fqb.html",
-            "root_json_href": "f/fqb.json"
-        },
-        {
-            "root": "fqh",
-            "root_meaning": "創造空白受動",
-            "root_html_href": "f/fqh.html",
-            "root_json_href": "f/fqh.json"
-        },
-        {
-            "root": "fqx",
-            "root_meaning": "創造空白能動",
-            "root_html_href": "f/fqx.html",
-            "root_json_href": "f/fqx.json"
-        },
-        {
-            "root": "fqf",
-            "root_meaning": "創造空白創造",
-            "root_html_href": "f/fqf.html",
-            "root_json_href": "f/fqf.json"
-        },
-        {
-            "root": "fqv",
-            "root_meaning": "創造空白破壊",
-            "root_html_href": "f/fqv.html",
-            "root_json_href": "f/fqv.json"
-        },
-        {
-            "root": "fqm",
-            "root_meaning": "創造空白流動",
-            "root_html_href": "f/fqm.html",
-            "root_json_href": "f/fqm.json"
-        },
-        {
-            "root": "fqn",
-            "root_meaning": "創造空白固定",
-            "root_html_href": "f/fqn.html",
-            "root_json_href": "f/fqn.json"
-        },
-        {
-            "root": "fck",
-            "root_meaning": "創造物質剥離",
-            "root_html_href": "f/fck.html",
-            "root_json_href": "f/fck.json"
-        },
-        {
-            "root": "fcg",
-            "root_meaning": "創造物質癒着",
-            "root_html_href": "f/fcg.html",
-            "root_json_href": "f/fcg.json"
-        },
-        {
-            "root": "fct",
-            "root_meaning": "創造物質乖離",
-            "root_html_href": "f/fct.html",
-            "root_json_href": "f/fct.json"
-        },
-        {
-            "root": "fcd",
-            "root_meaning": "創造物質同一",
-            "root_html_href": "f/fcd.html",
-            "root_json_href": "f/fcd.json"
-        },
-        {
-            "root": "fcs",
-            "root_meaning": "創造物質肉体",
-            "root_html_href": "f/fcs.html",
-            "root_json_href": "f/fcs.json"
-        },
-        {
-            "root": "fcz",
-            "root_meaning": "創造物質精神",
-            "root_html_href": "f/fcz.html",
-            "root_json_href": "f/fcz.json"
-        },
-        {
-            "root": "fcq",
-            "root_meaning": "創造物質空白",
-            "root_html_href": "f/fcq.html",
-            "root_json_href": "f/fcq.json"
-        },
-        {
-            "root": "fcc",
-            "root_meaning": "創造物質物質",
-            "root_html_href": "f/fcc.html",
-            "root_json_href": "f/fcc.json"
-        },
-        {
-            "root": "fcr",
-            "root_meaning": "創造物質過去",
-            "root_html_href": "f/fcr.html",
-            "root_json_href": "f/fcr.json"
-        },
-        {
-            "root": "fcl",
-            "root_meaning": "創造物質未来",
-            "root_html_href": "f/fcl.html",
-            "root_json_href": "f/fcl.json"
-        },
-        {
-            "root": "fcp",
-            "root_meaning": "創造物質鎮静",
-            "root_html_href": "f/fcp.html",
-            "root_json_href": "f/fcp.json"
-        },
-        {
-            "root": "fcb",
-            "root_meaning": "創造物質高揚",
-            "root_html_href": "f/fcb.html",
-            "root_json_href": "f/fcb.json"
-        },
-        {
-            "root": "fch",
-            "root_meaning": "創造物質受動",
-            "root_html_href": "f/fch.html",
-            "root_json_href": "f/fch.json"
-        },
-        {
-            "root": "fcx",
-            "root_meaning": "創造物質能動",
-            "root_html_href": "f/fcx.html",
-            "root_json_href": "f/fcx.json"
-        },
-        {
-            "root": "fcf",
-            "root_meaning": "創造物質創造",
-            "root_html_href": "f/fcf.html",
-            "root_json_href": "f/fcf.json"
-        },
-        {
-            "root": "fcv",
-            "root_meaning": "創造物質破壊",
-            "root_html_href": "f/fcv.html",
-            "root_json_href": "f/fcv.json"
-        },
-        {
-            "root": "fcm",
-            "root_meaning": "創造物質流動",
-            "root_html_href": "f/fcm.html",
-            "root_json_href": "f/fcm.json"
-        },
-        {
-            "root": "fcn",
-            "root_meaning": "創造物質固定",
-            "root_html_href": "f/fcn.html",
-            "root_json_href": "f/fcn.json"
-        },
-        {
-            "root": "frk",
-            "root_meaning": "創造過去剥離",
-            "root_html_href": "f/frk.html",
-            "root_json_href": "f/frk.json"
-        },
-        {
-            "root": "frg",
-            "root_meaning": "創造過去癒着",
-            "root_html_href": "f/frg.html",
-            "root_json_href": "f/frg.json"
-        },
-        {
-            "root": "frt",
-            "root_meaning": "創造過去乖離",
-            "root_html_href": "f/frt.html",
-            "root_json_href": "f/frt.json"
-        },
-        {
-            "root": "frd",
-            "root_meaning": "創造過去同一",
-            "root_html_href": "f/frd.html",
-            "root_json_href": "f/frd.json"
-        },
-        {
-            "root": "frs",
-            "root_meaning": "創造過去肉体",
-            "root_html_href": "f/frs.html",
-            "root_json_href": "f/frs.json"
-        },
-        {
-            "root": "frz",
-            "root_meaning": "創造過去精神",
-            "root_html_href": "f/frz.html",
-            "root_json_href": "f/frz.json"
-        },
-        {
-            "root": "frq",
-            "root_meaning": "創造過去空白",
-            "root_html_href": "f/frq.html",
-            "root_json_href": "f/frq.json"
-        },
-        {
-            "root": "frc",
-            "root_meaning": "創造過去物質",
-            "root_html_href": "f/frc.html",
-            "root_json_href": "f/frc.json"
-        },
-        {
-            "root": "frr",
-            "root_meaning": "創造過去過去",
-            "root_html_href": "f/frr.html",
-            "root_json_href": "f/frr.json"
-        },
-        {
-            "root": "frl",
-            "root_meaning": "創造過去未来",
-            "root_html_href": "f/frl.html",
-            "root_json_href": "f/frl.json"
-        },
-        {
-            "root": "frp",
-            "root_meaning": "創造過去鎮静",
-            "root_html_href": "f/frp.html",
-            "root_json_href": "f/frp.json"
-        },
-        {
-            "root": "frb",
-            "root_meaning": "創造過去高揚",
-            "root_html_href": "f/frb.html",
-            "root_json_href": "f/frb.json"
-        },
-        {
-            "root": "frh",
-            "root_meaning": "創造過去受動",
-            "root_html_href": "f/frh.html",
-            "root_json_href": "f/frh.json"
-        },
-        {
-            "root": "frx",
-            "root_meaning": "創造過去能動",
-            "root_html_href": "f/frx.html",
-            "root_json_href": "f/frx.json"
-        },
-        {
-            "root": "frf",
-            "root_meaning": "創造過去創造",
-            "root_html_href": "f/frf.html",
-            "root_json_href": "f/frf.json"
-        },
-        {
-            "root": "frv",
-            "root_meaning": "創造過去破壊",
-            "root_html_href": "f/frv.html",
-            "root_json_href": "f/frv.json"
-        },
-        {
-            "root": "frm",
-            "root_meaning": "創造過去流動",
-            "root_html_href": "f/frm.html",
-            "root_json_href": "f/frm.json"
-        },
-        {
-            "root": "frn",
-            "root_meaning": "創造過去固定",
-            "root_html_href": "f/frn.html",
-            "root_json_href": "f/frn.json"
-        },
-        {
-            "root": "flk",
-            "root_meaning": "創造未来剥離",
-            "root_html_href": "f/flk.html",
-            "root_json_href": "f/flk.json"
-        },
-        {
-            "root": "flg",
-            "root_meaning": "創造未来癒着",
-            "root_html_href": "f/flg.html",
-            "root_json_href": "f/flg.json"
-        },
-        {
-            "root": "flt",
-            "root_meaning": "創造未来乖離",
-            "root_html_href": "f/flt.html",
-            "root_json_href": "f/flt.json"
-        },
-        {
-            "root": "fld",
-            "root_meaning": "創造未来同一",
-            "root_html_href": "f/fld.html",
-            "root_json_href": "f/fld.json"
-        },
-        {
-            "root": "fls",
-            "root_meaning": "創造未来肉体",
-            "root_html_href": "f/fls.html",
-            "root_json_href": "f/fls.json"
-        },
-        {
-            "root": "flz",
-            "root_meaning": "創造未来精神",
-            "root_html_href": "f/flz.html",
-            "root_json_href": "f/flz.json"
-        },
-        {
-            "root": "flq",
-            "root_meaning": "創造未来空白",
-            "root_html_href": "f/flq.html",
-            "root_json_href": "f/flq.json"
-        },
-        {
-            "root": "flc",
-            "root_meaning": "創造未来物質",
-            "root_html_href": "f/flc.html",
-            "root_json_href": "f/flc.json"
-        },
-        {
-            "root": "flr",
-            "root_meaning": "創造未来過去",
-            "root_html_href": "f/flr.html",
-            "root_json_href": "f/flr.json"
-        },
-        {
-            "root": "fll",
-            "root_meaning": "創造未来未来",
-            "root_html_href": "f/fll.html",
-            "root_json_href": "f/fll.json"
-        },
-        {
-            "root": "flp",
-            "root_meaning": "創造未来鎮静",
-            "root_html_href": "f/flp.html",
-            "root_json_href": "f/flp.json"
-        },
-        {
-            "root": "flb",
-            "root_meaning": "創造未来高揚",
-            "root_html_href": "f/flb.html",
-            "root_json_href": "f/flb.json"
-        },
-        {
-            "root": "flh",
-            "root_meaning": "創造未来受動",
-            "root_html_href": "f/flh.html",
-            "root_json_href": "f/flh.json"
-        },
-        {
-            "root": "flx",
-            "root_meaning": "創造未来能動",
-            "root_html_href": "f/flx.html",
-            "root_json_href": "f/flx.json"
-        },
-        {
-            "root": "flf",
-            "root_meaning": "創造未来創造",
-            "root_html_href": "f/flf.html",
-            "root_json_href": "f/flf.json"
-        },
-        {
-            "root": "flv",
-            "root_meaning": "創造未来破壊",
-            "root_html_href": "f/flv.html",
-            "root_json_href": "f/flv.json"
-        },
-        {
-            "root": "flm",
-            "root_meaning": "創造未来流動",
-            "root_html_href": "f/flm.html",
-            "root_json_href": "f/flm.json"
-        },
-        {
-            "root": "fln",
-            "root_meaning": "創造未来固定",
-            "root_html_href": "f/fln.html",
-            "root_json_href": "f/fln.json"
-        },
-        {
-            "root": "fpk",
-            "root_meaning": "創造鎮静剥離",
-            "root_html_href": "f/fpk.html",
-            "root_json_href": "f/fpk.json"
-        },
-        {
-            "root": "fpg",
-            "root_meaning": "創造鎮静癒着",
-            "root_html_href": "f/fpg.html",
-            "root_json_href": "f/fpg.json"
-        },
-        {
-            "root": "fpt",
-            "root_meaning": "創造鎮静乖離",
-            "root_html_href": "f/fpt.html",
-            "root_json_href": "f/fpt.json"
-        },
-        {
-            "root": "fpd",
-            "root_meaning": "創造鎮静同一",
-            "root_html_href": "f/fpd.html",
-            "root_json_href": "f/fpd.json"
-        },
-        {
-            "root": "fps",
-            "root_meaning": "創造鎮静肉体",
-            "root_html_href": "f/fps.html",
-            "root_json_href": "f/fps.json"
-        },
-        {
-            "root": "fpz",
-            "root_meaning": "創造鎮静精神",
-            "root_html_href": "f/fpz.html",
-            "root_json_href": "f/fpz.json"
-        },
-        {
-            "root": "fpq",
-            "root_meaning": "創造鎮静空白",
-            "root_html_href": "f/fpq.html",
-            "root_json_href": "f/fpq.json"
-        },
-        {
-            "root": "fpc",
-            "root_meaning": "創造鎮静物質",
-            "root_html_href": "f/fpc.html",
-            "root_json_href": "f/fpc.json"
-        },
-        {
-            "root": "fpr",
-            "root_meaning": "創造鎮静過去",
-            "root_html_href": "f/fpr.html",
-            "root_json_href": "f/fpr.json"
-        },
-        {
-            "root": "fpl",
-            "root_meaning": "創造鎮静未来",
-            "root_html_href": "f/fpl.html",
-            "root_json_href": "f/fpl.json"
-        },
-        {
-            "root": "fpp",
-            "root_meaning": "創造鎮静鎮静",
-            "root_html_href": "f/fpp.html",
-            "root_json_href": "f/fpp.json"
-        },
-        {
-            "root": "fpb",
-            "root_meaning": "創造鎮静高揚",
-            "root_html_href": "f/fpb.html",
-            "root_json_href": "f/fpb.json"
-        },
-        {
-            "root": "fph",
-            "root_meaning": "創造鎮静受動",
-            "root_html_href": "f/fph.html",
-            "root_json_href": "f/fph.json"
-        },
-        {
-            "root": "fpx",
-            "root_meaning": "創造鎮静能動",
-            "root_html_href": "f/fpx.html",
-            "root_json_href": "f/fpx.json"
-        },
-        {
-            "root": "fpf",
-            "root_meaning": "創造鎮静創造",
-            "root_html_href": "f/fpf.html",
-            "root_json_href": "f/fpf.json"
-        },
-        {
-            "root": "fpv",
-            "root_meaning": "創造鎮静破壊",
-            "root_html_href": "f/fpv.html",
-            "root_json_href": "f/fpv.json"
-        },
-        {
-            "root": "fpm",
-            "root_meaning": "創造鎮静流動",
-            "root_html_href": "f/fpm.html",
-            "root_json_href": "f/fpm.json"
-        },
-        {
-            "root": "fpn",
-            "root_meaning": "創造鎮静固定",
-            "root_html_href": "f/fpn.html",
-            "root_json_href": "f/fpn.json"
-        },
-        {
-            "root": "fbk",
-            "root_meaning": "創造高揚剥離",
-            "root_html_href": "f/fbk.html",
-            "root_json_href": "f/fbk.json"
-        },
-        {
-            "root": "fbg",
-            "root_meaning": "創造高揚癒着",
-            "root_html_href": "f/fbg.html",
-            "root_json_href": "f/fbg.json"
-        },
-        {
-            "root": "fbt",
-            "root_meaning": "創造高揚乖離",
-            "root_html_href": "f/fbt.html",
-            "root_json_href": "f/fbt.json"
-        },
-        {
-            "root": "fbd",
-            "root_meaning": "創造高揚同一",
-            "root_html_href": "f/fbd.html",
-            "root_json_href": "f/fbd.json"
-        },
-        {
-            "root": "fbs",
-            "root_meaning": "創造高揚肉体",
-            "root_html_href": "f/fbs.html",
-            "root_json_href": "f/fbs.json"
-        },
-        {
-            "root": "fbz",
-            "root_meaning": "創造高揚精神",
-            "root_html_href": "f/fbz.html",
-            "root_json_href": "f/fbz.json"
-        },
-        {
-            "root": "fbq",
-            "root_meaning": "創造高揚空白",
-            "root_html_href": "f/fbq.html",
-            "root_json_href": "f/fbq.json"
-        },
-        {
-            "root": "fbc",
-            "root_meaning": "創造高揚物質",
-            "root_html_href": "f/fbc.html",
-            "root_json_href": "f/fbc.json"
-        },
-        {
-            "root": "fbr",
-            "root_meaning": "創造高揚過去",
-            "root_html_href": "f/fbr.html",
-            "root_json_href": "f/fbr.json"
-        },
-        {
-            "root": "fbl",
-            "root_meaning": "創造高揚未来",
-            "root_html_href": "f/fbl.html",
-            "root_json_href": "f/fbl.json"
-        },
-        {
-            "root": "fbp",
-            "root_meaning": "創造高揚鎮静",
-            "root_html_href": "f/fbp.html",
-            "root_json_href": "f/fbp.json"
-        },
-        {
-            "root": "fbb",
-            "root_meaning": "創造高揚高揚",
-            "root_html_href": "f/fbb.html",
-            "root_json_href": "f/fbb.json"
-        },
-        {
-            "root": "fbh",
-            "root_meaning": "創造高揚受動",
-            "root_html_href": "f/fbh.html",
-            "root_json_href": "f/fbh.json"
-        },
-        {
-            "root": "fbx",
-            "root_meaning": "創造高揚能動",
-            "root_html_href": "f/fbx.html",
-            "root_json_href": "f/fbx.json"
-        },
-        {
-            "root": "fbf",
-            "root_meaning": "創造高揚創造",
-            "root_html_href": "f/fbf.html",
-            "root_json_href": "f/fbf.json"
-        },
-        {
-            "root": "fbv",
-            "root_meaning": "創造高揚破壊",
-            "root_html_href": "f/fbv.html",
-            "root_json_href": "f/fbv.json"
-        },
-        {
-            "root": "fbm",
-            "root_meaning": "創造高揚流動",
-            "root_html_href": "f/fbm.html",
-            "root_json_href": "f/fbm.json"
-        },
-        {
-            "root": "fbn",
-            "root_meaning": "創造高揚固定",
-            "root_html_href": "f/fbn.html",
-            "root_json_href": "f/fbn.json"
-        },
-        {
-            "root": "fhk",
-            "root_meaning": "創造受動剥離",
-            "root_html_href": "f/fhk.html",
-            "root_json_href": "f/fhk.json"
-        },
-        {
-            "root": "fhg",
-            "root_meaning": "創造受動癒着",
-            "root_html_href": "f/fhg.html",
-            "root_json_href": "f/fhg.json"
-        },
-        {
-            "root": "fht",
-            "root_meaning": "創造受動乖離",
-            "root_html_href": "f/fht.html",
-            "root_json_href": "f/fht.json"
-        },
-        {
-            "root": "fhd",
-            "root_meaning": "創造受動同一",
-            "root_html_href": "f/fhd.html",
-            "root_json_href": "f/fhd.json"
-        },
-        {
-            "root": "fhs",
-            "root_meaning": "創造受動肉体",
-            "root_html_href": "f/fhs.html",
-            "root_json_href": "f/fhs.json"
-        },
-        {
-            "root": "fhz",
-            "root_meaning": "創造受動精神",
-            "root_html_href": "f/fhz.html",
-            "root_json_href": "f/fhz.json"
-        },
-        {
-            "root": "fhq",
-            "root_meaning": "創造受動空白",
-            "root_html_href": "f/fhq.html",
-            "root_json_href": "f/fhq.json"
-        },
-        {
-            "root": "fhc",
-            "root_meaning": "創造受動物質",
-            "root_html_href": "f/fhc.html",
-            "root_json_href": "f/fhc.json"
-        },
-        {
-            "root": "fhr",
-            "root_meaning": "創造受動過去",
-            "root_html_href": "f/fhr.html",
-            "root_json_href": "f/fhr.json"
-        },
-        {
-            "root": "fhl",
-            "root_meaning": "創造受動未来",
-            "root_html_href": "f/fhl.html",
-            "root_json_href": "f/fhl.json"
-        },
-        {
-            "root": "fhp",
-            "root_meaning": "創造受動鎮静",
-            "root_html_href": "f/fhp.html",
-            "root_json_href": "f/fhp.json"
-        },
-        {
-            "root": "fhb",
-            "root_meaning": "創造受動高揚",
-            "root_html_href": "f/fhb.html",
-            "root_json_href": "f/fhb.json"
-        },
-        {
-            "root": "fhh",
-            "root_meaning": "創造受動受動",
-            "root_html_href": "f/fhh.html",
-            "root_json_href": "f/fhh.json"
-        },
-        {
-            "root": "fhx",
-            "root_meaning": "創造受動能動",
-            "root_html_href": "f/fhx.html",
-            "root_json_href": "f/fhx.json"
-        },
-        {
-            "root": "fhf",
-            "root_meaning": "創造受動創造",
-            "root_html_href": "f/fhf.html",
-            "root_json_href": "f/fhf.json"
-        },
-        {
-            "root": "fhv",
-            "root_meaning": "創造受動破壊",
-            "root_html_href": "f/fhv.html",
-            "root_json_href": "f/fhv.json"
-        },
-        {
-            "root": "fhm",
-            "root_meaning": "創造受動流動",
-            "root_html_href": "f/fhm.html",
-            "root_json_href": "f/fhm.json"
-        },
-        {
-            "root": "fhn",
-            "root_meaning": "創造受動固定",
-            "root_html_href": "f/fhn.html",
-            "root_json_href": "f/fhn.json"
-        },
-        {
-            "root": "fxk",
-            "root_meaning": "創造能動剥離",
-            "root_html_href": "f/fxk.html",
-            "root_json_href": "f/fxk.json"
-        },
-        {
-            "root": "fxg",
-            "root_meaning": "創造能動癒着",
-            "root_html_href": "f/fxg.html",
-            "root_json_href": "f/fxg.json"
-        },
-        {
-            "root": "fxt",
-            "root_meaning": "創造能動乖離",
-            "root_html_href": "f/fxt.html",
-            "root_json_href": "f/fxt.json"
-        },
-        {
-            "root": "fxd",
-            "root_meaning": "創造能動同一",
-            "root_html_href": "f/fxd.html",
-            "root_json_href": "f/fxd.json"
-        },
-        {
-            "root": "fxs",
-            "root_meaning": "創造能動肉体",
-            "root_html_href": "f/fxs.html",
-            "root_json_href": "f/fxs.json"
-        },
-        {
-            "root": "fxz",
-            "root_meaning": "創造能動精神",
-            "root_html_href": "f/fxz.html",
-            "root_json_href": "f/fxz.json"
-        },
-        {
-            "root": "fxq",
-            "root_meaning": "創造能動空白",
-            "root_html_href": "f/fxq.html",
-            "root_json_href": "f/fxq.json"
-        },
-        {
-            "root": "fxc",
-            "root_meaning": "創造能動物質",
-            "root_html_href": "f/fxc.html",
-            "root_json_href": "f/fxc.json"
-        },
-        {
-            "root": "fxr",
-            "root_meaning": "創造能動過去",
-            "root_html_href": "f/fxr.html",
-            "root_json_href": "f/fxr.json"
-        },
-        {
-            "root": "fxl",
-            "root_meaning": "創造能動未来",
-            "root_html_href": "f/fxl.html",
-            "root_json_href": "f/fxl.json"
-        },
-        {
-            "root": "fxp",
-            "root_meaning": "創造能動鎮静",
-            "root_html_href": "f/fxp.html",
-            "root_json_href": "f/fxp.json"
-        },
-        {
-            "root": "fxb",
-            "root_meaning": "創造能動高揚",
-            "root_html_href": "f/fxb.html",
-            "root_json_href": "f/fxb.json"
-        },
-        {
-            "root": "fxh",
-            "root_meaning": "創造能動受動",
-            "root_html_href": "f/fxh.html",
-            "root_json_href": "f/fxh.json"
-        },
-        {
-            "root": "fxx",
-            "root_meaning": "創造能動能動",
-            "root_html_href": "f/fxx.html",
-            "root_json_href": "f/fxx.json"
-        },
-        {
-            "root": "fxf",
-            "root_meaning": "創造能動創造",
-            "root_html_href": "f/fxf.html",
-            "root_json_href": "f/fxf.json"
-        },
-        {
-            "root": "fxv",
-            "root_meaning": "創造能動破壊",
-            "root_html_href": "f/fxv.html",
-            "root_json_href": "f/fxv.json"
-        },
-        {
-            "root": "fxm",
-            "root_meaning": "創造能動流動",
-            "root_html_href": "f/fxm.html",
-            "root_json_href": "f/fxm.json"
-        },
-        {
-            "root": "fxn",
-            "root_meaning": "創造能動固定",
-            "root_html_href": "f/fxn.html",
-            "root_json_href": "f/fxn.json"
-        },
-        {
-            "root": "ffk",
-            "root_meaning": "創造創造剥離",
-            "root_html_href": "f/ffk.html",
-            "root_json_href": "f/ffk.json"
-        },
-        {
-            "root": "ffg",
-            "root_meaning": "創造創造癒着",
-            "root_html_href": "f/ffg.html",
-            "root_json_href": "f/ffg.json"
-        },
-        {
-            "root": "fft",
-            "root_meaning": "創造創造乖離",
-            "root_html_href": "f/fft.html",
-            "root_json_href": "f/fft.json"
-        },
-        {
-            "root": "ffd",
-            "root_meaning": "創造創造同一",
-            "root_html_href": "f/ffd.html",
-            "root_json_href": "f/ffd.json"
-        },
-        {
-            "root": "ffs",
-            "root_meaning": "創造創造肉体",
-            "root_html_href": "f/ffs.html",
-            "root_json_href": "f/ffs.json"
-        },
-        {
-            "root": "ffz",
-            "root_meaning": "創造創造精神",
-            "root_html_href": "f/ffz.html",
-            "root_json_href": "f/ffz.json"
-        },
-        {
-            "root": "ffq",
-            "root_meaning": "創造創造空白",
-            "root_html_href": "f/ffq.html",
-            "root_json_href": "f/ffq.json"
-        },
-        {
-            "root": "ffc",
-            "root_meaning": "創造創造物質",
-            "root_html_href": "f/ffc.html",
-            "root_json_href": "f/ffc.json"
-        },
-        {
-            "root": "ffr",
-            "root_meaning": "創造創造過去",
-            "root_html_href": "f/ffr.html",
-            "root_json_href": "f/ffr.json"
-        },
-        {
-            "root": "ffl",
-            "root_meaning": "創造創造未来",
-            "root_html_href": "f/ffl.html",
-            "root_json_href": "f/ffl.json"
-        },
-        {
-            "root": "ffp",
-            "root_meaning": "創造創造鎮静",
-            "root_html_href": "f/ffp.html",
-            "root_json_href": "f/ffp.json"
-        },
-        {
-            "root": "ffb",
-            "root_meaning": "創造創造高揚",
-            "root_html_href": "f/ffb.html",
-            "root_json_href": "f/ffb.json"
-        },
-        {
-            "root": "ffh",
-            "root_meaning": "創造創造受動",
-            "root_html_href": "f/ffh.html",
-            "root_json_href": "f/ffh.json"
-        },
-        {
-            "root": "ffx",
-            "root_meaning": "創造創造能動",
-            "root_html_href": "f/ffx.html",
-            "root_json_href": "f/ffx.json"
-        },
-        {
-            "root": "fff",
-            "root_meaning": "創造創造創造",
-            "root_html_href": "f/fff.html",
-            "root_json_href": "f/fff.json"
-        },
-        {
-            "root": "ffv",
-            "root_meaning": "創造創造破壊",
-            "root_html_href": "f/ffv.html",
-            "root_json_href": "f/ffv.json"
-        },
-        {
-            "root": "ffm",
-            "root_meaning": "創造創造流動",
-            "root_html_href": "f/ffm.html",
-            "root_json_href": "f/ffm.json"
-        },
-        {
-            "root": "ffn",
-            "root_meaning": "創造創造固定",
-            "root_html_href": "f/ffn.html",
-            "root_json_href": "f/ffn.json"
-        },
-        {
-            "root": "fvk",
-            "root_meaning": "創造破壊剥離",
-            "root_html_href": "f/fvk.html",
-            "root_json_href": "f/fvk.json"
-        },
-        {
-            "root": "fvg",
-            "root_meaning": "創造破壊癒着",
-            "root_html_href": "f/fvg.html",
-            "root_json_href": "f/fvg.json"
-        },
-        {
-            "root": "fvt",
-            "root_meaning": "創造破壊乖離",
-            "root_html_href": "f/fvt.html",
-            "root_json_href": "f/fvt.json"
-        },
-        {
-            "root": "fvd",
-            "root_meaning": "創造破壊同一",
-            "root_html_href": "f/fvd.html",
-            "root_json_href": "f/fvd.json"
-        },
-        {
-            "root": "fvs",
-            "root_meaning": "創造破壊肉体",
-            "root_html_href": "f/fvs.html",
-            "root_json_href": "f/fvs.json"
-        },
-        {
-            "root": "fvz",
-            "root_meaning": "創造破壊精神",
-            "root_html_href": "f/fvz.html",
-            "root_json_href": "f/fvz.json"
-        },
-        {
-            "root": "fvq",
-            "root_meaning": "創造破壊空白",
-            "root_html_href": "f/fvq.html",
-            "root_json_href": "f/fvq.json"
-        },
-        {
-            "root": "fvc",
-            "root_meaning": "創造破壊物質",
-            "root_html_href": "f/fvc.html",
-            "root_json_href": "f/fvc.json"
-        },
-        {
-            "root": "fvr",
-            "root_meaning": "創造破壊過去",
-            "root_html_href": "f/fvr.html",
-            "root_json_href": "f/fvr.json"
-        },
-        {
-            "root": "fvl",
-            "root_meaning": "創造破壊未来",
-            "root_html_href": "f/fvl.html",
-            "root_json_href": "f/fvl.json"
-        },
-        {
-            "root": "fvp",
-            "root_meaning": "創造破壊鎮静",
-            "root_html_href": "f/fvp.html",
-            "root_json_href": "f/fvp.json"
-        },
-        {
-            "root": "fvb",
-            "root_meaning": "創造破壊高揚",
-            "root_html_href": "f/fvb.html",
-            "root_json_href": "f/fvb.json"
-        },
-        {
-            "root": "fvh",
-            "root_meaning": "創造破壊受動",
-            "root_html_href": "f/fvh.html",
-            "root_json_href": "f/fvh.json"
-        },
-        {
-            "root": "fvx",
-            "root_meaning": "創造破壊能動",
-            "root_html_href": "f/fvx.html",
-            "root_json_href": "f/fvx.json"
-        },
-        {
-            "root": "fvf",
-            "root_meaning": "創造破壊創造",
-            "root_html_href": "f/fvf.html",
-            "root_json_href": "f/fvf.json"
-        },
-        {
-            "root": "fvv",
-            "root_meaning": "創造破壊破壊",
-            "root_html_href": "f/fvv.html",
-            "root_json_href": "f/fvv.json"
-        },
-        {
-            "root": "fvm",
-            "root_meaning": "創造破壊流動",
-            "root_html_href": "f/fvm.html",
-            "root_json_href": "f/fvm.json"
-        },
-        {
-            "root": "fvn",
-            "root_meaning": "創造破壊固定",
-            "root_html_href": "f/fvn.html",
-            "root_json_href": "f/fvn.json"
-        },
-        {
-            "root": "fmk",
-            "root_meaning": "創造流動剥離",
-            "root_html_href": "f/fmk.html",
-            "root_json_href": "f/fmk.json"
-        },
-        {
-            "root": "fmg",
-            "root_meaning": "創造流動癒着",
-            "root_html_href": "f/fmg.html",
-            "root_json_href": "f/fmg.json"
-        },
-        {
-            "root": "fmt",
-            "root_meaning": "創造流動乖離",
-            "root_html_href": "f/fmt.html",
-            "root_json_href": "f/fmt.json"
-        },
-        {
-            "root": "fmd",
-            "root_meaning": "創造流動同一",
-            "root_html_href": "f/fmd.html",
-            "root_json_href": "f/fmd.json"
-        },
-        {
-            "root": "fms",
-            "root_meaning": "創造流動肉体",
-            "root_html_href": "f/fms.html",
-            "root_json_href": "f/fms.json"
-        },
-        {
-            "root": "fmz",
-            "root_meaning": "創造流動精神",
-            "root_html_href": "f/fmz.html",
-            "root_json_href": "f/fmz.json"
-        },
-        {
-            "root": "fmq",
-            "root_meaning": "創造流動空白",
-            "root_html_href": "f/fmq.html",
-            "root_json_href": "f/fmq.json"
-        },
-        {
-            "root": "fmc",
-            "root_meaning": "創造流動物質",
-            "root_html_href": "f/fmc.html",
-            "root_json_href": "f/fmc.json"
-        },
-        {
-            "root": "fmr",
-            "root_meaning": "創造流動過去",
-            "root_html_href": "f/fmr.html",
-            "root_json_href": "f/fmr.json"
-        },
-        {
-            "root": "fml",
-            "root_meaning": "創造流動未来",
-            "root_html_href": "f/fml.html",
-            "root_json_href": "f/fml.json"
-        },
-        {
-            "root": "fmp",
-            "root_meaning": "創造流動鎮静",
-            "root_html_href": "f/fmp.html",
-            "root_json_href": "f/fmp.json"
-        },
-        {
-            "root": "fmb",
-            "root_meaning": "創造流動高揚",
-            "root_html_href": "f/fmb.html",
-            "root_json_href": "f/fmb.json"
-        },
-        {
-            "root": "fmh",
-            "root_meaning": "創造流動受動",
-            "root_html_href": "f/fmh.html",
-            "root_json_href": "f/fmh.json"
-        },
-        {
-            "root": "fmx",
-            "root_meaning": "創造流動能動",
-            "root_html_href": "f/fmx.html",
-            "root_json_href": "f/fmx.json"
-        },
-        {
-            "root": "fmf",
-            "root_meaning": "創造流動創造",
-            "root_html_href": "f/fmf.html",
-            "root_json_href": "f/fmf.json"
-        },
-        {
-            "root": "fmv",
-            "root_meaning": "創造流動破壊",
-            "root_html_href": "f/fmv.html",
-            "root_json_href": "f/fmv.json"
-        },
-        {
-            "root": "fmm",
-            "root_meaning": "創造流動流動",
-            "root_html_href": "f/fmm.html",
-            "root_json_href": "f/fmm.json"
-        },
-        {
-            "root": "fmn",
-            "root_meaning": "創造流動固定",
-            "root_html_href": "f/fmn.html",
-            "root_json_href": "f/fmn.json"
-        },
-        {
-            "root": "fnk",
-            "root_meaning": "創造固定剥離",
-            "root_html_href": "f/fnk.html",
-            "root_json_href": "f/fnk.json"
-        },
-        {
-            "root": "fng",
-            "root_meaning": "創造固定癒着",
-            "root_html_href": "f/fng.html",
-            "root_json_href": "f/fng.json"
-        },
-        {
-            "root": "fnt",
-            "root_meaning": "創造固定乖離",
-            "root_html_href": "f/fnt.html",
-            "root_json_href": "f/fnt.json"
-        },
-        {
-            "root": "fnd",
-            "root_meaning": "創造固定同一",
-            "root_html_href": "f/fnd.html",
-            "root_json_href": "f/fnd.json"
-        },
-        {
-            "root": "fns",
-            "root_meaning": "創造固定肉体",
-            "root_html_href": "f/fns.html",
-            "root_json_href": "f/fns.json"
-        },
-        {
-            "root": "fnz",
-            "root_meaning": "創造固定精神",
-            "root_html_href": "f/fnz.html",
-            "root_json_href": "f/fnz.json"
-        },
-        {
-            "root": "fnq",
-            "root_meaning": "創造固定空白",
-            "root_html_href": "f/fnq.html",
-            "root_json_href": "f/fnq.json"
-        },
-        {
-            "root": "fnc",
-            "root_meaning": "創造固定物質",
-            "root_html_href": "f/fnc.html",
-            "root_json_href": "f/fnc.json"
-        },
-        {
-            "root": "fnr",
-            "root_meaning": "創造固定過去",
-            "root_html_href": "f/fnr.html",
-            "root_json_href": "f/fnr.json"
-        },
-        {
-            "root": "fnl",
-            "root_meaning": "創造固定未来",
-            "root_html_href": "f/fnl.html",
-            "root_json_href": "f/fnl.json"
-        },
-        {
-            "root": "fnp",
-            "root_meaning": "創造固定鎮静",
-            "root_html_href": "f/fnp.html",
-            "root_json_href": "f/fnp.json"
-        },
-        {
-            "root": "fnb",
-            "root_meaning": "創造固定高揚",
-            "root_html_href": "f/fnb.html",
-            "root_json_href": "f/fnb.json"
-        },
-        {
-            "root": "fnh",
-            "root_meaning": "創造固定受動",
-            "root_html_href": "f/fnh.html",
-            "root_json_href": "f/fnh.json"
-        },
-        {
-            "root": "fnx",
-            "root_meaning": "創造固定能動",
-            "root_html_href": "f/fnx.html",
-            "root_json_href": "f/fnx.json"
-        },
-        {
-            "root": "fnf",
-            "root_meaning": "創造固定創造",
-            "root_html_href": "f/fnf.html",
-            "root_json_href": "f/fnf.json"
-        },
-        {
-            "root": "fnv",
-            "root_meaning": "創造固定破壊",
-            "root_html_href": "f/fnv.html",
-            "root_json_href": "f/fnv.json"
-        },
-        {
-            "root": "fnm",
-            "root_meaning": "創造固定流動",
-            "root_html_href": "f/fnm.html",
-            "root_json_href": "f/fnm.json"
-        },
-        {
-            "root": "fnn",
-            "root_meaning": "創造固定固定",
-            "root_html_href": "f/fnn.html",
-            "root_json_href": "f/fnn.json"
-        }
+        { "root": "fkk", "root_meaning": "創造剥離剥離", "root_html_href": "f/fkk.html" },
+        { "root": "fkg", "root_meaning": "創造剥離癒着", "root_html_href": "f/fkg.html" },
+        { "root": "fkt", "root_meaning": "創造剥離乖離", "root_html_href": "f/fkt.html" },
+        { "root": "fkd", "root_meaning": "創造剥離同一", "root_html_href": "f/fkd.html" },
+        { "root": "fks", "root_meaning": "創造剥離肉体", "root_html_href": "f/fks.html" },
+        { "root": "fkz", "root_meaning": "創造剥離精神", "root_html_href": "f/fkz.html" },
+        { "root": "fkq", "root_meaning": "創造剥離空白", "root_html_href": "f/fkq.html" },
+        { "root": "fkc", "root_meaning": "創造剥離物質", "root_html_href": "f/fkc.html" },
+        { "root": "fkr", "root_meaning": "創造剥離過去", "root_html_href": "f/fkr.html" },
+        { "root": "fkl", "root_meaning": "創造剥離未来", "root_html_href": "f/fkl.html" },
+        { "root": "fkp", "root_meaning": "創造剥離鎮静", "root_html_href": "f/fkp.html" },
+        { "root": "fkb", "root_meaning": "創造剥離高揚", "root_html_href": "f/fkb.html" },
+        { "root": "fkh", "root_meaning": "創造剥離受動", "root_html_href": "f/fkh.html" },
+        { "root": "fkx", "root_meaning": "創造剥離能動", "root_html_href": "f/fkx.html" },
+        { "root": "fkf", "root_meaning": "創造剥離創造", "root_html_href": "f/fkf.html" },
+        { "root": "fkv", "root_meaning": "創造剥離破壊", "root_html_href": "f/fkv.html" },
+        { "root": "fkm", "root_meaning": "創造剥離流動", "root_html_href": "f/fkm.html" },
+        { "root": "fkn", "root_meaning": "創造剥離固定", "root_html_href": "f/fkn.html" },
+        { "root": "fgk", "root_meaning": "創造癒着剥離", "root_html_href": "f/fgk.html" },
+        { "root": "fgg", "root_meaning": "創造癒着癒着", "root_html_href": "f/fgg.html" },
+        { "root": "fgt", "root_meaning": "創造癒着乖離", "root_html_href": "f/fgt.html" },
+        { "root": "fgd", "root_meaning": "創造癒着同一", "root_html_href": "f/fgd.html" },
+        { "root": "fgs", "root_meaning": "創造癒着肉体", "root_html_href": "f/fgs.html" },
+        { "root": "fgz", "root_meaning": "創造癒着精神", "root_html_href": "f/fgz.html" },
+        { "root": "fgq", "root_meaning": "創造癒着空白", "root_html_href": "f/fgq.html" },
+        { "root": "fgc", "root_meaning": "創造癒着物質", "root_html_href": "f/fgc.html" },
+        { "root": "fgr", "root_meaning": "創造癒着過去", "root_html_href": "f/fgr.html" },
+        { "root": "fgl", "root_meaning": "創造癒着未来", "root_html_href": "f/fgl.html" },
+        { "root": "fgp", "root_meaning": "創造癒着鎮静", "root_html_href": "f/fgp.html" },
+        { "root": "fgb", "root_meaning": "創造癒着高揚", "root_html_href": "f/fgb.html" },
+        { "root": "fgh", "root_meaning": "創造癒着受動", "root_html_href": "f/fgh.html" },
+        { "root": "fgx", "root_meaning": "創造癒着能動", "root_html_href": "f/fgx.html" },
+        { "root": "fgf", "root_meaning": "創造癒着創造", "root_html_href": "f/fgf.html" },
+        { "root": "fgv", "root_meaning": "創造癒着破壊", "root_html_href": "f/fgv.html" },
+        { "root": "fgm", "root_meaning": "創造癒着流動", "root_html_href": "f/fgm.html" },
+        { "root": "fgn", "root_meaning": "創造癒着固定", "root_html_href": "f/fgn.html" },
+        { "root": "ftk", "root_meaning": "創造乖離剥離", "root_html_href": "f/ftk.html" },
+        { "root": "ftg", "root_meaning": "創造乖離癒着", "root_html_href": "f/ftg.html" },
+        { "root": "ftt", "root_meaning": "創造乖離乖離", "root_html_href": "f/ftt.html" },
+        { "root": "ftd", "root_meaning": "創造乖離同一", "root_html_href": "f/ftd.html" },
+        { "root": "fts", "root_meaning": "創造乖離肉体", "root_html_href": "f/fts.html" },
+        { "root": "ftz", "root_meaning": "創造乖離精神", "root_html_href": "f/ftz.html" },
+        { "root": "ftq", "root_meaning": "創造乖離空白", "root_html_href": "f/ftq.html" },
+        { "root": "ftc", "root_meaning": "創造乖離物質", "root_html_href": "f/ftc.html" },
+        { "root": "ftr", "root_meaning": "創造乖離過去", "root_html_href": "f/ftr.html" },
+        { "root": "ftl", "root_meaning": "創造乖離未来", "root_html_href": "f/ftl.html" },
+        { "root": "ftp", "root_meaning": "創造乖離鎮静", "root_html_href": "f/ftp.html" },
+        { "root": "ftb", "root_meaning": "創造乖離高揚", "root_html_href": "f/ftb.html" },
+        { "root": "fth", "root_meaning": "創造乖離受動", "root_html_href": "f/fth.html" },
+        { "root": "ftx", "root_meaning": "創造乖離能動", "root_html_href": "f/ftx.html" },
+        { "root": "ftf", "root_meaning": "創造乖離創造", "root_html_href": "f/ftf.html" },
+        { "root": "ftv", "root_meaning": "創造乖離破壊", "root_html_href": "f/ftv.html" },
+        { "root": "ftm", "root_meaning": "創造乖離流動", "root_html_href": "f/ftm.html" },
+        { "root": "ftn", "root_meaning": "創造乖離固定", "root_html_href": "f/ftn.html" },
+        { "root": "fdk", "root_meaning": "創造同一剥離", "root_html_href": "f/fdk.html" },
+        { "root": "fdg", "root_meaning": "創造同一癒着", "root_html_href": "f/fdg.html" },
+        { "root": "fdt", "root_meaning": "創造同一乖離", "root_html_href": "f/fdt.html" },
+        { "root": "fdd", "root_meaning": "創造同一同一", "root_html_href": "f/fdd.html" },
+        { "root": "fds", "root_meaning": "創造同一肉体", "root_html_href": "f/fds.html" },
+        { "root": "fdz", "root_meaning": "創造同一精神", "root_html_href": "f/fdz.html" },
+        { "root": "fdq", "root_meaning": "創造同一空白", "root_html_href": "f/fdq.html" },
+        { "root": "fdc", "root_meaning": "創造同一物質", "root_html_href": "f/fdc.html" },
+        { "root": "fdr", "root_meaning": "創造同一過去", "root_html_href": "f/fdr.html" },
+        { "root": "fdl", "root_meaning": "創造同一未来", "root_html_href": "f/fdl.html" },
+        { "root": "fdp", "root_meaning": "創造同一鎮静", "root_html_href": "f/fdp.html" },
+        { "root": "fdb", "root_meaning": "創造同一高揚", "root_html_href": "f/fdb.html" },
+        { "root": "fdh", "root_meaning": "創造同一受動", "root_html_href": "f/fdh.html" },
+        { "root": "fdx", "root_meaning": "創造同一能動", "root_html_href": "f/fdx.html" },
+        { "root": "fdf", "root_meaning": "創造同一創造", "root_html_href": "f/fdf.html" },
+        { "root": "fdv", "root_meaning": "創造同一破壊", "root_html_href": "f/fdv.html" },
+        { "root": "fdm", "root_meaning": "創造同一流動", "root_html_href": "f/fdm.html" },
+        { "root": "fdn", "root_meaning": "創造同一固定", "root_html_href": "f/fdn.html" },
+        { "root": "fsk", "root_meaning": "創造肉体剥離", "root_html_href": "f/fsk.html" },
+        { "root": "fsg", "root_meaning": "創造肉体癒着", "root_html_href": "f/fsg.html" },
+        { "root": "fst", "root_meaning": "創造肉体乖離", "root_html_href": "f/fst.html" },
+        { "root": "fsd", "root_meaning": "創造肉体同一", "root_html_href": "f/fsd.html" },
+        { "root": "fss", "root_meaning": "創造肉体肉体", "root_html_href": "f/fss.html" },
+        { "root": "fsz", "root_meaning": "創造肉体精神", "root_html_href": "f/fsz.html" },
+        { "root": "fsq", "root_meaning": "創造肉体空白", "root_html_href": "f/fsq.html" },
+        { "root": "fsc", "root_meaning": "創造肉体物質", "root_html_href": "f/fsc.html" },
+        { "root": "fsr", "root_meaning": "創造肉体過去", "root_html_href": "f/fsr.html" },
+        { "root": "fsl", "root_meaning": "創造肉体未来", "root_html_href": "f/fsl.html" },
+        { "root": "fsp", "root_meaning": "創造肉体鎮静", "root_html_href": "f/fsp.html" },
+        { "root": "fsb", "root_meaning": "創造肉体高揚", "root_html_href": "f/fsb.html" },
+        { "root": "fsh", "root_meaning": "創造肉体受動", "root_html_href": "f/fsh.html" },
+        { "root": "fsx", "root_meaning": "創造肉体能動", "root_html_href": "f/fsx.html" },
+        { "root": "fsf", "root_meaning": "創造肉体創造", "root_html_href": "f/fsf.html" },
+        { "root": "fsv", "root_meaning": "創造肉体破壊", "root_html_href": "f/fsv.html" },
+        { "root": "fsm", "root_meaning": "創造肉体流動", "root_html_href": "f/fsm.html" },
+        { "root": "fsn", "root_meaning": "創造肉体固定", "root_html_href": "f/fsn.html" },
+        { "root": "fzk", "root_meaning": "創造精神剥離", "root_html_href": "f/fzk.html" },
+        { "root": "fzg", "root_meaning": "創造精神癒着", "root_html_href": "f/fzg.html" },
+        { "root": "fzt", "root_meaning": "創造精神乖離", "root_html_href": "f/fzt.html" },
+        { "root": "fzd", "root_meaning": "創造精神同一", "root_html_href": "f/fzd.html" },
+        { "root": "fzs", "root_meaning": "創造精神肉体", "root_html_href": "f/fzs.html" },
+        { "root": "fzz", "root_meaning": "創造精神精神", "root_html_href": "f/fzz.html" },
+        { "root": "fzq", "root_meaning": "創造精神空白", "root_html_href": "f/fzq.html" },
+        { "root": "fzc", "root_meaning": "創造精神物質", "root_html_href": "f/fzc.html" },
+        { "root": "fzr", "root_meaning": "創造精神過去", "root_html_href": "f/fzr.html" },
+        { "root": "fzl", "root_meaning": "創造精神未来", "root_html_href": "f/fzl.html" },
+        { "root": "fzp", "root_meaning": "創造精神鎮静", "root_html_href": "f/fzp.html" },
+        { "root": "fzb", "root_meaning": "創造精神高揚", "root_html_href": "f/fzb.html" },
+        { "root": "fzh", "root_meaning": "創造精神受動", "root_html_href": "f/fzh.html" },
+        { "root": "fzx", "root_meaning": "創造精神能動", "root_html_href": "f/fzx.html" },
+        { "root": "fzf", "root_meaning": "創造精神創造", "root_html_href": "f/fzf.html" },
+        { "root": "fzv", "root_meaning": "創造精神破壊", "root_html_href": "f/fzv.html" },
+        { "root": "fzm", "root_meaning": "創造精神流動", "root_html_href": "f/fzm.html" },
+        { "root": "fzn", "root_meaning": "創造精神固定", "root_html_href": "f/fzn.html" },
+        { "root": "fqk", "root_meaning": "創造空白剥離", "root_html_href": "f/fqk.html" },
+        { "root": "fqg", "root_meaning": "創造空白癒着", "root_html_href": "f/fqg.html" },
+        { "root": "fqt", "root_meaning": "創造空白乖離", "root_html_href": "f/fqt.html" },
+        { "root": "fqd", "root_meaning": "創造空白同一", "root_html_href": "f/fqd.html" },
+        { "root": "fqs", "root_meaning": "創造空白肉体", "root_html_href": "f/fqs.html" },
+        { "root": "fqz", "root_meaning": "創造空白精神", "root_html_href": "f/fqz.html" },
+        { "root": "fqq", "root_meaning": "創造空白空白", "root_html_href": "f/fqq.html" },
+        { "root": "fqc", "root_meaning": "創造空白物質", "root_html_href": "f/fqc.html" },
+        { "root": "fqr", "root_meaning": "創造空白過去", "root_html_href": "f/fqr.html" },
+        { "root": "fql", "root_meaning": "創造空白未来", "root_html_href": "f/fql.html" },
+        { "root": "fqp", "root_meaning": "創造空白鎮静", "root_html_href": "f/fqp.html" },
+        { "root": "fqb", "root_meaning": "創造空白高揚", "root_html_href": "f/fqb.html" },
+        { "root": "fqh", "root_meaning": "創造空白受動", "root_html_href": "f/fqh.html" },
+        { "root": "fqx", "root_meaning": "創造空白能動", "root_html_href": "f/fqx.html" },
+        { "root": "fqf", "root_meaning": "創造空白創造", "root_html_href": "f/fqf.html" },
+        { "root": "fqv", "root_meaning": "創造空白破壊", "root_html_href": "f/fqv.html" },
+        { "root": "fqm", "root_meaning": "創造空白流動", "root_html_href": "f/fqm.html" },
+        { "root": "fqn", "root_meaning": "創造空白固定", "root_html_href": "f/fqn.html" },
+        { "root": "fck", "root_meaning": "創造物質剥離", "root_html_href": "f/fck.html" },
+        { "root": "fcg", "root_meaning": "創造物質癒着", "root_html_href": "f/fcg.html" },
+        { "root": "fct", "root_meaning": "創造物質乖離", "root_html_href": "f/fct.html" },
+        { "root": "fcd", "root_meaning": "創造物質同一", "root_html_href": "f/fcd.html" },
+        { "root": "fcs", "root_meaning": "創造物質肉体", "root_html_href": "f/fcs.html" },
+        { "root": "fcz", "root_meaning": "創造物質精神", "root_html_href": "f/fcz.html" },
+        { "root": "fcq", "root_meaning": "創造物質空白", "root_html_href": "f/fcq.html" },
+        { "root": "fcc", "root_meaning": "創造物質物質", "root_html_href": "f/fcc.html" },
+        { "root": "fcr", "root_meaning": "創造物質過去", "root_html_href": "f/fcr.html" },
+        { "root": "fcl", "root_meaning": "創造物質未来", "root_html_href": "f/fcl.html" },
+        { "root": "fcp", "root_meaning": "創造物質鎮静", "root_html_href": "f/fcp.html" },
+        { "root": "fcb", "root_meaning": "創造物質高揚", "root_html_href": "f/fcb.html" },
+        { "root": "fch", "root_meaning": "創造物質受動", "root_html_href": "f/fch.html" },
+        { "root": "fcx", "root_meaning": "創造物質能動", "root_html_href": "f/fcx.html" },
+        { "root": "fcf", "root_meaning": "創造物質創造", "root_html_href": "f/fcf.html" },
+        { "root": "fcv", "root_meaning": "創造物質破壊", "root_html_href": "f/fcv.html" },
+        { "root": "fcm", "root_meaning": "創造物質流動", "root_html_href": "f/fcm.html" },
+        { "root": "fcn", "root_meaning": "創造物質固定", "root_html_href": "f/fcn.html" },
+        { "root": "frk", "root_meaning": "創造過去剥離", "root_html_href": "f/frk.html" },
+        { "root": "frg", "root_meaning": "創造過去癒着", "root_html_href": "f/frg.html" },
+        { "root": "frt", "root_meaning": "創造過去乖離", "root_html_href": "f/frt.html" },
+        { "root": "frd", "root_meaning": "創造過去同一", "root_html_href": "f/frd.html" },
+        { "root": "frs", "root_meaning": "創造過去肉体", "root_html_href": "f/frs.html" },
+        { "root": "frz", "root_meaning": "創造過去精神", "root_html_href": "f/frz.html" },
+        { "root": "frq", "root_meaning": "創造過去空白", "root_html_href": "f/frq.html" },
+        { "root": "frc", "root_meaning": "創造過去物質", "root_html_href": "f/frc.html" },
+        { "root": "frr", "root_meaning": "創造過去過去", "root_html_href": "f/frr.html" },
+        { "root": "frl", "root_meaning": "創造過去未来", "root_html_href": "f/frl.html" },
+        { "root": "frp", "root_meaning": "創造過去鎮静", "root_html_href": "f/frp.html" },
+        { "root": "frb", "root_meaning": "創造過去高揚", "root_html_href": "f/frb.html" },
+        { "root": "frh", "root_meaning": "創造過去受動", "root_html_href": "f/frh.html" },
+        { "root": "frx", "root_meaning": "創造過去能動", "root_html_href": "f/frx.html" },
+        { "root": "frf", "root_meaning": "創造過去創造", "root_html_href": "f/frf.html" },
+        { "root": "frv", "root_meaning": "創造過去破壊", "root_html_href": "f/frv.html" },
+        { "root": "frm", "root_meaning": "創造過去流動", "root_html_href": "f/frm.html" },
+        { "root": "frn", "root_meaning": "創造過去固定", "root_html_href": "f/frn.html" },
+        { "root": "flk", "root_meaning": "創造未来剥離", "root_html_href": "f/flk.html" },
+        { "root": "flg", "root_meaning": "創造未来癒着", "root_html_href": "f/flg.html" },
+        { "root": "flt", "root_meaning": "創造未来乖離", "root_html_href": "f/flt.html" },
+        { "root": "fld", "root_meaning": "創造未来同一", "root_html_href": "f/fld.html" },
+        { "root": "fls", "root_meaning": "創造未来肉体", "root_html_href": "f/fls.html" },
+        { "root": "flz", "root_meaning": "創造未来精神", "root_html_href": "f/flz.html" },
+        { "root": "flq", "root_meaning": "創造未来空白", "root_html_href": "f/flq.html" },
+        { "root": "flc", "root_meaning": "創造未来物質", "root_html_href": "f/flc.html" },
+        { "root": "flr", "root_meaning": "創造未来過去", "root_html_href": "f/flr.html" },
+        { "root": "fll", "root_meaning": "創造未来未来", "root_html_href": "f/fll.html" },
+        { "root": "flp", "root_meaning": "創造未来鎮静", "root_html_href": "f/flp.html" },
+        { "root": "flb", "root_meaning": "創造未来高揚", "root_html_href": "f/flb.html" },
+        { "root": "flh", "root_meaning": "創造未来受動", "root_html_href": "f/flh.html" },
+        { "root": "flx", "root_meaning": "創造未来能動", "root_html_href": "f/flx.html" },
+        { "root": "flf", "root_meaning": "創造未来創造", "root_html_href": "f/flf.html" },
+        { "root": "flv", "root_meaning": "創造未来破壊", "root_html_href": "f/flv.html" },
+        { "root": "flm", "root_meaning": "創造未来流動", "root_html_href": "f/flm.html" },
+        { "root": "fln", "root_meaning": "創造未来固定", "root_html_href": "f/fln.html" },
+        { "root": "fpk", "root_meaning": "創造鎮静剥離", "root_html_href": "f/fpk.html" },
+        { "root": "fpg", "root_meaning": "創造鎮静癒着", "root_html_href": "f/fpg.html" },
+        { "root": "fpt", "root_meaning": "創造鎮静乖離", "root_html_href": "f/fpt.html" },
+        { "root": "fpd", "root_meaning": "創造鎮静同一", "root_html_href": "f/fpd.html" },
+        { "root": "fps", "root_meaning": "創造鎮静肉体", "root_html_href": "f/fps.html" },
+        { "root": "fpz", "root_meaning": "創造鎮静精神", "root_html_href": "f/fpz.html" },
+        { "root": "fpq", "root_meaning": "創造鎮静空白", "root_html_href": "f/fpq.html" },
+        { "root": "fpc", "root_meaning": "創造鎮静物質", "root_html_href": "f/fpc.html" },
+        { "root": "fpr", "root_meaning": "創造鎮静過去", "root_html_href": "f/fpr.html" },
+        { "root": "fpl", "root_meaning": "創造鎮静未来", "root_html_href": "f/fpl.html" },
+        { "root": "fpp", "root_meaning": "創造鎮静鎮静", "root_html_href": "f/fpp.html" },
+        { "root": "fpb", "root_meaning": "創造鎮静高揚", "root_html_href": "f/fpb.html" },
+        { "root": "fph", "root_meaning": "創造鎮静受動", "root_html_href": "f/fph.html" },
+        { "root": "fpx", "root_meaning": "創造鎮静能動", "root_html_href": "f/fpx.html" },
+        { "root": "fpf", "root_meaning": "創造鎮静創造", "root_html_href": "f/fpf.html" },
+        { "root": "fpv", "root_meaning": "創造鎮静破壊", "root_html_href": "f/fpv.html" },
+        { "root": "fpm", "root_meaning": "創造鎮静流動", "root_html_href": "f/fpm.html" },
+        { "root": "fpn", "root_meaning": "創造鎮静固定", "root_html_href": "f/fpn.html" },
+        { "root": "fbk", "root_meaning": "創造高揚剥離", "root_html_href": "f/fbk.html" },
+        { "root": "fbg", "root_meaning": "創造高揚癒着", "root_html_href": "f/fbg.html" },
+        { "root": "fbt", "root_meaning": "創造高揚乖離", "root_html_href": "f/fbt.html" },
+        { "root": "fbd", "root_meaning": "創造高揚同一", "root_html_href": "f/fbd.html" },
+        { "root": "fbs", "root_meaning": "創造高揚肉体", "root_html_href": "f/fbs.html" },
+        { "root": "fbz", "root_meaning": "創造高揚精神", "root_html_href": "f/fbz.html" },
+        { "root": "fbq", "root_meaning": "創造高揚空白", "root_html_href": "f/fbq.html" },
+        { "root": "fbc", "root_meaning": "創造高揚物質", "root_html_href": "f/fbc.html" },
+        { "root": "fbr", "root_meaning": "創造高揚過去", "root_html_href": "f/fbr.html" },
+        { "root": "fbl", "root_meaning": "創造高揚未来", "root_html_href": "f/fbl.html" },
+        { "root": "fbp", "root_meaning": "創造高揚鎮静", "root_html_href": "f/fbp.html" },
+        { "root": "fbb", "root_meaning": "創造高揚高揚", "root_html_href": "f/fbb.html" },
+        { "root": "fbh", "root_meaning": "創造高揚受動", "root_html_href": "f/fbh.html" },
+        { "root": "fbx", "root_meaning": "創造高揚能動", "root_html_href": "f/fbx.html" },
+        { "root": "fbf", "root_meaning": "創造高揚創造", "root_html_href": "f/fbf.html" },
+        { "root": "fbv", "root_meaning": "創造高揚破壊", "root_html_href": "f/fbv.html" },
+        { "root": "fbm", "root_meaning": "創造高揚流動", "root_html_href": "f/fbm.html" },
+        { "root": "fbn", "root_meaning": "創造高揚固定", "root_html_href": "f/fbn.html" },
+        { "root": "fhk", "root_meaning": "創造受動剥離", "root_html_href": "f/fhk.html" },
+        { "root": "fhg", "root_meaning": "創造受動癒着", "root_html_href": "f/fhg.html" },
+        { "root": "fht", "root_meaning": "創造受動乖離", "root_html_href": "f/fht.html" },
+        { "root": "fhd", "root_meaning": "創造受動同一", "root_html_href": "f/fhd.html" },
+        { "root": "fhs", "root_meaning": "創造受動肉体", "root_html_href": "f/fhs.html" },
+        { "root": "fhz", "root_meaning": "創造受動精神", "root_html_href": "f/fhz.html" },
+        { "root": "fhq", "root_meaning": "創造受動空白", "root_html_href": "f/fhq.html" },
+        { "root": "fhc", "root_meaning": "創造受動物質", "root_html_href": "f/fhc.html" },
+        { "root": "fhr", "root_meaning": "創造受動過去", "root_html_href": "f/fhr.html" },
+        { "root": "fhl", "root_meaning": "創造受動未来", "root_html_href": "f/fhl.html" },
+        { "root": "fhp", "root_meaning": "創造受動鎮静", "root_html_href": "f/fhp.html" },
+        { "root": "fhb", "root_meaning": "創造受動高揚", "root_html_href": "f/fhb.html" },
+        { "root": "fhh", "root_meaning": "創造受動受動", "root_html_href": "f/fhh.html" },
+        { "root": "fhx", "root_meaning": "創造受動能動", "root_html_href": "f/fhx.html" },
+        { "root": "fhf", "root_meaning": "創造受動創造", "root_html_href": "f/fhf.html" },
+        { "root": "fhv", "root_meaning": "創造受動破壊", "root_html_href": "f/fhv.html" },
+        { "root": "fhm", "root_meaning": "創造受動流動", "root_html_href": "f/fhm.html" },
+        { "root": "fhn", "root_meaning": "創造受動固定", "root_html_href": "f/fhn.html" },
+        { "root": "fxk", "root_meaning": "創造能動剥離", "root_html_href": "f/fxk.html" },
+        { "root": "fxg", "root_meaning": "創造能動癒着", "root_html_href": "f/fxg.html" },
+        { "root": "fxt", "root_meaning": "創造能動乖離", "root_html_href": "f/fxt.html" },
+        { "root": "fxd", "root_meaning": "創造能動同一", "root_html_href": "f/fxd.html" },
+        { "root": "fxs", "root_meaning": "創造能動肉体", "root_html_href": "f/fxs.html" },
+        { "root": "fxz", "root_meaning": "創造能動精神", "root_html_href": "f/fxz.html" },
+        { "root": "fxq", "root_meaning": "創造能動空白", "root_html_href": "f/fxq.html" },
+        { "root": "fxc", "root_meaning": "創造能動物質", "root_html_href": "f/fxc.html" },
+        { "root": "fxr", "root_meaning": "創造能動過去", "root_html_href": "f/fxr.html" },
+        { "root": "fxl", "root_meaning": "創造能動未来", "root_html_href": "f/fxl.html" },
+        { "root": "fxp", "root_meaning": "創造能動鎮静", "root_html_href": "f/fxp.html" },
+        { "root": "fxb", "root_meaning": "創造能動高揚", "root_html_href": "f/fxb.html" },
+        { "root": "fxh", "root_meaning": "創造能動受動", "root_html_href": "f/fxh.html" },
+        { "root": "fxx", "root_meaning": "創造能動能動", "root_html_href": "f/fxx.html" },
+        { "root": "fxf", "root_meaning": "創造能動創造", "root_html_href": "f/fxf.html" },
+        { "root": "fxv", "root_meaning": "創造能動破壊", "root_html_href": "f/fxv.html" },
+        { "root": "fxm", "root_meaning": "創造能動流動", "root_html_href": "f/fxm.html" },
+        { "root": "fxn", "root_meaning": "創造能動固定", "root_html_href": "f/fxn.html" },
+        { "root": "ffk", "root_meaning": "創造創造剥離", "root_html_href": "f/ffk.html" },
+        { "root": "ffg", "root_meaning": "創造創造癒着", "root_html_href": "f/ffg.html" },
+        { "root": "fft", "root_meaning": "創造創造乖離", "root_html_href": "f/fft.html" },
+        { "root": "ffd", "root_meaning": "創造創造同一", "root_html_href": "f/ffd.html" },
+        { "root": "ffs", "root_meaning": "創造創造肉体", "root_html_href": "f/ffs.html" },
+        { "root": "ffz", "root_meaning": "創造創造精神", "root_html_href": "f/ffz.html" },
+        { "root": "ffq", "root_meaning": "創造創造空白", "root_html_href": "f/ffq.html" },
+        { "root": "ffc", "root_meaning": "創造創造物質", "root_html_href": "f/ffc.html" },
+        { "root": "ffr", "root_meaning": "創造創造過去", "root_html_href": "f/ffr.html" },
+        { "root": "ffl", "root_meaning": "創造創造未来", "root_html_href": "f/ffl.html" },
+        { "root": "ffp", "root_meaning": "創造創造鎮静", "root_html_href": "f/ffp.html" },
+        { "root": "ffb", "root_meaning": "創造創造高揚", "root_html_href": "f/ffb.html" },
+        { "root": "ffh", "root_meaning": "創造創造受動", "root_html_href": "f/ffh.html" },
+        { "root": "ffx", "root_meaning": "創造創造能動", "root_html_href": "f/ffx.html" },
+        { "root": "fff", "root_meaning": "創造創造創造", "root_html_href": "f/fff.html" },
+        { "root": "ffv", "root_meaning": "創造創造破壊", "root_html_href": "f/ffv.html" },
+        { "root": "ffm", "root_meaning": "創造創造流動", "root_html_href": "f/ffm.html" },
+        { "root": "ffn", "root_meaning": "創造創造固定", "root_html_href": "f/ffn.html" },
+        { "root": "fvk", "root_meaning": "創造破壊剥離", "root_html_href": "f/fvk.html" },
+        { "root": "fvg", "root_meaning": "創造破壊癒着", "root_html_href": "f/fvg.html" },
+        { "root": "fvt", "root_meaning": "創造破壊乖離", "root_html_href": "f/fvt.html" },
+        { "root": "fvd", "root_meaning": "創造破壊同一", "root_html_href": "f/fvd.html" },
+        { "root": "fvs", "root_meaning": "創造破壊肉体", "root_html_href": "f/fvs.html" },
+        { "root": "fvz", "root_meaning": "創造破壊精神", "root_html_href": "f/fvz.html" },
+        { "root": "fvq", "root_meaning": "創造破壊空白", "root_html_href": "f/fvq.html" },
+        { "root": "fvc", "root_meaning": "創造破壊物質", "root_html_href": "f/fvc.html" },
+        { "root": "fvr", "root_meaning": "創造破壊過去", "root_html_href": "f/fvr.html" },
+        { "root": "fvl", "root_meaning": "創造破壊未来", "root_html_href": "f/fvl.html" },
+        { "root": "fvp", "root_meaning": "創造破壊鎮静", "root_html_href": "f/fvp.html" },
+        { "root": "fvb", "root_meaning": "創造破壊高揚", "root_html_href": "f/fvb.html" },
+        { "root": "fvh", "root_meaning": "創造破壊受動", "root_html_href": "f/fvh.html" },
+        { "root": "fvx", "root_meaning": "創造破壊能動", "root_html_href": "f/fvx.html" },
+        { "root": "fvf", "root_meaning": "創造破壊創造", "root_html_href": "f/fvf.html" },
+        { "root": "fvv", "root_meaning": "創造破壊破壊", "root_html_href": "f/fvv.html" },
+        { "root": "fvm", "root_meaning": "創造破壊流動", "root_html_href": "f/fvm.html" },
+        { "root": "fvn", "root_meaning": "創造破壊固定", "root_html_href": "f/fvn.html" },
+        { "root": "fmk", "root_meaning": "創造流動剥離", "root_html_href": "f/fmk.html" },
+        { "root": "fmg", "root_meaning": "創造流動癒着", "root_html_href": "f/fmg.html" },
+        { "root": "fmt", "root_meaning": "創造流動乖離", "root_html_href": "f/fmt.html" },
+        { "root": "fmd", "root_meaning": "創造流動同一", "root_html_href": "f/fmd.html" },
+        { "root": "fms", "root_meaning": "創造流動肉体", "root_html_href": "f/fms.html" },
+        { "root": "fmz", "root_meaning": "創造流動精神", "root_html_href": "f/fmz.html" },
+        { "root": "fmq", "root_meaning": "創造流動空白", "root_html_href": "f/fmq.html" },
+        { "root": "fmc", "root_meaning": "創造流動物質", "root_html_href": "f/fmc.html" },
+        { "root": "fmr", "root_meaning": "創造流動過去", "root_html_href": "f/fmr.html" },
+        { "root": "fml", "root_meaning": "創造流動未来", "root_html_href": "f/fml.html" },
+        { "root": "fmp", "root_meaning": "創造流動鎮静", "root_html_href": "f/fmp.html" },
+        { "root": "fmb", "root_meaning": "創造流動高揚", "root_html_href": "f/fmb.html" },
+        { "root": "fmh", "root_meaning": "創造流動受動", "root_html_href": "f/fmh.html" },
+        { "root": "fmx", "root_meaning": "創造流動能動", "root_html_href": "f/fmx.html" },
+        { "root": "fmf", "root_meaning": "創造流動創造", "root_html_href": "f/fmf.html" },
+        { "root": "fmv", "root_meaning": "創造流動破壊", "root_html_href": "f/fmv.html" },
+        { "root": "fmm", "root_meaning": "創造流動流動", "root_html_href": "f/fmm.html" },
+        { "root": "fmn", "root_meaning": "創造流動固定", "root_html_href": "f/fmn.html" },
+        { "root": "fnk", "root_meaning": "創造固定剥離", "root_html_href": "f/fnk.html" },
+        { "root": "fng", "root_meaning": "創造固定癒着", "root_html_href": "f/fng.html" },
+        { "root": "fnt", "root_meaning": "創造固定乖離", "root_html_href": "f/fnt.html" },
+        { "root": "fnd", "root_meaning": "創造固定同一", "root_html_href": "f/fnd.html" },
+        { "root": "fns", "root_meaning": "創造固定肉体", "root_html_href": "f/fns.html" },
+        { "root": "fnz", "root_meaning": "創造固定精神", "root_html_href": "f/fnz.html" },
+        { "root": "fnq", "root_meaning": "創造固定空白", "root_html_href": "f/fnq.html" },
+        { "root": "fnc", "root_meaning": "創造固定物質", "root_html_href": "f/fnc.html" },
+        { "root": "fnr", "root_meaning": "創造固定過去", "root_html_href": "f/fnr.html" },
+        { "root": "fnl", "root_meaning": "創造固定未来", "root_html_href": "f/fnl.html" },
+        { "root": "fnp", "root_meaning": "創造固定鎮静", "root_html_href": "f/fnp.html" },
+        { "root": "fnb", "root_meaning": "創造固定高揚", "root_html_href": "f/fnb.html" },
+        { "root": "fnh", "root_meaning": "創造固定受動", "root_html_href": "f/fnh.html" },
+        { "root": "fnx", "root_meaning": "創造固定能動", "root_html_href": "f/fnx.html" },
+        { "root": "fnf", "root_meaning": "創造固定創造", "root_html_href": "f/fnf.html" },
+        { "root": "fnv", "root_meaning": "創造固定破壊", "root_html_href": "f/fnv.html" },
+        { "root": "fnm", "root_meaning": "創造固定流動", "root_html_href": "f/fnm.html" },
+        { "root": "fnn", "root_meaning": "創造固定固定", "root_html_href": "f/fnn.html" }
     ]
 }

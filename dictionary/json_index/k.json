@@ -1,1948 +1,328 @@
 {
     "roots": [
-        {
-            "root": "kkk",
-            "root_meaning": "剥離剥離剥離",
-            "root_html_href": "k/kkk.html",
-            "root_json_href": "k/kkk.json"
-        },
-        {
-            "root": "kkg",
-            "root_meaning": "剥離剥離癒着",
-            "root_html_href": "k/kkg.html",
-            "root_json_href": "k/kkg.json"
-        },
-        {
-            "root": "kkt",
-            "root_meaning": "剥離剥離乖離",
-            "root_html_href": "k/kkt.html",
-            "root_json_href": "k/kkt.json"
-        },
-        {
-            "root": "kkd",
-            "root_meaning": "剥離剥離同一",
-            "root_html_href": "k/kkd.html",
-            "root_json_href": "k/kkd.json"
-        },
-        {
-            "root": "kks",
-            "root_meaning": "剥離剥離肉体",
-            "root_html_href": "k/kks.html",
-            "root_json_href": "k/kks.json"
-        },
-        {
-            "root": "kkz",
-            "root_meaning": "剥離剥離精神",
-            "root_html_href": "k/kkz.html",
-            "root_json_href": "k/kkz.json"
-        },
-        {
-            "root": "kkq",
-            "root_meaning": "剥離剥離空白",
-            "root_html_href": "k/kkq.html",
-            "root_json_href": "k/kkq.json"
-        },
-        {
-            "root": "kkc",
-            "root_meaning": "剥離剥離物質",
-            "root_html_href": "k/kkc.html",
-            "root_json_href": "k/kkc.json"
-        },
-        {
-            "root": "kkr",
-            "root_meaning": "剥離剥離過去",
-            "root_html_href": "k/kkr.html",
-            "root_json_href": "k/kkr.json"
-        },
-        {
-            "root": "kkl",
-            "root_meaning": "剥離剥離未来",
-            "root_html_href": "k/kkl.html",
-            "root_json_href": "k/kkl.json"
-        },
-        {
-            "root": "kkp",
-            "root_meaning": "剥離剥離鎮静",
-            "root_html_href": "k/kkp.html",
-            "root_json_href": "k/kkp.json"
-        },
-        {
-            "root": "kkb",
-            "root_meaning": "剥離剥離高揚",
-            "root_html_href": "k/kkb.html",
-            "root_json_href": "k/kkb.json"
-        },
-        {
-            "root": "kkh",
-            "root_meaning": "剥離剥離受動",
-            "root_html_href": "k/kkh.html",
-            "root_json_href": "k/kkh.json"
-        },
-        {
-            "root": "kkx",
-            "root_meaning": "剥離剥離能動",
-            "root_html_href": "k/kkx.html",
-            "root_json_href": "k/kkx.json"
-        },
-        {
-            "root": "kkf",
-            "root_meaning": "剥離剥離創造",
-            "root_html_href": "k/kkf.html",
-            "root_json_href": "k/kkf.json"
-        },
-        {
-            "root": "kkv",
-            "root_meaning": "剥離剥離破壊",
-            "root_html_href": "k/kkv.html",
-            "root_json_href": "k/kkv.json"
-        },
-        {
-            "root": "kkm",
-            "root_meaning": "剥離剥離流動",
-            "root_html_href": "k/kkm.html",
-            "root_json_href": "k/kkm.json"
-        },
-        {
-            "root": "kkn",
-            "root_meaning": "剥離剥離固定",
-            "root_html_href": "k/kkn.html",
-            "root_json_href": "k/kkn.json"
-        },
-        {
-            "root": "kgk",
-            "root_meaning": "剥離癒着剥離",
-            "root_html_href": "k/kgk.html",
-            "root_json_href": "k/kgk.json"
-        },
-        {
-            "root": "kgg",
-            "root_meaning": "剥離癒着癒着",
-            "root_html_href": "k/kgg.html",
-            "root_json_href": "k/kgg.json"
-        },
-        {
-            "root": "kgt",
-            "root_meaning": "剥離癒着乖離",
-            "root_html_href": "k/kgt.html",
-            "root_json_href": "k/kgt.json"
-        },
-        {
-            "root": "kgd",
-            "root_meaning": "剥離癒着同一",
-            "root_html_href": "k/kgd.html",
-            "root_json_href": "k/kgd.json"
-        },
-        {
-            "root": "kgs",
-            "root_meaning": "剥離癒着肉体",
-            "root_html_href": "k/kgs.html",
-            "root_json_href": "k/kgs.json"
-        },
-        {
-            "root": "kgz",
-            "root_meaning": "剥離癒着精神",
-            "root_html_href": "k/kgz.html",
-            "root_json_href": "k/kgz.json"
-        },
-        {
-            "root": "kgq",
-            "root_meaning": "剥離癒着空白",
-            "root_html_href": "k/kgq.html",
-            "root_json_href": "k/kgq.json"
-        },
-        {
-            "root": "kgc",
-            "root_meaning": "剥離癒着物質",
-            "root_html_href": "k/kgc.html",
-            "root_json_href": "k/kgc.json"
-        },
-        {
-            "root": "kgr",
-            "root_meaning": "剥離癒着過去",
-            "root_html_href": "k/kgr.html",
-            "root_json_href": "k/kgr.json"
-        },
-        {
-            "root": "kgl",
-            "root_meaning": "剥離癒着未来",
-            "root_html_href": "k/kgl.html",
-            "root_json_href": "k/kgl.json"
-        },
-        {
-            "root": "kgp",
-            "root_meaning": "剥離癒着鎮静",
-            "root_html_href": "k/kgp.html",
-            "root_json_href": "k/kgp.json"
-        },
-        {
-            "root": "kgb",
-            "root_meaning": "剥離癒着高揚",
-            "root_html_href": "k/kgb.html",
-            "root_json_href": "k/kgb.json"
-        },
-        {
-            "root": "kgh",
-            "root_meaning": "剥離癒着受動",
-            "root_html_href": "k/kgh.html",
-            "root_json_href": "k/kgh.json"
-        },
-        {
-            "root": "kgx",
-            "root_meaning": "剥離癒着能動",
-            "root_html_href": "k/kgx.html",
-            "root_json_href": "k/kgx.json"
-        },
-        {
-            "root": "kgf",
-            "root_meaning": "剥離癒着創造",
-            "root_html_href": "k/kgf.html",
-            "root_json_href": "k/kgf.json"
-        },
-        {
-            "root": "kgv",
-            "root_meaning": "剥離癒着破壊",
-            "root_html_href": "k/kgv.html",
-            "root_json_href": "k/kgv.json"
-        },
-        {
-            "root": "kgm",
-            "root_meaning": "剥離癒着流動",
-            "root_html_href": "k/kgm.html",
-            "root_json_href": "k/kgm.json"
-        },
-        {
-            "root": "kgn",
-            "root_meaning": "剥離癒着固定",
-            "root_html_href": "k/kgn.html",
-            "root_json_href": "k/kgn.json"
-        },
-        {
-            "root": "ktk",
-            "root_meaning": "剥離乖離剥離",
-            "root_html_href": "k/ktk.html",
-            "root_json_href": "k/ktk.json"
-        },
-        {
-            "root": "ktg",
-            "root_meaning": "剥離乖離癒着",
-            "root_html_href": "k/ktg.html",
-            "root_json_href": "k/ktg.json"
-        },
-        {
-            "root": "ktt",
-            "root_meaning": "剥離乖離乖離",
-            "root_html_href": "k/ktt.html",
-            "root_json_href": "k/ktt.json"
-        },
-        {
-            "root": "ktd",
-            "root_meaning": "剥離乖離同一",
-            "root_html_href": "k/ktd.html",
-            "root_json_href": "k/ktd.json"
-        },
-        {
-            "root": "kts",
-            "root_meaning": "剥離乖離肉体",
-            "root_html_href": "k/kts.html",
-            "root_json_href": "k/kts.json"
-        },
-        {
-            "root": "ktz",
-            "root_meaning": "剥離乖離精神",
-            "root_html_href": "k/ktz.html",
-            "root_json_href": "k/ktz.json"
-        },
-        {
-            "root": "ktq",
-            "root_meaning": "剥離乖離空白",
-            "root_html_href": "k/ktq.html",
-            "root_json_href": "k/ktq.json"
-        },
-        {
-            "root": "ktc",
-            "root_meaning": "剥離乖離物質",
-            "root_html_href": "k/ktc.html",
-            "root_json_href": "k/ktc.json"
-        },
-        {
-            "root": "ktr",
-            "root_meaning": "剥離乖離過去",
-            "root_html_href": "k/ktr.html",
-            "root_json_href": "k/ktr.json"
-        },
-        {
-            "root": "ktl",
-            "root_meaning": "剥離乖離未来",
-            "root_html_href": "k/ktl.html",
-            "root_json_href": "k/ktl.json"
-        },
-        {
-            "root": "ktp",
-            "root_meaning": "剥離乖離鎮静",
-            "root_html_href": "k/ktp.html",
-            "root_json_href": "k/ktp.json"
-        },
-        {
-            "root": "ktb",
-            "root_meaning": "剥離乖離高揚",
-            "root_html_href": "k/ktb.html",
-            "root_json_href": "k/ktb.json"
-        },
-        {
-            "root": "kth",
-            "root_meaning": "剥離乖離受動",
-            "root_html_href": "k/kth.html",
-            "root_json_href": "k/kth.json"
-        },
-        {
-            "root": "ktx",
-            "root_meaning": "剥離乖離能動",
-            "root_html_href": "k/ktx.html",
-            "root_json_href": "k/ktx.json"
-        },
-        {
-            "root": "ktf",
-            "root_meaning": "剥離乖離創造",
-            "root_html_href": "k/ktf.html",
-            "root_json_href": "k/ktf.json"
-        },
-        {
-            "root": "ktv",
-            "root_meaning": "剥離乖離破壊",
-            "root_html_href": "k/ktv.html",
-            "root_json_href": "k/ktv.json"
-        },
-        {
-            "root": "ktm",
-            "root_meaning": "剥離乖離流動",
-            "root_html_href": "k/ktm.html",
-            "root_json_href": "k/ktm.json"
-        },
-        {
-            "root": "ktn",
-            "root_meaning": "剥離乖離固定",
-            "root_html_href": "k/ktn.html",
-            "root_json_href": "k/ktn.json"
-        },
-        {
-            "root": "kdk",
-            "root_meaning": "剥離同一剥離",
-            "root_html_href": "k/kdk.html",
-            "root_json_href": "k/kdk.json"
-        },
-        {
-            "root": "kdg",
-            "root_meaning": "剥離同一癒着",
-            "root_html_href": "k/kdg.html",
-            "root_json_href": "k/kdg.json"
-        },
-        {
-            "root": "kdt",
-            "root_meaning": "剥離同一乖離",
-            "root_html_href": "k/kdt.html",
-            "root_json_href": "k/kdt.json"
-        },
-        {
-            "root": "kdd",
-            "root_meaning": "剥離同一同一",
-            "root_html_href": "k/kdd.html",
-            "root_json_href": "k/kdd.json"
-        },
-        {
-            "root": "kds",
-            "root_meaning": "剥離同一肉体",
-            "root_html_href": "k/kds.html",
-            "root_json_href": "k/kds.json"
-        },
-        {
-            "root": "kdz",
-            "root_meaning": "剥離同一精神",
-            "root_html_href": "k/kdz.html",
-            "root_json_href": "k/kdz.json"
-        },
-        {
-            "root": "kdq",
-            "root_meaning": "剥離同一空白",
-            "root_html_href": "k/kdq.html",
-            "root_json_href": "k/kdq.json"
-        },
-        {
-            "root": "kdc",
-            "root_meaning": "剥離同一物質",
-            "root_html_href": "k/kdc.html",
-            "root_json_href": "k/kdc.json"
-        },
-        {
-            "root": "kdr",
-            "root_meaning": "剥離同一過去",
-            "root_html_href": "k/kdr.html",
-            "root_json_href": "k/kdr.json"
-        },
-        {
-            "root": "kdl",
-            "root_meaning": "剥離同一未来",
-            "root_html_href": "k/kdl.html",
-            "root_json_href": "k/kdl.json"
-        },
-        {
-            "root": "kdp",
-            "root_meaning": "剥離同一鎮静",
-            "root_html_href": "k/kdp.html",
-            "root_json_href": "k/kdp.json"
-        },
-        {
-            "root": "kdb",
-            "root_meaning": "剥離同一高揚",
-            "root_html_href": "k/kdb.html",
-            "root_json_href": "k/kdb.json"
-        },
-        {
-            "root": "kdh",
-            "root_meaning": "剥離同一受動",
-            "root_html_href": "k/kdh.html",
-            "root_json_href": "k/kdh.json"
-        },
-        {
-            "root": "kdx",
-            "root_meaning": "剥離同一能動",
-            "root_html_href": "k/kdx.html",
-            "root_json_href": "k/kdx.json"
-        },
-        {
-            "root": "kdf",
-            "root_meaning": "剥離同一創造",
-            "root_html_href": "k/kdf.html",
-            "root_json_href": "k/kdf.json"
-        },
-        {
-            "root": "kdv",
-            "root_meaning": "剥離同一破壊",
-            "root_html_href": "k/kdv.html",
-            "root_json_href": "k/kdv.json"
-        },
-        {
-            "root": "kdm",
-            "root_meaning": "剥離同一流動",
-            "root_html_href": "k/kdm.html",
-            "root_json_href": "k/kdm.json"
-        },
-        {
-            "root": "kdn",
-            "root_meaning": "剥離同一固定",
-            "root_html_href": "k/kdn.html",
-            "root_json_href": "k/kdn.json"
-        },
-        {
-            "root": "ksk",
-            "root_meaning": "剥離肉体剥離",
-            "root_html_href": "k/ksk.html",
-            "root_json_href": "k/ksk.json"
-        },
-        {
-            "root": "ksg",
-            "root_meaning": "剥離肉体癒着",
-            "root_html_href": "k/ksg.html",
-            "root_json_href": "k/ksg.json"
-        },
-        {
-            "root": "kst",
-            "root_meaning": "剥離肉体乖離",
-            "root_html_href": "k/kst.html",
-            "root_json_href": "k/kst.json"
-        },
-        {
-            "root": "ksd",
-            "root_meaning": "剥離肉体同一",
-            "root_html_href": "k/ksd.html",
-            "root_json_href": "k/ksd.json"
-        },
-        {
-            "root": "kss",
-            "root_meaning": "剥離肉体肉体",
-            "root_html_href": "k/kss.html",
-            "root_json_href": "k/kss.json"
-        },
-        {
-            "root": "ksz",
-            "root_meaning": "剥離肉体精神",
-            "root_html_href": "k/ksz.html",
-            "root_json_href": "k/ksz.json"
-        },
-        {
-            "root": "ksq",
-            "root_meaning": "剥離肉体空白",
-            "root_html_href": "k/ksq.html",
-            "root_json_href": "k/ksq.json"
-        },
-        {
-            "root": "ksc",
-            "root_meaning": "剥離肉体物質",
-            "root_html_href": "k/ksc.html",
-            "root_json_href": "k/ksc.json"
-        },
-        {
-            "root": "ksr",
-            "root_meaning": "剥離肉体過去",
-            "root_html_href": "k/ksr.html",
-            "root_json_href": "k/ksr.json"
-        },
-        {
-            "root": "ksl",
-            "root_meaning": "剥離肉体未来",
-            "root_html_href": "k/ksl.html",
-            "root_json_href": "k/ksl.json"
-        },
-        {
-            "root": "ksp",
-            "root_meaning": "剥離肉体鎮静",
-            "root_html_href": "k/ksp.html",
-            "root_json_href": "k/ksp.json"
-        },
-        {
-            "root": "ksb",
-            "root_meaning": "剥離肉体高揚",
-            "root_html_href": "k/ksb.html",
-            "root_json_href": "k/ksb.json"
-        },
-        {
-            "root": "ksh",
-            "root_meaning": "剥離肉体受動",
-            "root_html_href": "k/ksh.html",
-            "root_json_href": "k/ksh.json"
-        },
-        {
-            "root": "ksx",
-            "root_meaning": "剥離肉体能動",
-            "root_html_href": "k/ksx.html",
-            "root_json_href": "k/ksx.json"
-        },
-        {
-            "root": "ksf",
-            "root_meaning": "剥離肉体創造",
-            "root_html_href": "k/ksf.html",
-            "root_json_href": "k/ksf.json"
-        },
-        {
-            "root": "ksv",
-            "root_meaning": "剥離肉体破壊",
-            "root_html_href": "k/ksv.html",
-            "root_json_href": "k/ksv.json"
-        },
-        {
-            "root": "ksm",
-            "root_meaning": "剥離肉体流動",
-            "root_html_href": "k/ksm.html",
-            "root_json_href": "k/ksm.json"
-        },
-        {
-            "root": "ksn",
-            "root_meaning": "剥離肉体固定",
-            "root_html_href": "k/ksn.html",
-            "root_json_href": "k/ksn.json"
-        },
-        {
-            "root": "kzk",
-            "root_meaning": "剥離精神剥離",
-            "root_html_href": "k/kzk.html",
-            "root_json_href": "k/kzk.json"
-        },
-        {
-            "root": "kzg",
-            "root_meaning": "剥離精神癒着",
-            "root_html_href": "k/kzg.html",
-            "root_json_href": "k/kzg.json"
-        },
-        {
-            "root": "kzt",
-            "root_meaning": "剥離精神乖離",
-            "root_html_href": "k/kzt.html",
-            "root_json_href": "k/kzt.json"
-        },
-        {
-            "root": "kzd",
-            "root_meaning": "剥離精神同一",
-            "root_html_href": "k/kzd.html",
-            "root_json_href": "k/kzd.json"
-        },
-        {
-            "root": "kzs",
-            "root_meaning": "剥離精神肉体",
-            "root_html_href": "k/kzs.html",
-            "root_json_href": "k/kzs.json"
-        },
-        {
-            "root": "kzz",
-            "root_meaning": "剥離精神精神",
-            "root_html_href": "k/kzz.html",
-            "root_json_href": "k/kzz.json"
-        },
-        {
-            "root": "kzq",
-            "root_meaning": "剥離精神空白",
-            "root_html_href": "k/kzq.html",
-            "root_json_href": "k/kzq.json"
-        },
-        {
-            "root": "kzc",
-            "root_meaning": "剥離精神物質",
-            "root_html_href": "k/kzc.html",
-            "root_json_href": "k/kzc.json"
-        },
-        {
-            "root": "kzr",
-            "root_meaning": "剥離精神過去",
-            "root_html_href": "k/kzr.html",
-            "root_json_href": "k/kzr.json"
-        },
-        {
-            "root": "kzl",
-            "root_meaning": "剥離精神未来",
-            "root_html_href": "k/kzl.html",
-            "root_json_href": "k/kzl.json"
-        },
-        {
-            "root": "kzp",
-            "root_meaning": "剥離精神鎮静",
-            "root_html_href": "k/kzp.html",
-            "root_json_href": "k/kzp.json"
-        },
-        {
-            "root": "kzb",
-            "root_meaning": "剥離精神高揚",
-            "root_html_href": "k/kzb.html",
-            "root_json_href": "k/kzb.json"
-        },
-        {
-            "root": "kzh",
-            "root_meaning": "剥離精神受動",
-            "root_html_href": "k/kzh.html",
-            "root_json_href": "k/kzh.json"
-        },
-        {
-            "root": "kzx",
-            "root_meaning": "剥離精神能動",
-            "root_html_href": "k/kzx.html",
-            "root_json_href": "k/kzx.json"
-        },
-        {
-            "root": "kzf",
-            "root_meaning": "剥離精神創造",
-            "root_html_href": "k/kzf.html",
-            "root_json_href": "k/kzf.json"
-        },
-        {
-            "root": "kzv",
-            "root_meaning": "剥離精神破壊",
-            "root_html_href": "k/kzv.html",
-            "root_json_href": "k/kzv.json"
-        },
-        {
-            "root": "kzm",
-            "root_meaning": "剥離精神流動",
-            "root_html_href": "k/kzm.html",
-            "root_json_href": "k/kzm.json"
-        },
-        {
-            "root": "kzn",
-            "root_meaning": "剥離精神固定",
-            "root_html_href": "k/kzn.html",
-            "root_json_href": "k/kzn.json"
-        },
-        {
-            "root": "kqk",
-            "root_meaning": "剥離空白剥離",
-            "root_html_href": "k/kqk.html",
-            "root_json_href": "k/kqk.json"
-        },
-        {
-            "root": "kqg",
-            "root_meaning": "剥離空白癒着",
-            "root_html_href": "k/kqg.html",
-            "root_json_href": "k/kqg.json"
-        },
-        {
-            "root": "kqt",
-            "root_meaning": "剥離空白乖離",
-            "root_html_href": "k/kqt.html",
-            "root_json_href": "k/kqt.json"
-        },
-        {
-            "root": "kqd",
-            "root_meaning": "剥離空白同一",
-            "root_html_href": "k/kqd.html",
-            "root_json_href": "k/kqd.json"
-        },
-        {
-            "root": "kqs",
-            "root_meaning": "剥離空白肉体",
-            "root_html_href": "k/kqs.html",
-            "root_json_href": "k/kqs.json"
-        },
-        {
-            "root": "kqz",
-            "root_meaning": "剥離空白精神",
-            "root_html_href": "k/kqz.html",
-            "root_json_href": "k/kqz.json"
-        },
-        {
-            "root": "kqq",
-            "root_meaning": "剥離空白空白",
-            "root_html_href": "k/kqq.html",
-            "root_json_href": "k/kqq.json"
-        },
-        {
-            "root": "kqc",
-            "root_meaning": "剥離空白物質",
-            "root_html_href": "k/kqc.html",
-            "root_json_href": "k/kqc.json"
-        },
-        {
-            "root": "kqr",
-            "root_meaning": "剥離空白過去",
-            "root_html_href": "k/kqr.html",
-            "root_json_href": "k/kqr.json"
-        },
-        {
-            "root": "kql",
-            "root_meaning": "剥離空白未来",
-            "root_html_href": "k/kql.html",
-            "root_json_href": "k/kql.json"
-        },
-        {
-            "root": "kqp",
-            "root_meaning": "剥離空白鎮静",
-            "root_html_href": "k/kqp.html",
-            "root_json_href": "k/kqp.json"
-        },
-        {
-            "root": "kqb",
-            "root_meaning": "剥離空白高揚",
-            "root_html_href": "k/kqb.html",
-            "root_json_href": "k/kqb.json"
-        },
-        {
-            "root": "kqh",
-            "root_meaning": "剥離空白受動",
-            "root_html_href": "k/kqh.html",
-            "root_json_href": "k/kqh.json"
-        },
-        {
-            "root": "kqx",
-            "root_meaning": "剥離空白能動",
-            "root_html_href": "k/kqx.html",
-            "root_json_href": "k/kqx.json"
-        },
-        {
-            "root": "kqf",
-            "root_meaning": "剥離空白創造",
-            "root_html_href": "k/kqf.html",
-            "root_json_href": "k/kqf.json"
-        },
-        {
-            "root": "kqv",
-            "root_meaning": "剥離空白破壊",
-            "root_html_href": "k/kqv.html",
-            "root_json_href": "k/kqv.json"
-        },
-        {
-            "root": "kqm",
-            "root_meaning": "剥離空白流動",
-            "root_html_href": "k/kqm.html",
-            "root_json_href": "k/kqm.json"
-        },
-        {
-            "root": "kqn",
-            "root_meaning": "剥離空白固定",
-            "root_html_href": "k/kqn.html",
-            "root_json_href": "k/kqn.json"
-        },
-        {
-            "root": "kck",
-            "root_meaning": "剥離物質剥離",
-            "root_html_href": "k/kck.html",
-            "root_json_href": "k/kck.json"
-        },
-        {
-            "root": "kcg",
-            "root_meaning": "剥離物質癒着",
-            "root_html_href": "k/kcg.html",
-            "root_json_href": "k/kcg.json"
-        },
-        {
-            "root": "kct",
-            "root_meaning": "剥離物質乖離",
-            "root_html_href": "k/kct.html",
-            "root_json_href": "k/kct.json"
-        },
-        {
-            "root": "kcd",
-            "root_meaning": "剥離物質同一",
-            "root_html_href": "k/kcd.html",
-            "root_json_href": "k/kcd.json"
-        },
-        {
-            "root": "kcs",
-            "root_meaning": "剥離物質肉体",
-            "root_html_href": "k/kcs.html",
-            "root_json_href": "k/kcs.json"
-        },
-        {
-            "root": "kcz",
-            "root_meaning": "剥離物質精神",
-            "root_html_href": "k/kcz.html",
-            "root_json_href": "k/kcz.json"
-        },
-        {
-            "root": "kcq",
-            "root_meaning": "剥離物質空白",
-            "root_html_href": "k/kcq.html",
-            "root_json_href": "k/kcq.json"
-        },
-        {
-            "root": "kcc",
-            "root_meaning": "剥離物質物質",
-            "root_html_href": "k/kcc.html",
-            "root_json_href": "k/kcc.json"
-        },
-        {
-            "root": "kcr",
-            "root_meaning": "剥離物質過去",
-            "root_html_href": "k/kcr.html",
-            "root_json_href": "k/kcr.json"
-        },
-        {
-            "root": "kcl",
-            "root_meaning": "剥離物質未来",
-            "root_html_href": "k/kcl.html",
-            "root_json_href": "k/kcl.json"
-        },
-        {
-            "root": "kcp",
-            "root_meaning": "剥離物質鎮静",
-            "root_html_href": "k/kcp.html",
-            "root_json_href": "k/kcp.json"
-        },
-        {
-            "root": "kcb",
-            "root_meaning": "剥離物質高揚",
-            "root_html_href": "k/kcb.html",
-            "root_json_href": "k/kcb.json"
-        },
-        {
-            "root": "kch",
-            "root_meaning": "剥離物質受動",
-            "root_html_href": "k/kch.html",
-            "root_json_href": "k/kch.json"
-        },
-        {
-            "root": "kcx",
-            "root_meaning": "剥離物質能動",
-            "root_html_href": "k/kcx.html",
-            "root_json_href": "k/kcx.json"
-        },
-        {
-            "root": "kcf",
-            "root_meaning": "剥離物質創造",
-            "root_html_href": "k/kcf.html",
-            "root_json_href": "k/kcf.json"
-        },
-        {
-            "root": "kcv",
-            "root_meaning": "剥離物質破壊",
-            "root_html_href": "k/kcv.html",
-            "root_json_href": "k/kcv.json"
-        },
-        {
-            "root": "kcm",
-            "root_meaning": "剥離物質流動",
-            "root_html_href": "k/kcm.html",
-            "root_json_href": "k/kcm.json"
-        },
-        {
-            "root": "kcn",
-            "root_meaning": "剥離物質固定",
-            "root_html_href": "k/kcn.html",
-            "root_json_href": "k/kcn.json"
-        },
-        {
-            "root": "krk",
-            "root_meaning": "剥離過去剥離",
-            "root_html_href": "k/krk.html",
-            "root_json_href": "k/krk.json"
-        },
-        {
-            "root": "krg",
-            "root_meaning": "剥離過去癒着",
-            "root_html_href": "k/krg.html",
-            "root_json_href": "k/krg.json"
-        },
-        {
-            "root": "krt",
-            "root_meaning": "剥離過去乖離",
-            "root_html_href": "k/krt.html",
-            "root_json_href": "k/krt.json"
-        },
-        {
-            "root": "krd",
-            "root_meaning": "剥離過去同一",
-            "root_html_href": "k/krd.html",
-            "root_json_href": "k/krd.json"
-        },
-        {
-            "root": "krs",
-            "root_meaning": "剥離過去肉体",
-            "root_html_href": "k/krs.html",
-            "root_json_href": "k/krs.json"
-        },
-        {
-            "root": "krz",
-            "root_meaning": "剥離過去精神",
-            "root_html_href": "k/krz.html",
-            "root_json_href": "k/krz.json"
-        },
-        {
-            "root": "krq",
-            "root_meaning": "剥離過去空白",
-            "root_html_href": "k/krq.html",
-            "root_json_href": "k/krq.json"
-        },
-        {
-            "root": "krc",
-            "root_meaning": "剥離過去物質",
-            "root_html_href": "k/krc.html",
-            "root_json_href": "k/krc.json"
-        },
-        {
-            "root": "krr",
-            "root_meaning": "剥離過去過去",
-            "root_html_href": "k/krr.html",
-            "root_json_href": "k/krr.json"
-        },
-        {
-            "root": "krl",
-            "root_meaning": "剥離過去未来",
-            "root_html_href": "k/krl.html",
-            "root_json_href": "k/krl.json"
-        },
-        {
-            "root": "krp",
-            "root_meaning": "剥離過去鎮静",
-            "root_html_href": "k/krp.html",
-            "root_json_href": "k/krp.json"
-        },
-        {
-            "root": "krb",
-            "root_meaning": "剥離過去高揚",
-            "root_html_href": "k/krb.html",
-            "root_json_href": "k/krb.json"
-        },
-        {
-            "root": "krh",
-            "root_meaning": "剥離過去受動",
-            "root_html_href": "k/krh.html",
-            "root_json_href": "k/krh.json"
-        },
-        {
-            "root": "krx",
-            "root_meaning": "剥離過去能動",
-            "root_html_href": "k/krx.html",
-            "root_json_href": "k/krx.json"
-        },
-        {
-            "root": "krf",
-            "root_meaning": "剥離過去創造",
-            "root_html_href": "k/krf.html",
-            "root_json_href": "k/krf.json"
-        },
-        {
-            "root": "krv",
-            "root_meaning": "剥離過去破壊",
-            "root_html_href": "k/krv.html",
-            "root_json_href": "k/krv.json"
-        },
-        {
-            "root": "krm",
-            "root_meaning": "剥離過去流動",
-            "root_html_href": "k/krm.html",
-            "root_json_href": "k/krm.json"
-        },
-        {
-            "root": "krn",
-            "root_meaning": "剥離過去固定",
-            "root_html_href": "k/krn.html",
-            "root_json_href": "k/krn.json"
-        },
-        {
-            "root": "klk",
-            "root_meaning": "剥離未来剥離",
-            "root_html_href": "k/klk.html",
-            "root_json_href": "k/klk.json"
-        },
-        {
-            "root": "klg",
-            "root_meaning": "剥離未来癒着",
-            "root_html_href": "k/klg.html",
-            "root_json_href": "k/klg.json"
-        },
-        {
-            "root": "klt",
-            "root_meaning": "剥離未来乖離",
-            "root_html_href": "k/klt.html",
-            "root_json_href": "k/klt.json"
-        },
-        {
-            "root": "kld",
-            "root_meaning": "剥離未来同一",
-            "root_html_href": "k/kld.html",
-            "root_json_href": "k/kld.json"
-        },
-        {
-            "root": "kls",
-            "root_meaning": "剥離未来肉体",
-            "root_html_href": "k/kls.html",
-            "root_json_href": "k/kls.json"
-        },
-        {
-            "root": "klz",
-            "root_meaning": "剥離未来精神",
-            "root_html_href": "k/klz.html",
-            "root_json_href": "k/klz.json"
-        },
-        {
-            "root": "klq",
-            "root_meaning": "剥離未来空白",
-            "root_html_href": "k/klq.html",
-            "root_json_href": "k/klq.json"
-        },
-        {
-            "root": "klc",
-            "root_meaning": "剥離未来物質",
-            "root_html_href": "k/klc.html",
-            "root_json_href": "k/klc.json"
-        },
-        {
-            "root": "klr",
-            "root_meaning": "剥離未来過去",
-            "root_html_href": "k/klr.html",
-            "root_json_href": "k/klr.json"
-        },
-        {
-            "root": "kll",
-            "root_meaning": "剥離未来未来",
-            "root_html_href": "k/kll.html",
-            "root_json_href": "k/kll.json"
-        },
-        {
-            "root": "klp",
-            "root_meaning": "剥離未来鎮静",
-            "root_html_href": "k/klp.html",
-            "root_json_href": "k/klp.json"
-        },
-        {
-            "root": "klb",
-            "root_meaning": "剥離未来高揚",
-            "root_html_href": "k/klb.html",
-            "root_json_href": "k/klb.json"
-        },
-        {
-            "root": "klh",
-            "root_meaning": "剥離未来受動",
-            "root_html_href": "k/klh.html",
-            "root_json_href": "k/klh.json"
-        },
-        {
-            "root": "klx",
-            "root_meaning": "剥離未来能動",
-            "root_html_href": "k/klx.html",
-            "root_json_href": "k/klx.json"
-        },
-        {
-            "root": "klf",
-            "root_meaning": "剥離未来創造",
-            "root_html_href": "k/klf.html",
-            "root_json_href": "k/klf.json"
-        },
-        {
-            "root": "klv",
-            "root_meaning": "剥離未来破壊",
-            "root_html_href": "k/klv.html",
-            "root_json_href": "k/klv.json"
-        },
-        {
-            "root": "klm",
-            "root_meaning": "剥離未来流動",
-            "root_html_href": "k/klm.html",
-            "root_json_href": "k/klm.json"
-        },
-        {
-            "root": "kln",
-            "root_meaning": "剥離未来固定",
-            "root_html_href": "k/kln.html",
-            "root_json_href": "k/kln.json"
-        },
-        {
-            "root": "kpk",
-            "root_meaning": "剥離鎮静剥離",
-            "root_html_href": "k/kpk.html",
-            "root_json_href": "k/kpk.json"
-        },
-        {
-            "root": "kpg",
-            "root_meaning": "剥離鎮静癒着",
-            "root_html_href": "k/kpg.html",
-            "root_json_href": "k/kpg.json"
-        },
-        {
-            "root": "kpt",
-            "root_meaning": "剥離鎮静乖離",
-            "root_html_href": "k/kpt.html",
-            "root_json_href": "k/kpt.json"
-        },
-        {
-            "root": "kpd",
-            "root_meaning": "剥離鎮静同一",
-            "root_html_href": "k/kpd.html",
-            "root_json_href": "k/kpd.json"
-        },
-        {
-            "root": "kps",
-            "root_meaning": "剥離鎮静肉体",
-            "root_html_href": "k/kps.html",
-            "root_json_href": "k/kps.json"
-        },
-        {
-            "root": "kpz",
-            "root_meaning": "剥離鎮静精神",
-            "root_html_href": "k/kpz.html",
-            "root_json_href": "k/kpz.json"
-        },
-        {
-            "root": "kpq",
-            "root_meaning": "剥離鎮静空白",
-            "root_html_href": "k/kpq.html",
-            "root_json_href": "k/kpq.json"
-        },
-        {
-            "root": "kpc",
-            "root_meaning": "剥離鎮静物質",
-            "root_html_href": "k/kpc.html",
-            "root_json_href": "k/kpc.json"
-        },
-        {
-            "root": "kpr",
-            "root_meaning": "剥離鎮静過去",
-            "root_html_href": "k/kpr.html",
-            "root_json_href": "k/kpr.json"
-        },
-        {
-            "root": "kpl",
-            "root_meaning": "剥離鎮静未来",
-            "root_html_href": "k/kpl.html",
-            "root_json_href": "k/kpl.json"
-        },
-        {
-            "root": "kpp",
-            "root_meaning": "剥離鎮静鎮静",
-            "root_html_href": "k/kpp.html",
-            "root_json_href": "k/kpp.json"
-        },
-        {
-            "root": "kpb",
-            "root_meaning": "剥離鎮静高揚",
-            "root_html_href": "k/kpb.html",
-            "root_json_href": "k/kpb.json"
-        },
-        {
-            "root": "kph",
-            "root_meaning": "剥離鎮静受動",
-            "root_html_href": "k/kph.html",
-            "root_json_href": "k/kph.json"
-        },
-        {
-            "root": "kpx",
-            "root_meaning": "剥離鎮静能動",
-            "root_html_href": "k/kpx.html",
-            "root_json_href": "k/kpx.json"
-        },
-        {
-            "root": "kpf",
-            "root_meaning": "剥離鎮静創造",
-            "root_html_href": "k/kpf.html",
-            "root_json_href": "k/kpf.json"
-        },
-        {
-            "root": "kpv",
-            "root_meaning": "剥離鎮静破壊",
-            "root_html_href": "k/kpv.html",
-            "root_json_href": "k/kpv.json"
-        },
-        {
-            "root": "kpm",
-            "root_meaning": "剥離鎮静流動",
-            "root_html_href": "k/kpm.html",
-            "root_json_href": "k/kpm.json"
-        },
-        {
-            "root": "kpn",
-            "root_meaning": "剥離鎮静固定",
-            "root_html_href": "k/kpn.html",
-            "root_json_href": "k/kpn.json"
-        },
-        {
-            "root": "kbk",
-            "root_meaning": "剥離高揚剥離",
-            "root_html_href": "k/kbk.html",
-            "root_json_href": "k/kbk.json"
-        },
-        {
-            "root": "kbg",
-            "root_meaning": "剥離高揚癒着",
-            "root_html_href": "k/kbg.html",
-            "root_json_href": "k/kbg.json"
-        },
-        {
-            "root": "kbt",
-            "root_meaning": "剥離高揚乖離",
-            "root_html_href": "k/kbt.html",
-            "root_json_href": "k/kbt.json"
-        },
-        {
-            "root": "kbd",
-            "root_meaning": "剥離高揚同一",
-            "root_html_href": "k/kbd.html",
-            "root_json_href": "k/kbd.json"
-        },
-        {
-            "root": "kbs",
-            "root_meaning": "剥離高揚肉体",
-            "root_html_href": "k/kbs.html",
-            "root_json_href": "k/kbs.json"
-        },
-        {
-            "root": "kbz",
-            "root_meaning": "剥離高揚精神",
-            "root_html_href": "k/kbz.html",
-            "root_json_href": "k/kbz.json"
-        },
-        {
-            "root": "kbq",
-            "root_meaning": "剥離高揚空白",
-            "root_html_href": "k/kbq.html",
-            "root_json_href": "k/kbq.json"
-        },
-        {
-            "root": "kbc",
-            "root_meaning": "剥離高揚物質",
-            "root_html_href": "k/kbc.html",
-            "root_json_href": "k/kbc.json"
-        },
-        {
-            "root": "kbr",
-            "root_meaning": "剥離高揚過去",
-            "root_html_href": "k/kbr.html",
-            "root_json_href": "k/kbr.json"
-        },
-        {
-            "root": "kbl",
-            "root_meaning": "剥離高揚未来",
-            "root_html_href": "k/kbl.html",
-            "root_json_href": "k/kbl.json"
-        },
-        {
-            "root": "kbp",
-            "root_meaning": "剥離高揚鎮静",
-            "root_html_href": "k/kbp.html",
-            "root_json_href": "k/kbp.json"
-        },
-        {
-            "root": "kbb",
-            "root_meaning": "剥離高揚高揚",
-            "root_html_href": "k/kbb.html",
-            "root_json_href": "k/kbb.json"
-        },
-        {
-            "root": "kbh",
-            "root_meaning": "剥離高揚受動",
-            "root_html_href": "k/kbh.html",
-            "root_json_href": "k/kbh.json"
-        },
-        {
-            "root": "kbx",
-            "root_meaning": "剥離高揚能動",
-            "root_html_href": "k/kbx.html",
-            "root_json_href": "k/kbx.json"
-        },
-        {
-            "root": "kbf",
-            "root_meaning": "剥離高揚創造",
-            "root_html_href": "k/kbf.html",
-            "root_json_href": "k/kbf.json"
-        },
-        {
-            "root": "kbv",
-            "root_meaning": "剥離高揚破壊",
-            "root_html_href": "k/kbv.html",
-            "root_json_href": "k/kbv.json"
-        },
-        {
-            "root": "kbm",
-            "root_meaning": "剥離高揚流動",
-            "root_html_href": "k/kbm.html",
-            "root_json_href": "k/kbm.json"
-        },
-        {
-            "root": "kbn",
-            "root_meaning": "剥離高揚固定",
-            "root_html_href": "k/kbn.html",
-            "root_json_href": "k/kbn.json"
-        },
-        {
-            "root": "khk",
-            "root_meaning": "剥離受動剥離",
-            "root_html_href": "k/khk.html",
-            "root_json_href": "k/khk.json"
-        },
-        {
-            "root": "khg",
-            "root_meaning": "剥離受動癒着",
-            "root_html_href": "k/khg.html",
-            "root_json_href": "k/khg.json"
-        },
-        {
-            "root": "kht",
-            "root_meaning": "剥離受動乖離",
-            "root_html_href": "k/kht.html",
-            "root_json_href": "k/kht.json"
-        },
-        {
-            "root": "khd",
-            "root_meaning": "剥離受動同一",
-            "root_html_href": "k/khd.html",
-            "root_json_href": "k/khd.json"
-        },
-        {
-            "root": "khs",
-            "root_meaning": "剥離受動肉体",
-            "root_html_href": "k/khs.html",
-            "root_json_href": "k/khs.json"
-        },
-        {
-            "root": "khz",
-            "root_meaning": "剥離受動精神",
-            "root_html_href": "k/khz.html",
-            "root_json_href": "k/khz.json"
-        },
-        {
-            "root": "khq",
-            "root_meaning": "剥離受動空白",
-            "root_html_href": "k/khq.html",
-            "root_json_href": "k/khq.json"
-        },
-        {
-            "root": "khc",
-            "root_meaning": "剥離受動物質",
-            "root_html_href": "k/khc.html",
-            "root_json_href": "k/khc.json"
-        },
-        {
-            "root": "khr",
-            "root_meaning": "剥離受動過去",
-            "root_html_href": "k/khr.html",
-            "root_json_href": "k/khr.json"
-        },
-        {
-            "root": "khl",
-            "root_meaning": "剥離受動未来",
-            "root_html_href": "k/khl.html",
-            "root_json_href": "k/khl.json"
-        },
-        {
-            "root": "khp",
-            "root_meaning": "剥離受動鎮静",
-            "root_html_href": "k/khp.html",
-            "root_json_href": "k/khp.json"
-        },
-        {
-            "root": "khb",
-            "root_meaning": "剥離受動高揚",
-            "root_html_href": "k/khb.html",
-            "root_json_href": "k/khb.json"
-        },
-        {
-            "root": "khh",
-            "root_meaning": "剥離受動受動",
-            "root_html_href": "k/khh.html",
-            "root_json_href": "k/khh.json"
-        },
-        {
-            "root": "khx",
-            "root_meaning": "剥離受動能動",
-            "root_html_href": "k/khx.html",
-            "root_json_href": "k/khx.json"
-        },
-        {
-            "root": "khf",
-            "root_meaning": "剥離受動創造",
-            "root_html_href": "k/khf.html",
-            "root_json_href": "k/khf.json"
-        },
-        {
-            "root": "khv",
-            "root_meaning": "剥離受動破壊",
-            "root_html_href": "k/khv.html",
-            "root_json_href": "k/khv.json"
-        },
-        {
-            "root": "khm",
-            "root_meaning": "剥離受動流動",
-            "root_html_href": "k/khm.html",
-            "root_json_href": "k/khm.json"
-        },
-        {
-            "root": "khn",
-            "root_meaning": "剥離受動固定",
-            "root_html_href": "k/khn.html",
-            "root_json_href": "k/khn.json"
-        },
-        {
-            "root": "kxk",
-            "root_meaning": "剥離能動剥離",
-            "root_html_href": "k/kxk.html",
-            "root_json_href": "k/kxk.json"
-        },
-        {
-            "root": "kxg",
-            "root_meaning": "剥離能動癒着",
-            "root_html_href": "k/kxg.html",
-            "root_json_href": "k/kxg.json"
-        },
-        {
-            "root": "kxt",
-            "root_meaning": "剥離能動乖離",
-            "root_html_href": "k/kxt.html",
-            "root_json_href": "k/kxt.json"
-        },
-        {
-            "root": "kxd",
-            "root_meaning": "剥離能動同一",
-            "root_html_href": "k/kxd.html",
-            "root_json_href": "k/kxd.json"
-        },
-        {
-            "root": "kxs",
-            "root_meaning": "剥離能動肉体",
-            "root_html_href": "k/kxs.html",
-            "root_json_href": "k/kxs.json"
-        },
-        {
-            "root": "kxz",
-            "root_meaning": "剥離能動精神",
-            "root_html_href": "k/kxz.html",
-            "root_json_href": "k/kxz.json"
-        },
-        {
-            "root": "kxq",
-            "root_meaning": "剥離能動空白",
-            "root_html_href": "k/kxq.html",
-            "root_json_href": "k/kxq.json"
-        },
-        {
-            "root": "kxc",
-            "root_meaning": "剥離能動物質",
-            "root_html_href": "k/kxc.html",
-            "root_json_href": "k/kxc.json"
-        },
-        {
-            "root": "kxr",
-            "root_meaning": "剥離能動過去",
-            "root_html_href": "k/kxr.html",
-            "root_json_href": "k/kxr.json"
-        },
-        {
-            "root": "kxl",
-            "root_meaning": "剥離能動未来",
-            "root_html_href": "k/kxl.html",
-            "root_json_href": "k/kxl.json"
-        },
-        {
-            "root": "kxp",
-            "root_meaning": "剥離能動鎮静",
-            "root_html_href": "k/kxp.html",
-            "root_json_href": "k/kxp.json"
-        },
-        {
-            "root": "kxb",
-            "root_meaning": "剥離能動高揚",
-            "root_html_href": "k/kxb.html",
-            "root_json_href": "k/kxb.json"
-        },
-        {
-            "root": "kxh",
-            "root_meaning": "剥離能動受動",
-            "root_html_href": "k/kxh.html",
-            "root_json_href": "k/kxh.json"
-        },
-        {
-            "root": "kxx",
-            "root_meaning": "剥離能動能動",
-            "root_html_href": "k/kxx.html",
-            "root_json_href": "k/kxx.json"
-        },
-        {
-            "root": "kxf",
-            "root_meaning": "剥離能動創造",
-            "root_html_href": "k/kxf.html",
-            "root_json_href": "k/kxf.json"
-        },
-        {
-            "root": "kxv",
-            "root_meaning": "剥離能動破壊",
-            "root_html_href": "k/kxv.html",
-            "root_json_href": "k/kxv.json"
-        },
-        {
-            "root": "kxm",
-            "root_meaning": "剥離能動流動",
-            "root_html_href": "k/kxm.html",
-            "root_json_href": "k/kxm.json"
-        },
-        {
-            "root": "kxn",
-            "root_meaning": "剥離能動固定",
-            "root_html_href": "k/kxn.html",
-            "root_json_href": "k/kxn.json"
-        },
-        {
-            "root": "kfk",
-            "root_meaning": "剥離創造剥離",
-            "root_html_href": "k/kfk.html",
-            "root_json_href": "k/kfk.json"
-        },
-        {
-            "root": "kfg",
-            "root_meaning": "剥離創造癒着",
-            "root_html_href": "k/kfg.html",
-            "root_json_href": "k/kfg.json"
-        },
-        {
-            "root": "kft",
-            "root_meaning": "剥離創造乖離",
-            "root_html_href": "k/kft.html",
-            "root_json_href": "k/kft.json"
-        },
-        {
-            "root": "kfd",
-            "root_meaning": "剥離創造同一",
-            "root_html_href": "k/kfd.html",
-            "root_json_href": "k/kfd.json"
-        },
-        {
-            "root": "kfs",
-            "root_meaning": "剥離創造肉体",
-            "root_html_href": "k/kfs.html",
-            "root_json_href": "k/kfs.json"
-        },
-        {
-            "root": "kfz",
-            "root_meaning": "剥離創造精神",
-            "root_html_href": "k/kfz.html",
-            "root_json_href": "k/kfz.json"
-        },
-        {
-            "root": "kfq",
-            "root_meaning": "剥離創造空白",
-            "root_html_href": "k/kfq.html",
-            "root_json_href": "k/kfq.json"
-        },
-        {
-            "root": "kfc",
-            "root_meaning": "剥離創造物質",
-            "root_html_href": "k/kfc.html",
-            "root_json_href": "k/kfc.json"
-        },
-        {
-            "root": "kfr",
-            "root_meaning": "剥離創造過去",
-            "root_html_href": "k/kfr.html",
-            "root_json_href": "k/kfr.json"
-        },
-        {
-            "root": "kfl",
-            "root_meaning": "剥離創造未来",
-            "root_html_href": "k/kfl.html",
-            "root_json_href": "k/kfl.json"
-        },
-        {
-            "root": "kfp",
-            "root_meaning": "剥離創造鎮静",
-            "root_html_href": "k/kfp.html",
-            "root_json_href": "k/kfp.json"
-        },
-        {
-            "root": "kfb",
-            "root_meaning": "剥離創造高揚",
-            "root_html_href": "k/kfb.html",
-            "root_json_href": "k/kfb.json"
-        },
-        {
-            "root": "kfh",
-            "root_meaning": "剥離創造受動",
-            "root_html_href": "k/kfh.html",
-            "root_json_href": "k/kfh.json"
-        },
-        {
-            "root": "kfx",
-            "root_meaning": "剥離創造能動",
-            "root_html_href": "k/kfx.html",
-            "root_json_href": "k/kfx.json"
-        },
-        {
-            "root": "kff",
-            "root_meaning": "剥離創造創造",
-            "root_html_href": "k/kff.html",
-            "root_json_href": "k/kff.json"
-        },
-        {
-            "root": "kfv",
-            "root_meaning": "剥離創造破壊",
-            "root_html_href": "k/kfv.html",
-            "root_json_href": "k/kfv.json"
-        },
-        {
-            "root": "kfm",
-            "root_meaning": "剥離創造流動",
-            "root_html_href": "k/kfm.html",
-            "root_json_href": "k/kfm.json"
-        },
-        {
-            "root": "kfn",
-            "root_meaning": "剥離創造固定",
-            "root_html_href": "k/kfn.html",
-            "root_json_href": "k/kfn.json"
-        },
-        {
-            "root": "kvk",
-            "root_meaning": "剥離破壊剥離",
-            "root_html_href": "k/kvk.html",
-            "root_json_href": "k/kvk.json"
-        },
-        {
-            "root": "kvg",
-            "root_meaning": "剥離破壊癒着",
-            "root_html_href": "k/kvg.html",
-            "root_json_href": "k/kvg.json"
-        },
-        {
-            "root": "kvt",
-            "root_meaning": "剥離破壊乖離",
-            "root_html_href": "k/kvt.html",
-            "root_json_href": "k/kvt.json"
-        },
-        {
-            "root": "kvd",
-            "root_meaning": "剥離破壊同一",
-            "root_html_href": "k/kvd.html",
-            "root_json_href": "k/kvd.json"
-        },
-        {
-            "root": "kvs",
-            "root_meaning": "剥離破壊肉体",
-            "root_html_href": "k/kvs.html",
-            "root_json_href": "k/kvs.json"
-        },
-        {
-            "root": "kvz",
-            "root_meaning": "剥離破壊精神",
-            "root_html_href": "k/kvz.html",
-            "root_json_href": "k/kvz.json"
-        },
-        {
-            "root": "kvq",
-            "root_meaning": "剥離破壊空白",
-            "root_html_href": "k/kvq.html",
-            "root_json_href": "k/kvq.json"
-        },
-        {
-            "root": "kvc",
-            "root_meaning": "剥離破壊物質",
-            "root_html_href": "k/kvc.html",
-            "root_json_href": "k/kvc.json"
-        },
-        {
-            "root": "kvr",
-            "root_meaning": "剥離破壊過去",
-            "root_html_href": "k/kvr.html",
-            "root_json_href": "k/kvr.json"
-        },
-        {
-            "root": "kvl",
-            "root_meaning": "剥離破壊未来",
-            "root_html_href": "k/kvl.html",
-            "root_json_href": "k/kvl.json"
-        },
-        {
-            "root": "kvp",
-            "root_meaning": "剥離破壊鎮静",
-            "root_html_href": "k/kvp.html",
-            "root_json_href": "k/kvp.json"
-        },
-        {
-            "root": "kvb",
-            "root_meaning": "剥離破壊高揚",
-            "root_html_href": "k/kvb.html",
-            "root_json_href": "k/kvb.json"
-        },
-        {
-            "root": "kvh",
-            "root_meaning": "剥離破壊受動",
-            "root_html_href": "k/kvh.html",
-            "root_json_href": "k/kvh.json"
-        },
-        {
-            "root": "kvx",
-            "root_meaning": "剥離破壊能動",
-            "root_html_href": "k/kvx.html",
-            "root_json_href": "k/kvx.json"
-        },
-        {
-            "root": "kvf",
-            "root_meaning": "剥離破壊創造",
-            "root_html_href": "k/kvf.html",
-            "root_json_href": "k/kvf.json"
-        },
-        {
-            "root": "kvv",
-            "root_meaning": "剥離破壊破壊",
-            "root_html_href": "k/kvv.html",
-            "root_json_href": "k/kvv.json"
-        },
-        {
-            "root": "kvm",
-            "root_meaning": "剥離破壊流動",
-            "root_html_href": "k/kvm.html",
-            "root_json_href": "k/kvm.json"
-        },
-        {
-            "root": "kvn",
-            "root_meaning": "剥離破壊固定",
-            "root_html_href": "k/kvn.html",
-            "root_json_href": "k/kvn.json"
-        },
-        {
-            "root": "kmk",
-            "root_meaning": "剥離流動剥離",
-            "root_html_href": "k/kmk.html",
-            "root_json_href": "k/kmk.json"
-        },
-        {
-            "root": "kmg",
-            "root_meaning": "剥離流動癒着",
-            "root_html_href": "k/kmg.html",
-            "root_json_href": "k/kmg.json"
-        },
-        {
-            "root": "kmt",
-            "root_meaning": "剥離流動乖離",
-            "root_html_href": "k/kmt.html",
-            "root_json_href": "k/kmt.json"
-        },
-        {
-            "root": "kmd",
-            "root_meaning": "剥離流動同一",
-            "root_html_href": "k/kmd.html",
-            "root_json_href": "k/kmd.json"
-        },
-        {
-            "root": "kms",
-            "root_meaning": "剥離流動肉体",
-            "root_html_href": "k/kms.html",
-            "root_json_href": "k/kms.json"
-        },
-        {
-            "root": "kmz",
-            "root_meaning": "剥離流動精神",
-            "root_html_href": "k/kmz.html",
-            "root_json_href": "k/kmz.json"
-        },
-        {
-            "root": "kmq",
-            "root_meaning": "剥離流動空白",
-            "root_html_href": "k/kmq.html",
-            "root_json_href": "k/kmq.json"
-        },
-        {
-            "root": "kmc",
-            "root_meaning": "剥離流動物質",
-            "root_html_href": "k/kmc.html",
-            "root_json_href": "k/kmc.json"
-        },
-        {
-            "root": "kmr",
-            "root_meaning": "剥離流動過去",
-            "root_html_href": "k/kmr.html",
-            "root_json_href": "k/kmr.json"
-        },
-        {
-            "root": "kml",
-            "root_meaning": "剥離流動未来",
-            "root_html_href": "k/kml.html",
-            "root_json_href": "k/kml.json"
-        },
-        {
-            "root": "kmp",
-            "root_meaning": "剥離流動鎮静",
-            "root_html_href": "k/kmp.html",
-            "root_json_href": "k/kmp.json"
-        },
-        {
-            "root": "kmb",
-            "root_meaning": "剥離流動高揚",
-            "root_html_href": "k/kmb.html",
-            "root_json_href": "k/kmb.json"
-        },
-        {
-            "root": "kmh",
-            "root_meaning": "剥離流動受動",
-            "root_html_href": "k/kmh.html",
-            "root_json_href": "k/kmh.json"
-        },
-        {
-            "root": "kmx",
-            "root_meaning": "剥離流動能動",
-            "root_html_href": "k/kmx.html",
-            "root_json_href": "k/kmx.json"
-        },
-        {
-            "root": "kmf",
-            "root_meaning": "剥離流動創造",
-            "root_html_href": "k/kmf.html",
-            "root_json_href": "k/kmf.json"
-        },
-        {
-            "root": "kmv",
-            "root_meaning": "剥離流動破壊",
-            "root_html_href": "k/kmv.html",
-            "root_json_href": "k/kmv.json"
-        },
-        {
-            "root": "kmm",
-            "root_meaning": "剥離流動流動",
-            "root_html_href": "k/kmm.html",
-            "root_json_href": "k/kmm.json"
-        },
-        {
-            "root": "kmn",
-            "root_meaning": "剥離流動固定",
-            "root_html_href": "k/kmn.html",
-            "root_json_href": "k/kmn.json"
-        },
-        {
-            "root": "knk",
-            "root_meaning": "剥離固定剥離",
-            "root_html_href": "k/knk.html",
-            "root_json_href": "k/knk.json"
-        },
-        {
-            "root": "kng",
-            "root_meaning": "剥離固定癒着",
-            "root_html_href": "k/kng.html",
-            "root_json_href": "k/kng.json"
-        },
-        {
-            "root": "knt",
-            "root_meaning": "剥離固定乖離",
-            "root_html_href": "k/knt.html",
-            "root_json_href": "k/knt.json"
-        },
-        {
-            "root": "knd",
-            "root_meaning": "剥離固定同一",
-            "root_html_href": "k/knd.html",
-            "root_json_href": "k/knd.json"
-        },
-        {
-            "root": "kns",
-            "root_meaning": "剥離固定肉体",
-            "root_html_href": "k/kns.html",
-            "root_json_href": "k/kns.json"
-        },
-        {
-            "root": "knz",
-            "root_meaning": "剥離固定精神",
-            "root_html_href": "k/knz.html",
-            "root_json_href": "k/knz.json"
-        },
-        {
-            "root": "knq",
-            "root_meaning": "剥離固定空白",
-            "root_html_href": "k/knq.html",
-            "root_json_href": "k/knq.json"
-        },
-        {
-            "root": "knc",
-            "root_meaning": "剥離固定物質",
-            "root_html_href": "k/knc.html",
-            "root_json_href": "k/knc.json"
-        },
-        {
-            "root": "knr",
-            "root_meaning": "剥離固定過去",
-            "root_html_href": "k/knr.html",
-            "root_json_href": "k/knr.json"
-        },
-        {
-            "root": "knl",
-            "root_meaning": "剥離固定未来",
-            "root_html_href": "k/knl.html",
-            "root_json_href": "k/knl.json"
-        },
-        {
-            "root": "knp",
-            "root_meaning": "剥離固定鎮静",
-            "root_html_href": "k/knp.html",
-            "root_json_href": "k/knp.json"
-        },
-        {
-            "root": "knb",
-            "root_meaning": "剥離固定高揚",
-            "root_html_href": "k/knb.html",
-            "root_json_href": "k/knb.json"
-        },
-        {
-            "root": "knh",
-            "root_meaning": "剥離固定受動",
-            "root_html_href": "k/knh.html",
-            "root_json_href": "k/knh.json"
-        },
-        {
-            "root": "knx",
-            "root_meaning": "剥離固定能動",
-            "root_html_href": "k/knx.html",
-            "root_json_href": "k/knx.json"
-        },
-        {
-            "root": "knf",
-            "root_meaning": "剥離固定創造",
-            "root_html_href": "k/knf.html",
-            "root_json_href": "k/knf.json"
-        },
-        {
-            "root": "knv",
-            "root_meaning": "剥離固定破壊",
-            "root_html_href": "k/knv.html",
-            "root_json_href": "k/knv.json"
-        },
-        {
-            "root": "knm",
-            "root_meaning": "剥離固定流動",
-            "root_html_href": "k/knm.html",
-            "root_json_href": "k/knm.json"
-        },
-        {
-            "root": "knn",
-            "root_meaning": "剥離固定固定",
-            "root_html_href": "k/knn.html",
-            "root_json_href": "k/knn.json"
-        }
+        { "root": "kkk", "root_meaning": "剥離剥離剥離", "root_html_href": "k/kkk.html" },
+        { "root": "kkg", "root_meaning": "剥離剥離癒着", "root_html_href": "k/kkg.html" },
+        { "root": "kkt", "root_meaning": "剥離剥離乖離", "root_html_href": "k/kkt.html" },
+        { "root": "kkd", "root_meaning": "剥離剥離同一", "root_html_href": "k/kkd.html" },
+        { "root": "kks", "root_meaning": "剥離剥離肉体", "root_html_href": "k/kks.html" },
+        { "root": "kkz", "root_meaning": "剥離剥離精神", "root_html_href": "k/kkz.html" },
+        { "root": "kkq", "root_meaning": "剥離剥離空白", "root_html_href": "k/kkq.html" },
+        { "root": "kkc", "root_meaning": "剥離剥離物質", "root_html_href": "k/kkc.html" },
+        { "root": "kkr", "root_meaning": "剥離剥離過去", "root_html_href": "k/kkr.html" },
+        { "root": "kkl", "root_meaning": "剥離剥離未来", "root_html_href": "k/kkl.html" },
+        { "root": "kkp", "root_meaning": "剥離剥離鎮静", "root_html_href": "k/kkp.html" },
+        { "root": "kkb", "root_meaning": "剥離剥離高揚", "root_html_href": "k/kkb.html" },
+        { "root": "kkh", "root_meaning": "剥離剥離受動", "root_html_href": "k/kkh.html" },
+        { "root": "kkx", "root_meaning": "剥離剥離能動", "root_html_href": "k/kkx.html" },
+        { "root": "kkf", "root_meaning": "剥離剥離創造", "root_html_href": "k/kkf.html" },
+        { "root": "kkv", "root_meaning": "剥離剥離破壊", "root_html_href": "k/kkv.html" },
+        { "root": "kkm", "root_meaning": "剥離剥離流動", "root_html_href": "k/kkm.html" },
+        { "root": "kkn", "root_meaning": "剥離剥離固定", "root_html_href": "k/kkn.html" },
+        { "root": "kgk", "root_meaning": "剥離癒着剥離", "root_html_href": "k/kgk.html" },
+        { "root": "kgg", "root_meaning": "剥離癒着癒着", "root_html_href": "k/kgg.html" },
+        { "root": "kgt", "root_meaning": "剥離癒着乖離", "root_html_href": "k/kgt.html" },
+        { "root": "kgd", "root_meaning": "剥離癒着同一", "root_html_href": "k/kgd.html" },
+        { "root": "kgs", "root_meaning": "剥離癒着肉体", "root_html_href": "k/kgs.html" },
+        { "root": "kgz", "root_meaning": "剥離癒着精神", "root_html_href": "k/kgz.html" },
+        { "root": "kgq", "root_meaning": "剥離癒着空白", "root_html_href": "k/kgq.html" },
+        { "root": "kgc", "root_meaning": "剥離癒着物質", "root_html_href": "k/kgc.html" },
+        { "root": "kgr", "root_meaning": "剥離癒着過去", "root_html_href": "k/kgr.html" },
+        { "root": "kgl", "root_meaning": "剥離癒着未来", "root_html_href": "k/kgl.html" },
+        { "root": "kgp", "root_meaning": "剥離癒着鎮静", "root_html_href": "k/kgp.html" },
+        { "root": "kgb", "root_meaning": "剥離癒着高揚", "root_html_href": "k/kgb.html" },
+        { "root": "kgh", "root_meaning": "剥離癒着受動", "root_html_href": "k/kgh.html" },
+        { "root": "kgx", "root_meaning": "剥離癒着能動", "root_html_href": "k/kgx.html" },
+        { "root": "kgf", "root_meaning": "剥離癒着創造", "root_html_href": "k/kgf.html" },
+        { "root": "kgv", "root_meaning": "剥離癒着破壊", "root_html_href": "k/kgv.html" },
+        { "root": "kgm", "root_meaning": "剥離癒着流動", "root_html_href": "k/kgm.html" },
+        { "root": "kgn", "root_meaning": "剥離癒着固定", "root_html_href": "k/kgn.html" },
+        { "root": "ktk", "root_meaning": "剥離乖離剥離", "root_html_href": "k/ktk.html" },
+        { "root": "ktg", "root_meaning": "剥離乖離癒着", "root_html_href": "k/ktg.html" },
+        { "root": "ktt", "root_meaning": "剥離乖離乖離", "root_html_href": "k/ktt.html" },
+        { "root": "ktd", "root_meaning": "剥離乖離同一", "root_html_href": "k/ktd.html" },
+        { "root": "kts", "root_meaning": "剥離乖離肉体", "root_html_href": "k/kts.html" },
+        { "root": "ktz", "root_meaning": "剥離乖離精神", "root_html_href": "k/ktz.html" },
+        { "root": "ktq", "root_meaning": "剥離乖離空白", "root_html_href": "k/ktq.html" },
+        { "root": "ktc", "root_meaning": "剥離乖離物質", "root_html_href": "k/ktc.html" },
+        { "root": "ktr", "root_meaning": "剥離乖離過去", "root_html_href": "k/ktr.html" },
+        { "root": "ktl", "root_meaning": "剥離乖離未来", "root_html_href": "k/ktl.html" },
+        { "root": "ktp", "root_meaning": "剥離乖離鎮静", "root_html_href": "k/ktp.html" },
+        { "root": "ktb", "root_meaning": "剥離乖離高揚", "root_html_href": "k/ktb.html" },
+        { "root": "kth", "root_meaning": "剥離乖離受動", "root_html_href": "k/kth.html" },
+        { "root": "ktx", "root_meaning": "剥離乖離能動", "root_html_href": "k/ktx.html" },
+        { "root": "ktf", "root_meaning": "剥離乖離創造", "root_html_href": "k/ktf.html" },
+        { "root": "ktv", "root_meaning": "剥離乖離破壊", "root_html_href": "k/ktv.html" },
+        { "root": "ktm", "root_meaning": "剥離乖離流動", "root_html_href": "k/ktm.html" },
+        { "root": "ktn", "root_meaning": "剥離乖離固定", "root_html_href": "k/ktn.html" },
+        { "root": "kdk", "root_meaning": "剥離同一剥離", "root_html_href": "k/kdk.html" },
+        { "root": "kdg", "root_meaning": "剥離同一癒着", "root_html_href": "k/kdg.html" },
+        { "root": "kdt", "root_meaning": "剥離同一乖離", "root_html_href": "k/kdt.html" },
+        { "root": "kdd", "root_meaning": "剥離同一同一", "root_html_href": "k/kdd.html" },
+        { "root": "kds", "root_meaning": "剥離同一肉体", "root_html_href": "k/kds.html" },
+        { "root": "kdz", "root_meaning": "剥離同一精神", "root_html_href": "k/kdz.html" },
+        { "root": "kdq", "root_meaning": "剥離同一空白", "root_html_href": "k/kdq.html" },
+        { "root": "kdc", "root_meaning": "剥離同一物質", "root_html_href": "k/kdc.html" },
+        { "root": "kdr", "root_meaning": "剥離同一過去", "root_html_href": "k/kdr.html" },
+        { "root": "kdl", "root_meaning": "剥離同一未来", "root_html_href": "k/kdl.html" },
+        { "root": "kdp", "root_meaning": "剥離同一鎮静", "root_html_href": "k/kdp.html" },
+        { "root": "kdb", "root_meaning": "剥離同一高揚", "root_html_href": "k/kdb.html" },
+        { "root": "kdh", "root_meaning": "剥離同一受動", "root_html_href": "k/kdh.html" },
+        { "root": "kdx", "root_meaning": "剥離同一能動", "root_html_href": "k/kdx.html" },
+        { "root": "kdf", "root_meaning": "剥離同一創造", "root_html_href": "k/kdf.html" },
+        { "root": "kdv", "root_meaning": "剥離同一破壊", "root_html_href": "k/kdv.html" },
+        { "root": "kdm", "root_meaning": "剥離同一流動", "root_html_href": "k/kdm.html" },
+        { "root": "kdn", "root_meaning": "剥離同一固定", "root_html_href": "k/kdn.html" },
+        { "root": "ksk", "root_meaning": "剥離肉体剥離", "root_html_href": "k/ksk.html" },
+        { "root": "ksg", "root_meaning": "剥離肉体癒着", "root_html_href": "k/ksg.html" },
+        { "root": "kst", "root_meaning": "剥離肉体乖離", "root_html_href": "k/kst.html" },
+        { "root": "ksd", "root_meaning": "剥離肉体同一", "root_html_href": "k/ksd.html" },
+        { "root": "kss", "root_meaning": "剥離肉体肉体", "root_html_href": "k/kss.html" },
+        { "root": "ksz", "root_meaning": "剥離肉体精神", "root_html_href": "k/ksz.html" },
+        { "root": "ksq", "root_meaning": "剥離肉体空白", "root_html_href": "k/ksq.html" },
+        { "root": "ksc", "root_meaning": "剥離肉体物質", "root_html_href": "k/ksc.html" },
+        { "root": "ksr", "root_meaning": "剥離肉体過去", "root_html_href": "k/ksr.html" },
+        { "root": "ksl", "root_meaning": "剥離肉体未来", "root_html_href": "k/ksl.html" },
+        { "root": "ksp", "root_meaning": "剥離肉体鎮静", "root_html_href": "k/ksp.html" },
+        { "root": "ksb", "root_meaning": "剥離肉体高揚", "root_html_href": "k/ksb.html" },
+        { "root": "ksh", "root_meaning": "剥離肉体受動", "root_html_href": "k/ksh.html" },
+        { "root": "ksx", "root_meaning": "剥離肉体能動", "root_html_href": "k/ksx.html" },
+        { "root": "ksf", "root_meaning": "剥離肉体創造", "root_html_href": "k/ksf.html" },
+        { "root": "ksv", "root_meaning": "剥離肉体破壊", "root_html_href": "k/ksv.html" },
+        { "root": "ksm", "root_meaning": "剥離肉体流動", "root_html_href": "k/ksm.html" },
+        { "root": "ksn", "root_meaning": "剥離肉体固定", "root_html_href": "k/ksn.html" },
+        { "root": "kzk", "root_meaning": "剥離精神剥離", "root_html_href": "k/kzk.html" },
+        { "root": "kzg", "root_meaning": "剥離精神癒着", "root_html_href": "k/kzg.html" },
+        { "root": "kzt", "root_meaning": "剥離精神乖離", "root_html_href": "k/kzt.html" },
+        { "root": "kzd", "root_meaning": "剥離精神同一", "root_html_href": "k/kzd.html" },
+        { "root": "kzs", "root_meaning": "剥離精神肉体", "root_html_href": "k/kzs.html" },
+        { "root": "kzz", "root_meaning": "剥離精神精神", "root_html_href": "k/kzz.html" },
+        { "root": "kzq", "root_meaning": "剥離精神空白", "root_html_href": "k/kzq.html" },
+        { "root": "kzc", "root_meaning": "剥離精神物質", "root_html_href": "k/kzc.html" },
+        { "root": "kzr", "root_meaning": "剥離精神過去", "root_html_href": "k/kzr.html" },
+        { "root": "kzl", "root_meaning": "剥離精神未来", "root_html_href": "k/kzl.html" },
+        { "root": "kzp", "root_meaning": "剥離精神鎮静", "root_html_href": "k/kzp.html" },
+        { "root": "kzb", "root_meaning": "剥離精神高揚", "root_html_href": "k/kzb.html" },
+        { "root": "kzh", "root_meaning": "剥離精神受動", "root_html_href": "k/kzh.html" },
+        { "root": "kzx", "root_meaning": "剥離精神能動", "root_html_href": "k/kzx.html" },
+        { "root": "kzf", "root_meaning": "剥離精神創造", "root_html_href": "k/kzf.html" },
+        { "root": "kzv", "root_meaning": "剥離精神破壊", "root_html_href": "k/kzv.html" },
+        { "root": "kzm", "root_meaning": "剥離精神流動", "root_html_href": "k/kzm.html" },
+        { "root": "kzn", "root_meaning": "剥離精神固定", "root_html_href": "k/kzn.html" },
+        { "root": "kqk", "root_meaning": "剥離空白剥離", "root_html_href": "k/kqk.html" },
+        { "root": "kqg", "root_meaning": "剥離空白癒着", "root_html_href": "k/kqg.html" },
+        { "root": "kqt", "root_meaning": "剥離空白乖離", "root_html_href": "k/kqt.html" },
+        { "root": "kqd", "root_meaning": "剥離空白同一", "root_html_href": "k/kqd.html" },
+        { "root": "kqs", "root_meaning": "剥離空白肉体", "root_html_href": "k/kqs.html" },
+        { "root": "kqz", "root_meaning": "剥離空白精神", "root_html_href": "k/kqz.html" },
+        { "root": "kqq", "root_meaning": "剥離空白空白", "root_html_href": "k/kqq.html" },
+        { "root": "kqc", "root_meaning": "剥離空白物質", "root_html_href": "k/kqc.html" },
+        { "root": "kqr", "root_meaning": "剥離空白過去", "root_html_href": "k/kqr.html" },
+        { "root": "kql", "root_meaning": "剥離空白未来", "root_html_href": "k/kql.html" },
+        { "root": "kqp", "root_meaning": "剥離空白鎮静", "root_html_href": "k/kqp.html" },
+        { "root": "kqb", "root_meaning": "剥離空白高揚", "root_html_href": "k/kqb.html" },
+        { "root": "kqh", "root_meaning": "剥離空白受動", "root_html_href": "k/kqh.html" },
+        { "root": "kqx", "root_meaning": "剥離空白能動", "root_html_href": "k/kqx.html" },
+        { "root": "kqf", "root_meaning": "剥離空白創造", "root_html_href": "k/kqf.html" },
+        { "root": "kqv", "root_meaning": "剥離空白破壊", "root_html_href": "k/kqv.html" },
+        { "root": "kqm", "root_meaning": "剥離空白流動", "root_html_href": "k/kqm.html" },
+        { "root": "kqn", "root_meaning": "剥離空白固定", "root_html_href": "k/kqn.html" },
+        { "root": "kck", "root_meaning": "剥離物質剥離", "root_html_href": "k/kck.html" },
+        { "root": "kcg", "root_meaning": "剥離物質癒着", "root_html_href": "k/kcg.html" },
+        { "root": "kct", "root_meaning": "剥離物質乖離", "root_html_href": "k/kct.html" },
+        { "root": "kcd", "root_meaning": "剥離物質同一", "root_html_href": "k/kcd.html" },
+        { "root": "kcs", "root_meaning": "剥離物質肉体", "root_html_href": "k/kcs.html" },
+        { "root": "kcz", "root_meaning": "剥離物質精神", "root_html_href": "k/kcz.html" },
+        { "root": "kcq", "root_meaning": "剥離物質空白", "root_html_href": "k/kcq.html" },
+        { "root": "kcc", "root_meaning": "剥離物質物質", "root_html_href": "k/kcc.html" },
+        { "root": "kcr", "root_meaning": "剥離物質過去", "root_html_href": "k/kcr.html" },
+        { "root": "kcl", "root_meaning": "剥離物質未来", "root_html_href": "k/kcl.html" },
+        { "root": "kcp", "root_meaning": "剥離物質鎮静", "root_html_href": "k/kcp.html" },
+        { "root": "kcb", "root_meaning": "剥離物質高揚", "root_html_href": "k/kcb.html" },
+        { "root": "kch", "root_meaning": "剥離物質受動", "root_html_href": "k/kch.html" },
+        { "root": "kcx", "root_meaning": "剥離物質能動", "root_html_href": "k/kcx.html" },
+        { "root": "kcf", "root_meaning": "剥離物質創造", "root_html_href": "k/kcf.html" },
+        { "root": "kcv", "root_meaning": "剥離物質破壊", "root_html_href": "k/kcv.html" },
+        { "root": "kcm", "root_meaning": "剥離物質流動", "root_html_href": "k/kcm.html" },
+        { "root": "kcn", "root_meaning": "剥離物質固定", "root_html_href": "k/kcn.html" },
+        { "root": "krk", "root_meaning": "剥離過去剥離", "root_html_href": "k/krk.html" },
+        { "root": "krg", "root_meaning": "剥離過去癒着", "root_html_href": "k/krg.html" },
+        { "root": "krt", "root_meaning": "剥離過去乖離", "root_html_href": "k/krt.html" },
+        { "root": "krd", "root_meaning": "剥離過去同一", "root_html_href": "k/krd.html" },
+        { "root": "krs", "root_meaning": "剥離過去肉体", "root_html_href": "k/krs.html" },
+        { "root": "krz", "root_meaning": "剥離過去精神", "root_html_href": "k/krz.html" },
+        { "root": "krq", "root_meaning": "剥離過去空白", "root_html_href": "k/krq.html" },
+        { "root": "krc", "root_meaning": "剥離過去物質", "root_html_href": "k/krc.html" },
+        { "root": "krr", "root_meaning": "剥離過去過去", "root_html_href": "k/krr.html" },
+        { "root": "krl", "root_meaning": "剥離過去未来", "root_html_href": "k/krl.html" },
+        { "root": "krp", "root_meaning": "剥離過去鎮静", "root_html_href": "k/krp.html" },
+        { "root": "krb", "root_meaning": "剥離過去高揚", "root_html_href": "k/krb.html" },
+        { "root": "krh", "root_meaning": "剥離過去受動", "root_html_href": "k/krh.html" },
+        { "root": "krx", "root_meaning": "剥離過去能動", "root_html_href": "k/krx.html" },
+        { "root": "krf", "root_meaning": "剥離過去創造", "root_html_href": "k/krf.html" },
+        { "root": "krv", "root_meaning": "剥離過去破壊", "root_html_href": "k/krv.html" },
+        { "root": "krm", "root_meaning": "剥離過去流動", "root_html_href": "k/krm.html" },
+        { "root": "krn", "root_meaning": "剥離過去固定", "root_html_href": "k/krn.html" },
+        { "root": "klk", "root_meaning": "剥離未来剥離", "root_html_href": "k/klk.html" },
+        { "root": "klg", "root_meaning": "剥離未来癒着", "root_html_href": "k/klg.html" },
+        { "root": "klt", "root_meaning": "剥離未来乖離", "root_html_href": "k/klt.html" },
+        { "root": "kld", "root_meaning": "剥離未来同一", "root_html_href": "k/kld.html" },
+        { "root": "kls", "root_meaning": "剥離未来肉体", "root_html_href": "k/kls.html" },
+        { "root": "klz", "root_meaning": "剥離未来精神", "root_html_href": "k/klz.html" },
+        { "root": "klq", "root_meaning": "剥離未来空白", "root_html_href": "k/klq.html" },
+        { "root": "klc", "root_meaning": "剥離未来物質", "root_html_href": "k/klc.html" },
+        { "root": "klr", "root_meaning": "剥離未来過去", "root_html_href": "k/klr.html" },
+        { "root": "kll", "root_meaning": "剥離未来未来", "root_html_href": "k/kll.html" },
+        { "root": "klp", "root_meaning": "剥離未来鎮静", "root_html_href": "k/klp.html" },
+        { "root": "klb", "root_meaning": "剥離未来高揚", "root_html_href": "k/klb.html" },
+        { "root": "klh", "root_meaning": "剥離未来受動", "root_html_href": "k/klh.html" },
+        { "root": "klx", "root_meaning": "剥離未来能動", "root_html_href": "k/klx.html" },
+        { "root": "klf", "root_meaning": "剥離未来創造", "root_html_href": "k/klf.html" },
+        { "root": "klv", "root_meaning": "剥離未来破壊", "root_html_href": "k/klv.html" },
+        { "root": "klm", "root_meaning": "剥離未来流動", "root_html_href": "k/klm.html" },
+        { "root": "kln", "root_meaning": "剥離未来固定", "root_html_href": "k/kln.html" },
+        { "root": "kpk", "root_meaning": "剥離鎮静剥離", "root_html_href": "k/kpk.html" },
+        { "root": "kpg", "root_meaning": "剥離鎮静癒着", "root_html_href": "k/kpg.html" },
+        { "root": "kpt", "root_meaning": "剥離鎮静乖離", "root_html_href": "k/kpt.html" },
+        { "root": "kpd", "root_meaning": "剥離鎮静同一", "root_html_href": "k/kpd.html" },
+        { "root": "kps", "root_meaning": "剥離鎮静肉体", "root_html_href": "k/kps.html" },
+        { "root": "kpz", "root_meaning": "剥離鎮静精神", "root_html_href": "k/kpz.html" },
+        { "root": "kpq", "root_meaning": "剥離鎮静空白", "root_html_href": "k/kpq.html" },
+        { "root": "kpc", "root_meaning": "剥離鎮静物質", "root_html_href": "k/kpc.html" },
+        { "root": "kpr", "root_meaning": "剥離鎮静過去", "root_html_href": "k/kpr.html" },
+        { "root": "kpl", "root_meaning": "剥離鎮静未来", "root_html_href": "k/kpl.html" },
+        { "root": "kpp", "root_meaning": "剥離鎮静鎮静", "root_html_href": "k/kpp.html" },
+        { "root": "kpb", "root_meaning": "剥離鎮静高揚", "root_html_href": "k/kpb.html" },
+        { "root": "kph", "root_meaning": "剥離鎮静受動", "root_html_href": "k/kph.html" },
+        { "root": "kpx", "root_meaning": "剥離鎮静能動", "root_html_href": "k/kpx.html" },
+        { "root": "kpf", "root_meaning": "剥離鎮静創造", "root_html_href": "k/kpf.html" },
+        { "root": "kpv", "root_meaning": "剥離鎮静破壊", "root_html_href": "k/kpv.html" },
+        { "root": "kpm", "root_meaning": "剥離鎮静流動", "root_html_href": "k/kpm.html" },
+        { "root": "kpn", "root_meaning": "剥離鎮静固定", "root_html_href": "k/kpn.html" },
+        { "root": "kbk", "root_meaning": "剥離高揚剥離", "root_html_href": "k/kbk.html" },
+        { "root": "kbg", "root_meaning": "剥離高揚癒着", "root_html_href": "k/kbg.html" },
+        { "root": "kbt", "root_meaning": "剥離高揚乖離", "root_html_href": "k/kbt.html" },
+        { "root": "kbd", "root_meaning": "剥離高揚同一", "root_html_href": "k/kbd.html" },
+        { "root": "kbs", "root_meaning": "剥離高揚肉体", "root_html_href": "k/kbs.html" },
+        { "root": "kbz", "root_meaning": "剥離高揚精神", "root_html_href": "k/kbz.html" },
+        { "root": "kbq", "root_meaning": "剥離高揚空白", "root_html_href": "k/kbq.html" },
+        { "root": "kbc", "root_meaning": "剥離高揚物質", "root_html_href": "k/kbc.html" },
+        { "root": "kbr", "root_meaning": "剥離高揚過去", "root_html_href": "k/kbr.html" },
+        { "root": "kbl", "root_meaning": "剥離高揚未来", "root_html_href": "k/kbl.html" },
+        { "root": "kbp", "root_meaning": "剥離高揚鎮静", "root_html_href": "k/kbp.html" },
+        { "root": "kbb", "root_meaning": "剥離高揚高揚", "root_html_href": "k/kbb.html" },
+        { "root": "kbh", "root_meaning": "剥離高揚受動", "root_html_href": "k/kbh.html" },
+        { "root": "kbx", "root_meaning": "剥離高揚能動", "root_html_href": "k/kbx.html" },
+        { "root": "kbf", "root_meaning": "剥離高揚創造", "root_html_href": "k/kbf.html" },
+        { "root": "kbv", "root_meaning": "剥離高揚破壊", "root_html_href": "k/kbv.html" },
+        { "root": "kbm", "root_meaning": "剥離高揚流動", "root_html_href": "k/kbm.html" },
+        { "root": "kbn", "root_meaning": "剥離高揚固定", "root_html_href": "k/kbn.html" },
+        { "root": "khk", "root_meaning": "剥離受動剥離", "root_html_href": "k/khk.html" },
+        { "root": "khg", "root_meaning": "剥離受動癒着", "root_html_href": "k/khg.html" },
+        { "root": "kht", "root_meaning": "剥離受動乖離", "root_html_href": "k/kht.html" },
+        { "root": "khd", "root_meaning": "剥離受動同一", "root_html_href": "k/khd.html" },
+        { "root": "khs", "root_meaning": "剥離受動肉体", "root_html_href": "k/khs.html" },
+        { "root": "khz", "root_meaning": "剥離受動精神", "root_html_href": "k/khz.html" },
+        { "root": "khq", "root_meaning": "剥離受動空白", "root_html_href": "k/khq.html" },
+        { "root": "khc", "root_meaning": "剥離受動物質", "root_html_href": "k/khc.html" },
+        { "root": "khr", "root_meaning": "剥離受動過去", "root_html_href": "k/khr.html" },
+        { "root": "khl", "root_meaning": "剥離受動未来", "root_html_href": "k/khl.html" },
+        { "root": "khp", "root_meaning": "剥離受動鎮静", "root_html_href": "k/khp.html" },
+        { "root": "khb", "root_meaning": "剥離受動高揚", "root_html_href": "k/khb.html" },
+        { "root": "khh", "root_meaning": "剥離受動受動", "root_html_href": "k/khh.html" },
+        { "root": "khx", "root_meaning": "剥離受動能動", "root_html_href": "k/khx.html" },
+        { "root": "khf", "root_meaning": "剥離受動創造", "root_html_href": "k/khf.html" },
+        { "root": "khv", "root_meaning": "剥離受動破壊", "root_html_href": "k/khv.html" },
+        { "root": "khm", "root_meaning": "剥離受動流動", "root_html_href": "k/khm.html" },
+        { "root": "khn", "root_meaning": "剥離受動固定", "root_html_href": "k/khn.html" },
+        { "root": "kxk", "root_meaning": "剥離能動剥離", "root_html_href": "k/kxk.html" },
+        { "root": "kxg", "root_meaning": "剥離能動癒着", "root_html_href": "k/kxg.html" },
+        { "root": "kxt", "root_meaning": "剥離能動乖離", "root_html_href": "k/kxt.html" },
+        { "root": "kxd", "root_meaning": "剥離能動同一", "root_html_href": "k/kxd.html" },
+        { "root": "kxs", "root_meaning": "剥離能動肉体", "root_html_href": "k/kxs.html" },
+        { "root": "kxz", "root_meaning": "剥離能動精神", "root_html_href": "k/kxz.html" },
+        { "root": "kxq", "root_meaning": "剥離能動空白", "root_html_href": "k/kxq.html" },
+        { "root": "kxc", "root_meaning": "剥離能動物質", "root_html_href": "k/kxc.html" },
+        { "root": "kxr", "root_meaning": "剥離能動過去", "root_html_href": "k/kxr.html" },
+        { "root": "kxl", "root_meaning": "剥離能動未来", "root_html_href": "k/kxl.html" },
+        { "root": "kxp", "root_meaning": "剥離能動鎮静", "root_html_href": "k/kxp.html" },
+        { "root": "kxb", "root_meaning": "剥離能動高揚", "root_html_href": "k/kxb.html" },
+        { "root": "kxh", "root_meaning": "剥離能動受動", "root_html_href": "k/kxh.html" },
+        { "root": "kxx", "root_meaning": "剥離能動能動", "root_html_href": "k/kxx.html" },
+        { "root": "kxf", "root_meaning": "剥離能動創造", "root_html_href": "k/kxf.html" },
+        { "root": "kxv", "root_meaning": "剥離能動破壊", "root_html_href": "k/kxv.html" },
+        { "root": "kxm", "root_meaning": "剥離能動流動", "root_html_href": "k/kxm.html" },
+        { "root": "kxn", "root_meaning": "剥離能動固定", "root_html_href": "k/kxn.html" },
+        { "root": "kfk", "root_meaning": "剥離創造剥離", "root_html_href": "k/kfk.html" },
+        { "root": "kfg", "root_meaning": "剥離創造癒着", "root_html_href": "k/kfg.html" },
+        { "root": "kft", "root_meaning": "剥離創造乖離", "root_html_href": "k/kft.html" },
+        { "root": "kfd", "root_meaning": "剥離創造同一", "root_html_href": "k/kfd.html" },
+        { "root": "kfs", "root_meaning": "剥離創造肉体", "root_html_href": "k/kfs.html" },
+        { "root": "kfz", "root_meaning": "剥離創造精神", "root_html_href": "k/kfz.html" },
+        { "root": "kfq", "root_meaning": "剥離創造空白", "root_html_href": "k/kfq.html" },
+        { "root": "kfc", "root_meaning": "剥離創造物質", "root_html_href": "k/kfc.html" },
+        { "root": "kfr", "root_meaning": "剥離創造過去", "root_html_href": "k/kfr.html" },
+        { "root": "kfl", "root_meaning": "剥離創造未来", "root_html_href": "k/kfl.html" },
+        { "root": "kfp", "root_meaning": "剥離創造鎮静", "root_html_href": "k/kfp.html" },
+        { "root": "kfb", "root_meaning": "剥離創造高揚", "root_html_href": "k/kfb.html" },
+        { "root": "kfh", "root_meaning": "剥離創造受動", "root_html_href": "k/kfh.html" },
+        { "root": "kfx", "root_meaning": "剥離創造能動", "root_html_href": "k/kfx.html" },
+        { "root": "kff", "root_meaning": "剥離創造創造", "root_html_href": "k/kff.html" },
+        { "root": "kfv", "root_meaning": "剥離創造破壊", "root_html_href": "k/kfv.html" },
+        { "root": "kfm", "root_meaning": "剥離創造流動", "root_html_href": "k/kfm.html" },
+        { "root": "kfn", "root_meaning": "剥離創造固定", "root_html_href": "k/kfn.html" },
+        { "root": "kvk", "root_meaning": "剥離破壊剥離", "root_html_href": "k/kvk.html" },
+        { "root": "kvg", "root_meaning": "剥離破壊癒着", "root_html_href": "k/kvg.html" },
+        { "root": "kvt", "root_meaning": "剥離破壊乖離", "root_html_href": "k/kvt.html" },
+        { "root": "kvd", "root_meaning": "剥離破壊同一", "root_html_href": "k/kvd.html" },
+        { "root": "kvs", "root_meaning": "剥離破壊肉体", "root_html_href": "k/kvs.html" },
+        { "root": "kvz", "root_meaning": "剥離破壊精神", "root_html_href": "k/kvz.html" },
+        { "root": "kvq", "root_meaning": "剥離破壊空白", "root_html_href": "k/kvq.html" },
+        { "root": "kvc", "root_meaning": "剥離破壊物質", "root_html_href": "k/kvc.html" },
+        { "root": "kvr", "root_meaning": "剥離破壊過去", "root_html_href": "k/kvr.html" },
+        { "root": "kvl", "root_meaning": "剥離破壊未来", "root_html_href": "k/kvl.html" },
+        { "root": "kvp", "root_meaning": "剥離破壊鎮静", "root_html_href": "k/kvp.html" },
+        { "root": "kvb", "root_meaning": "剥離破壊高揚", "root_html_href": "k/kvb.html" },
+        { "root": "kvh", "root_meaning": "剥離破壊受動", "root_html_href": "k/kvh.html" },
+        { "root": "kvx", "root_meaning": "剥離破壊能動", "root_html_href": "k/kvx.html" },
+        { "root": "kvf", "root_meaning": "剥離破壊創造", "root_html_href": "k/kvf.html" },
+        { "root": "kvv", "root_meaning": "剥離破壊破壊", "root_html_href": "k/kvv.html" },
+        { "root": "kvm", "root_meaning": "剥離破壊流動", "root_html_href": "k/kvm.html" },
+        { "root": "kvn", "root_meaning": "剥離破壊固定", "root_html_href": "k/kvn.html" },
+        { "root": "kmk", "root_meaning": "剥離流動剥離", "root_html_href": "k/kmk.html" },
+        { "root": "kmg", "root_meaning": "剥離流動癒着", "root_html_href": "k/kmg.html" },
+        { "root": "kmt", "root_meaning": "剥離流動乖離", "root_html_href": "k/kmt.html" },
+        { "root": "kmd", "root_meaning": "剥離流動同一", "root_html_href": "k/kmd.html" },
+        { "root": "kms", "root_meaning": "剥離流動肉体", "root_html_href": "k/kms.html" },
+        { "root": "kmz", "root_meaning": "剥離流動精神", "root_html_href": "k/kmz.html" },
+        { "root": "kmq", "root_meaning": "剥離流動空白", "root_html_href": "k/kmq.html" },
+        { "root": "kmc", "root_meaning": "剥離流動物質", "root_html_href": "k/kmc.html" },
+        { "root": "kmr", "root_meaning": "剥離流動過去", "root_html_href": "k/kmr.html" },
+        { "root": "kml", "root_meaning": "剥離流動未来", "root_html_href": "k/kml.html" },
+        { "root": "kmp", "root_meaning": "剥離流動鎮静", "root_html_href": "k/kmp.html" },
+        { "root": "kmb", "root_meaning": "剥離流動高揚", "root_html_href": "k/kmb.html" },
+        { "root": "kmh", "root_meaning": "剥離流動受動", "root_html_href": "k/kmh.html" },
+        { "root": "kmx", "root_meaning": "剥離流動能動", "root_html_href": "k/kmx.html" },
+        { "root": "kmf", "root_meaning": "剥離流動創造", "root_html_href": "k/kmf.html" },
+        { "root": "kmv", "root_meaning": "剥離流動破壊", "root_html_href": "k/kmv.html" },
+        { "root": "kmm", "root_meaning": "剥離流動流動", "root_html_href": "k/kmm.html" },
+        { "root": "kmn", "root_meaning": "剥離流動固定", "root_html_href": "k/kmn.html" },
+        { "root": "knk", "root_meaning": "剥離固定剥離", "root_html_href": "k/knk.html" },
+        { "root": "kng", "root_meaning": "剥離固定癒着", "root_html_href": "k/kng.html" },
+        { "root": "knt", "root_meaning": "剥離固定乖離", "root_html_href": "k/knt.html" },
+        { "root": "knd", "root_meaning": "剥離固定同一", "root_html_href": "k/knd.html" },
+        { "root": "kns", "root_meaning": "剥離固定肉体", "root_html_href": "k/kns.html" },
+        { "root": "knz", "root_meaning": "剥離固定精神", "root_html_href": "k/knz.html" },
+        { "root": "knq", "root_meaning": "剥離固定空白", "root_html_href": "k/knq.html" },
+        { "root": "knc", "root_meaning": "剥離固定物質", "root_html_href": "k/knc.html" },
+        { "root": "knr", "root_meaning": "剥離固定過去", "root_html_href": "k/knr.html" },
+        { "root": "knl", "root_meaning": "剥離固定未来", "root_html_href": "k/knl.html" },
+        { "root": "knp", "root_meaning": "剥離固定鎮静", "root_html_href": "k/knp.html" },
+        { "root": "knb", "root_meaning": "剥離固定高揚", "root_html_href": "k/knb.html" },
+        { "root": "knh", "root_meaning": "剥離固定受動", "root_html_href": "k/knh.html" },
+        { "root": "knx", "root_meaning": "剥離固定能動", "root_html_href": "k/knx.html" },
+        { "root": "knf", "root_meaning": "剥離固定創造", "root_html_href": "k/knf.html" },
+        { "root": "knv", "root_meaning": "剥離固定破壊", "root_html_href": "k/knv.html" },
+        { "root": "knm", "root_meaning": "剥離固定流動", "root_html_href": "k/knm.html" },
+        { "root": "knn", "root_meaning": "剥離固定固定", "root_html_href": "k/knn.html" }
     ]
 }
