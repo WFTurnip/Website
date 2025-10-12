@@ -52,8 +52,12 @@ h2 {
     text-orientation: mixed;
 }
 
-h3,
-p,
+a {
+    font-style: normal;
+    font-weight: bold;
+    text-orientation: mixed;
+}
+
 a {
     text-decoration: none;
 }
@@ -62,18 +66,34 @@ a:hover {
     text-decoration: underline;
 }
 
-h1 > ruby > rt,
-h2 > ruby > rt,
-p > ruby > rt,
-a > ruby > rt {
+rt {
     font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
     font-weight: bold;
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "palt";
+    font-variant-east-asian: ruby;
 }
 
-table {
-    box-align: center;
-    empty-cells: hide;
-    margin: auto;
+ruby {
+    ruby-position: alternate;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+nav,
+ol {
+    list-style: none;
+    display: flex;
+    ;
+}
+
+nav li::after {
+    content: "\FF1E";
+}
+
+nav li:last-child::after {
+    content: "";
 }

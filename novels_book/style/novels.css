@@ -53,12 +53,37 @@ footer {
     font-weight: bold;
 }
 
-a > ruby > rt,
-p > ruby > rt,
-h2 > ruby > rt,
-h1 > ruby > rt {
+rt {
     font-family: "Sagabonfont Prototype", "KouzanBrushFont", serif;
     font-weight: bold;
     font-variant-ligatures: common-ligatures;
     font-feature-settings: "palt";
+    font-variant-east-asian: ruby;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ruby {
+    ruby-position: alternate;
+}
+
+nav,
+ol {
+    list-style: none;
+    display: flex;
+    ;
+}
+
+nav li::after {
+    content: "\FF1E";
+}
+
+nav li:last-child::after {
+    content: "";
 }
