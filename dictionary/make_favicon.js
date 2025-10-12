@@ -123,7 +123,7 @@ async function generateRoot(i, j, k) {
 }
 
 async function generateConsonantDirectory(i) {
-    const directory = path.join("favicon_index", consonants[i]);
+    let directory = path.join("favicon_index", consonants[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
@@ -133,7 +133,7 @@ async function generateConsonantDirectory(i) {
 }
 
 async function make() {
-    const directory = "favicon_index";
+    const directory = path.join("favicon_index");
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
