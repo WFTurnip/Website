@@ -172,3 +172,8 @@ dl dt,
 dl dd {
     break-inside: avoid;
 }
+
+dt figure object,
+dd figure object {
+    display: inline;
+}
