@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-
+    polygon,
     rect,
     circle {
         fill: #3b3f3f;
@@ -7,7 +7,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
+    polygon,
     rect,
     circle {
         fill: #e8e5dd;

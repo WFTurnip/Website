@@ -14,12 +14,10 @@ async function generateRtlFigure() {
     svg.setAttribute("width", 16);
     svg.setAttribute("height", 16);
 
-    let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 0);
-    rect.setAttribute("y", 0);
-    rect.setAttribute("width", 16);
-    rect.setAttribute("height", 16);
-    svg.appendChild(rect);
+    let coodinate = "8,0 8,8 0,8 8,16 16,8";
+    let polygon = document.createElementNS(svgns, "polygon");
+    polygon.setAttribute("points", coodinate);
+    svg.appendChild(polygon);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -47,12 +45,10 @@ async function generateLtrFigure() {
     svg.setAttribute("width", 16);
     svg.setAttribute("height", 16);
 
-    let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 0);
-    rect.setAttribute("y", 0);
-    rect.setAttribute("width", 16);
-    rect.setAttribute("height", 16);
-    svg.appendChild(rect);
+    let coodinate = "8,0 0,8 8,16 16,8 8,8";
+    let polygon = document.createElementNS(svgns, "polygon");
+    polygon.setAttribute("points", coodinate);
+    svg.appendChild(polygon);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -272,7 +268,7 @@ async function make() {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
-        console.log("ディレクトリ" + directory + "を作成できませんでした。");
+        console.log("ディレクトリ" + directnory + "を作成できませんでした。");
     }
     generateRtlFigure();
     generateLtrFigure();
