@@ -124,7 +124,7 @@ function generateVowelTable() {
     let tbody = document.createElement("tbody");
     let tr2 = document.createElement("tr");
     let th5 = document.createElement("th");
-    th5.textContent = "非円唇";
+    th5.textContent = "非円唇母音";
     tr2.appendChild(th5);
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
@@ -141,7 +141,7 @@ function generateVowelTable() {
     tbody.appendChild(tr2);
     let tr3 = document.createElement("tr");
     let th6 = document.createElement("th");
-    th6.textContent = "円唇";
+    th6.textContent = "円唇母音";
     tr3.appendChild(th6);
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
@@ -279,7 +279,7 @@ function generateCaseTable() {
     let tbody = document.createElement("tbody");
     let tr2 = document.createElement("tr");
     let th5 = document.createElement("th");
-    th5.textContent = "非円唇";
+    th5.textContent = "非円唇母音";
     tr2.appendChild(th5);
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
@@ -296,7 +296,7 @@ function generateCaseTable() {
     tbody.appendChild(tr2);
     let tr3 = document.createElement("tr");
     let th6 = document.createElement("th");
-    th6.textContent = "円唇";
+    th6.textContent = "円唇母音";
     tr3.appendChild(th6);
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
@@ -412,7 +412,7 @@ function generateCaseOfSpeechTable() {
     let tbody = document.createElement("tbody");
     let tr2 = document.createElement("tr");
     let th5 = document.createElement("th");
-    th5.textContent = "非円唇";
+    th5.textContent = "非円唇母音";
     tr2.appendChild(th5);
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
@@ -429,7 +429,7 @@ function generateCaseOfSpeechTable() {
     tbody.appendChild(tr2);
     let tr3 = document.createElement("tr");
     let th6 = document.createElement("th");
-    th6.textContent = "円唇";
+    th6.textContent = "円唇母音";
     tr3.appendChild(th6);
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
