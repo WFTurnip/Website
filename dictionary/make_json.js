@@ -8,7 +8,7 @@ const consonants_pronunciation_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ"
 
 const vowels_array = ["a", "e", "i", "o", "u", "w"];
 const vowels_cases_array = ["否", "与", "属", "対", "主", "流"];
-const vowels_part_of_speech_types_array = ["付", "動", "容", "助", "副", "名"];
+const vowels_part_of_speech_types_array = ["附", "動", "容", "助", "副", "名"];
 const vowels_pronunciation_array = ["a", "e", "i", "o", "u", ""];
 
 async function generateIndex() {

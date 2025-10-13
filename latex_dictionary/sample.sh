@@ -43,7 +43,7 @@ printf "\\chapter{付録}\n\\label{chap:10}">chapter10.tex
 printf "\\section{重要なフレーズ}\n\\label{sec:10.1}">section10.1.tex
 
 printf "\\chapter{活用図表}\n\\label{chap:11}">chapter11.tex
-printf "\\section{付詞活用図表}\n\\label{sec:11.1}">section11.1.tex
+printf "\\section{附詞活用図表}\n\\label{sec:11.1}">section11.1.tex
 printf "\\section{動詞活用図表}\n\\label{sec:11.2}">section11.2.tex
 printf "\\section{容詞活用図表}\n\\label{sec:11.3}">section11.3.tex
 printf "\\section{助詞活用図表}\n\\label{sec:11.4}">section11.4.tex
