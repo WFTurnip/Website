@@ -481,9 +481,9 @@ function generateArticleConjugationTable() {
 }
 
 const tense_array = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
-const tense_consonants_array = ["q", "c", "r", "l", "p", "b"];
-
 const aspect_array = ["受動", "能動", "創造", "破壊", "流動", "固定"];
+
+const tense_consonants_array = ["q", "c", "r", "l", "p", "b"];
 const aspect_consonants_array = ["h", "x", "f", "v", "m", "n"];
 
 function generateVerbConjugationTable() {
