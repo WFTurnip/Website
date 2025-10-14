@@ -37,10 +37,6 @@ td p,
     font-family: serif;
 }
 
-sub {
-    font-variant-caps: small-caps;
-}
-
 .pronunciation {
     font-family: monospace;
 }

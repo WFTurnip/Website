@@ -177,3 +177,7 @@ dt figure object,
 dd figure object {
     display: inline;
 }
+
+sub {
+    font-variant-caps: small-caps;
+}
