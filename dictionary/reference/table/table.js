@@ -548,9 +548,6 @@ function generateVerbConjugationTable() {
     });
 }
 
-const nouns_consonants_array = ["k", "g", "t", "d", "s", "z"];
-const nouns_array = ["剥離", "癒着", "乖離", "同一", "肉体", "精神"];
-
 function generateAdjectiveConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -621,20 +618,52 @@ function generateAdverbConjugationTable() {
     let th = document.createElement("th");
     th.textContent = "";
     tr.appendChild(th);
+    for (let i = 0; i < tense_consonants_array.length; i++) {
+        let th = document.createElement("th");
+        let p = document.createElement("p");
+        p.textContent = tense_consonants_array[i];
+        p.classList.add("zosokw", "adverb-tense-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("p");
+        p2.textContent = tense_array[i] + "形";
+        p2.classList.add("adverb-tense");
+        th.appendChild(p2);
+        tr.appendChild(th);
+    }
     thead.appendChild(tr);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let td = document.createElement("td");
-    let p2 = document.createElement("p");
-    p2.classList.add("zosokw");
-    let span = document.createElement("span");
-    span.classList.add("original-form");
-    span.textContent = "---u";
-    p2.appendChild(span);
-    td.appendChild(p2);
-    tr2.appendChild(td);
-    tbody.appendChild(tr2);
+    for (let i = 0; i < aspect_consonants_array.length; i++) {
+        let tr = document.createElement("tr");
+        let th = document.createElement("th");
+        let p = document.createElement("p");
+        p.textContent = aspect_consonants_array[i];
+        p.classList.add("zosokw", "adverb-aspect-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("p");
+        p2.textContent = aspect_array[i] + "相";
+        p2.classList.add("adverb-aspect");
+        th.appendChild(p2);
+        tr.appendChild(th);
+        for (let j = 0; j < tense_consonants_array.length; j++) {
+            let td = document.createElement("td");
+            let p = document.createElement("p");
+            p.classList.add("zosokw", "adverb-conjugation-form-consonant");
+            p.appendChild(document.createTextNode(aspect_consonants_array[i]));
+            let span = document.createElement("span");
+            span.classList.add("original-form");
+            span.textContent = "---u";
+            p.appendChild(span);
+            p.appendChild(document.createTextNode(tense_consonants_array[j]));
+            td.appendChild(p);
+            let p2 = document.createElement("p");
+            p2.textContent = aspect_array[i] + "相" + tense_array[j] + "形";
+            p2.classList.add("adverb-conjugation-form");
+            td.appendChild(p2);
+            tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+    }
     table.appendChild(tbody);
     document.querySelectorAll(".adverb-conjugation-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
