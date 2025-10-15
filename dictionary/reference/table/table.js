@@ -399,20 +399,20 @@ function generateCaseOfSpeechTable() {
     th.textContent = "";
     tr.appendChild(th);
     let th2 = document.createElement("th");
-    th2.textContent = "広母音";
+    th2.textContent = "限定符";
     tr.appendChild(th2);
     let th3 = document.createElement("th");
-    th3.textContent = "中母音";
+    th3.textContent = "動作符";
     tr.appendChild(th3);
     let th4 = document.createElement("th");
-    th4.textContent = "狭母音";
+    th4.textContent = "状態符";
     tr.appendChild(th4);
     thead.appendChild(tr);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
     let tr2 = document.createElement("tr");
     let th5 = document.createElement("th");
-    th5.textContent = "非円唇母音";
+    th5.textContent = "文法核";
     tr2.appendChild(th5);
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
@@ -429,7 +429,7 @@ function generateCaseOfSpeechTable() {
     tbody.appendChild(tr2);
     let tr3 = document.createElement("tr");
     let th6 = document.createElement("th");
-    th6.textContent = "円唇母音";
+    th6.textContent = "文法補助";
     tr3.appendChild(th6);
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
