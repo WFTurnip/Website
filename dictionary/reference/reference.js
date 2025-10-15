@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const tocNav = document.querySelector("nav#table-of-content ");
+    const tocNav = document.querySelector("#table-of-content");
     if (!tocNav) return;
 
     tocNav.innerHTML = "";
