@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.10.5)  14 OCT 2025 01:19
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.10.5)  16 OCT 2025 11:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -529,15 +529,8 @@ pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-Package rerunfilecheck Warning: File `reference.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `reference.out':
-(rerunfilecheck)             Before: 472F15EF43AF21451ABE8684D550E348;4681
-(rerunfilecheck)             After:  6A41E0500CEEFEA49FCF65948956F793;4681.
+Package rerunfilecheck Info: File `reference.out' has not changed.
+(rerunfilecheck)             Checksum: 6A41E0500CEEFEA49FCF65948956F793;4681.
  ) 
 Here is how much of TeX's memory you used:
  10669 strings out of 468392
