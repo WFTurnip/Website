@@ -1,0 +1,12 @@
+open -a /Applications/Visual\ Studio\ Code.app kodito.svg
+open -a /Applications/Visual\ Studio\ Code.app lekuta.svg
+open -a /Applications/Visual\ Studio\ Code.app lozegw.svg
+open -a /Applications/Visual\ Studio\ Code.app makina.svg
+open -a /Applications/Visual\ Studio\ Code.app piswpi.svg
+open -a /Applications/Visual\ Studio\ Code.app polwgo.svg
+open -a /Applications/Visual\ Studio\ Code.app silwki.svg
+open -a /Applications/Visual\ Studio\ Code.app sulive.svg
+open -a /Applications/Visual\ Studio\ Code.app xavani.svg
+open -a /Applications/Visual\ Studio\ Code.app xesada.svg
+open -a /Applications/Visual\ Studio\ Code.app xidili.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw.svg
