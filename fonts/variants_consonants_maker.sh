@@ -9,32 +9,32 @@ cp sulive/uni0048.svg sulive/uni0048.isol.svg
 cp sulive/uni0046.svg sulive/uni0046.isol.svg
 cp sulive/uni004D.svg sulive/uni004D.isol.svg
 # Initial Form -------------------------------------------------------
-cat sulive/uni004B.svg sulive.init.svg >>sulive/uni004B.init.svg
-cat sulive/uni0054.svg sulive.init.svg >>sulive/uni0054.init.svg
-cat sulive/uni0053.svg sulive.init.svg >>sulive/uni0053.init.svg
-cat sulive/uni0051.svg sulive.init.svg >>sulive/uni0051.init.svg
-cat sulive/uni0052.svg sulive.init.svg >>sulive/uni0052.init.svg
-cat sulive/uni0050.svg sulive.init.svg >>sulive/uni0050.init.svg
-cat sulive/uni0048.svg sulive.init.svg >>sulive/uni0048.init.svg
-cat sulive/uni0046.svg sulive.init.svg >>sulive/uni0046.init.svg
-cat sulive/uni004D.svg sulive.init.svg >>sulive/uni004D.init.svg
+cat sulive.init.svg >>sulive/uni004B.init.svg
+cat sulive.init.svg >>sulive/uni0054.init.svg
+cat sulive.init.svg >>sulive/uni0053.init.svg
+cat sulive.init.svg >>sulive/uni0051.init.svg
+cat sulive.init.svg >>sulive/uni0052.init.svg
+cat sulive.init.svg >>sulive/uni0050.init.svg
+cat sulive.init.svg >>sulive/uni0048.init.svg
+cat sulive.init.svg >>sulive/uni0046.init.svg
+cat sulive.init.svg >>sulive/uni004D.init.svg
 # Medial Form --------------------------------------------------------
-cat sulive/uni004B.svg sulive.medi.svg >>sulive/uni004B.medi.svg
-cat sulive/uni0054.svg sulive.medi.svg >>sulive/uni0054.medi.svg
-cat sulive/uni0053.svg sulive.medi.svg >>sulive/uni0053.medi.svg
-cat sulive/uni0051.svg sulive.medi.svg >>sulive/uni0051.medi.svg
-cat sulive/uni0052.svg sulive.medi.svg >>sulive/uni0052.medi.svg
-cat sulive/uni0050.svg sulive.medi.svg >>sulive/uni0050.medi.svg
-cat sulive/uni0048.svg sulive.medi.svg >>sulive/uni0048.medi.svg
-cat sulive/uni0046.svg sulive.medi.svg >>sulive/uni0046.medi.svg
-cat sulive/uni004D.svg sulive.medi.svg >>sulive/uni004D.medi.svg
+cat sulive.medi.svg >>sulive/uni004B.medi.svg
+cat sulive.medi.svg >>sulive/uni0054.medi.svg
+cat sulive.medi.svg >>sulive/uni0053.medi.svg
+cat sulive.medi.svg >>sulive/uni0051.medi.svg
+cat sulive.medi.svg >>sulive/uni0052.medi.svg
+cat sulive.medi.svg >>sulive/uni0050.medi.svg
+cat sulive.medi.svg >>sulive/uni0048.medi.svg
+cat sulive.medi.svg >>sulive/uni0046.medi.svg
+cat sulive.medi.svg >>sulive/uni004D.medi.svg
 # Final Form ---------------------------------------------------------
-cat sulive/uni004B.svg sulive.fina.svg >>sulive/uni004B.fina.svg
-cat sulive/uni0053.svg sulive.fina.svg >>sulive/uni0053.fina.svg
-cat sulive/uni0054.svg sulive.fina.svg >>sulive/uni0054.fina.svg
-cat sulive/uni0051.svg sulive.fina.svg >>sulive/uni0051.fina.svg
-cat sulive/uni0052.svg sulive.fina.svg >>sulive/uni0052.fina.svg
-cat sulive/uni0050.svg sulive.fina.svg >>sulive/uni0050.fina.svg
-cat sulive/uni0048.svg sulive.fina.svg >>sulive/uni0048.fina.svg
-cat sulive/uni0046.svg sulive.fina.svg >>sulive/uni0046.fina.svg
-cat sulive/uni004D.svg sulive.fina.svg >>sulive/uni004D.fina.svg
+cat sulive.fina.svg >>sulive/uni004B.fina.svg
+cat sulive.fina.svg >>sulive/uni0053.fina.svg
+cat sulive.fina.svg >>sulive/uni0054.fina.svg
+cat sulive.fina.svg >>sulive/uni0051.fina.svg
+cat sulive.fina.svg >>sulive/uni0052.fina.svg
+cat sulive.fina.svg >>sulive/uni0050.fina.svg
+cat sulive.fina.svg >>sulive/uni0048.fina.svg
+cat sulive.fina.svg >>sulive/uni0046.fina.svg
+cat sulive.fina.svg >>sulive/uni004D.fina.svg
