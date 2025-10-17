@@ -1,9 +1,5 @@
-cat zosokw/uni0049.svg zosokw/uni0045.svg >zosokw/uni0041.svg
-cat zosokw/uni0057.svg zosokw/uni0055.svg >zosokw/uni004F.svg
+cat sulive/uni0049.svg sulive/uni0045.svg >sulive/uni0041.svg
+cat sulive/uni0057.svg sulive/uni0055.svg >sulive/uni004F.svg
 
-open zosokw/uni0049.svg
-open zosokw/uni0045.svg
-open zosokw/uni0041.svg
-open zosokw/uni0057.svg
-open zosokw/uni0055.svg
-open zosokw/uni004F.svg
+open sulive/uni0041.svg
+open sulive/uni004F.svg
