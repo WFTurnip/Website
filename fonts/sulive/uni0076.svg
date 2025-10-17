@@ -1,4 +1,16 @@
-<svg width="500" height="650" xmlns="http://www.w3.org/2000/svg">
-   <path
-      d="M 150 100 A 125 125 0 0 0 81.123047 120.76367 L 67.679688 107.32031 L 67.679688 108.07031 A 25 25 0 0 0 55.560547 100.63086 A 25 25 0 0 0 25 125 A 25 25 0 0 0 32.919922 142.67969 L 32.320312 142.67969 L 45.763672 156.12305 A 125 125 0 0 0 25 225 L 25 575 A 25 25 0 0 0 75 575 L 75 225 A 75 75 0 0 1 82.732422 193.0918 L 425 535.35938 L 425 575 A 25 25 0 0 0 475 575 L 475 225 A 125 125 0 0 0 350 100 L 150 100 z M 150 150 L 350 150 A 75 75 0 0 1 425 225 L 425 464.64062 L 118.0918 157.73242 A 75 75 0 0 1 150 150 z " />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="650" version="1.1" id="svg12" sodipodi:docname="uni0046.svg"
+    inkscape:version="1.4.2 (ebf0e940, 2025-05-08)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs12" />
+    <sodipodi:namedview id="namedview12" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25"
+        inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
+        inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.70153846" inkscape:cx="249.45175" inkscape:cy="316.44737"
+        inkscape:window-width="1080" inkscape:window-height="675" inkscape:window-x="0" inkscape:window-y="25"
+        inkscape:window-maximized="0" inkscape:current-layer="svg12" />
+    <path
+        d="M 50,550 A 25,25 0 0 1 25,525 V 225 A 125,125 0 0 1 150,100 h 200 a 125,125 0 0 1 125,125 v 300 a 25,25 0 0 1 -25,25 25,25 0 0 1 -25,-25 V 225 A 75,75 0 0 0 350,150 H 150 a 75,75 0 0 0 -75,75 v 300 a 25,25 0 0 1 -25,25 z" />
+    <path
+        d="M50 100a25 25 0 0 0-6.47.852 25 25 0 0 0-11.208 6.47 25 25 0 0 0 0 35.356l400 400a25 25 0 0 0 35.356 0 25 25 0 0 0 0-35.356l-400-400A25 25 0 0 0 50 100" />
 </svg>
