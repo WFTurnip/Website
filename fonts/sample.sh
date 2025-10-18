@@ -1,19 +1,19 @@
-cat sulive/uni004B.init.svg sulive/uni004B.fina.svg > sulive/uni004B.medi.svg
-cat sulive/uni0054.init.svg sulive/uni0054.fina.svg > sulive/uni0054.medi.svg
-cat sulive/uni0053.init.svg sulive/uni0053.fina.svg > sulive/uni0053.medi.svg
-cat sulive/uni0051.init.svg sulive/uni0051.fina.svg > sulive/uni0051.medi.svg
-cat sulive/uni0052.init.svg sulive/uni0052.fina.svg > sulive/uni0052.medi.svg
-cat sulive/uni0050.init.svg sulive/uni0050.fina.svg > sulive/uni0050.medi.svg
-cat sulive/uni0048.init.svg sulive/uni0048.fina.svg > sulive/uni0048.medi.svg
-cat sulive/uni0046.init.svg sulive/uni0046.fina.svg > sulive/uni0046.medi.svg
-cat sulive/uni004D.init.svg sulive/uni004D.fina.svg > sulive/uni004D.medi.svg
+cat sulive/uni004B.init.svg sulive/uni004B.fina.svg >sulive/uni004B.medi.svg
+cat sulive/uni0054.init.svg sulive/uni0054.fina.svg >sulive/uni0054.medi.svg
+cat sulive/uni0053.init.svg sulive/uni0053.fina.svg >sulive/uni0053.medi.svg
+cat sulive/uni0051.init.svg sulive/uni0051.fina.svg >sulive/uni0051.medi.svg
+cat sulive/uni0052.init.svg sulive/uni0052.fina.svg >sulive/uni0052.medi.svg
+cat sulive/uni0050.init.svg sulive/uni0050.fina.svg >sulive/uni0050.medi.svg
+cat sulive/uni0048.init.svg sulive/uni0048.fina.svg >sulive/uni0048.medi.svg
+cat sulive/uni0046.init.svg sulive/uni0046.fina.svg >sulive/uni0046.medi.svg
+cat sulive/uni004D.init.svg sulive/uni004D.fina.svg >sulive/uni004D.medi.svg
 
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni004B.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0054.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0053.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0051.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0052.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0050.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0048.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0046.medi.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni004D.medi.svg
+cat sulive.SVG >> sulive/uni004B.medi.svg
+cat sulive.SVG >> sulive/uni0054.medi.svg
+cat sulive.SVG >> sulive/uni0053.medi.svg
+cat sulive.SVG >> sulive/uni0051.medi.svg
+cat sulive.SVG >> sulive/uni0052.medi.svg
+cat sulive.SVG >> sulive/uni0050.medi.svg
+cat sulive.SVG >> sulive/uni0048.medi.svg
+cat sulive.SVG >> sulive/uni0046.medi.svg
+cat sulive.SVG >> sulive/uni004D.medi.svg

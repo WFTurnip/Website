@@ -30,8 +30,8 @@ open -a /Applications/Visual\ Studio\ Code.app sulive/uni0046.medi.svg
 open -a /Applications/Visual\ Studio\ Code.app sulive/uni004D.medi.svg
 # Final Form ---------------------------------------------------------
 open -a /Applications/Visual\ Studio\ Code.app sulive/uni004B.fina.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0053.fina.svg
 open -a /Applications/Visual\ Studio\ Code.app sulive/uni0054.fina.svg
+open -a /Applications/Visual\ Studio\ Code.app sulive/uni0053.fina.svg
 open -a /Applications/Visual\ Studio\ Code.app sulive/uni0051.fina.svg
 open -a /Applications/Visual\ Studio\ Code.app sulive/uni0052.fina.svg
 open -a /Applications/Visual\ Studio\ Code.app sulive/uni0050.fina.svg
