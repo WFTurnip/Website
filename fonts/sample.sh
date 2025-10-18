@@ -1,19 +1,9 @@
-cat sulive/uni004B.init.svg sulive/uni004B.fina.svg >sulive/uni004B.medi.svg
-cat sulive/uni0054.init.svg sulive/uni0054.fina.svg >sulive/uni0054.medi.svg
-cat sulive/uni0053.init.svg sulive/uni0053.fina.svg >sulive/uni0053.medi.svg
-cat sulive/uni0051.init.svg sulive/uni0051.fina.svg >sulive/uni0051.medi.svg
-cat sulive/uni0052.init.svg sulive/uni0052.fina.svg >sulive/uni0052.medi.svg
-cat sulive/uni0050.init.svg sulive/uni0050.fina.svg >sulive/uni0050.medi.svg
-cat sulive/uni0048.init.svg sulive/uni0048.fina.svg >sulive/uni0048.medi.svg
-cat sulive/uni0046.init.svg sulive/uni0046.fina.svg >sulive/uni0046.medi.svg
-cat sulive/uni004D.init.svg sulive/uni004D.fina.svg >sulive/uni004D.medi.svg
-
-cat sulive.svg >> sulive/uni004B.medi.svg
-cat sulive.svg >> sulive/uni0054.medi.svg
-cat sulive.svg >> sulive/uni0053.medi.svg
-cat sulive.svg >> sulive/uni0051.medi.svg
-cat sulive.svg >> sulive/uni0052.medi.svg
-cat sulive.svg >> sulive/uni0050.medi.svg
-cat sulive.svg >> sulive/uni0048.medi.svg
-cat sulive.svg >> sulive/uni0046.medi.svg
-cat sulive.svg >> sulive/uni004D.medi.svg
+inkscape sulive/uni004B.medi.svg
+inkscape sulive/uni0054.medi.svg
+inkscape sulive/uni0053.medi.svg
+inkscape sulive/uni0051.medi.svg
+inkscape sulive/uni0052.medi.svg
+inkscape sulive/uni0050.medi.svg
+inkscape sulive/uni0048.medi.svg
+inkscape sulive/uni0046.medi.svg
+inkscape sulive/uni004D.medi.svg
