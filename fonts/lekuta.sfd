@@ -8,7 +8,7 @@ UComments: "2025-3-31: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -85
-UnderlineWidth: 42.5
+UnderlineWidth: 42
 Ascent: 625
 Descent: 225
 InvalidEm: 0
@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1743419430
-ModificationTime: 1760849538
+ModificationTime: 1760909430
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -38,16 +38,16 @@ HheadDescent: 0
 HheadDOffset: 1
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: UnicodeFull
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 32 16 8
+WinInfo: 0 14 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114112 95
+BeginChars: 65536 95
 
 StartChar: space
 Encoding: 32 32 0
