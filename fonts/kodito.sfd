@@ -37,16 +37,16 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
-Encoding: ISO8859-1
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -24
+DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 0 32 13
+WinInfo: 0 28 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 256 95
+BeginChars: 65536 95
 
 StartChar: space
 Encoding: 32 32 0
