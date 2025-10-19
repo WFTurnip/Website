@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.10.5)  16 OCT 2025 11:01
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.10.5)  19 OCT 2025 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -521,24 +521,30 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
 [22
 
-]
-No file reference.ind.
-(./reference.aux)
+] (./reference.ind
+
+
+
+[23
+
+
+
+]) (./reference.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `reference.out' has not changed.
-(rerunfilecheck)             Checksum: 6A41E0500CEEFEA49FCF65948956F793;4681.
+(rerunfilecheck)             Checksum: BED35005A966A4609CC04D19784EEEFE;4744.
  ) 
 Here is how much of TeX's memory you used:
- 10669 strings out of 468392
- 162356 string characters out of 5442311
- 577920 words of memory out of 5000000
- 39153 multiletter control sequences out of 15000+600000
+ 10675 strings out of 468392
+ 162474 string characters out of 5442311
+ 577999 words of memory out of 5000000
+ 39156 multiletter control sequences out of 15000+600000
  692357 words of font info for 98 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 72i,9n,79p,257b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,9n,79p,257b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on reference.dvi (26 pages, 33592 bytes).
+Output written on reference.dvi (27 pages, 34364 bytes).
