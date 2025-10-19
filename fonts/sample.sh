@@ -1,9 +1,0 @@
-inkscape sulive/uni004B.medi.svg
-inkscape sulive/uni0054.medi.svg
-inkscape sulive/uni0053.medi.svg
-inkscape sulive/uni0051.medi.svg
-inkscape sulive/uni0052.medi.svg
-inkscape sulive/uni0050.medi.svg
-inkscape sulive/uni0048.medi.svg
-inkscape sulive/uni0046.medi.svg
-inkscape sulive/uni004D.medi.svg
