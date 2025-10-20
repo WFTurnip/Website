@@ -1,14 +1,1 @@
-kodito_glyphsetter.ff
-lekuta_glyphsetter.ff
-lozegw_glyphsetter.ff
-makina_glyphsetter.ff
-piswpi_glyphsetter.ff
-polwgo_glyphsetter.ff
-silwki_glyphsetter.ff
-sulive_glyphsetter.ff
-variants_sulive_glyphsetter.ff
-variants_zosokw_glyphsetter.ff
-xavani_glyphsetter.ff
-xesada_glyphsetter.ff
-xidili_glyphsetter.ff
-zosokw_glyphsetter.ff
+
