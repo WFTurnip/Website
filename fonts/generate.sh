@@ -1,12 +1,7 @@
-fontforge -script generate.pe kodito.sfd
-fontforge -script generate.pe lekuta.sfd
-fontforge -script generate.pe lozegw.sfd
-fontforge -script generate.pe makina.sfd
-fontforge -script generate.pe piswpi.sfd
-fontforge -script generate.pe polwgo.sfd
-fontforge -script generate.pe silwki.sfd
-fontforge -script generate.pe sulive.sfd
-fontforge -script generate.pe xavani.sfd
-fontforge -script generate.pe xesada.sfd
-fontforge -script generate.pe xidili.sfd
-fontforge -script generate.pe zosokw.sfd
+echo "生成するフォントのファイル名を入力してください。"
+ls -d *.sfd
+read fontname
+
+fontforge -script generate.pe $fontname
+
+echo "フォント${fontname}の生成が完了しました。"
