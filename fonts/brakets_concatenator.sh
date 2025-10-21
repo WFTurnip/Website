@@ -1,23 +1,27 @@
-cat sulive/uni003C.svg sulive.svg >sulive/uni0028.svg
-cat sulive/uni003E.svg sulive.svg >sulive/uni0029.svg
+echo "結合するフォントのディレクトリ名を入力してください。"
+ls -d */
+read fontname
 
-cat sulive/uni003C.svg sulive.svg >sulive/uni005B.svg
-cat sulive/uni003E.svg sulive.svg >sulive/uni005D.svg
+cat $fontname/uni003C.svg $fontname.svg >$fontname/uni0028.svg
+cat $fontname/uni003E.svg $fontname.svg >$fontname/uni0029.svg
 
-cat sulive.svg >>sulive/uni007B.svg
-cat sulive.svg >>sulive/uni007D.svg
+cat $fontname/uni003C.svg $fontname.svg >$fontname/uni005B.svg
+cat $fontname/uni003E.svg $fontname.svg >$fontname/uni005D.svg
 
-cp sulive/uni0028.svg sulive/uni005B.svg
-cp sulive/uni0029.svg sulive/uni005D.svg
+cat $fontname.svg >>$fontname/uni007B.svg
+cat $fontname.svg >>$fontname/uni007D.svg
 
-cat sulive/uni0028.svg sulive/uni0029.svg >sulive/uni007B.svg
-cat sulive/uni0028.svg sulive/uni0029.svg >sulive/uni007D.svg
+cp $fontname/uni0028.svg $fontname/uni005B.svg
+cp $fontname/uni0029.svg $fontname/uni005D.svg
 
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni003C.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni003E.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0028.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni0029.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni005B.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni005D.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni007B.svg
-open -a /Applications/Visual\ Studio\ Code.app sulive/uni007D.svg
+cat $fontname/uni0028.svg $fontname/uni0029.svg >$fontname/uni007B.svg
+cat $fontname/uni0028.svg $fontname/uni0029.svg >$fontname/uni007D.svg
+
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni003C.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni003E.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni0028.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni0029.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni005B.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni005D.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni007B.svg
+open -a /Applications/Visual\ Studio\ Code.app $fontname/uni007D.svg
