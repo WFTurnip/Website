@@ -28,3 +28,5 @@ cp $fontname/uni0057.svg $fontname/uni0077.svg
 cp $fontname/uni0058.svg $fontname/uni0078.svg
 cp $fontname/uni0059.svg $fontname/uni0079.svg
 cp $fontname/uni005a.svg $fontname/uni007a.svg
+
+echo "大文字から小文字へのコピーが完了しました。"
