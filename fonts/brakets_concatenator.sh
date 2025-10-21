@@ -1,11 +1,11 @@
-cat sulive/uni003C.svg zosokw.svg >sulive/uni0028.svg
-cat sulive/uni003E.svg zosokw.svg >sulive/uni0029.svg
+cat sulive/uni003C.svg sulive.svg >sulive/uni0028.svg
+cat sulive/uni003E.svg sulive.svg >sulive/uni0029.svg
 
-cat sulive/uni003C.svg zosokw.svg >sulive/uni005B.svg
-cat sulive/uni003E.svg zosokw.svg >sulive/uni005D.svg
+cat sulive/uni003C.svg sulive.svg >sulive/uni005B.svg
+cat sulive/uni003E.svg sulive.svg >sulive/uni005D.svg
 
-cat zosokw.svg >>sulive/uni007B.svg
-cat zosokw.svg >>sulive/uni007D.svg
+cat sulive.svg >>sulive/uni007B.svg
+cat sulive.svg >>sulive/uni007D.svg
 
 cp sulive/uni0028.svg sulive/uni005B.svg
 cp sulive/uni0029.svg sulive/uni005D.svg
