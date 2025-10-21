@@ -5,9 +5,8 @@ rm -f -- *~ *gf *pk *dvi *log *ps *tfm *png *gif *pdf
 
 touch *
 
-ls *.mf
-
 echo "コンパイルするファイル名を入力してください。"
+ls *.mf
 read mffile
 echo "ファイル名を${mffile}に確定しました。"
 
