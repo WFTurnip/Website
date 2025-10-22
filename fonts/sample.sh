@@ -1,15 +1,7 @@
-mv generate.pe generate.ff
-mv kodito.pe kodito.ff
-mv lekuta.pe lekuta.ff
-mv lozegw.pe lozegw.ff
-mv makina.pe makina.ff
-mv piswpi.pe piswpi.ff
-mv polwgo.pe polwgo.ff
-mv silwki.pe silwki.ff
-mv sulive.pe sulive.ff
-mv sulive_variants.pe sulive_variants.ff
-mv xavani.pe xavani.ff
-mv xesada.pe xesada.ff
-mv xidili.pe xidili.ff
-mv zosokw.pe zosokw.ff
-mv zosokw_variants.pe zosokw_variants.ff
+fontname=("kodito" "lekuta" "lozegw" "makina" "piswpi" "polwgo" "silwki" "sulive" "xavani" "xesada" "xidili" "zosokw")
+
+for fontname in "${fontname[@]}"; do
+for svg in ${fontname}/*svg; do
+echo "" > ${fontname}.svg
+cat $svg >> ${fontname}.svg
+done
