@@ -1,26 +1,5 @@
+
 <svg width="500" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <line x1="000" y1="000" x2="500" y2="000" stroke="red" stroke-width="1" />
-    <line x1="000" y1="050" x2="500" y2="050" stroke="red" stroke-width="1" />
-    <line x1="000" y1="100" x2="500" y2="100" stroke="red" stroke-width="1" />
-    <line x1="000" y1="150" x2="500" y2="150" stroke="red" stroke-width="1" />
-    <line x1="000" y1="200" x2="500" y2="200" stroke="red" stroke-width="1" />
-    <line x1="000" y1="250" x2="500" y2="250" stroke="red" stroke-width="1" />
-    <line x1="000" y1="300" x2="500" y2="300" stroke="red" stroke-width="1" />
-    <line x1="000" y1="350" x2="500" y2="350" stroke="red" stroke-width="1" />
-    <line x1="000" y1="400" x2="500" y2="400" stroke="red" stroke-width="1" />
-    <line x1="000" y1="450" x2="500" y2="450" stroke="red" stroke-width="1" />
-    <line x1="000" y1="500" x2="500" y2="500" stroke="red" stroke-width="1" />
-    <line x1="000" y1="550" x2="500" y2="550" stroke="red" stroke-width="1" />
-    <line x1="000" y1="600" x2="500" y2="600" stroke="red" stroke-width="1" />
-    <line x1="000" y1="650" x2="500" y2="650" stroke="red" stroke-width="1" />
-    <line x1="025" y1="000" x2="025" y2="650" stroke="red" stroke-width="1" />
-    <line x1="075" y1="000" x2="075" y2="650" stroke="red" stroke-width="1" />
-    <line x1="125" y1="000" x2="125" y2="650" stroke="red" stroke-width="1" />
-    <line x1="175" y1="000" x2="175" y2="650" stroke="red" stroke-width="1" />
-    <line x1="225" y1="000" x2="225" y2="650" stroke="red" stroke-width="1" />
-    <line x1="275" y1="000" x2="275" y2="650" stroke="red" stroke-width="1" />
-    <line x1="325" y1="000" x2="325" y2="650" stroke="red" stroke-width="1" />
-    <line x1="375" y1="000" x2="375" y2="650" stroke="red" stroke-width="1" />
-    <line x1="425" y1="000" x2="425" y2="650" stroke="red" stroke-width="1" />
-    <line x1="475" y1="000" x2="475" y2="650" stroke="red" stroke-width="1" />
+   <path
+      d="M 150 200 A 125 125 0 0 0 25.349609 321 A 25 25 0 0 0 25 325 A 25 25 0 0 0 50 350 A 25 25 0 0 0 75 325 A 75 75 0 0 1 150 250 A 75 75 0 0 1 225 325 A 25 25 0 0 0 225.34961 329 A 125 125 0 0 0 350 450 A 125 125 0 0 0 474.65039 329 A 25 25 0 0 0 475 325 A 25 25 0 0 0 450 300 A 25 25 0 0 0 425 325 A 75 75 0 0 1 350 400 A 75 75 0 0 1 275 325 A 25 25 0 0 0 274.95703 323.59766 A 125 125 0 0 0 150 200 z " />
 </svg>
