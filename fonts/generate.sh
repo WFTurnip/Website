@@ -19,7 +19,7 @@ case $option in
     all)
         for fontfile in *.sfd; do
             fontforge -script generate.ff "$fontfile"
-            echo "フォント${fontfile}の生成が完了しました。"
+            echo "${fontfile}からのフォント生成が完了しました。"
         done
         ;;
     *)
