@@ -111,4 +111,4 @@ cp $fontname/uni0058.fina.svg $fontname/uni0078.fina.svg
 cp $fontname/uni0059.fina.svg $fontname/uni0079.fina.svg
 cp $fontname/uni005a.fina.svg $fontname/uni007a.fina.svg
 
-echo "大文字から小文字へのコピーが完了しました。"
+echo "ディレクトリ${fontname}の大文字から小文字へのコピーが完了しました。"
