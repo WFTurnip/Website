@@ -1,2 +1,6 @@
-sh vowels_maker.sh
-sh glyph_copier.sh
+fontname=("kodito" "lekuta" "lozegw" "makina" "piswpi" "polwgo" "silwki" "sulive" "xavani" "xesada" "xidili" "zosokw")
+
+for fontname in "${fontname[@]}"; do
+    cp $fontname/uni002c.svg $fontname/uni0022.svg
+    inkscape $fontname/uni0022.svg
+done
