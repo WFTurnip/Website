@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1714202397
-ModificationTime: 1761191763
+ModificationTime: 1761301821
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -35,6 +35,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 260 0 0 "mark" { "mark-1"  } ['mark' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: UnicodeBmp
@@ -43,15 +44,15 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 14 14 10
+WinInfo: 0 14 10
 BeginPrivate: 0
 EndPrivate
-BeginChars: 65536 95
+AnchorClass2: "vowel" "mark-1"
+BeginChars: 65536 96
 
 StartChar: space
 Encoding: 32 32 0
 Width: 400
-VWidth: 800
 Flags: W
 LayerCount: 2
 EndChar
@@ -83,16 +84,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-50 300 m 1,0,-1
- 100 300 l 1,1,-1
- 100 250 l 1,2,-1
- 50 250 l 1,3,-1
- 50 300 l 1,0,-1
-250 300 m 1,4,-1
- 300 300 l 1,5,-1
- 300 250 l 1,6,-1
- 250 250 l 1,7,-1
- 250 300 l 1,4,-1
+0 200 m 1,0,-1
+ 50 200 l 1,1,-1
+ 50 150 l 1,2,-1
+ 0 150 l 1,3,-1
+ 0 200 l 1,0,-1
+300 200 m 1,4,-1
+ 350 200 l 1,5,-1
+ 350 150 l 1,6,-1
+ 300 150 l 1,7,-1
+ 300 200 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -248,41 +249,29 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-50 300 m 1,0,-1
- 100 300 l 1,1,-1
- 100 250 l 1,2,-1
- 50 250 l 1,3,-1
- 50 300 l 1,0,-1
-250 300 m 1,4,-1
- 300 300 l 1,5,-1
- 300 250 l 1,6,-1
- 250 250 l 1,7,-1
- 250 300 l 1,4,-1
-250 250 m 1,8,-1
- 250 200 l 1,9,-1
- 200 200 l 1,10,-1
- 200 250 l 1,11,-1
- 250 250 l 1,8,-1
-200 200 m 1,12,-1
- 200 150 l 1,13,-1
- 150 150 l 1,14,-1
- 150 200 l 1,15,-1
- 200 200 l 1,12,-1
-150 150 m 1,16,-1
- 150 100 l 1,17,-1
- 100 100 l 1,18,-1
- 100 150 l 1,19,-1
- 150 150 l 1,16,-1
-100 100 m 1,20,-1
- 100 50 l 1,21,-1
- 50 50 l 1,22,-1
- 50 100 l 1,23,-1
- 100 100 l 1,20,-1
-250 100 m 1,24,-1
- 300 100 l 1,25,-1
- 300 50 l 1,26,-1
- 250 50 l 1,27,-1
- 250 100 l 1,24,-1
+250 300 m 1,0,-1
+ 300 300 l 1,1,-1
+ 300 250 l 1,2,-1
+ 250 250 l 1,3,-1
+ 250 300 l 1,0,-1
+250 250 m 1,4,-1
+ 250 200 l 1,5,-1
+ 250 150 l 1,6,-1
+ 200 150 l 1,7,-1
+ 200 100 l 1,8,-1
+ 150 100 l 1,9,-1
+ 100 100 l 1,10,-1
+ 100 150 l 1,11,-1
+ 100 200 l 1,12,-1
+ 150 200 l 1,13,-1
+ 150 250 l 1,14,-1
+ 200 250 l 1,15,-1
+ 250 250 l 1,4,-1
+100 100 m 1,16,-1
+ 100 50 l 1,17,-1
+ 50 50 l 1,18,-1
+ 50 100 l 1,19,-1
+ 100 100 l 1,16,-1
 EndSplineSet
 EndChar
 
@@ -351,11 +340,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-150 350 m 1,0,-1
- 200 350 l 1,1,-1
- 200 300 l 1,2,-1
- 150 300 l 1,3,-1
- 150 350 l 1,0,-1
+150 200 m 1,0,-1
+ 200 200 l 1,1,-1
+ 200 150 l 1,2,-1
+ 150 150 l 1,3,-1
+ 150 200 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1527,6 +1516,7 @@ StartChar: A
 Encoding: 65 65 33
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1572,6 +1562,7 @@ StartChar: B
 Encoding: 66 66 34
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1642,6 +1633,7 @@ StartChar: C
 Encoding: 67 67 35
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1712,6 +1704,7 @@ StartChar: D
 Encoding: 68 68 36
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1782,6 +1775,7 @@ StartChar: E
 Encoding: 69 69 37
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1807,6 +1801,7 @@ StartChar: F
 Encoding: 70 70 38
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1852,6 +1847,7 @@ StartChar: G
 Encoding: 71 71 39
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1922,6 +1918,7 @@ StartChar: H
 Encoding: 72 72 40
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1967,6 +1964,7 @@ StartChar: I
 Encoding: 73 73 41
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2002,6 +2000,7 @@ StartChar: J
 Encoding: 74 74 42
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2092,6 +2091,7 @@ StartChar: K
 Encoding: 75 75 43
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2137,6 +2137,7 @@ StartChar: L
 Encoding: 76 76 44
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2212,6 +2213,7 @@ StartChar: M
 Encoding: 77 77 45
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2257,6 +2259,7 @@ StartChar: N
 Encoding: 78 78 46
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2327,6 +2330,7 @@ StartChar: O
 Encoding: 79 79 47
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2372,6 +2376,7 @@ StartChar: P
 Encoding: 80 80 48
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2417,6 +2422,7 @@ StartChar: Q
 Encoding: 81 81 49
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2462,6 +2468,7 @@ StartChar: R
 Encoding: 82 82 50
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2512,6 +2519,7 @@ StartChar: S
 Encoding: 83 83 51
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2557,6 +2565,7 @@ StartChar: T
 Encoding: 84 84 52
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2602,6 +2611,7 @@ StartChar: U
 Encoding: 85 85 53
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2627,6 +2637,7 @@ StartChar: V
 Encoding: 86 86 54
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2697,6 +2708,7 @@ StartChar: W
 Encoding: 87 87 55
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2732,6 +2744,7 @@ StartChar: X
 Encoding: 88 88 56
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2802,6 +2815,7 @@ StartChar: Y
 Encoding: 89 89 57
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2892,6 +2906,7 @@ StartChar: Z
 Encoding: 90 90 58
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3038,31 +3053,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-100 350 m 1,0,-1
- 250 350 l 1,1,-1
- 250 300 l 1,2,-1
- 100 300 l 1,3,-1
- 100 350 l 1,0,-1
-250 300 m 1,4,-1
- 300 300 l 1,5,-1
- 300 250 l 1,6,-1
- 250 250 l 1,7,-1
- 250 300 l 1,4,-1
-300 250 m 1,8,-1
- 350 250 l 1,9,-1
- 350 200 l 1,10,-1
- 300 200 l 1,11,-1
- 300 250 l 1,8,-1
-100 300 m 1,12,-1
- 100 250 l 1,13,-1
- 50 250 l 1,14,-1
- 50 300 l 1,15,-1
- 100 300 l 1,12,-1
-50 250 m 1,16,-1
- 50 200 l 1,17,-1
- 0 200 l 1,18,-1
- 0 250 l 1,19,-1
- 50 250 l 1,16,-1
+150 350 m 1,0,-1
+ 200 350 l 1,1,-1
+ 200 300 l 1,2,-1
+ 150 300 l 1,3,-1
+ 150 350 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -3073,31 +3068,11 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-0 150 m 1,0,-1
- 50 150 l 1,1,-1
- 50 100 l 1,2,-1
- 0 100 l 1,3,-1
- 0 150 l 1,0,-1
-50 100 m 1,4,-1
- 100 100 l 1,5,-1
- 100 50 l 1,6,-1
- 50 50 l 1,7,-1
- 50 100 l 1,4,-1
-100 50 m 1,8,-1
- 250 50 l 1,9,-1
- 250 0 l 1,10,-1
- 100 0 l 1,11,-1
- 100 50 l 1,8,-1
-250 50 m 1,12,-1
- 250 100 l 1,13,-1
- 300 100 l 1,14,-1
- 300 50 l 1,15,-1
- 250 50 l 1,12,-1
-300 100 m 1,16,-1
- 300 150 l 1,17,-1
- 350 150 l 1,18,-1
- 350 100 l 1,19,-1
- 300 100 l 1,16,-1
+150 50 m 1,0,-1
+ 200 50 l 1,1,-1
+ 200 0 l 1,2,-1
+ 150 0 l 1,3,-1
+ 150 50 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -3108,21 +3083,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-50 300 m 1,0,-1
- 100 300 l 1,1,-1
- 100 250 l 1,2,-1
- 50 250 l 1,3,-1
- 50 300 l 1,0,-1
-100 250 m 1,4,-1
- 150 250 l 1,5,-1
- 150 200 l 1,6,-1
- 100 200 l 1,7,-1
- 100 250 l 1,4,-1
-150 200 m 1,8,-1
- 200 200 l 1,9,-1
- 200 150 l 1,10,-1
- 150 150 l 1,11,-1
- 150 200 l 1,8,-1
+0 200 m 1,0,-1
+ 50 200 l 1,1,-1
+ 50 150 l 1,2,-1
+ 0 150 l 1,3,-1
+ 0 200 l 1,0,-1
+150 200 m 1,4,-1
+ 200 200 l 1,5,-1
+ 200 150 l 1,6,-1
+ 150 150 l 1,7,-1
+ 150 200 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -3130,6 +3100,7 @@ StartChar: a
 Encoding: 97 97 65
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3175,6 +3146,7 @@ StartChar: b
 Encoding: 98 98 66
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3245,6 +3217,7 @@ StartChar: c
 Encoding: 99 99 67
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3315,6 +3288,7 @@ StartChar: d
 Encoding: 100 100 68
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3385,6 +3359,7 @@ StartChar: e
 Encoding: 101 101 69
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3410,6 +3385,7 @@ StartChar: f
 Encoding: 102 102 70
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3455,6 +3431,7 @@ StartChar: g
 Encoding: 103 103 71
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3525,6 +3502,7 @@ StartChar: h
 Encoding: 104 104 72
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3570,6 +3548,7 @@ StartChar: i
 Encoding: 105 105 73
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3605,6 +3584,7 @@ StartChar: j
 Encoding: 106 106 74
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3695,6 +3675,7 @@ StartChar: k
 Encoding: 107 107 75
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3740,6 +3721,7 @@ StartChar: l
 Encoding: 108 108 76
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3815,6 +3797,7 @@ StartChar: m
 Encoding: 109 109 77
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3860,6 +3843,7 @@ StartChar: n
 Encoding: 110 110 78
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3930,6 +3914,7 @@ StartChar: o
 Encoding: 111 111 79
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3975,6 +3960,7 @@ StartChar: p
 Encoding: 112 112 80
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4020,6 +4006,7 @@ StartChar: q
 Encoding: 113 113 81
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4065,6 +4052,7 @@ StartChar: r
 Encoding: 114 114 82
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4115,6 +4103,7 @@ StartChar: s
 Encoding: 115 115 83
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4160,6 +4149,7 @@ StartChar: t
 Encoding: 116 116 84
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4205,6 +4195,7 @@ StartChar: u
 Encoding: 117 117 85
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4230,6 +4221,7 @@ StartChar: v
 Encoding: 118 118 86
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4300,6 +4292,7 @@ StartChar: w
 Encoding: 119 119 87
 Width: 0
 Flags: W
+AnchorPoint: "vowel" 0 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4335,6 +4328,7 @@ StartChar: x
 Encoding: 120 120 88
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4405,6 +4399,7 @@ StartChar: y
 Encoding: 121 121 89
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4495,6 +4490,7 @@ StartChar: z
 Encoding: 122 122 90
 Width: 400
 Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4678,6 +4674,60 @@ SplineSet
  50 150 l 1,18,-1
  50 200 l 1,19,-1
  100 200 l 1,16,-1
+EndSplineSet
+EndChar
+
+StartChar: uni25CC
+Encoding: 9676 9676 95
+Width: 400
+Flags: W
+AnchorPoint: "vowel" 200 200 basechar 0
+LayerCount: 2
+Fore
+SplineSet
+150 350 m 1,0,-1
+ 200 350 l 1,1,-1
+ 200 300 l 1,2,-1
+ 150 300 l 1,3,-1
+ 150 350 l 1,0,-1
+50 300 m 1,4,-1
+ 100 300 l 1,5,-1
+ 100 250 l 1,6,-1
+ 50 250 l 1,7,-1
+ 50 300 l 1,4,-1
+100 250 m 1,8,-1
+ 150 250 l 1,9,-1
+ 200 250 l 1,10,-1
+ 200 200 l 1,11,-1
+ 250 200 l 1,12,-1
+ 250 150 l 1,13,-1
+ 250 100 l 1,14,-1
+ 200 100 l 1,15,-1
+ 150 100 l 1,16,-1
+ 150 150 l 1,17,-1
+ 100 150 l 1,18,-1
+ 100 200 l 1,19,-1
+ 100 250 l 1,8,-1
+250 100 m 1,20,-1
+ 300 100 l 1,21,-1
+ 300 50 l 1,22,-1
+ 250 50 l 1,23,-1
+ 250 100 l 1,20,-1
+0 200 m 1,24,-1
+ 50 200 l 1,25,-1
+ 50 150 l 1,26,-1
+ 0 150 l 1,27,-1
+ 0 200 l 1,24,-1
+300 200 m 1,28,-1
+ 350 200 l 1,29,-1
+ 350 150 l 1,30,-1
+ 300 150 l 1,31,-1
+ 300 200 l 1,28,-1
+150 50 m 1,32,-1
+ 200 50 l 1,33,-1
+ 200 0 l 1,34,-1
+ 150 0 l 1,35,-1
+ 150 50 l 1,32,-1
 EndSplineSet
 EndChar
 EndChars
