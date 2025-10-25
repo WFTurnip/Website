@@ -129,7 +129,7 @@ function generateVowelTable() {
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
         let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
+        p.textContent = "\u{25CC}" + vowels[i];
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("p");
@@ -146,7 +146,7 @@ function generateVowelTable() {
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
         let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
+        p.textContent = "\u{25CC}" + vowels[i];
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("p");
@@ -284,7 +284,7 @@ function generateCaseTable() {
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
         let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
+        p.textContent = "\u{25CC}" + vowels[i];
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("p");
@@ -301,7 +301,7 @@ function generateCaseTable() {
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
         let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
+        p.textContent = "\u{25CC}" + vowels[i];
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("p");
@@ -350,7 +350,7 @@ function generateConjunctCaseTable() {
     let tr2 = document.createElement("tr");
     vowels.forEach((vowel, i) => {
         let th = document.createElement("th");
-        th.appendChild(createParagraph("-" + vowel, "zosokw"));
+        th.appendChild(createParagraph("\u{25CC}" + vowel, "zosokw"));
         th.appendChild(createParagraph(vowels_cases_array[i] + "格", "case"));
         tr2.appendChild(th);
     });
@@ -369,13 +369,13 @@ function generateConjunctCaseTable() {
     vowels.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
-        th.appendChild(createParagraph("-" + vowel1, "zosokw"));
+        th.appendChild(createParagraph("\u{25CC}" + vowel1, "zosokw"));
         th.appendChild(createParagraph(vowels_cases_array[i] + "格", "case"));
         tr.appendChild(th);
 
         vowels.forEach((vowel2, j) => {
             let td = document.createElement("td");
-            td.appendChild(createParagraph("-" + vowel2 + "-" + vowel1, "zosokw"));
+            td.appendChild(createParagraph("\u{25CC}" + vowel2 + "\u{25CC}" + vowel1+"\u{25CC}", "zosokw"));
             td.appendChild(createParagraph(vowels_cases_array[j] + vowels_cases_array[i] + "格", "conjunct-case"));
             tr.appendChild(td);
         });
@@ -417,7 +417,7 @@ function generateCaseOfSpeechTable() {
     for (let i = 0; i < 3; i++) {
         let td = document.createElement("td");
         let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
+        p.textContent = "\u{25CC}" + vowels[i];
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("p");
@@ -434,7 +434,7 @@ function generateCaseOfSpeechTable() {
     for (let i = 3; i < 6; i++) {
         let td = document.createElement("td");
         let p = document.createElement("p");
-        p.textContent = "-" + vowels[i];
+        p.textContent = "\u{25CC}" + vowels[i];
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("p");
@@ -469,7 +469,7 @@ function generateArticleConjugationTable() {
     p2.classList.add("zosokw");
     let span = document.createElement("span");
     span.classList.add("original-form");
-    span.textContent = "---a";
+    span.textContent = "\u{25CC}\u{25CC}\u{25CC}a";
     p2.appendChild(span);
     td.appendChild(p2);
     tr2.appendChild(td);
@@ -530,7 +530,7 @@ function generateVerbConjugationTable() {
             p.appendChild(document.createTextNode(aspect_consonants_array[i]));
             let span = document.createElement("span");
             span.classList.add("original-form");
-            span.textContent = "---e";
+            span.textContent = "\u{25CC}\u{25CC}\u{25CC}e";
             p.appendChild(span);
             p.appendChild(document.createTextNode(tense_consonants_array[j]));
             td.appendChild(p);
@@ -567,7 +567,7 @@ function generateAdjectiveConjugationTable() {
     p2.classList.add("zosokw");
     let span = document.createElement("span");
     span.classList.add("original-form");
-    span.textContent = "---i";
+    span.textContent = "\u{25CC}\u{25CC}\u{25CC}i";
     p2.appendChild(span);
     td.appendChild(p2);
     tr2.appendChild(td);
@@ -597,7 +597,7 @@ function generateParticleConjugationTable() {
     p2.classList.add("zosokw");
     let span = document.createElement("span");
     span.classList.add("original-form");
-    span.textContent = "---o";
+    span.textContent = "\u{25CC}\u{25CC}\u{25CC}o";
     p2.appendChild(span);
     td.appendChild(p2);
     tr2.appendChild(td);
@@ -652,7 +652,7 @@ function generateAdverbConjugationTable() {
             p.appendChild(document.createTextNode(aspect_consonants_array[i]));
             let span = document.createElement("span");
             span.classList.add("original-form");
-            span.textContent = "---u";
+            span.textContent = "\u{25CC}\u{25CC}\u{25CC}u";
             p.appendChild(span);
             p.appendChild(document.createTextNode(tense_consonants_array[j]));
             td.appendChild(p);
@@ -689,7 +689,7 @@ function generateNounConjugationTable() {
     p2.classList.add("zosokw");
     let span = document.createElement("span");
     span.classList.add("original-form");
-    span.textContent = "---w";
+    span.textContent = "\u{25CC}\u{25CC}\u{25CC}w";
     p2.appendChild(span);
     td.appendChild(p2);
     tr2.appendChild(td);
