@@ -14,8 +14,8 @@ async function generateRtlFigure() {
     svg.setAttribute("width", 16);
     svg.setAttribute("height", 16);
 
-    let coodinate = "8,0 8,8 0,8 8,16 16,8";
     let polygon = document.createElementNS(svgns, "polygon");
+    let coodinate = "8,0 8,8 0,8 8,16 16,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
 
@@ -45,8 +45,8 @@ async function generateLtrFigure() {
     svg.setAttribute("width", 16);
     svg.setAttribute("height", 16);
 
-    let coodinate = "8,0 0,8 8,16 16,8 8,8";
     let polygon = document.createElementNS(svgns, "polygon");
+    let coodinate = "8,0 0,8 8,16 16,8 8,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
 
@@ -72,12 +72,42 @@ async function generatePartOfSpeechFigure() {
     const document = dom.window.document;
 
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 100);
-    svg.setAttribute("height", 100);
+    svg.setAttribute("width", 150);
+    svg.setAttribute("height", 150);
+
+    let polyline = document.createElementNS(svgns, "polyline");
+    let coodinate = "";
+    for (let i = 0; i <= 6; i++) {
+        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
+        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        coodinate += x + "," + y + "";
+        if (i <= 5) {
+            coodinate += " ";
+        }
+    }
+    polyline.setAttribute("points", coodinate);
+    polyline.setAttribute("fill", "none");
+    svg.appendChild(polyline);
+
+    const vowel = ["a", "o", "u", "w", "i", "e"];
+    for (let i = 0; i < 6; i++) {
+        let text = document.createElementNS(svgns, "text");
+        let x = 69 + 60 * Math.sin((4 + i) * Math.PI / 3);
+        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        text.setAttribute("x", x);
+        text.setAttribute("y", y);
+        text.textContent = "\u{25cc}" + vowel[i];
+        text.classList.add("zosokw");
+        svg.appendChild(text);
+    }
+
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 

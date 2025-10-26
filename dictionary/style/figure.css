@@ -5,6 +5,11 @@
     circle {
         fill: #3b3f3f;
     }
+
+    polyline {
+        fill: none;
+        stroke: #3b3f3f;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,5 +18,10 @@
     rect,
     circle {
         fill: #e8e5dd;
+    }
+
+    polyline {
+        fill: none;
+        stroke: #e8e5dd;
     }
 }
