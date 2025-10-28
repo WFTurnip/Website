@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1743419430
-ModificationTime: 1761385237
+ModificationTime: 1761629161
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 9660 14 10
+WinInfo: 14 14 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "vowel" "mark-1"
@@ -1042,20 +1042,20 @@ Encoding: 65 65 33
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 625 m 1,0,-1
- -175 625 l 1,1,-1
- 225 625 l 1,2,-1
- 225 575 l 1,3,-1
- -125 575 l 1,4,-1
- 25 425 l 1,5,-1
- 25 375 l 1,6,-1
- -25 375 l 1,7,-1
- -225 575 l 1,8,-1
- -225 625 l 1,0,-1
+-475 625 m 1,0,-1
+ -425 625 l 1,1,-1
+ -25 625 l 1,2,-1
+ -25 575 l 1,3,-1
+ -375 575 l 1,4,-1
+ -225 425 l 1,5,-1
+ -225 375 l 1,6,-1
+ -275 375 l 1,7,-1
+ -475 575 l 1,8,-1
+ -475 625 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1156,17 +1156,17 @@ Encoding: 69 69 37
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 575 m 1,0,-1
- -225 625 l 1,1,-1
- -175 625 l 1,2,-1
- 25 425 l 1,3,-1
- 25 375 l 1,4,-1
- -25 375 l 1,5,-1
- -225 575 l 1,0,-1
+-475 575 m 1,0,-1
+ -475 625 l 1,1,-1
+ -425 625 l 1,2,-1
+ -225 425 l 1,3,-1
+ -225 375 l 1,4,-1
+ -275 375 l 1,5,-1
+ -475 575 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1245,15 +1245,15 @@ Encoding: 73 73 41
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 625 m 1,0,-1
- 225 625 l 1,1,-1
- 225 575 l 1,2,-1
- -225 575 l 1,3,-1
- -225 625 l 1,0,-1
+-475 625 m 1,0,-1
+ -25 625 l 1,1,-1
+ -25 575 l 1,2,-1
+ -475 575 l 1,3,-1
+ -475 625 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1406,20 +1406,20 @@ Encoding: 79 79 47
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--25 25 m 1,0,-1
- 25 25 l 1,1,-1
- 225 -175 l 1,2,-1
- 225 -225 l 1,3,-1
- 175 -225 l 1,4,-1
- -225 -225 l 1,5,-1
- -225 -175 l 1,6,-1
- 125 -175 l 1,7,-1
- -25 -25 l 1,8,-1
- -25 25 l 1,0,-1
+-275 25 m 1,0,-1
+ -225 25 l 1,1,-1
+ -25 -175 l 1,2,-1
+ -25 -225 l 1,3,-1
+ -75 -225 l 1,4,-1
+ -475 -225 l 1,5,-1
+ -475 -175 l 1,6,-1
+ -125 -175 l 1,7,-1
+ -275 -25 l 1,8,-1
+ -275 25 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1546,17 +1546,17 @@ Encoding: 85 85 53
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
-25 25 m 1,0,-1
- 225 -175 l 1,1,-1
- 225 -225 l 1,2,-1
- 175 -225 l 1,3,-1
- -25 -25 l 1,4,-1
- -25 25 l 1,5,-1
- 25 25 l 1,0,-1
+-225 25 m 1,0,-1
+ -25 -175 l 1,1,-1
+ -25 -225 l 1,2,-1
+ -75 -225 l 1,3,-1
+ -275 -25 l 1,4,-1
+ -275 25 l 1,5,-1
+ -225 25 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1595,15 +1595,15 @@ Encoding: 87 87 55
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 -175 m 1,0,-1
- 225 -175 l 1,1,-1
- 225 -225 l 1,2,-1
- -225 -225 l 1,3,-1
- -225 -175 l 1,0,-1
+-475 -175 m 1,0,-1
+ -25 -175 l 1,1,-1
+ -25 -225 l 1,2,-1
+ -475 -225 l 1,3,-1
+ -475 -175 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1830,20 +1830,20 @@ Encoding: 97 97 65
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 625 m 1,0,-1
- -175 625 l 1,1,-1
- 225 625 l 1,2,-1
- 225 575 l 1,3,-1
- -125 575 l 1,4,-1
- 25 425 l 1,5,-1
- 25 375 l 1,6,-1
- -25 375 l 1,7,-1
- -225 575 l 1,8,-1
- -225 625 l 1,0,-1
+-475 625 m 1,0,-1
+ -425 625 l 1,1,-1
+ -25 625 l 1,2,-1
+ -25 575 l 1,3,-1
+ -375 575 l 1,4,-1
+ -225 425 l 1,5,-1
+ -225 375 l 1,6,-1
+ -275 375 l 1,7,-1
+ -475 575 l 1,8,-1
+ -475 625 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -1944,17 +1944,17 @@ Encoding: 101 101 69
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 575 m 1,0,-1
- -225 625 l 1,1,-1
- -175 625 l 1,2,-1
- 25 425 l 1,3,-1
- 25 375 l 1,4,-1
- -25 375 l 1,5,-1
- -225 575 l 1,0,-1
+-475 575 m 1,0,-1
+ -475 625 l 1,1,-1
+ -425 625 l 1,2,-1
+ -225 425 l 1,3,-1
+ -225 375 l 1,4,-1
+ -275 375 l 1,5,-1
+ -475 575 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -2033,15 +2033,15 @@ Encoding: 105 105 73
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 625 m 1,0,-1
- 225 625 l 1,1,-1
- 225 575 l 1,2,-1
- -225 575 l 1,3,-1
- -225 625 l 1,0,-1
+-475 625 m 1,0,-1
+ -25 625 l 1,1,-1
+ -25 575 l 1,2,-1
+ -475 575 l 1,3,-1
+ -475 625 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -2194,20 +2194,20 @@ Encoding: 111 111 79
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--25 25 m 1,0,-1
- 25 25 l 1,1,-1
- 225 -175 l 1,2,-1
- 225 -225 l 1,3,-1
- 175 -225 l 1,4,-1
- -225 -225 l 1,5,-1
- -225 -175 l 1,6,-1
- 125 -175 l 1,7,-1
- -25 -25 l 1,8,-1
- -25 25 l 1,0,-1
+-275 25 m 1,0,-1
+ -225 25 l 1,1,-1
+ -25 -175 l 1,2,-1
+ -25 -225 l 1,3,-1
+ -75 -225 l 1,4,-1
+ -475 -225 l 1,5,-1
+ -475 -175 l 1,6,-1
+ -125 -175 l 1,7,-1
+ -275 -25 l 1,8,-1
+ -275 25 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -2334,17 +2334,17 @@ Encoding: 117 117 85
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
-25 25 m 1,0,-1
- 225 -175 l 1,1,-1
- 225 -225 l 1,2,-1
- 175 -225 l 1,3,-1
- -25 -25 l 1,4,-1
- -25 25 l 1,5,-1
- 25 25 l 1,0,-1
+-225 25 m 1,0,-1
+ -25 -175 l 1,1,-1
+ -25 -225 l 1,2,-1
+ -75 -225 l 1,3,-1
+ -275 -25 l 1,4,-1
+ -275 25 l 1,5,-1
+ -225 25 l 1,0,-1
 EndSplineSet
 EndChar
 
@@ -2383,15 +2383,15 @@ Encoding: 119 119 87
 Width: 0
 GlyphClass: 4
 Flags: W
-AnchorPoint: "vowel" 0 200 mark 0
+AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
--225 -175 m 1,0,-1
- 225 -175 l 1,1,-1
- 225 -225 l 1,2,-1
- -225 -225 l 1,3,-1
- -225 -175 l 1,0,-1
+-475 -175 m 1,0,-1
+ -25 -175 l 1,1,-1
+ -25 -225 l 1,2,-1
+ -475 -225 l 1,3,-1
+ -475 -175 l 1,0,-1
 EndSplineSet
 EndChar
 
