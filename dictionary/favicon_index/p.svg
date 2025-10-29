@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
+    <circle cx="78.2842712474619" cy="21.7157287525381" r="10" />
+    <circle cx="90" cy="50" r="10" />
+    <circle cx="78.2842712474619" cy="78.2842712474619" r="10" />
+    <style>
+        @media(prefers-color-scheme: light) {
+            circle {
+                fill: #000
+            }
+        }
+
+        @media(prefers-color-scheme: dark) {
+            circle {
+                fill: #c99410
+            }
+        }
+    </style>
+</svg>
