@@ -22,7 +22,10 @@ async function generateRtlFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -53,7 +56,10 @@ async function generateLtrFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -140,7 +146,10 @@ async function generateArticleConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -173,7 +182,10 @@ async function generateVerbConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -206,7 +218,10 @@ async function generateAdjectiveConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -239,7 +254,10 @@ async function generateParticleConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
@@ -272,7 +290,10 @@ async function generateAdverbConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
     svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
@@ -304,7 +325,10 @@ async function generateNounConjugationFigure() {
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
-    let svgContent = '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" + svgString;
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
 
