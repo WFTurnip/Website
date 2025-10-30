@@ -139,18 +139,18 @@ nav li:last-child::after {
     content: "";
 }
 
-details figure,
-article table {
-    margin: auto;
-}
-
-figcaption {
+dd figure {
+    display: block;
     text-align: center;
 }
 
-details object {
-    display: block;
+dd table,
+dd figure object {
     margin: auto;
+}
+
+dd figure figcaption {
+    text-align: center;
 }
 
 hr {
