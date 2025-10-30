@@ -81,7 +81,7 @@ async function generatePartOfSpeechFigure() {
     svg.setAttribute("width", 150);
     svg.setAttribute("height", 150);
 
-    let polyline = document.createElementNS(svgns, "polyline");
+    let polygon = document.createElementNS(svgns, "polygon");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
         let x = 75 + 50 * Math.sin(i * Math.PI / 3);
@@ -91,9 +91,11 @@ async function generatePartOfSpeechFigure() {
             coodinate += " ";
         }
     }
-    polyline.setAttribute("points", coodinate);
-    polyline.setAttribute("fill", "none");
-    svg.appendChild(polyline);
+    polygon.setAttribute("points", coodinate);
+    polygon.setAttribute("fill", "none");
+    polygon.setAttribute("stroke-width", 1);
+
+    svg.appendChild(polygon);
 
     const vowel = ["a", "o", "u", "w", "i", "e"];
     for (let i = 0; i < 6; i++) {
