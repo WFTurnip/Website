@@ -40,7 +40,8 @@ function addStyle(svg, styleText) {
 async function writeSVG(filename, svg) {
     const serializer = new svg.ownerDocument.defaultView.XMLSerializer();
     const svgString = serializer.serializeToString(svg);
-    const content = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
+    let svgContent = '<?xml-styleshe href="../../style/favicon.css" type="text/css"?>'+"\n"+svgString;
+    const content = beautify(svgContent, { indent_size: 4, space_in_empty_paren: true });
     try {
         await fs.writeFile(filename, content);
         console.log("ファイル" + filename + "を作成しました。");
