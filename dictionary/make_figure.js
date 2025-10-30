@@ -3,6 +3,9 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
+const vowel = ["a", "o", "u", "w", "i", "e"];
+
+
 async function generateRtlFigure() {
     let filename = path.join("reference/", "figure/", "rtl_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
@@ -97,7 +100,6 @@ async function generatePartOfSpeechFigure() {
 
     svg.appendChild(polygon);
 
-    const vowel = ["a", "o", "u", "w", "i", "e"];
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 60 * Math.sin((4 + i) * Math.PI / 3);
