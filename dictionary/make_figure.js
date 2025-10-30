@@ -3,8 +3,10 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
-const vowel = ["a", "o", "u", "w", "i", "e"];
-
+const vowels_array = ["a", "o", "u", "w", "i", "e"];
+const vowels_cases_array = ["否", "対", "主", "流", "属", "与",];
+const vowels_part_of_speech_types_array = ["附", "助", "副", "名", "容", "動",];
+const vowels_pronunciation_array = ["a", "o", "u", "", "i", "e"];
 
 async function generateRtlFigure() {
     let filename = path.join("reference/", "figure/", "rtl_figure.svg");
@@ -84,7 +86,7 @@ async function generatePartOfSpeechFigure() {
     svg.setAttribute("width", 150);
     svg.setAttribute("height", 150);
 
-    let polygon = document.createElementNS(svgns, "polygon");
+    let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
         let x = 75 + 50 * Math.sin(i * Math.PI / 3);
@@ -94,20 +96,31 @@ async function generatePartOfSpeechFigure() {
             coodinate += " ";
         }
     }
-    polygon.setAttribute("points", coodinate);
-    polygon.setAttribute("fill", "none");
-    polygon.setAttribute("stroke-width", 1);
+    polyline.setAttribute("points", coodinate);
+    polyline.setAttribute("fill", "none");
+    polyline.setAttribute("stroke-width", 1);
 
-    svg.appendChild(polygon);
+    svg.appendChild(polyline);
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 60 * Math.sin((4 + i) * Math.PI / 3);
+        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
+        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        text.setAttribute("x", x);
+        text.setAttribute("y", y);
+        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.classList.add("zosokw");
+        svg.appendChild(text);
+    }
+
+    for (let i = 0; i < 6; i++) {
+        let text = document.createElementNS(svgns, "text");
+        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
         let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowel[i];
-        text.classList.add("zosokw");
+        text.textContent = vowels_part_of_speech_types_array[i] + "詞";
+        text.classList.add("part-of-speech");
         svg.appendChild(text);
     }
 
