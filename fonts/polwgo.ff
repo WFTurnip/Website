@@ -6,8 +6,8 @@ if(1 == vowel)
     RemoveAnchorClass("vowel")
 endif
 
-AddLookup("mark","gpos_mark2base",0,[[ "mark", [[ "latn", ["dflt"] ]] ]])
-AddLookupSubtable("mark","mark-1")
+# AddLookup("mark","gpos_mark2base",0,[[ "mark", [[ "latn", ["dflt"] ]] ]])
+# AddLookupSubtable("mark","mark-1")
 
 AddAnchorClass("vowel","default","mark-1")
 

@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1738142398
-ModificationTime: 1761627748
+ModificationTime: 1761881911
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -101,7 +101,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 14 14 10
+WinInfo: 0 14 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "vowel" "mark-1"
@@ -3545,45 +3545,51 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-50 450 m 0,0,1
- 60.35546875 450 60.35546875 450 67.677734375 442.677734375 c 2,2,-1
- 467.677734375 42.677734375 l 1,3,4
- 475.00390625 35.3515625 475.00390625 35.3515625 475.00390625 24.99609375 c 128,-1,5
- 475.00390625 14.6484375 475.00390625 14.6484375 467.677734375 7.322265625 c 128,-1,6
- 460.3515625 -0.00390625 460.3515625 -0.00390625 449.99609375 -0.00390625 c 128,-1,7
- 439.6484375 -0.00390625 439.6484375 -0.00390625 432.322265625 7.322265625 c 2,8,-1
- 32.322265625 407.322265625 l 1,9,10
- 24.99609375 414.6484375 24.99609375 414.6484375 24.99609375 425.00390625 c 128,-1,11
- 24.99609375 435.3515625 24.99609375 435.3515625 32.322265625 442.677734375 c 0,12,13
- 37.0598430953 447.415311845 37.0598430953 447.415311845 43.529296875 449.1484375 c 0,14,15
- 46.7072620425 450 46.7072620425 450 50 450 c 0,0,1
-50 250 m 128,-1,17
- 60 250 60 250 67.5 242.5 c 128,-1,18
- 75 235 75 235 75 225 c 128,-1,19
- 75 215 75 215 67.5 207.5 c 128,-1,20
- 60 200 60 200 50 200 c 128,-1,21
- 40 200 40 200 32.5 207.5 c 128,-1,22
- 25 215 25 215 25 225 c 128,-1,23
- 25 235 25 235 32.5 242.5 c 128,-1,16
- 40 250 40 250 50 250 c 128,-1,17
-250 250 m 128,-1,25
- 260 250 260 250 267.5 242.5 c 128,-1,26
- 275 235 275 235 275 225 c 128,-1,27
- 275 215 275 215 267.5 207.5 c 128,-1,28
- 260 200 260 200 250 200 c 128,-1,29
- 240 200 240 200 232.5 207.5 c 128,-1,30
- 225 215 225 215 225 225 c 128,-1,31
- 225 235 225 235 232.5 242.5 c 128,-1,24
- 240 250 240 250 250 250 c 128,-1,25
-450 250 m 128,-1,33
- 460 250 460 250 467.5 242.5 c 128,-1,34
- 475 235 475 235 475 225 c 128,-1,35
- 475 215 475 215 467.5 207.5 c 128,-1,36
- 460 200 460 200 450 200 c 128,-1,37
- 440 200 440 200 432.5 207.5 c 128,-1,38
- 425 215 425 215 425 225 c 128,-1,39
- 425 235 425 235 432.5 242.5 c 128,-1,32
- 440 250 440 250 450 250 c 128,-1,33
+50 250 m 128,-1,1
+ 60 250 60 250 67.5 242.5 c 128,-1,2
+ 75 235 75 235 75 225 c 128,-1,3
+ 75 215 75 215 67.5 207.5 c 128,-1,4
+ 60 200 60 200 50 200 c 128,-1,5
+ 40 200 40 200 32.5 207.5 c 128,-1,6
+ 25 215 25 215 25 225 c 128,-1,7
+ 25 235 25 235 32.5 242.5 c 128,-1,0
+ 40 250 40 250 50 250 c 128,-1,1
+250 250 m 128,-1,9
+ 260 250 260 250 267.5 242.5 c 128,-1,10
+ 275 235 275 235 275 225 c 128,-1,11
+ 275 215 275 215 267.5 207.5 c 128,-1,12
+ 260 200 260 200 250 200 c 128,-1,13
+ 240 200 240 200 232.5 207.5 c 128,-1,14
+ 225 215 225 215 225 225 c 128,-1,15
+ 225 235 225 235 232.5 242.5 c 128,-1,8
+ 240 250 240 250 250 250 c 128,-1,9
+450 250 m 128,-1,17
+ 460 250 460 250 467.5 242.5 c 128,-1,18
+ 475 235 475 235 475 225 c 128,-1,19
+ 475 215 475 215 467.5 207.5 c 128,-1,20
+ 460 200 460 200 450 200 c 128,-1,21
+ 440 200 440 200 432.5 207.5 c 128,-1,22
+ 425 215 425 215 425 225 c 128,-1,23
+ 425 235 425 235 432.5 242.5 c 128,-1,16
+ 440 250 440 250 450 250 c 128,-1,17
+250 350 m 128,-1,25
+ 302 350 302 350 338.5 313.5 c 128,-1,26
+ 375 277 375 277 375 225 c 128,-1,27
+ 375 173 375 173 338.5 136.5 c 128,-1,28
+ 302 100 302 100 250 100 c 128,-1,29
+ 198 100 198 100 161.5 136.5 c 128,-1,30
+ 125 173 125 173 125 225 c 128,-1,31
+ 125 277 125 277 161.5 313.5 c 128,-1,24
+ 198 350 198 350 250 350 c 128,-1,25
+250 300 m 128,-1,33
+ 219 300 219 300 197 278 c 128,-1,34
+ 175 256 175 256 175 225 c 128,-1,35
+ 175 194 175 194 197 172 c 128,-1,36
+ 219 150 219 150 250 150 c 128,-1,37
+ 281 150 281 150 303 172 c 128,-1,38
+ 325 194 325 194 325 225 c 128,-1,39
+ 325 256 325 256 303 278 c 128,-1,32
+ 281 300 281 300 250 300 c 128,-1,33
 EndSplineSet
 EndChar
 
@@ -3828,63 +3834,69 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
-50 450 m 0,0,1
- 60.35546875 450 60.35546875 450 67.677734375 442.677734375 c 2,2,-1
- 467.677734375 42.677734375 l 1,3,4
- 475.00390625 35.3515625 475.00390625 35.3515625 475.00390625 24.99609375 c 128,-1,5
- 475.00390625 14.6484375 475.00390625 14.6484375 467.677734375 7.322265625 c 128,-1,6
- 460.3515625 -0.00390625 460.3515625 -0.00390625 449.99609375 -0.00390625 c 128,-1,7
- 439.6484375 -0.00390625 439.6484375 -0.00390625 432.322265625 7.322265625 c 2,8,-1
- 32.322265625 407.322265625 l 1,9,10
- 24.99609375 414.6484375 24.99609375 414.6484375 24.99609375 425.00390625 c 128,-1,11
- 24.99609375 435.3515625 24.99609375 435.3515625 32.322265625 442.677734375 c 0,12,13
- 37.0598430953 447.415311845 37.0598430953 447.415311845 43.529296875 449.1484375 c 0,14,15
- 46.7072620425 450 46.7072620425 450 50 450 c 0,0,1
-250 450 m 128,-1,17
- 260 450 260 450 267.5 442.5 c 128,-1,18
- 275 435 275 435 275 425 c 128,-1,19
- 275 415 275 415 267.5 407.5 c 128,-1,20
- 260 400 260 400 250 400 c 128,-1,21
- 240 400 240 400 232.5 407.5 c 128,-1,22
- 225 415 225 415 225 425 c 128,-1,23
- 225 435 225 435 232.5 442.5 c 128,-1,16
- 240 450 240 450 250 450 c 128,-1,17
-50 250 m 128,-1,25
- 60 250 60 250 67.5 242.5 c 128,-1,26
- 75 235 75 235 75 225 c 128,-1,27
- 75 215 75 215 67.5 207.5 c 128,-1,28
- 60 200 60 200 50 200 c 128,-1,29
- 40 200 40 200 32.5 207.5 c 128,-1,30
- 25 215 25 215 25 225 c 128,-1,31
- 25 235 25 235 32.5 242.5 c 128,-1,24
- 40 250 40 250 50 250 c 128,-1,25
-250 250 m 0,32,33
- 260 250 260 250 267.5 242.5 c 128,-1,34
- 275 235 275 235 275 225 c 128,-1,35
- 275 215 275 215 267.5 207.5 c 128,-1,36
- 260 200 260 200 250 200 c 128,-1,37
- 240 200 240 200 232.5 207.5 c 128,-1,38
- 225 215 225 215 225 225 c 0,39,40
- 225 228.961427592 225 228.961427592 226.22265625 232.724609375 c 0,41,42
- 231.835811719 250 231.835811719 250 250 250 c 0,32,33
-450 250 m 128,-1,44
- 460 250 460 250 467.5 242.5 c 128,-1,45
- 475 235 475 235 475 225 c 128,-1,46
- 475 215 475 215 467.5 207.5 c 128,-1,47
- 460 200 460 200 450 200 c 128,-1,48
- 440 200 440 200 432.5 207.5 c 128,-1,49
- 425 215 425 215 425 225 c 128,-1,50
- 425 235 425 235 432.5 242.5 c 128,-1,43
- 440 250 440 250 450 250 c 128,-1,44
-250 50 m 128,-1,52
- 260 50 260 50 267.5 42.5 c 128,-1,53
- 275 35 275 35 275 25 c 128,-1,54
- 275 15 275 15 267.5 7.5 c 128,-1,55
- 260 0 260 0 250 0 c 128,-1,56
- 240 0 240 0 232.5 7.5 c 128,-1,57
- 225 15 225 15 225 25 c 128,-1,58
- 225 35 225 35 232.5 42.5 c 128,-1,51
- 240 50 240 50 250 50 c 128,-1,52
+250 450 m 128,-1,1
+ 260 450 260 450 267.5 442.5 c 128,-1,2
+ 275 435 275 435 275 425 c 128,-1,3
+ 275 415 275 415 267.5 407.5 c 128,-1,4
+ 260 400 260 400 250 400 c 128,-1,5
+ 240 400 240 400 232.5 407.5 c 128,-1,6
+ 225 415 225 415 225 425 c 128,-1,7
+ 225 435 225 435 232.5 442.5 c 128,-1,0
+ 240 450 240 450 250 450 c 128,-1,1
+50 250 m 128,-1,9
+ 60 250 60 250 67.5 242.5 c 128,-1,10
+ 75 235 75 235 75 225 c 128,-1,11
+ 75 215 75 215 67.5 207.5 c 128,-1,12
+ 60 200 60 200 50 200 c 128,-1,13
+ 40 200 40 200 32.5 207.5 c 128,-1,14
+ 25 215 25 215 25 225 c 128,-1,15
+ 25 235 25 235 32.5 242.5 c 128,-1,8
+ 40 250 40 250 50 250 c 128,-1,9
+250 250 m 0,16,17
+ 260 250 260 250 267.5 242.5 c 128,-1,18
+ 275 235 275 235 275 225 c 128,-1,19
+ 275 215 275 215 267.5 207.5 c 128,-1,20
+ 260 200 260 200 250 200 c 128,-1,21
+ 240 200 240 200 232.5 207.5 c 128,-1,22
+ 225 215 225 215 225 225 c 0,23,24
+ 225 228.961427592 225 228.961427592 226.22265625 232.724609375 c 0,25,26
+ 231.835811719 250 231.835811719 250 250 250 c 0,16,17
+450 250 m 128,-1,28
+ 460 250 460 250 467.5 242.5 c 128,-1,29
+ 475 235 475 235 475 225 c 128,-1,30
+ 475 215 475 215 467.5 207.5 c 128,-1,31
+ 460 200 460 200 450 200 c 128,-1,32
+ 440 200 440 200 432.5 207.5 c 128,-1,33
+ 425 215 425 215 425 225 c 128,-1,34
+ 425 235 425 235 432.5 242.5 c 128,-1,27
+ 440 250 440 250 450 250 c 128,-1,28
+250 50 m 128,-1,36
+ 260 50 260 50 267.5 42.5 c 128,-1,37
+ 275 35 275 35 275 25 c 128,-1,38
+ 275 15 275 15 267.5 7.5 c 128,-1,39
+ 260 0 260 0 250 0 c 128,-1,40
+ 240 0 240 0 232.5 7.5 c 128,-1,41
+ 225 15 225 15 225 25 c 128,-1,42
+ 225 35 225 35 232.5 42.5 c 128,-1,35
+ 240 50 240 50 250 50 c 128,-1,36
+250 350 m 128,-1,44
+ 302 350 302 350 338.5 313.5 c 128,-1,45
+ 375 277 375 277 375 225 c 128,-1,46
+ 375 173 375 173 338.5 136.5 c 128,-1,47
+ 302 100 302 100 250 100 c 128,-1,48
+ 198 100 198 100 161.5 136.5 c 128,-1,49
+ 125 173 125 173 125 225 c 128,-1,50
+ 125 277 125 277 161.5 313.5 c 128,-1,43
+ 198 350 198 350 250 350 c 128,-1,44
+250 300 m 128,-1,52
+ 219 300 219 300 197 278 c 128,-1,53
+ 175 256 175 256 175 225 c 128,-1,54
+ 175 194 175 194 197 172 c 128,-1,55
+ 219 150 219 150 250 150 c 128,-1,56
+ 281 150 281 150 303 172 c 128,-1,57
+ 325 194 325 194 325 225 c 128,-1,58
+ 325 256 325 256 303 278 c 128,-1,51
+ 281 300 281 300 250 300 c 128,-1,52
 EndSplineSet
 EndChar
 
@@ -4000,7 +4012,6 @@ StartChar: uni0042.isol
 Encoding: 65536 -1 95
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4046,7 +4057,6 @@ StartChar: uni0042.init
 Encoding: 65537 -1 96
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4151,7 +4161,6 @@ StartChar: uni0042.medi
 Encoding: 65538 -1 97
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4227,7 +4236,6 @@ StartChar: uni0042.fina
 Encoding: 65539 -1 98
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4288,7 +4296,6 @@ StartChar: uni0043.isol
 Encoding: 65540 -1 99
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4334,7 +4341,6 @@ StartChar: uni0043.init
 Encoding: 65541 -1 100
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4395,7 +4401,6 @@ StartChar: uni0043.medi
 Encoding: 65542 -1 101
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4473,7 +4478,6 @@ StartChar: uni0043.fina
 Encoding: 65543 -1 102
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4578,7 +4582,6 @@ StartChar: uni0044.isol
 Encoding: 65544 -1 103
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4624,7 +4627,6 @@ StartChar: uni0044.init
 Encoding: 65545 -1 104
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4692,7 +4694,6 @@ StartChar: uni0044.medi
 Encoding: 65546 -1 105
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4780,7 +4781,6 @@ StartChar: uni0044.fina
 Encoding: 65547 -1 106
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4845,7 +4845,6 @@ StartChar: uni0046.isol
 Encoding: 65548 -1 107
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4879,7 +4878,6 @@ StartChar: uni0046.init
 Encoding: 65549 -1 108
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4935,7 +4933,6 @@ StartChar: uni0046.medi
 Encoding: 65550 -1 109
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5009,7 +5006,6 @@ StartChar: uni0046.fina
 Encoding: 65551 -1 110
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5062,7 +5058,6 @@ StartChar: uni0047.isol
 Encoding: 65552 -1 111
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5102,7 +5097,6 @@ StartChar: uni0047.init
 Encoding: 65553 -1 112
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5161,7 +5155,6 @@ StartChar: uni0047.medi
 Encoding: 65554 -1 113
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5237,7 +5230,6 @@ StartChar: uni0047.fina
 Encoding: 65555 -1 114
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5290,7 +5282,6 @@ StartChar: uni0048.isol
 Encoding: 65556 -1 115
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5318,7 +5309,6 @@ StartChar: uni0048.init
 Encoding: 65557 -1 116
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5365,7 +5355,6 @@ StartChar: uni0048.medi
 Encoding: 65558 -1 117
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5429,7 +5418,6 @@ StartChar: uni0048.fina
 Encoding: 65559 -1 118
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5470,7 +5458,6 @@ StartChar: uni004A.isol
 Encoding: 65560 -1 119
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5528,7 +5515,6 @@ StartChar: uni004A.init
 Encoding: 65561 -1 120
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5599,7 +5585,6 @@ StartChar: uni004A.medi
 Encoding: 65562 -1 121
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5693,7 +5678,6 @@ StartChar: uni004A.fina
 Encoding: 65563 -1 122
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5770,7 +5754,6 @@ StartChar: uni004B.isol
 Encoding: 65564 -1 123
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5798,7 +5781,6 @@ StartChar: uni004B.init
 Encoding: 65565 -1 124
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5845,7 +5827,6 @@ StartChar: uni004B.medi
 Encoding: 65566 -1 125
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5909,7 +5890,6 @@ StartChar: uni004B.fina
 Encoding: 65567 -1 126
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5950,7 +5930,6 @@ StartChar: uni004C.isol
 Encoding: 65568 -1 127
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5999,7 +5978,6 @@ StartChar: uni004C.init
 Encoding: 65569 -1 128
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6065,7 +6043,6 @@ StartChar: uni004C.medi
 Encoding: 65570 -1 129
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6144,7 +6121,6 @@ StartChar: uni004C.fina
 Encoding: 65571 -1 130
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6211,7 +6187,6 @@ StartChar: uni004D.isol
 Encoding: 65572 -1 131
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6239,7 +6214,6 @@ StartChar: uni004D.init
 Encoding: 65573 -1 132
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6280,7 +6254,6 @@ StartChar: uni004D.medi
 Encoding: 65574 -1 133
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6344,7 +6317,6 @@ StartChar: uni004D.fina
 Encoding: 65575 -1 134
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6391,7 +6363,6 @@ StartChar: uni004E.isol
 Encoding: 65576 -1 135
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6431,7 +6402,6 @@ StartChar: uni004E.init
 Encoding: 65577 -1 136
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6484,7 +6454,6 @@ StartChar: uni004E.medi
 Encoding: 65578 -1 137
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6560,7 +6529,6 @@ StartChar: uni004E.fina
 Encoding: 65579 -1 138
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6619,7 +6587,6 @@ StartChar: uni0050.isol
 Encoding: 65580 -1 139
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6653,7 +6620,6 @@ StartChar: uni0050.init
 Encoding: 65581 -1 140
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6746,7 +6712,6 @@ StartChar: uni0050.medi
 Encoding: 65582 -1 141
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6810,7 +6775,6 @@ StartChar: uni0050.fina
 Encoding: 65583 -1 142
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6859,7 +6823,6 @@ StartChar: uni0051.isol
 Encoding: 65584 -1 143
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6893,7 +6856,6 @@ StartChar: uni0051.init
 Encoding: 65585 -1 144
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6942,7 +6904,6 @@ StartChar: uni0051.medi
 Encoding: 65586 -1 145
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7008,7 +6969,6 @@ StartChar: uni0051.fina
 Encoding: 65587 -1 146
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7101,7 +7061,6 @@ StartChar: uni0052.isol
 Encoding: 65588 -1 147
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7138,7 +7097,6 @@ StartChar: uni0052.init
 Encoding: 65589 -1 148
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7192,7 +7150,6 @@ StartChar: uni0052.medi
 Encoding: 65590 -1 149
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7259,7 +7216,6 @@ StartChar: uni0052.fina
 Encoding: 65591 -1 150
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7314,7 +7270,6 @@ StartChar: uni0053.isol
 Encoding: 65592 -1 151
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7342,7 +7297,6 @@ StartChar: uni0053.init
 Encoding: 65593 -1 152
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7383,7 +7337,6 @@ StartChar: uni0053.medi
 Encoding: 65594 -1 153
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7447,7 +7400,6 @@ StartChar: uni0053.fina
 Encoding: 65595 -1 154
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7494,7 +7446,6 @@ StartChar: uni0054.isol
 Encoding: 65596 -1 155
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7528,7 +7479,6 @@ StartChar: uni0054.init
 Encoding: 65597 -1 156
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7584,7 +7534,6 @@ StartChar: uni0054.medi
 Encoding: 65598 -1 157
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7660,7 +7609,6 @@ StartChar: uni0054.fina
 Encoding: 65599 -1 158
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7713,7 +7661,6 @@ StartChar: uni0056.isol
 Encoding: 65600 -1 159
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7759,7 +7706,6 @@ StartChar: uni0056.init
 Encoding: 65601 -1 160
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7827,7 +7773,6 @@ StartChar: uni0056.medi
 Encoding: 65602 -1 161
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7913,7 +7858,6 @@ StartChar: uni0056.fina
 Encoding: 65603 -1 162
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7978,7 +7922,6 @@ StartChar: uni0058.isol
 Encoding: 65604 -1 163
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8018,7 +7961,6 @@ StartChar: uni0058.init
 Encoding: 65605 -1 164
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8077,7 +8019,6 @@ StartChar: uni0058.medi
 Encoding: 65606 -1 165
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8153,7 +8094,6 @@ StartChar: uni0058.fina
 Encoding: 65607 -1 166
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8206,7 +8146,6 @@ StartChar: uni0059.isol
 Encoding: 65608 -1 167
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8270,7 +8209,6 @@ StartChar: uni0059.init
 Encoding: 65609 -1 168
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8349,7 +8287,6 @@ StartChar: uni0059.medi
 Encoding: 65610 -1 169
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8445,7 +8382,6 @@ StartChar: uni0059.fina
 Encoding: 65611 -1 170
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8568,7 +8504,6 @@ StartChar: uni005A.isol
 Encoding: 65612 -1 171
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8608,7 +8543,6 @@ StartChar: uni005A.init
 Encoding: 65613 -1 172
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8661,7 +8595,6 @@ StartChar: uni005A.medi
 Encoding: 65614 -1 173
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8737,7 +8670,6 @@ StartChar: uni005A.fina
 Encoding: 65615 -1 174
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8796,7 +8728,6 @@ StartChar: uni0062.isol
 Encoding: 65616 -1 175
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8842,7 +8773,6 @@ StartChar: uni0062.init
 Encoding: 65617 -1 176
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8947,7 +8877,6 @@ StartChar: uni0062.medi
 Encoding: 65618 -1 177
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9023,7 +8952,6 @@ StartChar: uni0062.fina
 Encoding: 65619 -1 178
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9084,7 +9012,6 @@ StartChar: uni0063.isol
 Encoding: 65620 -1 179
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9130,7 +9057,6 @@ StartChar: uni0063.init
 Encoding: 65621 -1 180
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9191,7 +9117,6 @@ StartChar: uni0063.medi
 Encoding: 65622 -1 181
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9269,7 +9194,6 @@ StartChar: uni0063.fina
 Encoding: 65623 -1 182
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9374,7 +9298,6 @@ StartChar: uni0064.isol
 Encoding: 65624 -1 183
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9420,7 +9343,6 @@ StartChar: uni0064.init
 Encoding: 65625 -1 184
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9488,7 +9410,6 @@ StartChar: uni0064.medi
 Encoding: 65626 -1 185
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9576,7 +9497,6 @@ StartChar: uni0064.fina
 Encoding: 65627 -1 186
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9641,7 +9561,6 @@ StartChar: uni0066.isol
 Encoding: 65628 -1 187
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9675,7 +9594,6 @@ StartChar: uni0066.init
 Encoding: 65629 -1 188
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9731,7 +9649,6 @@ StartChar: uni0066.medi
 Encoding: 65630 -1 189
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9805,7 +9722,6 @@ StartChar: uni0066.fina
 Encoding: 65631 -1 190
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9858,7 +9774,6 @@ StartChar: uni0067.isol
 Encoding: 65632 -1 191
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9898,7 +9813,6 @@ StartChar: uni0067.init
 Encoding: 65633 -1 192
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9957,7 +9871,6 @@ StartChar: uni0067.medi
 Encoding: 65634 -1 193
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10033,7 +9946,6 @@ StartChar: uni0067.fina
 Encoding: 65635 -1 194
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10086,7 +9998,6 @@ StartChar: uni0068.isol
 Encoding: 65636 -1 195
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10114,7 +10025,6 @@ StartChar: uni0068.init
 Encoding: 65637 -1 196
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10161,7 +10071,6 @@ StartChar: uni0068.medi
 Encoding: 65638 -1 197
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10225,7 +10134,6 @@ StartChar: uni0068.fina
 Encoding: 65639 -1 198
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10266,7 +10174,6 @@ StartChar: uni006A.isol
 Encoding: 65640 -1 199
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10324,7 +10231,6 @@ StartChar: uni006A.init
 Encoding: 65641 -1 200
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10395,7 +10301,6 @@ StartChar: uni006A.medi
 Encoding: 65642 -1 201
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10489,7 +10394,6 @@ StartChar: uni006A.fina
 Encoding: 65643 -1 202
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10566,7 +10470,6 @@ StartChar: uni006B.isol
 Encoding: 65644 -1 203
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10594,7 +10497,6 @@ StartChar: uni006B.init
 Encoding: 65645 -1 204
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10641,7 +10543,6 @@ StartChar: uni006B.medi
 Encoding: 65646 -1 205
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10705,7 +10606,6 @@ StartChar: uni006B.fina
 Encoding: 65647 -1 206
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10746,7 +10646,6 @@ StartChar: uni006C.isol
 Encoding: 65648 -1 207
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10795,7 +10694,6 @@ StartChar: uni006C.init
 Encoding: 65649 -1 208
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10861,7 +10759,6 @@ StartChar: uni006C.medi
 Encoding: 65650 -1 209
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10940,7 +10837,6 @@ StartChar: uni006C.fina
 Encoding: 65651 -1 210
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11007,7 +10903,6 @@ StartChar: uni006D.isol
 Encoding: 65652 -1 211
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11035,7 +10930,6 @@ StartChar: uni006D.init
 Encoding: 65653 -1 212
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11076,7 +10970,6 @@ StartChar: uni006D.medi
 Encoding: 65654 -1 213
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11140,7 +11033,6 @@ StartChar: uni006D.fina
 Encoding: 65655 -1 214
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11187,7 +11079,6 @@ StartChar: uni006E.isol
 Encoding: 65656 -1 215
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11227,7 +11118,6 @@ StartChar: uni006E.init
 Encoding: 65657 -1 216
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11280,7 +11170,6 @@ StartChar: uni006E.medi
 Encoding: 65658 -1 217
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11356,7 +11245,6 @@ StartChar: uni006E.fina
 Encoding: 65659 -1 218
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11415,7 +11303,6 @@ StartChar: uni0070.isol
 Encoding: 65660 -1 219
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11449,7 +11336,6 @@ StartChar: uni0070.init
 Encoding: 65661 -1 220
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11542,7 +11428,6 @@ StartChar: uni0070.medi
 Encoding: 65662 -1 221
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11606,7 +11491,6 @@ StartChar: uni0070.fina
 Encoding: 65663 -1 222
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11655,7 +11539,6 @@ StartChar: uni0071.isol
 Encoding: 65664 -1 223
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11689,7 +11572,6 @@ StartChar: uni0071.init
 Encoding: 65665 -1 224
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11738,7 +11620,6 @@ StartChar: uni0071.medi
 Encoding: 65666 -1 225
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11804,7 +11685,6 @@ StartChar: uni0071.fina
 Encoding: 65667 -1 226
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11897,7 +11777,6 @@ StartChar: uni0072.isol
 Encoding: 65668 -1 227
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11934,7 +11813,6 @@ StartChar: uni0072.init
 Encoding: 65669 -1 228
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -11988,7 +11866,6 @@ StartChar: uni0072.medi
 Encoding: 65670 -1 229
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12055,7 +11932,6 @@ StartChar: uni0072.fina
 Encoding: 65671 -1 230
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12110,7 +11986,6 @@ StartChar: uni0073.isol
 Encoding: 65672 -1 231
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12138,7 +12013,6 @@ StartChar: uni0073.init
 Encoding: 65673 -1 232
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12179,7 +12053,6 @@ StartChar: uni0073.medi
 Encoding: 65674 -1 233
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12243,7 +12116,6 @@ StartChar: uni0073.fina
 Encoding: 65675 -1 234
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12290,7 +12162,6 @@ StartChar: uni0074.isol
 Encoding: 65676 -1 235
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12324,7 +12195,6 @@ StartChar: uni0074.init
 Encoding: 65677 -1 236
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12380,7 +12250,6 @@ StartChar: uni0074.medi
 Encoding: 65678 -1 237
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12456,7 +12325,6 @@ StartChar: uni0074.fina
 Encoding: 65679 -1 238
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12509,7 +12377,6 @@ StartChar: uni0076.isol
 Encoding: 65680 -1 239
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12555,7 +12422,6 @@ StartChar: uni0076.init
 Encoding: 65681 -1 240
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12623,7 +12489,6 @@ StartChar: uni0076.medi
 Encoding: 65682 -1 241
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12709,7 +12574,6 @@ StartChar: uni0076.fina
 Encoding: 65683 -1 242
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12774,7 +12638,6 @@ StartChar: uni0078.isol
 Encoding: 65684 -1 243
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12814,7 +12677,6 @@ StartChar: uni0078.init
 Encoding: 65685 -1 244
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12873,7 +12735,6 @@ StartChar: uni0078.medi
 Encoding: 65686 -1 245
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -12949,7 +12810,6 @@ StartChar: uni0078.fina
 Encoding: 65687 -1 246
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13002,7 +12862,6 @@ StartChar: uni0079.isol
 Encoding: 65688 -1 247
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13066,7 +12925,6 @@ StartChar: uni0079.init
 Encoding: 65689 -1 248
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13145,7 +13003,6 @@ StartChar: uni0079.medi
 Encoding: 65690 -1 249
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13241,7 +13098,6 @@ StartChar: uni0079.fina
 Encoding: 65691 -1 250
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13364,7 +13220,6 @@ StartChar: uni007A.isol
 Encoding: 65692 -1 251
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13404,7 +13259,6 @@ StartChar: uni007A.init
 Encoding: 65693 -1 252
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13457,7 +13311,6 @@ StartChar: uni007A.medi
 Encoding: 65694 -1 253
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -13533,7 +13386,6 @@ StartChar: uni007A.fina
 Encoding: 65695 -1 254
 Width: 500
 Flags: W
-AnchorPoint: "vowel" 250 225 basechar 0
 LayerCount: 2
 Fore
 SplineSet
