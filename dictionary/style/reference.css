@@ -158,12 +158,6 @@ hr {
     border-width: 0;
 }
 
-nav,
-dl {
-    column-count: 2;
-    column-rule-style: solid;
-}
-
 .pronunciation {
     font-family: monospace;
 }
@@ -184,4 +178,19 @@ dd figure object {
 
 sub {
     font-variant-caps: all-small-caps;
+}
+
+nav,
+dl {
+    column-count: 2;
+    column-rule-style: solid;
+}
+
+@media (max-width: 48rem) {
+
+    nav,
+    dl {
+        column-count: 1;
+        column-rule: none;
+    }
 }
