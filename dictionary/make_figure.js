@@ -39,6 +39,7 @@ async function generateConsonantFigure() {
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         svgString;
+
     svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
@@ -65,7 +66,6 @@ async function generateVowelFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
-
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
@@ -207,7 +207,6 @@ async function generateConsonantMeaningFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -222,6 +221,7 @@ async function generateConsonantMeaningFigure() {
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         svgString;
+
     svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
@@ -336,8 +336,8 @@ async function generateSecondCaseFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + 40 * Math.sin((4 + i) * Math.PI / 3);
+        let y = centery + 40 * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -674,7 +674,6 @@ async function generateArticleConjugationFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -716,7 +715,6 @@ async function generateVerbConjugationFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
-
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -760,7 +758,6 @@ async function generateAdjectiveConjugationFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -802,7 +799,6 @@ async function generateParticleConjugationFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
-
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -846,7 +842,6 @@ async function generateAdverbConjugationFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -861,6 +856,7 @@ async function generateAdverbConjugationFigure() {
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         svgString;
+
     svgContent = beautify(svgContent, { indent_size: 4 });
 
     try {
@@ -887,7 +883,6 @@ async function generateNounConjugationFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
-
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
