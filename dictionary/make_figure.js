@@ -25,6 +25,7 @@ async function generateConsonantFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
+
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -65,6 +66,7 @@ async function generateVowelFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
@@ -196,6 +198,7 @@ async function generateConsonantMeaningFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
+
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -235,11 +238,12 @@ async function generateFirstCaseFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
@@ -306,11 +310,12 @@ async function generateSecondCaseFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
@@ -377,11 +382,12 @@ async function generateConjunctCaseFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
@@ -448,11 +454,12 @@ async function generatePrefixCaseFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
@@ -518,11 +525,12 @@ async function generateSuffixCaseFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
@@ -589,11 +597,12 @@ async function generatePartOfSpeechFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
@@ -662,6 +671,7 @@ async function generateArticleConjugationFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
+
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -703,6 +713,7 @@ async function generateVerbConjugationFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -746,6 +757,7 @@ async function generateAdjectiveConjugationFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
+
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -787,6 +799,7 @@ async function generateParticleConjugationFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -830,6 +843,7 @@ async function generateAdverbConjugationFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
+
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
     rect.setAttribute("y", 25);
@@ -870,6 +884,7 @@ async function generateNounConjugationFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
+
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
