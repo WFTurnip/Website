@@ -84,8 +84,8 @@ async function generateVowelFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin((4 + i) * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -95,8 +95,8 @@ async function generateVowelFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 30 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 30 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin((4 + i) * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "/" + vowels_pronunciation_array[i] + "/";
@@ -265,8 +265,8 @@ async function generateFirstCaseFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -276,8 +276,8 @@ async function generateFirstCaseFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = vowels_cases_array[i] + "格";
@@ -336,8 +336,8 @@ async function generateSecondCaseFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = centerx + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = centery + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -347,8 +347,8 @@ async function generateSecondCaseFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = vowels_cases_array[i] + "格";
@@ -407,8 +407,8 @@ async function generateConjunctCaseFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -418,8 +418,8 @@ async function generateConjunctCaseFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = vowels_cases_array[i] + "格";
@@ -478,8 +478,8 @@ async function generatePrefixCaseFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -489,8 +489,8 @@ async function generatePrefixCaseFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = vowels_cases_array[i] + "格";
@@ -548,8 +548,8 @@ async function generateSuffixCaseFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -559,8 +559,8 @@ async function generateSuffixCaseFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = vowels_cases_array[i] + "格";
@@ -619,8 +619,8 @@ async function generatePartOfSpeechFigure() {
     svg.appendChild(polyline);
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 40 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -630,8 +630,8 @@ async function generatePartOfSpeechFigure() {
 
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = 59 + 69 * Math.sin((4 + i) * Math.PI / 3);
-        let y = 80 + 60 * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = vowels_part_of_speech_types_array[i] + "詞";
