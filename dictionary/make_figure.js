@@ -6,7 +6,7 @@ const beautify = require("js-beautify").html;
 const vowels_array = ["a", "o", "u", "w", "i", "e"];
 const vowels_cases_array = ["否", "対", "主", "流", "属", "与",];
 const vowels_part_of_speech_types_array = ["附", "助", "副", "名", "容", "動",];
-const vowels_pronunciation_array = ["a", "o", "u", "", "i", "e"];
+const vowels_pronunciation_array = ["a", "o", "u", "∅", "i", "e"];
 
 async function generateConsonantFigure() {
     let filename = path.join("reference/", "figure/", "consonant_figure.svg");
@@ -24,7 +24,6 @@ async function generateConsonantFigure() {
 
     let centerx = width / 2;
     let centery = height / 2;
-
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -100,8 +99,8 @@ async function generateVowelFigure() {
         let y = 80 + 30 * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "/" + vowels_pronunciation_array + "/";
-        text.classList.add("zosokw");
+        text.textContent = "/" + vowels_pronunciation_array[i] + "/";
+        text.classList.add("pronunciation");
         svg.appendChild(text);
     }
 

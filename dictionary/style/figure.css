@@ -32,3 +32,7 @@
 .part-of-speech {
     font-family: serif;
 }
+
+.pronunciation{
+    font-family: monospace;
+}
