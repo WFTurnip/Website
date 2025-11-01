@@ -15,9 +15,15 @@ async function generateConsonantFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -180,9 +186,15 @@ async function generateConsonantMeaningFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -214,10 +226,15 @@ async function generateFirstCaseFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    let width = 256;
+    let height = 256;
 
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
@@ -280,10 +297,15 @@ async function generateSecondCaseFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    let width = 256;
+    let height = 256;
 
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
@@ -346,10 +368,15 @@ async function generateConjunctCaseFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    let width = 256;
+    let height = 256;
 
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
@@ -412,10 +439,15 @@ async function generatePrefixCaseFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    let width = 256;
+    let height = 256;
 
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
@@ -477,10 +509,15 @@ async function generateSuffixCaseFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    let width = 256;
+    let height = 256;
 
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
@@ -543,10 +580,15 @@ async function generatePartOfSpeechFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    let width = 256;
+    let height = 256;
 
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
@@ -610,9 +652,15 @@ async function generateArticleConjugationFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -646,9 +694,15 @@ async function generateVerbConjugationFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -682,9 +736,15 @@ async function generateAdjectiveConjugationFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -718,9 +778,15 @@ async function generateParticleConjugationFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -754,9 +820,15 @@ async function generateAdverbConjugationFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -789,9 +861,15 @@ async function generateNounConjugationFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", 25);
@@ -830,14 +908,12 @@ async function make() {
     generateVowelFigure();
     generateRtlFigure();
     generateLtrFigure();
-
     generateConsonantMeaningFigure();
     generateFirstCaseFigure();
     generateSecondCaseFigure();
     generateConjunctCaseFigure();
     generatePrefixCaseFigure();
     generateSuffixCaseFigure();
-
     generatePartOfSpeechFigure();
     generateArticleConjugationFigure();
     generateVerbConjugationFigure();
