@@ -78,7 +78,6 @@ async function generateVowelFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
@@ -260,7 +259,6 @@ async function generateFirstCaseFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
@@ -332,7 +330,6 @@ async function generateSecondCaseFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
@@ -404,7 +401,6 @@ async function generateConjunctCaseFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
@@ -476,7 +472,6 @@ async function generatePrefixCaseFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
@@ -547,7 +542,6 @@ async function generateSuffixCaseFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
@@ -619,7 +613,6 @@ async function generatePartOfSpeechFigure() {
             coodinate += " ";
         }
     }
-
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
