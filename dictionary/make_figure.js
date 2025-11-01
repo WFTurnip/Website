@@ -84,7 +84,6 @@ async function generateVowelFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
@@ -92,6 +91,17 @@ async function generateVowelFigure() {
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
+        text.classList.add("zosokw");
+        svg.appendChild(text);
+    }
+
+    for (let i = 0; i < 6; i++) {
+        let text = document.createElementNS(svgns, "text");
+        let x = 69 + 30 * Math.sin((4 + i) * Math.PI / 3);
+        let y = 80 + 30 * Math.cos((4 + i) * Math.PI / 3);
+        text.setAttribute("x", x);
+        text.setAttribute("y", y);
+        text.textContent = "/" + vowels_pronunciation_array + "/";
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -256,7 +266,6 @@ async function generateFirstCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
@@ -329,7 +338,6 @@ async function generateSecondCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
@@ -402,7 +410,6 @@ async function generateConjunctCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
@@ -475,7 +482,6 @@ async function generatePrefixCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
@@ -547,7 +553,6 @@ async function generateSuffixCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
@@ -620,7 +625,6 @@ async function generatePartOfSpeechFigure() {
     polyline.setAttribute("stroke-width", 1);
 
     svg.appendChild(polyline);
-
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = 69 + 40 * Math.sin((4 + i) * Math.PI / 3);
