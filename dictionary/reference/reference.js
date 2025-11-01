@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     tocNav.querySelectorAll("a").forEach(a => {
         a.addEventListener("click", e => {
-            const target = document.querySelector(a.getAttribute("href"));
+            const target = document.querySelectorAll(a.getAttribute("href"));
             if (!target) return;
 
             let parent = target.parentElement;
