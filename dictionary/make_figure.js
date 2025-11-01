@@ -50,15 +50,21 @@ async function generateVowelFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
+    let width = 256;
+    let height = 256;
+
     let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", 150);
-    svg.setAttribute("height", 150);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+
+    let centerx = width / 2;
+    let centery = height / 2;
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = 75 + 50 * Math.sin(i * Math.PI / 3);
-        let y = 75 + 50 * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
+        let y = centery + (height / 4) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
