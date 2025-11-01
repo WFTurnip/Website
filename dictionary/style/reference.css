@@ -180,7 +180,11 @@ sub {
     font-variant-caps: all-small-caps;
 }
 
-nav,
+nav {
+    column-count: 4;
+    column-rule-style: solid;
+}
+
 dl {
     column-count: 2;
     column-rule-style: solid;
@@ -188,7 +192,11 @@ dl {
 
 @media (max-width: 48rem) {
 
-    nav,
+    nav {
+        column-count: 2;
+        column-gap: none;
+    }
+
     dl {
         column-count: 1;
         column-rule: none;
