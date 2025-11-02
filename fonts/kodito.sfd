@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1709032616
-ModificationTime: 1761882553
+ModificationTime: 1762069928
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -43,7 +43,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 14 14 10
+WinInfo: 0 14 10
 BeginPrivate: 0
 EndPrivate
 BeginChars: 65536 96
@@ -3209,15 +3209,6 @@ SplineSet
  25 279 25 279 25 300 c 128,-1,7
  25 321 25 321 32.5 335.5 c 128,-1,0
  40 350 40 350 50 350 c 128,-1,1
-250 350 m 128,-1,9
- 260 350 260 350 267.5 335.5 c 128,-1,10
- 275 321 275 321 275 300 c 128,-1,11
- 275 279 275 279 267.5 264.5 c 128,-1,12
- 260 250 260 250 250 250 c 128,-1,13
- 240 250 240 250 232.5 264.5 c 128,-1,14
- 225 279 225 279 225 300 c 128,-1,15
- 225 321 225 321 232.5 335.5 c 128,-1,8
- 240 350 240 350 250 350 c 128,-1,9
 EndSplineSet
 EndChar
 

@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1743571002
-ModificationTime: 1761881795
+ModificationTime: 1762063681
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 42 14 10
+WinInfo: 28 14 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "vowel" "mark-1"
@@ -1172,15 +1172,6 @@ SplineSet
  42.126953125 190.43359375 l 1,6,-1
  42.126953125 209.56640625 l 1,7,-1
  55.65625 223.09765625 l 1,0,-1
-240.43359375 223.09765625 m 1,8,-1
- 259.56640625 223.09765625 l 1,9,-1
- 273.09765625 209.56640625 l 1,10,-1
- 273.09765625 190.43359375 l 1,11,-1
- 259.56640625 176.90234375 l 1,12,-1
- 240.43359375 176.90234375 l 1,13,-1
- 226.90234375 190.43359375 l 1,14,-1
- 226.90234375 209.56640625 l 1,15,-1
- 240.43359375 223.09765625 l 1,8,-1
 EndSplineSet
 EndChar
 

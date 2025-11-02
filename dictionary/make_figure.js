@@ -380,8 +380,8 @@ async function generateConjunctCaseFigure() {
     const dom = new JSDOM();
     const document = dom.window.document;
 
-    let width = 256;
-    let height = 256;
+    let width = 1024;
+    let height = 1024;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
