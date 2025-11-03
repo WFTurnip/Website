@@ -80,8 +80,8 @@ async function generateVowelFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin((4 + i) * Math.PI / 3);
@@ -261,8 +261,8 @@ async function generateFirstCaseFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
@@ -332,8 +332,8 @@ async function generateSecondCaseFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
@@ -403,8 +403,8 @@ async function generateConjunctCaseFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
@@ -474,8 +474,8 @@ async function generatePrefixCaseFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
@@ -544,8 +544,8 @@ async function generateSuffixCaseFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
@@ -615,8 +615,8 @@ async function generatePartOfSpeechFigure() {
     polyline.setAttribute("points", coodinate);
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
-
     svg.appendChild(polyline);
+
     for (let i = 0; i < 6; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 4) * Math.sin(i * Math.PI / 3);
