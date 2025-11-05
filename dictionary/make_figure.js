@@ -70,8 +70,8 @@ async function generateVowelFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= 6; i++) {
-        let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerx + (width / 2) * Math.cos(i * Math.PI / 3);
+        let y = centery + (height / 2) * Math.sin(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i <= 5) {
             coodinate += " ";
