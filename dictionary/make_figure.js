@@ -18,6 +18,8 @@ async function generateConsonantFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -60,6 +62,8 @@ async function generateVowelFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -67,15 +71,13 @@ async function generateVowelFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
-    let apex = 6;
-    
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.cos(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.sin(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex-1) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -202,6 +204,8 @@ async function generateConsonantMeaningFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -243,6 +247,8 @@ async function generateFirstCaseFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -252,11 +258,11 @@ async function generateFirstCaseFigure() {
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -265,7 +271,7 @@ async function generateFirstCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -276,7 +282,7 @@ async function generateFirstCaseFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -314,6 +320,8 @@ async function generateSecondCaseFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -323,11 +331,11 @@ async function generateSecondCaseFigure() {
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -336,7 +344,7 @@ async function generateSecondCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -347,7 +355,7 @@ async function generateSecondCaseFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -385,6 +393,8 @@ async function generateConjunctCaseFigure() {
     let width = 512;
     let height = 512;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -394,11 +404,11 @@ async function generateConjunctCaseFigure() {
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -407,7 +417,7 @@ async function generateConjunctCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -418,7 +428,7 @@ async function generateConjunctCaseFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -456,6 +466,8 @@ async function generatePrefixCaseFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -465,11 +477,11 @@ async function generatePrefixCaseFigure() {
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -478,7 +490,7 @@ async function generatePrefixCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -489,7 +501,7 @@ async function generatePrefixCaseFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -526,6 +538,8 @@ async function generateSuffixCaseFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -535,11 +549,11 @@ async function generateSuffixCaseFigure() {
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -548,7 +562,7 @@ async function generateSuffixCaseFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -559,7 +573,7 @@ async function generateSuffixCaseFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -597,6 +611,8 @@ async function generatePartOfSpeechFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -606,11 +622,11 @@ async function generatePartOfSpeechFigure() {
 
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
@@ -619,7 +635,7 @@ async function generatePartOfSpeechFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -630,7 +646,7 @@ async function generatePartOfSpeechFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -668,6 +684,8 @@ async function generateArticleConjugationFigure() {
 
     let width = 256;
     let height = 256;
+
+    let apex = 6;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
@@ -711,6 +729,8 @@ async function generateVerbConjugationFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -752,6 +772,8 @@ async function generateAdjectiveConjugationFigure() {
 
     let width = 256;
     let height = 256;
+
+    let apex = 6;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
@@ -795,6 +817,8 @@ async function generateParticleConjugationFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -837,6 +861,8 @@ async function generateAdverbConjugationFigure() {
     let width = 256;
     let height = 256;
 
+    let apex = 6;
+
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
@@ -878,6 +904,8 @@ async function generateNounConjugationFigure() {
 
     let width = 256;
     let height = 256;
+
+    let apex = 6;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
