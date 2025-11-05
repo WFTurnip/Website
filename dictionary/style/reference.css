@@ -139,14 +139,14 @@ nav li:last-child::after {
     content: "";
 }
 
+dd table,
 dd figure {
-    display: block;
     text-align: center;
+    margin: auto;
 }
 
-dd table,
-dd figure object {
-    margin: auto;
+dd > figure {
+    display: inline;
 }
 
 dd figure figcaption {
@@ -169,11 +169,6 @@ nav h4,
 dl dt,
 dl dd {
     break-inside: avoid;
-}
-
-dt figure object,
-dd figure object {
-    display: inline;
 }
 
 sub {
