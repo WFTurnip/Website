@@ -67,13 +67,15 @@ async function generateVowelFigure() {
     let centerx = width / 2;
     let centery = height / 2;
 
+    let apex = 6;
+    
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
-    for (let i = 0; i <= 6; i++) {
+    for (let i = 0; i <= apex; i++) {
         let x = centerx + (width / 2) * Math.cos(i * Math.PI / 3);
         let y = centery + (height / 2) * Math.sin(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= 5) {
+        if (i <= apex-1) {
             coodinate += " ";
         }
     }
@@ -82,7 +84,7 @@ async function generateVowelFigure() {
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
@@ -93,7 +95,7 @@ async function generateVowelFigure() {
         svg.appendChild(text);
     }
 
-    for (let i = 0; i < 6; i++) {
+    for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
         let x = centerx + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
         let y = centery + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
