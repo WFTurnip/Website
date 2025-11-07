@@ -32,33 +32,33 @@ async function generateConsonantFigure() {
     let centerY = height / 2;
 
     for (let i = 0; i <= apex; i++) {
-	let line = document.createElementNS(svgns, "line");
+        let line = document.createElementNS(svgns, "line");
         let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-	let x2 = centerX + (width / 2) * Math.sin((i+2) * Math.PI / 3);
-        let y2 = centerY + (height / 2) * Math.cos((i+2) * Math.PI / 3);
-	line.setAttribute("x1",x1);
-	line.setAttribute("y1",y1);
-	line.setAttribute("x2",x2);
-	line.setAttribute("y2",y2);	
-	line.setAttribute("stroke-width", 1);
-	svg.appendChild(line);
+        let x2 = centerX + (width / 2) * Math.sin((i + 2) * Math.PI / 3);
+        let y2 = centerY + (height / 2) * Math.cos((i + 2) * Math.PI / 3);
+        line.setAttribute("x1", x1);
+        line.setAttribute("y1", y1);
+        line.setAttribute("x2", x2);
+        line.setAttribute("y2", y2);
+        line.setAttribute("stroke-width", 1);
+        svg.appendChild(line);
     }
 
-    for (let i = 0; i <= apex/2; i++) {
-	let line = document.createElementNS(svgns, "line");
+    for (let i = 0; i <= apex / 2; i++) {
+        let line = document.createElementNS(svgns, "line");
         let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-	let x2 = centerX + (width / 2) * Math.sin((i+3) * Math.PI / 3);
-        let y2 = centerY + (height / 2) * Math.cos((i+3) * Math.PI / 3);
-	line.setAttribute("x1",x1);
-	line.setAttribute("y1",y1);
-	line.setAttribute("x2",x2);
-	line.setAttribute("y2",y2);	
-	line.setAttribute("stroke-width", 1);
-	svg.appendChild(line);
-    }	
-    
+        let x2 = centerX + (width / 2) * Math.sin((i + 3) * Math.PI / 3);
+        let y2 = centerY + (height / 2) * Math.cos((i + 3) * Math.PI / 3);
+        line.setAttribute("x1", x1);
+        line.setAttribute("y1", y1);
+        line.setAttribute("x2", x2);
+        line.setAttribute("y2", y2);
+        line.setAttribute("stroke-width", 1);
+        svg.appendChild(line);
+    }
+
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
@@ -238,20 +238,33 @@ async function generateConsonantMeaningFigure() {
     let centerX = width / 2;
     let centerY = height / 2;
 
-    let polyline = document.createElementNS(svgns, "polyline");
-    let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.cos(i * Math.PI / 4);
-        let y = centerY + (height / 2) * Math.sin(i * Math.PI / 4);
-        coodinate += x + "," + y + "";
-        if (i < apex) {
-            coodinate += " ";
-        }
+        let line = document.createElementNS(svgns, "line");
+        let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
+        let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x2 = centerX + (width / 2) * Math.sin((i + 2) * Math.PI / 3);
+        let y2 = centerY + (height / 2) * Math.cos((i + 2) * Math.PI / 3);
+        line.setAttribute("x1", x1);
+        line.setAttribute("y1", y1);
+        line.setAttribute("x2", x2);
+        line.setAttribute("y2", y2);
+        line.setAttribute("stroke-width", 1);
+        svg.appendChild(line);
     }
-    polyline.setAttribute("points", coodinate);
-    polyline.setAttribute("fill", "none");
-    polyline.setAttribute("stroke-width", 1);
-    svg.appendChild(polyline);
+
+    for (let i = 0; i <= apex / 2; i++) {
+        let line = document.createElementNS(svgns, "line");
+        let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
+        let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x2 = centerX + (width / 2) * Math.sin((i + 3) * Math.PI / 3);
+        let y2 = centerY + (height / 2) * Math.cos((i + 3) * Math.PI / 3);
+        line.setAttribute("x1", x1);
+        line.setAttribute("y1", y1);
+        line.setAttribute("x2", x2);
+        line.setAttribute("y2", y2);
+        line.setAttribute("stroke-width", 1);
+        svg.appendChild(line);
+    }
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);

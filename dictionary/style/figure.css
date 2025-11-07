@@ -7,7 +7,8 @@
         fill: #3b3f3f;
     }
 
-    polyline,line {
+    polyline,
+    line {
         fill: none;
         stroke: #3b3f3f;
     }
@@ -22,7 +23,8 @@
         fill: #e8e5dd;
     }
 
-    polyline,line {
+    polyline,
+    line {
         fill: none;
         stroke: #e8e5dd;
     }
