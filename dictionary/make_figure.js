@@ -22,7 +22,7 @@ async function generateConsonantFigure() {
     let width = 256;
     let height = 256;
 
-    let apex = 6;
+    let apex = 8;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
@@ -31,12 +31,20 @@ async function generateConsonantFigure() {
     let centerX = width / 2;
     let centerY = height / 2;
 
-    let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
-    svg.appendChild(rect);
+    let polyline = document.createElementNS(svgns, "polyline");
+    let coodinate = "";
+    for (let i = 0; i <= apex; i++) {
+        let x = centerX + (width / 2) * Math.cos(i * Math.PI / 4);
+        let y = centerY + (height / 2) * Math.sin(i * Math.PI / 4);
+        coodinate += x + "," + y + "";
+        if (i < apex - 1) {
+            coodinate += " ";
+        }
+    }
+    polyline.setAttribute("points", coodinate);
+    polyline.setAttribute("fill", "none");
+    polyline.setAttribute("stroke-width", 1);
+    svg.appendChild(polyline);
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
