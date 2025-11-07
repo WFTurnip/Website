@@ -150,8 +150,7 @@ async function make() {
             }
         }
     }
-
-    console.log("ディレクトリ" + directory + "内部データ生成完了");
+    console.log("ディレクトリ" + directory + "の内部データを生成完了");
 }
 
 make();

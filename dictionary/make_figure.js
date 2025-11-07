@@ -993,6 +993,7 @@ async function make() {
     generateParticleConjugationFigure();
     generateAdverbConjugationFigure();
     generateNounConjugationFigure();
+    console.log("ディレクトリ" + directory + "の内部データを生成完了");
 }
 
 make();
