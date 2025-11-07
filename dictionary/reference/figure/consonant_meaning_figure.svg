@@ -1,5 +1,5 @@
 <?xml-stylesheet href="../../style/figure.css" type="text/css"?>
 <?xml-stylesheet href="../../style/fonts.css" type="text/css"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256">
-    <rect x="25" y="25" width="50" height="50" />
+    <polyline points="256,128 218.50966799187808,218.50966799187808 128,256 37.490332008121925,218.50966799187808 0,128.00000000000003 37.4903320081219,37.490332008121925 127.99999999999997,0 218.50966799187808,37.4903320081219 256,127.99999999999997" fill="none" stroke-width="1" />
 </svg>
