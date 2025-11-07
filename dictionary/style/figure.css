@@ -31,8 +31,18 @@
 .cases,
 .part-of-speech {
     font-family: serif;
+    dominant-baseline: ideographic;
 }
 
 .pronunciation {
     font-family: monospace;
+    dominant-baseline: ideographic;
+}
+
+text {
+    text-anchor: middle;
+}
+
+.zosokw {
+    dominant-baseline: hanging;
 }

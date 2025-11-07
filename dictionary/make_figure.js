@@ -86,7 +86,7 @@ async function generateVowelFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX - 6 + (width / 2) * Math.sin(i * Math.PI / 3);
+        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i < apex) {
@@ -100,8 +100,8 @@ async function generateVowelFigure() {
 
     for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = centerX - 6 + (width / 2 - 16) * Math.sin((4 + i) * Math.PI / 3);
-        let y = centerY + (height / 2 - 16) * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
+        let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "\u{25cc}" + vowels_array[i];
@@ -111,8 +111,8 @@ async function generateVowelFigure() {
 
     for (let i = 0; i < apex; i++) {
         let text = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2 - 16 * 2) * Math.sin((4 + i) * Math.PI / 3);
-        let y = centerY + (height / 2 - 16 * 2) * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
+        let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
         text.textContent = "/" + vowels_pronunciation_array[i] + "/";
@@ -435,7 +435,7 @@ async function generateConjunctCaseFigure() {
 
     for (let i = 0; i < apex; i++) {
         let firstCaseText = document.createElementNS(svgns, "text");
-        let firstCaseApexX = centerX - 6 + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
+        let firstCaseApexX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
         let firstCaseApexY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
         firstCaseText.setAttribute("x", firstCaseApexX);
         firstCaseText.setAttribute("y", firstCaseApexY);
@@ -444,7 +444,7 @@ async function generateConjunctCaseFigure() {
         svg.appendChild(firstCaseText);
         for (let j = 0; j < apex; j++) {
             let conjunctCaseText = document.createElementNS(svgns, "text");
-            let conjunctCaseApexX = firstCaseApexX - 12 + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
+            let conjunctCaseApexX = firstCaseApexX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
             let conjunctCaseApexY = firstCaseApexY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
             conjunctCaseText.setAttribute("x", conjunctCaseApexX);
             conjunctCaseText.setAttribute("y", conjunctCaseApexY);
@@ -456,8 +456,8 @@ async function generateConjunctCaseFigure() {
 
     for (let i = 0; i < apex; i++) {
         let firstCaseText = document.createElementNS(svgns, "text");
-        let firstCaseApexX = centerX - 16 + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
-        let firstCaseApexY = centerY + 16 + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
+        let firstCaseApexX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
+        let firstCaseApexY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
         firstCaseText.setAttribute("x", firstCaseApexX);
         firstCaseText.setAttribute("y", firstCaseApexY);
         firstCaseText.textContent = vowels_cases_array[i] + "格";
@@ -465,7 +465,7 @@ async function generateConjunctCaseFigure() {
         svg.appendChild(firstCaseText);
         for (let j = 0; j < apex; j++) {
             let conjunctCaseText = document.createElementNS(svgns, "text");
-            let conjunctCaseApexX = firstCaseApexX - 8 + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
+            let conjunctCaseApexX = firstCaseApexX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
             let conjunctCaseApexY = firstCaseApexY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
             conjunctCaseText.setAttribute("x", conjunctCaseApexX);
             conjunctCaseText.setAttribute("y", conjunctCaseApexY);
