@@ -22,7 +22,7 @@ async function generateConsonantFigure() {
     let width = 256;
     let height = 256;
 
-    let apex = 8;
+    let apex = 9;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
@@ -37,7 +37,7 @@ async function generateConsonantFigure() {
         let x = centerX + (width / 2) * Math.cos(i * Math.PI / 4);
         let y = centerY + (height / 2) * Math.sin(i * Math.PI / 4);
         coodinate += x + "," + y + "";
-        if (i < apex - 1) {
+        if (i <= apex - 1) {
             coodinate += " ";
         }
     }
