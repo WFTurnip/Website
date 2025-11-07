@@ -37,7 +37,7 @@ async function generateConsonantFigure() {
         let x = centerX + (width / 2) * Math.cos(i * Math.PI / 4);
         let y = centerY + (height / 2) * Math.sin(i * Math.PI / 4);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
@@ -89,7 +89,7 @@ async function generateVowelFigure() {
         let x = centerX - 6 + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
@@ -274,7 +274,7 @@ async function generateFirstCaseFigure() {
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
@@ -347,7 +347,7 @@ async function generateSecondCaseFigure() {
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
@@ -517,7 +517,7 @@ async function generatePrefixCaseFigure() {
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
@@ -590,7 +590,7 @@ async function generateSuffixCaseFigure() {
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
@@ -663,7 +663,7 @@ async function generatePartOfSpeechFigure() {
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
-        if (i <= apex - 1) {
+        if (i < apex) {
             coodinate += " ";
         }
     }
