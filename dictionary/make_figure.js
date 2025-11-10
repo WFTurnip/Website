@@ -59,6 +59,8 @@ async function generateConsonantFigure() {
         svg.appendChild(line);
     }
 
+    
+    
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
