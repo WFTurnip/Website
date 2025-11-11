@@ -108,7 +108,7 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 356.
 ))
-LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on 
+LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on
 input line 336.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/tone.sty
@@ -263,7 +263,7 @@ Package: bxjatoucs 2024/07/22 v0.3a
 )
 LaTeX Encoding Info:    Redeclaring text command \textborn (encoding PU) on inp
 ut line 1461.
-LaTeX Encoding Info:    Redeclaring text command \textfinalsigma (encoding PU) 
+LaTeX Encoding Info:    Redeclaring text command \textfinalsigma (encoding PU)
 on input line 1462.
 LaTeX Encoding Info:    Redeclaring text command \textxgeq (encoding PU) on inp
 ut line 1463.
@@ -408,8 +408,6 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 \tf@toc=\write5
 \openout5 = `reference.toc'.
 
-
-
 [2] (./chapter1.tex
 第1章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -523,11 +521,7 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 
 ] (./reference.ind
 
-
-
 [23
-
-
 
 ]) (./reference.aux)
  ***********
@@ -537,7 +531,7 @@ L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `reference.out' has not changed.
 (rerunfilecheck)             Checksum: BED35005A966A4609CC04D19784EEEFE;4744.
- ) 
+ )
 Here is how much of TeX's memory you used:
  10675 strings out of 468392
  162474 string characters out of 5442311
