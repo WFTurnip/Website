@@ -412,7 +412,7 @@ function generateConjunctCaseTable() {
     let tr2 = document.createElement("tr");
     vowels.forEach((vowel, i) => {
         let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}" + vowel, "zosokw"));
+        th.appendChild(createParagraph("\u{25CC}" + vowel+"\u{25CC}"+"\u{25CC}", "zosokw"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr2.appendChild(th);
     });
@@ -431,7 +431,7 @@ function generateConjunctCaseTable() {
     vowels.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}" + vowel1, "zosokw"));
+        th.appendChild(createParagraph("\u{25CC}"+"\u{25CC}" + vowel1+"\u{25CC}", "zosokw"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr.appendChild(th);
 
