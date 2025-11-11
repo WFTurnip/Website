@@ -39,11 +39,11 @@ async function generateConsonant(i) {
     for (let j = 0; j < consonantsArray.length; j++) {
         for (let k = 0; k < consonantsArray.length; k++) {
             let root = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-            let meaning = consonantsMeansArray[i] + consonantsMeansArray[j] + consonantsMeansArray[k];
+            let rootMeaning = consonantsMeansArray[i] + consonantsMeansArray[j] + consonantsMeansArray[k];
             let rootHtmlHref = consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html";
             roots.push({
                 root: root,
-                root_meaning: meaning,
+                rootMeaning: rootMeaning,
                 rootHtmlHref: rootHtmlHref,
             });
         }
