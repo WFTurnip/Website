@@ -78,16 +78,16 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWordLower, "consonants");
         filtered.forEach(item => {
-            const consonant_index = document.createElement("p");
+            const consonantIndex = document.createElement("p");
             const consonant = document.createElement("span");
             consonant.textContent = searchWordLower.charAt(0);
             consonant.classList.add("zosokw");
-            consonant_index.append(consonant);
+            consonantIndex.append(consonant);
 
             const consonantMeaning = document.createElement("span");
             consonantMeaning.textContent = item.consonantMeaning;
-            consonant_index.append(consonantMeaning);
-            details.appendChild(consonant_index);
+            consonantIndex.append(consonantMeaning);
+            details.appendChild(consonantIndex);
 
             const p2 = document.createElement("p");
             const a = document.createElement("a");
@@ -124,17 +124,17 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWordLower, "roots");
         filtered.forEach(item => {
-            const root_index = document.createElement("p");
+            const rootIndex = document.createElement("p");
             const root = document.createElement("span");
             root.textContent = item.root;
             root.classList.add("zosokw");
-            root_index.append(root);
-            const root_meaning = document.createElement("span");
-            root_meaning.textContent = item.root_meaning;
-            root_index.appendChild(root_meaning);
-            details.appendChild(root_index);
+            rootIndex.append(root);
+            const rootMeaning = document.createElement("span");
+            rootMeaning.textContent = item.rootMeaning;
+            rootIndex.appendChild(rootMeaning);
+            details.appendChild(rootIndex);
 
-            const root_href = document.createElement("p");
+            const rootHref = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
             span.classList.add("zosokw");
@@ -143,8 +143,8 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             a.append("語根");
             a.append(span);
             a.append("の詳細ページ");
-            root_href.appendChild(a);
-            details.appendChild(root_href);
+            rootHref.appendChild(a);
+            details.appendChild(rootHref);
         });
     } catch (error) {
         console.error(error);
@@ -169,34 +169,34 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "words");
         filtered.forEach(item => {
-            const word_index = document.createElement("p");
+            const wordIndex = document.createElement("p");
 
             const index = document.createElement("strong");
             index.textContent = item.word;
             index.classList.add("index", "zosokw");
-            word_index.append(index);
+            wordIndex.append(index);
 
             const pronunciation = document.createElement("span");
             pronunciation.textContent = "/" + item.wordPronunciation + "/";
             pronunciation.classList.add("pronunciation");
-            word_index.append(pronunciation);
+            wordIndex.append(pronunciation);
 
             const wordCases = document.createElement("span");
             wordCases.textContent = item.wordCases;
             wordCases.classList.add("cases");
-            word_index.append(wordCases);
+            wordIndex.append(wordCases);
 
             const wordPartOfSpeech = document.createElement("span");
             wordPartOfSpeech.textContent = item.wordPartOfSpeech;
             wordPartOfSpeech.classList.add("part-of-speech");
-            word_index.append(wordPartOfSpeech);
-            details.appendChild(word_index);
+            wordIndex.append(wordPartOfSpeech);
+            details.appendChild(wordIndex);
 
-            const word_meaning = document.createElement("p");
-            word_meaning.textContent = item.word_meaning;
-            details.appendChild(word_meaning);
+            const wordMeaning = document.createElement("p");
+            wordMeaning.textContent = item.wordMeaning;
+            details.appendChild(wordMeaning);
 
-            const word_link = document.createElement("p");
+            const wordLink = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
             span.classList.add("zosokw");
@@ -205,8 +205,8 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             a.append("単語")
             a.append(span);
             a.append("の詳細ページ");
-            word_link.appendChild(a);
-            details.appendChild(word_link);
+            wordLink.appendChild(a);
+            details.appendChild(wordLink);
         });
     } catch (error) {
         console.error(error);
@@ -228,9 +228,7 @@ async function fetchFileForSearch(searchWord) {
 }
 
 function filterData(data, searchWord, type) {
-
     const wordLower = searchWord.toLowerCase();
-
     switch (type) {
         case "consonants":
             return data.consonants.filter(item =>
