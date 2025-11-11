@@ -224,7 +224,7 @@ async function generateLtrFigure() {
 }
 
 async function generateConsonantMeaningFigure() {
-    let filename = path.join("reference/", "figure/", "consonantMeaning_figure.svg");
+    let filename = path.join("reference/", "figure/", "consonant_meaning_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
