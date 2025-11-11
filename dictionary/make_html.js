@@ -3,14 +3,14 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
-const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonants_means_array = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonants_pronunciation_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsMeansArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
-const vowels_array = ["a", "e", "i", "o", "u", "w"];
-const vowels_cases_array = ["否", "与", "属", "対", "主", "流"];
-const vowels_part_of_speech_types_array = ["附", "動", "容", "助", "副", "名"];
-const vowels_pronunciation_array = ["a", "e", "i", "o", "u", ""];
+const vowelsArray = ["a", "e", "i", "o", "u", "w"];
+const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
+const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
+const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
 
 async function generateIndex() {
     let filename = path.join("html_index", "index.html");
@@ -79,21 +79,21 @@ async function generateIndex() {
 
     let main = document.createElement("main");
     let dl = document.createElement("dl");
-    for (let i = 0; i < consonants_array.length; i++) {
+    for (let i = 0; i < consonantsArray.length; i++) {
         let dt = document.createElement("dt");
-        dt.id = consonants_array[i];
+        dt.id = consonantsArray[i];
 
         let consonant = document.createElement("span");
         let a = document.createElement("a");
         a.classList.add("zosokw");
-        a.href = consonants_array[i] + ".html";
-        a.textContent = consonants_array[i];
+        a.href = consonantsArray[i] + ".html";
+        a.textContent = consonantsArray[i];
         consonant.appendChild(a);
         dt.appendChild(consonant);
         dl.appendChild(dt);
 
         let dd = document.createElement("dd");
-        dd.textContent = consonants_means_array[i];
+        dd.textContent = consonantsMeansArray[i];
         dl.appendChild(dd);
 
         main.appendChild(dl);
@@ -127,7 +127,7 @@ async function generateIndex() {
 }
 
 async function generateConsonant(i) {
-    let filename = path.join("html_index", consonants_array[i] + ".html");
+    let filename = path.join("html_index", consonantsArray[i] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
@@ -138,7 +138,7 @@ async function generateConsonant(i) {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "頭文字" + consonants_array[i].toUpperCase();
+    title.textContent = "頭文字" + consonantsArray[i].toUpperCase();
     head.appendChild(title);
 
     let link1 = document.createElement("link");
@@ -155,7 +155,7 @@ async function generateConsonant(i) {
     head.appendChild(link3);
     let link4 = document.createElement("link");
     link4.rel = "icon";
-    link4.href = "../favicon_index/" + consonants_array[i] + ".svg";
+    link4.href = "../favicon_index/" + consonantsArray[i] + ".svg";
     head.appendChild(link4);
 
     let body = document.body;
@@ -178,7 +178,7 @@ async function generateConsonant(i) {
     let header_li3 = document.createElement("li");
     let header_span = document.createElement("span");
     header_span.classList.add("zosokw");
-    header_span.textContent = consonants_array[i];
+    header_span.textContent = consonantsArray[i];
     header_li3.appendChild(document.createTextNode("子音"));
     header_li3.appendChild(header_span);
     header_li3.appendChild(document.createTextNode("見出し"));
@@ -190,7 +190,7 @@ async function generateConsonant(i) {
     let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
-    object.data = "../favicon_index/" + consonants_array[i] + ".svg";
+    object.data = "../favicon_index/" + consonantsArray[i] + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
     let figcaption = document.createElement("figcaption");
@@ -202,7 +202,7 @@ async function generateConsonant(i) {
     let h1 = document.createElement("h1");
     let h1_span = document.createElement("span");
     h1_span.classList.add("zosokw");
-    h1_span.textContent = consonants_array[i];
+    h1_span.textContent = consonantsArray[i];
     h1.appendChild(document.createTextNode("子音"));
     h1.appendChild(h1_span);
     h1.appendChild(document.createTextNode("の見出し"));
@@ -210,22 +210,22 @@ async function generateConsonant(i) {
 
     let main = document.createElement("main");
     let dl = document.createElement("dl");
-    for (let j = 0; j < consonants_array.length; j++) {
-        for (let k = 0; k < consonants_array.length; k++) {
+    for (let j = 0; j < consonantsArray.length; j++) {
+        for (let k = 0; k < consonantsArray.length; k++) {
             let dt = document.createElement("dt");
-            dt.id = consonants_array[i] + consonants_array[j] + consonants_array[k];
+            dt.id = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
 
             let root = document.createElement("span");
             let a = document.createElement("a");
             a.classList.add("zosokw");
-            a.href = consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html";
-            a.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
+            a.href = consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html";
+            a.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
             root.appendChild(a);
             dt.appendChild(root);
             dl.appendChild(dt);
 
             let dd = document.createElement("dd");
-            dd.textContent = consonants_means_array[i] + consonants_means_array[j] + consonants_means_array[k];
+            dd.textContent = consonantsMeansArray[i] + consonantsMeansArray[j] + consonantsMeansArray[k];
             dl.appendChild(dd);
 
             main.appendChild(dl);
@@ -251,7 +251,7 @@ async function generateConsonant(i) {
     let footer_li3 = document.createElement("li");
     let footer_span = document.createElement("span");
     footer_span.classList.add("zosokw");
-    footer_span.textContent = consonants_array[i];
+    footer_span.textContent = consonantsArray[i];
     footer_li3.appendChild(document.createTextNode("子音"));
     footer_li3.appendChild(footer_span);
     footer_li3.appendChild(document.createTextNode("見出し"));
@@ -271,7 +271,7 @@ async function generateConsonant(i) {
 }
 
 async function generateConsonantDirectory(i) {
-    let directory = path.join("html_index", consonants_array[i]);
+    let directory = path.join("html_index", consonantsArray[i]);
     try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
@@ -281,7 +281,7 @@ async function generateConsonantDirectory(i) {
 }
 
 async function generateRoot(i, j, k) {
-    let filename = path.join("html_index", consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".html");
+    let filename = path.join("html_index", consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html");
 
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
@@ -293,7 +293,7 @@ async function generateRoot(i, j, k) {
     head.appendChild(meta);
 
     let title = document.createElement("title");
-    title.textContent = "語根" + consonants_array[i].toUpperCase() + consonants_array[j].toUpperCase() + consonants_array[k].toUpperCase();
+    title.textContent = "語根" + consonantsArray[i].toUpperCase() + consonantsArray[j].toUpperCase() + consonantsArray[k].toUpperCase();
     head.appendChild(title);
 
     let link1 = document.createElement("link");
@@ -310,7 +310,7 @@ async function generateRoot(i, j, k) {
     head.appendChild(link3);
     let link4 = document.createElement("link");
     link4.rel = "icon";
-    link4.href = "../../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
+    link4.href = "../../favicon_index/" + consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".svg";
     head.appendChild(link4);
 
     let body = document.body;
@@ -334,8 +334,8 @@ async function generateRoot(i, j, k) {
     let header_a3 = document.createElement("a");
     let header_span1 = document.createElement("span");
     header_span1.classList.add("zosokw");
-    header_a3.href = "../" + consonants_array[i] + ".html";
-    header_span1.textContent = consonants_array[i];
+    header_a3.href = "../" + consonantsArray[i] + ".html";
+    header_span1.textContent = consonantsArray[i];
     header_a3.appendChild(document.createTextNode("子音"));
     header_a3.appendChild(header_span1);
     header_a3.appendChild(document.createTextNode("の見出し"));
@@ -344,7 +344,7 @@ async function generateRoot(i, j, k) {
     let header_li4 = document.createElement("li");
     let header_span2 = document.createElement("span");
     header_span2.classList.add("zosokw");
-    header_span2.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
+    header_span2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     header_li4.appendChild(document.createTextNode("語根"));
     header_li4.appendChild(header_span2);
     header_ol.appendChild(header_li4);
@@ -355,7 +355,7 @@ async function generateRoot(i, j, k) {
     let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
-    object.data = "../../favicon_index/" + consonants_array[i] + "/" + consonants_array[i] + consonants_array[j] + consonants_array[k] + ".svg";
+    object.data = "../../favicon_index/" + consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
     let figcaption = document.createElement("figcaption");
@@ -367,56 +367,56 @@ async function generateRoot(i, j, k) {
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("zosokw");
-    span1.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
+    span1.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(span1);
     body.appendChild(h1);
 
     let main = document.createElement("main");
-    for (let l = 0; l < vowels_array.length; l++) {
+    for (let l = 0; l < vowelsArray.length; l++) {
         let details = document.createElement("details");
         details.setAttribute("open", "");
         let summary = document.createElement("summary");
         let h2 = document.createElement("h2");
-        h2.textContent = vowels_part_of_speech_types_array[l] + "詞";
+        h2.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
         summary.appendChild(h2);
         details.appendChild(summary);
         let dl = document.createElement("dl");
-        for (let m = 0; m < vowels_array.length; m++) {
-            for (let n = 0; n < vowels_array.length; n++) {
+        for (let m = 0; m < vowelsArray.length; m++) {
+            for (let n = 0; n < vowelsArray.length; n++) {
                 let dt = document.createElement("dt");
                 dt.id =
-                    consonants_array[i] + vowels_array[m] +
-                    consonants_array[j] + vowels_array[n] +
-                    consonants_array[k] + vowels_array[l];
+                    consonantsArray[i] + vowelsArray[m] +
+                    consonantsArray[j] + vowelsArray[n] +
+                    consonantsArray[k] + vowelsArray[l];
 
                 let word = document.createElement("span");
                 word.classList.add("zosokw");
                 word.textContent =
-                    consonants_array[i] + vowels_array[m] +
-                    consonants_array[j] + vowels_array[n] +
-                    consonants_array[k] + vowels_array[l];
+                    consonantsArray[i] + vowelsArray[m] +
+                    consonantsArray[j] + vowelsArray[n] +
+                    consonantsArray[k] + vowelsArray[l];
                 dt.appendChild(word);
 
-                let word_pronunciation = document.createElement("span");
-                word_pronunciation.classList.add("pronunciation");
-                word_pronunciation.textContent =
+                let wordPronunciation = document.createElement("span");
+                wordPronunciation.classList.add("pronunciation");
+                wordPronunciation.textContent =
                     "/" +
-                    consonants_pronunciation_array[i] + vowels_pronunciation_array[m] +
-                    consonants_pronunciation_array[j] + vowels_pronunciation_array[n] +
-                    consonants_pronunciation_array[k] + vowels_pronunciation_array[l] +
+                    consonantsPronunciationArray[i] + vowelsPronunciationArray[m] +
+                    consonantsPronunciationArray[j] + vowelsPronunciationArray[n] +
+                    consonantsPronunciationArray[k] + vowelsPronunciationArray[l] +
                     "/";
-                dt.appendChild(word_pronunciation);
+                dt.appendChild(wordPronunciation);
 
-                let word_cases = document.createElement("span");
-                word_cases.classList.add("cases");
-                word_cases.textContent = vowels_cases_array[m] + vowels_cases_array[n] + "格";
-                dt.appendChild(word_cases);
+                let wordCases = document.createElement("span");
+                wordCases.classList.add("cases");
+                wordCases.textContent = vowelsCasesArray[m] + vowelsCasesArray[n] + "格";
+                dt.appendChild(wordCases);
 
-                let word_part_of_speech = document.createElement("span");
-                word_part_of_speech.classList.add("part-of-speech");
-                word_part_of_speech.textContent = vowels_part_of_speech_types_array[l] + "詞";
-                dt.appendChild(word_part_of_speech);
+                let wordPartOfSpeech = document.createElement("span");
+                wordPartOfSpeech.classList.add("part-of-speech");
+                wordPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
+                dt.appendChild(wordPartOfSpeech);
 
                 dl.appendChild(dt);
 
@@ -451,8 +451,8 @@ async function generateRoot(i, j, k) {
     let footer_a3 = document.createElement("a");
     let footer_span = document.createElement("span");
     footer_span.classList.add("zosokw");
-    footer_a3.href = "../" + consonants_array[i] + ".html";
-    footer_span.textContent = consonants_array[i];
+    footer_a3.href = "../" + consonantsArray[i] + ".html";
+    footer_span.textContent = consonantsArray[i];
     footer_a3.appendChild(document.createTextNode("子音"));
     footer_a3.appendChild(footer_span);
     footer_a3.appendChild(document.createTextNode("の見出し"));
@@ -461,7 +461,7 @@ async function generateRoot(i, j, k) {
     let footer_li4 = document.createElement("li");
     let footer_span2 = document.createElement("span");
     footer_span2.classList.add("zosokw");
-    footer_span2.textContent = consonants_array[i] + consonants_array[j] + consonants_array[k];
+    footer_span2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     footer_li4.appendChild(document.createTextNode("語根"));
     footer_li4.appendChild(footer_span2);
     footer_ol.appendChild(footer_li4);
@@ -488,11 +488,11 @@ async function make() {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
     await generateIndex();
-    for (let i = 0; i < consonants_array.length; i++) {
+    for (let i = 0; i < consonantsArray.length; i++) {
         await generateConsonant(i);
         await generateConsonantDirectory(i);
-        for (let j = 0; j < consonants_array.length; j++) {
-            for (let k = 0; k < consonants_array.length; k++) {
+        for (let j = 0; j < consonantsArray.length; j++) {
+            for (let k = 0; k < consonantsArray.length; k++) {
                 await generateRoot(i, j, k);
             }
         }

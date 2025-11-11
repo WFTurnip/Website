@@ -3,14 +3,14 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
-const consonants_array = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonants_means_array = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonants_pronunciation_array = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsMeansArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
-const vowels_array = ["a", "o", "u", "w", "i", "e"];
-const vowels_cases_array = ["否", "対", "主", "流", "属", "与",];
-const vowels_part_of_speech_types_array = ["附", "助", "副", "名", "容", "動",];
-const vowels_pronunciation_array = ["a", "o", "u", "∅", "i", "e"];
+const vowelsArray = ["a", "o", "u", "w", "i", "e"];
+const vowelsCasesArray = ["否", "対", "主", "流", "属", "与",];
+const vowelsPartOfSpeechTypesArray = ["附", "助", "副", "名", "容", "動",];
+const vowelsPronunciationArray = ["a", "o", "u", "∅", "i", "e"];
 
 async function generateConsonantFigure() {
     let filename = path.join("reference/", "figure/", "consonant_figure.svg");
@@ -58,8 +58,6 @@ async function generateConsonantFigure() {
         line.setAttribute("stroke-width", 1);
         svg.appendChild(line);
     }
-
-
 
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
@@ -120,7 +118,7 @@ async function generateVowelFigure() {
         let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.textContent = "\u{25cc}" + vowelsArray[i];
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -131,7 +129,7 @@ async function generateVowelFigure() {
         let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "/" + vowels_pronunciation_array[i] + "/";
+        text.textContent = "/" + vowelsPronunciationArray[i] + "/";
         text.classList.add("pronunciation");
         svg.appendChild(text);
     }
@@ -226,7 +224,7 @@ async function generateLtrFigure() {
 }
 
 async function generateConsonantMeaningFigure() {
-    let filename = path.join("reference/", "figure/", "consonant_meaning_figure.svg");
+    let filename = path.join("reference/", "figure/", "consonantMeaning_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -330,7 +328,7 @@ async function generateFirstCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.textContent = "\u{25cc}" + vowelsArray[i];
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -341,7 +339,7 @@ async function generateFirstCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = vowels_cases_array[i] + "格";
+        text.textContent = vowelsCasesArray[i] + "格";
         text.classList.add("cases");
         svg.appendChild(text);
     }
@@ -404,7 +402,7 @@ async function generateSecondCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.textContent = "\u{25cc}" + vowelsArray[i];
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -415,7 +413,7 @@ async function generateSecondCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = vowels_cases_array[i] + "格";
+        text.textContent = vowelsCasesArray[i] + "格";
         text.classList.add("cases");
         svg.appendChild(text);
     }
@@ -482,7 +480,7 @@ async function generateConjunctCaseFigure() {
         let firstCaseApexY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
         firstCaseText.setAttribute("x", firstCaseApexX);
         firstCaseText.setAttribute("y", firstCaseApexY);
-        firstCaseText.textContent = "\u{25cc}" + vowels_array[i];
+        firstCaseText.textContent = "\u{25cc}" + vowelsArray[i];
         firstCaseText.classList.add("zosokw");
         svg.appendChild(firstCaseText);
         for (let j = 0; j < apex; j++) {
@@ -491,7 +489,7 @@ async function generateConjunctCaseFigure() {
             let conjunctCaseApexY = firstCaseApexY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
             conjunctCaseText.setAttribute("x", conjunctCaseApexX);
             conjunctCaseText.setAttribute("y", conjunctCaseApexY);
-            conjunctCaseText.textContent = "\u{25cc}" + vowels_array[i] + "\u{25cc}" + vowels_array[j] + "\u{25cc}";
+            conjunctCaseText.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
             conjunctCaseText.classList.add("zosokw");
             svg.appendChild(conjunctCaseText);
         }
@@ -503,7 +501,7 @@ async function generateConjunctCaseFigure() {
         let firstCaseApexY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
         firstCaseText.setAttribute("x", firstCaseApexX);
         firstCaseText.setAttribute("y", firstCaseApexY);
-        firstCaseText.textContent = vowels_cases_array[i] + "格";
+        firstCaseText.textContent = vowelsCasesArray[i] + "格";
         firstCaseText.classList.add("cases");
         svg.appendChild(firstCaseText);
         for (let j = 0; j < apex; j++) {
@@ -512,7 +510,7 @@ async function generateConjunctCaseFigure() {
             let conjunctCaseApexY = firstCaseApexY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
             conjunctCaseText.setAttribute("x", conjunctCaseApexX);
             conjunctCaseText.setAttribute("y", conjunctCaseApexY);
-            conjunctCaseText.textContent = vowels_cases_array[i] + vowels_cases_array[j] + "格";
+            conjunctCaseText.textContent = vowelsCasesArray[i] + vowelsCasesArray[j] + "格";
             conjunctCaseText.classList.add("cases");
             svg.appendChild(conjunctCaseText);
         }
@@ -576,7 +574,7 @@ async function generatePrefixCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.textContent = "\u{25cc}" + vowelsArray[i];
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -587,7 +585,7 @@ async function generatePrefixCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = vowels_cases_array[i] + "格";
+        text.textContent = vowelsCasesArray[i] + "格";
         text.classList.add("cases");
         svg.appendChild(text);
     }
@@ -650,7 +648,7 @@ async function generateSuffixCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.textContent = "\u{25cc}" + vowelsArray[i];
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -661,7 +659,7 @@ async function generateSuffixCaseFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = vowels_cases_array[i] + "格";
+        text.textContent = vowelsCasesArray[i] + "格";
         text.classList.add("cases");
         svg.appendChild(text);
     }
@@ -724,7 +722,7 @@ async function generatePartOfSpeechFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowels_array[i];
+        text.textContent = "\u{25cc}" + vowelsArray[i];
         text.classList.add("zosokw");
         svg.appendChild(text);
     }
@@ -735,7 +733,7 @@ async function generatePartOfSpeechFigure() {
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = vowels_part_of_speech_types_array[i] + "詞";
+        text.textContent = vowelsPartOfSpeechTypesArray[i] + "詞";
         text.classList.add("part-of-speech");
         svg.appendChild(text);
     }
