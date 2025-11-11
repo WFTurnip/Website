@@ -59,14 +59,15 @@ async function generateConsonantFigure() {
         svg.appendChild(line);
     }
 
-    
-    
+
+
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
 
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -141,6 +142,7 @@ async function generateVowelFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -175,6 +177,7 @@ async function generateRtlFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -209,6 +212,7 @@ async function generateLtrFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -274,6 +278,7 @@ async function generateConsonantMeaningFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -347,6 +352,7 @@ async function generateFirstCaseFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -420,6 +426,7 @@ async function generateSecondCaseFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -517,6 +524,7 @@ async function generateConjunctCaseFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -590,6 +598,7 @@ async function generatePrefixCaseFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -663,6 +672,7 @@ async function generateSuffixCaseFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -736,6 +746,7 @@ async function generatePartOfSpeechFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -780,6 +791,7 @@ async function generateArticleConjugationFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -824,6 +836,7 @@ async function generateVerbConjugationFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -868,6 +881,7 @@ async function generateAdjectiveConjugationFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -912,6 +926,7 @@ async function generateParticleConjugationFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -956,6 +971,7 @@ async function generateAdverbConjugationFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
@@ -1000,6 +1016,7 @@ async function generateNounConjugationFigure() {
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
 
     svgContent = beautify(svgContent, { indent_size: 4 });
