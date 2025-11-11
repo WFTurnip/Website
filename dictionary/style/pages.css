@@ -49,6 +49,19 @@
     .on {
         color: #0000ff;
     }
+
+    text,
+    polygon,
+    rect,
+    circle {
+        fill: #3b3f3f;
+    }
+
+    polyline,
+    line {
+        fill: none;
+        stroke: #3b3f3f;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -101,5 +114,31 @@
 
     .on {
         color: #0000ee;
+    }
+    
+    text,
+    polygon,
+    rect,
+    circle {
+        fill: #3b3f3f;
+    }
+
+    polyline,
+    line {
+        fill: none;
+        stroke: #3b3f3f;
+    }
+    
+    text,
+    polygon,
+    rect,
+    circle {
+        fill: #e8e5dd;
+    }
+
+    polyline,
+    line {
+        fill: none;
+        stroke: #e8e5dd;
     }
 }

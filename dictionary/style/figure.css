@@ -1,35 +1,3 @@
-@media (prefers-color-scheme: light) {
-
-    text,
-    polygon,
-    rect,
-    circle {
-        fill: #3b3f3f;
-    }
-
-    polyline,
-    line {
-        fill: none;
-        stroke: #3b3f3f;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-
-    text,
-    polygon,
-    rect,
-    circle {
-        fill: #e8e5dd;
-    }
-
-    polyline,
-    line {
-        fill: none;
-        stroke: #e8e5dd;
-    }
-}
-
 .cases,
 .part-of-speech {
     font-family: serif;
