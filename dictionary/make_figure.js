@@ -32,7 +32,7 @@ async function generateConsonantFigure() {
     let centerY = height / 2;
 
     for (let i = 0; i <= apex; i++) {
-	for (let j = 2; j <= 3; j++) {
+        for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
             let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
             let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -44,7 +44,7 @@ async function generateConsonantFigure() {
             line.setAttribute("y2", y2);
             line.setAttribute("stroke-width", 1);
             svg.appendChild(line);
-	}
+        }
     }
 
     let serializer = new dom.window.XMLSerializer();
@@ -231,7 +231,7 @@ async function generateConsonantMeaningFigure() {
     let centerY = height / 2;
 
     for (let i = 0; i <= apex; i++) {
-	for (let j = 2; j <= 3; j++) {
+        for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
             let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
             let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
@@ -243,7 +243,7 @@ async function generateConsonantMeaningFigure() {
             line.setAttribute("y2", y2);
             line.setAttribute("stroke-width", 1);
             svg.appendChild(line);
-	}
+        }
     }
 
     let serializer = new dom.window.XMLSerializer();
