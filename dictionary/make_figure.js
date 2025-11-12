@@ -129,7 +129,7 @@ async function generateVowelFigure() {
         let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
         text.setAttribute("x", x);
         text.setAttribute("y", y);
-        text.textContent = "/" + vowelsPronunciationArray[i] + "/";
+        text.textContent = "[" + vowelsPronunciationArray[i] + "]";
         text.classList.add("pronunciation");
         svg.appendChild(text);
     }
