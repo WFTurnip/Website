@@ -101,14 +101,14 @@ async function generateVowelFigure() {
     svg.appendChild(polyline);
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowel = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowelsArray[i];
-        text.classList.add("zosokw");
-        svg.appendChild(text);
+        vowel.setAttribute("x", x);
+        vowel.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.classList.add("zosokw");
+        svg.appendChild(vowel);
     }
 
     for (let i = 0; i < apex; i++) {
@@ -299,14 +299,14 @@ async function generateFirstCaseFigure() {
     svg.appendChild(polyline);
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowel = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowelsArray[i];
-        text.classList.add("zosokw");
-        svg.appendChild(text);
+        vowel.setAttribute("x", x);
+        vowel.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.classList.add("zosokw");
+        svg.appendChild(vowel);
     }
 
     for (let i = 0; i < apex; i++) {
@@ -373,14 +373,14 @@ async function generateSecondCaseFigure() {
     svg.appendChild(polyline);
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowel = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowelsArray[i];
-        text.classList.add("zosokw");
-        svg.appendChild(text);
+        vowel.setAttribute("x", x);
+        vowel.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.classList.add("zosokw");
+        svg.appendChild(vowel);
     }
 
     for (let i = 0; i < apex; i++) {
@@ -545,14 +545,14 @@ async function generatePrefixCaseFigure() {
     svg.appendChild(polyline);
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowel = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowelsArray[i];
-        text.classList.add("zosokw");
-        svg.appendChild(text);
+        vowel.setAttribute("x", x);
+        vowel.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.classList.add("zosokw");
+        svg.appendChild(vowel);
     }
 
     for (let i = 0; i < apex; i++) {
@@ -619,14 +619,14 @@ async function generateSuffixCaseFigure() {
     svg.appendChild(polyline);
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowel = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowelsArray[i];
-        text.classList.add("zosokw");
-        svg.appendChild(text);
+        vowel.setAttribute("x", x);
+        vowel.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.classList.add("zosokw");
+        svg.appendChild(vowel);
     }
 
     for (let i = 0; i < apex; i++) {
@@ -693,14 +693,14 @@ async function generatePartOfSpeechFigure() {
     svg.appendChild(polyline);
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowel = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "\u{25cc}" + vowelsArray[i];
-        text.classList.add("zosokw");
-        svg.appendChild(text);
+        vowel.setAttribute("x", x);
+        vowel.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.classList.add("zosokw");
+        svg.appendChild(vowel);
     }
 
     for (let i = 0; i < apex; i++) {
