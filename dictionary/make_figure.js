@@ -221,7 +221,7 @@ async function generateConsonantMeaningFigure() {
     let width = 256;
     let height = 256;
 
-    let apex = 8;
+    let apex = 6;
 
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
