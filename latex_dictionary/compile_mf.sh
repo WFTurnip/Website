@@ -61,21 +61,21 @@ case "$output" in
         echo "解像度${density}で出力します。"
         for ps in *ps; do
             pstoimg -density $density -type png -multipage "$ps"
-    done
-    echo "画像出力完了。"
-    touch *png
-    echo "生成ファイル一覧"
-    ls *png 2>/dev/null || echo "生成ファイルなし。"
-    echo "画像を開きますか？"
-    echo "yes / no"
-    read check
-    if [ "$check" = "yes" ]; then
-        open *png
-        echo "画像を開きました。"
-    elif [ "$check" = "no" ]; then
-        echo "画像を開きません。"
-    fi
-    ;;
+        done
+        echo "画像出力完了。"
+        touch *png
+        echo "生成ファイル一覧"
+        ls *png 2>/dev/null || echo "生成ファイルなし。"
+        echo "画像を開きますか？"
+        echo "yes / no"
+        read check
+        if [ "$check" = "yes" ]; then
+            open *png
+            echo "画像を開きました。"
+        elif [ "$check" = "no" ]; then
+            echo "画像を開きません。"
+        fi
+        ;;
     gif)
         echo "出力画像の解像度を数字で入力してください。"
         read density
@@ -83,43 +83,43 @@ case "$output" in
         for ps in *ps; do
             pstoimg -density $density -type gif -multipage "$ps"
         done
-    echo "画像出力完了。"
-    touch *gif
-    echo "生成ファイル一覧"
-    ls *gif 2>/dev/null || echo "生成ファイルなし。"
+        echo "画像出力完了。"
+        touch *gif
+        echo "生成ファイル一覧"
+        ls *gif 2>/dev/null || echo "生成ファイルなし。"
         echo "画像を開きますか？"
-    echo "yes / no"
-    read check
-    if [ "$check" = "yes" ]; then
-        open *gif
-        echo "画像を開きました。"
-    elif [ "$check" = "no" ]; then
-        echo "画像を開きません。"
-    fi
-    ;;
+        echo "yes / no"
+        read check
+        if [ "$check" = "yes" ]; then
+            open *gif
+            echo "画像を開きました。"
+        elif [ "$check" = "no" ]; then
+            echo "画像を開きません。"
+        fi
+        ;;
     pdf)
-    echo "画像出力します。"
+        echo "画像出力します。"
         for ps in *ps; do
             ps2pdf "$ps"
         done
-    echo "画像出力完了。"
-    touch *pdf
-    echo "生成ファイル一覧"
-    ls *pdf 2>/dev/null || echo "生成ファイルなし。"
-    echo "画像を開きますか？"
-    echo "yes / no"
-    read check
-    if [ "$check" = "yes" ]; then
-        open *pdf
-        echo "画像を開きました。"
-    elif [ "$check" = "no" ]; then
-        echo "画像を開きません。"
-    fi
+        echo "画像出力完了。"
+        touch *pdf
+        echo "生成ファイル一覧"
+        ls *pdf 2>/dev/null || echo "生成ファイルなし。"
+        echo "画像を開きますか？"
+        echo "yes / no"
+        read check
+        if [ "$check" = "yes" ]; then
+            open *pdf
+            echo "画像を開きました。"
+        elif [ "$check" = "no" ]; then
+            echo "画像を開きません。"
+        fi
         ;;
     *)
-    echo "無効な出力方式です。終了します。"
-    exit 1
-    ;;
+        echo "無効な出力方式です。終了します。"
+        exit 1
+        ;;
 esac
 
 echo "コンパイル処理完了。"
