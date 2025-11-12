@@ -52,11 +52,11 @@ async function generateIndex() {
     let headerA1 = document.createElement("a");
     headerA1.href = "../dictionary.html";
     headerA1.textContent = "表紙";
-    headerLi1.appendchild(headerA1);
-    headerOl.appendchild(headerLi1);
+    headerLi1.appendChild(headerA1);
+    headerOl.appendChild(headerLi1);
     let headerLi2 = document.createElement("li");
     headerLi2.textContent = "子音一覧";
-    headerOl.appendchild(headerLi2);
+    headerOl.appendChild(headerLi2);
     headerNav.appendChild(headerOl);
     header.appendChild(headerNav);
     body.appendChild(header);
@@ -433,7 +433,7 @@ async function generateRoot(i, j, k) {
     body.appendChild(main);
 
     let footer = document.createElement("footer");
-    let footerNav = document.createelement("nav");
+    let footerNav = document.createElement("nav");
     let footerOl = document.createElement("ol");
     let footerLi1 = document.createElement("li");
     let footerA1 = document.createElement("a");
