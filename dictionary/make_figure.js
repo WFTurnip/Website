@@ -753,10 +753,10 @@ async function generateArticleConjugationFigure() {
     let centerY = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
+    rect.setAttribute("x", width / 4);
+    rect.setAttribute("y", height / 4);
+    rect.setAttribute("width", centerX);
+    rect.setAttribute("height", centerY);
     svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
@@ -798,10 +798,10 @@ async function generateVerbConjugationFigure() {
     let centerY = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
+    rect.setAttribute("x", width / 4);
+    rect.setAttribute("y", height / 4);
+    rect.setAttribute("width", centerX);
+    rect.setAttribute("height", centerY);
     svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
@@ -843,10 +843,10 @@ async function generateAdjectiveConjugationFigure() {
     let centerY = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
+    rect.setAttribute("x", width / 4);
+    rect.setAttribute("y", height / 4);
+    rect.setAttribute("width", centerX);
+    rect.setAttribute("height", centerY);
     svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
@@ -888,10 +888,10 @@ async function generateParticleConjugationFigure() {
     let centerY = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
+    rect.setAttribute("x", width / 4);
+    rect.setAttribute("y", height / 4);
+    rect.setAttribute("width", centerX);
+    rect.setAttribute("height", centerY);
     svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
@@ -933,10 +933,10 @@ async function generateAdverbConjugationFigure() {
     let centerY = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
+    rect.setAttribute("x", width / 4);
+    rect.setAttribute("y", height / 4);
+    rect.setAttribute("width", centerX);
+    rect.setAttribute("height", centerY);
     svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
@@ -978,10 +978,10 @@ async function generateNounConjugationFigure() {
     let centerY = height / 2;
 
     let rect = document.createElementNS(svgns, "rect");
-    rect.setAttribute("x", 25);
-    rect.setAttribute("y", 25);
-    rect.setAttribute("width", 50);
-    rect.setAttribute("height", 50);
+    rect.setAttribute("x", width / 4);
+    rect.setAttribute("y", height / 4);
+    rect.setAttribute("width", centerX);
+    rect.setAttribute("height", centerY);
     svg.appendChild(rect);
 
     let serializer = new dom.window.XMLSerializer();
