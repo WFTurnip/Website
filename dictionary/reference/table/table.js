@@ -54,7 +54,7 @@ function generateConsonantTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = "/" + consonantsPronunciationArray[i] + "/";
+        p2.textContent = "[" + consonantsPronunciationArray[i] + "]";
         p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr3.appendChild(td);
@@ -71,7 +71,7 @@ function generateConsonantTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = "/" + consonantsPronunciationArray[i] + "/";
+        p2.textContent = "[" + consonantsPronunciationArray[i] + "]";
         p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr4.appendChild(td);
@@ -88,7 +88,7 @@ function generateConsonantTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = "/" + consonantsPronunciationArray[i] + "/";
+        p2.textContent = "[" + consonantsPronunciationArray[i] + "]";
         p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr5.appendChild(td);
@@ -133,7 +133,7 @@ function generateVowelTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = "/" + vowelsPronunciationArray[i] + "/";
+        p2.textContent = "[" + vowelsPronunciationArray[i] + "]";
         p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr2.appendChild(td);
@@ -150,7 +150,7 @@ function generateVowelTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = "/" + vowelsPronunciationArray[i] + "/";
+        p2.textContent = "[" + vowelsPronunciationArray[i] + "]";
         p2.classList.add("pronunciation");
         td.appendChild(p2);
         tr3.appendChild(td);

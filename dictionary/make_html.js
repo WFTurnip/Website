@@ -401,11 +401,11 @@ async function generateRoot(i, j, k) {
                 let wordPronunciation = document.createElement("span");
                 wordPronunciation.classList.add("pronunciation");
                 wordPronunciation.textContent =
-                    "/" +
+                    "[" +
                     consonantsPronunciationArray[i] + vowelsPronunciationArray[m] +
                     consonantsPronunciationArray[j] + vowelsPronunciationArray[n] +
                     consonantsPronunciationArray[k] + vowelsPronunciationArray[l] +
-                    "/";
+                    "]";
                 dt.appendChild(wordPronunciation);
 
                 let wordCases = document.createElement("span");

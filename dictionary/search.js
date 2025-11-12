@@ -177,7 +177,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             wordIndex.append(index);
 
             const pronunciation = document.createElement("span");
-            pronunciation.textContent = "/" + item.wordPronunciation + "/";
+            pronunciation.textContent = "[" + item.wordPronunciation + "]";
             pronunciation.classList.add("pronunciation");
             wordIndex.append(pronunciation);
 
