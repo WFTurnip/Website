@@ -84,9 +84,9 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
             consonant.classList.add("zosokw");
             consonantIndex.append(consonant);
 
-            const consonantMeaning = document.createElement("span");
-            consonantMeaning.textContent = item.consonantMeaning;
-            consonantIndex.append(consonantMeaning);
+            const consonantConcept = document.createElement("span");
+            consonantConcept.textContent = item.consonantConcept;
+            consonantIndex.append(consonantConcept);
             details.appendChild(consonantIndex);
 
             const p2 = document.createElement("p");
@@ -129,9 +129,9 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             root.textContent = item.root;
             root.classList.add("zosokw");
             rootIndex.append(root);
-            const rootMeaning = document.createElement("span");
-            rootMeaning.textContent = item.rootMeaning;
-            rootIndex.appendChild(rootMeaning);
+            const rootConcept = document.createElement("span");
+            rootConcept.textContent = item.rootConcept;
+            rootIndex.appendChild(rootConcept);
             details.appendChild(rootIndex);
 
             const rootHref = document.createElement("p");

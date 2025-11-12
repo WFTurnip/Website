@@ -4,7 +4,7 @@ const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsMeansArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowelsArray = ["a", "e", "i", "o", "u", "w"];
@@ -93,7 +93,7 @@ async function generateIndex() {
         dl.appendChild(dt);
 
         let dd = document.createElement("dd");
-        dd.textContent = consonantsMeansArray[i];
+        dd.textContent = consonantsConceptArray[i];
         dl.appendChild(dd);
 
         main.appendChild(dl);
@@ -225,7 +225,7 @@ async function generateConsonant(i) {
             dl.appendChild(dt);
 
             let dd = document.createElement("dd");
-            dd.textContent = consonantsMeansArray[i] + consonantsMeansArray[j] + consonantsMeansArray[k];
+            dd.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
             dl.appendChild(dd);
 
             main.appendChild(dl);

@@ -1,5 +1,5 @@
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsMeansArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowels = ["a", "e", "i", "o", "u", "w"];
@@ -209,7 +209,7 @@ function generateConsonantMeansTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = consonantsMeansArray[i];
+        p2.textContent = consonantsConceptArray[i];
         p2.classList.add("root");
         td.appendChild(p2);
         tr3.appendChild(td);
@@ -226,7 +226,7 @@ function generateConsonantMeansTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = consonantsMeansArray[i];
+        p2.textContent = consonantsConceptArray[i];
         p2.classList.add("root");
         td.appendChild(p2);
         tr4.appendChild(td);
@@ -243,7 +243,7 @@ function generateConsonantMeansTable() {
         p.classList.add("zosokw");
         td.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = consonantsMeansArray[i];
+        p2.textContent = consonantsConceptArray[i];
         p2.classList.add("root");
         td.appendChild(p2);
         tr5.appendChild(td);
@@ -412,7 +412,7 @@ function generateConjunctCaseTable() {
     let tr2 = document.createElement("tr");
     vowels.forEach((vowel, i) => {
         let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}" + vowel+"\u{25CC}"+"\u{25CC}", "zosokw"));
+        th.appendChild(createParagraph("\u{25CC}" + vowel + "\u{25CC}" + "\u{25CC}", "zosokw"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr2.appendChild(th);
     });
@@ -431,7 +431,7 @@ function generateConjunctCaseTable() {
     vowels.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}"+"\u{25CC}" + vowel1+"\u{25CC}", "zosokw"));
+        th.appendChild(createParagraph("\u{25CC}" + "\u{25CC}" + vowel1 + "\u{25CC}", "zosokw"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr.appendChild(th);
 

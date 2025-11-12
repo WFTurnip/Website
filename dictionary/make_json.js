@@ -3,7 +3,7 @@ const path = require("path");
 const beautify = require("json-beautify");
 
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsMeansArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowelsArray = ["a", "e", "i", "o", "u", "w"];
@@ -16,10 +16,10 @@ async function generateIndex() {
     let consonants = [];
     for (let i = 0; i < consonantsArray.length; i++) {
         let consonant = consonantsArray[i];
-        let consonantMeaning = consonantsMeansArray[i];
+        let consonantConcept = consonantsConceptArray[i];
         consonants.push({
             consonant: consonant,
-            consonantMeaning: consonantMeaning,
+            consonantConcept: consonantConcept,
             consonantHtmlHref: consonant + ".html",
         });
     }
@@ -39,11 +39,11 @@ async function generateConsonant(i) {
     for (let j = 0; j < consonantsArray.length; j++) {
         for (let k = 0; k < consonantsArray.length; k++) {
             let root = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-            let rootMeaning = consonantsMeansArray[i] + consonantsMeansArray[j] + consonantsMeansArray[k];
+            let rootConcept = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
             let rootHtmlHref = consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html";
             roots.push({
                 root: root,
-                rootMeaning: rootMeaning,
+                rootConcept: rootConcept,
                 rootHtmlHref: rootHtmlHref,
             });
         }
@@ -85,7 +85,7 @@ async function generateRoot(i, j, k) {
                     wordPartOfSpeech: wordPartOfSpeech,
                     wordCases: wordCases,
                     wordHtmlHref: wordHtmlHref,
-                    word_meaning: ""
+                    WordMeaning: ""
                 });
             }
         }

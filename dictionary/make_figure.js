@@ -4,7 +4,7 @@ const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsMeansArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowelsArray = ["a", "o", "u", "w", "i", "e"];
@@ -211,8 +211,8 @@ async function generateLtrFigure() {
     }
 }
 
-async function generateConsonantMeaningFigure() {
-    let filename = path.join("reference/", "figure/", "consonant_meaning_figure.svg");
+async function generateConsonantConceptFigure() {
+    let filename = path.join("reference/", "figure/", "consonant_Concept_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
@@ -432,14 +432,14 @@ async function generateConjunctCaseFigure() {
     let centerY = height / 2;
 
     for (let i = 0; i <= apex; i++) {
-        let firstCaseApexX = centerX + (width / 3) * Math.sin(i * Math.PI / 3);
-        let firstCaseApexY = centerY + (height / 3) * Math.cos(i * Math.PI / 3);
+        let firstCaseCoodinateX = centerX + (width / 3) * Math.sin(i * Math.PI / 3);
+        let firstCaseCoodinateY = centerY + (height / 3) * Math.cos(i * Math.PI / 3);
         let polyline = document.createElementNS(svgns, "polyline");
         let coodinate = "";
         for (let j = 0; j <= apex; j++) {
-            let conjunctCaseApexX = firstCaseApexX + (width / 6) * Math.sin(j * Math.PI / 3);
-            let conjunctCaseApexY = firstCaseApexY + (height / 6) * Math.cos(j * Math.PI / 3);
-            coodinate += conjunctCaseApexX + "," + conjunctCaseApexY + "";
+            let conjunctCaseCoodinateX = firstCaseCoodinateX + (width / 6) * Math.sin(j * Math.PI / 3);
+            let conjunctCaseCoodinateY = firstCaseCoodinateY + (height / 6) * Math.cos(j * Math.PI / 3);
+            coodinate += conjunctCaseCoodinateX + "," + conjunctCaseCoodinateY + "";
             if (j <= apex - 1) {
                 coodinate += " ";
             }
@@ -451,44 +451,35 @@ async function generateConjunctCaseFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let firstCaseText = document.createElementNS(svgns, "text");
-        let firstCaseApexX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
-        let firstCaseApexY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
-        firstCaseText.setAttribute("x", firstCaseApexX);
-        firstCaseText.setAttribute("y", firstCaseApexY);
-        firstCaseText.textContent = "\u{25cc}" + vowelsArray[i];
-        firstCaseText.classList.add("zosokw");
-        svg.appendChild(firstCaseText);
+        let firstCaseVowel = document.createElementNS(svgns, "text");
+        let firstCase = document.createElementNS(svgns, "text");
+        let firstCaseCoodinateX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
+        let firstCaseCoodinateY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
+        firstCaseVowel.setAttribute("x", firstCaseCoodinateX);
+        firstCaseVowel.setAttribute("y", firstCaseCoodinateY);
+        firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i];
+        firstCaseVowel.classList.add("zosokw");
+        firstCase.setAttribute("x", firstCaseCoodinateX);
+        firstCase.setAttribute("y", firstCaseCoodinateY);
+        firstCase.textContent = vowelsCasesArray[i] + "格";
+        firstCase.classList.add("cases");
+        svg.appendChild(firstCaseVowel);
+        svg.appendChild(firstCase);
         for (let j = 0; j < apex; j++) {
-            let conjunctCaseText = document.createElementNS(svgns, "text");
-            let conjunctCaseApexX = firstCaseApexX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
-            let conjunctCaseApexY = firstCaseApexY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
-            conjunctCaseText.setAttribute("x", conjunctCaseApexX);
-            conjunctCaseText.setAttribute("y", conjunctCaseApexY);
-            conjunctCaseText.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
-            conjunctCaseText.classList.add("zosokw");
-            svg.appendChild(conjunctCaseText);
-        }
-    }
-
-    for (let i = 0; i < apex; i++) {
-        let firstCaseText = document.createElementNS(svgns, "text");
-        let firstCaseApexX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
-        let firstCaseApexY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
-        firstCaseText.setAttribute("x", firstCaseApexX);
-        firstCaseText.setAttribute("y", firstCaseApexY);
-        firstCaseText.textContent = vowelsCasesArray[i] + "格";
-        firstCaseText.classList.add("cases");
-        svg.appendChild(firstCaseText);
-        for (let j = 0; j < apex; j++) {
-            let conjunctCaseText = document.createElementNS(svgns, "text");
-            let conjunctCaseApexX = firstCaseApexX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
-            let conjunctCaseApexY = firstCaseApexY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
-            conjunctCaseText.setAttribute("x", conjunctCaseApexX);
-            conjunctCaseText.setAttribute("y", conjunctCaseApexY);
-            conjunctCaseText.textContent = vowelsCasesArray[i] + vowelsCasesArray[j] + "格";
-            conjunctCaseText.classList.add("cases");
-            svg.appendChild(conjunctCaseText);
+            let conjunctCaseVowels = document.createElementNS(svgns, "text");
+            let conjunctCase = document.createElementNS(svgns, "text");
+            let conjunctCaseCoodinateX = firstCaseCoodinateX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
+            let conjunctCaseCoodinateY = firstCaseCoodinateY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
+            conjunctCaseVowels.setAttribute("x", conjunctCaseCoodinateX);
+            conjunctCaseVowels.setAttribute("y", conjunctCaseCoodinateY);
+            conjunctCaseVowels.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
+            conjunctCaseVowels.classList.add("zosokw");
+            conjunctCase.setAttribute("x", conjunctCaseCoodinateX);
+            conjunctCase.setAttribute("y", conjunctCaseCoodinateY);
+            conjunctCase.textContent = vowelsCasesArray[i] + vowelsCasesArray[j] + "格";
+            conjunctCase.classList.add("cases");
+            svg.appendChild(conjunctCaseVowels);
+            svg.appendChild(conjunctCase);
         }
     }
 
@@ -1015,7 +1006,7 @@ async function make() {
     generateVowelFigure();
     generateRtlFigure();
     generateLtrFigure();
-    generateConsonantMeaningFigure();
+    generateConsonantConceptFigure();
     generateFirstCaseFigure();
     generateSecondCaseFigure();
     generateConjunctCaseFigure();
