@@ -1,97 +1,97 @@
-silwki/uni0021.svg
-silwki/uni0022.svg
-silwki/uni0023.svg
-silwki/uni0024.svg
-silwki/uni0025.svg
-silwki/uni0026.svg
-silwki/uni0027.svg
-silwki/uni0028.svg
-silwki/uni0029.svg
-silwki/uni002a.svg
-silwki/uni002b.svg
-silwki/uni002c.svg
-silwki/uni002d.svg
-silwki/uni002e.svg
-silwki/uni002f.svg
-silwki/uni0030.svg
-silwki/uni0031.svg
-silwki/uni0032.svg
-silwki/uni0033.svg
-silwki/uni0034.svg
-silwki/uni0035.svg
-silwki/uni0036.svg
-silwki/uni0037.svg
-silwki/uni0038.svg
-silwki/uni0039.svg
-silwki/uni003a.svg
-silwki/uni003b.svg
-silwki/uni003c.svg
-silwki/uni003d.svg
-silwki/uni003e.svg
-silwki/uni003f.svg
-silwki/uni0040.svg
-silwki/uni0041.svg
-silwki/uni0042.svg
-silwki/uni0043.svg
-silwki/uni0044.svg
-silwki/uni0045.svg
-silwki/uni0046.svg
-silwki/uni0047.svg
-silwki/uni0048.svg
-silwki/uni0049.svg
-silwki/uni004a.svg
-silwki/uni004b.svg
-silwki/uni004c.svg
-silwki/uni004d.svg
-silwki/uni004e.svg
-silwki/uni004f.svg
-silwki/uni0050.svg
-silwki/uni0051.svg
-silwki/uni0052.svg
-silwki/uni0053.svg
-silwki/uni0054.svg
-silwki/uni0055.svg
-silwki/uni0056.svg
-silwki/uni0057.svg
-silwki/uni0058.svg
-silwki/uni0059.svg
-silwki/uni005a.svg
-silwki/uni005b.svg
-silwki/uni005c.svg
-silwki/uni005d.svg
-silwki/uni005e.svg
-silwki/uni005f.svg
-silwki/uni0060.svg
-silwki/uni0061.svg
-silwki/uni0062.svg
-silwki/uni0063.svg
-silwki/uni0064.svg
-silwki/uni0065.svg
-silwki/uni0066.svg
-silwki/uni0067.svg
-silwki/uni0068.svg
-silwki/uni0069.svg
-silwki/uni006a.svg
-silwki/uni006b.svg
-silwki/uni006c.svg
-silwki/uni006d.svg
-silwki/uni006e.svg
-silwki/uni006f.svg
-silwki/uni0070.svg
-silwki/uni0071.svg
-silwki/uni0072.svg
-silwki/uni0073.svg
-silwki/uni0074.svg
-silwki/uni0075.svg
-silwki/uni0076.svg
-silwki/uni0077.svg
-silwki/uni0078.svg
-silwki/uni0079.svg
-silwki/uni007a.svg
-silwki/uni007b.svg
-silwki/uni007c.svg
-silwki/uni007d.svg
-silwki/uni007e.svg
-silwki/uni00b4.svg
-silwki/uni00b6.svg
-silwki/uni25cc.svg
+cp silwki/uni0021.svg kodito/uni0021.svg
+cp silwki/uni0022.svg kodito/uni0022.svg
+cp silwki/uni0023.svg kodito/uni0023.svg
+cp silwki/uni0024.svg kodito/uni0024.svg
+cp silwki/uni0025.svg kodito/uni0025.svg
+cp silwki/uni0026.svg kodito/uni0026.svg
+cp silwki/uni0027.svg kodito/uni0027.svg
+cp silwki/uni0028.svg kodito/uni0028.svg
+cp silwki/uni0029.svg kodito/uni0029.svg
+cp silwki/uni002a.svg kodito/uni002a.svg
+cp silwki/uni002b.svg kodito/uni002b.svg
+cp silwki/uni002c.svg kodito/uni002c.svg
+cp silwki/uni002d.svg kodito/uni002d.svg
+cp silwki/uni002e.svg kodito/uni002e.svg
+cp silwki/uni002f.svg kodito/uni002f.svg
+cp silwki/uni0030.svg kodito/uni0030.svg
+cp silwki/uni0031.svg kodito/uni0031.svg
+cp silwki/uni0032.svg kodito/uni0032.svg
+cp silwki/uni0033.svg kodito/uni0033.svg
+cp silwki/uni0034.svg kodito/uni0034.svg
+cp silwki/uni0035.svg kodito/uni0035.svg
+cp silwki/uni0036.svg kodito/uni0036.svg
+cp silwki/uni0037.svg kodito/uni0037.svg
+cp silwki/uni0038.svg kodito/uni0038.svg
+cp silwki/uni0039.svg kodito/uni0039.svg
+cp silwki/uni003a.svg kodito/uni003a.svg
+cp silwki/uni003b.svg kodito/uni003b.svg
+cp silwki/uni003c.svg kodito/uni003c.svg
+cp silwki/uni003d.svg kodito/uni003d.svg
+cp silwki/uni003e.svg kodito/uni003e.svg
+cp silwki/uni003f.svg kodito/uni003f.svg
+cp silwki/uni0040.svg kodito/uni0040.svg
+cp silwki/uni0041.svg kodito/uni0041.svg
+cp silwki/uni0042.svg kodito/uni0042.svg
+cp silwki/uni0043.svg kodito/uni0043.svg
+cp silwki/uni0044.svg kodito/uni0044.svg
+cp silwki/uni0045.svg kodito/uni0045.svg
+cp silwki/uni0046.svg kodito/uni0046.svg
+cp silwki/uni0047.svg kodito/uni0047.svg
+cp silwki/uni0048.svg kodito/uni0048.svg
+cp silwki/uni0049.svg kodito/uni0049.svg
+cp silwki/uni004a.svg kodito/uni004a.svg
+cp silwki/uni004b.svg kodito/uni004b.svg
+cp silwki/uni004c.svg kodito/uni004c.svg
+cp silwki/uni004d.svg kodito/uni004d.svg
+cp silwki/uni004e.svg kodito/uni004e.svg
+cp silwki/uni004f.svg kodito/uni004f.svg
+cp silwki/uni0050.svg kodito/uni0050.svg
+cp silwki/uni0051.svg kodito/uni0051.svg
+cp silwki/uni0052.svg kodito/uni0052.svg
+cp silwki/uni0053.svg kodito/uni0053.svg
+cp silwki/uni0054.svg kodito/uni0054.svg
+cp silwki/uni0055.svg kodito/uni0055.svg
+cp silwki/uni0056.svg kodito/uni0056.svg
+cp silwki/uni0057.svg kodito/uni0057.svg
+cp silwki/uni0058.svg kodito/uni0058.svg
+cp silwki/uni0059.svg kodito/uni0059.svg
+cp silwki/uni005a.svg kodito/uni005a.svg
+cp silwki/uni005b.svg kodito/uni005b.svg
+cp silwki/uni005c.svg kodito/uni005c.svg
+cp silwki/uni005d.svg kodito/uni005d.svg
+cp silwki/uni005e.svg kodito/uni005e.svg
+cp silwki/uni005f.svg kodito/uni005f.svg
+cp silwki/uni0060.svg kodito/uni0060.svg
+cp silwki/uni0061.svg kodito/uni0061.svg
+cp silwki/uni0062.svg kodito/uni0062.svg
+cp silwki/uni0063.svg kodito/uni0063.svg
+cp silwki/uni0064.svg kodito/uni0064.svg
+cp silwki/uni0065.svg kodito/uni0065.svg
+cp silwki/uni0066.svg kodito/uni0066.svg
+cp silwki/uni0067.svg kodito/uni0067.svg
+cp silwki/uni0068.svg kodito/uni0068.svg
+cp silwki/uni0069.svg kodito/uni0069.svg
+cp silwki/uni006a.svg kodito/uni006a.svg
+cp silwki/uni006b.svg kodito/uni006b.svg
+cp silwki/uni006c.svg kodito/uni006c.svg
+cp silwki/uni006d.svg kodito/uni006d.svg
+cp silwki/uni006e.svg kodito/uni006e.svg
+cp silwki/uni006f.svg kodito/uni006f.svg
+cp silwki/uni0070.svg kodito/uni0070.svg
+cp silwki/uni0071.svg kodito/uni0071.svg
+cp silwki/uni0072.svg kodito/uni0072.svg
+cp silwki/uni0073.svg kodito/uni0073.svg
+cp silwki/uni0074.svg kodito/uni0074.svg
+cp silwki/uni0075.svg kodito/uni0075.svg
+cp silwki/uni0076.svg kodito/uni0076.svg
+cp silwki/uni0077.svg kodito/uni0077.svg
+cp silwki/uni0078.svg kodito/uni0078.svg
+cp silwki/uni0079.svg kodito/uni0079.svg
+cp silwki/uni007a.svg kodito/uni007a.svg
+cp silwki/uni007b.svg kodito/uni007b.svg
+cp silwki/uni007c.svg kodito/uni007c.svg
+cp silwki/uni007d.svg kodito/uni007d.svg
+cp silwki/uni007e.svg kodito/uni007e.svg
+cp silwki/uni00b4.svg kodito/uni00b4.svg
+cp silwki/uni00b6.svg kodito/uni00b6.svg
+cp silwki/uni25cc.svg kodito/uni25cc.svg
