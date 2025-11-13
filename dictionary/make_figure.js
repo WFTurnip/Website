@@ -1002,23 +1002,23 @@ async function make() {
     } catch (error) {
         console.log("ディレクトリ" + directory + "を作成できませんでした。");
     }
-    generateConsonantFigure();
-    generateVowelFigure();
-    generateRtlFigure();
-    generateLtrFigure();
-    generateConsonantConceptFigure();
-    generateFirstCaseFigure();
-    generateSecondCaseFigure();
-    generateConjunctCaseFigure();
-    generatePrefixCaseFigure();
-    generateSuffixCaseFigure();
-    generatePartOfSpeechFigure();
-    generateArticleConjugationFigure();
-    generateVerbConjugationFigure();
-    generateAdjectiveConjugationFigure();
-    generateParticleConjugationFigure();
-    generateAdverbConjugationFigure();
-    generateNounConjugationFigure();
+    await generateConsonantFigure();
+    await generateVowelFigure();
+    await generateRtlFigure();
+    await generateLtrFigure();
+    await generateConsonantConceptFigure();
+    await generateFirstCaseFigure();
+    await generateSecondCaseFigure();
+    await generateConjunctCaseFigure();
+    await generatePrefixCaseFigure();
+    await generateSuffixCaseFigure();
+    await generatePartOfSpeechFigure();
+    await generateArticleConjugationFigure();
+    await generateVerbConjugationFigure();
+    await generateAdjectiveConjugationFigure();
+    await generateParticleConjugationFigure();
+    await generateAdverbConjugationFigure();
+    await generateNounConjugationFigure();
     console.log("ディレクトリ" + directory + "の内部データを生成完了");
 }
 
