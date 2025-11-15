@@ -1,6 +1,6 @@
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const consonantsPronunciationHorizontalArray = ["喉音", "舌先音", "唇音"];
 const consonantsPronunciationVerticalArray = ["上舌音", "中舌音", "下唇音"];
@@ -8,7 +8,7 @@ const consonantsPronunciationVerticalArray = ["上舌音", "中舌音", "下唇�
 const vowels = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
-const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "∅"];
+const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
 
 function generateConsonantTable() {
     let table = document.createElement("table");

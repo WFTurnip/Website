@@ -5,12 +5,12 @@ const beautify = require("js-beautify").html;
 
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "ʔ", "ʕ", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const vowelsArray = ["a", "o", "u", "w", "i", "e"];
 const vowelsCasesArray = ["否", "対", "主", "流", "属", "与",];
 const vowelsPartOfSpeechTypesArray = ["附", "助", "副", "名", "容", "動",];
-const vowelsPronunciationArray = ["a", "o", "u", "∅", "i", "e"];
+const vowelsPronunciationArray = ["a", "o", "u", "\u{2205}", "i", "e"];
 
 async function generateConsonantFigure() {
     let filename = path.join("reference/", "figure/", "consonant_figure.svg");
