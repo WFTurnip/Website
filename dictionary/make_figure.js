@@ -112,14 +112,14 @@ async function generateVowelFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowelPronunciation = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = "[" + vowelsPronunciationArray[i] + "]";
-        text.classList.add("pronunciation");
-        svg.appendChild(text);
+        vowelPronunciation.setAttribute("x", x);
+        vowelPronunciation.setAttribute("y", y);
+        vowelPronunciation.textContent = "[" + vowelsPronunciationArray[i] + "]";
+        vowelPronunciation.classList.add("pronunciation");
+        svg.appendChild(vowelPronunciation);
     }
 
     let serializer = new dom.window.XMLSerializer();
@@ -310,14 +310,14 @@ async function generateFirstCaseFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = vowelsCasesArray[i] + "格";
-        text.classList.add("cases");
-        svg.appendChild(text);
+        vowelCase.setAttribute("x", x);
+        vowelCase.setAttribute("y", y);
+        vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowelCase.classList.add("cases");
+        svg.appendChild(vowelCase);
     }
 
     let serializer = new dom.window.XMLSerializer();
@@ -384,14 +384,14 @@ async function generateSecondCaseFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = vowelsCasesArray[i] + "格";
-        text.classList.add("cases");
-        svg.appendChild(text);
+        vowelCase.setAttribute("x", x);
+        vowelCase.setAttribute("y", y);
+        vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowelCase.classList.add("cases");
+        svg.appendChild(vowelCase);
     }
 
     let serializer = new dom.window.XMLSerializer();
@@ -547,14 +547,14 @@ async function generatePrefixCaseFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = vowelsCasesArray[i] + "格";
-        text.classList.add("cases");
-        svg.appendChild(text);
+        vowelCase.setAttribute("x", x);
+        vowelCase.setAttribute("y", y);
+        vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowelCase.classList.add("cases");
+        svg.appendChild(vowelCase);
     }
 
     let serializer = new dom.window.XMLSerializer();
@@ -621,14 +621,14 @@ async function generateSuffixCaseFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = vowelsCasesArray[i] + "格";
-        text.classList.add("cases");
-        svg.appendChild(text);
+        vowelCase.setAttribute("x", x);
+        vowelCase.setAttribute("y", y);
+        vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowelCase.classList.add("cases");
+        svg.appendChild(vowelCase);
     }
 
     let serializer = new dom.window.XMLSerializer();
@@ -695,14 +695,14 @@ async function generatePartOfSpeechFigure() {
     }
 
     for (let i = 0; i < apex; i++) {
-        let text = document.createElementNS(svgns, "text");
+        let vowelPartOfSpeech = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        text.setAttribute("x", x);
-        text.setAttribute("y", y);
-        text.textContent = vowelsPartOfSpeechTypesArray[i] + "詞";
-        text.classList.add("part-of-speech");
-        svg.appendChild(text);
+        vowelPartOfSpeech.setAttribute("x", x);
+        vowelPartOfSpeech.setAttribute("y", y);
+        vowelPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i] + "詞";
+        vowelPartOfSpeech.classList.add("part-of-speech");
+        svg.appendChild(vowelPartOfSpeech);
     }
 
     let serializer = new dom.window.XMLSerializer();
