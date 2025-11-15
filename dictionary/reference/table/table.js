@@ -27,7 +27,7 @@ function generateConsonantTable() {
     th.textContent = "";
     th.rowSpan = 2;
     tr.appendChild(th);
-    for (let i = 0; i < 3; i++) {
+    for (let i = 0; i < consonantsPronunciationHorizontalArray.length; i++) {
         let consonantsPronunciationHorizontal = document.createElement("th");
         consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i];
         consonantsPronunciationHorizontal.colSpan = 2;
