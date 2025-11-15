@@ -4,11 +4,17 @@ const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", 
 
 const consonantsPronunciationHorizontalArray = ["喉音", "舌先音", "唇音"];
 const consonantsPronunciationVerticalArray = ["上舌音", "中舌音", "下唇音"];
+const consonantsPronunciationHorizontalClassArray = ["弱震音", "強震音"];
 
 const vowels = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
+
+const vowelsPronunciationHorizontalArray = [""];
+const vowelsPronunciationVerticalArray = [""];
+const vowelsPartOfSpeechTypesHorizontalArray = ["限定", "動作", "状態"];
+const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
 
 function generateConsonantTable() {
     let table = document.createElement("table");
@@ -21,27 +27,20 @@ function generateConsonantTable() {
     th.textContent = "";
     th.rowSpan = 2;
     tr.appendChild(th);
-    let th2 = document.createElement("th");
-    th2.textContent = "喉音";
-    th2.colSpan = 2;
-    tr.appendChild(th2);
-    let th3 = document.createElement("th");
-    th3.textContent = "舌先音";
-    th3.colSpan = 2;
-    tr.appendChild(th3);
-    let th4 = document.createElement("th");
-    th4.textContent = "唇音";
-    th4.colSpan = 2;
-    tr.appendChild(th4);
+    for (let i = 0; i < 3; i++) {
+	let consonantsPronunciationHorizontal = document.createElement("th");
+	consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i];
+	consonantsPronunciationHorizontal.colSpan = 2;
+	tr.appendChild(consonantsPronunciationHorizontal);
+    }
     thead.appendChild(tr);
     let tr2 = document.createElement("tr");
     for (let i = 0; i < 3; i++) {
-        let th = document.createElement("th");
-        th.textContent = "弱震音";
-        tr2.appendChild(th);
-        let th2 = document.createElement("th");
-        th2.textContent = "強震音";
-        tr2.appendChild(th2);
+        for (let j = 0; i < 2; j++) {
+            let th = document.createElement("th");
+            th.textContent = consonantsPronunciationHorizontalClassArray[i];
+            tr2.appendChild(th);
+        }
     }
     thead.appendChild(tr2);
     table.appendChild(thead);
