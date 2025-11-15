@@ -11,8 +11,8 @@ const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
 
-const vowelsPronunciationHorizontalArray = [""];
-const vowelsPronunciationVerticalArray = [""];
+const vowelsPronunciationHorizontalArray = ["広","中","狭"];
+const vowelsPronunciationVerticalArray = ["非",""];
 const vowelsPartOfSpeechTypesHorizontalArray = ["限定", "動作", "状態"];
 const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
 
@@ -22,29 +22,33 @@ function generateConsonantTable() {
     caption.textContent = "子音表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
-    let tr = document.createElement("tr");
-    let th = document.createElement("th");
-    th.textContent = "";
-    th.rowSpan = 2;
-    tr.appendChild(th);
+    let consonantsPronunciationHorizontalRow = document.createElement("tr");
+    let blank = document.createElement("th");
+    blank.textContent = "";
+    blank.rowSpan = 2;
+    consonantsPronunciationHorizontalRow.appendChild(blank);
     for (let i = 0; i < consonantsPronunciationHorizontalArray.length; i++) {
         let consonantsPronunciationHorizontal = document.createElement("th");
         consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i];
         consonantsPronunciationHorizontal.colSpan = 2;
-        tr.appendChild(consonantsPronunciationHorizontal);
+        consonantsPronunciationHorizontalRow.appendChild(consonantsPronunciationHorizontal);
     }
-    thead.appendChild(tr);
-    let tr2 = document.createElement("tr");
+    thead.appendChild(consonantsPronunciationHorizontalRow);
+    let consonantsPronunciationHorizontalClassRow = document.createElement("tr");
     for (let i = 0; i < consonantsPronunciationHorizontalArray.length; i++) {
         for (let j = 0; j < consonantsPronunciationHorizontalClassArray.length; j++) {
             let th = document.createElement("th");
             th.textContent = consonantsPronunciationHorizontalClassArray[j];
-            tr2.appendChild(th);
+            consonantsPronunciationHorizontalClassRow.appendChild(th);
         }
     }
-    thead.appendChild(tr2);
+    thead.appendChild(consonantsPronunciationHorizontalClassRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
+    for (let i = 0; i < consonantsPronunciationVerticalArray.length; i++){
+        for (let j = 0; ){
+        }
+    }
     let tr3 = document.createElement("tr");
     let th5 = document.createElement("th");
     th5.textContent = "上舌音";
