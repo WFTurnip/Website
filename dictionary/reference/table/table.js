@@ -46,60 +46,24 @@ function generateConsonantTable() {
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
     for (let i = 0; i < consonantsPronunciationVerticalArray.length; i++){
-        for (let j = 0; ){
+        let tbodyVerticalRow = document.createElement("tr");
+	let consonantsPronunciationVertical = document.createElement("td");
+	consonantsPronunciationVertical.textContent = consonantsPronunciationVerticalArray[i];
+	tbodyVerticalRow.appendChild(consonantsPronunciationVertical);	
+        for (let j = 0; j < consonantsArray.length / consonantsPronunciationVerticalArray.length; j++){
+	    let consonants = document.createElement("td");
+            let consonantsZosokw = document.createElement("div");
+	    consonantsZosokw.textContent = consonantsArray[i*6+j];
+	    consonantsZosokw.classList.add("zosokw");
+	    consonants.appendChild(consonantsZosokw);
+	    let consonantsPronunciation = document.createElement("div");
+	    consonantsPronunciation.textContent = "[" + consonantsPronunciationArray[i*6+j] + "]";
+	    consonantsPronunciation.classList.add("pronunciation");
+	    consonants.appendChild(consonantsPronunciation);
+	    tbodyVerticalRow.appendChild(consonants);
         }
+	tbody.appendChild(tbodyVerticalRow);
     }
-    let tr3 = document.createElement("tr");
-    let th5 = document.createElement("th");
-    th5.textContent = "上舌音";
-    tr3.appendChild(th5);
-    for (let i = 0; i < 6; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = consonantsArray[i];
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = "[" + consonantsPronunciationArray[i] + "]";
-        p2.classList.add("pronunciation");
-        td.appendChild(p2);
-        tr3.appendChild(td);
-    }
-    tbody.appendChild(tr3);
-    let tr4 = document.createElement("tr");
-    let th6 = document.createElement("th");
-    th6.textContent = "中舌音";
-    tr4.appendChild(th6);
-    for (let i = 6; i < 12; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = consonantsArray[i];
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = "[" + consonantsPronunciationArray[i] + "]";
-        p2.classList.add("pronunciation");
-        td.appendChild(p2);
-        tr4.appendChild(td);
-    }
-    tbody.appendChild(tr4);
-    let tr5 = document.createElement("tr");
-    let th7 = document.createElement("th");
-    th7.textContent = "下唇音";
-    tr5.appendChild(th7);
-    for (let i = 12; i < 18; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = consonantsArray[i];
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = "[" + consonantsPronunciationArray[i] + "]";
-        p2.classList.add("pronunciation");
-        td.appendChild(p2);
-        tr5.appendChild(td);
-    }
-    tbody.appendChild(tr5);
     table.appendChild(tbody);
     document.querySelectorAll(".consonant-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
