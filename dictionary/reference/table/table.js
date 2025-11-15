@@ -28,10 +28,10 @@ function generateConsonantTable() {
     th.rowSpan = 2;
     tr.appendChild(th);
     for (let i = 0; i < 3; i++) {
-	let consonantsPronunciationHorizontal = document.createElement("th");
-	consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i];
-	consonantsPronunciationHorizontal.colSpan = 2;
-	tr.appendChild(consonantsPronunciationHorizontal);
+        let consonantsPronunciationHorizontal = document.createElement("th");
+        consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i];
+        consonantsPronunciationHorizontal.colSpan = 2;
+        tr.appendChild(consonantsPronunciationHorizontal);
     }
     thead.appendChild(tr);
     let tr2 = document.createElement("tr");
