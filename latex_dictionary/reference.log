@@ -1,12 +1,12 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.10.5)  26 OCT 2025 18:00
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.8)  15 NOV 2025 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **reference.tex
 (./reference.tex
 pLaTeX2e <2023-02-14u04>+1, based on
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
 (/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jsbook.cls
 Document Class: jsbook 2025/04/27 jsclasses (okumura, texjporg)
 Class jsbook Info: Autodetected engine: upLaTeX on input line 222.
@@ -77,7 +77,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: tipa 2002/08/08 TIPA version 1.1
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
@@ -108,7 +108,7 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 356.
 ))
-LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on
+LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on 
 input line 336.
 )
 (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/tone.sty
@@ -263,7 +263,7 @@ Package: bxjatoucs 2024/07/22 v0.3a
 )
 LaTeX Encoding Info:    Redeclaring text command \textborn (encoding PU) on inp
 ut line 1461.
-LaTeX Encoding Info:    Redeclaring text command \textfinalsigma (encoding PU)
+LaTeX Encoding Info:    Redeclaring text command \textfinalsigma (encoding PU) 
 on input line 1462.
 LaTeX Encoding Info:    Redeclaring text command \textxgeq (encoding PU) on inp
 ut line 1463.
@@ -313,7 +313,7 @@ Package hyperref Info: Option `colorlinks' set `false' on input line 21.
 
 Writing index file reference.idx
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2025-06-09 L3 backend support: dvips
+File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 \l__pdfannot_backend_content_box=\box71
 \l__pdfannot_backend_model_box=\box72
 \g__pdfannot_backend_int=\count298
@@ -373,14 +373,10 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 4.
 File: emblem.eps Graphic file (type eps)
 <emblem.eps>
+ [1
 
 
-[1
-
-
-])
-
-[2
+]) [2
 
 ]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
@@ -401,14 +397,13 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 2.
 
-
 [1
 
 ])
 \tf@toc=\write5
 \openout5 = `reference.toc'.
 
-[2] (./chapter1.tex
+ [2] (./chapter1.tex
 第1章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
 (Font)              scaled to size 19.17792pt on input line 1.
@@ -427,116 +422,75 @@ LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 1.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 13.31541pt on input line 1.
-) (./section1.2.tex)) (./chapter2.tex
-
-[1
+) (./section1.2.tex)) (./chapter2.tex [1
 
 
-]
-
-[2
+] [2
 
 ]
 第2章
-(./section2.1.tex) (./section2.2.tex)) (./chapter3.tex
-
-[3]
-
-[4
+(./section2.1.tex) (./section2.2.tex)) (./chapter3.tex [3] [4
 
 ]
 第3章
 (./section3.1.tex) (./section3.2.tex) (./section3.3.tex)) (./chapter4.tex
-
-[5]
-
-[6
+[5] [6
 
 ]
 第4章
 (./section4.1.tex) (./section4.2.tex) (./section4.3.tex) (./section4.4.tex))
-(./chapter5.tex
-
-[7]
-
-[8
+(./chapter5.tex [7] [8
 
 ]
 第5章
-(./section5.1.tex) (./section5.2.tex)) (./chapter6.tex
-
-[9]
-
-[10
+(./section5.1.tex) (./section5.2.tex)) (./chapter6.tex [9] [10
 
 ]
 第6章
-(./section6.1.tex)) (./chapter7.tex
-
-[11]
-
-[12
+(./section6.1.tex)) (./chapter7.tex [11] [12
 
 ]
 第7章
 (./section7.1.tex) (./section7.2.tex) (./section7.3.tex) (./section7.4.tex))
-(./chapter8.tex
-
-[13]
-
-[14
+(./chapter8.tex [13] [14
 
 ]
 第8章
 (./section8.1.tex) (./section8.2.tex) (./section8.3.tex)) (./chapter9.tex
-
-[15]
-
-[16
+[15] [16
 
 ]
 第9章
-(./section9.1.tex) (./section9.2.tex)) (./chapter10.tex
-
-[17]
-
-[18
+(./section9.1.tex) (./section9.2.tex)) (./chapter10.tex [17] [18
 
 ]
 第10章
-(./section10.1.tex)) (./chapter11.tex
-
-[19]
-
-[20
+(./section10.1.tex)) (./chapter11.tex [19] [20
 
 ]
 第11章
 (./section11.1.tex) (./section11.2.tex) (./section11.3.tex) (./section11.4.tex)
-(./section11.5.tex) (./section11.6.tex))
+(./section11.5.tex) (./section11.6.tex)) [21] [22
 
-[21]
+] (./reference.ind [23
 
-[22
 
-] (./reference.ind
 
-[23
-
-]) (./reference.aux)
+])
+(./reference.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-10-24>
  ***********
 Package rerunfilecheck Info: File `reference.out' has not changed.
 (rerunfilecheck)             Checksum: BED35005A966A4609CC04D19784EEEFE;4744.
- )
+ ) 
 Here is how much of TeX's memory you used:
- 10675 strings out of 468392
- 162474 string characters out of 5442311
- 577999 words of memory out of 5000000
- 39156 multiletter control sequences out of 15000+600000
+ 10673 strings out of 468182
+ 162435 string characters out of 5434879
+ 581821 words of memory out of 5000000
+ 39364 multiletter control sequences out of 15000+600000
  692357 words of font info for 98 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,9n,79p,257b,649s stack positions out of 10000i,1000n,20000p,200000b,200000s
