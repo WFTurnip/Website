@@ -35,10 +35,10 @@ function generateConsonantTable() {
     }
     thead.appendChild(tr);
     let tr2 = document.createElement("tr");
-    for (let i = 0; i < 3; i++) {
-        for (let j = 0; i < 2; j++) {
+    for (let i = 0; i < consonantsPronunciationHorizontalArray.length; i++) {
+        for (let j = 0; j < consonantsPronunciationHorizontalClassArray.length; j++) {
             let th = document.createElement("th");
-            th.textContent = consonantsPronunciationHorizontalClassArray[i];
+            th.textContent = consonantsPronunciationHorizontalClassArray[j];
             tr2.appendChild(th);
         }
     }
