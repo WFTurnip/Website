@@ -162,7 +162,7 @@ function generateVowelTable() {
     });
 }
 
-function generateConsonantMeansTable() {
+function generateConsonantConceptTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "子音概念表";
@@ -250,7 +250,7 @@ function generateConsonantMeansTable() {
     }
     tbody.appendChild(tr5);
     table.appendChild(tbody);
-    document.querySelectorAll(".consonant-meaning-table").forEach(function (element) {
+    document.querySelectorAll(".consonant-concept-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
@@ -889,7 +889,7 @@ function generateNounConjugationTable() {
 window.onload = function () {
     generateConsonantTable();
     generateVowelTable();
-    generateConsonantMeansTable();
+    generateConsonantConceptTable();
     generateFirstCaseTable();
     generateSecondCaseTable();
     generateConjunctCaseTable();

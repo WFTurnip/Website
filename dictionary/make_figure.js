@@ -212,7 +212,7 @@ async function generateLtrFigure() {
 }
 
 async function generateConsonantConceptFigure() {
-    let filename = path.join("reference/", "figure/", "consonant_Concept_figure.svg");
+    let filename = path.join("reference/", "figure/", "consonant_concept_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
 
     const dom = new JSDOM();
