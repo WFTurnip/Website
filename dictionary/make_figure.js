@@ -28,10 +28,10 @@ async function generateConsonantFigure() {
     for (let i = 0; i <= apex; i++) {
         for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
-            let x1 = centerX + (centerX / 2) * Math.sin(i * Math.PI / 3);
-            let y1 = centerY + (centerY / 2) * Math.cos(i * Math.PI / 3);
-            let x2 = centerX + (centerX / 2) * Math.sin((i + j) * Math.PI / 3);
-            let y2 = centerY + (centerY / 2) * Math.cos((i + j) * Math.PI / 3);
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / 3);
             line.setAttribute("x1", x1);
             line.setAttribute("y1", y1);
             line.setAttribute("x2", x2);
@@ -187,10 +187,10 @@ async function generateConsonantConceptFigure() {
     for (let i = 0; i <= apex; i++) {
         for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
-            let x1 = centerX + (centerX / 2) * Math.sin(i * Math.PI / 3);
-            let y1 = centerY + (centerY / 2) * Math.cos(i * Math.PI / 3);
-            let x2 = centerX + (centerX / 2) * Math.sin((i + j) * Math.PI / 3);
-            let y2 = centerY + (centerY / 2) * Math.cos((i + j) * Math.PI / 3);
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / 3);
             line.setAttribute("x1", x1);
             line.setAttribute("y1", y1);
             line.setAttribute("x2", x2);
