@@ -124,8 +124,8 @@ function generateConsonantConceptTable() {
     blank.textContent = "";
     blank.rowSpan = 2;
     consonantsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0 ; i < consonantsPronunciationHorizontalArray.length; i++){
-	let consonantsPronunciationHorizontal = document.createElement("th");
+    for (let i = 0; i < consonantsPronunciationHorizontalArray.length; i++) {
+        let consonantsPronunciationHorizontal = document.createElement("th");
         consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i] + "音";
         consonantsPronunciationHorizontal.colSpan = 2;
         consonantsPronunciationHorizontalRow.appendChild(consonantsPronunciationHorizontal);
@@ -142,7 +142,7 @@ function generateConsonantConceptTable() {
     thead.appendChild(consonantsPronunciationHorizontalClassRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-        for (let i = 0; i < consonantsPronunciationVerticalArray.length; i++) {
+    for (let i = 0; i < consonantsPronunciationVerticalArray.length; i++) {
         let consonantVerticalRow = document.createElement("tr");
         let consonantsPronunciationVertical = document.createElement("th");
         consonantsPronunciationVertical.textContent = consonantsPronunciationVerticalArray[i] + "舌音";
@@ -154,7 +154,7 @@ function generateConsonantConceptTable() {
             consonants.classList.add("zosokw");
             consonantsCell.appendChild(consonants);
             let consonantsConcept = document.createElement("div");
-            consonantsConcept.textContent = consonantsConceptArray[i * 6 + j] ;
+            consonantsConcept.textContent = consonantsConceptArray[i * 6 + j];
             consonantsConcept.classList.add("concept");
             consonantsCell.appendChild(consonantsConcept);
             consonantVerticalRow.appendChild(consonantsCell);
@@ -248,68 +248,6 @@ function generateSecondCaseTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".first-case-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
-}
-
-function generateSecondCaseTable() {
-    let table = document.createElement("table");
-    let caption = document.createElement("caption");
-    caption.textContent = "後置格表";
-    table.appendChild(caption);
-    let thead = document.createElement("thead");
-    let tr = document.createElement("tr");
-    let blank = document.createElement("th");
-    blank.textContent = "";
-    tr.appendChild(blank);
-    let th2 = document.createElement("th");
-    th2.textContent = "広母音";
-    tr.appendChild(th2);
-    let th3 = document.createElement("th");
-    th3.textContent = "中母音";
-    tr.appendChild(th3);
-    let th4 = document.createElement("th");
-    th4.textContent = "狭母音";
-    vowelsPronunciationHorizontal.appendChild(th4);
-    thead.appendChild(tr);
-    table.appendChild(thead);
-    let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let th5 = document.createElement("th");
-    th5.textContent = "非円唇母音";
-    tr2.appendChild(th5);
-    for (let i = 0; i < 3; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i] + "\u{25CC}";
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = vowelsCasesArray[i] + "格";
-        p2.classList.add("cases");
-        td.appendChild(p2);
-        tr2.appendChild(td);
-    }
-    tbody.appendChild(tr2);
-    let tr3 = document.createElement("tr");
-    let th6 = document.createElement("th");
-    th6.textContent = "円唇母音";
-    tr3.appendChild(th6);
-    for (let i = 3; i < 6; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i] + "\u{25CC}";
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = vowelsCasesArray[i] + "格";
-        p2.classList.add("cases");
-        td.appendChild(p2);
-        tr3.appendChild(td);
-    }
-    tbody.appendChild(tr3);
-    table.appendChild(tbody);
     document.querySelectorAll(".second-case-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
@@ -377,7 +315,6 @@ function generateConjunctCaseTable() {
             td.appendChild(createParagraph(vowelsCasesArray[j] + vowelsCasesArray[i] + "格", "conjunct-case"));
             tr.appendChild(td);
         });
-
         tbody.appendChild(tr);
     });
     table.appendChild(tbody);
@@ -396,52 +333,32 @@ function generatePreffixCaseTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontal.appendChild(blank);
-    let th2 = document.createElement("th");
-    th2.textContent = "広母音";
-    tr.appendChild(th2);
-    let th3 = document.createElement("th");
-    th3.textContent = "中母音";
-    tr.appendChild(th3);
-    let th4 = document.createElement("th");
-    th4.textContent = "狭母音";
-    vowelsPronunciationHorizontal.appendChild(th4);
-    thead.appendChild(tr);
+    for (let i = 0; i < vowelsPronunciationHorizontalArray.length; i++) {
+        let vowelsPronunciationHorizontalCell = document.createElement("th");
+        vowelsPronunciationHorizontalCell.textContent = vowelsPronunciationHorizontalArray[i] + "母音";
+        vowelsPronunciationHorizontal.appendChild(vowelsPronunciationHorizontalCell);
+    }
+    thead.appendChild(vowelsPronunciationHorizontal);
     table.appendChild(thead);
-    let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let th5 = document.createElement("th");
-    th5.textContent = "非円唇母音";
-    tr2.appendChild(th5);
-    for (let i = 0; i < 3; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = "\u{25CC}" + vowelsArray[i] + "\u{25CC}\u{25CC}\u{25CC}";
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = vowelsCasesArray[i] + "格";
-        p2.classList.add("cases");
-        td.appendChild(p2);
-        tr2.appendChild(td);
+    for (let i = 0; i < vowelsPartOfSpeechTypesHorizontalArray.length; i++) {
+        let vowelsVerticalRow = document.createElement("tr");
+        let vowelsPronunciationVertical = document.createElement("th");
+        vowelsPronunciationVertical.textContent = vowelsPartOfSpeechTypesHorizontalArray[i] + "唇母音";
+        vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
+        for (let j = 0; j < vowelsPartOfSpeechTypesArray.length / vowelsPartOfSpeechTypesVerticalArray.length; j++) {
+            let VowelCell = document.createElement("td");
+            let vowels = document.createElement("div");
+            vowels.textContent = "\u{25CC}" + vowelsArray[j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            vowels.classList.add("zosokw");
+            VowelCell.appendChild(vowels);
+            let vowelsPartOfSpeech = document.createElement("div");
+            vowelsPartOfSpeech.textContent = vowelsCasesArray[j] + "格";
+            vowelsPartOfSpeech.classList.add("cases");
+            VowelCell.appendChild(vowelsPartOfSpeech);
+            vowelsVerticalRow.appendChild(VowelCell);
+        }
+        tbody.appendChild(vowelsVerticalRow);
     }
-    tbody.appendChild(tr2);
-    let tr3 = document.createElement("tr");
-    let th6 = document.createElement("th");
-    th6.textContent = "円唇母音";
-    tr3.appendChild(th6);
-    for (let i = 3; i < 6; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = "\u{25CC}" + vowelsArray[i] + "\u{25CC}\u{25CC}\u{25CC}";
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = vowelsCasesArray[i] + "格";
-        p2.classList.add("cases");
-        td.appendChild(p2);
-        tr3.appendChild(td);
-    }
-    tbody.appendChild(tr3);
     table.appendChild(tbody);
     document.querySelectorAll(".prefix-case-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
