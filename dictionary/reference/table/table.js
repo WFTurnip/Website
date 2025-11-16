@@ -683,7 +683,7 @@ function generateNounConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontal.appendChild(blank);
-    thead.appendChild(tr);
+    thead.appendChild(vowelsPronunciationHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
     let tr2 = document.createElement("tr");
