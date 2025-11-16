@@ -430,7 +430,7 @@ function generateCaseOfSpeechTable() {
     for (let i = 0; i < vowelsPartOfSpeechTypesVerticalArray.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = "文法" + vowelsPronunciationVerticalArray[i];
+        vowelsPronunciationVertical.textContent = "文法" + vowelsPartOfSpeechTypesVerticalArray[i];
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelsPartOfSpeechTypesVerticalArray.length; j++) {
             let vowelRow = document.createElement("td");
