@@ -15,22 +15,16 @@ const vowelsPronunciationArray = ["a", "o", "u", "\u{2205}", "i", "e"];
 async function generateConsonantFigure() {
     let filename = path.join("reference/", "figure/", "consonant_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     for (let i = 0; i <= apex; i++) {
         for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
@@ -46,18 +40,14 @@ async function generateConsonantFigure() {
             svg.appendChild(line);
         }
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -69,22 +59,16 @@ async function generateConsonantFigure() {
 async function generateVowelFigure() {
     let filename = path.join("reference/", "figure/", "vowel_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
@@ -99,40 +83,30 @@ async function generateVowelFigure() {
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
-
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
-        vowel.setAttribute("x", x);
-        vowel.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowel.classList.add("zosokw");
-        svg.appendChild(vowel);
-    }
-
-    for (let i = 0; i < apex; i++) {
         let vowelPronunciation = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
+        vowel.setAttribute("x", x);
         vowelPronunciation.setAttribute("x", x);
+        vowel.setAttribute("y", y);
         vowelPronunciation.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelPronunciation.textContent = "[" + vowelsPronunciationArray[i] + "]";
+        vowel.classList.add("zosokw");
         vowelPronunciation.classList.add("pronunciation");
+        svg.appendChild(vowel);
         svg.appendChild(vowelPronunciation);
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -144,30 +118,23 @@ async function generateVowelFigure() {
 async function generateRtlFigure() {
     let filename = path.join("reference/", "figure/", "rtl_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", 16);
     svg.setAttribute("height", 16);
-
     let polygon = document.createElementNS(svgns, "polygon");
     let coodinate = "8,0 8,8 0,8 8,16 16,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -179,30 +146,23 @@ async function generateRtlFigure() {
 async function generateLtrFigure() {
     let filename = path.join("reference/", "figure/", "ltr_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", 16);
     svg.setAttribute("height", 16);
-
     let polygon = document.createElementNS(svgns, "polygon");
     let coodinate = "8,0 0,8 8,16 16,8 8,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -214,22 +174,16 @@ async function generateLtrFigure() {
 async function generateConsonantConceptFigure() {
     let filename = path.join("reference/", "figure/", "consonant_concept_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     for (let i = 0; i <= apex; i++) {
         for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
@@ -245,18 +199,14 @@ async function generateConsonantConceptFigure() {
             svg.appendChild(line);
         }
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -270,19 +220,14 @@ async function generateFirstCaseFigure() {
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
@@ -297,40 +242,30 @@ async function generateFirstCaseFigure() {
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
-
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        vowel.setAttribute("x", x);
-        vowel.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowel.classList.add("zosokw");
-        svg.appendChild(vowel);
-    }
-
-    for (let i = 0; i < apex; i++) {
         let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
+        vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowel.classList.add("zosokw");
         vowelCase.classList.add("cases");
+        svg.appendChild(vowel);
         svg.appendChild(vowelCase);
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -344,19 +279,14 @@ async function generateSecondCaseFigure() {
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
@@ -371,40 +301,30 @@ async function generateSecondCaseFigure() {
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
-
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        vowel.setAttribute("x", x);
-        vowel.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowel.classList.add("zosokw");
-        svg.appendChild(vowel);
-    }
-
-    for (let i = 0; i < apex; i++) {
         let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
+        vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowel.classList.add("zosokw");
         vowelCase.classList.add("cases");
+        svg.appendChild(vowel);
         svg.appendChild(vowelCase);
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -418,19 +338,14 @@ async function generateConjunctCaseFigure() {
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 512;
     let height = 512;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     for (let i = 0; i <= apex; i++) {
         let firstCaseCoodinateX = centerX + (width / 3) * Math.sin(i * Math.PI / 3);
         let firstCaseCoodinateY = centerY + (height / 3) * Math.cos(i * Math.PI / 3);
@@ -449,12 +364,7 @@ async function generateConjunctCaseFigure() {
         polyline.setAttribute("stroke-width", 1);
         svg.appendChild(polyline);
     }
-
-    for (let i = 0; i < apex; i++) {
-        let firstCaseVowel = document.createElementNS(svgns, "text");
-        let firstCase = document.createElementNS(svgns, "text");
-        let firstCaseCoodinateX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
-        let firstCaseCoodinateY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
+    for (let i = 0; i <= apex; i++) {
         firstCaseVowel.setAttribute("x", firstCaseCoodinateX);
         firstCaseVowel.setAttribute("y", firstCaseCoodinateY);
         firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i];
@@ -482,18 +392,14 @@ async function generateConjunctCaseFigure() {
             svg.appendChild(conjunctCase);
         }
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -507,19 +413,14 @@ async function generatePrefixCaseFigure() {
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
@@ -534,40 +435,30 @@ async function generatePrefixCaseFigure() {
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
-
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        vowel.setAttribute("x", x);
-        vowel.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowel.classList.add("zosokw");
-        svg.appendChild(vowel);
-    }
-
-    for (let i = 0; i < apex; i++) {
         let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
+        vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowel.classList.add("zosokw");
         vowelCase.classList.add("cases");
+        svg.appendChild(vowel);
         svg.appendChild(vowelCase);
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -581,19 +472,14 @@ async function generateSuffixCaseFigure() {
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
@@ -608,40 +494,30 @@ async function generateSuffixCaseFigure() {
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
-
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        vowel.setAttribute("x", x);
-        vowel.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowel.classList.add("zosokw");
-        svg.appendChild(vowel);
-    }
-
-    for (let i = 0; i < apex; i++) {
         let vowelCase = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
+        vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelCase.textContent = vowelsCasesArray[i] + "格";
+        vowel.classList.add("zosokw");
         vowelCase.classList.add("cases");
+        svg.appendChild(vowel);
         svg.appendChild(vowelCase);
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -655,19 +531,14 @@ async function generatePartOfSpeechFigure() {
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
@@ -682,40 +553,30 @@ async function generatePartOfSpeechFigure() {
     polyline.setAttribute("fill", "none");
     polyline.setAttribute("stroke-width", 1);
     svg.appendChild(polyline);
-
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        vowel.setAttribute("x", x);
-        vowel.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowel.classList.add("zosokw");
-        svg.appendChild(vowel);
-    }
-
-    for (let i = 0; i < apex; i++) {
         let vowelPartOfSpeech = document.createElementNS(svgns, "text");
         let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
         let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        vowel.setAttribute("x", x);
         vowelPartOfSpeech.setAttribute("x", x);
+        vowel.setAttribute("y", y);
         vowelPartOfSpeech.setAttribute("y", y);
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i] + "詞";
+        vowel.classList.add("zosokw");
         vowelPartOfSpeech.classList.add("part-of-speech");
+        svg.appendChild(vowel);
         svg.appendChild(vowelPartOfSpeech);
     }
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -727,40 +588,30 @@ async function generatePartOfSpeechFigure() {
 async function generateArticleConjugationFigure() {
     let filename = path.join("reference/", "figure/", "article_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", width / 4);
     rect.setAttribute("y", height / 4);
     rect.setAttribute("width", centerX);
     rect.setAttribute("height", centerY);
     svg.appendChild(rect);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -772,40 +623,30 @@ async function generateArticleConjugationFigure() {
 async function generateVerbConjugationFigure() {
     let filename = path.join("reference/", "figure/", "verb_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", width / 4);
     rect.setAttribute("y", height / 4);
     rect.setAttribute("width", centerX);
     rect.setAttribute("height", centerY);
     svg.appendChild(rect);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -817,40 +658,30 @@ async function generateVerbConjugationFigure() {
 async function generateAdjectiveConjugationFigure() {
     let filename = path.join("reference/", "figure/", "adjective_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", width / 4);
     rect.setAttribute("y", height / 4);
     rect.setAttribute("width", centerX);
     rect.setAttribute("height", centerY);
     svg.appendChild(rect);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -862,40 +693,30 @@ async function generateAdjectiveConjugationFigure() {
 async function generateParticleConjugationFigure() {
     let filename = path.join("reference/", "figure/", "particle_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", width / 4);
     rect.setAttribute("y", height / 4);
     rect.setAttribute("width", centerX);
     rect.setAttribute("height", centerY);
     svg.appendChild(rect);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -907,40 +728,30 @@ async function generateParticleConjugationFigure() {
 async function generateAdverbConjugationFigure() {
     let filename = path.join("reference/", "figure/", "adverb_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", width / 4);
     rect.setAttribute("y", height / 4);
     rect.setAttribute("width", centerX);
     rect.setAttribute("height", centerY);
     svg.appendChild(rect);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -952,40 +763,30 @@ async function generateAdverbConjugationFigure() {
 async function generateNounConjugationFigure() {
     let filename = path.join("reference/", "figure/", "noun_conjugation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
-
     const dom = new JSDOM();
     const document = dom.window.document;
-
     let width = 256;
     let height = 256;
-
     let apex = 6;
-
     let svg = document.createElementNS(svgns, "svg");
     svg.setAttribute("width", width);
     svg.setAttribute("height", height);
-
     let centerX = width / 2;
     let centerY = height / 2;
-
     let rect = document.createElementNS(svgns, "rect");
     rect.setAttribute("x", width / 4);
     rect.setAttribute("y", height / 4);
     rect.setAttribute("width", centerX);
     rect.setAttribute("height", centerY);
     svg.appendChild(rect);
-
     let serializer = new dom.window.XMLSerializer();
     let svgString = serializer.serializeToString(svg);
-
     let svgContent =
         '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
         '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
         svgString;
-
     svgContent = beautify(svgContent, { indent_size: 4 });
-
     try {
         await fs.writeFile(filename, svgContent);
         console.log("ファイル" + filename + "を作成しました。");
