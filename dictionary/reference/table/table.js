@@ -16,6 +16,13 @@ const vowelsPronunciationVerticalArray = ["非", ""];
 const vowelsPartOfSpeechTypesHorizontalArray = ["限定", "動作", "状態"];
 const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
 
+
+const tenseArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
+const aspectArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
+
+const tenseConsonantsArray = ["q", "c", "r", "l", "p", "b"];
+const aspectConsonantsArray = ["h", "x", "f", "v", "m", "n"];
+
 function generateConsonantTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -409,7 +416,7 @@ function generateSuffixCaseTable() {
     });
 }
 
-function generateCaseOfSpeechTable() {
+function generatePartOfSpeechTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "品詞表";
@@ -433,21 +440,21 @@ function generateCaseOfSpeechTable() {
         vowelsPronunciationVertical.textContent = "文法" + vowelsPartOfSpeechTypesVerticalArray[i];
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelsPartOfSpeechTypesVerticalArray.length; j++) {
-            let vowelRow = document.createElement("td");
+            let vowelsRow = document.createElement("td");
             let vowel = document.createElement("div");
-            vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i];
+            vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * 3 + j];
             vowel.classList.add("zosokw");
-            vowelRow.appendChild(vowel);
+            vowelsRow.appendChild(vowel);
             let vowelsPartOfSpeech = document.createElement("div");
-            vowelsPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i] + "符";
+            vowelsPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i * 3 + j] + "詞";
             vowelsPartOfSpeech.classList.add("part-of-speech");
-            vowelRow.appendChild(vowelsPartOfSpeech);
-            vowelsVerticalRow.appendChild(vowelRow);
+            vowelsRow.appendChild(vowelsPartOfSpeech);
+            vowelsVerticalRow.appendChild(vowelsRow);
         }
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".case-of-speech-table").forEach(function (element) {
+    document.querySelectorAll(".part-of-speech-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
@@ -481,12 +488,6 @@ function generateArticleConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
-const tenseArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
-const aspectArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
-
-const tenseConsonantsArray = ["q", "c", "r", "l", "p", "b"];
-const aspectConsonantsArray = ["h", "x", "f", "v", "m", "n"];
 
 function generateVerbConjugationTable() {
     let table = document.createElement("table");
@@ -711,7 +712,7 @@ window.onload = function () {
     generateConjunctCaseTable();
     generatePreffixCaseTable();
     generateSuffixCaseTable();
-    generateCaseOfSpeechTable();
+    generatePartOfSpeechTable();
     generateArticleConjugationTable();
     generateVerbConjugationTable();
     generateAdjectiveConjugationTable();
