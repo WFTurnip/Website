@@ -72,9 +72,9 @@ async function generateVowelFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (centerX / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (centerY / 2) * Math.cos(i * Math.PI / 3);
-        coodinate += x + "," + y + "";
+        let x = centerX + centerX * Math.sin(i * Math.PI / 3);
+        let y = centerY + centerY * Math.cos(i * Math.PI / 3);
+        coodinate += x + ", " + y + "";
         if (i < apex) {
             coodinate += " ";
         }
@@ -231,9 +231,9 @@ async function generateFirstCaseFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        coodinate += x + "," + y + "";
+        let x = centerX + centerX * Math.sin(i * Math.PI / 3);
+        let y = centerY + centerY * Math.cos(i * Math.PI / 3);
+        coodinate += x + ", " + y + "";
         if (i < apex) {
             coodinate += " ";
         }
@@ -290,9 +290,9 @@ async function generateSecondCaseFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        coodinate += x + "," + y + "";
+        let x = centerX + centerX * Math.sin(i * Math.PI / 3);
+        let y = centerY + centerY * Math.cos(i * Math.PI / 3);
+        coodinate += x + ", " + y + "";
         if (i < apex) {
             coodinate += " ";
         }
@@ -428,9 +428,9 @@ async function generatePrefixCaseFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        coodinate += x + "," + y + "";
+        let x = centerX + centerX * Math.sin(i * Math.PI / 3);
+        let y = centerY + centerY * Math.cos(i * Math.PI / 3);
+        coodinate += x + ", " + y + "";
         if (i < apex) {
             coodinate += " ";
         }
@@ -487,9 +487,9 @@ async function generateSuffixCaseFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        coodinate += x + "," + y + "";
+        let x = centerX + centerX * Math.sin(i * Math.PI / 3);
+        let y = centerY + centerY * Math.cos(i * Math.PI / 3);
+        coodinate += x + ", " + y + "";
         if (i < apex) {
             coodinate += " ";
         }
@@ -546,9 +546,9 @@ async function generatePartOfSpeechFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-        coodinate += x + "," + y + "";
+        let x = centerX + centerX * Math.sin(i * Math.PI / 3);
+        let y = centerY + centerY * Math.cos(i * Math.PI / 3);
+        coodinate += x + ", " + y + "";
         if (i < apex) {
             coodinate += " ";
         }
