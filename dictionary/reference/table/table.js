@@ -498,7 +498,6 @@ function generateVerbConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     consonantsTenseRow.appendChild(blank);
-    let tr = document.createElement("tr");
     for (let i = 0; i < tenseConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
@@ -509,7 +508,7 @@ function generateVerbConjugationTable() {
         p2.textContent = tenseArray[i] + "形";
         p2.classList.add("verb-tense");
         th.appendChild(p2);
-        tr.appendChild(th);
+        consonantsTenseRow.appendChild(th);
     }
     thead.appendChild(consonantsTenseRow);
     table.appendChild(thead);
@@ -617,10 +616,10 @@ function generateAdverbConjugationTable() {
     caption.textContent = "副詞活用表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
-    let vowelsPronunciationHorizontalRow = document.createElement("tr");
+    let consonantsTenseRow = document.createElement("tr");
     let blank = document.createElement("th");
     blank.textContent = "";
-    vowelsPronunciationHorizontalRow.appendChild(blank);
+    consonantsTenseRow.appendChild(blank);
     for (let i = 0; i < tenseConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
@@ -631,9 +630,9 @@ function generateAdverbConjugationTable() {
         p2.textContent = tenseArray[i] + "形";
         p2.classList.add("adverb-tense");
         th.appendChild(p2);
-        vowelsPronunciationHorizontalRow.appendChild(th);
+        consonantsTenseRow.appendChild(th);
     }
-    thead.appendChild(vowelsPronunciationHorizontalRow);
+    thead.appendChild(consonantsTenseRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
     for (let i = 0; i < aspectConsonantsArray.length; i++) {
@@ -720,4 +719,3 @@ window.onload = function () {
     generateAdverbConjugationTable();
     generateNounConjugationTable();
 }
-
