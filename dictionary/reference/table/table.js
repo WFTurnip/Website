@@ -154,7 +154,7 @@ function generateConsonantConceptTable() {
             consonants.classList.add("zosokw");
             consonantsCell.appendChild(consonants);
             let consonantsConcept = document.createElement("div");
-            consonantsConcept.textContent = consonantsConceptArray[i * 6 + j];
+            consonantsConcept.textContent = consonantsConceptArray[i * 6 + j] ;
             consonantsConcept.classList.add("concept");
             consonantsCell.appendChild(consonantsConcept);
             consonantVerticalRow.appendChild(consonantsCell);
@@ -259,10 +259,10 @@ function generateSecondCaseTable() {
     caption.textContent = "後置格表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
-    let vowelsPronunciationHorizontal = document.createElement("tr");
+    let tr = document.createElement("tr");
     let blank = document.createElement("th");
     blank.textContent = "";
-    vowelsPronunciationHorizontal.appendChild(blank);
+    tr.appendChild(blank);
     let th2 = document.createElement("th");
     th2.textContent = "広母音";
     tr.appendChild(th2);
