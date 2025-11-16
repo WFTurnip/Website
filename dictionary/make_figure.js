@@ -28,10 +28,10 @@ async function generateConsonantFigure() {
     for (let i = 0; i <= apex; i++) {
         for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
-            let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-            let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-            let x2 = centerX + (width / 2) * Math.sin((i + j) * Math.PI / 3);
-            let y2 = centerY + (height / 2) * Math.cos((i + j) * Math.PI / 3);
+            let x1 = centerX + (centerX / 2) * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + (centerY / 2) * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + (centerX / 2) * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + (centerY / 2) * Math.cos((i + j) * Math.PI / 3);
             line.setAttribute("x1", x1);
             line.setAttribute("y1", y1);
             line.setAttribute("x2", x2);
@@ -72,8 +72,8 @@ async function generateVowelFigure() {
     let polyline = document.createElementNS(svgns, "polyline");
     let coodinate = "";
     for (let i = 0; i <= apex; i++) {
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerX + (centerX / 2) * Math.sin(i * Math.PI / 3);
+        let y = centerY + (centerY / 2) * Math.cos(i * Math.PI / 3);
         coodinate += x + "," + y + "";
         if (i < apex) {
             coodinate += " ";
@@ -86,8 +86,8 @@ async function generateVowelFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelPronunciation = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin((4 + i) * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerX + (centerX / 2) * Math.sin((4 + i) * Math.PI / 3);
+        let y = centerY + (centerY / 2) * Math.cos((4 + i) * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelPronunciation.setAttribute("x", x);
         vowel.setAttribute("y", y);
@@ -187,10 +187,10 @@ async function generateConsonantConceptFigure() {
     for (let i = 0; i <= apex; i++) {
         for (let j = 2; j <= 3; j++) {
             let line = document.createElementNS(svgns, "line");
-            let x1 = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-            let y1 = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
-            let x2 = centerX + (width / 2) * Math.sin((i + j) * Math.PI / 3);
-            let y2 = centerY + (height / 2) * Math.cos((i + j) * Math.PI / 3);
+            let x1 = centerX + (centerX / 2) * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + (centerY / 2) * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + (centerX / 2) * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + (centerY / 2) * Math.cos((i + j) * Math.PI / 3);
             line.setAttribute("x1", x1);
             line.setAttribute("y1", y1);
             line.setAttribute("x2", x2);
@@ -245,8 +245,8 @@ async function generateFirstCaseFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelCase = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerX + (centerX * (3 / 4)) * Math.sin(i * Math.PI / 3);
+        let y = centerY + (centerY * (3 / 4)) * Math.cos(i * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
@@ -304,8 +304,8 @@ async function generateSecondCaseFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelCase = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerX + (centerX * (3 / 4)) * Math.sin(i * Math.PI / 3);
+        let y = centerY + (centerY * (3 / 4)) * Math.cos(i * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
@@ -364,14 +364,18 @@ async function generateConjunctCaseFigure() {
         polyline.setAttribute("stroke-width", 1);
         svg.appendChild(polyline);
     }
-    for (let i = 0; i <= apex; i++) {
+    for (let i = 0; i < apex; i++) {
+        let firstCaseVowel = document.createElementNS(svgns, "text");
+        let firstCase = document.createElementNS(svgns, "text");
+        let firstCaseCoodinateX = centerX + (width / 3) * Math.sin((i + 4) * Math.PI / 3);
+        let firstCaseCoodinateY = centerY + (height / 3) * Math.cos((i + 4) * Math.PI / 3);
         firstCaseVowel.setAttribute("x", firstCaseCoodinateX);
-        firstCaseVowel.setAttribute("y", firstCaseCoodinateY);
-        firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i];
-        firstCaseVowel.classList.add("zosokw");
         firstCase.setAttribute("x", firstCaseCoodinateX);
+        firstCaseVowel.setAttribute("y", firstCaseCoodinateY);
         firstCase.setAttribute("y", firstCaseCoodinateY);
+        firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i];
         firstCase.textContent = vowelsCasesArray[i] + "格";
+        firstCaseVowel.classList.add("zosokw");
         firstCase.classList.add("cases");
         svg.appendChild(firstCaseVowel);
         svg.appendChild(firstCase);
@@ -381,12 +385,12 @@ async function generateConjunctCaseFigure() {
             let conjunctCaseCoodinateX = firstCaseCoodinateX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / 3);
             let conjunctCaseCoodinateY = firstCaseCoodinateY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / 3);
             conjunctCaseVowels.setAttribute("x", conjunctCaseCoodinateX);
-            conjunctCaseVowels.setAttribute("y", conjunctCaseCoodinateY);
-            conjunctCaseVowels.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
-            conjunctCaseVowels.classList.add("zosokw");
             conjunctCase.setAttribute("x", conjunctCaseCoodinateX);
+            conjunctCaseVowels.setAttribute("y", conjunctCaseCoodinateY);
             conjunctCase.setAttribute("y", conjunctCaseCoodinateY);
+            conjunctCaseVowels.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
             conjunctCase.textContent = vowelsCasesArray[i] + vowelsCasesArray[j] + "格";
+            conjunctCaseVowels.classList.add("zosokw");
             conjunctCase.classList.add("cases");
             svg.appendChild(conjunctCaseVowels);
             svg.appendChild(conjunctCase);
@@ -438,8 +442,8 @@ async function generatePrefixCaseFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelCase = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerX + (centerX * (3 / 4)) * Math.sin(i * Math.PI / 3);
+        let y = centerY + (centerY * (3 / 4)) * Math.cos(i * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
@@ -497,8 +501,8 @@ async function generateSuffixCaseFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelCase = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerX + (centerX * (3 / 4)) * Math.sin(i * Math.PI / 3);
+        let y = centerY + (centerY * (3 / 4)) * Math.cos(i * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
@@ -556,8 +560,8 @@ async function generatePartOfSpeechFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelPartOfSpeech = document.createElementNS(svgns, "text");
-        let x = centerX + (width / 2) * Math.sin(i * Math.PI / 3);
-        let y = centerY + (height / 2) * Math.cos(i * Math.PI / 3);
+        let x = centerX + (centerX * (3 / 4)) * Math.sin(i * Math.PI / 3);
+        let y = centerY + (centerY * (3 / 4)) * Math.cos(i * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelPartOfSpeech.setAttribute("x", x);
         vowel.setAttribute("y", y);
