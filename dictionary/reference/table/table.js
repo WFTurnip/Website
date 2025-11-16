@@ -119,87 +119,48 @@ function generateConsonantConceptTable() {
     caption.textContent = "子音概念表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
-    let tr = document.createElement("tr");
-    let th = document.createElement("th");
-    th.textContent = "";
-    th.rowSpan = 2;
-    tr.appendChild(th);
-    let th2 = document.createElement("th");
-    th2.textContent = "喉音";
-    th2.colSpan = 2;
-    tr.appendChild(th2);
-    let th3 = document.createElement("th");
-    th3.textContent = "舌先音";
-    th3.colSpan = 2;
-    tr.appendChild(th3);
-    let th4 = document.createElement("th");
-    th4.textContent = "唇音";
-    th4.colSpan = 2;
-    tr.appendChild(th4);
-    thead.appendChild(tr);
-    let tr2 = document.createElement("tr");
-    for (let i = 0; i < 3; i++) {
-        let th = document.createElement("th");
-        th.textContent = "弱震音";
-        tr2.appendChild(th);
-        let th2 = document.createElement("th");
-        th2.textContent = "強震音";
-        tr2.appendChild(th2);
+    let consonantsPronunciationHorizontalRow = document.createElement("tr");
+    let blank = document.createElement("th");
+    blank.textContent = "";
+    blank.rowSpan = 2;
+    consonantsPronunciationHorizontalRow.appendChild(blank);
+    for (let i = 0 ; i < consonantsPronunciationHorizontalArray.length; i++){
+	let consonantsPronunciationHorizontal = document.createElement("th");
+        consonantsPronunciationHorizontal.textContent = consonantsPronunciationHorizontalArray[i] + "音";
+        consonantsPronunciationHorizontal.colSpan = 2;
+        consonantsPronunciationHorizontalRow.appendChild(consonantsPronunciationHorizontal);
     }
-    thead.appendChild(tr2);
+    thead.appendChild(consonantsPronunciationHorizontalRow);
+    let consonantsPronunciationHorizontalClassRow = document.createElement("tr");
+    for (let i = 0; i < consonantsPronunciationHorizontalArray.length; i++) {
+        for (let j = 0; j < consonantsPronunciationHorizontalClassArray.length; j++) {
+            let consonantsPronunciationHorizontalClass = document.createElement("th");
+            consonantsPronunciationHorizontalClass.textContent = consonantsPronunciationHorizontalClassArray[j] + "震音";
+            consonantsPronunciationHorizontalClassRow.appendChild(consonantsPronunciationHorizontalClass);
+        }
+    }
+    thead.appendChild(consonantsPronunciationHorizontalClassRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    let tr3 = document.createElement("tr");
-    let th5 = document.createElement("th");
-    th5.textContent = "上舌音";
-    tr3.appendChild(th5);
-    for (let i = 0; i < 6; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = consonantsArray[i];
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = consonantsConceptArray[i];
-        p2.classList.add("root");
-        td.appendChild(p2);
-        tr3.appendChild(td);
+        for (let i = 0; i < consonantsPronunciationVerticalArray.length; i++) {
+        let consonantVerticalRow = document.createElement("tr");
+        let consonantsPronunciationVertical = document.createElement("th");
+        consonantsPronunciationVertical.textContent = consonantsPronunciationVerticalArray[i] + "舌音";
+        consonantVerticalRow.appendChild(consonantsPronunciationVertical);
+        for (let j = 0; j < consonantsArray.length / consonantsPronunciationVerticalArray.length; j++) {
+            let consonantsCell = document.createElement("td");
+            let consonants = document.createElement("div");
+            consonants.textContent = consonantsArray[i * 6 + j];
+            consonants.classList.add("zosokw");
+            consonantsCell.appendChild(consonants);
+            let consonantsConcept = document.createElement("div");
+            consonantsConcept.textContent = consonantsConceptArray[i * 6 + j];
+            consonantsConcept.classList.add("concept");
+            consonantsCell.appendChild(consonantsConcept);
+            consonantVerticalRow.appendChild(consonantsCell);
+        }
+        tbody.appendChild(consonantVerticalRow);
     }
-    tbody.appendChild(tr3);
-    let tr4 = document.createElement("tr");
-    let th6 = document.createElement("th");
-    th6.textContent = "中舌音";
-    tr4.appendChild(th6);
-    for (let i = 6; i < 12; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = consonantsArray[i];
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = consonantsConceptArray[i];
-        p2.classList.add("root");
-        td.appendChild(p2);
-        tr4.appendChild(td);
-    }
-    tbody.appendChild(tr4);
-    let tr5 = document.createElement("tr");
-    let th7 = document.createElement("th");
-    th7.textContent = "下唇音";
-    tr5.appendChild(th7);
-    for (let i = 12; i < 18; i++) {
-        let td = document.createElement("td");
-        let p = document.createElement("div");
-        p.textContent = consonantsArray[i];
-        p.classList.add("zosokw");
-        td.appendChild(p);
-        let p2 = document.createElement("div");
-        p2.textContent = consonantsConceptArray[i];
-        p2.classList.add("root");
-        td.appendChild(p2);
-        tr5.appendChild(td);
-    }
-    tbody.appendChild(tr5);
     table.appendChild(tbody);
     document.querySelectorAll(".consonant-concept-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
