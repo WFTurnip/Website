@@ -14,19 +14,15 @@ const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
 
 async function generateIndex() {
     let filename = path.join("html_index", "index.html");
-
     const dom = new JSDOM("<!DOCTYPE html><head></head><body></body><html lang='ja'></html>");
     const document = dom.window.document;
-
     let head = document.head;
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
-
     let title = document.createElement("title");
     title.textContent = "子音一覧";
     head.appendChild(title);
-
     let link1 = document.createElement("link");
     link1.rel = "stylesheet";
     link1.href = "../style/pages.css";
@@ -43,7 +39,6 @@ async function generateIndex() {
     link4.rel = "icon";
     link4.href = "../favicon_index/" + "index" + ".svg";
     head.appendChild(link4);
-
     let body = document.body;
     let header = document.createElement("header");
     let headerNav = document.createElement("nav");
@@ -60,7 +55,6 @@ async function generateIndex() {
     headerNav.appendChild(headerOl);
     header.appendChild(headerNav);
     body.appendChild(header);
-
     let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
@@ -72,17 +66,14 @@ async function generateIndex() {
     figure.appendChild(figcaption);
     article.appendChild(figure);
     body.appendChild(article);
-
     let h1 = document.createElement("h1");
     h1.textContent = "子音一覧";
     body.appendChild(h1);
-
     let main = document.createElement("main");
     let dl = document.createElement("dl");
     for (let i = 0; i < consonantsArray.length; i++) {
         let dt = document.createElement("dt");
         dt.id = consonantsArray[i];
-
         let consonant = document.createElement("span");
         let a = document.createElement("a");
         a.classList.add("zosokw");
@@ -91,15 +82,12 @@ async function generateIndex() {
         consonant.appendChild(a);
         dt.appendChild(consonant);
         dl.appendChild(dt);
-
         let dd = document.createElement("dd");
         dd.textContent = consonantsConceptArray[i];
         dl.appendChild(dd);
-
         main.appendChild(dl);
     }
     body.appendChild(main);
-
     let footer = document.createElement("footer");
     let footerNav = document.createElement("nav");
     let footerOl = document.createElement("ol");
@@ -115,9 +103,7 @@ async function generateIndex() {
     footerNav.appendChild(footerOl);
     footer.appendChild(footerNav);
     body.appendChild(footer);
-
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
-
     try {
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -128,19 +114,15 @@ async function generateIndex() {
 
 async function generateConsonant(i) {
     let filename = path.join("html_index", consonantsArray[i] + ".html");
-
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
-
     let head = document.head;
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
-
     let title = document.createElement("title");
     title.textContent = "頭文字" + consonantsArray[i].toUpperCase();
     head.appendChild(title);
-
     let link1 = document.createElement("link");
     link1.rel = "stylesheet";
     link1.href = "../style/pages.css";
@@ -157,9 +139,7 @@ async function generateConsonant(i) {
     link4.rel = "icon";
     link4.href = "../favicon_index/" + consonantsArray[i] + ".svg";
     head.appendChild(link4);
-
     let body = document.body;
-
     let header = document.createElement("header");
     let headerNav = document.createElement("nav");
     let headerOl = document.createElement("ol");
@@ -186,7 +166,6 @@ async function generateConsonant(i) {
     headerNav.appendChild(headerOl);
     header.appendChild(headerNav);
     body.appendChild(header);
-
     let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
@@ -198,7 +177,6 @@ async function generateConsonant(i) {
     figure.appendChild(figcaption);
     article.appendChild(figure);
     body.appendChild(article);
-
     let h1 = document.createElement("h1");
     let h1Span = document.createElement("span");
     h1Span.classList.add("zosokw");
@@ -207,14 +185,12 @@ async function generateConsonant(i) {
     h1.appendChild(h1Span);
     h1.appendChild(document.createTextNode("の見出し"));
     body.appendChild(h1);
-
     let main = document.createElement("main");
     let dl = document.createElement("dl");
     for (let j = 0; j < consonantsArray.length; j++) {
         for (let k = 0; k < consonantsArray.length; k++) {
             let dt = document.createElement("dt");
             dt.id = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-
             let root = document.createElement("span");
             let a = document.createElement("a");
             a.classList.add("zosokw");
@@ -223,16 +199,13 @@ async function generateConsonant(i) {
             root.appendChild(a);
             dt.appendChild(root);
             dl.appendChild(dt);
-
             let dd = document.createElement("dd");
             dd.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
             dl.appendChild(dd);
-
             main.appendChild(dl);
         };
     };
     body.appendChild(main);
-
     let footer = document.createElement("footer");
     let footerNav = document.createElement("nav");
     let footerOl = document.createElement("ol");
@@ -259,9 +232,7 @@ async function generateConsonant(i) {
     footerNav.appendChild(footerOl);
     footer.appendChild(footerNav);
     body.appendChild(footer);
-
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
-
     try {
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -282,20 +253,15 @@ async function generateConsonantDirectory(i) {
 
 async function generateRoot(i, j, k) {
     let filename = path.join("html_index", consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html");
-
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
-
     let head = document.head;
-
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
-
     let title = document.createElement("title");
     title.textContent = "語根" + consonantsArray[i].toUpperCase() + consonantsArray[j].toUpperCase() + consonantsArray[k].toUpperCase();
     head.appendChild(title);
-
     let link1 = document.createElement("link");
     link1.rel = "stylesheet";
     link1.href = "../../style/pages.css";
@@ -312,9 +278,7 @@ async function generateRoot(i, j, k) {
     link4.rel = "icon";
     link4.href = "../../favicon_index/" + consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".svg";
     head.appendChild(link4);
-
     let body = document.body;
-
     let header = document.createElement("header");
     let headerNav = document.createElement("nav");
     let headerOl = document.createElement("ol");
@@ -351,7 +315,6 @@ async function generateRoot(i, j, k) {
     headerNav.appendChild(headerOl);
     header.appendChild(headerNav);
     body.appendChild(header);
-
     let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
@@ -363,7 +326,6 @@ async function generateRoot(i, j, k) {
     figure.appendChild(figcaption);
     article.appendChild(figure);
     body.appendChild(article);
-
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("zosokw");
@@ -371,7 +333,6 @@ async function generateRoot(i, j, k) {
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(span1);
     body.appendChild(h1);
-
     let main = document.createElement("main");
     for (let l = 0; l < vowelsArray.length; l++) {
         let details = document.createElement("details");
@@ -389,7 +350,6 @@ async function generateRoot(i, j, k) {
                     consonantsArray[i] + vowelsArray[m] +
                     consonantsArray[j] + vowelsArray[n] +
                     consonantsArray[k] + vowelsArray[l];
-
                 let word = document.createElement("span");
                 word.classList.add("zosokw");
                 word.textContent =
@@ -397,7 +357,6 @@ async function generateRoot(i, j, k) {
                     consonantsArray[j] + vowelsArray[n] +
                     consonantsArray[k] + vowelsArray[l];
                 dt.appendChild(word);
-
                 let wordPronunciation = document.createElement("span");
                 wordPronunciation.classList.add("pronunciation");
                 wordPronunciation.textContent =
@@ -407,19 +366,15 @@ async function generateRoot(i, j, k) {
                     consonantsPronunciationArray[k] + vowelsPronunciationArray[l] +
                     "]";
                 dt.appendChild(wordPronunciation);
-
                 let wordCases = document.createElement("span");
                 wordCases.classList.add("cases");
                 wordCases.textContent = vowelsCasesArray[m] + vowelsCasesArray[n] + "格";
                 dt.appendChild(wordCases);
-
                 let wordPartOfSpeech = document.createElement("span");
                 wordPartOfSpeech.classList.add("part-of-speech");
                 wordPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
                 dt.appendChild(wordPartOfSpeech);
-
                 dl.appendChild(dt);
-
                 let dd = document.createElement("dd");
                 dd.textContent = "";
                 dl.appendChild(dd);
@@ -431,7 +386,6 @@ async function generateRoot(i, j, k) {
         main.appendChild(hr);
     }
     body.appendChild(main);
-
     let footer = document.createElement("footer");
     let footerNav = document.createElement("nav");
     let footerOl = document.createElement("ol");
@@ -468,9 +422,7 @@ async function generateRoot(i, j, k) {
     footerNav.appendChild(footerOl);
     footer.appendChild(footerNav);
     body.appendChild(footer);
-
     let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
-
     try {
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
