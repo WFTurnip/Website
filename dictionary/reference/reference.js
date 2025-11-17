@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tocNav.innerHTML = "";
 
     document.querySelectorAll("main section").forEach(section => {
-        section.querySelectorAll("h2[id], h3[id], h4[id]").forEach(heading => {
+        section.querySelectorAll("h2[id], h3[id]").forEach(heading => {
             if (!heading.id) return;
             const tocHeading = document.createElement(heading.tagName.toLowerCase());
             const a = document.createElement("a");
