@@ -1,6 +1,15 @@
-const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsArray = [
+    "k", "g", "t", "d", "s", "z",
+    "q", "c", "r", "l", "p", "b",
+    "h", "x", "f", "v", "m", "n"];
+const consonantsConceptArray = [
+    "剥離", "癒着", "乖離", "同一", "肉体", "精神",
+    "空白", "物質", "過去", "未来", "鎮静", "高揚",
+    "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsPronunciationArray = [
+    "k", "g", "t", "d", "s", "z",
+    "\u{0294}", "\u{0295}", "r", "l", "p", "b",
+    "h", "x", "f", "v", "m", "n"];
 
 const consonantsPronunciationHorizontalArray = ["喉", "舌先", "唇"];
 const consonantsPronunciationVerticalArray = ["上", "中", "下"];
@@ -15,7 +24,6 @@ const vowelsPronunciationHorizontalArray = ["広", "中", "狭"];
 const vowelsPronunciationVerticalArray = ["非", ""];
 const vowelsPartOfSpeechTypesHorizontalArray = ["限定", "動作", "状態"];
 const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
-
 
 const tenseArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
 const aspectArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
