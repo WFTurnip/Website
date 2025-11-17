@@ -545,7 +545,7 @@ function generateVerbConjugationTable() {
             p.appendChild(document.createTextNode(tenseConsonantsArray[j]));
             td.appendChild(p);
             let p2 = document.createElement("div");
-	    p2.append(aspectArray[i] + "相" ,document.createElement("wbr"), tenseArray[j] + "形");
+            p2.append(aspectArray[i] + "相", document.createElement("wbr"), tenseArray[j] + "形");
             p2.classList.add("conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -667,7 +667,7 @@ function generateAdverbConjugationTable() {
             p.appendChild(document.createTextNode(tenseConsonantsArray[j]));
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(aspectArray[i] + "相" ,document.createElement("wbr"), tenseArray[j] + "形");
+            p2.append(aspectArray[i] + "相", document.createElement("wbr"), tenseArray[j] + "形");
             p2.classList.add("adverb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
