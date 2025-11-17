@@ -27,7 +27,6 @@ const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
 
 const tenseArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
 const aspectArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
-
 const tenseConsonantsArray = ["q", "c", "r", "l", "p", "b"];
 const aspectConsonantsArray = ["h", "x", "f", "v", "m", "n"];
 
@@ -546,7 +545,7 @@ function generateVerbConjugationTable() {
             p.appendChild(document.createTextNode(tenseConsonantsArray[j]));
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.textContent = aspectArray[i] + "相" + tenseArray[j] + "形";
+	    p2.append(aspectArray[i] + "相" ,document.createElement("wbr"), tenseArray[j] + "形");
             p2.classList.add("conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -668,7 +667,7 @@ function generateAdverbConjugationTable() {
             p.appendChild(document.createTextNode(tenseConsonantsArray[j]));
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.textContent = aspectArray[i] + "相" + tenseArray[j] + "形";
+            p2.append(aspectArray[i] + "相" ,document.createElement("wbr"), tenseArray[j] + "形");
             p2.classList.add("adverb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
