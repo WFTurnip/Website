@@ -86,8 +86,8 @@ async function generateVowelFigure() {
     for (let i = 0; i < apex; i++) {
         let vowel = document.createElementNS(svgns, "text");
         let vowelPronunciation = document.createElementNS(svgns, "text");
-        let x = centerX + (centerX*(3/4) ) * Math.sin((4 + i) * Math.PI / 3);
-	let y = centerY + (centerY*(3/4) ) * Math.cos((4 + i) * Math.PI / 3);
+        let x = centerX + (centerX * (3 / 4)) * Math.sin((4 + i) * Math.PI / 3);
+        let y = centerY + (centerY * (3 / 4)) * Math.cos((4 + i) * Math.PI / 3);
         vowel.setAttribute("x", x);
         vowelPronunciation.setAttribute("x", x);
         vowel.setAttribute("y", y);
