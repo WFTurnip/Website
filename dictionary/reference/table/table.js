@@ -1,15 +1,6 @@
-const consonantsArray = [
-    "k", "g", "t", "d", "s", "z",
-    "q", "c", "r", "l", "p", "b",
-    "h", "x", "f", "v", "m", "n"];
-const consonantsConceptArray = [
-    "剥離", "癒着", "乖離", "同一", "肉体", "精神",
-    "空白", "物質", "過去", "未来", "鎮静", "高揚",
-    "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonantsPronunciationArray = [
-    "k", "g", "t", "d", "s", "z",
-    "\u{0294}", "\u{0295}", "r", "l", "p", "b",
-    "h", "x", "f", "v", "m", "n"];
+const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
+const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 
 const consonantsPronunciationHorizontalArray = ["喉", "舌先", "唇"];
 const consonantsPronunciationVerticalArray = ["上", "中", "下"];
@@ -25,10 +16,13 @@ const vowelsPronunciationVerticalArray = ["非", ""];
 const vowelsPartOfSpeechTypesHorizontalArray = ["限定", "動作", "状態"];
 const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
 
-const tenseArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
-const aspectArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
-const tenseConsonantsArray = ["q", "c", "r", "l", "p", "b"];
-const aspectConsonantsArray = ["h", "x", "f", "v", "m", "n"];
+const upperTangueConsonantsArray = ["k", "g", "t", "d", "s", "z"];
+const middleTangueConsonantsArray = ["q", "c", "r", "l", "p", "b"];
+const lowerTangueConsonantsArray = ["h", "x", "f", "v", "m", "n"];
+
+const upperTangueConsonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神"];
+const middleTangueConsonantsConceptArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
+const lowerTangueConsonantsConceptArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
 
 function generateConsonantTable() {
     let table = document.createElement("table");
@@ -506,14 +500,14 @@ function generateVerbConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     consonantsTenseRow.appendChild(blank);
-    for (let i = 0; i < tenseConsonantsArray.length; i++) {
+    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}e" + tenseConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}e" + middleTangueConsonantsArray[i];
         p.classList.add("zosokw", "verb-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = tenseArray[i] + "形";
+        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
         p2.classList.add("verb-tense");
         th.appendChild(p2);
         consonantsTenseRow.appendChild(th);
@@ -521,31 +515,31 @@ function generateVerbConjugationTable() {
     thead.appendChild(consonantsTenseRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < aspectConsonantsArray.length; i++) {
+    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = aspectConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}e";
+        p.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}e";
         p.classList.add("zosokw", "verb-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = aspectArray[i] + "相";
+        p2.textContent = lowerTangueConsonantsConceptArray[i] + "相";
         p2.classList.add("verb-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < tenseConsonantsArray.length; j++) {
+        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("zosokw", "conjugation-form-consonant");
-            p.appendChild(document.createTextNode(aspectConsonantsArray[i]));
+            p.appendChild(document.createTextNode(lowerTangueConsonantsArray[i]));
             let span = document.createElement("span");
             span.classList.add("original-form");
             span.textContent = "\u{25CC}\u{25CC}\u{25CC}e";
             p.appendChild(span);
-            p.appendChild(document.createTextNode(tenseConsonantsArray[j]));
+            p.appendChild(document.createTextNode(middleTangueConsonantsArray[j]));
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(aspectArray[i] + "相", document.createElement("wbr"), tenseArray[j] + "形");
+            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
             p2.classList.add("conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -628,14 +622,14 @@ function generateAdverbConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     consonantsTenseRow.appendChild(blank);
-    for (let i = 0; i < tenseConsonantsArray.length; i++) {
+    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + tenseConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + middleTangueConsonantsArray[i];
         p.classList.add("zosokw", "adverb-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = tenseArray[i] + "形";
+        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
         p2.classList.add("adverb-tense");
         th.appendChild(p2);
         consonantsTenseRow.appendChild(th);
@@ -643,31 +637,31 @@ function generateAdverbConjugationTable() {
     thead.appendChild(consonantsTenseRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < aspectConsonantsArray.length; i++) {
+    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = aspectConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
+        p.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
         p.classList.add("zosokw", "adverb-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = aspectArray[i] + "相";
+        p2.textContent = lowerTangueConsonantsConceptArray[i] + "相";
         p2.classList.add("adverb-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < tenseConsonantsArray.length; j++) {
+        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("zosokw", "adverb-conjugation-form-consonant");
-            p.appendChild(document.createTextNode(aspectConsonantsArray[i]));
+            p.appendChild(document.createTextNode(lowerTangueConsonantsArray[i]));
             let span = document.createElement("span");
             span.classList.add("original-form");
             span.textContent = "\u{25CC}\u{25CC}\u{25CC}u";
             p.appendChild(span);
-            p.appendChild(document.createTextNode(tenseConsonantsArray[j]));
+            p.appendChild(document.createTextNode(middleTangueConsonantsArray[j]));
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(aspectArray[i] + "相", document.createElement("wbr"), tenseArray[j] + "形");
+            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
             p2.classList.add("adverb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
