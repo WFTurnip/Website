@@ -201,11 +201,11 @@ function generateFirstCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[j] + "\u{25CC}\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i*2+j] + "\u{25CC}\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i*2+j] + "格";
             vowelsCase.classList.add("cases");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -244,11 +244,11 @@ function generateSecondCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[j] + "\u{25CC}";
+            vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i*2+j] + "\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i*2+j] + "格";
             vowelsCase.classList.add("cases");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -268,29 +268,22 @@ function generateConjunctCaseTable() {
         p.classList.add(className);
         return p;
     };
-
     let table = document.createElement("table");
-
     let caption = document.createElement("caption");
     caption.textContent = "複合格表";
     table.appendChild(caption);
-
     let thead = document.createElement("thead");
-
     let tr = document.createElement("tr");
     let th = document.createElement("th");
     th.textContent = "";
     th.rowSpan = 2;
     th.colSpan = 2;
     tr.appendChild(th);
-
     let th2 = document.createElement("th");
     th2.textContent = "第一母音";
     th2.colSpan = vowelsArray.length;
     tr.appendChild(th2);
-
     thead.appendChild(tr);
-
     let tr2 = document.createElement("tr");
     vowelsArray.forEach((vowel, i) => {
         let th = document.createElement("th");
@@ -309,14 +302,12 @@ function generateConjunctCaseTable() {
     th3.rowSpan = 7;
     tr3.appendChild(th3);
     tbody.appendChild(tr3);
-
     vowelsArray.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         th.appendChild(createParagraph("\u{25CC}" + "\u{25CC}" + vowel1 + "\u{25CC}", "zosokw"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr.appendChild(th);
-
         vowelsArray.forEach((vowel2, j) => {
             let td = document.createElement("td");
             td.appendChild(createParagraph("\u{25CC}" + vowel2 + "\u{25CC}" + vowel1 + "\u{25CC}", "zosokw"));
@@ -357,11 +348,11 @@ function generatePreffixCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i*2+j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsPartOfSpeech = document.createElement("div");
-            vowelsPartOfSpeech.textContent = vowelsCasesArray[j] + "格";
+            vowelsPartOfSpeech.textContent = vowelsCasesArray[i+j*2] + "格";
             vowelsPartOfSpeech.classList.add("cases");
             VowelCell.appendChild(vowelsPartOfSpeech);
             vowelsVerticalRow.appendChild(VowelCell);
