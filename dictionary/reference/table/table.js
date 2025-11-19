@@ -457,24 +457,51 @@ function generateArticleConjugationTable() {
     caption.textContent = "附詞活用表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
-    let vowelsPronunciationHorizontalRow = document.createElement("tr");
+    let consonantsTenseRow = document.createElement("tr");
     let blank = document.createElement("th");
     blank.textContent = "";
-    vowelsPronunciationHorizontalRow.appendChild(blank);
-    thead.appendChild(vowelsPronunciationHorizontalRow);
+    consonantsTenseRow.appendChild(blank);
+    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}a" + middleTangueConsonantsArray[i];
+        p.classList.add("zosokw", "article-tense-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
+        p2.classList.add("article-tense");
+        th.appendChild(p2);
+        consonantsTenseRow.appendChild(th);
+    }
+    thead.appendChild(consonantsTenseRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let td = document.createElement("td");
-    let p2 = document.createElement("div");
-    p2.classList.add("zosokw");
-    let span = document.createElement("span");
-    span.classList.add("original-form");
-    span.textContent = "\u{25CC}\u{25CC}\u{25CC}a";
-    p2.appendChild(span);
-    td.appendChild(p2);
-    tr2.appendChild(td);
-    tbody.appendChild(tr2);
+    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+        let tr = document.createElement("tr");
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = upperTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}a";
+        p.classList.add("zosokw", "article-aspect-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = upperTangueConsonantsConceptArray[i] + "相";
+        p2.classList.add("article-aspect");
+        th.appendChild(p2);
+        tr.appendChild(th);
+        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
+            let td = document.createElement("td");
+            let p = document.createElement("div");
+            p.classList.add("zosokw", "article-conjugation-form-consonant");
+            p.append(upperTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}a", middleTangueConsonantsArray[j]);
+            td.appendChild(p);
+            let p2 = document.createElement("div");
+            p2.append(upperTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
+            p2.classList.add("article-conjugation-form");
+            td.appendChild(p2);
+            tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+    }
     table.appendChild(tbody);
     document.querySelectorAll(".article-conjugation-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
@@ -548,20 +575,47 @@ function generateAdjectiveConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
+    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + upperTangueConsonantsArray[i];
+        p.classList.add("zosokw", "adjective-tense-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = upperTangueConsonantsConceptArray[i] + "形";
+        p2.classList.add("adjective-tense");
+        th.appendChild(p2);
+        vowelsPronunciationHorizontalRow.appendChild(th);
+    }
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let td = document.createElement("td");
-    let p2 = document.createElement("div");
-    p2.classList.add("zosokw");
-    let span = document.createElement("span");
-    span.classList.add("original-form");
-    span.textContent = "\u{25CC}\u{25CC}\u{25CC}i";
-    p2.appendChild(span);
-    td.appendChild(p2);
-    tr2.appendChild(td);
-    tbody.appendChild(tr2);
+    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
+        let tr = document.createElement("tr");
+        let th = document.createElement("th");
+        let p2 = document.createElement("div");
+        p2.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
+        p2.classList.add("zosokw", "adjective-aspect-consonant");
+        th.appendChild(p2);
+        let p3 = document.createElement("div");
+        p3.textContent = lowerTangueConsonantsConceptArray[i] + "相";
+        p3.classList.add("adjective-aspect");
+        th.appendChild(p3);
+        tr.appendChild(th);
+        for (let j = 0; j < upperTangueConsonantsArray.length; j++) {
+            let td = document.createElement("td");
+            let p = document.createElement("div");
+            p.classList.add("zosokw", "adjective-conjugation-form-consonant");
+            p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTangueConsonantsArray[j]);
+            td.appendChild(p);
+            let p2 = document.createElement("div");
+            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), upperTangueConsonantsConceptArray[j] + "形");
+            p2.classList.add("adjective-conjugation-form");
+            td.appendChild(p2);
+            tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+    }
     table.appendChild(tbody);
     document.querySelectorAll(".adjective-conjugation-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
@@ -574,24 +628,51 @@ function generateParticleConjugationTable() {
     caption.textContent = "助詞活用表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
-    let vowelsPronunciationHorizontalRow = document.createElement("tr");
+    let consonantsTenseRow = document.createElement("tr");
     let blank = document.createElement("th");
     blank.textContent = "";
-    vowelsPronunciationHorizontalRow.appendChild(blank);
-    thead.appendChild(vowelsPronunciationHorizontalRow);
+    consonantsTenseRow.appendChild(blank);
+    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}o" + middleTangueConsonantsArray[i];
+        p.classList.add("zosokw", "particle-tense-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
+        p2.classList.add("particle-tense");
+        th.appendChild(p2);
+        consonantsTenseRow.appendChild(th);
+    }
+    thead.appendChild(consonantsTenseRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let td = document.createElement("td");
-    let p2 = document.createElement("div");
-    p2.classList.add("zosokw");
-    let span = document.createElement("span");
-    span.classList.add("original-form");
-    span.textContent = "\u{25CC}\u{25CC}\u{25CC}o";
-    p2.appendChild(span);
-    td.appendChild(p2);
-    tr2.appendChild(td);
-    tbody.appendChild(tr2);
+    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+        let tr = document.createElement("tr");
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = upperTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}o";
+        p.classList.add("zosokw", "particle-aspect-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = upperTangueConsonantsConceptArray[i] + "相";
+        p2.classList.add("particle-aspect");
+        th.appendChild(p2);
+        tr.appendChild(th);
+        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
+            let td = document.createElement("td");
+            let p = document.createElement("div");
+            p.classList.add("zosokw", "particle-conjugation-form-consonant");
+            p.append(upperTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}o", middleTangueConsonantsArray[j]);
+            td.appendChild(p);
+            let p2 = document.createElement("div");
+            p2.append(upperTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
+            p2.classList.add("particle-conjugation-form");
+            td.appendChild(p2);
+            tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+    }
     table.appendChild(tbody);
     document.querySelectorAll(".particle-conjugation-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
@@ -665,20 +746,47 @@ function generateNounConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontal.appendChild(blank);
+    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + upperTangueConsonantsArray[i];
+        p.classList.add("zosokw", "noun-tense-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = upperTangueConsonantsConceptArray[i] + "形";
+        p2.classList.add("noun-tense");
+        th.appendChild(p2);
+        vowelsPronunciationHorizontal.appendChild(th);
+    }
     thead.appendChild(vowelsPronunciationHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    let tr2 = document.createElement("tr");
-    let td = document.createElement("td");
-    let p2 = document.createElement("div");
-    p2.classList.add("zosokw");
-    let span = document.createElement("span");
-    span.classList.add("original-form");
-    span.textContent = "\u{25CC}\u{25CC}\u{25CC}w";
-    p2.appendChild(span);
-    td.appendChild(p2);
-    tr2.appendChild(td);
-    tbody.appendChild(tr2);
+    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
+        let tr = document.createElement("tr");
+        let th = document.createElement("th");
+        let p = document.createElement("div");
+        p.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
+        p.classList.add("zosokw", "noun-aspect-consonant");
+        th.appendChild(p);
+        let p2 = document.createElement("div");
+        p2.textContent = lowerTangueConsonantsConceptArray[i] + "相";
+        p2.classList.add("noun-aspect");
+        th.appendChild(p2);
+        tr.appendChild(th);
+        for (let j = 0; j < upperTangueConsonantsArray.length; j++) {
+            let td = document.createElement("td");
+            let p = document.createElement("div");
+            p.classList.add("zosokw", "noun-conjugation-form-consonant");
+            p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTangueConsonantsArray[j]);
+            td.appendChild(p);
+            let p2 = document.createElement("div");
+            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), upperTangueConsonantsConceptArray[j] + "形");
+            p2.classList.add("noun-conjugation-form");
+            td.appendChild(p2);
+            tr.appendChild(td);
+        }
+        tbody.appendChild(tr);
+    }
     table.appendChild(tbody);
     document.querySelectorAll(".noun-conjugation-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
