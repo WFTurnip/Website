@@ -59,8 +59,8 @@ figure object {
     height: auto;
 }
 
-header nav,
-footer nav,
+header> nav,
+footer> nav,
 ol {
     list-style: none;
     display: flex;
