@@ -65,11 +65,11 @@ function generateConsonantsPronunciationTable() {
         for (let j = 0; j < consonantsArray.length / consonantsPronunciationVerticalArray.length; j++) {
             let consonantsCell = document.createElement("td");
             let consonants = document.createElement("div");
-            consonants.textContent = consonantsArray[i * 6 + j];
+            consonants.textContent = consonantsArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j];
             consonants.classList.add("zosokw");
             consonantsCell.appendChild(consonants);
             let consonantsPronunciation = document.createElement("div");
-            consonantsPronunciation.textContent = "[" + consonantsPronunciationArray[i * 6 + j] + "]";
+            consonantsPronunciation.textContent = "[" + consonantsPronunciationArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j] + "]";
             consonantsPronunciation.classList.add("pronunciation");
             consonantsCell.appendChild(consonantsPronunciation);
             consonantVerticalRow.appendChild(consonantsCell);
@@ -108,11 +108,11 @@ function generateVowelsPronunciationTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let vowelsCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * 3 + j];
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j];
             vowels.classList.add("zosokw");
             vowelsCell.appendChild(vowels);
             let vowelsPronunciation = document.createElement("div");
-            vowelsPronunciation.textContent = "[" + vowelsPronunciationArray[i * 3 + j] + "]";
+            vowelsPronunciation.textContent = "[" + vowelsPronunciationArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "]";
             vowelsPronunciation.classList.add("pronunciation");
             vowelsCell.appendChild(vowelsPronunciation);
             vowelsVerticalRow.appendChild(vowelsCell);
@@ -162,11 +162,11 @@ function generateConsonantConceptTable() {
         for (let j = 0; j < consonantsArray.length / consonantsPronunciationVerticalArray.length; j++) {
             let consonantsCell = document.createElement("td");
             let consonants = document.createElement("div");
-            consonants.textContent = consonantsArray[i * 6 + j];
+            consonants.textContent = consonantsArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j];
             consonants.classList.add("zosokw");
             consonantsCell.appendChild(consonants);
             let consonantsConcept = document.createElement("div");
-            consonantsConcept.textContent = consonantsConceptArray[i * 6 + j];
+            consonantsConcept.textContent = consonantsConceptArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j];
             consonantsConcept.classList.add("concept");
             consonantsCell.appendChild(consonantsConcept);
             consonantVerticalRow.appendChild(consonantsCell);
@@ -205,11 +205,11 @@ function generateFirstCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * 3 + j] + "\u{25CC}\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[i * 3 + j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
             vowelsCase.classList.add("cases");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -248,11 +248,11 @@ function generateSecondCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i * 3 + j] + "\u{25CC}";
+            vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[i * 3 + j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
             vowelsCase.classList.add("cases");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -352,11 +352,11 @@ function generatePreffixCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * 3 + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsPartOfSpeech = document.createElement("div");
-            vowelsPartOfSpeech.textContent = vowelsCasesArray[i * 3 + j] + "格";
+            vowelsPartOfSpeech.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
             vowelsPartOfSpeech.classList.add("cases");
             VowelCell.appendChild(vowelsPartOfSpeech);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -395,11 +395,11 @@ function generateSuffixCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * 3 + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
             vowels.classList.add("zosokw");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[i * 3 + j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
             vowelsCase.classList.add("cases");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -438,11 +438,11 @@ function generatePartOfSpeechTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPartOfSpeechTypesVerticalArray.length; j++) {
             let vowelsRow = document.createElement("td");
             let vowel = document.createElement("div");
-            vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * 3 + j];
+            vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j];
             vowel.classList.add("zosokw");
             vowelsRow.appendChild(vowel);
             let vowelsPartOfSpeech = document.createElement("div");
-            vowelsPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i * 3 + j] + "詞";
+            vowelsPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "詞";
             vowelsPartOfSpeech.classList.add("part-of-speech");
             vowelsRow.appendChild(vowelsPartOfSpeech);
             vowelsVerticalRow.appendChild(vowelsRow);
