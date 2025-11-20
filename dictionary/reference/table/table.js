@@ -24,9 +24,11 @@ const upperTangueConsonantsConceptArray = ["剥離", "癒着", "乖離", "同一
 const middleTangueConsonantsConceptArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
 const lowerTangueConsonantsConceptArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
 
-function generateConsonantsModelTable(){}
-function generateVowelssModelTable(){}
-function generateConjunctModelTable(){}
+function generateConsonantsModelTable() { }
+
+function generateVowelsModelTable() { }
+
+function generateConjunctModelTable() { }
 
 function generateConsonantsPronunciationTable() {
     let table = document.createElement("table");
