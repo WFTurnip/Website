@@ -20,6 +20,10 @@ async function generateIndex() {
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
+    let mataViewport = document.createElement("meta");
+    metaViewport.setAttribute("name", "viewport");
+    metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
+    head.appendChild(metaViewport);
     let title = document.createElement("title");
     title.textContent = "子音一覧";
     head.appendChild(title);
@@ -120,6 +124,10 @@ async function generateConsonant(i) {
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
+    let mataViewport = document.createElement("meta");
+    metaViewport.setAttribute("name", "viewport");
+    metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
+    head.appendChild(metaViewport);
     let title = document.createElement("title");
     title.textContent = "頭文字" + consonantsArray[i].toUpperCase();
     head.appendChild(title);
@@ -259,6 +267,10 @@ async function generateRoot(i, j, k) {
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
+    let mataViewport = document.createElement("meta");
+    metaViewport.setAttribute("name", "viewport");
+    metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
+    head.appendChild(metaViewport);
     let title = document.createElement("title");
     title.textContent = "語根" + consonantsArray[i].toUpperCase() + consonantsArray[j].toUpperCase() + consonantsArray[k].toUpperCase();
     head.appendChild(title);
