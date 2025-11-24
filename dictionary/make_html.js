@@ -20,7 +20,7 @@ async function generateIndex() {
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
-    let mataViewport = document.createElement("meta");
+    let metaViewport = document.createElement("meta");
     metaViewport.setAttribute("name", "viewport");
     metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
     head.appendChild(metaViewport);
@@ -124,7 +124,7 @@ async function generateConsonant(i) {
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
-    let mataViewport = document.createElement("meta");
+    let metaViewport = document.createElement("meta");
     metaViewport.setAttribute("name", "viewport");
     metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
     head.appendChild(metaViewport);
@@ -267,7 +267,7 @@ async function generateRoot(i, j, k) {
     let meta = document.createElement("meta");
     meta.setAttribute("charset", "UTF-8");
     head.appendChild(meta);
-    let mataViewport = document.createElement("meta");
+    let metaViewport = document.createElement("meta");
     metaViewport.setAttribute("name", "viewport");
     metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
     head.appendChild(metaViewport);
