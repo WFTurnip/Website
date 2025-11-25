@@ -1,0 +1,24 @@
+body {
+    writing-mode: horizontal-tb;
+    font-family: serif;
+    padding: 2rem;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+}
+
+h1,
+h2 {
+    font-variant: small-caps;
+}
+
+p {
+    hyphens: auto;
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}

@@ -1,0 +1,19 @@
+body {
+    writing-mode: horizontal-tb;
+    font-family: serif;
+    padding: 2rem;
+    letter-spacing: 0;
+    line-height: 1.25rem;
+}
+
+p {
+    text-indent: 1rem;
+}
+
+q::before {
+    content: open-quote;
+}
+
+q::after {
+    content: close-quote;
+}
