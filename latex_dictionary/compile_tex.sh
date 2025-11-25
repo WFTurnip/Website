@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -e
 
-rm -f -- *~ *gf *pk *dvi *l*g *ps *tfm *png *gif *pdf
+rm -f -- *~ *gf *pk *dvi *l*g *ps *tfm *png *gif *pdf *ind *idx
 
 touch *
 
@@ -9,7 +9,7 @@ mpost emblem.mp
 
 uplatex reference.tex
 
-upmendex reference.idx
+# upmendex reference.idx
 
 uplatex reference.tex
 
