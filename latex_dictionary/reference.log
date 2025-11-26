@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.18)  25 NOV 2025 20:05
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.27)  27 NOV 2025 02:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,7 +6,7 @@ entering extended mode
 (./reference.tex
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
 (/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jsbook.cls
 Document Class: jsbook 2025/04/27 jsclasses (okumura, texjporg)
 Class jsbook Info: Autodetected engine: upLaTeX on input line 222.
@@ -337,14 +337,7 @@ File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 \g__pdfannot_backend_link_int=\count310
 \g__pdfannot_backend_link_sf_int=\count311
 )
-(./reference.aux
-
-LaTeX Warning: Label `subsection2.2.1' multiply defined.
-
-
-LaTeX Warning: Label `subsection6.1.2' multiply defined.
-
-)
+(./reference.aux)
 \openout1 = `reference.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
@@ -377,7 +370,8 @@ File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
 LaTeX Font Info:    ... okay on input line 9.
 Package hyperref Info: Link coloring OFF on input line 9.
- (./reference.out) (./reference.out)
+
+(./reference.out) (./reference.out)
 \@outlinefile=\write3
 \openout3 = `reference.out'.
 
@@ -509,22 +503,18 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-11-14>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `reference.out' has not changed.
 (rerunfilecheck)             Checksum: 67ACBA6452A52D52DAC078A9D746251D;3873.
  ) 
 Here is how much of TeX's memory you used:
- 10858 strings out of 468182
- 159871 string characters out of 5434878
- 591663 words of memory out of 5000000
- 39653 multiletter control sequences out of 15000+600000
+ 10860 strings out of 468182
+ 159905 string characters out of 5434878
+ 591696 words of memory out of 5000000
+ 39655 multiletter control sequences out of 15000+600000
  645869 words of font info for 129 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  72i,9n,79p,354b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on reference.dvi (31 pages, 90708 bytes).
+Output written on reference.dvi (31 pages, 90668 bytes).
