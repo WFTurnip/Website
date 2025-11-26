@@ -74,8 +74,8 @@ async function generateVowelFigure() {
         let line = document.createElementNS(svgns, "line");
         let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
         let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
-        let x2 = centerX + centerX * Math.sin((i + 1) * Math.PI / 3);
-        let y2 = centerY + centerY * Math.cos((i + 1) * Math.PI / 3);
+        let x2 = centerX + centerX * Math.sin((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
+        let y2 = centerY + centerY * Math.cos((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
         line.setAttribute("x1", x1);
         line.setAttribute("y1", y1);
         line.setAttribute("x2", x2);
@@ -234,8 +234,8 @@ async function generateFirstCaseFigure() {
         let line = document.createElementNS(svgns, "line");
         let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
         let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
-        let x2 = centerX + centerX * Math.sin((i + 1) * Math.PI / 3);
-        let y2 = centerY + centerY * Math.cos((i + 1) * Math.PI / 3);
+        let x2 = centerX + centerX * Math.sin((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
+        let y2 = centerY + centerY * Math.cos((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
         line.setAttribute("x1", x1);
         line.setAttribute("y1", y1);
         line.setAttribute("x2", x2);
@@ -293,8 +293,8 @@ async function generateSecondCaseFigure() {
         let line = document.createElementNS(svgns, "line");
         let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
         let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
-        let x2 = centerX + centerX * Math.sin((i + 1) * Math.PI / 3);
-        let y2 = centerY + centerY * Math.cos((i + 1) * Math.PI / 3);
+        let x2 = centerX + centerX * Math.sin((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
+        let y2 = centerY + centerY * Math.cos((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
         line.setAttribute("x1", x1);
         line.setAttribute("y1", y1);
         line.setAttribute("x2", x2);
@@ -431,8 +431,8 @@ async function generatePrefixCaseFigure() {
         let line = document.createElementNS(svgns, "line");
         let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
         let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
-        let x2 = centerX + centerX * Math.sin((i + 1) * Math.PI / 3);
-        let y2 = centerY + centerY * Math.cos((i + 1) * Math.PI / 3);
+        let x2 = centerX + centerX * Math.sin((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
+        let y2 = centerY + centerY * Math.cos((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
         line.setAttribute("x1", x1);
         line.setAttribute("y1", y1);
         line.setAttribute("x2", x2);
@@ -489,8 +489,8 @@ async function generateSuffixCaseFigure() {
         let line = document.createElementNS(svgns, "line");
         let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
         let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
-        let x2 = centerX + centerX * Math.sin((i + 1) * Math.PI / 3);
-        let y2 = centerY + centerY * Math.cos((i + 1) * Math.PI / 3);
+        let x2 = centerX + centerX * Math.sin((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
+        let y2 = centerY + centerY * Math.cos((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
         line.setAttribute("x1", x1);
         line.setAttribute("y1", y1);
         line.setAttribute("x2", x2);
@@ -547,8 +547,8 @@ async function generatePartOfSpeechFigure() {
         let line = document.createElementNS(svgns, "line");
         let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
         let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
-        let x2 = centerX + centerX * Math.sin((i + 1) * Math.PI / 3);
-        let y2 = centerY + centerY * Math.cos((i + 1) * Math.PI / 3);
+        let x2 = centerX + centerX * Math.sin((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
+        let y2 = centerY + centerY * Math.cos((i + vowelsArray.length / vowelsPronunciationArray.length) * Math.PI / 3);
         line.setAttribute("x1", x1);
         line.setAttribute("y1", y1);
         line.setAttribute("x2", x2);
