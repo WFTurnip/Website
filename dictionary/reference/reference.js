@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
     tocNav.innerHTML = "";
 
     document.querySelectorAll("main section").forEach(section => {
-        section.querySelectorAll("h2[id], h3[id]").forEach(heading => {
+        section.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]").forEach(heading => {
             if (!heading.id) return;
             const tocHeading = document.createElement(heading.tagName.toLowerCase());
             const a = document.createElement("a");
@@ -34,8 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
             let parent = target.parentElement;
             while (parent) {
                 if (parent.tagName.toLowerCase() === "details") {
-                    // parent.open = !parent.open; // 開閉トグルにしたい場合
-                    parent.open = true; // 常に開くだけならこちら
+                    parent.open = true;
                 }
                 parent = parent.parentElement;
             }
