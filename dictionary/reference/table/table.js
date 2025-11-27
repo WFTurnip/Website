@@ -79,7 +79,7 @@ function generateConsonantsPronunciationTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".consonant-table").forEach(function (element) {
+    document.querySelectorAll(".consonants-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
@@ -122,7 +122,7 @@ function generateVowelsPronunciationTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".vowel-table").forEach(function (element) {
+    document.querySelectorAll(".vowels-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
