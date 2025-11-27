@@ -22,7 +22,7 @@ def consocentercircle =
   drawdot(w/2,w/2);
 enddef;
 
-def numcentercircle =
+def zerocircle =
   pickup pencircle scaled (w/10);
   for i = 1 upto 8:
     drawdot(w/2+(2*w/10)*cosd(45*i),w/2+(2*w/10)*sind(45*i));
@@ -129,7 +129,7 @@ beginchar("0",w#,h#,d#);
   if proofing = 2:
     makegrid;
   fi;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("1",w#,h#,d#);
@@ -137,7 +137,7 @@ beginchar("1",w#,h#,d#);
     makegrid;
   fi;
   consonant_k;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("2",w#,h#,d#);
@@ -145,7 +145,7 @@ beginchar("2",w#,h#,d#);
     makegrid;
   fi;
   consonant_t;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("3",w#,h#,d#);
@@ -153,7 +153,7 @@ beginchar("3",w#,h#,d#);
     makegrid;
   fi;
   consonant_s;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("4",w#,h#,d#);
@@ -161,7 +161,7 @@ beginchar("4",w#,h#,d#);
     makegrid;
   fi;
   consonant_q;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("5",w#,h#,d#);
@@ -169,7 +169,7 @@ beginchar("5",w#,h#,d#);
     makegrid;
   fi;
   consonant_r;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("6",w#,h#,d#);
@@ -177,7 +177,7 @@ beginchar("6",w#,h#,d#);
     makegrid;
   fi;
   consonant_p;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("7",w#,h#,d#);
@@ -185,7 +185,7 @@ beginchar("7",w#,h#,d#);
     makegrid;
   fi;
   consonant_h;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("8",w#,h#,d#);
@@ -193,7 +193,7 @@ beginchar("8",w#,h#,d#);
     makegrid;
   fi;
   consonant_f;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("9",w#,h#,d#);
@@ -201,7 +201,7 @@ beginchar("9",w#,h#,d#);
     makegrid;
   fi;
   consonant_m;
-  numcentercircle;
+  zerocircle;
 endchar;
 
 beginchar("k",w#,h#,d#);
