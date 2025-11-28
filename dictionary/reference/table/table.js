@@ -186,6 +186,7 @@ function generatePrefixConsonantsTable() {
     let caption = document.createElement("caption");
     caption.textContent = "接頭辞表";
     table.appendChild(caption);
+    let thead = document.createElement("thead");
     document.querySelectorAll(".prefix-consonants-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
