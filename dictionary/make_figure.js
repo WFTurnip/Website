@@ -215,6 +215,21 @@ async function generateConsonantConceptFigure() {
     }
 }
 
+async function generatePrefixConsonantsFigure() {
+    let filename = path.join("reference/", "figure/", "prefix_consonants_figure.svg");
+
+}
+
+async function generateSuffixConsonantsFigure() {
+    let filename = path.join("reference/", "figure/", "suffix_consonants_figure.svg");
+
+}
+
+async function generateCircumfixConsonantsFigure() {
+    let filename = path.join("reference/", "figure/", "circumfix_consonants_figure.svg");
+
+}
+
 async function generateFirstCaseFigure() {
     let filename = path.join("reference/", "figure/", "first_case_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
@@ -798,6 +813,9 @@ async function make() {
     await generateRtlFigure();
     await generateLtrFigure();
     await generateConsonantConceptFigure();
+    await generatePrefixConsonantsFigure();
+    await generateSuffixConsonantsFigure();
+    await generateCircumfixConsonantsFigure();
     await generateFirstCaseFigure();
     await generateSecondCaseFigure();
     await generateConjunctCaseFigure();
