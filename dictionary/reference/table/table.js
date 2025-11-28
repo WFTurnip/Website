@@ -181,6 +181,36 @@ function generateConsonantsConceptTable() {
     });
 }
 
+function generatePrefixConsonantsTable() {
+    let table = document.createElement("table");
+    let caption = document.createElement("caption");
+    caption.textContent = "接頭辞表";
+    table.appendChild(caption);
+    document.querySelectorAll(".prefix-consonants-table").forEach(function (element) {
+        element.appendChild(table.cloneNode(true));
+    });
+}
+
+function generateSuffixConsonantsTable() {
+    let table = document.createElement("table");
+    let caption = document.createElement("caption");
+    caption.textContent = "接尾辞表";
+    table.appendChild(caption);
+    document.querySelectorAll(".suffix-consonants-table").forEach(function (element) {
+        element.appendChild(table.cloneNode(true));
+    });
+}
+
+function generateCircumfixConsonantsTable() {
+    let table = document.createElement("table");
+    let caption = document.createElement("caption");
+    caption.textContent = "接周辞";
+    table.appendChild(caption);
+    document.querySelectorAll(".circumfix-consonants-table").forEach(function (element) {
+        element.appendChild(table.cloneNode(true));
+    });
+}
+
 function generateFirstCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -803,6 +833,9 @@ window.onload = function () {
     generateConsonantsPronunciationTable();
     generateVowelsPronunciationTable();
     generateConsonantsConceptTable();
+    generatePrefixConsonantsTable();
+    generateSuffixConsonantsTable();
+    generateCircumfixConsonantsTable();
     generateFirstCaseTable();
     generateSecondCaseTable();
     generateConjunctCaseTable();
