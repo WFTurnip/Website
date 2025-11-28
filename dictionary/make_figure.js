@@ -217,17 +217,137 @@ async function generateConsonantConceptFigure() {
 
 async function generatePrefixConsonantsFigure() {
     let filename = path.join("reference/", "figure/", "prefix_consonants_figure.svg");
-
+    const svgns = "http://www.w3.org/2000/svg";
+    const dom = new JSDOM();
+    const document = dom.window.document;
+    let width = 256;
+    let height = 256;
+    let apex = 6;
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+    let centerX = width / 2;
+    let centerY = height / 2;
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgns, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / 3);
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
+        svgString;
+    svgContent = beautify(svgContent, { indent_size: 4 });
+    try {
+        await fs.writeFile(filename, svgContent);
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.log("ファイル" + filename + "を作成できませんでした。");
+    }
 }
 
 async function generateSuffixConsonantsFigure() {
     let filename = path.join("reference/", "figure/", "suffix_consonants_figure.svg");
-
+    const svgns = "http://www.w3.org/2000/svg";
+    const dom = new JSDOM();
+    const document = dom.window.document;
+    let width = 256;
+    let height = 256;
+    let apex = 6;
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+    let centerX = width / 2;
+    let centerY = height / 2;
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgns, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / 3);
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
+        svgString;
+    svgContent = beautify(svgContent, { indent_size: 4 });
+    try {
+        await fs.writeFile(filename, svgContent);
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.log("ファイル" + filename + "を作成できませんでした。");
+    }
 }
 
 async function generateCircumfixConsonantsFigure() {
     let filename = path.join("reference/", "figure/", "circumfix_consonants_figure.svg");
-
+    const svgns = "http://www.w3.org/2000/svg";
+    const dom = new JSDOM();
+    const document = dom.window.document;
+    let width = 512;
+    let height = 512;
+    let apex = 6;
+    let svg = document.createElementNS(svgns, "svg");
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
+    let centerX = width / 2;
+    let centerY = height / 2;
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgns, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / 3);
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / 3);
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / 3);
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / 3);
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
+    let serializer = new dom.window.XMLSerializer();
+    let svgString = serializer.serializeToString(svg);
+    let svgContent =
+        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
+        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
+        svgString;
+    svgContent = beautify(svgContent, { indent_size: 4 });
+    try {
+        await fs.writeFile(filename, svgContent);
+        console.log("ファイル" + filename + "を作成しました。");
+    } catch (error) {
+        console.log("ファイル" + filename + "を作成できませんでした。");
+    }
 }
 
 async function generateFirstCaseFigure() {

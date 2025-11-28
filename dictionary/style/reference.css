@@ -203,14 +203,14 @@ nav {
 }
 
 dl {
-    column-count: 2;
+    column-count: 1;
     column-rule-style: solid;
 }
 
 @media (max-width: 48rem) {
 
     nav {
-        column-count: 1;
+        column-count: 2;
         column-gap: none;
     }
 
