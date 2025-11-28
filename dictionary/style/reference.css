@@ -33,11 +33,11 @@ body h3::before {
 }
 
 body h4::before {
-    content: "第" counter(chapter, japanese-informal) "章" counter(section, japanese-informal) "節第" counter(subsection, japanese-informal) "小節\3000";
+    content: "第" counter(subsection, japanese-informal) "小節\3000";
 }
 
 body h5::before {
-    content: "第" counter(chapter, japanese-informal) "章" counter(section, japanese-informal) "節第" counter(subsection, japanese-informal) "小節第" counter(subsubsection, japanese-informal) "図表\3000";
+    content: "第" counter(subsubsection, japanese-informal) "図表\3000";
 }
 
 .table-of-content {
@@ -80,11 +80,11 @@ nav h3::before {
 }
 
 nav h4::before {
-    content: "第" counter(toc-chapter, japanese-informal) "章" counter(toc-section, japanese-informal) "節第" counter(toc-subsection, japanese-informal) "小節\3000";
+    content: "第" counter(toc-subsection, japanese-informal) "小節\3000";
 }
 
 nav h5::before {
-        content: "第" counter(toc-chapter, japanese-informal) "章" counter(toc-section, japanese-informal) "節第" counter(toc-subsection, japanese-informal) "小節第"  counter(toc-subsubsection, japanese-informal) "図表\3000";
+    content: "第"  counter(toc-subsubsection, japanese-informal) "図表\3000";
 }
 
 h1 {
