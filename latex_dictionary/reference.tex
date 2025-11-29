@@ -1,121 +1,55 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
-\documentclass[
-  japanese,
-]{article}
+\documentclass{jsbook}
 \usepackage{xcolor}
 \usepackage{amsmath,amssymb}
-\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
-\ifPDFTeX
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math} % this also loads fontspec
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
 \usepackage{lmodern}
-\ifPDFTeX\else
-  % xetex/luatex font selection
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\ifLuaTeX
-\usepackage[bidi=basic,shorthands=off,provide=*]{babel}
-\else
-\usepackage[bidi=default,shorthands=off,provide=*]{babel}
-\fi
-\ifLuaTeX
-  \usepackage{selnolig} % disable illegal ligatures
-\fi
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\usepackage{bookmark}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\urlstyle{same}
-\hypersetup{
-  pdftitle={エレギア語文法書},
-  pdflang={ja},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-
+\usepackage{parskip}
+\usepackage{tipa,tipx}
+\usepackage{vowel}
 \title{エレギア語文法書}
 \author{}
 \date{}
-
 \begin{document}
-\maketitle
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\subsection{目次}\label{ux76eeux6b21}
-
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
-
-\subsection{序章}\label{chapter1}
-
-\subsubsection{はじめに}\label{section1.1}
-
-\paragraph{この文法書について}\label{subsection1.1.1}
-
+\maketitle{}
+\tableofcontents{}
+\chapter{序章}\label{chapter1}
+\section{はじめに}\label{section1.1}
+\subsection{この文法書について}\label{subsection1.1.1}
 本書はエレギア帝国帝立大学言語学研究所によって刊行された辞典、{Cinarwziqili
 Beruvwdikwtw} イナールズィーリ・ベルーヴディクト の巻末資料{Cinarwziqili
 Gwlamwdufunw} イナールズィーリ・グラームドゥフーン
 を日本語に翻訳したものである。
-
 本辞典および文法書の翻訳にあたり、エレギア帝国帝立大学言語学研究所の皆様から多大なるご支援と貴重な助言を賜った。ここに深く感謝の意を表する。
-
-\subsubsection{言語の概要}\label{section1.2}
-
+\section{言語の概要}\label{section1.2}
 エレギア語は、砂漠の中のオアシス都市を中心に成立した帝国、エレギア帝国の公用語である。
 
 その文法や発音は、ハナス・ピスピ共和連合時代に話されていたピスピ語から殆ど変化しておらず、多様な遺物が当時のまま解読可能である。
 
 帝国議会によって制定された数多くの書体は、近年オープンソースのデジタルフォントとして整備され、帝国公式のウェブサイトにて公開されている。
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\chapter{音韻体系}\label{chapter2}
 
-\subsection{音韻体系}\label{chapter2}
-
-\subsubsection{子音の発音}\label{section2.1}
+\section{子音の発音}\label{section2.1}
 
 子音文字は調音部位を象った形状を持ち、音声学的な特徴を視覚的に表現している。
 
-\paragraph{子音発音図表}\label{subsection2.1.1}
+\subsection{子音発音図表}\label{subsection2.1.1}
 
-\subparagraph{子音発音表}\label{subsubsection2.1.1.1}
+\subsubsection{子音発音表}\label{subsubsection2.1.1.1}
 
-\subparagraph{子音発音図}\label{subsubsection2.1.1.2}
+\subsubsection{子音発音図}\label{subsubsection2.1.1.2}
 
 \begin{figure}
 \centering
 \caption{子音発音図}
 \end{figure}
 
-\paragraph{子音発音説明}\label{subsection2.1.2}
+\subsection{子音発音説明}\label{subsection2.1.2}
 
 子音の発音に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[{k}]
 この文字は{{[}k{]}}という発音であることを指す。
 \item[{g}]
@@ -154,63 +88,61 @@ Gwlamwdufunw} イナールズィーリ・グラームドゥフーン
 この文字は{{[}n{]}}という発音であることを指す。
 \end{description}
 
-\subsubsection{母音の発音}\label{section2.2}
+\section{母音の発音}\label{section2.2}
 
 この言語において母音符号の付与は限定的であり、特に初学用や幼児用に母音符号を記述することもある。
 
-\paragraph{母音発音図表}\label{subsection2.2.1}
+\subsection{母音発音図表}\label{subsection2.2.1}
 
-\subparagraph{母音発音表}\label{subsubsection2.2.1.1}
+\subsubsection{母音発音表}\label{subsubsection2.2.1.1}
 
-\subparagraph{母音発音図}\label{subsubsection2.2.1.2}
+\subsubsection{母音発音図}\label{subsubsection2.2.1.2}
 
 \begin{figure}
 \centering
 \caption{母音発音図}
 \end{figure}
 
-\paragraph{母音発音説明}\label{subsection2.2.2}
+\subsection{母音発音説明}\label{subsection2.2.2}
 
 母音の発音に就いての説明
 
 \begin{description}
-\tightlist
-\item[{◌a}]
+
+\item[{-a}]
 この文字は{{[}a{]}}という発音であることを指す。
-\item[{◌e}]
+\item[{-e}]
 この文字は{{[}e{]}}という発音であることを指す。
-\item[{◌i}]
+\item[{-i}]
 この文字は{{[}i{]}}という発音であることを指す。
-\item[{◌o}]
+\item[{-o}]
 この文字は{{[}o{]}}という発音であることを指す。
-\item[{◌u}]
+\item[{-u}]
 この文字は{{[}u{]}}という発音であることを指す。
-\item[{◌w}]
+\item[{-w}]
 この文字は無母音であることを指す。
 \end{description}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\chapter{書記体系}\label{chapter3}
 
-\subsection{書記体系}\label{chapter3}
-
-\subsubsection{文字体系}\label{section3.1}
+\section{文字体系}\label{section3.1}
 
 \begin{description}
-\tightlist
+
 \item[ピスピ文字]
 先述のエレギア文字の祖先に該当する書記体系。古代文明ハナス・ピスピで広く用いられていた記録が残っており、現在では伝統的な装飾や詩歌などに用いられている。
 \item[エレギア文字]
 現行のエレギア語表記に広く用いられる文字。複数の字体があり、地域差が甚だしい書記体系とも取ることができるが、拡張文字も存在し、遍く使われ得る書記体系と銘打たれることもある。
 \end{description}
 
-\subsubsection{標準字体}\label{section3.2}
+\section{標準字体}\label{section3.2}
 
 エレギア語の書記体系には、地域や時代によって異なる字体が存在する。これらの字体は、エレギア語の文化や歴史を反映している。
 
 エレギア語に用いられる標準字体
 
 \begin{description}
-\tightlist
+
 \item[コディート体]
 kodito
 
@@ -260,11 +192,11 @@ zosokw
 が考案した書体。後にこれはエレギア帝国の教育用標準書体として制定された。
 \end{description}
 
-\subsubsection{約物}\label{section3.3}
+\section{約物}\label{section3.3}
 
 エレギア語において、約物は主に文構造を明確にするために使用される。
 
-\subparagraph{約物の使用法}\label{subsubsection3.3.1}
+\subsubsection{約物の使用法}\label{subsubsection3.3.1}
 
 エレギア語で用いられる約物の一覧と役割を示す。
 
@@ -293,23 +225,23 @@ zosokw
 \end{figure}
 \end{description}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{子音の役割}\label{chapter4}
 
-\subsubsection{単語構造}\label{section4.1}
+\chapter{子音の役割}\label{chapter4}
 
-\subparagraph{基本単語構造}\label{subsubsection4.1.1}
+\section{単語構造}\label{section4.1}
+
+\subsubsection{基本単語構造}\label{subsubsection4.1.1}
 
 エレギア語の基本単語構造はC\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2}C\textsubscript{3}V\textsubscript{3}となる。これは原型となる単語のことであって、活用形などは後述する接辞の節にて単語構造が拡張される。
 
-\subsubsection{子音概念}\label{section4.2}
+\section{子音概念}\label{section4.2}
 
 語根はエレギア語において最も重要な単語の概念を指し示す水先案内人の様な存在である。後世の学者たちが単語を区別するために子音概念を明瞭化させた。そのために子音概念を理解することが重要である。
 
-\subparagraph{子音概念表}\label{subsubsection4.2.1}
+\subsubsection{子音概念表}\label{subsubsection4.2.1}
 
-\subparagraph{子音概念図}\label{subsubsection4.2.2}
+\subsubsection{子音概念図}\label{subsubsection4.2.2}
 
 \begin{figure}
 \centering
@@ -319,7 +251,7 @@ zosokw
 子音の概念に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[{k}]
 剥離はくりの概念を持つ。
 \item[{g}]
@@ -358,76 +290,76 @@ zosokw
 固定こていの概念を持つ。
 \end{description}
 
-\subsubsection{語根}\label{section4.3}
+\section{語根}\label{section4.3}
 
 語根は単語の基本となる部分であり、語根に接辞を付けることで意味を変化させることができる。
 
 C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}
 
-\subsubsection{語根概念}\label{section4.4}
+\section{語根概念}\label{section4.4}
 
 子音概念を三つ繋げることで語根概念が形成される。
 
-\subsubsection{接頭辞}\label{section4.5}
+\section{接頭辞}\label{section4.5}
 
 C\textsubscript{prefix}C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}
 
-\paragraph{接頭辞図表}\label{subsection4.5.1}
+\subsection{接頭辞図表}\label{subsection4.5.1}
 
-\subparagraph{接頭辞表}\label{subsubsection4.5.1.1}
+\subsubsection{接頭辞表}\label{subsubsection4.5.1.1}
 
-\subparagraph{接頭辞図}\label{subsubsection4.5.1.2}
+\subsubsection{接頭辞図}\label{subsubsection4.5.1.2}
 
 \begin{figure}
 \centering
 \caption{接頭辞図}
 \end{figure}
 
-\subsubsection{接尾辞}\label{section4.6}
+\section{接尾辞}\label{section4.6}
 
 C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}C\textsubscript{suffix}
 
-\paragraph{接尾辞図表}\label{subsection4.6.1}
+\subsection{接尾辞図表}\label{subsection4.6.1}
 
-\subparagraph{接尾辞表}\label{subsubsection4.6.1.1}
+\subsubsection{接尾辞表}\label{subsubsection4.6.1.1}
 
-\subparagraph{接尾辞図}\label{subsubsection4.6.1.2}
+\subsubsection{接尾辞図}\label{subsubsection4.6.1.2}
 
 \begin{figure}
 \centering
 \caption{接尾辞図}
 \end{figure}
 
-\paragraph{接周辞}\label{subsection4.7}
+\subsection{接周辞}\label{subsection4.7}
 
 C\textsubscript{prefix}C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}C\textsubscript{suffix}
 
-\paragraph{接周辞図表}\label{subsection4.7.1}
+\subsection{接周辞図表}\label{subsection4.7.1}
 
-\subparagraph{接周辞表}\label{subsubsection4.7.1.1}
+\subsubsection{接周辞表}\label{subsubsection4.7.1.1}
 
-\subparagraph{接周辞図}\label{subsubsection4.7.1.2}
+\subsubsection{接周辞図}\label{subsubsection4.7.1.2}
 
 \begin{figure}
 \centering
 \caption{接周辞図}
 \end{figure}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{母音の役割}\label{chapter5}
+
+\chapter{母音の役割}\label{chapter5}
 
 エレギア語の格には否格、与格、属格、対格、主格、流格が存在する。
 
-\subsubsection{前置格}\label{section5.1}
+\section{前置格}\label{section5.1}
 
 第一子音（C\textsubscript{1}）に附属する第一母音（V\textsubscript{1}）の種別によって語根格が決定される。
 
-\paragraph{前置格図表}\label{subsection5.1.1}
+\subsection{前置格図表}\label{subsection5.1.1}
 
-\subparagraph{前置格表}\label{subsubsection5.1.1.1}
+\subsubsection{前置格表}\label{subsubsection5.1.1.1}
 
-\subparagraph{前置格図}\label{subsubsection5.1.1.2}
+\subsubsection{前置格図}\label{subsubsection5.1.1.2}
 
 \begin{figure}
 \centering
@@ -437,7 +369,7 @@ C\textsubscript{prefix}C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}C\t
 前置格に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[否格]
 C\textsubscript{1}の概念を否定させる格。
 \item[与格]
@@ -452,15 +384,15 @@ C\textsubscript{1}の概念を起点とする格。
 C\textsubscript{1}の概念を流出させる格。
 \end{description}
 
-\subsubsection{後置格}\label{section5.2}
+\section{後置格}\label{section5.2}
 
 第二子音（C\textsubscript{2}）に附属する第二母音（V\textsubscript{2}）の種別によって語根格が決定される。
 
-\paragraph{後置格図表}\label{subsection5.2.1}
+\subsection{後置格図表}\label{subsection5.2.1}
 
-\subparagraph{後置格表}\label{subsubsection5.2.1.1}
+\subsubsection{後置格表}\label{subsubsection5.2.1.1}
 
-\subparagraph{後置格図}\label{subsubsection5.2.1.2}
+\subsubsection{後置格図}\label{subsubsection5.2.1.2}
 
 \begin{figure}
 \centering
@@ -470,7 +402,7 @@ C\textsubscript{1}の概念を流出させる格。
 後置格に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[否格]
 C\textsubscript{2}の概念を否定させる格。
 \item[与格]
@@ -485,29 +417,29 @@ C\textsubscript{2}の概念を起点とする格。
 C\textsubscript{2}の概念を流出させる格。
 \end{description}
 
-\subsubsection{複合格}\label{section5.3}
+\section{複合格}\label{section5.3}
 
 前置格（V\textsubscript{1}）と後置格（V\textsubscript{2}）の組み合わせの種別によって語根格が決定される。
 
-\paragraph{複合格図表}\label{subsection5.3.1}
+\subsection{複合格図表}\label{subsection5.3.1}
 
-\subparagraph{複合格表}\label{subsubsection5.3.1.1}
+\subsubsection{複合格表}\label{subsubsection5.3.1.1}
 
-\subparagraph{複合格図}\label{subsubsection5.3.1.2}
+\subsubsection{複合格図}\label{subsubsection5.3.1.2}
 
 \begin{figure}
 \centering
 \caption{複合格図}
 \end{figure}
 
-\paragraph{複合格の説明}\label{subsection5.3.2}
+\subsection{複合格の説明}\label{subsection5.3.2}
 
 複合格に就いての説明
 
 \begin{description}
 \item[否格]
 \begin{description}
-\tightlist
+
 \item[否否格]
 \item[否与格]
 \item[否属格]
@@ -517,7 +449,7 @@ C\textsubscript{2}の概念を流出させる格。
 \end{description}
 \item[与格]
 \begin{description}
-\tightlist
+
 \item[与否格]
 \item[与与格]
 \item[与属格]
@@ -527,7 +459,7 @@ C\textsubscript{2}の概念を流出させる格。
 \end{description}
 \item[属格]
 \begin{description}
-\tightlist
+
 \item[属否格]
 \item[属与格]
 \item[属属格]
@@ -537,7 +469,7 @@ C\textsubscript{2}の概念を流出させる格。
 \end{description}
 \item[対格]
 \begin{description}
-\tightlist
+
 \item[対否格]
 \item[対与格]
 \item[対属格]
@@ -547,7 +479,7 @@ C\textsubscript{2}の概念を流出させる格。
 \end{description}
 \item[主格]
 \begin{description}
-\tightlist
+
 \item[主否格]
 \item[主与格]
 \item[主属格]
@@ -557,7 +489,7 @@ C\textsubscript{2}の概念を流出させる格。
 \end{description}
 \item[流格]
 \begin{description}
-\tightlist
+
 \item[流否格]
 \item[流与格]
 \item[流属格]
@@ -567,27 +499,27 @@ C\textsubscript{2}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\subsubsection{接頭辞格}\label{section5.4}
+\section{接頭辞格}\label{section5.4}
 
 接頭辞子音（C\textsubscript{prefix}）に附属する接頭辞母音（V\textsubscript{prefix}）の種別によって接辞格が決定される。
 
-\paragraph{接頭辞図表}\label{subsection5.4.1}
+\subsection{接頭辞図表}\label{subsection5.4.1}
 
-\subparagraph{接頭辞格表}\label{subsubsection5.4.1.1}
+\subsubsection{接頭辞格表}\label{subsubsection5.4.1.1}
 
-\subparagraph{接頭辞格図}\label{subsubsection5.4.1.2}
+\subsubsection{接頭辞格図}\label{subsubsection5.4.1.2}
 
 \begin{figure}
 \centering
 \caption{接頭辞格図}
 \end{figure}
 
-\paragraph{接頭辞格説明}\label{subsection5.4.2}
+\subsection{接頭辞格説明}\label{subsection5.4.2}
 
 接頭辞格に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[否格]
 C\textsubscript{prefix}の概念を否定させる格。
 \item[与格]
@@ -602,15 +534,15 @@ C\textsubscript{prefix}の概念を起点とする格。
 C\textsubscript{prefix}の概念を流出させる格。
 \end{description}
 
-\subsubsection{接尾辞格}\label{section5.5}
+\section{接尾辞格}\label{section5.5}
 
 接尾辞子音（C\textsubscript{suffix}）に附属する接尾辞母音（V\textsubscript{suffix}）の種別によって接辞格が決定される。
 
-\paragraph{接尾辞格図表}\label{subsection5.5.1}
+\subsection{接尾辞格図表}\label{subsection5.5.1}
 
-\subparagraph{接尾辞格表}\label{subsubsection5.5.1.1}
+\subsubsection{接尾辞格表}\label{subsubsection5.5.1.1}
 
-\subparagraph{接尾辞格図}\label{subsubsection5.5.1.2}
+\subsubsection{接尾辞格図}\label{subsubsection5.5.1.2}
 
 \begin{figure}
 \centering
@@ -620,7 +552,7 @@ C\textsubscript{prefix}の概念を流出させる格。
 接尾辞格に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[否格]
 C\textsubscript{suffix}の概念を否定させる格。
 \item[与格]
@@ -635,27 +567,27 @@ C\textsubscript{suffix}の概念を起点とする格。
 C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 
-\subsubsection{品詞}\label{section5.6}
+\section{品詞}\label{section5.6}
 
 エレギア語の品詞には附詞、動詞、容詞、助詞、副詞、名詞が存在する。
 
-\paragraph{品詞分類図表}\label{subsection5.6.1}
+\subsection{品詞分類図表}\label{subsection5.6.1}
 
-\subparagraph{品詞分類表}\label{subsubsection5.6.1.1}
+\subsubsection{品詞分類表}\label{subsubsection5.6.1.1}
 
-\subparagraph{品詞分類図}\label{subsubsection5.6.1.2}
+\subsubsection{品詞分類図}\label{subsubsection5.6.1.2}
 
 \begin{figure}
 \centering
 \caption{品詞分類図}
 \end{figure}
 
-\paragraph{品詞分類説明}\label{subsection5.6.2}
+\subsection{品詞分類説明}\label{subsection5.6.2}
 
 品詞に就いての説明
 
 \begin{description}
-\tightlist
+
 \item[附詞]
 前置修飾して意味を限定させる品詞である。
 \item[動詞]
@@ -670,123 +602,123 @@ C\textsubscript{suffix}の概念を流出させる格。
 物事の概念を表す品詞である。
 \end{description}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{文構造}\label{chapter6}
 
-\subsubsection{基本文型}\label{section6.1}
+\chapter{文構造}\label{chapter6}
+
+\section{基本文型}\label{section6.1}
 
 主語、述語、目的語の配置
 
-\subsubsection{複文と従属文}\label{section6.2}
+\section{複文と従属文}\label{section6.2}
 
 複文の構成、従属節の使い方
 
-\subsubsection{否定文と疑問文}\label{section6.3}
+\section{否定文と疑問文}\label{section6.3}
 
 否定や疑問の表現方法
 
-\subsubsection{強調と焦点}\label{section6.4}
+\section{強調と焦点}\label{section6.4}
 
 文の中で特定の部分を強調する方法
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{特殊構文}\label{chapter7}
 
-\subsubsection{受動態}\label{section7.1}
+\chapter{特殊構文}\label{chapter7}
+
+\section{受動態}\label{section7.1}
 
 受動態の形成と使用法
 
 \begin{description}
-\tightlist
+
 \item[]
 \end{description}
 
-\subsubsection{能動態と中動態}\label{section7.2}
+\section{能動態と中動態}\label{section7.2}
 
 能動態、中動態の説明と使用例
 
 \begin{description}
-\tightlist
+
 \item[]
 \end{description}
 
-\subsubsection{命令文}\label{section7.3}
+\section{命令文}\label{section7.3}
 
 命令文の形成と使用法
 
 \begin{description}
-\tightlist
+
 \item[]
 \end{description}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{辞書}\label{chapter8}
 
-\subsubsection{辞書の使用方法}\label{section8.1}
+\chapter{辞書}\label{chapter8}
+
+\section{辞書の使用方法}\label{section8.1}
 
 語彙の検索方法や辞書の構成
 
 エレギア語の辞書では主に語根からの派生形を捜査する形式となっている。
 
-\subsubsection{新語彙の生成規則}\label{section8.2}
+\section{新語彙の生成規則}\label{section8.2}
 
 新しい語彙を作る規則
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{付録}\label{chapter9}
 
-\subsubsection{重要な語句}\label{section9.1}
+\chapter{付録}\label{chapter9}
+
+\section{重要な語句}\label{section9.1}
 
 エレギア語で頻出する語句を提示する。
 
-\paragraph{頻出語句}\label{subsection9.1.1}
+\subsection{頻出語句}\label{subsection9.1.1}
 
 \begin{description}
-\tightlist
+
 \item[正式な挨拶]
 {Kotiva!コティーヴァ！}
 \item[くだけた挨拶]
 {Xoqoci!ホーイ！}
 \end{description}
 
-\paragraph{神聖語句}\label{subsection9.1.2}
+\subsection{神聖語句}\label{subsection9.1.2}
 
 \begin{description}
-\tightlist
+
 \item[]
 \end{description}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\subsection{活用形一覧}\label{chapter10}
 
-\subsubsection{附詞活用形}\label{section10.1}
+\chapter{活用形一覧}\label{chapter10}
 
-\paragraph{附詞活用図表}\label{subsection10.1.1}
+\section{附詞活用形}\label{section10.1}
+
+\subsection{附詞活用図表}\label{subsection10.1.1}
 
 附詞の格変化、数、定及び不定の概念など
 
-\subparagraph{附詞活用表}\label{subsubsection10.1.1.1}
+\subsubsection{附詞活用表}\label{subsubsection10.1.1.1}
 
-\subparagraph{附詞活用図}\label{subsubsection10.1.1.2}
+\subsubsection{附詞活用図}\label{subsubsection10.1.1.2}
 
 \begin{figure}
 \centering
 \caption{附詞活用図}
 \end{figure}
 
-\paragraph{附詞活用説明}\label{subsection10.1.2}
+\subsection{附詞活用説明}\label{subsection10.1.2}
 
 附詞の活用に就いての説明
 
 \begin{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[剥離]
 \item[癒着]
 \item[乖離]
@@ -796,7 +728,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[空白]
 \item[物質]
 \item[過去]
@@ -806,29 +738,29 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\subsubsection{動詞活用形}\label{section10.2}
+\section{動詞活用形}\label{section10.2}
 
-\paragraph{動詞活用図表}\label{subsection10.2.1}
+\subsection{動詞活用図表}\label{subsection10.2.1}
 
 動詞の活用、時制、態、相など
 
-\subparagraph{動詞活用表}\label{subsubsection10.2.1.1}
+\subsubsection{動詞活用表}\label{subsubsection10.2.1.1}
 
-\subparagraph{動詞活用図}\label{subsubsection10.2.1.2}
+\subsubsection{動詞活用図}\label{subsubsection10.2.1.2}
 
 \begin{figure}
 \centering
 \caption{動詞活用図}
 \end{figure}
 
-\paragraph{動詞活用説明}\label{subsubsection10.2.2}
+\subsection{動詞活用説明}\label{subsubsection10.2.2}
 
 動詞の活用に就いての説明
 
 \begin{description}
 \item[相]
 \begin{description}
-\tightlist
+
 \item[受動相]
 \item[能動相]
 \item[創造相]
@@ -838,7 +770,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \item[時制]
 \begin{description}
-\tightlist
+
 \item[空白形]
 \item[物質形]
 \item[過去形]
@@ -848,29 +780,29 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\subsubsection{容詞活用図表}\label{section10.3}
+\section{容詞活用図表}\label{section10.3}
 
-\paragraph{容詞活用図表}\label{subsection10.3.1}
+\subsection{容詞活用図表}\label{subsection10.3.1}
 
 容詞の格変化、数、定及び不定の概念など
 
-\subparagraph{容詞活用表}\label{subsubsection10.3.1.1}
+\subsubsection{容詞活用表}\label{subsubsection10.3.1.1}
 
-\subparagraph{容詞活用図}\label{subsubsection10.3.1.2}
+\subsubsection{容詞活用図}\label{subsubsection10.3.1.2}
 
 \begin{figure}
 \centering
 \caption{容詞活用図}
 \end{figure}
 
-\paragraph{容詞活用説明}\label{subsubsection10.3.2}
+\subsection{容詞活用説明}\label{subsubsection10.3.2}
 
 容詞の活用に就いての説明
 
 \begin{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[受動]
 \item[能動]
 \item[創造]
@@ -880,7 +812,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[剥離]
 \item[癒着]
 \item[乖離]
@@ -890,29 +822,29 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\subsubsection{助詞活用図表}\label{section10.4}
+\section{助詞活用図表}\label{section10.4}
 
-\paragraph{助詞活用図表}\label{subsection10.4.1}
+\subsection{助詞活用図表}\label{subsection10.4.1}
 
 助詞の機能と用法
 
-\subparagraph{助詞活用表}\label{subsubsection10.4.1.1}
+\subsubsection{助詞活用表}\label{subsubsection10.4.1.1}
 
-\subparagraph{助詞活用図}\label{subsubsection10.4.1.2}
+\subsubsection{助詞活用図}\label{subsubsection10.4.1.2}
 
 \begin{figure}
 \centering
 \caption{助詞活用図}
 \end{figure}
 
-\paragraph{助詞活用説明}\label{subsection10.4.2}
+\subsection{助詞活用説明}\label{subsection10.4.2}
 
 助詞の活用に就いての説明
 
 \begin{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[剥離]
 \item[癒着]
 \item[乖離]
@@ -922,7 +854,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[空白]
 \item[物質]
 \item[過去]
@@ -932,29 +864,29 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\subsubsection{副詞活用形}\label{section10.5}
+\section{副詞活用形}\label{section10.5}
 
-\paragraph{副詞活用図表}\label{section10.5.1}
+\subsection{副詞活用図表}\label{section10.5.1}
 
 副詞の格変化、数、定及び不定の概念など
 
-\subparagraph{副詞活用表}\label{subsubsection10.5.1.1}
+\subsubsection{副詞活用表}\label{subsubsection10.5.1.1}
 
-\subparagraph{副詞活用図}\label{subsubsection10.5.1.2}
+\subsubsection{副詞活用図}\label{subsubsection10.5.1.2}
 
 \begin{figure}
 \centering
 \caption{副詞活用図}
 \end{figure}
 
-\paragraph{副詞活用説明}\label{subsection10.5.2}
+\subsection{副詞活用説明}\label{subsection10.5.2}
 
 副詞の活用に就いての説明
 
 \begin{description}
 \item[相]
 \begin{description}
-\tightlist
+
 \item[受動相]
 \item[能動相]
 \item[創造相]
@@ -964,7 +896,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \item[時制]
 \begin{description}
-\tightlist
+
 \item[空白形]
 \item[物質形]
 \item[過去形]
@@ -974,29 +906,29 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\subsubsection{名詞活用形}\label{section10.6}
+\section{名詞活用形}\label{section10.6}
 
-\paragraph{名詞活用図表}\label{subsection10.6.1}
+\subsection{名詞活用図表}\label{subsection10.6.1}
 
 名詞の格変化、数、定及び不定の概念など
 
-\subparagraph{名詞活用表}\label{subsubsection10.6.1.1}
+\subsubsection{名詞活用表}\label{subsubsection10.6.1.1}
 
-\subparagraph{名詞活用図}\label{subsubsection10.6.1.2}
+\subsubsection{名詞活用図}\label{subsubsection10.6.1.2}
 
 \begin{figure}
 \centering
 \caption{名詞活用図}
 \end{figure}
 
-\paragraph{名詞活用説明}\label{subsubsection10.6.2}
+\subsection{名詞活用説明}\label{subsubsection10.6.2}
 
 名詞の活用に就いての説明
 
 \begin{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[受動]
 \item[能動]
 \item[創造]
@@ -1006,7 +938,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \item[]
 \begin{description}
-\tightlist
+
 \item[剥離]
 \item[癒着]
 \item[乖離]
@@ -1016,6 +948,6 @@ C\textsubscript{suffix}の概念を流出させる格。
 \end{description}
 \end{description}
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
 
 \end{document}
