@@ -7,13 +7,13 @@ touch *
 
 echo "コンパイルするファイル名を入力してください。"
 ls *.mf
-read mffile
+read -p ">>> " mffile
 echo "ファイル名を${mffile}に確定しました。"
 
 grep '^mode_def' "$(kpsewhich modes.mf)"
 
 echo "METAFONTのコンパイルオプションを選択してください。"
-read compileoption
+read -p ">>> " compileoption
 echo "${mffile}のコンパイルをモード${compileoption}で実行します。"
 
 mf-nowin "\mode=${compileoption}; mode_setup; input ${mffile}";
@@ -33,7 +33,7 @@ ls *pk 2>/dev/null || echo "生成ファイルなし。"
 
 echo "フォントテーブルを出力しますか？"
 echo "yes / no"
-read check
+read -p ">>> " check
 if [ "$check" = "yes" ]; then
     tex testfont
     echo "フォントテーブルを出力しました。"
@@ -51,13 +51,13 @@ ls *ps 2>/dev/null || echo "生成ファイルなし。"
 
 echo "出力画像のファイル形式を入力してください。"
 echo "png / gif / pdf"
-read output
+read -p ">>> " output
 echo "ファイル形式${output}で出力します。"
 
 case "$output" in
     png)
         echo "出力画像の解像度を数字で入力してください。"
-        read density
+        read -p ">>> " density
         echo "解像度${density}で出力します。"
         for ps in *ps; do
             pstoimg -density $density -type png -multipage "$ps"
@@ -68,7 +68,7 @@ case "$output" in
         ls *png 2>/dev/null || echo "生成ファイルなし。"
         echo "画像を開きますか？"
         echo "yes / no"
-        read check
+        read -p ">>> " check
         if [ "$check" = "yes" ]; then
             open *png
             echo "画像を開きました。"
@@ -78,7 +78,7 @@ case "$output" in
         ;;
     gif)
         echo "出力画像の解像度を数字で入力してください。"
-        read density
+        read -p ">>> " density
         echo "解像度${density}で出力します。"
         for ps in *ps; do
             pstoimg -density $density -type gif -multipage "$ps"
@@ -89,7 +89,7 @@ case "$output" in
         ls *gif 2>/dev/null || echo "生成ファイルなし。"
         echo "画像を開きますか？"
         echo "yes / no"
-        read check
+        read -p ">>> " check
         if [ "$check" = "yes" ]; then
             open *gif
             echo "画像を開きました。"
@@ -108,7 +108,7 @@ case "$output" in
         ls *pdf 2>/dev/null || echo "生成ファイルなし。"
         echo "画像を開きますか？"
         echo "yes / no"
-        read check
+        read -p ">>> " check
         if [ "$check" = "yes" ]; then
             open *pdf
             echo "画像を開きました。"
