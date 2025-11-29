@@ -5,14 +5,14 @@ text {
 .cases,
 .part-of-speech {
     font-family: serif;
-    dominant-baseline: ideographic;
+    dominant-baseline: hanging;
 }
 
 .pronunciation {
     font-family: monospace;
-    dominant-baseline: ideographic;
+    dominant-baseline: hanging;
 }
 
-.zosokw {
-    dominant-baseline: hanging;
+.script {
+    dominant-baseline: ideographic;
 }

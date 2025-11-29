@@ -80,7 +80,7 @@ async function generateIndex() {
         dt.id = consonantsArray[i];
         let consonant = document.createElement("span");
         let a = document.createElement("a");
-        a.classList.add("zosokw");
+        a.classList.add("sulive");
         a.href = consonantsArray[i] + ".html";
         a.textContent = consonantsArray[i];
         consonant.appendChild(a);
@@ -165,7 +165,7 @@ async function generateConsonant(i) {
     headerOl.appendChild(headerLi2);
     let headerLi3 = document.createElement("li");
     let headerSpan = document.createElement("span");
-    headerSpan.classList.add("zosokw");
+    headerSpan.classList.add("sulive");
     headerSpan.textContent = consonantsArray[i];
     headerLi3.appendChild(document.createTextNode("子音"));
     headerLi3.appendChild(headerSpan);
@@ -187,7 +187,7 @@ async function generateConsonant(i) {
     body.appendChild(article);
     let h1 = document.createElement("h1");
     let h1Span = document.createElement("span");
-    h1Span.classList.add("zosokw");
+    h1Span.classList.add("sulive");
     h1Span.textContent = consonantsArray[i];
     h1.appendChild(document.createTextNode("子音"));
     h1.appendChild(h1Span);
@@ -201,7 +201,7 @@ async function generateConsonant(i) {
             dt.id = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
             let root = document.createElement("span");
             let a = document.createElement("a");
-            a.classList.add("zosokw");
+            a.classList.add("sulive");
             a.href = consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html";
             a.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
             root.appendChild(a);
@@ -231,7 +231,7 @@ async function generateConsonant(i) {
     footerOl.appendChild(footerLi2);
     let footerLi3 = document.createElement("li");
     let footerSpan = document.createElement("span");
-    footerSpan.classList.add("zosokw");
+    footerSpan.classList.add("sulive");
     footerSpan.textContent = consonantsArray[i];
     footerLi3.appendChild(document.createTextNode("子音"));
     footerLi3.appendChild(footerSpan);
@@ -309,7 +309,7 @@ async function generateRoot(i, j, k) {
     let headerLi3 = document.createElement("li");
     let headerA3 = document.createElement("a");
     let headerSpan1 = document.createElement("span");
-    headerSpan1.classList.add("zosokw");
+    headerSpan1.classList.add("sulive");
     headerA3.href = "../" + consonantsArray[i] + ".html";
     headerSpan1.textContent = consonantsArray[i];
     headerA3.appendChild(document.createTextNode("子音"));
@@ -319,7 +319,7 @@ async function generateRoot(i, j, k) {
     headerOl.appendChild(headerLi3);
     let headerLi4 = document.createElement("li");
     let headerSpan2 = document.createElement("span");
-    headerSpan2.classList.add("zosokw");
+    headerSpan2.classList.add("sulive");
     headerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     headerLi4.appendChild(document.createTextNode("語根"));
     headerLi4.appendChild(headerSpan2);
@@ -340,7 +340,7 @@ async function generateRoot(i, j, k) {
     body.appendChild(article);
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
-    span1.classList.add("zosokw");
+    span1.classList.add("sulive");
     span1.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     h1.appendChild(document.createTextNode("語根"));
     h1.appendChild(span1);
@@ -369,7 +369,7 @@ async function generateRoot(i, j, k) {
                     consonantsArray[j] + vowelsArray[n] +
                     consonantsArray[k] + vowelsArray[l];
                 let word = document.createElement("span");
-                word.classList.add("zosokw");
+                word.classList.add("sulive");
                 word.textContent =
                     consonantsArray[i] + vowelsArray[m] +
                     consonantsArray[j] + vowelsArray[n] +
@@ -422,7 +422,7 @@ async function generateRoot(i, j, k) {
     let footerLi3 = document.createElement("li");
     let footerA3 = document.createElement("a");
     let footerSpan = document.createElement("span");
-    footerSpan.classList.add("zosokw");
+    footerSpan.classList.add("sulive");
     footerA3.href = "../" + consonantsArray[i] + ".html";
     footerSpan.textContent = consonantsArray[i];
     footerA3.appendChild(document.createTextNode("子音"));
@@ -432,7 +432,7 @@ async function generateRoot(i, j, k) {
     footerOl.appendChild(footerLi3);
     let footerLi4 = document.createElement("li");
     let footerSpan2 = document.createElement("span");
-    footerSpan2.classList.add("zosokw");
+    footerSpan2.classList.add("sulive");
     footerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     footerLi4.appendChild(document.createTextNode("語根"));
     footerLi4.appendChild(footerSpan2);
