@@ -346,6 +346,12 @@ async function generateRoot(i, j, k) {
     h1.appendChild(span1);
     body.appendChild(h1);
     let main = document.createElement("main");
+    let p = document.createElement("p");
+    let b = document.createElement("b");
+    b.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
+    b.classList.add("concept");
+    p.append("この語根は", b, "を表す。");
+    main.append(p);
     for (let l = 0; l < vowelsArray.length; l++) {
         let details = document.createElement("details");
         details.setAttribute("open", "");
