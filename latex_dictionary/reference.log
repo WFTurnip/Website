@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.27)  1 DEC 2025 21:33
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.27)  2 DEC 2025 02:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -97,21 +97,22 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
  [1
 
 
-] [2
-
 ]
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 10.
+(Font)              scaled to size 9.24683pt on input line 9.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 10.
+(Font)              scaled to size 9.24683pt on input line 9.
+ [2
+
+]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 10.
+(Font)              scaled to size 23.0061pt on input line 9.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 10.
+(Font)              scaled to size 23.0061pt on input line 9.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 10.
+(Font)              scaled to size 23.0061pt on input line 9.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 10.
+(Font)              scaled to size 23.0061pt on input line 9.
  (./reference.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -129,80 +130,77 @@ LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
 (Font)              Font shape `JY2/gt/m/n' tried instead on input line 74.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 9.24683pt on input line 74.
- [1
-
-])
+ [3])
 \tf@toc=\write3
 \openout3 = `reference.toc'.
 
- [2]
+ [4]
 第1章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 10.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 10.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 10.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 10.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 13.
+(Font)              scaled to size 13.31541pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 13.
+(Font)              scaled to size 13.31541pt on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 13.
+(Font)              scaled to size 13.31541pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 13.
+(Font)              scaled to size 13.31541pt on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 14.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
 (Font)              scaled to size 11.09619pt on input line 14.
-[1
+[5
 
-
-] [2
+] [6
 
 ]
 第2章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 43.
+(Font)              scaled to size 8.32214pt on input line 41.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 43.
-[3] [4]
+(Font)              scaled to size 8.32214pt on input line 41.
+[7] [8]
 第3章
-[5
+[9
 
-] [6]
+] [10]
 第4章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 235.
-[7
+(Font)              scaled to size 6.47278pt on input line 225.
+[11
 
-] [8] [9] [10
+] [12] [13] [14
 
 ]
 第5章
-[11] [12] [13] [14]
+[15] [16] [17] [18]
 第6章
-[15
+[19
 
-] [16
+] [20
 
 ]
 第7章
-[17] [18
-
-]
-第8章
-[19] [20
-
-]
-第9章
 [21] [22
 
 ]
+第8章
+[23] [24
+
+]
+第9章
+[25] [26
+
+]
 第10章
-[23] [24] [25] [26] [27] (./reference.aux)
+[27] [28] [29] [30] [31] (./reference.aux)
  ***********
 pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
@@ -216,6 +214,6 @@ Here is how much of TeX's memory you used:
  29853 multiletter control sequences out of 15000+600000
  640805 words of font info for 108 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 43i,9n,51p,329b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 43i,9n,51p,351b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on reference.dvi (31 pages, 39888 bytes).
+Output written on reference.dvi (31 pages, 39896 bytes).
