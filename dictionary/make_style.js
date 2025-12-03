@@ -5,7 +5,7 @@ const beautify = require("js-beautify").html;
 
 async function make() {
     let directory = path.join("style");
-      try {
+    try {
         await fs.mkdir(directory, { recursive: true });
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
