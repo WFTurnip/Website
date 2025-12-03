@@ -1,4 +1,4 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.27)  3 DEC 2025 13:58
+This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.11.27)  3 DEC 2025 15:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -127,6 +127,47 @@ Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@dima=\skip55
 \bigstrutjot=\dimen179
 )
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/tipa.sty
+Package: tipa 2002/08/08 TIPA version 1.1
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3enc.def
+File: t3enc.def 2001/12/31 T3 encoding
+Now handling font encoding T3 ...
+... no UTF-8 mapping file for font encoding T3
+LaTeX Font Info:    Font shape `JT2/mc/m/sl' in size <10> not available
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 316.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 316.
+LaTeX Font Info:    Font shape `JY2/mc/m/sl' in size <10> not available
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 316.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 316.
+LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <10> not available
+(Font)              Font shape `JT2/mc/m/n' tried instead on input line 316.
+LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 316.
+LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <10> not available
+(Font)              Font shape `JY2/mc/m/n' tried instead on input line 316.
+LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 316.
+LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JT2/gt/m/n' tried instead on input line 356.
+LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 356.
+LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
+(Font)              Font shape `JY2/gt/m/n' tried instead on input line 356.
+LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
+(Font)              scaled to size 9.24683pt on input line 356.
+))
+LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on 
+input line 336.
+)
+(/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/tipx.sty
+Package: tipx 2003/01/01 TIPX version 1.2
+)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 \l__pdfannot_backend_content_box=\box116
@@ -138,59 +179,62 @@ File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
 (./reference.aux)
 \openout1 = `reference.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 10.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 10
+.
+ (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
+File: t3cmr.fd 2001/12/31 TIPA font definitions
+)
+LaTeX Font Info:    ... okay on input line 10.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 10.
+(Font)              scaled to size 15.9785pt on input line 11.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 10.
+(Font)              scaled to size 15.9785pt on input line 11.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 10.
+(Font)              scaled to size 11.09619pt on input line 11.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 10.
+(Font)              scaled to size 11.09619pt on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
+(Font)              <8> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
+(Font)              <6> on input line 11.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 10.
- [1
+(Font)              scaled to size 5.5481pt on input line 11.
 
+[1
+
+
+] [2
 
 ]
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 11.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 11.
- [2
-
-]
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 11.
+(Font)              scaled to size 23.0061pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 11.
+(Font)              scaled to size 23.0061pt on input line 12.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 11.
+(Font)              scaled to size 23.0061pt on input line 12.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 11.
+(Font)              scaled to size 23.0061pt on input line 12.
  (./reference.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 2.
@@ -200,14 +244,6 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 6.47278pt on input line 2.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 (Font)              scaled to size 4.62341pt on input line 2.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 74.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 74.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 74.
  [3])
 \tf@toc=\write3
 \openout3 = `reference.toc'.
@@ -215,25 +251,25 @@ LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
  [4]
 第1章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 13.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 12.
+(Font)              scaled to size 19.17792pt on input line 13.
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 14.
+(Font)              scaled to size 13.31541pt on input line 15.
 LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 14.
+(Font)              scaled to size 13.31541pt on input line 15.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 14.
+(Font)              scaled to size 13.31541pt on input line 15.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 14.
+(Font)              scaled to size 13.31541pt on input line 15.
 LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 16.
+(Font)              scaled to size 11.09619pt on input line 17.
 LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 16.
+(Font)              scaled to size 11.09619pt on input line 17.
 [5
 
 ] [6
@@ -252,7 +288,7 @@ LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
 ] [10]
 第4章
 LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 227.
+(Font)              scaled to size 6.47278pt on input line 228.
 [11
 
 ] [12] [13] [14
@@ -287,12 +323,12 @@ L3 programming layer <2025-11-14>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1110 strings out of 468182
- 18780 string characters out of 5434878
- 437575 words of memory out of 5000000
- 30070 multiletter control sequences out of 15000+600000
- 640805 words of font info for 108 fonts, out of 8000000 for 9000
+ 2275 strings out of 468182
+ 32805 string characters out of 5434878
+ 445595 words of memory out of 5000000
+ 31217 multiletter control sequences out of 15000+600000
+ 641960 words of font info for 111 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
- 43i,10n,51p,351b,377s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 61i,14n,67p,371b,383s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on reference.dvi (31 pages, 41080 bytes).
+Output written on reference.dvi (31 pages, 41636 bytes).
