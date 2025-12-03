@@ -92,7 +92,7 @@ async function generateVowelsFigure() {
         vowel.setAttribute("y", y);
         vowelPronunciation.setAttribute("y", y);
         vowel.textContent = "\u{25cc}" + vowelsArray[i];
-        vowelPronunciation.textContent = "[" + vowelsPronunciationArray[i] + "]";
+        vowelPronunciation.textContent = "/" + vowelsPronunciationArray[i] + "/";
         vowel.classList.add("sulive", "script");
         vowelPronunciation.classList.add("pronunciation");
         svg.appendChild(vowel);

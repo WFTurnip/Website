@@ -69,7 +69,7 @@ function generateConsonantsPronunciationTable() {
             consonants.classList.add("sulive");
             consonantsCell.appendChild(consonants);
             let consonantsPronunciation = document.createElement("div");
-            consonantsPronunciation.textContent = "[" + consonantsPronunciationArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j] + "]";
+            consonantsPronunciation.textContent = "/" + consonantsPronunciationArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j] + "/";
             consonantsPronunciation.classList.add("pronunciation");
             consonantsCell.appendChild(consonantsPronunciation);
             consonantVerticalRow.appendChild(consonantsCell);
@@ -112,7 +112,7 @@ function generateVowelsPronunciationTable() {
             vowels.classList.add("sulive");
             vowelsCell.appendChild(vowels);
             let vowelsPronunciation = document.createElement("div");
-            vowelsPronunciation.textContent = "[" + vowelsPronunciationArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "]";
+            vowelsPronunciation.textContent = "/" + vowelsPronunciationArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "/";
             vowelsPronunciation.classList.add("pronunciation");
             vowelsCell.appendChild(vowelsPronunciation);
             vowelsVerticalRow.appendChild(vowelsCell);
