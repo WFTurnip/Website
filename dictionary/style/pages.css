@@ -39,15 +39,15 @@
     }
 
     .warning {
-        color: #ff00ff;
+        color: #ee00ee;
     }
 
     .off {
-        color: #ff0000;
+        color: #ee0000;
     }
 
     .on {
-        color: #0000ff;
+        color: #0000ee;
     }
 
     text,
@@ -105,15 +105,15 @@
     }
 
     .warning {
-        color: #ee00ee;
+        color: #ff00ff;
     }
 
     .off {
-        color: #ee0000;
+        color: #ff0000;
     }
 
     .on {
-        color: #0000ee;
+        color: #0000ff;
     }
 
     text,
