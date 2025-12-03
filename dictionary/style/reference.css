@@ -84,7 +84,7 @@ nav h4::before {
 }
 
 nav h5::before {
-    content: "第"  counter(toc-subsubsection, japanese-informal) "図表\3000";
+    content: "第" counter(toc-subsubsection, japanese-informal) "図表\3000";
 }
 
 h1 {
