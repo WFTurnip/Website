@@ -26,7 +26,7 @@ const lowerTangueConsonantsConceptArray = ["受動", "能動", "創造", "破壊
 
 // function generateConsonantsModelTable(captionName) { }
 // function generateVowelsModelTable(captionName) { }
-// function generateConjunctModelTable(captionName) { }
+// function generateConjunctModelTable(captionName, prefix, suffix) { }
 
 function generateConsonantsPronunciationTable() {
     let table = document.createElement("table");
@@ -338,7 +338,7 @@ function generateCircumfixConsonantsTable() {
         consonantsArray.forEach((suffixConsonants, j) => {
             let td = document.createElement("td");
             td.appendChild(createParagraph(suffixConsonants + "\u{25CC}" + "\u{25CC}" + "\u{25CC}" + prefixConsonants, "sulive"));
-            td.appendChild(createParagraph(consonantsConceptArray[j] + consonantsConceptArray[i] , "conjunct-case"));
+            td.appendChild(createParagraph(consonantsConceptArray[j] + consonantsConceptArray[i], "conjunct-case"));
             tr.appendChild(td);
         });
         tbody.appendChild(tr);
