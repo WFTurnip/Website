@@ -50,7 +50,7 @@ echo "生成ファイル一覧"
 ls *ps 2>/dev/null || echo "生成ファイルなし。"
 
 echo "出力画像のファイル形式を入力してください。"
-echo "png / gif / pdf"
+echo "png / gif / pdf / dvi"
 read -p ">>> " output
 echo "ファイル形式${output}で出力します。"
 
@@ -111,6 +111,18 @@ case "$output" in
         read -p ">>> " check
         if [ "$check" = "yes" ]; then
             open *pdf
+            echo "画像を開きました。"
+        elif [ "$check" = "no" ]; then
+            echo "画像を開きません。"
+        fi
+        ;;
+    dvi)
+        ls *dvi 2>/dev/null || echo "生成ファイルなし。"
+        echo "画像を開きますか？"
+        echo "yes / no"
+        read -p ">>> " check
+        if [ "$check" = "yes" ]; then
+            open *dvi
             echo "画像を開きました。"
         elif [ "$check" = "no" ]; then
             echo "画像を開きません。"
