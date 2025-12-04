@@ -20,9 +20,9 @@ const upperTangueConsonantsArray = ["k", "g", "t", "d", "s", "z"];
 const middleTangueConsonantsArray = ["q", "c", "r", "l", "p", "b"];
 const lowerTangueConsonantsArray = ["h", "x", "f", "v", "m", "n"];
 
-const upperTangueConsonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神"];
-const middleTangueConsonantsConceptArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
-const lowerTangueConsonantsConceptArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
+const upperTangueConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神"];
+const middleTangueConceptArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
+const lowerTangueConceptArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
 
 // function generateConsonantsModelTable(captionName) { }
 // function generateVowelsModelTable(captionName) { }
@@ -643,7 +643,7 @@ function generateArticleConjugationTable() {
         p.classList.add("sulive", "article-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
+        p2.textContent = middleTangueConceptArray[i] + "形";
         p2.classList.add("article-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -659,7 +659,7 @@ function generateArticleConjugationTable() {
         p.classList.add("sulive", "article-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConsonantsConceptArray[i] + "相";
+        p2.textContent = upperTangueConceptArray[i] + "相";
         p2.classList.add("article-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
@@ -670,7 +670,7 @@ function generateArticleConjugationTable() {
             p.append(upperTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}a", middleTangueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(upperTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
+            p2.append(upperTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
             p2.classList.add("article-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -700,7 +700,7 @@ function generateVerbConjugationTable() {
         p.classList.add("sulive", "verb-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
+        p2.textContent = middleTangueConceptArray[i] + "形";
         p2.classList.add("verb-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -716,7 +716,7 @@ function generateVerbConjugationTable() {
         p.classList.add("sulive", "verb-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConsonantsConceptArray[i] + "相";
+        p2.textContent = lowerTangueConceptArray[i] + "相";
         p2.classList.add("verb-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
@@ -727,7 +727,7 @@ function generateVerbConjugationTable() {
             p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}e", middleTangueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
+            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
             p2.classList.add("verb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -757,7 +757,7 @@ function generateAdjectiveConjugationTable() {
         p.classList.add("sulive", "adjective-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConsonantsConceptArray[i] + "形";
+        p2.textContent = upperTangueConceptArray[i] + "形";
         p2.classList.add("adjective-tense");
         th.appendChild(p2);
         vowelsPronunciationHorizontalRow.appendChild(th);
@@ -773,7 +773,7 @@ function generateAdjectiveConjugationTable() {
         p2.classList.add("sulive", "adjective-aspect-consonant");
         th.appendChild(p2);
         let p3 = document.createElement("div");
-        p3.textContent = lowerTangueConsonantsConceptArray[i] + "相";
+        p3.textContent = lowerTangueConceptArray[i] + "相";
         p3.classList.add("adjective-aspect");
         th.appendChild(p3);
         tr.appendChild(th);
@@ -784,7 +784,7 @@ function generateAdjectiveConjugationTable() {
             p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTangueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), upperTangueConsonantsConceptArray[j] + "形");
+            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), upperTangueConceptArray[j] + "形");
             p2.classList.add("adjective-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -814,7 +814,7 @@ function generateParticleConjugationTable() {
         p.classList.add("sulive", "particle-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
+        p2.textContent = middleTangueConceptArray[i] + "形";
         p2.classList.add("particle-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -830,7 +830,7 @@ function generateParticleConjugationTable() {
         p.classList.add("sulive", "particle-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConsonantsConceptArray[i] + "相";
+        p2.textContent = upperTangueConceptArray[i] + "相";
         p2.classList.add("particle-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
@@ -841,7 +841,7 @@ function generateParticleConjugationTable() {
             p.append(upperTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}o", middleTangueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(upperTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
+            p2.append(upperTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
             p2.classList.add("particle-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -871,7 +871,7 @@ function generateAdverbConjugationTable() {
         p.classList.add("sulive", "adverb-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConsonantsConceptArray[i] + "形";
+        p2.textContent = middleTangueConceptArray[i] + "形";
         p2.classList.add("adverb-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -887,7 +887,7 @@ function generateAdverbConjugationTable() {
         p.classList.add("sulive", "adverb-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConsonantsConceptArray[i] + "相";
+        p2.textContent = lowerTangueConceptArray[i] + "相";
         p2.classList.add("adverb-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
@@ -898,7 +898,7 @@ function generateAdverbConjugationTable() {
             p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", middleTangueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), middleTangueConsonantsConceptArray[j] + "形");
+            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
             p2.classList.add("adverb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -928,7 +928,7 @@ function generateNounConjugationTable() {
         p.classList.add("sulive", "noun-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConsonantsConceptArray[i] + "形";
+        p2.textContent = upperTangueConceptArray[i] + "形";
         p2.classList.add("noun-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -944,7 +944,7 @@ function generateNounConjugationTable() {
         p.classList.add("sulive", "noun-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConsonantsConceptArray[i] + "相";
+        p2.textContent = lowerTangueConceptArray[i] + "相";
         p2.classList.add("noun-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
@@ -955,7 +955,7 @@ function generateNounConjugationTable() {
             p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTangueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConsonantsConceptArray[i] + "相", document.createElement("wbr"), upperTangueConsonantsConceptArray[j] + "形");
+            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), upperTangueConceptArray[j] + "形");
             p2.classList.add("noun-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
