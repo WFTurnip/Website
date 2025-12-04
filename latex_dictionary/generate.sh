@@ -7,15 +7,13 @@ read -p ">>> " readmode
 
 case "$readmode" in
     metafont)
-        sh compile_mf.sh        
+        sh compile_mf.sh
         ;;
     latex)
-        sh compile_tex.sh        
+        sh compile_latex.sh
         ;;
     *)
         echo "無効な出力方式です。終了します。"
         exit 1
         ;;
 esac
-
-
