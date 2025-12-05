@@ -26,7 +26,7 @@ const lowerTangueConceptArray = ["受動", "能動", "創造", "破壊", "流動
 
 // function generateConsonantsModelTable(captionName) { }
 // function generateVowelsModelTable(captionName) { }
-// function generateConjunctModelTable(captionName, prefix, suffix) { }
+// function generateConjunctModelTable(captionName, prefixPronunciation, suffixPronunciation, prefixConcept, suffixConcept) { }
 
 function generateConsonantsPronunciationTable() {
     let table = document.createElement("table");
