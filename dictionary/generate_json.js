@@ -100,7 +100,7 @@ async function generateRoot(i, j, k) {
     }
 }
 
-async function make() {
+async function generate() {
     let directory = path.join("json_index");
     try {
         await fs.mkdir(directory, { recursive: true });
@@ -121,4 +121,4 @@ async function make() {
     console.log("ディレクトリ" + directory + "の内部データを生成完了");
 }
 
-make();
+generate();

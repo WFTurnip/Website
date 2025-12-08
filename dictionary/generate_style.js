@@ -3,7 +3,7 @@ const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
 
-async function make() {
+async function generate() {
     let directory = path.join("style");
     try {
         await fs.mkdir(directory, { recursive: true });
@@ -13,4 +13,4 @@ async function make() {
     }
 }
 
-make();
+generate();
