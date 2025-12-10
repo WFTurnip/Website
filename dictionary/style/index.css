@@ -37,17 +37,17 @@ dl dd {
 }
 
 nav,
-ol {
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-nav li::after {
+ul li::after {
     content: "\FF1E";
 }
 
-nav li:last-child::after {
+ul li:last-child::after {
     content: "";
 }
 

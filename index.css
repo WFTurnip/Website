@@ -49,13 +49,6 @@ body {
     padding: 2rem;
 }
 
-header {
-    text-align: left;
-}
-
-footer {
-    text-align: right;
-}
 
 header,
 footer {
@@ -67,17 +60,16 @@ a:hover {
     font-weight: bold;
 }
 
-nav,
-ol {
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-nav li::after {
+ul li::after {
     content: "\FF1E";
 }
 
-nav li:last-child::after {
+ul li:last-child::after {
     content: "";
 }

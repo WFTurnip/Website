@@ -6,16 +6,16 @@ rt {
     font-variant-east-asian: ruby;
 }
 
-ul {
+ol {
     list-style-type: none;
     counter-reset: chapter;
 }
 
-ul li {
+ol li {
     counter-increment: chapter;
 }
 
-ul li::before {
+ol li::before {
     content: "第" counter(chapter, japanese-informal) "話\3000";
 }
 

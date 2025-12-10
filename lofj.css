@@ -1,0 +1,27 @@
+ruby {
+    margin: 0%;
+}
+
+rt {
+    font-variant-east-asian: ruby;
+}
+
+ol {
+    list-style-type: none;
+    counter-reset: chapter;
+}
+
+ol li {
+    counter-increment: chapter;
+}
+
+ol li::before {
+    content: "第" counter(chapter, japanese-informal) "章\3000";
+}
+
+p {
+    text-indent: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.6;
+}

@@ -59,18 +59,17 @@ figure object {
     height: auto;
 }
 
-header> nav,
-footer> nav,
-ol {
+nav,
+ul {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-nav li::after {
+ul li::after {
     content: "\FF1E";
 }
 
-nav li:last-child::after {
+ul li:last-child::after {
     content: "";
 }
