@@ -190,6 +190,12 @@ async function generateConsonant(i) {
     h1.appendChild(document.createTextNode("の見出し"));
     body.appendChild(h1);
     let main = document.createElement("main");
+    let p = document.createElement("p");
+    let b = document.createElement("b");
+    b.textContent = consonantsConceptArray[i];
+    b.classList.add("concept");
+    p.append("この子音は", b, "の概念を表す。");
+    main.appendChild(p);
     let dl = document.createElement("dl");
     for (let j = 0; j < consonantsArray.length; j++) {
         for (let k = 0; k < consonantsArray.length; k++) {
@@ -342,7 +348,7 @@ async function generateRoot(i, j, k) {
     let b = document.createElement("b");
     b.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
     b.classList.add("concept");
-    p.append("この語根は", b, "を表す。");
+    p.append("この語根は", b, "の概念を表す。");
     main.append(p);
     for (let l = 0; l < vowelsArray.length; l++) {
         let details = document.createElement("details");
