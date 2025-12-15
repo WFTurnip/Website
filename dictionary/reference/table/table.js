@@ -497,7 +497,7 @@ function generateConjunctCaseTable() {
     });
 }
 
-function generatePreffixCaseTable() {
+function generatePrefixCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "接頭辞格表";
@@ -978,7 +978,7 @@ window.onload = function () {
     generateFirstCaseTable();
     generateSecondCaseTable();
     generateConjunctCaseTable();
-    generatePreffixCaseTable();
+    generatePrefixCaseTable();
     generateSuffixCaseTable();
     generatePartOfSpeechTable();
     generateArticleConjugationTable();
