@@ -430,14 +430,4 @@ beginchar("~",w#,h#,d#);
     drawdot(7*w/10+(2*w/10)*cosd(45*i),w/2+(2*w/10)*sind(45*i));
   endfor;
 endchar;
-
-beginchar("#",w#,h#,d#);
-  if proofing = 2:
-    makegrid;
-  fi
-  pickup pencircle scaled (w/5);
-  draw (w/2,9*w/10) -- (w/2,w/10);
-  consocentercircle;
-  consonant_p;
-endchar;
 end.
