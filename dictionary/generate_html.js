@@ -312,8 +312,7 @@ async function generateRoot(i, j, k) {
     let headerSpan2 = document.createElement("span");
     headerSpan2.classList.add("sulive");
     headerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-    headerLi4.appendChild(document.createTextNode("語根"));
-    headerLi4.appendChild(headerSpan2);
+    headerLi4.append("語根", headerSpan2);
     headerUl.appendChild(headerLi4);
     header.appendChild(headerUl);
     body.appendChild(header);
@@ -331,14 +330,19 @@ async function generateRoot(i, j, k) {
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("sulive");
-    span1.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-    h1.appendChild(document.createTextNode("語根"));
-    h1.appendChild(span1);
+    span1.textContent =
+        consonantsArray[i] +
+        consonantsArray[j] +
+        consonantsArray[k];
+    h1.append("語根", span1);
     body.appendChild(h1);
     let main = document.createElement("main");
     let p = document.createElement("p");
     let b = document.createElement("b");
-    b.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
+    b.textContent =
+        consonantsConceptArray[i] +
+        consonantsConceptArray[j] +
+        consonantsConceptArray[k];
     b.classList.add("concept");
     p.append("この語根は", b, "の概念を表す。");
     main.append(p);
@@ -421,8 +425,7 @@ async function generateRoot(i, j, k) {
     let footerSpan2 = document.createElement("span");
     footerSpan2.classList.add("sulive");
     footerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-    footerLi4.appendChild(document.createTextNode("語根"));
-    footerLi4.appendChild(footerSpan2);
+    footerLi4.append("語根", footerSpan2);
     footerUl.appendChild(footerLi4);
     footer.appendChild(footerUl);
     body.appendChild(footer);
