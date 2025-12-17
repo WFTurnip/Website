@@ -24,11 +24,11 @@ const upperTangueConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体
 const middleTangueConceptArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
 const lowerTangueConceptArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
 
-// function generateConsonantsModelTable(captionName) { }
-// function generateVowelsModelTable(captionName) { }
+// function generateConsonantModelTable(captionName) { }
+// function generateVowelModelTable(captionName) { }
 // function generateConjunctModelTable(captionName) { }
 
-function generateConsonantsPronunciationTable() {
+function generateConsonantPronunciationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "子音表";
@@ -82,7 +82,7 @@ function generateConsonantsPronunciationTable() {
     });
 }
 
-function generateVowelsPronunciationTable() {
+function generateVowelPronunciationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "母音表";
@@ -125,7 +125,7 @@ function generateVowelsPronunciationTable() {
     });
 }
 
-function generateConsonantsConceptTable() {
+function generateConsonantConceptTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "子音概念表";
@@ -179,7 +179,7 @@ function generateConsonantsConceptTable() {
     });
 }
 
-function generatePrefixConsonantsTable() {
+function generatePrefixConsonantTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "接頭辞表";
@@ -233,7 +233,7 @@ function generatePrefixConsonantsTable() {
     });
 }
 
-function generateSuffixConsonantsTable() {
+function generateSuffixConsonantTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "接尾辞表";
@@ -318,7 +318,7 @@ function generateFirstCaseTable() {
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
             vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
-            vowelsCase.classList.add("cases");
+            vowelsCase.classList.add("case");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
         }
@@ -361,7 +361,7 @@ function generateSecondCaseTable() {
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
             vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
-            vowelsCase.classList.add("cases");
+            vowelsCase.classList.add("case");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
         }
@@ -466,7 +466,7 @@ function generatePrefixCaseTable() {
             VowelCell.appendChild(vowels);
             let vowelsPartOfSpeech = document.createElement("div");
             vowelsPartOfSpeech.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
-            vowelsPartOfSpeech.classList.add("cases");
+            vowelsPartOfSpeech.classList.add("case");
             VowelCell.appendChild(vowelsPartOfSpeech);
             vowelsVerticalRow.appendChild(VowelCell);
         }
@@ -509,7 +509,7 @@ function generateSuffixCaseTable() {
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
             vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
-            vowelsCase.classList.add("cases");
+            vowelsCase.classList.add("case");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
         }
@@ -907,11 +907,11 @@ function generateNounConjugationTable() {
 }
 
 window.onload = function () {
-    generateConsonantsPronunciationTable();
-    generateVowelsPronunciationTable();
-    generateConsonantsConceptTable();
-    generatePrefixConsonantsTable();
-    generateSuffixConsonantsTable();
+    generateConsonantPronunciationTable();
+    generateVowelPronunciationTable();
+    generateConsonantConceptTable();
+    generatePrefixConsonantTable();
+    generateSuffixConsonantTable();
     generateFirstCaseTable();
     generateSecondCaseTable();
     generateConjunctCaseTable();

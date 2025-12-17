@@ -12,7 +12,7 @@ const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
 
-async function generateConsonantsFigure() {
+async function generateConsonantFigure() {
     let filename = path.join("reference/", "figure/", "consonants_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
@@ -57,7 +57,7 @@ async function generateConsonantsFigure() {
     }
 }
 
-async function generateVowelsFigure() {
+async function generateVowelFigure() {
     let filename = path.join("reference/", "figure/", "vowels_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
@@ -215,7 +215,7 @@ async function generateConsonantConceptFigure() {
     }
 }
 
-async function generatePrefixConsonantsFigure() {
+async function generatePrefixConsonantFigure() {
     let filename = path.join("reference/", "figure/", "prefix_consonants_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
@@ -260,7 +260,7 @@ async function generatePrefixConsonantsFigure() {
     }
 }
 
-async function generateSuffixConsonantsFigure() {
+async function generateSuffixConsonantFigure() {
     let filename = path.join("reference/", "figure/", "suffix_consonants_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
@@ -462,19 +462,19 @@ async function generateConjunctCaseFigure() {
         svg.appendChild(firstCaseVowel);
         svg.appendChild(firstCase);
         for (let j = 0; j < apex; j++) {
-            let conjunctCaseVowels = document.createElementNS(svgns, "text");
+            let conjunctCaseVowel = document.createElementNS(svgns, "text");
             let conjunctCase = document.createElementNS(svgns, "text");
             let conjunctCaseCoodinateX = firstCaseCoodinateX + (width / 6 - 16 * 2) * Math.sin((j + 4) * Math.PI / (apex / 2));
             let conjunctCaseCoodinateY = firstCaseCoodinateY + (height / 6 - 16 * 2) * Math.cos((j + 4) * Math.PI / (apex / 2));
-            conjunctCaseVowels.setAttribute("x", conjunctCaseCoodinateX);
+            conjunctCaseVowel.setAttribute("x", conjunctCaseCoodinateX);
             conjunctCase.setAttribute("x", conjunctCaseCoodinateX);
-            conjunctCaseVowels.setAttribute("y", conjunctCaseCoodinateY);
+            conjunctCaseVowel.setAttribute("y", conjunctCaseCoodinateY);
             conjunctCase.setAttribute("y", conjunctCaseCoodinateY);
-            conjunctCaseVowels.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
+            conjunctCaseVowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
             conjunctCase.textContent = vowelsCasesArray[i] + vowelsCasesArray[j] + "格";
-            conjunctCaseVowels.classList.add("sulive", "script");
+            conjunctCaseVowel.classList.add("sulive", "script");
             conjunctCase.classList.add("cases");
-            svg.appendChild(conjunctCaseVowels);
+            svg.appendChild(conjunctCaseVowel);
             svg.appendChild(conjunctCase);
         }
     }
@@ -883,13 +883,13 @@ async function generate() {
     } catch (error) {
         console.log("ディレクトリ" + directory + "を作成できませんでした。");
     }
-    await generateConsonantsFigure();
-    await generateVowelsFigure();
+    await generateConsonantFigure();
+    await generateVowelFigure();
     await generateRtlFigure();
     await generateLtrFigure();
     await generateConsonantConceptFigure();
-    await generatePrefixConsonantsFigure();
-    await generateSuffixConsonantsFigure();
+    await generatePrefixConsonantFigure();
+    await generateSuffixConsonantFigure();
     await generateFirstCaseFigure();
     await generateSecondCaseFigure();
     await generateConjunctCaseFigure();
