@@ -528,7 +528,7 @@ async function generatePrefixCaseFigure() {
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}\u{25cc}\u{25cc}";
         vowelCase.textContent = vowelsCasesArray[i] + "格";
         vowel.classList.add("sulive", "script");
         vowelCase.classList.add("cases");
@@ -585,7 +585,7 @@ async function generateSuffixCaseFigure() {
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.textContent = "\u{25cc}\u{25cc}\u{25cc}\u{25cc}" + vowelsArray[i];
         vowelCase.textContent = vowelsCasesArray[i] + "格";
         vowel.classList.add("sulive", "script");
         vowelCase.classList.add("cases");
@@ -642,7 +642,7 @@ async function generatePartOfSpeechFigure() {
         vowelPartOfSpeech.setAttribute("x", x);
         vowel.setAttribute("y", y);
         vowelPartOfSpeech.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.textContent = "\u{25cc}\u{25cc}\u{25cc}" + vowelsArray[i];
         vowelPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i] + "詞";
         vowel.classList.add("sulive", "script");
         vowelPartOfSpeech.classList.add("part-of-speech");
