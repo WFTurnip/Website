@@ -305,55 +305,6 @@ async function generateSuffixConsonantsFigure() {
     }
 }
 
-async function generateCircumfixConsonantsFigure() {
-    let filename = path.join("reference/", "figure/", "circumfix_consonants_figure.svg");
-    const svgns = "http://www.w3.org/2000/svg";
-    const dom = new JSDOM();
-    const document = dom.window.document;
-    let width = 512;
-    let height = 512;
-    let apex = 6;
-    let svg = document.createElementNS(svgns, "svg");
-    svg.setAttribute("width", width);
-    svg.setAttribute("height", height);
-    let centerX = width / 2;
-    let centerY = height / 2;
-    for (let i = 0; i <= apex; i++) {
-        let firstCaseCoodinateX = centerX + (width / 3) * Math.sin(i * Math.PI / (apex / 2));
-        let firstCaseCoodinateY = centerY + (height / 3) * Math.cos(i * Math.PI / (apex / 2));
-        for (let j = 0; j < apex; j++) {
-            for (let k = 2; k <= 3; k++) {
-                let line = document.createElementNS(svgns, "line");
-                let x1 = firstCaseCoodinateX + (width / 6) * Math.sin(j * Math.PI / (apex / 2));
-                let y1 = firstCaseCoodinateY + (height / 6) * Math.cos(j * Math.PI / (apex / 2));
-                let x2 = firstCaseCoodinateX + (width / 6) * Math.sin((j + k) * Math.PI / (apex / 2));
-                let y2 = firstCaseCoodinateY + (height / 6) * Math.cos((j + k) * Math.PI / (apex / 2));
-                line.setAttribute("x1", x1);
-                line.setAttribute("y1", y1);
-                line.setAttribute("x2", x2);
-                line.setAttribute("y2", y2);
-                line.setAttribute("stroke-width", 1);
-                line.setAttribute("stroke-linecap", "round");
-                svg.appendChild(line);
-            }
-        }
-    }
-    let serializer = new dom.window.XMLSerializer();
-    let svgString = serializer.serializeToString(svg);
-    let svgContent =
-        '<?xml-stylesheet href="../../style/figure.css" type="text/css"?>' + "\n" +
-        '<?xml-stylesheet href="../../style/fonts.css" type="text/css"?>' + "\n" +
-        '<?xml-stylesheet href="../../style/pages.css" type="text/css"?>' + "\n" +
-        svgString;
-    svgContent = beautify(svgContent, { indent_size: 4 });
-    try {
-        await fs.writeFile(filename, svgContent);
-        console.log("ファイル" + filename + "を作成しました。");
-    } catch (error) {
-        console.log("ファイル" + filename + "を作成できませんでした。");
-    }
-}
-
 async function generateFirstCaseFigure() {
     let filename = path.join("reference/", "figure/", "first_case_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
@@ -388,7 +339,7 @@ async function generateFirstCaseFigure() {
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}\u{25cc}";
         vowelCase.textContent = vowelsCasesArray[i] + "格";
         vowel.classList.add("sulive", "script");
         vowelCase.classList.add("cases");
@@ -445,7 +396,7 @@ async function generateSecondCaseFigure() {
         vowelCase.setAttribute("x", x);
         vowel.setAttribute("y", y);
         vowelCase.setAttribute("y", y);
-        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        vowel.textContent = "\u{25cc}\u{25cc}" + vowelsArray[i] + "\u{25cc}";
         vowelCase.textContent = vowelsCasesArray[i] + "格";
         vowel.classList.add("sulive", "script");
         vowelCase.classList.add("cases");
@@ -504,7 +455,7 @@ async function generateConjunctCaseFigure() {
         firstCase.setAttribute("x", firstCaseCoodinateX);
         firstCaseVowel.setAttribute("y", firstCaseCoodinateY);
         firstCase.setAttribute("y", firstCaseCoodinateY);
-        firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i];
+        firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}\u{25cc}";
         firstCase.textContent = vowelsCasesArray[i] + "格";
         firstCaseVowel.classList.add("sulive", "script");
         firstCase.classList.add("cases");
@@ -939,7 +890,6 @@ async function generate() {
     await generateConsonantConceptFigure();
     await generatePrefixConsonantsFigure();
     await generateSuffixConsonantsFigure();
-    await generateCircumfixConsonantsFigure();
     await generateFirstCaseFigure();
     await generateSecondCaseFigure();
     await generateConjunctCaseFigure();

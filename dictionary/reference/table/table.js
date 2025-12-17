@@ -287,68 +287,6 @@ function generateSuffixConsonantsTable() {
     });
 }
 
-function generateCircumfixConsonantsTable() {
-    const createParagraph = (text, className) => {
-        let p = document.createElement("div");
-        p.textContent = text;
-        p.classList.add(className);
-        return p;
-    };
-    let table = document.createElement("table");
-    let caption = document.createElement("caption");
-    caption.textContent = "接周辞表";
-    table.appendChild(caption);
-    let thead = document.createElement("thead");
-    let prefix = document.createElement("tr");
-    let blank = document.createElement("th");
-    blank.textContent = "";
-    blank.rowSpan = vowelsPronunciationVerticalArray.length;
-    blank.colSpan = vowelsPronunciationVerticalArray.length;
-    prefix.appendChild(blank);
-    let prefixConsonants = document.createElement("th");
-    prefixConsonants.textContent = "接頭辞";
-    prefixConsonants.colSpan = consonantsArray.length;
-    prefix.appendChild(prefixConsonants);
-    thead.appendChild(prefix);
-    let consonantsPronunciationHorizontalRow = document.createElement("tr");
-    consonantsArray.forEach((prefixConsonants, i) => {
-        let consonantsPronunciationHorizontal = document.createElement("th");
-        consonantsPronunciationHorizontal.appendChild(createParagraph(prefixConsonants + "\u{25CC}" + "\u{25CC}" + "\u{25CC}", "sulive"));
-        consonantsPronunciationHorizontal.appendChild(createParagraph(consonantsConceptArray[i], "concept"));
-        consonantsPronunciationHorizontalRow.appendChild(consonantsPronunciationHorizontal);
-    });
-    thead.appendChild(consonantsPronunciationHorizontalRow);
-    table.appendChild(thead);
-    let tbody = document.createElement("tbody");
-    let tr3 = document.createElement("tr");
-    let th3 = document.createElement("th");
-    let suffixConsonants = document.createElement("div");
-    suffixConsonants.textContent = "接尾辞";
-    suffixConsonants.classList.add("concept");
-    th3.appendChild(suffixConsonants);
-    th3.rowSpan = consonantsArray.length + 1;
-    tr3.appendChild(th3);
-    tbody.appendChild(tr3);
-    consonantsArray.forEach((prefixConsonants, i) => {
-        let tr = document.createElement("tr");
-        let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}" + "\u{25CC}" + "\u{25CC}" + prefixConsonants, "sulive"));
-        th.appendChild(createParagraph(consonantsConceptArray[i] + "", "case"));
-        tr.appendChild(th);
-        consonantsArray.forEach((suffixConsonants, j) => {
-            let td = document.createElement("td");
-            td.appendChild(createParagraph(suffixConsonants + "\u{25CC}" + "\u{25CC}" + "\u{25CC}" + prefixConsonants, "sulive"));
-            td.appendChild(createParagraph(consonantsConceptArray[j] + consonantsConceptArray[i], "conjunct-case"));
-            tr.appendChild(td);
-        });
-        tbody.appendChild(tr);
-    });
-    table.appendChild(tbody);
-    document.querySelectorAll(".circumfix-consonants-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
-}
-
 function generateFirstCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -974,7 +912,6 @@ window.onload = function () {
     generateConsonantsConceptTable();
     generatePrefixConsonantsTable();
     generateSuffixConsonantsTable();
-    generateCircumfixConsonantsTable();
     generateFirstCaseTable();
     generateSecondCaseTable();
     generateConjunctCaseTable();
