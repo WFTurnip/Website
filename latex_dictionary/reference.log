@@ -1,415 +1,2849 @@
-This is e-upTeX, Version 3.141592653-p4.1.2-u2.00-250202-2.6 (utf8.uptex) (TeX Live 2025) (preloaded format=uplatex 2025.12.14)  15 DEC 2025 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.14)  18 DEC 2025 18:24
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **reference.tex
 (./reference.tex
-pLaTeX2e <2023-02-14u04>+1, based on
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jsbook.cls
-Document Class: jsbook 2025/04/27 jsclasses (okumura, texjporg)
-Class jsbook Info: Autodetected engine: upLaTeX on input line 222.
-\jsc@mpt=\dimen164
-\jsc@mmm=\dimen165
-\jsc@smallskipamount=\skip49
-LaTeX Info: Redefining \textmc on input line 516.
-LaTeX Info: Redefining \textgt on input line 518.
-\symmincho=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
-(Font)                  JY2/mc/m/n --> JY2/gt/m/n on input line 580.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 774.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 774.
-\fullwidth=\dimen166
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 935.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 7.39746pt on input line 935.
-\c@part=\count274
-\c@chapter=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
-\abovecaptionskip=\skip50
-\belowcaptionskip=\skip51
-\jsc@tocl@width=\dimen167
-\@lnumwidth=\dimen168
-\bibindent=\dimen169
-(/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jslogo.sty
-Package: jslogo 2019/07/25 okumura, texjporg
-LaTeX Info: Redefining \TeX on input line 82.
-LaTeX Info: Redefining \LaTeX on input line 135.
-LaTeX Info: Redefining \LaTeXe on input line 188.
-)
-\heisei=\count283
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/07/09 v2.17z AMS math features
-\@mathmargin=\skip52
 
-For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amstext.sty
-Package: amstext 2024/11/17 v2.01 AMS text
+/usr/local/texlive/2025/texmf-dist/tex/platex/jsclasses/jsbook.cls:14: LaTeX Er
+ror: This file needs format `pLaTeX2e'
+               but this is `LaTeX2e'.
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsgen.sty
-File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks18
-\ex@=\dimen170
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsbsy.sty
-Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen171
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
-Package: amsopn 2022/04/08 v2.04 operator names
-)
-\inf@bad=\count284
-LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count285
-\leftroot@=\count286
-LaTeX Info: Redefining \overline on input line 398.
-LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count287
-\DOTSCASE@=\count288
-LaTeX Info: Redefining \ldots on input line 495.
-LaTeX Info: Redefining \dots on input line 498.
-LaTeX Info: Redefining \cdots on input line 619.
-\Mathstrutbox@=\box70
-\strutbox@=\box71
-LaTeX Info: Redefining \big on input line 721.
-LaTeX Info: Redefining \Big on input line 722.
-LaTeX Info: Redefining \bigg on input line 723.
-LaTeX Info: Redefining \Bigg on input line 724.
-\big@size=\dimen172
-LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count289
-LaTeX Info: Redefining \bmod on input line 904.
-LaTeX Info: Redefining \pmod on input line 909.
-LaTeX Info: Redefining \smash on input line 939.
-LaTeX Info: Redefining \relbar on input line 969.
-LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count290
-\dotsspace@=\muskip17
-\c@parentequation=\count291
-\dspbrk@lvl=\count292
-\tag@help=\toks19
-\row@=\count293
-\column@=\count294
-\maxfields@=\count295
-\andhelp@=\toks20
-\eqnshift@=\dimen173
-\alignsep@=\dimen174
-\tagshift@=\dimen175
-\tagwidth@=\dimen176
-\totwidth@=\dimen177
-\lineht@=\dimen178
-\@envbody=\toks21
-\multlinegap=\skip53
-\multlinetaggap=\skip54
-\mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2950.
-LaTeX Info: Redefining \] on input line 2951.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \NeedsTeXFormat{pLaTeX2e}
+                              
+The current input file will not be processed further,
+because it was written for some other flavor of TeX.
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup5
-\symAMSb=\mathgroup6
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tools/multicol.sty
-Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
-\c@tracingmulticols=\count296
-\mult@box=\box72
-\multicol@leftmargin=\dimen179
-\c@unbalance=\count297
-\c@collectmore=\count298
-\doublecol@number=\count299
-\multicoltolerance=\count300
-\multicolpretolerance=\count301
-\full@width=\dimen180
-\page@free=\dimen181
-\premulticols=\dimen182
-\postmulticols=\dimen183
-\multicolsep=\skip55
-\multicolbaselineskip=\skip56
-\partial@page=\box73
-\last@line=\box74
-\mc@boxedresult=\box75
-\maxbalancingoverflow=\dimen184
-\mult@rightbox=\box76
-\mult@grightbox=\box77
-\mult@firstbox=\box78
-\mult@gfirstbox=\box79
-\@tempa=\box80
-\@tempa=\box81
-\@tempa=\box82
-\@tempa=\box83
-\@tempa=\box84
-\@tempa=\box85
-\@tempa=\box86
-\@tempa=\box87
-\@tempa=\box88
-\@tempa=\box89
-\@tempa=\box90
-\@tempa=\box91
-\@tempa=\box92
-\@tempa=\box93
-\@tempa=\box94
-\@tempa=\box95
-\@tempa=\box96
-\@tempa=\box97
-\@tempa=\box98
-\@tempa=\box99
-\@tempa=\box100
-\@tempa=\box101
-\@tempa=\box102
-\@tempa=\box103
-\@tempa=\box104
-\@tempa=\box105
-\@tempa=\box106
-\@tempa=\box107
-\@tempa=\box108
-\@tempa=\box109
-\@tempa=\box110
-\@tempa=\box111
-\@tempa=\box112
-\@tempa=\box113
-\@tempa=\box114
-\@tempa=\box115
-\c@minrows=\count302
-\c@columnbadness=\count303
-\c@finalcolumnbadness=\count304
-\last@try=\dimen185
-\multicolovershoot=\dimen186
-\multicolundershoot=\dimen187
-\mult@nat@firstbox=\box116
-\colbreak@box=\box117
-\mc@col@check@num=\count305
-\g__mc_curr_col_int=\count306
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/multirow/multirow.sty
-Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
-\multirow@colwidth=\skip57
-\multirow@cntb=\count307
-\multirow@dima=\skip58
-\bigstrutjot=\dimen188
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/tipa.sty
-Package: tipa 2002/08/08 TIPA version 1.1
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3enc.def
-File: t3enc.def 2001/12/31 T3 encoding
-Now handling font encoding T3 ...
-... no UTF-8 mapping file for font encoding T3
-LaTeX Font Info:    Font shape `JT2/mc/m/sl' in size <10> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 316.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 316.
-LaTeX Font Info:    Font shape `JY2/mc/m/sl' in size <10> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 316.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 316.
-LaTeX Font Info:    Font shape `JT2/mc/m/it' in size <10> not available
-(Font)              Font shape `JT2/mc/m/n' tried instead on input line 316.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 316.
-LaTeX Font Info:    Font shape `JY2/mc/m/it' in size <10> not available
-(Font)              Font shape `JY2/mc/m/n' tried instead on input line 316.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 316.
-LaTeX Font Info:    Font shape `JT2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT2/gt/m/n' tried instead on input line 356.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 356.
-LaTeX Font Info:    Font shape `JY2/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY2/gt/m/n' tried instead on input line 356.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 9.24683pt on input line 356.
-))
-LaTeX Encoding Info:    Redeclaring text command \textdotbreve (encoding ?) on 
-input line 336.
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/tipx.sty
-Package: tipx 2003/01/01 TIPX version 1.2
-)
-(/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-File: l3backend-dvips.def 2025-10-09 L3 backend support: dvips
-\l__pdfannot_backend_content_box=\box118
-\l__pdfannot_backend_model_box=\box119
-\g__pdfannot_backend_int=\count308
-\g__pdfannot_backend_link_int=\count309
-\g__pdfannot_backend_link_sf_int=\count310
-)
-(./reference.aux)
+) (/usr/local/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count275
+) (./reference.aux)
 \openout1 = `reference.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JY2/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for JT2/mc/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 11.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
-.
- (/usr/local/texlive/2025/texmf-dist/tex/latex/tipa/t3cmr.fd
-File: t3cmr.fd 2001/12/31 TIPA font definitions
-)
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 12.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 15.9785pt on input line 12.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 12.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 12.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 5.5481pt on input line 12.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 12.
+./reference.tex:7: LaTeX Error: The font size command \normalsize is not define
+d:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.7 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./reference.tex:8: Undefined control sequence.
+l.8 \maketitle
+              {}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./reference.tex:10: Undefined control sequence.
+l.10 \tableofcontents
+                     {}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./reference.tex:12: Undefined control sequence.
+l.12 \subsection
+                {序章}\label{chapter1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-(/usr/local/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+./reference.tex:12: LaTeX Error: Unicode character 序 (U+5E8F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \subsection{序
+                    章}\label{chapter1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-] [2
+./reference.tex:12: LaTeX Error: Unicode character 章 (U+7AE0)
+               not set up for use with LaTeX.
 
-]
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 13.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 13.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 13.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 23.0061pt on input line 13.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \subsection{序章
+                       }\label{chapter1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-(./reference.toc
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 2.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 4.62341pt on input line 2.
- [3])
-\tf@toc=\write3
-\openout3 = `reference.toc'.
+./reference.tex:14: Undefined control sequence.
+l.14 \subsubsection
+                   {はじめに}\label{section1.1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- [4]
-第1章
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 14.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 14.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 19.17792pt on input line 14.
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 16.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 16.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 13.31541pt on input line 16.
-LaTeX Font Info:    Font shape `JT2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 18.
-LaTeX Font Info:    Font shape `JY2/gt/m/n' will be
-(Font)              scaled to size 11.09619pt on input line 18.
-[5
 
-] [6
+./reference.tex:14: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
 
-]
-第2章
-(./consonants_pronunciation_table.tex
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 3.
-LaTeX Font Info:    Font shape `JY2/mc/m/n' will be
-(Font)              scaled to size 8.32214pt on input line 3.
-) [7] (./vowels_pronunciation_table.tex)
-[8]
-第3章
-[9
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \subsubsection{は
+                       じめに}\label{section1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-] [10]
-第4章
-LaTeX Font Info:    Font shape `JT2/mc/m/n' will be
-(Font)              scaled to size 6.47278pt on input line 229.
-(./consonants_concept_table.tex) [11
 
-] [12] [13] [14
+./reference.tex:14: LaTeX Error: Unicode character じ (U+3058)
+               not set up for use with LaTeX.
 
-]
-第5章
-[15] [16] [17] [18]
-第6章
-[19
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \subsubsection{はじ
+                          めに}\label{section1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-] [20
 
-]
-第7章
-[21] [22
+./reference.tex:14: LaTeX Error: Unicode character め (U+3081)
+               not set up for use with LaTeX.
 
-]
-第8章
-[23] [24
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \subsubsection{はじめ
+                             に}\label{section1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-]
-第9章
-[25] [26
 
-]
-第10章
-[27] [28] [29] [30] [31] (./reference.aux)
- ***********
-pLaTeX2e <2023-02-14u04>+1, based on
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
- ***********
- ) 
+./reference.tex:14: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.14 \subsubsection{はじめに
+                                }\label{section1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./reference.tex:16: Undefined control sequence.
+l.16 \paragraph
+               {この文法書について}\label{subsection1.1.1}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./reference.tex:16: LaTeX Error: Unicode character こ (U+3053)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{こ
+                   の文法書について}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この
+                      文法書について}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文
+                         法書について}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character 法 (U+6CD5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文法
+                            書について}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character 書 (U+66F8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文法書
+                               について}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文法書に
+                                  ついて}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character つ (U+3064)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文法書につ
+                                     いて}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character い (U+3044)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文法書につい
+                                        て}\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:16: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 \paragraph{この文法書について
+                                           }\label{subsection1.1.1}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本
+        書はエレギア帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 書 (U+66F8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書
+           はエレギア帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書は
+              エレギア帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character エ (U+30A8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエ
+                 レギア帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character レ (U+30EC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレ
+                    ギア帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character ギ (U+30AE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギ
+                       ア帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア
+                          帝国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 帝 (U+5E1D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝
+                             国帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 国 (U+56FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国
+                                帝立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 帝 (U+5E1D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国帝
+                                   立大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 立 (U+7ACB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国帝立
+                                      大学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国帝立大
+                                         学言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国帝立大学
+                                            言語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 言 (U+8A00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国帝立大学言
+                                               語学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 語 (U+8A9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 本書はエレギア帝国帝立大学言語
+                                                  学研究所によって�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...はエレギア帝国帝立大学言語学
+                                                  研究所によって刊�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 研 (U+7814)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...エレギア帝国帝立大学言語学研
+                                                  究所によって刊行�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 究 (U+7A76)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...レギア帝国帝立大学言語学研究
+                                                  所によって刊行さ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 所 (U+6240)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...ギア帝国帝立大学言語学研究所
+                                                  によって刊行され�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...ア帝国帝立大学言語学研究所に
+                                                  よって刊行された�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character よ (U+3088)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...帝国帝立大学言語学研究所によ
+                                                  って刊行された辞�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character っ (U+3063)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...国帝立大学言語学研究所によっ
+                                                  て刊行された辞典�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character て (U+3066)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...帝立大学言語学研究所によって
+                                                  刊行された辞典、{C...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 刊 (U+520A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...立大学言語学研究所によって刊
+                                                  行された辞典、{Cina...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 行 (U+884C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...大学言語学研究所によって刊行
+                                                  された辞典、{Cinarwz...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character さ (U+3055)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...学言語学研究所によって刊行さ
+                                                  れた辞典、{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character れ (U+308C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...言語学研究所によって刊行され
+                                                  た辞典、{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...語学研究所によって刊行された
+                                                  辞典、{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 辞 (U+8F9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...学研究所によって刊行された辞
+                                                  典、{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 典 (U+5178)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...研究所によって刊行された辞典
+                                                  、{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:18: LaTeX Error: Unicode character 、 (U+3001)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...究所によって刊行された辞典、
+                                                  {Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イ
+                      ナールズィーリ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ナ (U+30CA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナ
+                         ールズィーリ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナー
+                            ルズィーリ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナール
+                               ズィーリ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ズ (U+30BA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナールズ
+                                  ィーリ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ィ (U+30A3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナールズィ
+                                     ーリ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナールズィー
+                                        リ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character リ (U+30EA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナールズィーリ
+                                           ・ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ・ (U+30FB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナールズィーリ・
+                                              ベルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ベ (U+30D9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 Beruvwdikwtw} イナールズィーリ・ベ
+                                                 ルーヴディクト の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...wdikwtw} イナールズィーリ・ベル
+                                                  ーヴディクト の巻�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...kwtw} イナールズィーリ・ベルー
+                                                  ヴディクト の巻末�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ヴ (U+30F4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...w} イナールズィーリ・ベルーヴ
+                                                  ディクト の巻末資�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character デ (U+30C7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...イナールズィーリ・ベルーヴデ
+                                                  ィクト の巻末資料{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ィ (U+30A3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ナールズィーリ・ベルーヴディ
+                                                  クト の巻末資料{Cin...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ク (U+30AF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ールズィーリ・ベルーヴディク
+                                                  ト の巻末資料{Cinarw...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ルズィーリ・ベルーヴディクト
+                                                   の巻末資料{Cinarwziqili
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...��ィーリ・ベルーヴディクト の
+                                                  巻末資料{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character 巻 (U+5DFB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...��ーリ・ベルーヴディクト の巻
+                                                  末資料{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character 末 (U+672B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...��リ・ベルーヴディクト の巻末
+                                                  資料{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character 資 (U+8CC7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...��・ベルーヴディクト の巻末資
+                                                  料{Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:19: LaTeX Error: Unicode character 料 (U+6599)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...��ベルーヴディクト の巻末資料
+                                                  {Cinarwziqili
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イ
+                      ナールズィーリ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ナ (U+30CA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナ
+                         ールズィーリ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナー
+                            ルズィーリ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナール
+                               ズィーリ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ズ (U+30BA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナールズ
+                                  ィーリ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ィ (U+30A3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナールズィ
+                                     ーリ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナールズィー
+                                        リ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character リ (U+30EA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナールズィーリ
+                                           ・グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ・ (U+30FB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナールズィーリ・
+                                              グラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character グ (U+30B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 Gwlamwdufunw} イナールズィーリ・グ
+                                                 ラームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ラ (U+30E9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...wdufunw} イナールズィーリ・グラ
+                                                  ームドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...funw} イナールズィーリ・グラー
+                                                  ムドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ム (U+30E0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...w} イナールズィーリ・グラーム
+                                                  ドゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ド (U+30C9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...イナールズィーリ・グラームド
+                                                  ゥフーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ゥ (U+30A5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ナールズィーリ・グラームドゥ
+                                                  フーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character フ (U+30D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ールズィーリ・グラームドゥフ
+                                                  ーン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ルズィーリ・グラームドゥフー
+                                                  ン
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:20: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ズィーリ・グラームドゥフーン
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を
+        日本語に翻訳したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character 日 (U+65E5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日
+           本語に翻訳したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本
+              語に翻訳したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character 語 (U+8A9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語
+                 に翻訳したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に
+                    翻訳したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character 翻 (U+7FFB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻
+                       訳したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character 訳 (U+8A33)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳
+                          したものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character し (U+3057)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳し
+                             たものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳した
+                                ものである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character も (U+3082)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳したも
+                                   のである。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳したもの
+                                      である。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character で (U+3067)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳したもので
+                                         ある。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character あ (U+3042)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳したものであ
+                                            る。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳したものである
+                                               。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:21: LaTeX Error: Unicode character 。 (U+3002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 を日本語に翻訳したものである。
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本
+        辞典および文法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 辞 (U+8F9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞
+           典および文法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 典 (U+5178)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典
+              および文法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character お (U+304A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典お
+                 よび文法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character よ (U+3088)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典およ
+                    び文法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character び (U+3073)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および
+                       文法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文
+                          法書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 法 (U+6CD5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法
+                             書の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 書 (U+66F8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書
+                                の翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書の
+                                   翻訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 翻 (U+7FFB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書の翻
+                                      訳にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 訳 (U+8A33)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書の翻訳
+                                         にあたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書の翻訳に
+                                            あたり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character あ (U+3042)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書の翻訳にあ
+                                               たり、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 本辞典および文法書の翻訳にあた
+                                                  り、エレギア帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character り (U+308A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...典および文法書の翻訳にあたり
+                                                  、エレギア帝国帝�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 、 (U+3001)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...および文法書の翻訳にあたり、
+                                                  エレギア帝国帝立�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character エ (U+30A8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...よび文法書の翻訳にあたり、エ
+                                                  レギア帝国帝立大�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character レ (U+30EC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...び文法書の翻訳にあたり、エレ
+                                                  ギア帝国帝立大学�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character ギ (U+30AE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...文法書の翻訳にあたり、エレギ
+                                                  ア帝国帝立大学言�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...法書の翻訳にあたり、エレギア
+                                                  帝国帝立大学言語�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 帝 (U+5E1D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...書の翻訳にあたり、エレギア帝
+                                                  国帝立大学言語学�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 国 (U+56FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...の翻訳にあたり、エレギア帝国
+                                                  帝立大学言語学研�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 帝 (U+5E1D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...翻訳にあたり、エレギア帝国帝
+                                                  立大学言語学研究�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 立 (U+7ACB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...訳にあたり、エレギア帝国帝立
+                                                  大学言語学研究所�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...にあたり、エレギア帝国帝立大
+                                                  学言語学研究所の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...あたり、エレギア帝国帝立大学
+                                                  言語学研究所の皆�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 言 (U+8A00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...たり、エレギア帝国帝立大学言
+                                                  語学研究所の皆様�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 語 (U+8A9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...り、エレギア帝国帝立大学言語
+                                                  学研究所の皆様か�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...、エレギア帝国帝立大学言語学
+                                                  研究所の皆様から�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 研 (U+7814)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...エレギア帝国帝立大学言語学研
+                                                  究所の皆様から多�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 究 (U+7A76)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...レギア帝国帝立大学言語学研究
+                                                  所の皆様から多大�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 所 (U+6240)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ギア帝国帝立大学言語学研究所
+                                                  の皆様から多大な�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ア帝国帝立大学言語学研究所の
+                                                  皆様から多大なる�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 皆 (U+7686)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...帝国帝立大学言語学研究所の皆
+                                                  様から多大なるご�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 様 (U+69D8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...国帝立大学言語学研究所の皆様
+                                                  から多大なるご支�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character か (U+304B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...帝立大学言語学研究所の皆様か
+                                                  ら多大なるご支援�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character ら (U+3089)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...立大学言語学研究所の皆様から
+                                                  多大なるご支援と�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 多 (U+591A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...大学言語学研究所の皆様から多
+                                                  大なるご支援と貴�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 大 (U+5927)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...学言語学研究所の皆様から多大
+                                                  なるご支援と貴重�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...言語学研究所の皆様から多大な
+                                                  るご支援と貴重な�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...語学研究所の皆様から多大なる
+                                                  ご支援と貴重な助�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character ご (U+3054)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...学研究所の皆様から多大なるご
+                                                  支援と貴重な助言�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 支 (U+652F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...研究所の皆様から多大なるご支
+                                                  援と貴重な助言を�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 援 (U+63F4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...究所の皆様から多大なるご支援
+                                                  と貴重な助言を賜�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...所の皆様から多大なるご支援と
+                                                  貴重な助言を賜っ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 貴 (U+8CB4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...の皆様から多大なるご支援と貴
+                                                  重な助言を賜った�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 重 (U+91CD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...皆様から多大なるご支援と貴重
+                                                  な助言を賜った。�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...様から多大なるご支援と貴重な
+                                                  助言を賜った。こ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 助 (U+52A9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...から多大なるご支援と貴重な助
+                                                  言を賜った。ここ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 言 (U+8A00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ら多大なるご支援と貴重な助言
+                                                  を賜った。ここに�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...多大なるご支援と貴重な助言を
+                                                  賜った。ここに深�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 賜 (U+8CDC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...大なるご支援と貴重な助言を賜
+                                                  った。ここに深く�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character っ (U+3063)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...なるご支援と貴重な助言を賜っ
+                                                  た。ここに深く感�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character た (U+305F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...るご支援と貴重な助言を賜った
+                                                  。ここに深く感謝�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 。 (U+3002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ご支援と貴重な助言を賜った。
+                                                  ここに深く感謝の�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character こ (U+3053)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...支援と貴重な助言を賜った。こ
+                                                  こに深く感謝の意�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character こ (U+3053)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...援と貴重な助言を賜った。ここ
+                                                  に深く感謝の意を�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...と貴重な助言を賜った。ここに
+                                                  深く感謝の意を表�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 深 (U+6DF1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...貴重な助言を賜った。ここに深
+                                                  く感謝の意を表す�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character く (U+304F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...重な助言を賜った。ここに深く
+                                                  感謝の意を表する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 感 (U+611F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...な助言を賜った。ここに深く感
+                                                  謝の意を表する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 謝 (U+8B1D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...助言を賜った。ここに深く感謝
+                                                  の意を表する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...言を賜った。ここに深く感謝の
+                                                  意を表する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 意 (U+610F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...を賜った。ここに深く感謝の意
+                                                  を表する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...賜った。ここに深く感謝の意を
+                                                  表する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...った。ここに深く感謝の意を表
+                                                  する。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character す (U+3059)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...た。ここに深く感謝の意を表す
+                                                  る。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character る (U+308B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...。ここに深く感謝の意を表する
+                                                  。
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:23: LaTeX Error: Unicode character 。 (U+3002)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...ここに深く感謝の意を表する。
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./reference.tex:25: Undefined control sequence.
+l.25 \subsubsection
+                   {言語の概要}\label{section1.2}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./reference.tex:25: LaTeX Error: Unicode character 言 (U+8A00)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \subsubsection{言
+                       語の概要}\label{section1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:25: LaTeX Error: Unicode character 語 (U+8A9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \subsubsection{言語
+                          の概要}\label{section1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:25: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \subsubsection{言語の
+                             概要}\label{section1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:25: LaTeX Error: Unicode character 概 (U+6982)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \subsubsection{言語の概
+                                要}\label{section1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:25: LaTeX Error: Unicode character 要 (U+8981)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \subsubsection{言語の概要
+                                   }\label{section1.2}
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character エ (U+30A8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エ
+        レギア語は、砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character レ (U+30EC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレ
+           ギア語は、砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character ギ (U+30AE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギ
+              ア語は、砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア
+                 語は、砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 語 (U+8A9E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語
+                    は、砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character は (U+306F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は
+                       、砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 、 (U+3001)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、
+                          砂漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 砂 (U+7802)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂
+                             漠の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 漠 (U+6F20)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠
+                                の中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠の
+                                   中のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠の中
+                                      のオアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠の中の
+                                         オアシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character オ (U+30AA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠の中のオ
+                                            アシス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠の中のオア
+                                               シス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character シ (U+30B7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 エレギア語は、砂漠の中のオアシ
+                                                  ス都市を中心に成�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...ギア語は、砂漠の中のオアシス
+                                                  都市を中心に成立�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 都 (U+90FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...ア語は、砂漠の中のオアシス都
+                                                  市を中心に成立し�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 市 (U+5E02)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...語は、砂漠の中のオアシス都市
+                                                  を中心に成立した�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...は、砂漠の中のオアシス都市を
+                                                  中心に成立した帝�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...、砂漠の中のオアシス都市を中
+                                                  心に成立した帝国�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 心 (U+5FC3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...砂漠の中のオアシス都市を中心
+                                                  に成立した帝国、�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character に (U+306B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...漠の中のオアシス都市を中心に
+                                                  成立した帝国、エ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 成 (U+6210)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...の中のオアシス都市を中心に成
+                                                  立した帝国、エレ�...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./reference.tex:27: LaTeX Error: Unicode character 立 (U+7ACB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...中のオアシス都市を中心に成立
+                                                  した帝国、エレギ�...
+(That makes 100 errors; please try again.) 
 Here is how much of TeX's memory you used:
- 3536 strings out of 468182
- 48654 string characters out of 5434878
- 457882 words of memory out of 5000000
- 32435 multiletter control sequences out of 15000+600000
- 645568 words of font info for 128 fonts, out of 8000000 for 9000
- 934 hyphenation exceptions out of 8191
- 61i,15n,67p,371b,391s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 442 strings out of 467538
+ 8664 string characters out of 5419545
+ 433730 words of memory out of 5000000
+ 29434 multiletter control sequences out of 15000+600000
+ 627721 words of font info for 40 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 29i,0n,37p,233b,38s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on reference.dvi (31 pages, 43872 bytes).
+./reference.tex:27:  ==> Fatal error occurred, no output PDF file produced!
