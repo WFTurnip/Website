@@ -13,7 +13,7 @@ const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
 
 async function generateConsonantFigure() {
-    let filename = path.join("reference/", "figure/", "consonants_figure.svg");
+    let filename = path.join("reference/", "figure/", "consonant_pronunciation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
@@ -58,7 +58,7 @@ async function generateConsonantFigure() {
 }
 
 async function generateVowelFigure() {
-    let filename = path.join("reference/", "figure/", "vowels_figure.svg");
+    let filename = path.join("reference/", "figure/", "vowel_pronunciation_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;
