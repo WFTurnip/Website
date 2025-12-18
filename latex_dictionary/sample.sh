@@ -1,20 +1,20 @@
-cp emblem.mp adjective_conjugation_figure.mp
-cp emblem.mp adverb_conjugation_figure.mp
-cp emblem.mp article_conjugation_figure.mp
-cp emblem.mp circumfix_consonants_figure.mp
-cp emblem.mp conjunct_case_figure.mp
-cp emblem.mp consonant_concept_figure.mp
-cp emblem.mp consonants_figure.mp
-cp emblem.mp first_case_figure.mp
-cp emblem.mp ltr_figure.mp
-cp emblem.mp noun_conjugation_figure.mp
-cp emblem.mp part_of_speach_figure.mp
-cp emblem.mp particle_conjugation_figure.mp
-cp emblem.mp prefix_case_figure.mp
-cp emblem.mp prefix_consonants_figure.mp
-cp emblem.mp rtl_figure.mp
-cp emblem.mp second_case_figure.mp
-cp emblem.mp suffix_case_figure.mp
-cp emblem.mp suffix_consonants_figure.mp
-cp emblem.mp verb_conjugation_figure.mp
-cp emblem.mp vowels_figure.mp
+touch adjective_conjugation_table.tex
+touch adverb_conjugation_table.tex
+touch article_conjugation_table.tex
+touch conjunct_case_table.tex
+touch consonant_concept_table.tex
+touch consonant_pronunciation_table.tex
+touch emblem.tex
+touch first_case_table.tex
+
+touch noun_conjugation_table.tex
+touch part_of_speach_table.tex
+touch particle_conjugation_table.tex
+touch prefix_case_table.tex
+touch prefix_consonants_table.tex
+
+touch second_case_table.tex
+touch suffix_case_table.tex
+touch suffix_consonants_table.tex
+touch verb_conjugation_table.tex
+touch vowel_pronunciation_table.tex

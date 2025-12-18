@@ -7,8 +7,8 @@ touch *
 
 mpost emblem.mp
 
-mpost consonants_figure.mp
-mpost vowels_figure.mp
+mpost consonant_pronunciation_figure.mp
+mpost vowel_pronunciation_figure.mp
 
 mpost ltr_figure.mp
 mpost rtl_figure.mp
@@ -16,7 +16,6 @@ mpost rtl_figure.mp
 mpost consonant_concept_figure.mp
 mpost prefix_consonants_figure.mp
 mpost suffix_consonants_figure.mp
-mpost circumfix_consonants_figure.mp
 
 mpost first_case_figure.mp
 mpost second_case_figure.mp
