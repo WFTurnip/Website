@@ -1,15 +1,76 @@
-\documentclass{jsbook}
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+  japanese,
+]{article}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic,shorthands=off,provide=*]{babel}
+\else
+\usepackage[bidi=default,shorthands=off,provide=*]{babel}
+\fi
+\ifLuaTeX
+  \usepackage{selnolig} % disable illegal ligatures
+\fi
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={エレギア語文法書},
+  pdflang={ja},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
 
 \title{エレギア語文法書}
 \author{}
 \date{}
 
 \begin{document}
-\maketitle{}
+\maketitle
 
-\tableofcontents{}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\chapter{序章}\label{chapter1}
+\subsection{目次}\label{ux76eeux6b21}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{序章}\label{chapter1}
 
 \subsubsection{はじめに}\label{section1.1}
 
@@ -30,7 +91,9 @@ Gwlamwdufunw} イナールズィーリ・グラームドゥフーン
 
 帝国議会によって制定された数多くの書体は、近年オープンソースのデジタルフォントとして整備され、帝国公式のウェブサイトにて公開されている。
 
-\chapter{音韻体系}\label{chapter2}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{音韻体系}\label{chapter2}
 
 \subsubsection{子音の発音}\label{section2.1}
 
@@ -47,7 +110,7 @@ Gwlamwdufunw} イナールズィーリ・グラームドゥフーン
 \caption{子音発音図}
 \end{figure}
 
-\paragraph{子音発音説明}\label{subsection2.1.2}
+\paragraph{子音発音一覧}\label{subsection2.1.2}
 
 子音の発音に就いての説明
 
@@ -106,7 +169,7 @@ Gwlamwdufunw} イナールズィーリ・グラームドゥフーン
 \caption{母音発音図}
 \end{figure}
 
-\paragraph{母音発音説明}\label{subsection2.2.2}
+\paragraph{母音発音一覧}\label{subsection2.2.2}
 
 母音の発音に就いての説明
 
@@ -126,7 +189,9 @@ Gwlamwdufunw} イナールズィーリ・グラームドゥフーン
 この文字は無母音であることを指す。
 \end{description}
 
-\chapter{書記体系}\label{chapter3}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{書記体系}\label{chapter3}
 
 \subsubsection{文字体系}\label{section3.1}
 
@@ -228,11 +293,13 @@ zosokw
 \end{figure}
 \end{description}
 
-\chapter{子音の役割}\label{chapter4}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{子音の役割}\label{chapter4}
 
 \subsubsection{単語構造}\label{section4.1}
 
-\subparagraph{基本単語構造}\label{subsubsection4.1.1}
+\paragraph{基本単語構造}\label{subsection4.1.1}
 
 エレギア語の基本単語構造はC\textsubscript{1}V\textsubscript{1}C\textsubscript{2}V\textsubscript{2}C\textsubscript{3}V\textsubscript{3}となる。これは原型となる単語のことであって、活用形などは後述する接辞の節にて単語構造が拡張される。
 
@@ -240,14 +307,18 @@ zosokw
 
 語根はエレギア語において最も重要な単語の概念を指し示す水先案内人の様な存在である。後世の学者たちが単語を区別するために子音概念を明瞭化させた。そのために子音概念を理解することが重要である。
 
-\subparagraph{子音概念表}\label{subsubsection4.2.1}
+\paragraph{子音概念図表}\label{subsection4.2.1}
 
-\subparagraph{子音概念図}\label{subsubsection4.2.2}
+\subparagraph{子音概念表}\label{subsubsection4.2.1.1}
+
+\subparagraph{子音概念図}\label{subsubsection4.2.1.2}
 
 \begin{figure}
 \centering
 \caption{子音概念図}
 \end{figure}
+
+\paragraph{子音概念一覧}\label{subsection4.2.2}
 
 子音の概念に就いての説明
 
@@ -331,7 +402,9 @@ C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}C\textsubscript{suffix}
 \caption{接尾辞図}
 \end{figure}
 
-\chapter{母音の役割}\label{chapter5}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{母音の役割}\label{chapter5}
 
 エレギア語の格には否格、与格、属格、対格、主格、流格が存在する。
 
@@ -349,6 +422,8 @@ C\textsubscript{1}C\textsubscript{2}C\textsubscript{3}C\textsubscript{suffix}
 \centering
 \caption{前置格図}
 \end{figure}
+
+\paragraph{前置格一覧}\label{subsection5.1.2}
 
 前置格に就いての説明
 
@@ -383,6 +458,8 @@ C\textsubscript{1}の概念を流出させる格。
 \caption{後置格図}
 \end{figure}
 
+\paragraph{後置格一覧}\label{subsection5.2.2}
+
 後置格に就いての説明
 
 \begin{description}
@@ -416,7 +493,7 @@ C\textsubscript{2}の概念を流出させる格。
 \caption{複合格図}
 \end{figure}
 
-\paragraph{複合格の説明}\label{subsection5.3.2}
+\paragraph{複合格一覧}\label{subsection5.3.2}
 
 複合格に就いての説明
 
@@ -498,7 +575,7 @@ C\textsubscript{2}の概念を流出させる格。
 \caption{接頭辞格図}
 \end{figure}
 
-\paragraph{接頭辞格説明}\label{subsection5.4.2}
+\paragraph{接頭辞格一覧}\label{subsection5.4.2}
 
 接頭辞格に就いての説明
 
@@ -533,6 +610,8 @@ C\textsubscript{prefix}の概念を流出させる格。
 \caption{接尾辞格図}
 \end{figure}
 
+\paragraph{接尾辞格一覧}\label{subsection5.5.2}
+
 接尾辞格に就いての説明
 
 \begin{description}
@@ -555,18 +634,18 @@ C\textsubscript{suffix}の概念を流出させる格。
 
 エレギア語の品詞には附詞、動詞、容詞、助詞、副詞、名詞が存在する。
 
-\paragraph{品詞分類図表}\label{subsection5.6.1}
+\paragraph{品詞図表}\label{subsection5.6.1}
 
-\subparagraph{品詞分類表}\label{subsubsection5.6.1.1}
+\subparagraph{品詞表}\label{subsubsection5.6.1.1}
 
-\subparagraph{品詞分類図}\label{subsubsection5.6.1.2}
+\subparagraph{品詞図}\label{subsubsection5.6.1.2}
 
 \begin{figure}
 \centering
-\caption{品詞分類図}
+\caption{品詞図}
 \end{figure}
 
-\paragraph{品詞分類説明}\label{subsection5.6.2}
+\paragraph{品詞一覧}\label{subsection5.6.2}
 
 品詞に就いての説明
 
@@ -586,7 +665,9 @@ C\textsubscript{suffix}の概念を流出させる格。
 物事の概念を表す品詞である。
 \end{description}
 
-\chapter{文構造}\label{chapter6}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{文構造}\label{chapter6}
 
 \subsubsection{基本文型}\label{section6.1}
 
@@ -604,7 +685,9 @@ C\textsubscript{suffix}の概念を流出させる格。
 
 文の中で特定の部分を強調する方法
 
-\chapter{特殊構文}\label{chapter7}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{特殊構文}\label{chapter7}
 
 \subsubsection{受動態}\label{section7.1}
 
@@ -633,7 +716,9 @@ C\textsubscript{suffix}の概念を流出させる格。
 \item[]
 \end{description}
 
-\chapter{辞書}\label{chapter8}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{辞書}\label{chapter8}
 
 \subsubsection{辞書の使用方法}\label{section8.1}
 
@@ -645,7 +730,9 @@ C\textsubscript{suffix}の概念を流出させる格。
 
 新しい語彙を作る規則
 
-\chapter{付録}\label{chapter9}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{付録}\label{chapter9}
 
 \subsubsection{重要な語句}\label{section9.1}
 
@@ -668,7 +755,9 @@ C\textsubscript{suffix}の概念を流出させる格。
 \item[]
 \end{description}
 
-\chapter{活用形一覧}\label{chapter10}
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{活用形一覧}\label{chapter10}
 
 \subsubsection{附詞活用形}\label{section10.1}
 
@@ -685,7 +774,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \caption{附詞活用図}
 \end{figure}
 
-\paragraph{附詞活用説明}\label{subsection10.1.2}
+\paragraph{附詞活用一覧}\label{subsection10.1.2}
 
 附詞の活用に就いての説明
 
@@ -727,7 +816,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \caption{動詞活用図}
 \end{figure}
 
-\paragraph{動詞活用説明}\label{subsubsection10.2.2}
+\paragraph{動詞活用一覧}\label{subsubsection10.2.2}
 
 動詞の活用に就いての説明
 
@@ -769,7 +858,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \caption{容詞活用図}
 \end{figure}
 
-\paragraph{容詞活用説明}\label{subsubsection10.3.2}
+\paragraph{容詞活用一覧}\label{subsubsection10.3.2}
 
 容詞の活用に就いての説明
 
@@ -811,7 +900,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \caption{助詞活用図}
 \end{figure}
 
-\paragraph{助詞活用説明}\label{subsection10.4.2}
+\paragraph{助詞活用一覧}\label{subsection10.4.2}
 
 助詞の活用に就いての説明
 
@@ -853,7 +942,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \caption{副詞活用図}
 \end{figure}
 
-\paragraph{副詞活用説明}\label{subsection10.5.2}
+\paragraph{副詞活用一覧}\label{subsection10.5.2}
 
 副詞の活用に就いての説明
 
@@ -895,7 +984,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \caption{名詞活用図}
 \end{figure}
 
-\paragraph{名詞活用説明}\label{subsubsection10.6.2}
+\paragraph{名詞活用一覧}\label{subsubsection10.6.2}
 
 名詞の活用に就いての説明
 
@@ -921,5 +1010,7 @@ C\textsubscript{suffix}の概念を流出させる格。
 \item[精神]
 \end{description}
 \end{description}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \end{document}
