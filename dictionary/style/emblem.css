@@ -8,23 +8,44 @@
     }
 }
 
-@keyframes spinCW {
+@keyframes spinCenter {
     from {
-        transform: rotate(360deg);
+        transform: rotateX(360deg) rotateY(0deg) rotateZ(0deg);
     }
 
     to {
-        transform: rotate(0deg);
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
 }
 
-@keyframes spinCCW {
+
+@keyframes spinMain {
     from {
-        transform: rotate(-360deg);
+        transform: rotateX(0deg)  rotateY(0deg) rotateZ(360deg);
     }
 
     to {
-        transform: rotate(0deg);
+        transform: rotateX(0deg)  rotateY(0deg) rotateZ(0deg);
+    }
+}
+
+@keyframes spinOthers {
+    from {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(-360deg);
+    }
+
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+}
+
+@keyframes spinEmblem {
+    from {
+        transform: rotateX(0deg) rotateY(360deg) rotateZ(720deg);
+    }
+
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
     }
 }
 
@@ -34,16 +55,23 @@ svg * {
     animation: fadeIn 2.5s forwards;
 }
 
+.center {
+    animation: fadeIn 2.5s forwards, spinCenter 2.5s forwards;
+}
+
 .east,
 .south,
 .west,
 .north {
-    animation: fadeIn 2.5s forwards, spinCW 2.5s forwards;
+    animation: fadeIn 2.5s forwards, spinMain 2.5s forwards;
 }
 
-.others,
+.others {
+    animation: fadeIn 2.5s forwards, spinOthers 2.5s forwards;
+}
+
 .emblem {
-    animation: fadeIn 2.5s forwards, spinCCW 2.5s forwards;
+    animation: fadeIn 2.5s forwards, spinEmblem 2.5s forwards;
 }
 
 .background {
