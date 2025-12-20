@@ -1,16 +1,26 @@
 #!/bin/zsh
+set -e
 
-echo "コンパイルをどちらで実行するか選んで下さい。"
-echo "metafont / latex"
+echo "実行モードを選択して下さい。"
+echo "latex / metafont / erase"
 
 read -p ">>> " readmode
 
 case "$readmode" in
     metafont)
+        echo "METAFONTモードを実行します。"
         sh compile_mf.sh
+        echo "METAFONTモードを実行しました。"
         ;;
     latex)
+        echo "LaTeXモードを実行します。"
         sh compile_latex.sh
+        echo "LaTeXモードを実行しました。"
+        ;;
+    erase)
+        echo "成果物を消去します。"
+        rm -f -- *~ *gf *pk *dvi *l*g *ps *tfm *png *gif *pdf *ind *idx
+        echo "成果物を消去しました。"
         ;;
     *)
         echo "無効な出力方式です。終了します。"
