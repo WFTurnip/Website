@@ -165,8 +165,9 @@ dd figure {
     margin: auto;
 }
 
-dd > figure {
+dt > figure {
     display: inline;
+    margin: auto;
 }
 
 dd figure figcaption {
