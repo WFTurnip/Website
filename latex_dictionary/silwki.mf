@@ -2,20 +2,15 @@ mode_setup;
 
 proofing := 2;
 
-beginchar("A", 7pt#, 11pt#, 2pt#);
-
-  z1 = (0w,0h);
-  z2 = (0w,1h);
-  z3 = (1w,1h);
-  z4 = (1w,0h);
- 
-  pickup pensquare xscaled 1pt yscaled 0.01pt rotated 30;
-  draw z1
-    .. z4
-    .. z3
-    ;
+beginchar("g",5pt#,14pt#,2pt#);
+  z1 = (0.0w,0.7h);
+  z2 = (0.5w,0.3h);
+  z3 = (0.1w,0.1h);
   
-  labels(range 1 thru 4);
+  % 本線
+  pickup pencircle scaled 1pt;
+  draw z1..z2..z3;
+  labels(1,2,3);
 endchar;
 
-end.
+end
