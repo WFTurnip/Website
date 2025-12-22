@@ -17,7 +17,7 @@ def makegrid =
   endfor;
 enddef;
 
-def consocentercircle =
+def consonantcentercircle =
   pickup pencircle scaled (3w/5);
   drawdot(w/2,w/2);
 enddef;
@@ -34,7 +34,7 @@ def loanwordcentercircle =
   for i = 1 upto 8:
     drawdot(w/2+(2*w/10)*cosd(45*i),w/2+(2*w/10)*sind(45*i));
   endfor;
-  pickup pencircle scaled (w/5);
+  pickup pencircle scaled (w/10);
   drawdot(w/2,w/2);
 enddef;
 
@@ -272,7 +272,7 @@ beginchar("g",w#,h#,d#);
     makegrid;
   fi;
   consonant_k;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("d",w#,h#,d#);
@@ -280,7 +280,7 @@ beginchar("d",w#,h#,d#);
     makegrid;
   fi;
   consonant_t;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("z",w#,h#,d#);
@@ -288,7 +288,7 @@ beginchar("z",w#,h#,d#);
     makegrid;
   fi;
   consonant_s;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("c",w#,h#,d#);
@@ -296,7 +296,7 @@ beginchar("c",w#,h#,d#);
     makegrid;
   fi;
   consonant_q;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("l",w#,h#,d#);
@@ -304,13 +304,13 @@ beginchar("l",w#,h#,d#);
     makegrid;
   fi;
   consonant_r;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("b",w#,h#,d#);
   if proofing = 2: makegrid; fi;
   consonant_p;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("x",w#,h#,d#);
@@ -318,7 +318,7 @@ beginchar("x",w#,h#,d#);
     makegrid;
   fi;
   consonant_h;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("v",w#,h#,d#);
@@ -326,7 +326,7 @@ beginchar("v",w#,h#,d#);
     makegrid;
   fi;
   consonant_f;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("n",w#,h#,d#);
@@ -334,7 +334,7 @@ beginchar("n",w#,h#,d#);
     makegrid;
   fi;
   consonant_m;
-  consocentercircle;
+  consonantcentercircle;
 endchar;
 
 beginchar("j",w#,h#,d#);
@@ -398,7 +398,7 @@ beginchar("w",w#,h#,d#);
 endchar;
 
 def verticalbar = 
-  pickup pencircle scaled (w/5);
+  pickup pencircle scaled (w/10);
   draw (w/2,h-(w/10)) -- (w/2,-d+(w/10));
 enddef;
  
@@ -415,7 +415,7 @@ beginchar("$",w#,h#,d#);
   fi
   verticalbar;
   consonant_t;
-  consonant_f;
+  consonantcentercircle;
 endchar;
 
 beginchar("~",w#,h#,d#);

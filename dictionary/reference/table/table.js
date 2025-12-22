@@ -46,7 +46,7 @@ function generateConjunctModelTable(captionName) {
 function generateConsonantPronunciationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "子音表";
+    caption.textContent = "子音発音表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let consonantsPronunciationHorizontalRow = document.createElement("tr");
@@ -100,7 +100,7 @@ function generateConsonantPronunciationTable() {
 function generateVowelPronunciationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "母音表";
+    caption.textContent = "母音発音表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let vowelsPronunciationHorizontalRow = document.createElement("tr");

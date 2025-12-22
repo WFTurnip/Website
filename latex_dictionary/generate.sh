@@ -19,7 +19,8 @@ case "$readmode" in
         ;;
     erase)
         echo "成果物を消去します。"
-        rm -f -- *~ *gf *pk *dvi *l*g *ps *tfm *png *gif *pdf *ind *idx
+        touch *
+        rm -f -- *~ *gf *pk *dvi *aux *l*g *ps *tfm *png *gif *pdf *ind *idx
         touch *
         echo "成果物を消去しました。"
         ;;
