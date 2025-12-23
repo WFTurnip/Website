@@ -609,7 +609,7 @@ async function generateSuffixCaseFigure() {
 }
 
 async function generatePartOfSpeechFigure() {
-    let filename = path.join("reference/", "figure/", "part_of_speach_figure.svg");
+    let filename = path.join("reference/", "figure/", "part_of_speech_figure.svg");
     const svgns = "http://www.w3.org/2000/svg";
     const dom = new JSDOM();
     const document = dom.window.document;

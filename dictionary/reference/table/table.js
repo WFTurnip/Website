@@ -231,7 +231,7 @@ function generatePrefixConsonantTable() {
         for (let j = 0; j < consonantsArray.length / consonantsPronunciationVerticalArray.length; j++) {
             let consonantsCell = document.createElement("td");
             let consonants = document.createElement("div");
-            consonants.textContent = consonantsArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            consonants.textContent = consonantsArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j] + "\u{25CC}\u{25CC}\u{25CC}";
             consonants.classList.add("sulive");
             consonantsCell.appendChild(consonants);
             let consonantsPronunciation = document.createElement("div");
@@ -285,7 +285,7 @@ function generateSuffixConsonantTable() {
         for (let j = 0; j < consonantsArray.length / consonantsPronunciationVerticalArray.length; j++) {
             let consonantsCell = document.createElement("td");
             let consonants = document.createElement("div");
-            consonants.textContent = "\u{25CC}" + "\u{25CC}" + "\u{25CC}" + consonantsArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j];
+            consonants.textContent = "\u{25CC}\u{25CC}\u{25CC}" + consonantsArray[i * consonantsArray.length / consonantsPronunciationVerticalArray.length + j];
             consonants.classList.add("sulive");
             consonantsCell.appendChild(consonants);
             let consonantsPronunciation = document.createElement("div");
@@ -414,7 +414,7 @@ function generateConjunctCaseTable() {
     let tr2 = document.createElement("tr");
     vowelsArray.forEach((vowel, i) => {
         let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}" + vowel + "\u{25CC}" + "\u{25CC}", "sulive"));
+        th.appendChild(createParagraph("\u{25CC}" + vowel + "\u{25CC}\u{25CC}", "sulive"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr2.appendChild(th);
     });
@@ -433,7 +433,7 @@ function generateConjunctCaseTable() {
     vowelsArray.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
-        th.appendChild(createParagraph("\u{25CC}" + "\u{25CC}" + vowel1 + "\u{25CC}", "sulive"));
+        th.appendChild(createParagraph("\u{25CC}\u{25CC}" + vowel1 + "\u{25CC}", "sulive"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
         tr.appendChild(th);
         vowelsArray.forEach((vowel2, j) => {
@@ -476,7 +476,7 @@ function generatePrefixCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}\u{25CC}\u{25CC}";
             vowels.classList.add("sulive");
             VowelCell.appendChild(vowels);
             let vowelsPartOfSpeech = document.createElement("div");
@@ -519,7 +519,7 @@ function generateSuffixCaseTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}" + "\u{25CC}" + "\u{25CC}";
+            vowels.textContent = "\u{25CC}\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j];
             vowels.classList.add("sulive");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
