@@ -2,13 +2,14 @@ mode_setup;
 
 proofing := 2;
 
-beginchar(65,10pt#,10pt#,0pt#);
-  pickup pencircle xscaled 1.2pt yscaled 0.5pt rotated 120;
-  z1=(0.1w,0.75h);
-  z2-z1=whatever*(8,1);
-  x2=0.9w;
-  z3=(0.8w,0.1h);
-  draw z1--z2{z1-z2}..{z2-z1}z3;
+beginchar("g",5pt#,14pt#,2pt#);
+  z1 = (0.0w,0.7h);
+  z2 = (0.5w,0.3h);
+  z3 = (0.1w,0.1h);
+  
+  % 本線
+  pickup pencircle scaled 1pt;
+  draw z1..z2..z3;
   labels(1,2,3);
 endchar;
 
