@@ -403,32 +403,17 @@ function generateConjunctCaseTable() {
     let tr = document.createElement("tr");
     let blank = document.createElement("th");
     blank.textContent = "";
-    blank.rowSpan = vowelsPronunciationVerticalArray.length;
-    blank.colSpan = vowelsPronunciationVerticalArray.length;
     tr.appendChild(blank);
-    let th2 = document.createElement("th");
-    th2.textContent = "第一母音";
-    th2.colSpan = vowelsArray.length;
-    tr.appendChild(th2);
-    thead.appendChild(tr);
-    let tr2 = document.createElement("tr");
     vowelsArray.forEach((vowel, i) => {
         let th = document.createElement("th");
         th.appendChild(createParagraph("\u{25CC}" + vowel + "\u{25CC}\u{25CC}", "sulive"));
         th.appendChild(createParagraph(vowelsCasesArray[i] + "格", "case"));
-        tr2.appendChild(th);
+        tr.appendChild(th);
     });
-    thead.appendChild(tr2);
+    thead.appendChild(tr);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
     let tr3 = document.createElement("tr");
-    let th3 = document.createElement("th");
-    let p = document.createElement("div");
-    p.textContent = "第二母音";
-    p.classList.add("concept");
-    th3.appendChild(p);
-    th3.rowSpan = 7;
-    tr3.appendChild(th3);
     tbody.appendChild(tr3);
     vowelsArray.forEach((vowel1, i) => {
         let tr = document.createElement("tr");
