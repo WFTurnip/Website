@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const tocHeading = document.createElement(heading.tagName.toLowerCase());
             const a = document.createElement("a");
             a.href = "#" + heading.id;
-            a.textContent = heading.textContent.trim() || "(無題)";
+            a.textContent = heading.textContent.trim() || "名称未設定";
             tocHeading.appendChild(a);
             tocNav.appendChild(tocHeading);
         });
