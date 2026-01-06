@@ -9,12 +9,12 @@ read -p ">>> " readmode
 case "$readmode" in
     metafont)
         echo "METAFONTモードを実行します。"
-        sh compile_mf.sh
+        sh mf_compile.sh
         echo "METAFONTモードを実行しました。"
         ;;
     latex)
         echo "LaTeXモードを実行します。"
-        sh compile_latex.sh
+        sh latex_compile.sh
         echo "LaTeXモードを実行しました。"
         ;;
     erase)
