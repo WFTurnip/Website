@@ -1,6 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="500" height="850" version="1.1" id="svg7" sodipodi:docname="lekuta.svg" inkscape:version="1.4.3 (0d15f750, 2025-12-25)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-    <defs id="defs7" />
-    <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.53647059" inkscape:cx="249.7807" inkscape:cy="425" inkscape:window-width="1080" inkscape:window-height="675" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg7" />
-    <path id="path8" style="fill:#000000;fill-opacity:0;stroke:#ff0000" d="m 125,100 v 50 200 h 50 200 V 300 150 100 H 325 175 Z m 50,50 H 325 V 300 H 175 Z m -50,350 v 50 200 h 50 200 V 700 550 500 H 325 175 Z m 50,50 H 325 V 700 H 175 Z M 225,0 h 50 V 850 H 225 Z M 25,200 v 50 350 50 h 400 50 V 600 250 200 h -50 z m 50,50 H 425 V 600 H 75 Z m 200,350 h -50 v 50 l 200,200 h 50 V 800 Z M 25,800 v 50 H 475 V 800 Z M 25,50 V 0 h 50 l 200,200 v 50 H 225 Z M 25,0 V 50 H 475 V 0 Z" />
+<svg width="500" height="850" xmlns="http://www.w3.org/2000/svg">
+    <path d="M -475,0 V 50 H -25 V 0 Z" />
+
+    <path d="M -475,50 V 0 h 50 l 200,200 v 50 h -50 z" />
+
+    <path d="m -475,800 v 50 h 450 v -50 z" />
+
+    <path d="m -225,600 h -50 v 50 l 200,200 h 50 v -50 z" />
+
+    <path d="M 25 200 L 25 250 L 25 600 L 25 650 L 425 650 L 475 650 L 475 600 L 475 250 L 475 200 L 425 200 L 25 200 z M 75 250 L 425 250 L 425 600 L 75 600 L 75 250 z "/>
+
+    <path d="M225 0h50v850h-50z"/>
+
+    <path d="M 125 300 L 125 350 L 125 550 L 175 550 L 375 550 L 375 500 L 375 350 L 375 300 L 325 300 L 175 300 L 125 300 z M 175 350 L 325 350 L 325 500 L 175 500 L 175 350 z "/>
 </svg>
