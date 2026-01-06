@@ -1,2 +1,0 @@
-touch diacritics_concatenator.sh
-touch diacritics_maker.sh
