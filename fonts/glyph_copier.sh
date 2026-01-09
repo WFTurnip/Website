@@ -1,7 +1,7 @@
-fontname=("kodito" "lozegw" "piswpi" "silwki" "xavani" "xidili" "lekuta" "makina" "polwgo" "sulive" "xesada" "zosokw")
+fontname=("kodito" "lekuta" "lozegw" "makina" "piswpi" "polwgo" "silwki" "sulive" "xavani" "xesada" "xidili" "zosokw")
 
 for fontname in "${fontname[@]}"; do
-    echo "ディレクトリ${fontname}の大文字から小文字へのコピーをします。"
+    echo "ディレクトリ${fontname}の基本大文字から基本小文字へのコピーをします。"
 
     cp $fontname/uni0041.svg $fontname/uni0061.svg
     cp $fontname/uni0042.svg $fontname/uni0062.svg
@@ -30,5 +30,5 @@ for fontname in "${fontname[@]}"; do
     cp $fontname/uni0059.svg $fontname/uni0079.svg
     cp $fontname/uni005a.svg $fontname/uni007a.svg
 
-    echo "ディレクトリ${fontname}の大文字から小文字へのコピーが完了しました。"
+    echo "ディレクトリ${fontname}の基本大文字から基本小文字へのコピーが完了しました。"
 done
