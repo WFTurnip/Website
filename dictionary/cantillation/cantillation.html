@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
@@ -10,26 +11,104 @@
     <link rel="stylesheet" href="../style/table.css">
     <link rel="icon" href="../favicon/cantillation.svg">
     <script src="table/table.js"></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <header>
-      <li><a href="../dictionary.html">表紙</a></li>
-      <li>文法書</li>
+        <ul>
+            <li><a href="../dictionary.html">表紙</a></li>
+            <li>詠唱指南書</li>
+        </ul>
     </header>
     <h1></h1>
     <main>
-      <hr>
-      <section>
-        <details open>
-          <summary>
-            <h2></h2>
-          </summary>
-        </details>
-      </section>
+        <hr>
+        <section>
+            <details open>
+                <summary>
+                    <h2 class="table-of-content">目次</h2>
+                </summary>
+                <nav id="table-of-content"></nav>
+            </details>
+        </section>
+        <hr>
+        <section>
+            <details open>
+                <summary>
+                    <h2 id="chapter1">序章</h2>
+                </summary>
+                <h3 id="section1.1">はじめに</h3>
+                <p>この詠唱指南書は、詠唱の基本的な概念と技術を学ぶためのリソースです。詠唱の歴史、種類、そして実践的なテクニックについて詳しく説明します。</p>
+                <h4 id="subsection1.1.1">詠唱の歴史</h4>
+                <p>詠唱は古代から存在し、宗教的儀式や文化的伝統の一部として発展してきました。様々な文化で詠唱は重要な役割を果たしており、その技術は時代とともに進化してきました。</p>
+            </details>
+        </section>
+        <hr>
+        <section>
+            <details open>
+                <summary>
+                    <h2 id="chapter2">記号体系</h2>
+                </summary>
+                <h3 id="section2.1">詠唱記号</h3>
+                <p>詠唱記号は、音楽的なリズムや旋律を表現するために使用されます。それぞれの記号には特定の意味があり、詠唱のスタイルや感情を伝えるために使われます。</p>
+                <h4 id="subsection2.1.1">詠唱記号図表</h4>
+                <dl>
+                    <dt>詠唱記号表</dt>
+                    <dd>
+                        <article class="cantillation-marks-table"></article>
+                    </dd>
+                    <dt>詠唱記号図</dt>
+                    <dd>
+                        <article>
+                            <figure>
+                                <object data="../figure/cantillation-marks.svg" type="image/svg+xml"></object>
+                                <figcaption>詠唱記号図</figcaption>
+                            </figure>
+                        </article>
+                    </dd>
+                </dl>
+                <h4 id="subsection2.1.2">詠唱記号図表</h4>
+                <dl>
+                    <dt><span class="lekuta">&#x25cc;&#x0301;</span></dt>
+                    <dd>高揚声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0317;</span></dt>
+                    <dd>低揚声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0300;</span></dt>
+                    <dd>高抑声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0316;</span></dt>
+                    <dd>低抑声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0302;</span></dt>
+                    <dd>高昇声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x032d;</span></dt>
+                    <dd>低昇声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x030c;</span></dt>
+                    <dd>高降声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x032c;</span></dt>
+                    <dd>低降声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0307;</span></dt>
+                    <dd>高終声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0323;</span></dt>
+                    <dd>低終声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0308;</span></dt>
+                    <dd>高分声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0324;</span></dt>
+                    <dd>低分声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0304;</span></dt>
+                    <dd>高平声符。</dd>
+                    <dt><span class="lekuta">&#x25cc;&#x0331;</span></dt>
+                    <dd>低平声符。</dd>
+                </dl>
+            </details>
+        </section>
+        <hr>
+        <script src="cantillation.js"></script>
     </main>
     <footer>
-      <li><a href="../dictionary.html">表紙</a></li>
-      <li>文法書</li>
+        <ul>
+            <li><a href="../dictionary.html">表紙</a></li>
+            <li>詠唱指南書</li>
+        </ul>
     </footer>
-  </body>
+</body>
+
 </html>
