@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
         searchResultSpan.textContent = searchWord;
-        searchResultSpan.classList.add("sulive");
+        searchResultSpan.classList.add("xesada");
         searchResult.appendChild(searchResultSpan);
         searchResult.append("の検索結果");
         searchResultContainer.appendChild(searchResult);
@@ -81,7 +81,7 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
             const consonantIndex = document.createElement("p");
             const consonant = document.createElement("span");
             consonant.textContent = searchWordLower.charAt(0);
-            consonant.classList.add("sulive");
+            consonant.classList.add("xesada");
             consonantIndex.append(consonant);
 
             const consonantConcept = document.createElement("span");
@@ -92,7 +92,7 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
             const p2 = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
-            span.classList.add("sulive");
+            span.classList.add("xesada");
             span.textContent = item.consonant;
             a.href = "html_index" + "/" + item.consonantHtmlHref;
             a.append("子音");
@@ -127,7 +127,7 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             const rootIndex = document.createElement("p");
             const root = document.createElement("span");
             root.textContent = item.root;
-            root.classList.add("sulive");
+            root.classList.add("xesada");
             rootIndex.append(root);
             const rootConcept = document.createElement("span");
             rootConcept.textContent = item.rootConcept;
@@ -137,7 +137,7 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             const rootHref = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
-            span.classList.add("sulive");
+            span.classList.add("xesada");
             span.textContent = item.root;
             a.href = "html_index" + "/" + item.rootHtmlHref;
             a.append("語根");
@@ -173,7 +173,7 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
 
             const index = document.createElement("strong");
             index.textContent = item.word;
-            index.classList.add("index", "sulive");
+            index.classList.add("index", "xesada");
             wordIndex.append(index);
 
             const pronunciation = document.createElement("span");
@@ -199,12 +199,10 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
             const wordLink = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
-            span.classList.add("sulive");
+            span.classList.add("xesada");
             span.textContent = item.word;
             a.href = "html_index" + "/" + item.wordHtmlHref;
-            a.append("単語")
-            a.append(span);
-            a.append("の詳細ページ");
+            a.append("単語", span, "の詳細ページ");
             wordLink.appendChild(a);
             details.appendChild(wordLink);
         });

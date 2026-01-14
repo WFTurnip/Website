@@ -78,7 +78,7 @@ async function generateIndex() {
         dt.id = consonantsArray[i];
         let consonant = document.createElement("span");
         let a = document.createElement("a");
-        a.classList.add("sulive");
+        a.classList.add("xesada");
         a.href = consonantsArray[i] + ".html";
         a.textContent = consonantsArray[i];
         consonant.appendChild(a);
@@ -162,7 +162,7 @@ async function generateConsonant(i) {
     headerUl.appendChild(headerLi2);
     let headerLi3 = document.createElement("li");
     let headerSpan = document.createElement("span");
-    headerSpan.classList.add("sulive");
+    headerSpan.classList.add("xesada");
     headerSpan.textContent = consonantsArray[i];
     headerLi3.append("子音", headerSpan, "の見出し");
     headerUl.appendChild(headerLi3);
@@ -181,7 +181,7 @@ async function generateConsonant(i) {
     body.appendChild(article);
     let h1 = document.createElement("h1");
     let h1Span = document.createElement("span");
-    h1Span.classList.add("sulive");
+    h1Span.classList.add("xesada");
     h1Span.textContent = consonantsArray[i];
     h1.append("子音", h1Span, "の見出し");
     body.appendChild(h1);
@@ -199,7 +199,7 @@ async function generateConsonant(i) {
             dt.id = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
             let root = document.createElement("span");
             let a = document.createElement("a");
-            a.classList.add("sulive");
+            a.classList.add("xesada");
             a.href = consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html";
             a.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
             root.appendChild(a);
@@ -228,7 +228,7 @@ async function generateConsonant(i) {
     footerUl.appendChild(footerLi2);
     let footerLi3 = document.createElement("li");
     let footerSpan = document.createElement("span");
-    footerSpan.classList.add("sulive");
+    footerSpan.classList.add("xesada");
     footerSpan.textContent = consonantsArray[i];
     footerLi3.append("子音", footerSpan, "の見出し");
     footerUl.appendChild(footerLi3);
@@ -303,14 +303,14 @@ async function generateRoot(i, j, k) {
     let headerA3 = document.createElement("a");
     headerA3.href = "../" + consonantsArray[i] + ".html";
     let headerSpan1 = document.createElement("span");
-    headerSpan1.classList.add("sulive");
+    headerSpan1.classList.add("xesada");
     headerSpan1.textContent = consonantsArray[i];
     headerA3.append("子音", headerSpan1, "の見出し");
     headerLi3.appendChild(headerA3);
     headerUl.appendChild(headerLi3);
     let headerLi4 = document.createElement("li");
     let headerSpan2 = document.createElement("span");
-    headerSpan2.classList.add("sulive");
+    headerSpan2.classList.add("xesada");
     headerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     headerLi4.append("語根", headerSpan2);
     headerUl.appendChild(headerLi4);
@@ -329,7 +329,7 @@ async function generateRoot(i, j, k) {
     body.appendChild(article);
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
-    span1.classList.add("sulive");
+    span1.classList.add("xesada");
     span1.textContent =
         consonantsArray[i] +
         consonantsArray[j] +
@@ -363,7 +363,7 @@ async function generateRoot(i, j, k) {
                     consonantsArray[j] + vowelsArray[n] +
                     consonantsArray[k] + vowelsArray[l];
                 let word = document.createElement("span");
-                word.classList.add("sulive");
+                word.classList.add("xesada");
                 word.textContent =
                     consonantsArray[i] + vowelsArray[m] +
                     consonantsArray[j] + vowelsArray[n] +
@@ -416,14 +416,14 @@ async function generateRoot(i, j, k) {
     let footerA3 = document.createElement("a");
     footerA3.href = "../" + consonantsArray[i] + ".html";
     let footerSpan = document.createElement("span");
-    footerSpan.classList.add("sulive");
+    footerSpan.classList.add("xesada");
     footerSpan.textContent = consonantsArray[i];
     footerA3.append("子音", footerSpan, "の見出し");
     footerLi3.appendChild(footerA3);
     footerUl.appendChild(footerLi3);
     let footerLi4 = document.createElement("li");
     let footerSpan2 = document.createElement("span");
-    footerSpan2.classList.add("sulive");
+    footerSpan2.classList.add("xesada");
     footerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
     footerLi4.append("語根", footerSpan2);
     footerUl.appendChild(footerLi4);

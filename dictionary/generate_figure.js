@@ -93,7 +93,7 @@ async function generateVowelFigure() {
         vowelPronunciation.setAttribute("y", y);
         vowel.textContent = "\u{25cc}" + vowelsArray[i];
         vowelPronunciation.textContent = "/" + vowelsPronunciationArray[i] + "/";
-        vowel.classList.add("sulive", "script");
+        vowel.classList.add("xesada", "script");
         vowelPronunciation.classList.add("pronunciation");
         svg.appendChild(vowel);
         svg.appendChild(vowelPronunciation);
@@ -341,7 +341,7 @@ async function generateFirstCaseFigure() {
         vowelCase.setAttribute("y", y);
         vowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}\u{25cc}";
         vowelCase.textContent = vowelsCasesArray[i] + "格";
-        vowel.classList.add("sulive", "script");
+        vowel.classList.add("xesada", "script");
         vowelCase.classList.add("cases");
         svg.appendChild(vowel);
         svg.appendChild(vowelCase);
@@ -398,7 +398,7 @@ async function generateSecondCaseFigure() {
         vowelCase.setAttribute("y", y);
         vowel.textContent = "\u{25cc}\u{25cc}" + vowelsArray[i] + "\u{25cc}";
         vowelCase.textContent = vowelsCasesArray[i] + "格";
-        vowel.classList.add("sulive", "script");
+        vowel.classList.add("xesada", "script");
         vowelCase.classList.add("cases");
         svg.appendChild(vowel);
         svg.appendChild(vowelCase);
@@ -457,7 +457,7 @@ async function generateConjunctCaseFigure() {
         firstCase.setAttribute("y", firstCaseCoodinateY);
         firstCaseVowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}\u{25cc}";
         firstCase.textContent = vowelsCasesArray[i] + "格";
-        firstCaseVowel.classList.add("sulive", "script");
+        firstCaseVowel.classList.add("xesada", "script");
         firstCase.classList.add("cases");
         svg.appendChild(firstCaseVowel);
         svg.appendChild(firstCase);
@@ -472,7 +472,7 @@ async function generateConjunctCaseFigure() {
             conjunctCase.setAttribute("y", conjunctCaseCoodinateY);
             conjunctCaseVowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}" + vowelsArray[j] + "\u{25cc}";
             conjunctCase.textContent = vowelsCasesArray[i] + vowelsCasesArray[j] + "格";
-            conjunctCaseVowel.classList.add("sulive", "script");
+            conjunctCaseVowel.classList.add("xesada", "script");
             conjunctCase.classList.add("cases");
             svg.appendChild(conjunctCaseVowel);
             svg.appendChild(conjunctCase);
@@ -530,7 +530,7 @@ async function generatePrefixCaseFigure() {
         vowelCase.setAttribute("y", y);
         vowel.textContent = "\u{25cc}" + vowelsArray[i] + "\u{25cc}\u{25cc}\u{25cc}";
         vowelCase.textContent = vowelsCasesArray[i] + "格";
-        vowel.classList.add("sulive", "script");
+        vowel.classList.add("xesada", "script");
         vowelCase.classList.add("cases");
         svg.appendChild(vowel);
         svg.appendChild(vowelCase);
@@ -587,7 +587,7 @@ async function generateSuffixCaseFigure() {
         vowelCase.setAttribute("y", y);
         vowel.textContent = "\u{25cc}\u{25cc}\u{25cc}\u{25cc}" + vowelsArray[i];
         vowelCase.textContent = vowelsCasesArray[i] + "格";
-        vowel.classList.add("sulive", "script");
+        vowel.classList.add("xesada", "script");
         vowelCase.classList.add("cases");
         svg.appendChild(vowel);
         svg.appendChild(vowelCase);
@@ -644,7 +644,7 @@ async function generatePartOfSpeechFigure() {
         vowelPartOfSpeech.setAttribute("y", y);
         vowel.textContent = "\u{25cc}\u{25cc}\u{25cc}" + vowelsArray[i];
         vowelPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i] + "詞";
-        vowel.classList.add("sulive", "script");
+        vowel.classList.add("xesada", "script");
         vowelPartOfSpeech.classList.add("part-of-speech");
         svg.appendChild(vowel);
         svg.appendChild(vowelPartOfSpeech);
