@@ -1,0 +1,220 @@
+body {
+    padding: 2rem;
+    font-family: serif;
+    writing-mode: horizontal-tb;
+    counter-reset: chapter;
+}
+
+body h2 {
+    counter-increment: chapter;
+    counter-reset: section;
+}
+
+body h3 {
+    counter-increment: section;
+    counter-reset: subsection;
+}
+
+body h4 {
+    counter-increment: subsection;
+    counter-reset: subsubsection;
+}
+
+body h5 {
+    counter-increment: subsubsection;
+}
+
+body h2::before {
+    content: "第" counter(chapter, japanese-informal) "章\3000";
+}
+
+body h3::before {
+    content: "第" counter(chapter, japanese-informal) "章" counter(section, japanese-informal) "節\3000";
+}
+
+body h4::before {
+    content: "第" counter(subsection, japanese-informal) "小節\3000";
+}
+
+body h5::before {
+    content: "第" counter(subsubsection, japanese-informal) "図表\3000";
+}
+
+.table-of-content {
+    counter-increment: none;
+}
+
+.table-of-content::before {
+    content: "";
+}
+
+nav {
+    counter-reset: toc-chapter;
+}
+
+nav h2 {
+    counter-increment: toc-chapter;
+    counter-reset: toc-section;
+}
+
+nav h3 {
+    counter-increment: toc-section;
+    counter-reset: toc-subsection;
+}
+
+nav h4 {
+    counter-increment: toc-subsection;
+    counter-reset: toc-subsubsection;
+}
+
+nav h5 {
+    counter-increment: toc-subsubsection;
+}
+
+nav h2::before {
+    content: "第" counter(toc-chapter, japanese-informal) "章\3000";
+}
+
+nav h3::before {
+    content: "第" counter(toc-chapter, japanese-informal) "章" counter(toc-section, japanese-informal) "節\3000";
+}
+
+nav h4::before {
+    content: "第" counter(toc-subsection, japanese-informal) "小節\3000";
+}
+
+nav h5::before {
+    content: "第" counter(toc-subsubsection, japanese-informal) "図表\3000";
+}
+
+h1 {
+    text-indent: 0rem;
+}
+
+h2 {
+    text-indent: 0rem;
+}
+
+h3 {
+    text-indent: 0rem;
+}
+
+h4 {
+    text-indent: 0rem;
+}
+
+h5 {
+    text-indent: 0rem;
+}
+
+nav h1 {
+    text-indent: 0rem;
+}
+
+nav h2 {
+    text-indent: 0rem;
+}
+
+nav h3 {
+    text-indent: 0rem;
+}
+
+nav h4 {
+    text-indent: 0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+rt {
+    font-family: serif;
+    font-variant-east-asian: ruby;
+}
+
+p {
+    text-indent: 1rem;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li::after {
+    content: "\FF1E";
+}
+
+ul li:last-child::after {
+    content: "";
+}
+
+dd table,
+dd figure {
+    text-align: center;
+    margin: auto;
+}
+
+dt > figure {
+    display: inline;
+    margin: auto;
+}
+
+dd figure figcaption {
+    text-align: center;
+}
+
+hr {
+    height: 0.125rem;
+    border-width: 0;
+}
+
+.pronunciation {
+    font-family: monospace;
+}
+
+nav h1,
+nav h2,
+nav h3,
+nav h4,
+dl dt,
+dl dd {
+    break-inside: avoid;
+}
+
+sub {
+    font-variant-caps: all-small-caps;
+}
+
+nav {
+    column-count: 2;
+    column-rule-style: solid;
+}
+
+dl {
+    column-count: 1;
+    column-rule-style: solid;
+}
+
+@media (max-width: 48rem) {
+
+    nav {
+        column-count: 2;
+        column-gap: none;
+    }
+
+    dl {
+        column-count: 1;
+        column-rule: none;
+    }
+}
