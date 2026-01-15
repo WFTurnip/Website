@@ -4,13 +4,13 @@ echo "1. each - 個別のフォントファイルを指定して生成"
 echo "2. all  - ディレクトリ内のすべてのフォントファイルを生成"
 echo "オプションを入力してください（each / all）："
 
-read option
+read -p ">>> " option
 
 case $option in
     each)
         echo "生成するフォントのファイル名を入力してください。"
         ls -d *.sfd
-        read fontname
+        read -p ">>> " fontname
 
         fontforge -script generate.ff $fontname
 
