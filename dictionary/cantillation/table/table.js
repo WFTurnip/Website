@@ -44,7 +44,7 @@ function generateCantillationMarksTable() {
             let cell = document.createElement("td");
             let mark = document.createElement("div");
             mark.classList.add("xesada");
-            mark.textContent = vowelsArray[j] + diacriticsArray[i];
+            mark.textContent = "\u{25cc}" + vowelsArray[j] + diacriticsArray[i];
             cell.appendChild(mark);
             row.appendChild(cell);
         }
