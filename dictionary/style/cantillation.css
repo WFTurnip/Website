@@ -179,6 +179,10 @@ hr {
     border-width: 0;
 }
 
+.glyph {
+    font-size: 2rem;
+}
+
 .pronunciation {
     font-family: monospace;
 }

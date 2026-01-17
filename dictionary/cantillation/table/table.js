@@ -8,7 +8,7 @@ const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
 function generateCantillationMarksTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
-    caption.textContent = "詠唱記号表";
+    caption.textContent = "朗唱記号表";
     table.appendChild(caption);
     let thead = document.createElement("thead");
     let vowelRow = document.createElement("tr");
@@ -18,7 +18,7 @@ function generateCantillationMarksTable() {
     for (let i = 0; i < vowelsArray.length; i++) {
         let th = document.createElement("th");
         let vowel = document.createElement("div");
-        vowel.classList.add("xesada");
+        vowel.classList.add("xesada", "glyph");
         vowel.textContent = "\u{25cc}" + vowelsArray[i];
         th.appendChild(vowel);
         let vowelPronunciation = document.createElement("div");
@@ -34,7 +34,7 @@ function generateCantillationMarksTable() {
         let row = document.createElement("tr");
         let diacriticCell = document.createElement("th");
         let diacritic = document.createElement("div");
-        diacritic.classList.add("xesada");
+        diacritic.classList.add("xesada", "glyph");
         diacritic.textContent = "\u{25cc}" + diacriticsArray[i];
         diacriticCell.appendChild(diacritic);
         let diacriticConcept = document.createElement("div");
@@ -45,7 +45,7 @@ function generateCantillationMarksTable() {
         for (let j = 0; j < vowelsArray.length; j++) {
             let cell = document.createElement("td");
             let mark = document.createElement("div");
-            mark.classList.add("xesada");
+            mark.classList.add("xesada", "glyph");
             mark.textContent = "\u{25cc}" + vowelsArray[j] + diacriticsArray[i];
             cell.appendChild(mark);
             let markPronunciation = document.createElement("div");
