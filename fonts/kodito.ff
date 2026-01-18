@@ -1,4 +1,5 @@
 #!/usr/local/bin/fontforge
+
 Select(0u0020)
 Clear()
 SetWidth(500)

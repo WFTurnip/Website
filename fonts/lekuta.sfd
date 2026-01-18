@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1743419430
-ModificationTime: 1768643960
+ModificationTime: 1768751171
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 770 14 10
+WinInfo: 0 14 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "vowel" "mark-1"
@@ -1834,6 +1834,11 @@ SplineSet
  75 175 l 1,2,-1
  25 175 l 1,3,-1
  25 225 l 1,0,-1
+225 25 m 1,4,-1
+ 275 25 l 1,5,-1
+ 275 -25 l 1,6,-1
+ 225 -25 l 1,7,-1
+ 225 25 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -2673,6 +2678,11 @@ SplineSet
  475 175 l 1,2,-1
  425 175 l 1,3,-1
  425 225 l 1,0,-1
+225 25 m 1,4,-1
+ 275 25 l 1,5,-1
+ 275 -25 l 1,6,-1
+ 225 -25 l 1,7,-1
+ 225 25 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -2719,6 +2729,11 @@ SplineSet
  -225 495 l 1,2,-1
  -235 495 l 1,3,-1
  -235 505 l 1,0,-1
+-255 485 m 1,4,-1
+ -245 485 l 1,5,-1
+ -245 475 l 1,6,-1
+ -255 475 l 1,7,-1
+ -255 485 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -2729,11 +2744,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--235 -95 m 1,0,-1
- -225 -95 l 1,1,-1
- -225 -105 l 1,2,-1
- -235 -105 l 1,3,-1
- -235 -95 l 1,0,-1
+-255 -75 m 1,0,-1
+ -245 -75 l 1,1,-1
+ -245 -85 l 1,2,-1
+ -255 -85 l 1,3,-1
+ -255 -75 l 1,0,-1
+-275 -95 m 1,4,-1
+ -265 -95 l 1,5,-1
+ -265 -105 l 1,6,-1
+ -275 -105 l 1,7,-1
+ -275 -95 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -2749,6 +2769,11 @@ SplineSet
  -265 495 l 1,2,-1
  -275 495 l 1,3,-1
  -275 505 l 1,0,-1
+-255 485 m 1,4,-1
+ -245 485 l 1,5,-1
+ -245 475 l 1,6,-1
+ -255 475 l 1,7,-1
+ -255 485 l 1,4,-1
 EndSplineSet
 EndChar
 
@@ -2759,11 +2784,16 @@ Flags: W
 LayerCount: 2
 Fore
 SplineSet
--275 -95 m 1,0,-1
- -265 -95 l 1,1,-1
- -265 -105 l 1,2,-1
- -275 -105 l 1,3,-1
- -275 -95 l 1,0,-1
+-255 -75 m 1,0,-1
+ -245 -75 l 1,1,-1
+ -245 -85 l 1,2,-1
+ -255 -85 l 1,3,-1
+ -255 -75 l 1,0,-1
+-235 -95 m 1,4,-1
+ -225 -95 l 1,5,-1
+ -225 -105 l 1,6,-1
+ -235 -105 l 1,7,-1
+ -235 -95 l 1,4,-1
 EndSplineSet
 EndChar
 
