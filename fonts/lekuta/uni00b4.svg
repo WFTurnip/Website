@@ -1,3 +1,4 @@
 <svg width="500" height="850" xmlns="http://www.w3.org/2000/svg">
-    <path d="m 425,400 v 50 h 50 v -50 z" />
+    <path
+        d="M 425 400 L 425 450 L 475 450 L 475 400 L 425 400 z M 225 600 L 225 650 L 275 650 L 275 600 L 225 600 z " />
 </svg>
