@@ -16,16 +16,18 @@ LayerCount: 2
 Layer: 0 1 "+gMyXYgAA" 1
 Layer: 1 1 "+Uk2XYgAA" 0
 XUID: [1021 352 -730677569 469127]
+StyleMap: 0x0000
+FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1717996751
-ModificationTime: 1768751013
+ModificationTime: 1768885355
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
 OS2TypoDOffset: 1
-OS2TypoLinegap: 0
+OS2TypoLinegap: 76
 OS2WinAscent: 0
 OS2WinAOffset: 1
 OS2WinDescent: 0
@@ -35,6 +37,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 262 0 0 "mkmk" { "mkmk-1"  } []
 Lookup: 260 0 0 "mark" { "mark-1"  } ['mark' ('latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -44,10 +47,10 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 10
+WinInfo: 0 14 9
 BeginPrivate: 0
 EndPrivate
-AnchorClass2: "vowel" "mark-1"
+AnchorClass2: "cantillation" "mkmk-1" "vowel" "mark-1"
 BeginChars: 65536 112
 
 StartChar: nine
@@ -281,6 +284,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -672,6 +676,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -950,6 +955,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -997,6 +1003,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1021,6 +1028,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1051,6 +1059,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1205,6 +1214,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1696,6 +1706,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1753,6 +1764,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1776,6 +1788,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1806,6 +1819,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -1847,6 +1861,7 @@ Width: 0
 VWidth: 894
 GlyphClass: 4
 Flags: W
+AnchorPoint: "cantillation" -250 200 basemark 0
 AnchorPoint: "vowel" -250 200 mark 0
 LayerCount: 2
 Fore
@@ -3041,6 +3056,7 @@ StartChar: uni0307
 Encoding: 775 775 98
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3086,6 +3102,7 @@ StartChar: uni0304
 Encoding: 772 772 99
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3105,6 +3122,7 @@ StartChar: uni030C
 Encoding: 780 780 100
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3136,6 +3154,7 @@ StartChar: acutecomb
 Encoding: 769 769 101
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3160,6 +3179,7 @@ StartChar: gravecomb
 Encoding: 768 768 102
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3184,6 +3204,7 @@ StartChar: uni0302
 Encoding: 770 770 103
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3215,6 +3236,7 @@ StartChar: uni0316
 Encoding: 790 790 104
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3239,6 +3261,7 @@ StartChar: uni0317
 Encoding: 791 791 105
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3263,6 +3286,7 @@ StartChar: uni032C
 Encoding: 812 812 106
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3294,6 +3318,7 @@ StartChar: uni0331
 Encoding: 817 817 107
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3313,6 +3338,7 @@ StartChar: uni0324
 Encoding: 804 804 108
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3337,6 +3363,7 @@ StartChar: uni0308
 Encoding: 776 776 109
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3361,6 +3388,7 @@ StartChar: dotbelowcomb
 Encoding: 803 803 110
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3406,6 +3434,7 @@ StartChar: uni032D
 Encoding: 813 813 111
 Width: 0
 Flags: W
+AnchorPoint: "cantillation" -250 200 mark 0
 LayerCount: 2
 Fore
 SplineSet

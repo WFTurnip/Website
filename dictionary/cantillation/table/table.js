@@ -58,8 +58,11 @@ function generateCantillationMarksTable() {
         let row = document.createElement("tr");
         let diacriticCell = document.createElement("th");
         let diacritic = document.createElement("div");
+        let diacriticMark = document.createElement("span");
+        diacriticMark.classList.add("diacritic");
+        diacriticMark = diacriticsArray[i];
         diacritic.classList.add("xesada", "glyph");
-        diacritic.textContent = "\u{25cc}" + diacriticsArray[i];
+        diacritic.append("\u{25cc}", diacriticMark);
         diacriticCell.appendChild(diacritic);
         let diacriticConcept = document.createElement("div");
         diacriticConcept.classList.add("concept", "pronunciation");

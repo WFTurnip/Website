@@ -1,11 +1,12 @@
 table,
 thead,
 tbody,
-tfoot {
+tfoot,
+th {
     border: solid 2px;
 }
 
-th,
+
 td {
     border: solid 1px;
 }
@@ -19,6 +20,7 @@ td {
     font-family: serif;
     border-collapse: collapse;
     border-spacing: 0;
+    font-weight: normal;
 }
 
 .case,
