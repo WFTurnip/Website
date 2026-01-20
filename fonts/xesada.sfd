@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1717996751
-ModificationTime: 1768890792
+ModificationTime: 1768890984
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -47,7 +47,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 42 14 10
+WinInfo: 33 11 1
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "cantillation" "mkmk-1" "vowel" "mark-1"
@@ -2934,7 +2934,6 @@ StartChar: uni25CC
 Encoding: 9676 9676 95
 Width: 500
 Flags: W
-AnchorPoint: "cantillation" 250 200 basemark 0
 AnchorPoint: "vowel" 250 200 basechar 0
 LayerCount: 2
 Fore
