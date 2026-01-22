@@ -4,7 +4,7 @@ fontname=("sulive" "zosokw")
 
 for fontname in "${fontname[@]}"; do
     echo "ディレクトリ${fontname}の異体大文字から異体小文字へのコピーをします。"
-    # Isolate Form -----------------------------------------
+    # isolate form -----------------------------------------
     cp $fontname/uni0042.isol.svg $fontname/uni0062.isol.svg
     cp $fontname/uni0043.isol.svg $fontname/uni0063.isol.svg
     cp $fontname/uni0044.isol.svg $fontname/uni0064.isol.svg
@@ -25,7 +25,7 @@ for fontname in "${fontname[@]}"; do
     cp $fontname/uni0058.isol.svg $fontname/uni0078.isol.svg
     cp $fontname/uni0059.isol.svg $fontname/uni0079.isol.svg
     cp $fontname/uni005a.isol.svg $fontname/uni007a.isol.svg
-    # Initial Form -----------------------------------------
+    # initial form -----------------------------------------
     cp $fontname/uni0042.init.svg $fontname/uni0062.init.svg
     cp $fontname/uni0043.init.svg $fontname/uni0063.init.svg
     cp $fontname/uni0044.init.svg $fontname/uni0064.init.svg
@@ -46,7 +46,7 @@ for fontname in "${fontname[@]}"; do
     cp $fontname/uni0058.init.svg $fontname/uni0078.init.svg
     cp $fontname/uni0059.init.svg $fontname/uni0079.init.svg
     cp $fontname/uni005a.init.svg $fontname/uni007a.init.svg
-    # Medial Form ------------------------------------------
+    # medial form ------------------------------------------
     cp $fontname/uni0042.medi.svg $fontname/uni0062.medi.svg
     cp $fontname/uni0043.medi.svg $fontname/uni0063.medi.svg
     cp $fontname/uni0044.medi.svg $fontname/uni0064.medi.svg
@@ -67,7 +67,7 @@ for fontname in "${fontname[@]}"; do
     cp $fontname/uni0058.medi.svg $fontname/uni0078.medi.svg
     cp $fontname/uni0059.medi.svg $fontname/uni0079.medi.svg
     cp $fontname/uni005a.medi.svg $fontname/uni007a.medi.svg
-    # Final Form -------------------------------------------
+    # final form -------------------------------------------
     cp $fontname/uni0042.fina.svg $fontname/uni0062.fina.svg
     cp $fontname/uni0043.fina.svg $fontname/uni0063.fina.svg
     cp $fontname/uni0044.fina.svg $fontname/uni0064.fina.svg
