@@ -2,7 +2,7 @@
 
 echo "開くフォントのディレクトリ名を入力してください。"
 ls -d */
-read fontname
+read -p ">>> " fontname
 
 touch ${fontname}/uni0021.svg
 # !

@@ -58,10 +58,6 @@ strong {
     font-weight: bold;
 }
 
-.pronunciation {
-    font-family: monospace;
-}
-
 ul {
     list-style: none;
     display: flex;

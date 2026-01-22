@@ -63,6 +63,11 @@
     src: url('../../fonts/zosokw.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'DoulosSIL';
+    src: url('../../fonts/DoulosSIL-Regular.ttf') format('truetype');
+}
+
 .kodito {
     font-family: 'kodito';
 }
@@ -111,4 +116,9 @@
 .zosokw {
     font-family: 'zosokw';
     font-feature-settings: "calt" 1;
+}
+
+.pronunciation {
+    font-family: 'DoulosSIL';
+    font-feature-settings: "ss11" 1, "ss12" 1, "cv98" 1;
 }

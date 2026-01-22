@@ -22,10 +22,6 @@ footer {
     text-align: center;
 }
 
-.pronunciation {
-    font-family: monospace;
-}
-
 dl {
     column-count: 2;
     column-rule-style: solid;
