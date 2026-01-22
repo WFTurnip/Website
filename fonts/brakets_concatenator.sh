@@ -1,18 +1,17 @@
+#!/bin/zsh
+
 echo "結合するフォントのディレクトリ名を入力してください。"
 ls -d */
-read fontname
+read -p ">>> " fontname
 
-cat $fontname/uni003C.svg $fontname.svg >$fontname/uni0028.svg
-cat $fontname/uni003E.svg $fontname.svg >$fontname/uni0029.svg
+cat ${fontname}/uni0028.svg
+cat ${fontname}/uni0029.svg
 
-cat $fontname/uni003C.svg $fontname.svg >$fontname/uni005B.svg
-cat $fontname/uni003E.svg $fontname.svg >$fontname/uni005D.svg
+cat ${fontname}/uni003c.svg
+cat ${fontname}/uni003e.svg
 
-cat $fontname.svg >>$fontname/uni007B.svg
-cat $fontname.svg >>$fontname/uni007D.svg
+cat ${fontname}/uni005b.svg
+cat ${fontname}/uni005d.svg
 
-cp $fontname/uni0028.svg $fontname/uni005B.svg
-cp $fontname/uni0029.svg $fontname/uni005D.svg
-
-cat $fontname/uni0028.svg $fontname/uni0029.svg >$fontname/uni007B.svg
-cat $fontname/uni0028.svg $fontname/uni0029.svg >$fontname/uni007D.svg
+cat ${fontname}/uni007b.svg
+cat ${fontname}/uni007d.svg

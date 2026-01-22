@@ -12,13 +12,13 @@ case $option in
         ls -d *.sfd
         read -p ">>> " fontname
 
-        fontforge -script generate.ff $fontname
+        fontforge -script generate.ff ${fontname}
 
         echo "フォント${fontname}の生成が完了しました。"
         ;;
     all)
         for fontfile in *.sfd; do
-            fontforge -script generate.ff "$fontfile"
+            fontforge -script generate.ff ${fontfile}
             echo "${fontfile}からのフォント生成が完了しました。"
         done
         ;;

@@ -1,3 +1,5 @@
+#!/bin/zsh
+
 echo "開くフォントのディレクトリ名を入力してください。"
 ls -d */
 read fontname
