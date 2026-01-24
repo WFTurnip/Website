@@ -1,20 +1,36 @@
 #!/bin/zsh
 
-echo "開くフォントのディレクトリ名を入力してください。"
-ls -d */
-read -p ">>> " fontname
+# fontname=("kodito" "lekuta" "lozegw" "silwki" "xavani" "xesada" "xidili")
 
-    touch ${fontname}/uni0307.svg
-    touch ${fontname}/uni0323.svg
-    touch ${fontname}/uni0308.svg
-    touch ${fontname}/uni0324.svg
-    touch ${fontname}/uni0301.svg
-    touch ${fontname}/uni0317.svg
-    touch ${fontname}/uni0300.svg
-    touch ${fontname}/uni0316.svg
-    touch ${fontname}/uni0304.svg
-    touch ${fontname}/uni0331.svg
-    touch ${fontname}/uni0302.svg
-    touch ${fontname}/uni032d.svg
-    touch ${fontname}/uni030c.svg
-    touch ${fontname}/uni032c.svg
+# for fontname in "${fontname[@]}"; do
+
+inkscape **/uni0301.svg
+# 高揚声符
+inkscape **/uni0317.svg
+# 低揚声符
+inkscape **/uni0300.svg
+# 高抑声符
+inkscape **/uni0316.svg
+# 低抑声符
+inkscape **/uni0302.svg
+# 高昇声符
+inkscape **/uni032d.svg
+# 低昇声符
+inkscape **/uni030c.svg
+# 高降声符
+inkscape **/uni032c.svg
+# 低降声符
+inkscape **/uni0304.svg
+# 高平声符
+inkscape **/uni0331.svg
+# 低平声符
+inkscape **/uni0308.svg
+# 高分声符
+inkscape **/uni0324.svg
+# 低分声符
+inkscape **/uni0307.svg
+# 高終声符
+inkscape **/uni0323.svg
+# 低終声符
+
+# done
