@@ -1,5 +1,16 @@
-# fontsディレクトリの説明
+# このディレクトリの説明
 
-このディレクトリは私が創作している人工言語の**エレギア語**のフォントについて扱っています。
+このディレクトリは私が創作しているエレギア語という言語の文字のフォントについて扱っています。
 
-詳しいことは辞典を見てください。
+* KODITO
+* LEKUTA
+* LOZEGW
+* MAKINA
+* PISWPI
+* POLWGO
+* SILWKI
+* SULIVE
+* XAVANI
+* XESADA
+* XIDILI
+* ZOSOKW
