@@ -35,21 +35,28 @@
             <form action="search.html" id="searchForm" method="get">
                 <fieldset>
                     <legend>文字入力欄</legend>
-                    <input type="search" id="searchInput" name="searchInput" placeholder="単語を検索">
+                    <input type="search" id="searchInput" name="searchInput" placeholder="単語を検索" />
+                </fieldset>
+                <fieldset>
+                    <legend>検索切替</legend>
+                    <input type="radio" name="dir" id="inarziil-japanese" checked />
+                    <label for="inarziil-japanese">叡日検索</label>
+                    <input type="radio" name="dir" id="japanese-inarziil" />
+                    <label for="japanese-inarziil">日叡検索</label>
                 </fieldset>
                 <fieldset>
                     <legend>絞り込みオプション</legend>
-                    <input type="checkbox" id="consonants" name="consonants" value="ON">
+                    <input type="checkbox" id="consonants" name="consonants" value="ON" />
                     <label for="consonants">見出し</label>
-                    <input type="checkbox" id="roots" name="roots" value="ON">
+                    <input type="checkbox" id="roots" name="roots" value="ON" />
                     <label for="roots">語根</label>
-                    <input type="checkbox" id="words" name="words" value="ON">
+                    <input type="checkbox" id="words" name="words" value="ON" />
                     <label for="words">単語</label>
                 </fieldset>
                 <fieldset>
                     <legend>検索ボタン</legend>
-                    <input type="submit" value="検索">
-                    <input type="reset" value="初期化">
+                    <input type="submit" value="検索" />
+                    <input type="reset" value="初期化" />
                 </fieldset>
             </form>
         </article>
@@ -77,6 +84,7 @@
                 </tr>
             </table>
         </article>
+        <script src="search.js"></script>
     </main>
     <footer>
         <ul>

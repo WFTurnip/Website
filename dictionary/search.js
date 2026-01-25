@@ -244,3 +244,22 @@ function filterData(data, searchWord, type) {
             return [];
     }
 }
+
+const q = document.getElementById("searchInput");
+const ij = document.getElementById("inarziil-japanese");
+const ji = document.getElementById("japanese-inarziil");
+
+function update() {
+    if (ij.checked) {
+        q.placeholder = "Cipita Gwnosw";
+        q.classList.add("xesada");
+        q.classList.remove("japanese");
+    } else if (ji.checked) {
+        q.placeholder = "日本語を入力";
+        q.classList.add("japanese");
+        q.classList.remove("xesada");
+    }
+}
+
+ij.onchange = ji.onchange = update;
+update();
