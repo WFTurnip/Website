@@ -1,8 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const tocNav = document.querySelector("#table-of-content");
-    if (!tocNav) return;
+    const tocRoot = document.querySelector("#toc-root");
+    if (!tocRoot) return;
 
-    tocNav.innerHTML = "";
+    const details = document.createElement("details");
+    details.open = true;
+
+    const summary = document.createElement("summary");
+    const h2 = document.createElement("h2");
+    h2.className = "table-of-content";
+    h2.textContent = "目次"
+    summary.appendChild(h2);
+
+    const nav = document.createElement("nav");
+    nav.id = "table-of-content";
+
+    details.appendChild(summary);
+    details.appendChild(nav);
+    tocRoot.appendChild(details);
+
+    nav.innerHTML = "";
 
     document.querySelectorAll("main section").forEach(section => {
         section.querySelectorAll("h2[id], h3[id], h4[id], h5[id], h6[id]").forEach(heading => {
@@ -12,11 +28,11 @@ document.addEventListener("DOMContentLoaded", () => {
             a.href = "#" + heading.id;
             a.textContent = heading.textContent.trim() || "名称未設定";
             tocHeading.appendChild(a);
-            tocNav.appendChild(tocHeading);
+            nav.appendChild(tocHeading);
         });
     });
 
-    tocNav.querySelectorAll("a").forEach(a => {
+    nav.querySelectorAll("a").forEach(a => {
         a.addEventListener("click", e => {
             const target = document.querySelector(a.getAttribute("href"));
             if (!target) return;
