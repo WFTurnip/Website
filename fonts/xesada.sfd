@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1717996751
-ModificationTime: 1769431009
+ModificationTime: 1769575341
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -46,7 +46,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 140 14 10
+WinInfo: 0 14 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "vowel" "mark-1" "cantillation""" 
@@ -3064,7 +3064,7 @@ StartChar: acute
 Encoding: 180 180 95
 Width: 500
 GlyphClass: 1
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -3530,6 +3530,7 @@ EndChar
 StartChar: space
 Encoding: 32 32 111
 Width: 500
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 EndChar
