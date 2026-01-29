@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<keyboard id="silwki">
+    <row>
+        <column></column>
+        <column>
+            <key data-normal="&#x0301;" data-shift="&#x0317;" data-key="&#x0301;">
+                <keytop class="no-shifted">&#x25cc;&#x0301;</keytop>
+                <keytop class="shifted">&#x25cc;&#x0317;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="&#x0300;" data-shift="&#x0316;" data-key="&#x0300;">
+                <keytop class="no-shifted">&#x25cc;&#x0300;</keytop>
+                <keytop class="shifted">&#x25cc;&#x0316;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="&#x0302;" data-shift="&#x032d;" data-key="&#x0302;">
+                <keytop class="no-shifted">&#x25cc;&#x0302;</keytop>
+                <keytop class="shifted">&#x25cc;&#x032d;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="&#x030c;" data-shift="&#x032c;" data-key="&#x030c;">
+                <keytop class="no-shifted">&#x25cc;&#x030c;</keytop>
+                <keytop class="shifted">&#x25cc;&#x032c;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="&#x0304;" data-shift="&#x0331;" data-key="&#x0304;">
+                <keytop class="no-shifted">&#x25cc;&#x0304;</keytop>
+                <keytop class="shifted">&#x25cc;&#x0331;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="&#x0308;" data-shift="&#x0324;" data-key="&#x0308;">
+                <keytop class="no-shifted">&#x25cc;&#x0308;</keytop>
+                <keytop class="shifted">&#x25cc;&#x0324;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="&#x0307;" data-shift="&#x0323;" data-key="&#x0307;">
+                <keytop class="no-shifted">&#x25cc;&#x0307;</keytop>
+                <keytop class="shifted">&#x25cc;&#x0323;</keytop>
+            </key>
+        </column>
+        <column></column>
+    </row>
+    <row>
+        <column>
+            <key data-normal="k" data-shift="1" data-key="k">
+                <keytop class="no-shifted">k</keytop>
+                <keytop class="shifted">1</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="t" data-shift="2" data-key="t">
+                <keytop class="no-shifted">t</keytop>
+                <keytop class="shifted">2</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="s" data-shift="3" data-key="s">
+                <keytop class="no-shifted">s</keytop>
+                <keytop class="shifted">3</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="a" data-shift="(" data-key="a">
+                <keytop class="no-shifted">&#x25cc;a</keytop>
+                <keytop class="shifted">(</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="?" data-shift="!" data-key="?">
+                <keytop class="no-shifted">?</keytop>
+                <keytop class="shifted">!</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="o" data-shift=")" data-key="o">
+                <keytop class="no-shifted">&#x25cc;o</keytop>
+                <keytop class="shifted">)</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="g" data-shift="+" data-key="g">
+                <keytop class="no-shifted">g</keytop>
+                <keytop class="shifted">+</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="d" data-shift="-" data-key="d">
+                <keytop class="no-shifted">d</keytop>
+                <keytop class="shifted">-</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="z" data-shift="*" data-key="z">
+                <keytop class="no-shifted">z</keytop>
+                <keytop class="shifted">*</keytop>
+            </key>
+        </column>
+    </row>
+    <row>
+        <column>
+            <key data-normal="q" data-shift="4" data-key="q">
+                <keytop class="no-shifted">q</keytop>
+                <keytop class="shifted">4</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="r" data-shift="5" data-key="r">
+                <keytop class="no-shifted">r</keytop>
+                <keytop class="shifted">5</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="p" data-shift="6" data-key="p">
+                <keytop class="no-shifted">p</keytop>
+                <keytop class="shifted">6</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="e" data-shift="{" data-key="e">
+                <keytop class="no-shifted">&#x25cc;e</keytop>
+                <keytop class="shifted">{</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="," data-shift=";" data-key=",">
+                <keytop class="shifted">;</keytop>
+                <keytop class="no-shifted">,</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="u" data-shift="}" data-key="u">
+                <keytop class="no-shifted">&#x25cc;u</keytop>
+                <keytop class="shifted">}</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="c" data-shift="'" data-key="c">
+                <keytop class="no-shifted">c</keytop>
+                <keytop class="shifted">&lt;</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="l" data-shift="&quot;" data-key="l">
+                <keytop class="no-shifted">l</keytop>
+                <keytop class="shifted">=</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="b" data-shift="|" data-key="b">
+                <keytop class="no-shifted">b</keytop>
+                <keytop class="shifted">&gt;</keytop>
+            </key>
+        </column>
+    </row>
+    <row>
+        <column>
+            <key data-normal="h" data-shift="7" data-key="h">
+                <keytop class="no-shifted">h</keytop>
+                <keytop class="shifted">7</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="f" data-shift="8" data-key="f">
+                <keytop class="no-shifted">f</keytop>
+                <keytop class="shifted">8</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="m" data-shift="9" data-key="m">
+                <keytop class="no-shifted">m</keytop>
+                <keytop class="shifted">9</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="i" data-shift="[" data-key="i">
+                <keytop class="no-shifted">&#x25cc;i</keytop>
+                <keytop class="shifted">[</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="." data-shift=":" data-key=".">
+                <keytop class="no-shifted">.</keytop>
+                <keytop class="shifted">:</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="w" data-shift="]" data-key="w">
+                <keytop class="no-shifted">&#x25cc;w</keytop>
+                <keytop class="shifted">]</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="x" data-shift="'" data-key="x">
+                <keytop class="no-shifted">x</keytop>
+                <keytop class="shifted">'</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="v" data-shift="&quot;" data-key="v">
+                <keytop class="no-shifted">v</keytop>
+                <keytop class="shifted">"</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="n" data-shift="|" data-key="n">
+                <keytop class="no-shifted">n</keytop>
+                <keytop class="shifted">|</keytop>
+            </key>
+        </column>
+    </row>
+    <row>
+        <column></column>
+        <column>
+            <key data-normal="&amp;" data-shift="0" data-key="&amp;">
+                <keytop class="no-shifted">&amp;</keytop>
+                <keytop class="shifted">0</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="shift" data-shift="shifted" data-key="shift">
+                <keytop class="no-shifted">si</keytop>
+                <keytop class="shifted">sa</keytop>
+            </key>
+        </column>
+        <column colkeytop="3">
+            <key class="key space" data-normal=" " data-shift=" " data-key=" ">
+                <keytop class="no-shifted">swpase</keytop>
+                <keytop class="shifted">swpase</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="shift" data-shift="shifted" data-key="shift">
+                <keytop class="no-shifted">si</keytop>
+                <keytop class="shifted">sa</keytop>
+            </key>
+        </column>
+        <column>
+            <key data-normal="/" data-shift="\" data-key="/">
+                <keytop class="no-shifted">/</keytop>
+                <keytop class="shifted">\</keytop>
+            </key>
+        </column>
+        <column></column>
+    </row>
+</keyboard>
