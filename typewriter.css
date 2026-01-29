@@ -40,46 +40,46 @@ table {
 
 textarea {
     font-family: "kodito";
-    width: 81vw;
-    height: 16vw;
-    font-size: 4vw;
+    width: 32rem;
+    height: 8rem;
+    font-size: 2rem;
 }
 
-.key {
-    font-family: "kodito";
-    width: 8vw;
-    height: 8vw;
+button.key {
+    width: 4rem;
+    height: 4rem;
     position: relative;
-    border-radius: 1.5vw;
+    border-radius: 1rem;
 }
 
-.space {
-    width: 24vw;
+button.key.space {
+    width: 12rem;
+    height: 4rem;
 }
 
 .key .shifted {
     position: absolute;
-    top: 0.5vw;
-    right: 0.5vw;
-    font-size: 4vw;
+    top: 0.5rem;
+    right: 0.5rem;
+    font-size: 1rem;
     opacity: 0.25;
 }
 
 .key .no-shifted {
     position: absolute;
-    bottom: 0.5vw;
-    left: 0.5vw;
-    font-size: 5vw;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    font-size: 2rem;
     opacity: 1;
 }
 
 .shift-active .shifted {
-    font-size: 5vw;
+    font-size: 2rem;
     opacity: 1;
 }
 
 .shift-active .no-shifted {
-    font-size: 4vw;
+    font-size: 1rem;
     opacity: 0.25;
 }
 
