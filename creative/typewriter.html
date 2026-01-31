@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>エレギア語タイプライター</title>
+    <link rel="stylesheet" href="typewriter.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="../index.html">トップページ</a></li>
+            <li><a href="../creative.html">創作系の扉</a></li>
+            <li>エレギア語タイプライター</li>
+        </ul>
+    </header>
+    <h1>エレギア語タイプライター</h1>
+    <main>
+        <article>
+            <fieldset>
+                <legend>タイプテキスト</legend>
+                <textarea></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>タイプキー</legend>
+                <table id="keyboard"></table>
+            </fieldset>
+            <fieldset>
+                <legend>書体切り替え</legend>
+                <select id="fontSelector" onchange="changeFont(this.value)">
+                    <option value="0">コディート体</option>
+                    <option value="1">レクータ体</option>
+                    <option value="2">ロゼーグ体</option>
+                    <option value="3">マキーナ体</option>
+                    <option value="4">ピスピ体</option>
+                    <option value="5">ポルゴ体</option>
+                    <option value="6">シルキ体</option>
+                    <option value="7">スリーヴェ体</option>
+                    <option value="8">ハヴァーニ体</option>
+                    <option value="9">ヘサーダ体</option>
+                    <option value="10">ヒディーリ体</option>
+                    <option value="11">ゾソーク体</option>
+                </select>
+            </fieldset>
+        </article>
+        <p>創作している言語のタイプライターを制作してみました。上記のセレクトカラムに表示される書体名については<a href="fonts.html" target="_blank"
+                rel="noopener noreferrer">こちらのページ</a>を参照してください。別のタブで書体名目録が開いてくれます。
+        </p>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="../index.html">トップページ</a></li>
+            <li><a href="../creative.html">創作系の扉</a></li>
+            <li>エレギア語タイプライター</li>
+        </ul>
+    </footer>
+    <script src="typewriter.js"></script>
+</body>
+
+</html>
