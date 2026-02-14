@@ -3,20 +3,16 @@
 fontname=("kodito" "lekuta" "lozegw" "silwki" "xavani" "xesada" "xidili")
 
 for fontname in "${fontname[@]}"; do
-    # cp ${fontname}/uni030c.svg ${fontname}/uni0301.svg
-    # cp ${fontname}/uni032d.svg ${fontname}/uni0317.svg
-
-    cp ${fontname}/uni030c.svg ${fontname}/uni0300.svg
-    cp ${fontname}/uni032d.svg ${fontname}/uni0316.svg
+    open ${fontname}.sfd
 done
 
-# inkscape **/uni0301.svg
+touch **/uni0301.svg
 # 高揚声符
-# inkscape **/uni0317.svg
+touch **/uni0317.svg
 # 低揚声符
-inkscape **/uni0300.svg
+touch **/uni0300.svg
 # 高抑声符
-inkscape **/uni0316.svg
+touch **/uni0316.svg
 # 低抑声符
 touch **/uni0302.svg
 # 高昇声符
