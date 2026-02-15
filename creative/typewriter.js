@@ -4,10 +4,7 @@ const keyboardTable = document.getElementById("keyboard");
 // 現在のフォントを保持
 let currentFont = "kodito";
 
-const fontClasses = [
-    "kodito", "lekuta", "lozegw", "makina", "piswpi", "polwgo",
-    "silwki", "sulive", "xavani", "xesada", "xidili", "zosokw"
-];
+const fontClasses = ["piswpi", "sulive", "kodito", "lekuta", "lozegw", "silwki", "xavani", "xesada", "xidili", "makina", "polwgo", "zosokw"];
 
 let shiftActive = false;
 
