@@ -1,0 +1,165 @@
+#TITLE Priscus Bibliotheca WS
+
+$loop = 1;
+
+t085
+@10-0
+@E1,0,0,128,0
+o4
+/:2l8al16/:2<e>r:/l8el16/:2<e>r:/:/
+/:2l8a-l16/:2<e>r:/l8e-l16/:2<e>r:/:/
+/:2l8a--l16/:2<e>r:/l8e--l16/:2<e>r:/:/
+/:2l8a---l16/:2<e>r:/l8e---l16/:2<e>r:/:/
+/:2l8a----l16/:2<e>r:/l8e----l16/:2<e>r:/:/
+/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
+/:2l8a------l16/:2<e->r:/l8e------l16/:2<e->r:/:/
+/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
+/:$loop
+/:4
+/:2l8al16/:2<e>r:/l8el16/:2<e>r:/:/
+/:2l8a-l16/:2<e>r:/l8e-l16/:2<e>r:/:/
+/:2l8a--l16/:2<e>r:/l8e--l16/:2<e>r:/:/
+/:2l8a---l16/:2<e>r:/l8e---l16/:2<e>r:/:/
+/:2l8a----l16/:2<e>r:/l8e----l16/:2<e>r:/:/
+/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
+/:2l8a------l16/:2<e->r:/l8e------l16/:2<e->r:/:/
+/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
+:/
+:/
+;
+@10-0
+@E1,0,0,128,0
+o4
+/:2l8>a<l16/:2<c>r:/l8>e<l16/:2<c>r:/:/
+/:2l8>a-<l16/:2<c->r:/l8>e-<l16/:2<c->r:/:/
+/:2l8>a--<l16/:2<c-->r:/l8>e--<l16/:2<c-->r:/:/
+/:2l8>a---<l16/:2<c--->r:/l8>e---<l16/:2<c--->r:/:/
+/:2l8>a----<l16/:2<c---->r:/l8>e----<l16/:2<c---->r:/:/
+/:2l8>a-----<l16/:2<c----->r:/l8>e-----<l16/:2<c----->r:/:/
+/:2l8>a------<l16/:2<c------>r:/l8>e------<l16/:2<c------>r:/:/
+/:2l8>a-----<l16/:2<c---->r:/l8>e-----<l16/:2<c---->r:/:/
+/:$loop
+/:4
+/:2l8>a<l16/:2<c>r:/l8>e<l16/:2<c>r:/:/
+/:2l8>a-<l16/:2<c->r:/l8>e-<l16/:2<c->r:/:/
+/:2l8>a--<l16/:2<c-->r:/l8>e--<l16/:2<c-->r:/:/
+/:2l8>a---<l16/:2<c--->r:/l8>e---<l16/:2<c--->r:/:/
+/:2l8>a----<l16/:2<c---->r:/l8>e----<l16/:2<c---->r:/:/
+/:2l8>a-----<l16/:2<c----->r:/l8>e-----<l16/:2<c----->r:/:/
+/:2l8>a------<l16/:2<c------>r:/l8>e------<l16/:2<c------>r:/:/
+/:2l8>a-----<l16/:2<c---->r:/l8>e-----<l16/:2<c---->r:/:/
+:/
+:/
+;
+@10-1
+@E1,0,0,128,0
+o6
+l8
+>a&ab<c&cde&edg&gf
+l2.
+e&e
+l8
+d&ded&dc>b&b&b<c&c>b<
+l2.
+>a&a<
+l8
+>b&b<cd&dc>b&b&b<e&e&e
+d&def&fgf&f&fe&e&e
+d&dcd&ded&de>b&b<d
+c&c&c&cdc
+l2.
+>b<
+@10-2
+/:$loop
+l8
+>a&ab<c&cde&edg&gf
+l2.
+e&e
+l8
+d&ded&dc>b&b&b<c&c>b<
+l2.
+>a&a<
+l8
+>b&b<cd&dc>b&b&b<e&e&e
+d&def&fgf&f&fe&e&e
+d&dcd&ded&de>b&b<d
+c&c&c&cdc
+l2.
+>b<
+l16 >aa-ab<crdcdefr erfedcc-rcc->a<c- l2 c l8 dc l2. c-
+l16 >aa-ab<crdcdefr erfedcc-rcc->aa-< l2 >a< l8 >ba< l2. >a-<
+l8
+>a&ab<c&cde&edc>ba</:2>a-&a-a<:/>a-&a-&a-<r4.
+c&cde&efg&gfedc/:2c-&c-c:/c-&c-&c-r4.
+
+l4.
+defe
+l8
+dcdefe dcdec-d c&cde&eg fefede
+l2.
+c&c
+l8
+c-16c16dedcd >a16b16<cdcc-16c16c-16>a16<
+c->a-16a16<c-cd16c16c-16>a16<c->a-a<c-cc-
+dc16d16egfe dedcdc
+l2.
+c-&c-
+l16
+e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
+l8
+>ab<cdcc-
+l2.
+c
+l16
+e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
+l8
+>a&a&a&a<c-cd&dgf&fd e&efedc dec-dcc- c>a<c-cdc
+c-&c-&c-&c-cd efgfed efedcd
+l16
+<e>e<d>d<c>c <d>d<c>c<c->c- <c>c<c->c-a>a< <c->c-a>a<a->a-<
+:/
+;
+@10-3
+@E1,0,0,128,0
+/:16r2.:/
+/:$loop
+o5
+l16
+/:4
+/:2r2.:/
+<cdc>bar b<c>baa-r abaa-aa- ab<cdef>
+/:2r2.:/
+<cdc>bar b<c>baa-r abaa-aa- ab<c>baa-
+:/
+o5
+l4.
+defe
+l8
+dcdefe dcdec-d c&cde&eg fefede
+l2.
+c&c
+l8
+c-16c16dedcd >a16b16<cdcc-16c16c-16>a16<
+c->a-16a16<c-cd16c16c-16>a16<c->a-a<c-cc-
+dc16d16egfe dedcdc
+l2.
+c-&c-
+l16
+e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
+l8
+>ab<cdcc-
+l2.
+c
+l16
+e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
+l8
+>a&a&a&a<c-cd&dgf&fd e&efedc dec-dcc- c>a<c-cdc
+c-&c-&c-&c-cd efgfed efedcd
+l16
+<e>e<d>d<c>c <d>d<c>c<c->c- <c>c<c->c-a>a< <c->c-a>a<a->a-<
+:/
+
+#WAV10 0,1112 2233 3445 5779 9ABC DEFC 8655 4421
+#WAV10 1,1357 9BDF FFEE DDCC BAA9 9887 6544 3210
+#WAV10 2,1357 9B97 5311 3579 BDFD B975 3113 5310
+#WAV10 3,77BF C536 B775 009B B778 8FF8 4235 A950

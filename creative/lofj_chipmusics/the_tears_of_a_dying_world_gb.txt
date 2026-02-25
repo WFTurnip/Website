@@ -1,0 +1,84 @@
+#TITLE The Tears of a Dying World GB
+
+$loop = 1;
+
+t110
+
+@5@w6
+o3
+l8
+/:4r1:/
+/:2
+e.b16&b2.&b1
+d.a16&a2.&a1
+c.g16&g2.&g1
+c-.g-16&g-2.&g-2
+cgda
+:/
+/:$loop
+/:4
+/:8eb:/
+/:8da:/
+/:8cg:/
+/:6c-g-:/cgda
+:/
+:/
+;
+@5@w2
+o4
+l8
+/:10/:3e.g-.g:/agg-e:/
+/:$loop
+/:8/:3e.g-.g:/agg-e:/
+/:2
+/:3egb<e>:/<ge>bg
+/:3dg-a<d>:/<g-d>ag-
+/:3ceg<c>:/<ec>ge
+/:2c-e-g-<c->:/
+ceg<c>
+dg-a<d>
+:/
+:/
+;
+@10-0
+@E1,0,0,128,0
+o6
+l4
+/:12r1:/
+g2&g8e8g-8g8a2g4g-4e4.g-16g16g-1&g-8g8a8b8
+<c2.d8c8>b4a4b4g8a8b2&b8g-8a8g8g-2e4e-4
+/:$loop
+e1b2
+l8
+<c>bag
+a2.&a8b16a16
+l2
+gg-
+l8
+e.e-.eg-.e.g-g.g-.ga.g.a b2.<c>ba.g.ag-.a.g
+g-4.ee4eg-g.g-.ga4gg- g4.g-16e16g-1 a4g4g-4.
+ee2e-2g-4e4 e-4.e8g-4.g8a2g4g-4
+l4
+e2.b
+l8
+a.b.<cdc>ba b2.a8g8 g-.g.agg-ee-
+e.g-.gg-.g.a g.a.b<c>bab <c4.d16c16>b2a4.b16<c16>bagg-
+l2
+ge
+l8
+g.g-.gagg-g
+l1
+a
+l4
+<dc>ba
+l2
+gg-
+l4
+ee-eg
+l1
+g-
+l4
+agg-e-
+:/
+;
+#WAV10 0,FEC9 6310 0012 4556 6665 4456 8BDE FFFF

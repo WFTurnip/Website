@@ -1,0 +1,72 @@
+#TITLE sanctuary chant WS
+
+$loop = 1;
+
+t125
+
+@10-1
+@E1,0,0,128,0
+l16
+o6
+/:0r1://:4<c>ra-rb-rgra-rfrgrer:/
+l4
+/:$loop
+f&fga- b-&b-<cd- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- gff-f g&gc&c
+ff-fg a-ga-b- <c>b-<e-d- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- fgff- 
+f&fg&g a-&a-b-&b- <c&cd-c> b-a-b-<c> gb-a-g ff-fg a-gb-a- gfec
+<c>b-<cd- c>b-a-b- <c>gb-a- gff-f gcfc gca-c b-ca-c gcfe
+f&fa-&a- <c&cd-&d-> <c&c>b-&b- g&g b-&b- a-&a- g&g f&f a-&a- g&g<c>b- a-gfe
+a-&a-<c&c e-&e-e&e e-&e- d-&d-> b-&b-<d-&d- c&c>b-&b- a-&a-<c&c> b-&b-<e-d- c>b-a-g 
+:/
+;
+@10-1
+@E1,0,0,128,0
+l16
+o5
+/:1r1://:3<c>ra-rb-rgra-rfrgrer:/
+l4
+/:$loop
+/:8r1:/
+f&fga- b-&b-<cd- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- gff-f g&gc&c
+ff-fg a-ga-b- <c>b-<e-d- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- fgff- 
+f&fg&g a-&a-b-&b- <c&cd-c> b-a-b-<c> gb-a-g ff-fg a-gb-a- gfec
+<c>b-<cd- c>b-a-b- <c>gb-a- gff-f gcfc gca-c b-ca-c gcfe
+f&fa-&a- <c&cd-&d-> <c&c>b-&b- g&g b-&b- a-&a- g&g f&f a-&a- g&g <c>b-a-gfe
+:/
+;
+@10-1
+@E1,0,0,128,0
+l16
+o4
+/:2r1://:2<c>ra-rb-rgra-rfrgrer:/
+l4
+/:$loop
+/:16r1:/
+f&fga- b-&b-<cd- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- gff-f g&gc&c
+ff-fg a-ga-b- <c>b-<e-d- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- fgff- 
+f&fg&g a-&a-b-&b- <c&cd-c> b-a-b-<c> gb-a-g ff-fg a-gb-a- gfec
+<c>b-<cd- c>b-a-b- <c>gb-a- gff-f gcfc gca-c b-ca-c gcfe
+:/
+;
+@10-0
+@E1,0,0,128,0
+l16
+o3
+/:3r1://:1<c>ra-rb-rgra-rfrgrer:/
+l1
+/:$loop
+
+/:6
+f
+f-
+f--
+f---
+f----
+f-----
+f------
+f-----
+:/
+:/
+;
+#WAV10 0,1112 2233 3445 5779 9ABC DEFC 8655 4421
+#WAV10 1,1357 9BDF FFEE DDCC BAA9 9887 6544 3210
