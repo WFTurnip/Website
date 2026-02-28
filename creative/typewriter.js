@@ -1,14 +1,12 @@
 const textarea = document.querySelector("textarea");
 const keyboardTable = document.getElementById("keyboard");
 
-// 現在のフォントを保持
 let currentFont = "kodito";
 
 const fontClasses = ["piswpi", "sulive", "kodito", "lekuta", "lozegw", "silwki", "xavani", "xesada", "xidili", "makina", "polwgo", "zosokw"];
 
 let shiftActive = false;
 
-// キーボード生成
 function buildKeyboardFromXML(xml) {
     keyboardTable.innerHTML = "";
 
@@ -66,12 +64,10 @@ function buildKeyboardFromXML(xml) {
     });
 }
 
-// イベント委譲でクリック処理
 keyboardTable.addEventListener("click", (e) => {
     const key = e.target.closest("button.key");
     if (!key) return;
 
-    // Shift キー切替
     if (key.dataset.key === "shift") {
         shiftActive = !shiftActive;
 
@@ -81,12 +77,10 @@ keyboardTable.addEventListener("click", (e) => {
         return;
     }
 
-    // 入力文字決定
     const char = shiftActive && key.dataset.shift ? key.dataset.shift : key.dataset.normal;
     textarea.value += char ?? '';
 });
 
-// キーボード読み込み
 function loadKeyboard(font) {
     fetch("keyboards/" + font + ".xml")
         .then(r => r.text())
@@ -94,7 +88,6 @@ function loadKeyboard(font) {
         .then(xml => buildKeyboardFromXML(xml));
 }
 
-// フォント切替
 function changeFont(number) {
     currentFont = fontClasses[number];
 
@@ -104,5 +97,4 @@ function changeFont(number) {
     loadKeyboard(currentFont);
 }
 
-// 初期ロード
 loadKeyboard(currentFont);
