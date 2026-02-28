@@ -1,134 +1,134 @@
 #TITLE FIGHTS FOR WHOM GB
 
-$loop = 1;
+$LOOP = 1;
 
-t170
-@5@w1
-o5
-l8
-r1
+T170
+@5@W1
+O5
+L8
+R1
 
 /:2
-ce-g ce-a- ce-b- ce-a- ce-g e-
->b-<df >b-<dg >b-<da- >b-<dg >b-<df d
->a-<ce- >a-<cf >a-<cg >a-<cf >a-<ce- c
->g<c-d >g<c-e- >g<c-f >g<c-e- >g<c-d c-
+CE-G CE-A- CE-B- CE-A- CE-G E-
+>B-<DF >B-<DG >B-<DA- >B-<DG >B-<DF D
+>A-<CE- >A-<CF >A-<CG >A-<CF >A-<CE- C
+>G<C-D >G<C-E- >G<C-F >G<C-E- >G<C-D C-
 :/
 L16
 /:
-cre-rgr cre-ra-r cre-rb-r cre-ra-r cre-rgr e-r
->b-r<dr fr >b-r<drgr >b-r<dra-r >b-r<drgr >b-r<drfr dr
->a-r<cr e-r >a-r<crfr >a-r<crgr >a-r<crfr >a-r<cre-r cr
->gr< c-rdr >gr<c-re-r >gr<c-rfr >gr<c-re-r >gr<c-rdr c-r
-o6
+CRE-RGR CRE-RA-R CRE-RB-R CRE-RA-R CRE-RGR E-R
+>B-R<DR FR >B-R<DRGR >B-R<DRA-R >B-R<DRGR >B-R<DRFR DR
+>A-R<CR E-R >A-R<CRFR >A-R<CRGR >A-R<CRFR >A-R<CRE-R CR
+>GR< C-RDR >GR<C-RE-R >GR<C-RFR >GR<C-RE-R >GR<C-RDR C-R
+O6
 :/
-o5
-/:$loop
-l4.
-cde-f
-g8r8f8r8
-ga-b-a-
-g8r8f8r8
-ge-fd
-e-8r8d8r8
-cc-c4
-d4e-4c-4d4
+O5
+/:$LOOP
+L4.
+CDE-F
+G8R8F8R8
+GA-B-A-
+G8R8F8R8
+GE-FD
+E-8R8D8R8
+CC-C4
+D4E-4C-4D4
 
-cde-f
-g8r8f8r8
-ga-b-a-
-g8r8f8r8
-ge-fd
-e-8r8d8r8
-cc-c4
-d4e-4d4c-4
-l8
-/:4crr:/
-e-rdr
-/:4crr:/
-dre-r
-/:4frr:/
-e-rdr
-e-rrcrrdr
-e-rdrcrc-r
-/:4crr:/
-e-rdr
-/:4crr:/
-dre-r
-/:4frr:/
-e-rdr
-e-rrcrrdr
-e-rdrcre-r
+CDE-F
+G8R8F8R8
+GA-B-A-
+G8R8F8R8
+GE-FD
+E-8R8D8R8
+CC-C4
+D4E-4D4C-4
+L8
+/:4CRR:/
+E-RDR
+/:4CRR:/
+DRE-R
+/:4FRR:/
+E-RDR
+E-RRCRRDR
+E-RDRCRC-R
+/:4CRR:/
+E-RDR
+/:4CRR:/
+DRE-R
+/:4FRR:/
+E-RDR
+E-RRCRRDR
+E-RDRCRE-R
 /:2
-ce-g ce-a- ce-b- ce-a- ce-g e-
->b-<df >b-<dg >b-<da- >b-<dg >b-<df d
->a-<ce- >a-<cf >a-<cg >a-<cf >a-<ce- c
->g<c-d >g<c-e- >g<c-f >g<c-e- >g<c-d c-
+CE-G CE-A- CE-B- CE-A- CE-G E-
+>B-<DF >B-<DG >B-<DA- >B-<DG >B-<DF D
+>A-<CE- >A-<CF >A-<CG >A-<CF >A-<CE- C
+>G<C-D >G<C-E- >G<C-F >G<C-E- >G<C-D C-
 :/
 :/
 ;
-@5@w2
-o4
-r1
-l8
+@5@W2
+O4
+R1
+L8
 /:4
-ce-g ce-a- ce-b- ce-a- ce-g e-
->b-<df >b-<dg >b-<da- >b-<dg >b-<df d
->a-<ce- >a-<cf >a-<cg >a-<cf >a-<ce- c
->g<c-d >g<c-e- >g<c-f >g<c-e- >g<c-d c-
+CE-G CE-A- CE-B- CE-A- CE-G E-
+>B-<DF >B-<DG >B-<DA- >B-<DG >B-<DF D
+>A-<CE- >A-<CF >A-<CG >A-<CF >A-<CE- C
+>G<C-D >G<C-E- >G<C-F >G<C-E- >G<C-D C-
 :/
-/:$loop
+/:$LOOP
 /:6
-ce-g ce-a- ce-b- ce-a- ce-g e-
->b-<df >b-<dg >b-<da- >b-<dg >b-<df d
->a-<ce- >a-<cf >a-<cg >a-<cf >a-<ce- c
->g<c-d >g<c-e- >g<c-f >g<c-e- >g<c-d c-
+CE-G CE-A- CE-B- CE-A- CE-G E-
+>B-<DF >B-<DG >B-<DA- >B-<DG >B-<DF D
+>A-<CE- >A-<CF >A-<CG >A-<CF >A-<CE- C
+>G<C-D >G<C-E- >G<C-F >G<C-E- >G<C-D C-
 :/
 :/
 ;
 @10-0
 @E1,0,0,128,0
-r1
-o3
-l4
-/:4 c  r8:/ c c
-/:4>b-<r8:/>b-b-<
-/:4>a-<r8:/>a-a-<
-/:4>g <r8:/>g g <
-l8
+R1
+O3
+L4
+/:4 C  R8:/ C C
+/:4>B-<R8:/>B-B-<
+/:4>A-<R8:/>A-A-<
+/:4>G <R8:/>G G <
+L8
 /:3
-/:4 c   /: c16 r16:/://:c c16r16  :/
-/:4>b-</:>b-16<r16:/://:>b-b-16r16<:/
-/:4>a-</:>a-16<r16:/://:>a-a-16r16<:/
-/:4>g </:>g 16<r16:/://:>g g16r16 <:/
+/:4 C   /: C16 R16:/://:C C16R16  :/
+/:4>B-</:>B-16<R16:/://:>B-B-16R16<:/
+/:4>A-</:>A-16<R16:/://:>A-A-16R16<:/
+/:4>G </:>G 16<R16:/://:>G G16R16 <:/
 :/
-/:$loop
+/:$LOOP
 /:6
-/:4 c   /: c16 r16:/://:c c16r16  :/
-/:4>b-</:>b-16<r16:/://:>b-b-16r16<:/
-/:4>a-</:>a-16<r16:/://:>a-a-16r16<:/
-/:4>g </:>g 16<r16:/://:>g g16r16 <:/
+/:4 C   /: C16 R16:/://:C C16R16  :/
+/:4>B-</:>B-16<R16:/://:>B-B-16R16<:/
+/:4>A-</:>A-16<R16:/://:>A-A-16R16<:/
+/:4>G </:>G 16<R16:/://:>G G16R16 <:/
 :/
 :/
 #WAV10 0,9AEEFFFFFEE994457ACFFEEC94110045
 ;
 @11
-o0
-l32
+O0
+L32
 /:/:AR://:CR:/://:8AR:/
 /:3
-er rr /:11cr rr:/ /:er rr cr rr:/
+ER RR /:11CR RR:/ /:ER RR CR RR:/
 :/
-er rr /:7 cr rr:/ /:er rr rr rr://:8ar:/
-/:14dr rr cr rr a16 rr cr rr:/
-/:f16. r32/:2r16:/://:8ar:/
-/:14dr rr cr rr a16 rr cr rr:/
-/:a16 rr /:4d-r:/://:a16 rr:/
-/:14dr cr cr cr a16 cr cr cr:/
-/:f16. r32/:2r16:/:/ /:fr rr:/ /:4ar:/
+ER RR /:7 CR RR:/ /:ER RR RR RR://:8AR:/
+/:14DR RR CR RR A16 RR CR RR:/
+/:F16. R32/:2R16:/://:8AR:/
+/:14DR RR CR RR A16 RR CR RR:/
+/:A16 RR /:4D-R:/://:A16 RR:/
+/:14DR CR CR CR A16 CR CR CR:/
+/:F16. R32/:2R16:/:/ /:FR RR:/ /:4AR:/
 
-/:$loop
-/:94dr rr cr rr a16 rr cr rr:/
-ar rr rr rr ar rr rr rr
-/:8ar:/
+/:$LOOP
+/:94DR RR CR RR A16 RR CR RR:/
+AR RR RR RR AR RR RR RR
+/:8AR:/
 :/

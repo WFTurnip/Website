@@ -1,70 +1,70 @@
-#TITLE sanctuary chant WS
+#TITLE SANCTUARY CHANT WS
 
-$loop = 1;
+$LOOP = 1;
 
-t125
+T125
 
 @10-1
 @E1,0,0,128,0
-l16
-o6
-/:0r1://:4<c>ra-rb-rgra-rfrgrer:/
-l4
-/:$loop
-f&fga- b-&b-<cd- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- gff-f g&gc&c
-ff-fg a-ga-b- <c>b-<e-d- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- fgff- 
-f&fg&g a-&a-b-&b- <c&cd-c> b-a-b-<c> gb-a-g ff-fg a-gb-a- gfec
-<c>b-<cd- c>b-a-b- <c>gb-a- gff-f gcfc gca-c b-ca-c gcfe
-f&fa-&a- <c&cd-&d-> <c&c>b-&b- g&g b-&b- a-&a- g&g f&f a-&a- g&g<c>b- a-gfe
-a-&a-<c&c e-&e-e&e e-&e- d-&d-> b-&b-<d-&d- c&c>b-&b- a-&a-<c&c> b-&b-<e-d- c>b-a-g 
+L16
+O6
+/:0R1://:4<C>RA-RB-RGRA-RFRGRER:/
+L4
+/:$LOOP
+F&FGA- B-&B-<CD- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- GFF-F G&GC&C
+FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF- 
+F&FG&G A-&A-B-&B- <C&CD-C> B-A-B-<C> GB-A-G FF-FG A-GB-A- GFEC
+<C>B-<CD- C>B-A-B- <C>GB-A- GFF-F GCFC GCA-C B-CA-C GCFE
+F&FA-&A- <C&CD-&D-> <C&C>B-&B- G&G B-&B- A-&A- G&G F&F A-&A- G&G<C>B- A-GFE
+A-&A-<C&C E-&E-E&E E-&E- D-&D-> B-&B-<D-&D- C&C>B-&B- A-&A-<C&C> B-&B-<E-D- C>B-A-G 
 :/
 ;
 @10-1
 @E1,0,0,128,0
-l16
-o5
-/:1r1://:3<c>ra-rb-rgra-rfrgrer:/
-l4
-/:$loop
-/:8r1:/
-f&fga- b-&b-<cd- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- gff-f g&gc&c
-ff-fg a-ga-b- <c>b-<e-d- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- fgff- 
-f&fg&g a-&a-b-&b- <c&cd-c> b-a-b-<c> gb-a-g ff-fg a-gb-a- gfec
-<c>b-<cd- c>b-a-b- <c>gb-a- gff-f gcfc gca-c b-ca-c gcfe
-f&fa-&a- <c&cd-&d-> <c&c>b-&b- g&g b-&b- a-&a- g&g f&f a-&a- g&g <c>b-a-gfe
+L16
+O5
+/:1R1://:3<C>RA-RB-RGRA-RFRGRER:/
+L4
+/:$LOOP
+/:8R1:/
+F&FGA- B-&B-<CD- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- GFF-F G&GC&C
+FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF- 
+F&FG&G A-&A-B-&B- <C&CD-C> B-A-B-<C> GB-A-G FF-FG A-GB-A- GFEC
+<C>B-<CD- C>B-A-B- <C>GB-A- GFF-F GCFC GCA-C B-CA-C GCFE
+F&FA-&A- <C&CD-&D-> <C&C>B-&B- G&G B-&B- A-&A- G&G F&F A-&A- G&G <C>B-A-GFE
 :/
 ;
 @10-1
 @E1,0,0,128,0
-l16
-o4
-/:2r1://:2<c>ra-rb-rgra-rfrgrer:/
-l4
-/:$loop
-/:16r1:/
-f&fga- b-&b-<cd- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- gff-f g&gc&c
-ff-fg a-ga-b- <c>b-<e-d- c>b-a-b- ga-b-f a-ga-<c> b-a-ga- fgff- 
-f&fg&g a-&a-b-&b- <c&cd-c> b-a-b-<c> gb-a-g ff-fg a-gb-a- gfec
-<c>b-<cd- c>b-a-b- <c>gb-a- gff-f gcfc gca-c b-ca-c gcfe
+L16
+O4
+/:2R1://:2<C>RA-RB-RGRA-RFRGRER:/
+L4
+/:$LOOP
+/:16R1:/
+F&FGA- B-&B-<CD- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- GFF-F G&GC&C
+FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF- 
+F&FG&G A-&A-B-&B- <C&CD-C> B-A-B-<C> GB-A-G FF-FG A-GB-A- GFEC
+<C>B-<CD- C>B-A-B- <C>GB-A- GFF-F GCFC GCA-C B-CA-C GCFE
 :/
 ;
 @10-0
 @E1,0,0,128,0
-l16
-o3
-/:3r1://:1<c>ra-rb-rgra-rfrgrer:/
-l1
-/:$loop
+L16
+O3
+/:3R1://:1<C>RA-RB-RGRA-RFRGRER:/
+L1
+/:$LOOP
 
 /:6
-f
-f-
-f--
-f---
-f----
-f-----
-f------
-f-----
+F
+F-
+F--
+F---
+F----
+F-----
+F------
+F-----
 :/
 :/
 ;

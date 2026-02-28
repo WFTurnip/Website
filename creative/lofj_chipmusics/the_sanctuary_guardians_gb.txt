@@ -1,243 +1,243 @@
 #TITLE SANCTUARY GUARDIANS GB
 
-$loop = 1;
+$LOOP = 1;
 
-t155
-r1
-@5@w2
-o4
+T155
+R1
+@5@W2
+O4
 /:
-l1
-a-b-<c2.>b-16r16<c16r16>
-l4
-b-2a-ga-.r8a-b- <c2>g2 a-2b-a-
-l1
-g
-l1
-a-b-<c2.>b-16r16<c16r16>
-l4
-<d-2e-d-c2>b-a- b-2g2 a-2b-a-
-l1
-g
+L1
+A-B-<C2.>B-16R16<C16R16>
+L4
+B-2A-GA-.R8A-B- <C2>G2 A-2B-A-
+L1
+G
+L1
+A-B-<C2.>B-16R16<C16R16>
+L4
+<D-2E-D-C2>B-A- B-2G2 A-2B-A-
+L1
+G
 <:/>>
-/:$loop
-o5
-l4
+/:$LOOP
+O5
+L4
 /:
-f.c8 a- r8a-8 b-8a-8g8f8 ge
+F.C8 A- R8A-8 B-8A-8G8F8 GE
 /:
-/:e16f16g8r8:/r
+/:E16F16G8R8:/R
 >:/<<
-f.c8 a- r8a-8 b-8a-8g8f8 ge
-e16f16g8r8 f16g16a-8r8 r
-g16a-16b-8r8 f16g16a-8r8 e16f16g8
+F.C8 A- R8A-8 B-8A-8G8F8 GE
+E16F16G8R8 F16G16A-8R8 R
+G16A-16B-8R8 F16G16A-8R8 E16F16G8
 :/
 
-l4
-f2.a- g2 r8g8a-8b-8 <c2.>b- a-2.b- g2.a-8b-8 a-g8fr8a- g2r8g8a-8b-8 <c1>
-<d-2e-c> <d-.>b-.<d-8c8> b-a-b-<c>g2.b-a-.f8&f2 ra-ga-8b-8 a-2.g f2e2
+L4
+F2.A- G2 R8G8A-8B-8 <C2.>B- A-2.B- G2.A-8B-8 A-G8FR8A- G2R8G8A-8B-8 <C1>
+<D-2E-C> <D-.>B-.<D-8C8> B-A-B-<C>G2.B-A-.F8&F2 RA-GA-8B-8 A-2.G F2E2
 
-o4
-l8
-f2 r8f8g8a-8 b-2 r8b-8<c8d-8> <e-2&e-8 d-8c8>b-8
-<c2>a-4 b-<c>b-a- g4 a-b-a-g f4e4f4g4 a-2&a-b-a-g f2e2
-f4c4f4g8a-8 b-2 r8b-8<c8d-8> <e-2.>a-4 b-2<c2> g2.b-4 a-2f2 g2.a-g f2e2
+O4
+L8
+F2 R8F8G8A-8 B-2 R8B-8<C8D-8> <E-2&E-8 D-8C8>B-8
+<C2>A-4 B-<C>B-A- G4 A-B-A-G F4E4F4G4 A-2&A-B-A-G F2E2
+F4C4F4G8A-8 B-2 R8B-8<C8D-8> <E-2.>A-4 B-2<C2> G2.B-4 A-2F2 G2.A-G F2E2
 
-l1
-a-b-<c2.>b-16r16<c16r16>
-l4
-b-2a-ga-.r8a-b- <c2>g2 a-2b-a-
-l1
-g
-l1
-a-b-<c2.>b-16r16<c16r16>
-l4
-<d-2e-d-c2>b-a- b-2g2 a-2b-a-
-l1
-g
+L1
+A-B-<C2.>B-16R16<C16R16>
+L4
+B-2A-GA-.R8A-B- <C2>G2 A-2B-A-
+L1
+G
+L1
+A-B-<C2.>B-16R16<C16R16>
+L4
+<D-2E-D-C2>B-A- B-2G2 A-2B-A-
+L1
+G
 :/
 ;
-r1
-@5@w2
-o4
+R1
+@5@W2
+O4
 /:
-l1
-fga-2.g16r16a-16r16
-l4
-g2fef.r8fg a-2e2 f2gf
-l1
-e
-l1
-fga-2.g16r16a-16r16
-l4
-b-2<c>b- a-2gf g2e2 f2gf
-l1
-e
+L1
+FGA-2.G16R16A-16R16
+L4
+G2FEF.R8FG A-2E2 F2GF
+L1
+E
+L1
+FGA-2.G16R16A-16R16
+L4
+B-2<C>B- A-2GF G2E2 F2GF
+L1
+E
 <:/>>
-/:$loop
-@w1
-l16
+/:$LOOP
+@W1
+L16
 /:3
-a-rfrgra-r b-rgra-rb-r <cr>a-rb-r<cr> <d-r>b-r<crd-r>
+A-RFRGRA-R B-RGRA-RB-R <CR>A-RB-R<CR> <D-R>B-R<CRD-R>
 :/
-/:<cr>a-rb-rgra-rfrgrer:/
-@w2
-l4
-f.c8 a- r8a-8 b-8a-8g8f8 ge
+/:<CR>A-RB-RGRA-RFRGRER:/
+@W2
+L4
+F.C8 A- R8A-8 B-8A-8G8F8 GE
 /:
-/:e16f16g8r8:/r
+/:E16F16G8R8:/R
 >:/<<
-f.c8 a- r8a-8 b-8a-8g8f8 ge
-e16f16g8r8 f16g16a-8r8 r
-g16a-16b-8r8 f16g16a-8r8 e16f16g8
+F.C8 A- R8A-8 B-8A-8G8F8 GE
+E16F16G8R8 F16G16A-8R8 R
+G16A-16B-8R8 F16G16A-8R8 E16F16G8
 
-@w1
-l16
+@W1
+L16
 /:
 /:3
-a-rfrgra-r b-rgra-rb-r <cr>a-rb-r<cr> <d-r>b-r<crd-r>
+A-RFRGRA-R B-RGRA-RB-R <CR>A-RB-R<CR> <D-R>B-R<CRD-R>
 :/
-/:<cr>a-rb-rgra-rfrgrer:/
+/:<CR>A-RB-RGRA-RFRGRER:/
 :/
-@w2
-o3
-l8
-f2 r8f8g8a-8 b-2 r8b-8<c8d-8> <e-2&e-8 d-8c8>b-8
-<c2>a-4 b-<c>b-a- g4 a-b-a-g f4e4f4g4 a-2&a-b-a-g f2e2
-f4c4f4g8a-8 b-2 r8b-8<c8d-8> <e-2.>a-4 b-2<c2> g2.b-4 a-2f2 g2.a-g f2e2
-o4
-l1
-fga-2.g16r16a-16r16
-l4
-g2fef.r8fg a-2e2 f2gf
-l1
-e
-l1
-fga-2.g16r16a-16r16
-l4
-b-2<c>b- a-2gf g2e2 f2gf
-l1
-e
+@W2
+O3
+L8
+F2 R8F8G8A-8 B-2 R8B-8<C8D-8> <E-2&E-8 D-8C8>B-8
+<C2>A-4 B-<C>B-A- G4 A-B-A-G F4E4F4G4 A-2&A-B-A-G F2E2
+F4C4F4G8A-8 B-2 R8B-8<C8D-8> <E-2.>A-4 B-2<C2> G2.B-4 A-2F2 G2.A-G F2E2
+O4
+L1
+FGA-2.G16R16A-16R16
+L4
+G2FEF.R8FG A-2E2 F2GF
+L1
+E
+L1
+FGA-2.G16R16A-16R16
+L4
+B-2<C>B- A-2GF G2E2 F2GF
+L1
+E
 :/
 ;
-r1
+R1
 @10-0
 @E1,0,0,128,0
-o3
-l16
+O3
+L16
 /:
-/:4f/:3r:/:/
-/:4f-/:3r:/:/
-/:4f--/:3r:/:/
-/:4f---/:3r:/:/
-/:4f----/:3r:/:/
-/:4f-----/:3r:/:/
-/:4f------/:3r:/:/
-/:4f-----/:3r:/:/
+/:4F/:3R:/:/
+/:4F-/:3R:/:/
+/:4F--/:3R:/:/
+/:4F---/:3R:/:/
+/:4F----/:3R:/:/
+/:4F-----/:3R:/:/
+/:4F------/:3R:/:/
+/:4F-----/:3R:/:/
 :/
 /:
-/:8f/:1r:/:/
-/:8f-/:1r:/:/
-/:8f--/:1r:/:/
-/:8f---/:1r:/:/
-/:8f----/:1r:/:/
-/:8f-----/:1r:/:/
-/:8f------/:1r:/:/
-/:8f-----/:1r:/:/
+/:8F/:1R:/:/
+/:8F-/:1R:/:/
+/:8F--/:1R:/:/
+/:8F---/:1R:/:/
+/:8F----/:1R:/:/
+/:8F-----/:1R:/:/
+/:8F------/:1R:/:/
+/:8F-----/:1R:/:/
 :/
-/:$loop
-l16
+/:$LOOP
+L16
 /:
-/:8f/:1r:/:/
-/:8f-/:1r:/:/
-/:8f--/:1r:/:/
-/:8f---/:1r:/:/
-/:8f----/:1r:/:/
-/:8f-----/:1r:/:/
-/:8f------/:1r:/:/
-/:8f-----/:1r:/:/
+/:8F/:1R:/:/
+/:8F-/:1R:/:/
+/:8F--/:1R:/:/
+/:8F---/:1R:/:/
+/:8F----/:1R:/:/
+/:8F-----/:1R:/:/
+/:8F------/:1R:/:/
+/:8F-----/:1R:/:/
 :/
-l8
+L8
 /:
-/:4f<f>:/
-/:4f-<f->:/
-/:4f--<f-->:/
-/:4f---<f--->:/
-/:4f----<f---->:/
-/:4f-----<f----->:/
-/:4f------<f------>:/
-/:4f-----<f----->:/
+/:4F<F>:/
+/:4F-<F->:/
+/:4F--<F-->:/
+/:4F---<F--->:/
+/:4F----<F---->:/
+/:4F-----<F----->:/
+/:4F------<F------>:/
+/:4F-----<F----->:/
 :/
-l16
+L16
 /:
-/:4f/:3r:/:/
-/:4f-/:3r:/:/
-/:4f--/:3r:/:/
-/:4f---/:3r:/:/
-/:4f----/:3r:/:/
-/:4f-----/:3r:/:/
-/:4f------/:3r:/:/
-/:4f-----/:3r:/:/
+/:4F/:3R:/:/
+/:4F-/:3R:/:/
+/:4F--/:3R:/:/
+/:4F---/:3R:/:/
+/:4F----/:3R:/:/
+/:4F-----/:3R:/:/
+/:4F------/:3R:/:/
+/:4F-----/:3R:/:/
 :/
 /:
-/:8f/:1r:/:/
-/:8f-/:1r:/:/
-/:8f--/:1r:/:/
-/:8f---/:1r:/:/
-/:8f----/:1r:/:/
-/:8f-----/:1r:/:/
-/:8f------/:1r:/:/
-/:8f-----/:1r:/:/
+/:8F/:1R:/:/
+/:8F-/:1R:/:/
+/:8F--/:1R:/:/
+/:8F---/:1R:/:/
+/:8F----/:1R:/:/
+/:8F-----/:1R:/:/
+/:8F------/:1R:/:/
+/:8F-----/:1R:/:/
 :/
 :/
 #WAV10 0,FEC9 6310 0012 4556 6665 4456 8BDE FFFF
 ;
 @11
-l32
-o0
+L32
+O0
 /:
-/:ar:/
-/:cr:/
+/:AR:/
+/:CR:/
 :/
-/:8ar:/
+/:8AR:/
 /:16
-dr/:3rr:/
-cr/:3rr:/
+DR/:3RR:/
+CR/:3RR:/
 :/
 /:15
-d.r64/:3rr:/
-cr/:3rr:/
+D.R64/:3RR:/
+CR/:3RR:/
 :/
-/:8ar:/
+/:8AR:/
 /:30
-dr/:3cr:/
-a.r64/:3cr:/
+DR/:3CR:/
+A.R64/:3CR:/
 :/
-/:ar/:3rr:/:/
-/:8ar:/
-/:$loop
+/:AR/:3RR:/:/
+/:8AR:/
+/:$LOOP
 /:32
-dr rr /:2cr:/
+DR RR /:2CR:/
 :/
 /:15
-dr rr /:2cr:/
-a.r64 rr /:2cr:/
+DR RR /:2CR:/
+A.R64 RR /:2CR:/
 :/
-/:ar/:3rr:/:/
+/:AR/:3RR:/:/
 /:30
-dr/:3cr:/
-a.r64/:3cr:/
+DR/:3CR:/
+A.R64/:3CR:/
 :/
-/:ar/:3rr:/:/
-/:8ar:/
+/:AR/:3RR:/:/
+/:8AR:/
 /:62
-dr rr /:2cr:/
+DR RR /:2CR:/
 :/
-/:8ar:/
+/:8AR:/
 /:30
-dr/:3cr:/
-a.r64/:3cr:/
+DR/:3CR:/
+A.R64/:3CR:/
 :/
-/:ar/:3rr:/:/
-/:8ar:/
+/:AR/:3RR:/:/
+/:8AR:/
 :/

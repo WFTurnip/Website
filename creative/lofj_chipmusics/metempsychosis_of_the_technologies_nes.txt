@@ -1,88 +1,88 @@
-#TITLE Metempsychosis of the Technologies NES
+#TITLE METEMPSYCHOSIS OF THE TECHNOLOGIES NES
 
-$loop = 1;
+$LOOP = 1;
 
-t130
-@5@w1
-o5
-l16
+T130
+@5@W1
+O5
+L16
 /:
-/:4r1:/
-/:4grbrarg-grgbrarg-r:/
+/:4R1:/
+/:4GRBRARG-GRGBRARG-R:/
 :/
-/:$loop
-o6
-ergrg-rder4
-eg-g8
-b4a4g4a4
-g-2.gagg-
-e4.g-e
-d2
+/:$LOOP
+O6
+ERGRG-RDER4
+EG-G8
+B4A4G4A4
+G-2.GAGG-
+E4.G-E
+D2
 
-ergrg-rder4
-eg-g8
-b4a4g4a4
-d2.e-4
-e4.b8a8g8g-8e8
-o5
-/:8grbrarg-grgbrarg-r:/
+ERGRG-RDER4
+EG-G8
+B4A4G4A4
+D2.E-4
+E4.B8A8G8G-8E8
+O5
+/:8GRBRARG-GRGBRARG-R:/
 :/
 ;
-@5@w1
-o5
-l16
-/:16ergrg-rderegrg-rdr:/
-/:$loop
-/:16ergrg-rderegrg-rdr:/
+@5@W1
+O5
+L16
+/:16ERGRG-RDEREGRG-RDR:/
+/:$LOOP
+/:16ERGRG-RDEREGRG-RDR:/
 :/
 ;
 @6-1
 @E1,0,0,128,0
-o3
-l16
-/:6r1:/
-/:a-r:/
-/:a r:/
-/:b-r:/
-/:b r:/
+O3
+L16
+/:6R1:/
+/:A-R:/
+/:A R:/
+/:B-R:/
+/:B R:/
 <
-/:c r:/
-/:d-r:/
-/:d r:/
-/:e-r:/
+/:C R:/
+/:D-R:/
+/:D R:/
+/:E-R:/
 >
-o4
-er<er>ere<e>re<er>er<er>er<er>er<e>ere<er>er<er>
-dr<dr>drd<d>rd<dr>dr<dr>dr<dr>dr<d>drd<dr>dr<dr>
-cr<cr>crc<c>rc<cr>cr<cr>cr<cr>cr<c>crc<cr>cr<cr>
-dr<dr>drd<d>rd<dr>dr<dr>dr<dr>dr<d>drd<dr>e-r<e-r>
+O4
+ER<ER>ERE<E>RE<ER>ER<ER>ER<ER>ER<E>ERE<ER>ER<ER>
+DR<DR>DRD<D>RD<DR>DR<DR>DR<DR>DR<D>DRD<DR>DR<DR>
+CR<CR>CRC<C>RC<CR>CR<CR>CR<CR>CR<C>CRC<CR>CR<CR>
+DR<DR>DRD<D>RD<DR>DR<DR>DR<DR>DR<D>DRD<DR>E-R<E-R>
 
-/:$loop
+/:$LOOP
 /:
-er<er>ere<e>re<er>er<er>er<er>er<e>ere<er>er<er>
-dr<dr>drd<d>rd<dr>dr<dr>dr<dr>dr<d>drd<dr>dr<dr>
-cr<cr>crc<c>rc<cr>cr<cr>cr<cr>cr<c>crc<cr>cr<cr>
-dr<dr>drd<d>rd<dr>dr<dr>dr<dr>dr<d>drd<dr>e-r<e-r>
+ER<ER>ERE<E>RE<ER>ER<ER>ER<ER>ER<E>ERE<ER>ER<ER>
+DR<DR>DRD<D>RD<DR>DR<DR>DR<DR>DR<D>DRD<DR>DR<DR>
+CR<CR>CRC<C>RC<CR>CR<CR>CR<CR>CR<C>CRC<CR>CR<CR>
+DR<DR>DRD<D>RD<DR>DR<DR>DR<DR>DR<D>DRD<DR>E-R<E-R>
 :/
 :/
 ;
 @7
-o0
-l32
-/:24 cr rr rr rr :/
-/:8 @7 cr rr @8 d-r rr :/
+O0
+L32
+/:24 CR RR RR RR :/
+/:8 @7 CR RR @8 D-R RR :/
 @7
 /:
-e-.r64 rr cr rr a.r64 rr dr rr cr rr dr rr a.r64 rr cr rr
+E-.R64 RR CR RR A.R64 RR DR RR CR RR DR RR A.R64 RR CR RR
 /:3
-dr rr cr rr a.r64 rr dr rr cr rr dr rr a.r64 rr cr rr
+DR RR CR RR A.R64 RR DR RR CR RR DR RR A.R64 RR CR RR
 :/
 :/
-/:$loop
+/:$LOOP
 /:4
-e-.r64 rr cr rr a.r64 rr dr rr cr rr dr rr a.r64 rr cr rr
+E-.R64 RR CR RR A.R64 RR DR RR CR RR DR RR A.R64 RR CR RR
 /:3
-dr rr cr rr a.r64 rr dr rr cr rr dr rr a.r64 rr cr rr
+DR RR CR RR A.R64 RR DR RR CR RR DR RR A.R64 RR CR RR
 :/
 :/
 :/

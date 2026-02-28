@@ -1,53 +1,53 @@
 #TITLE DIVA IN THE ROMANCE GB
 
-$loop = 1;
+$LOOP = 1;
 
-t85
+T85
 @5
-@w2
-o4
-l4
-/:$loop
+@W2
+O4
+L4
+/:$LOOP
 /:2
-ebg
-e-bg-
-e--bg--
-e---bg---
-e----bg----
-e-----bg-----
-e------b-g------
-e-----bg----
+EBG
+E-BG-
+E--BG--
+E---BG---
+E----BG----
+E-----BG-----
+E------B-G------
+E-----BG----
 :/
 :/
 ;
 @5
-@w2
-o4
-l4
-r8
-/:$loop
+@W2
+O4
+L4
+R8
+/:$LOOP
 /:2
-geb
-g-e-b
-g--e--b
-g---e---b
-g----e----b
-g-----e-----b
-g------e------b-
-g----e-----b
+GEB
+G-E-B
+G--E--B
+G---E---B
+G----E----B
+G-----E-----B
+G------E------B-
+G----E-----B
 :/
 :/
 ;
 @10-0
 @E1,0,50,0,0
-o5
-l8
-/:$loop
-/:2gg-gagg-:/gg-gabagg-eg-ee-
-g-eg-gagbag<c>bagg-gagg-eg-ge-eg-
+O5
+L8
+/:$LOOP
+/:2GG-GAGG-:/GG-GABAGG-EG-EE-
+G-EG-GAGBAG<C>BAGG-GAGG-EG-GE-EG-
 
-gg-gagg-bab<cdc>bab<c>gbagg-gag
-bagag-gagg-ee-eg-gagg-geg-gg-ee-
+GG-GAGG-BAB<CDC>BAB<C>GBAGG-GAG
+BAGAG-GAGG-EE-EG-GAGG-GEG-GG-EE-
 :/
 ;
 #WAV10 0,77BF C536 B775 009B B778 8FF8 4235 A950

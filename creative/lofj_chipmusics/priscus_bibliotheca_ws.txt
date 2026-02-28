@@ -1,162 +1,162 @@
-#TITLE Priscus Bibliotheca WS
+#TITLE PRISCUS BIBLIOTHECA WS
 
-$loop = 1;
+$LOOP = 1;
 
-t085
+T085
 @10-0
 @E1,0,0,128,0
-o4
-/:2l8al16/:2<e>r:/l8el16/:2<e>r:/:/
-/:2l8a-l16/:2<e>r:/l8e-l16/:2<e>r:/:/
-/:2l8a--l16/:2<e>r:/l8e--l16/:2<e>r:/:/
-/:2l8a---l16/:2<e>r:/l8e---l16/:2<e>r:/:/
-/:2l8a----l16/:2<e>r:/l8e----l16/:2<e>r:/:/
-/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
-/:2l8a------l16/:2<e->r:/l8e------l16/:2<e->r:/:/
-/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
-/:$loop
+O4
+/:2L8AL16/:2<E>R:/L8EL16/:2<E>R:/:/
+/:2L8A-L16/:2<E>R:/L8E-L16/:2<E>R:/:/
+/:2L8A--L16/:2<E>R:/L8E--L16/:2<E>R:/:/
+/:2L8A---L16/:2<E>R:/L8E---L16/:2<E>R:/:/
+/:2L8A----L16/:2<E>R:/L8E----L16/:2<E>R:/:/
+/:2L8A-----L16/:2<E>R:/L8E-----L16/:2<E>R:/:/
+/:2L8A------L16/:2<E->R:/L8E------L16/:2<E->R:/:/
+/:2L8A-----L16/:2<E>R:/L8E-----L16/:2<E>R:/:/
+/:$LOOP
 /:4
-/:2l8al16/:2<e>r:/l8el16/:2<e>r:/:/
-/:2l8a-l16/:2<e>r:/l8e-l16/:2<e>r:/:/
-/:2l8a--l16/:2<e>r:/l8e--l16/:2<e>r:/:/
-/:2l8a---l16/:2<e>r:/l8e---l16/:2<e>r:/:/
-/:2l8a----l16/:2<e>r:/l8e----l16/:2<e>r:/:/
-/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
-/:2l8a------l16/:2<e->r:/l8e------l16/:2<e->r:/:/
-/:2l8a-----l16/:2<e>r:/l8e-----l16/:2<e>r:/:/
+/:2L8AL16/:2<E>R:/L8EL16/:2<E>R:/:/
+/:2L8A-L16/:2<E>R:/L8E-L16/:2<E>R:/:/
+/:2L8A--L16/:2<E>R:/L8E--L16/:2<E>R:/:/
+/:2L8A---L16/:2<E>R:/L8E---L16/:2<E>R:/:/
+/:2L8A----L16/:2<E>R:/L8E----L16/:2<E>R:/:/
+/:2L8A-----L16/:2<E>R:/L8E-----L16/:2<E>R:/:/
+/:2L8A------L16/:2<E->R:/L8E------L16/:2<E->R:/:/
+/:2L8A-----L16/:2<E>R:/L8E-----L16/:2<E>R:/:/
 :/
 :/
 ;
 @10-0
 @E1,0,0,128,0
-o4
-/:2l8>a<l16/:2<c>r:/l8>e<l16/:2<c>r:/:/
-/:2l8>a-<l16/:2<c->r:/l8>e-<l16/:2<c->r:/:/
-/:2l8>a--<l16/:2<c-->r:/l8>e--<l16/:2<c-->r:/:/
-/:2l8>a---<l16/:2<c--->r:/l8>e---<l16/:2<c--->r:/:/
-/:2l8>a----<l16/:2<c---->r:/l8>e----<l16/:2<c---->r:/:/
-/:2l8>a-----<l16/:2<c----->r:/l8>e-----<l16/:2<c----->r:/:/
-/:2l8>a------<l16/:2<c------>r:/l8>e------<l16/:2<c------>r:/:/
-/:2l8>a-----<l16/:2<c---->r:/l8>e-----<l16/:2<c---->r:/:/
-/:$loop
+O4
+/:2L8>A<L16/:2<C>R:/L8>E<L16/:2<C>R:/:/
+/:2L8>A-<L16/:2<C->R:/L8>E-<L16/:2<C->R:/:/
+/:2L8>A--<L16/:2<C-->R:/L8>E--<L16/:2<C-->R:/:/
+/:2L8>A---<L16/:2<C--->R:/L8>E---<L16/:2<C--->R:/:/
+/:2L8>A----<L16/:2<C---->R:/L8>E----<L16/:2<C---->R:/:/
+/:2L8>A-----<L16/:2<C----->R:/L8>E-----<L16/:2<C----->R:/:/
+/:2L8>A------<L16/:2<C------>R:/L8>E------<L16/:2<C------>R:/:/
+/:2L8>A-----<L16/:2<C---->R:/L8>E-----<L16/:2<C---->R:/:/
+/:$LOOP
 /:4
-/:2l8>a<l16/:2<c>r:/l8>e<l16/:2<c>r:/:/
-/:2l8>a-<l16/:2<c->r:/l8>e-<l16/:2<c->r:/:/
-/:2l8>a--<l16/:2<c-->r:/l8>e--<l16/:2<c-->r:/:/
-/:2l8>a---<l16/:2<c--->r:/l8>e---<l16/:2<c--->r:/:/
-/:2l8>a----<l16/:2<c---->r:/l8>e----<l16/:2<c---->r:/:/
-/:2l8>a-----<l16/:2<c----->r:/l8>e-----<l16/:2<c----->r:/:/
-/:2l8>a------<l16/:2<c------>r:/l8>e------<l16/:2<c------>r:/:/
-/:2l8>a-----<l16/:2<c---->r:/l8>e-----<l16/:2<c---->r:/:/
+/:2L8>A<L16/:2<C>R:/L8>E<L16/:2<C>R:/:/
+/:2L8>A-<L16/:2<C->R:/L8>E-<L16/:2<C->R:/:/
+/:2L8>A--<L16/:2<C-->R:/L8>E--<L16/:2<C-->R:/:/
+/:2L8>A---<L16/:2<C--->R:/L8>E---<L16/:2<C--->R:/:/
+/:2L8>A----<L16/:2<C---->R:/L8>E----<L16/:2<C---->R:/:/
+/:2L8>A-----<L16/:2<C----->R:/L8>E-----<L16/:2<C----->R:/:/
+/:2L8>A------<L16/:2<C------>R:/L8>E------<L16/:2<C------>R:/:/
+/:2L8>A-----<L16/:2<C---->R:/L8>E-----<L16/:2<C---->R:/:/
 :/
 :/
 ;
 @10-1
 @E1,0,0,128,0
-o6
-l8
->a&ab<c&cde&edg&gf
-l2.
-e&e
-l8
-d&ded&dc>b&b&b<c&c>b<
-l2.
->a&a<
-l8
->b&b<cd&dc>b&b&b<e&e&e
-d&def&fgf&f&fe&e&e
-d&dcd&ded&de>b&b<d
-c&c&c&cdc
-l2.
->b<
+O6
+L8
+>A&AB<C&CDE&EDG&GF
+L2.
+E&E
+L8
+D&DED&DC>B&B&B<C&C>B<
+L2.
+>A&A<
+L8
+>B&B<CD&DC>B&B&B<E&E&E
+D&DEF&FGF&F&FE&E&E
+D&DCD&DED&DE>B&B<D
+C&C&C&CDC
+L2.
+>B<
 @10-2
-/:$loop
-l8
->a&ab<c&cde&edg&gf
-l2.
-e&e
-l8
-d&ded&dc>b&b&b<c&c>b<
-l2.
->a&a<
-l8
->b&b<cd&dc>b&b&b<e&e&e
-d&def&fgf&f&fe&e&e
-d&dcd&ded&de>b&b<d
-c&c&c&cdc
-l2.
->b<
-l16 >aa-ab<crdcdefr erfedcc-rcc->a<c- l2 c l8 dc l2. c-
-l16 >aa-ab<crdcdefr erfedcc-rcc->aa-< l2 >a< l8 >ba< l2. >a-<
-l8
->a&ab<c&cde&edc>ba</:2>a-&a-a<:/>a-&a-&a-<r4.
-c&cde&efg&gfedc/:2c-&c-c:/c-&c-&c-r4.
+/:$LOOP
+L8
+>A&AB<C&CDE&EDG&GF
+L2.
+E&E
+L8
+D&DED&DC>B&B&B<C&C>B<
+L2.
+>A&A<
+L8
+>B&B<CD&DC>B&B&B<E&E&E
+D&DEF&FGF&F&FE&E&E
+D&DCD&DED&DE>B&B<D
+C&C&C&CDC
+L2.
+>B<
+L16 >AA-AB<CRDCDEFR ERFEDCC-RCC->A<C- L2 C L8 DC L2. C-
+L16 >AA-AB<CRDCDEFR ERFEDCC-RCC->AA-< L2 >A< L8 >BA< L2. >A-<
+L8
+>A&AB<C&CDE&EDC>BA</:2>A-&A-A<:/>A-&A-&A-<R4.
+C&CDE&EFG&GFEDC/:2C-&C-C:/C-&C-&C-R4.
 
-l4.
-defe
-l8
-dcdefe dcdec-d c&cde&eg fefede
-l2.
-c&c
-l8
-c-16c16dedcd >a16b16<cdcc-16c16c-16>a16<
-c->a-16a16<c-cd16c16c-16>a16<c->a-a<c-cc-
-dc16d16egfe dedcdc
-l2.
-c-&c-
-l16
-e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
-l8
->ab<cdcc-
-l2.
-c
-l16
-e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
-l8
->a&a&a&a<c-cd&dgf&fd e&efedc dec-dcc- c>a<c-cdc
-c-&c-&c-&c-cd efgfed efedcd
-l16
-<e>e<d>d<c>c <d>d<c>c<c->c- <c>c<c->c-a>a< <c->c-a>a<a->a-<
+L4.
+DEFE
+L8
+DCDEFE DCDEC-D C&CDE&EG FEFEDE
+L2.
+C&C
+L8
+C-16C16DEDCD >A16B16<CDCC-16C16C-16>A16<
+C->A-16A16<C-CD16C16C-16>A16<C->A-A<C-CC-
+DC16D16EGFE DEDCDC
+L2.
+C-&C-
+L16
+E&EFEDC D&DEDCC- C&CDCC->A< C-&C-CC->AA-<
+L8
+>AB<CDCC-
+L2.
+C
+L16
+E&EFEDC D&DEDCC- C&CDCC->A< C-&C-CC->AA-<
+L8
+>A&A&A&A<C-CD&DGF&FD E&EFEDC DEC-DCC- C>A<C-CDC
+C-&C-&C-&C-CD EFGFED EFEDCD
+L16
+<E>E<D>D<C>C <D>D<C>C<C->C- <C>C<C->C-A>A< <C->C-A>A<A->A-<
 :/
 ;
 @10-3
 @E1,0,0,128,0
-/:16r2.:/
-/:$loop
-o5
-l16
+/:16R2.:/
+/:$LOOP
+O5
+L16
 /:4
-/:2r2.:/
-<cdc>bar b<c>baa-r abaa-aa- ab<cdef>
-/:2r2.:/
-<cdc>bar b<c>baa-r abaa-aa- ab<c>baa-
+/:2R2.:/
+<CDC>BAR B<C>BAA-R ABAA-AA- AB<CDEF>
+/:2R2.:/
+<CDC>BAR B<C>BAA-R ABAA-AA- AB<C>BAA-
 :/
-o5
-l4.
-defe
-l8
-dcdefe dcdec-d c&cde&eg fefede
-l2.
-c&c
-l8
-c-16c16dedcd >a16b16<cdcc-16c16c-16>a16<
-c->a-16a16<c-cd16c16c-16>a16<c->a-a<c-cc-
-dc16d16egfe dedcdc
-l2.
-c-&c-
-l16
-e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
-l8
->ab<cdcc-
-l2.
-c
-l16
-e&efedc d&dedcc- c&cdcc->a< c-&c-cc->aa-<
-l8
->a&a&a&a<c-cd&dgf&fd e&efedc dec-dcc- c>a<c-cdc
-c-&c-&c-&c-cd efgfed efedcd
-l16
-<e>e<d>d<c>c <d>d<c>c<c->c- <c>c<c->c-a>a< <c->c-a>a<a->a-<
+O5
+L4.
+DEFE
+L8
+DCDEFE DCDEC-D C&CDE&EG FEFEDE
+L2.
+C&C
+L8
+C-16C16DEDCD >A16B16<CDCC-16C16C-16>A16<
+C->A-16A16<C-CD16C16C-16>A16<C->A-A<C-CC-
+DC16D16EGFE DEDCDC
+L2.
+C-&C-
+L16
+E&EFEDC D&DEDCC- C&CDCC->A< C-&C-CC->AA-<
+L8
+>AB<CDCC-
+L2.
+C
+L16
+E&EFEDC D&DEDCC- C&CDCC->A< C-&C-CC->AA-<
+L8
+>A&A&A&A<C-CD&DGF&FD E&EFEDC DEC-DCC- C>A<C-CDC
+C-&C-&C-&C-CD EFGFED EFEDCD
+L16
+<E>E<D>D<C>C <D>D<C>C<C->C- <C>C<C->C-A>A< <C->C-A>A<A->A-<
 :/
 
 #WAV10 0,1112 2233 3445 5779 9ABC DEFC 8655 4421

@@ -1,90 +1,90 @@
-#TITLE Dive to the Cyber Wave NES
+#TITLE DIVE TO THE CYBER WAVE NES
 
-$loop = 4;
+$LOOP = 4;
 
-t180
-r1
-@5@w2
-o3
-l8
+T180
+R1
+@5@W2
+O3
+L8
 /:2
-/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+/:3E/R:/GB/:4<C>/R:/BA/:3G/R:/AB/:4A/R:/GG-
 :/
-/:$loop
+/:$LOOP
 /:8
-/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+/:3E/R:/GB/:4<C>/R:/BA/:3G/R:/AB/:4A/R:/GG-
 :/
 :/
 ;
-r1
-@5@w2
-o5
-l8
+R1
+@5@W2
+O5
+L8
 /:2
-/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+/:3E/R:/GB/:4<C>/R:/BA/:3G/R:/AB/:4A/R:/GG-
 :/
-/:$loop
+/:$LOOP
 /:2
-/:3e/r:/g-g/:4a/r:/gg-
-/:3e/r:/gg-e
-re-eg-grar
-/:3b/r:/ab/:4<c>/r:/<dc>
-/:2br://:2ba:/
-/:2rg:/agg-r
+/:3E/R:/G-G/:4A/R:/GG-
+/:3E/R:/GG-E
+RE-EG-GRAR
+/:3B/R:/AB/:4<C>/R:/<DC>
+/:2BR://:2BA:/
+/:2RG:/AGG-R
 :/
 /:4
-/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+/:3E/R:/GB/:4<C>/R:/BA/:3G/R:/AB/:4A/R:/GG-
 :/
 :/
 ;
-r1
+R1
 @6@E1,0,0,128,0
-o7
-l8
+O7
+L8
 /:2
-/:3e/r:/gb/:4<c>/r:/ba/:3g/r:/ab/:4a/r:/gg-
+/:3E/R:/GB/:4<C>/R:/BA/:3G/R:/AB/:4A/R:/GG-
 :/
-/:$loop
+/:$LOOP
 /:4
-errerrrr
-erreragg-
-errerrrr
-erg-rgrar
+ERRERRRR
+ERRERAGG-
+ERRERRRR
+ERG-RGRAR
 
-grrgrrrr
-grrgr<c>ba
-grrgrrrr
-grarbr<c>r
+GRRGRRRR
+GRRGR<C>BA
+GRRGRRRR
+GRARBR<C>R
 :/
 :/
 ;
 @7
-o0
-l32
-/:/:ar://:cr:/:/
-/:8ar:/
+O0
+L32
+/:/:AR://:CR:/:/
+/:8AR:/
 /:4
-dr rr cr rr
-a16rr cr rr
-dr rr dr rr
-a16rr cr rr
-dr rr cr rr
-a16rr dr rr /
-cr rr dr rr
-a16rr cr rr
+DR RR CR RR
+A16RR CR RR
+DR RR DR RR
+A16RR CR RR
+DR RR CR RR
+A16RR DR RR /
+CR RR DR RR
+A16RR CR RR
 :/
-/:8ar:/
-/:$loop
+/:8AR:/
+/:$LOOP
 /:16
-dr rr cr rr
-a16rr cr rr
-dr rr dr rr
-a16rr cr rr /
-dr rr cr rr
-a16rr dr rr
-cr rr dr rr
-a16rr cr rr
+DR RR CR RR
+A16RR CR RR
+DR RR DR RR
+A16RR CR RR /
+DR RR CR RR
+A16RR DR RR
+CR RR DR RR
+A16RR CR RR
 :/
-/:/:ar://:cr:/:/
-/:8ar:/
+/:/:AR://:CR:/:/
+/:8AR:/
 :/

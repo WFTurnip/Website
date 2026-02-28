@@ -1,135 +1,135 @@
-#TITLE Requiem for the Innocents GB
+#TITLE REQUIEM FOR THE INNOCENTS GB
 
-$loop = 1;
+$LOOP = 1;
 
-t170
+T170
 
-r1
-@5@w2
-o5
-l8
+R1
+@5@W2
+O5
+L8
 /:2
-afdfar<c>b-rarg&g2
-gecegrb-argrf&f2
-fd>b-<dfragrfre&e4 d-d
-e1 grfrerd-r
+AFDFAR<C>B-RARG&G2
+GECEGRB-ARGRF&F2
+FD>B-<DFRAGRFRE&E4 D-D
+E1 GRFRERD-R
 :/
-/:$loop
-@w1
-o5
-l8
+/:$LOOP
+@W1
+O5
+L8
 /:
-d4.f4.e16r16f16r16
-grfrerfr
-e4.d8&d2&d4r4d4e4
-f4.a4.ga b-4<c>b-4a4g4agferfer defgfed
-e4.f8&f2
-r4a4g4ab-<c4>b-a4g4a&a2r4f4 g4.e8&e2
-r2f4g4 f4e8d8&d2
-r4d-4d4e4
+D4.F4.E16R16F16R16
+GRFRERFR
+E4.D8&D2&D4R4D4E4
+F4.A4.GA B-4<C>B-4A4G4AGFERFER DEFGFED
+E4.F8&F2
+R4A4G4AB-<C4>B-A4G4A&A2R4F4 G4.E8&E2
+R2F4G4 F4E8D8&D2
+R4D-4D4E4
 :/
-o4
-@w2
-d4.e8&e2f4.g4fed d-4.a8&a2&a1
-g4.a4.b-4<c4>b-4a4g4a1
-/:2g8r8://:2f8r8:/
-e4.f8&f2 e4.f4gfe d4.e8&e2&e4 d-4d4e4
-g4.f16r16f2 e4.f16r16f4a4 g1
-f4e4d4d-4
-o5
-l8
-@w2
+O4
+@W2
+D4.E8&E2F4.G4FED D-4.A8&A2&A1
+G4.A4.B-4<C4>B-4A4G4A1
+/:2G8R8://:2F8R8:/
+E4.F8&F2 E4.F4GFE D4.E8&E2&E4 D-4D4E4
+G4.F16R16F2 E4.F16R16F4A4 G1
+F4E4D4D-4
+O5
+L8
+@W2
 /:2
-afdfar<c>b-rarg&g2
-gecegrb-argrf&f2
-fd>b-<dfragrfre&e4 d-d
-e1 grfrerd-r
+AFDFAR<C>B-RARG&G2
+GECEGRB-ARGRF&F2
+FD>B-<DFRAGRFRE&E4 D-D
+E1 GRFRERD-R
 :/
 :/
 ;
-r1
-@5@w2
-o4
-l8
+R1
+@5@W2
+O4
+L8
 /:2
-afdfar<c>b-rarg&g2
-gecegrb-argrf&f2
-fd>b-<dfragrfre&e4 d-d
-e1 grfrerd-r
+AFDFAR<C>B-RARG&G2
+GECEGRB-ARGRF&F2
+FD>B-<DFRAGRFRE&E4 D-D
+E1 GRFRERD-R
 :/
-/:$loop
-o4
+/:$LOOP
+O4
 /:4
-afdfar<c>b-rarg&g2
-gecegrb-argrf&f2
-fd>b-<dfragrfre&e4 d-d
-e1 grfrerd-r
+AFDFAR<C>B-RARG&G2
+GECEGRB-ARGRF&F2
+FD>B-<DFRAGRFRE&E4 D-D
+E1 GRFRERD-R
 :/
-o3
-d4.e8&e2f4.g4fed d-4.a8&a2&a1
-g4.a4.b-4<c4>b-4a4g4a1
-/:2g8r8://:2f8r8:/
-e4.f8&f2 e4.f4gfe d4.e8&e2&e4 d-4d4e4
-g4.f16r16f2 e4.f16r16f4a4 g1
-f4e4d4d-4
-o4
+O3
+D4.E8&E2F4.G4FED D-4.A8&A2&A1
+G4.A4.B-4<C4>B-4A4G4A1
+/:2G8R8://:2F8R8:/
+E4.F8&F2 E4.F4GFE D4.E8&E2&E4 D-4D4E4
+G4.F16R16F2 E4.F16R16F4A4 G1
+F4E4D4D-4
+O4
 /:2
-afdfar<c>b-rarg&g2
-gecegrb-argrf&f2
-fd>b-<dfragrfre&e4 d-d
-e1 grfrerd-r
+AFDFAR<C>B-RARG&G2
+GECEGRB-ARGRF&F2
+FD>B-<DFRAGRFRE&E4 D-D
+E1 GRFRERD-R
 :/
 :/
 ;
-r1
+R1
 @10-0
 @E1,0,0,128,0
-o3
-d1&d2./:2d16r16:/
-c1&c2./:2c16r16:/
->b-1&b-2./:2b-16r16:/<
->a2./:2a16r16:/<
-l8
->b-rbr<crd-r
+O3
+D1&D2./:2D16R16:/
+C1&C2./:2C16R16:/
+>B-1&B-2./:2B-16R16:/<
+>A2./:2A16R16:/<
+L8
+>B-RBR<CRD-R
 
-l16
-/:4d&d/:2dr:/://:2d&ddr:/
-/:4c&c/:2cr:/://:2c&ccr:/
->/:4b-&b-/:2b-r:/://:2b-&b-b-r:/<
->/:4a&a/:2ar:/:/<>b-&b-b-r<c&ccr
-/:$loop
-l16
+L16
+/:4D&D/:2DR:/://:2D&DDR:/
+/:4C&C/:2CR:/://:2C&CCR:/
+>/:4B-&B-/:2B-R:/://:2B-&B-B-R:/<
+>/:4A&A/:2AR:/:/<>B-&B-B-R<C&CCR
+/:$LOOP
+L16
 /:4
-/:4d&d/:2dr:/://:2d&ddr:/
-/:4c&c/:2cr:/://:2c&ccr:/
->/:4b-&b-/:2b-r:/://:2b-&b-b-r:/<
->/:4a&a/:2ar:/:/<>b-&b-b-r<c&ccr
+/:4D&D/:2DR:/://:2D&DDR:/
+/:4C&C/:2CR:/://:2C&CCR:/
+>/:4B-&B-/:2B-R:/://:2B-&B-B-R:/<
+>/:4A&A/:2AR:/:/<>B-&B-B-R<C&CCR
 :/
-l8
+L8
 /:2
-/:8dr:/
-/:8cr:/
->/:8b-r:/<
->/:6ar:/b-r<cr
+/:8DR:/
+/:8CR:/
+>/:8B-R:/<
+>/:6AR:/B-R<CR
 :/
-l16
+L16
 /:2
-/:4d&d/:2dr:/://:2d&ddr:/
-/:4c&c/:2cr:/://:2c&ccr:/
->/:4b-&b-/:2b-r:/://:2b-&b-b-r:/<
->/:4a&a/:2ar:/:/<>b-&b-b-r<c&ccr
+/:4D&D/:2DR:/://:2D&DDR:/
+/:4C&C/:2CR:/://:2C&CCR:/
+>/:4B-&B-/:2B-R:/://:2B-&B-B-R:/<
+>/:4A&A/:2AR:/:/<>B-&B-B-R<C&CCR
 :/
 :/
 #WAV10 0,9AEEFFFFFEE994457ACFFEEC94110045
 ;
 @11
-o0
-l32
+O0
+L32
 /:/:AR://:CR:/://:8AR:/
 /:7D&D RR/:7CR RR:/:/
 /:/:AR://:CR:/://:8AR:/
 /:15DR RR CR RR A&A RR CR RR://:8AR:/
-/:$loop
+/:$LOOP
 /:63DR RR CR RR A&A RR CR RR://:2A&A/:3RR:/:/
 /:16C&C RR /:3CR RR:/:/
 /:15D&D RR /:3CR RR:/://:8AR:/

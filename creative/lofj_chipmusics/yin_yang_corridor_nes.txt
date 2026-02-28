@@ -1,76 +1,76 @@
 #TITLE YIN YANG CORRIDOR NES
 
-$loop = 1;
-t080
+$LOOP = 1;
+T080
 
-@5@w6
-o3
-/:$loop
-/:2a1g1a1<c2>g2:/
-@w1
-l16
+@5@W6
+O3
+/:$LOOP
+/:2A1G1A1<C2>G2:/
+@W1
+L16
 /:8
-/:ara<cdrer>:/
-/:<crcdergr>:/
+/:ARA<CDRER>:/
+/:<CRCDERGR>:/
 :/
 :/
 ;
-@5@w2
-/:$loop
-@w2
-o3
-/:2<e1d1e1g2d2>:/
-@w1
-o4
+@5@W2
+/:$LOOP
+@W2
+O3
+/:2<E1D1E1G2D2>:/
+@W1
+O4
 /:
-a2.<c8d8e2d4g4e4.d16e16d8c8>a8g8a2 <e16d16c16>a16 <d16c16>a16g16
+A2.<C8D8E2D4G4E4.D16E16D8C8>A8G8A2 <E16D16C16>A16 <D16C16>A16G16
 :/
-</:3g16:/r16 /:2e16r16:/ /:2d16r16:/ c4 d16e16d16c16>a16r16g16r16 a4
+</:3G16:/R16 /:2E16R16:/ /:2D16R16:/ C4 D16E16D16C16>A16R16G16R16 A4
 
-<c16r16d16r16 e4 d16 r16 e16 r16 g4 a16 r16 g16 r16 e1>
+<C16R16D16R16 E4 D16 R16 E16 R16 G4 A16 R16 G16 R16 E1>
 
-<d8r16e16d16r16e16r16d16r16c16r16>a4 <c16d16c16>a16 /:2g16r16:/
+<D8R16E16D16R16E16R16D16R16C16R16>A4 <C16D16C16>A16 /:2G16R16:/
 
-a4 <c16r16d16r16 e4 d16r16 c16r16 d4 c16>r16 g16 r16 a1 
+A4 <C16R16D16R16 E4 D16R16 C16R16 D4 C16>R16 G16 R16 A1 
 :/
 ;
-@6@e0,0,256,0
-/:$loop
-o5
-l64
+@6@E0,0,256,0
+/:$LOOP
+O5
+L64
 /:
-/:4arrr<errr><arrr<errr>>:/
-/:4grrr<drrr><grrr<drrr>>:/
-/:4arrr<errr><arrr<errr>>:/
-/:2<crrrgrrr<crrrgrrr>>:/
-/:2grrr<drrr><grrr<drrr>>:/
+/:4ARRR<ERRR><ARRR<ERRR>>:/
+/:4GRRR<DRRR><GRRR<DRRR>>:/
+/:4ARRR<ERRR><ARRR<ERRR>>:/
+/:2<CRRRGRRR<CRRRGRRR>>:/
+/:2GRRR<DRRR><GRRR<DRRR>>:/
 :/
-o6
-/:4a1g1a1<c2>g2:/
+O6
+/:4A1G1A1<C2>G2:/
 :/
 ;
 @7
-l32
-o0
-/:$loop
+L32
+O0
+/:$LOOP
 /:3
-   dr rr cr cr
-/:3cr rr cr cr:/
+   DR RR CR CR
+/:3CR RR CR CR:/
 :/
 /:2
-   dr rr cr cr
-   cr rr cr cr
+   DR RR CR CR
+   CR RR CR CR
 :/
 
 /:3
-   dr rr cr cr
-/:3cr rr cr cr:/
+   DR RR CR CR
+/:3CR RR CR CR:/
 :/
 /:2
-   dr rr cr cr
-   /cr rr cr cr
+   DR RR CR CR
+   /CR RR CR CR
 :/
-/:4cr:/
+/:4CR:/
 
-/:64 d-r cr e-r cr:/
+/:64 D-R CR E-R CR:/
 :/

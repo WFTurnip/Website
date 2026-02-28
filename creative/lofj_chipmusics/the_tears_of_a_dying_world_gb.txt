@@ -1,84 +1,84 @@
-#TITLE The Tears of a Dying World GB
+#TITLE THE TEARS OF A DYING WORLD GB
 
-$loop = 1;
+$LOOP = 1;
 
-t110
+T110
 
-@5@w6
-o3
-l8
-/:4r1:/
+@5@W6
+O3
+L8
+/:4R1:/
 /:2
-e.b16&b2.&b1
-d.a16&a2.&a1
-c.g16&g2.&g1
-c-.g-16&g-2.&g-2
-cgda
+E.B16&B2.&B1
+D.A16&A2.&A1
+C.G16&G2.&G1
+C-.G-16&G-2.&G-2
+CGDA
 :/
-/:$loop
+/:$LOOP
 /:4
-/:8eb:/
-/:8da:/
-/:8cg:/
-/:6c-g-:/cgda
+/:8EB:/
+/:8DA:/
+/:8CG:/
+/:6C-G-:/CGDA
 :/
 :/
 ;
-@5@w2
-o4
-l8
-/:10/:3e.g-.g:/agg-e:/
-/:$loop
-/:8/:3e.g-.g:/agg-e:/
+@5@W2
+O4
+L8
+/:10/:3E.G-.G:/AGG-E:/
+/:$LOOP
+/:8/:3E.G-.G:/AGG-E:/
 /:2
-/:3egb<e>:/<ge>bg
-/:3dg-a<d>:/<g-d>ag-
-/:3ceg<c>:/<ec>ge
-/:2c-e-g-<c->:/
-ceg<c>
-dg-a<d>
+/:3EGB<E>:/<GE>BG
+/:3DG-A<D>:/<G-D>AG-
+/:3CEG<C>:/<EC>GE
+/:2C-E-G-<C->:/
+CEG<C>
+DG-A<D>
 :/
 :/
 ;
 @10-0
 @E1,0,0,128,0
-o6
-l4
-/:12r1:/
-g2&g8e8g-8g8a2g4g-4e4.g-16g16g-1&g-8g8a8b8
-<c2.d8c8>b4a4b4g8a8b2&b8g-8a8g8g-2e4e-4
-/:$loop
-e1b2
-l8
-<c>bag
-a2.&a8b16a16
-l2
-gg-
-l8
-e.e-.eg-.e.g-g.g-.ga.g.a b2.<c>ba.g.ag-.a.g
-g-4.ee4eg-g.g-.ga4gg- g4.g-16e16g-1 a4g4g-4.
-ee2e-2g-4e4 e-4.e8g-4.g8a2g4g-4
-l4
-e2.b
-l8
-a.b.<cdc>ba b2.a8g8 g-.g.agg-ee-
-e.g-.gg-.g.a g.a.b<c>bab <c4.d16c16>b2a4.b16<c16>bagg-
-l2
-ge
-l8
-g.g-.gagg-g
-l1
-a
-l4
-<dc>ba
-l2
-gg-
-l4
-ee-eg
-l1
-g-
-l4
-agg-e-
+O6
+L4
+/:12R1:/
+G2&G8E8G-8G8A2G4G-4E4.G-16G16G-1&G-8G8A8B8
+<C2.D8C8>B4A4B4G8A8B2&B8G-8A8G8G-2E4E-4
+/:$LOOP
+E1B2
+L8
+<C>BAG
+A2.&A8B16A16
+L2
+GG-
+L8
+E.E-.EG-.E.G-G.G-.GA.G.A B2.<C>BA.G.AG-.A.G
+G-4.EE4EG-G.G-.GA4GG- G4.G-16E16G-1 A4G4G-4.
+EE2E-2G-4E4 E-4.E8G-4.G8A2G4G-4
+L4
+E2.B
+L8
+A.B.<CDC>BA B2.A8G8 G-.G.AGG-EE-
+E.G-.GG-.G.A G.A.B<C>BAB <C4.D16C16>B2A4.B16<C16>BAGG-
+L2
+GE
+L8
+G.G-.GAGG-G
+L1
+A
+L4
+<DC>BA
+L2
+GG-
+L4
+EE-EG
+L1
+G-
+L4
+AGG-E-
 :/
 ;
 #WAV10 0,FEC9 6310 0012 4556 6665 4456 8BDE FFFF
