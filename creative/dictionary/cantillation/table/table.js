@@ -1,10 +1,3 @@
-const diacriticsArray = ["\u{0301}", "\u{0317}", "\u{0300}", "\u{0316}", "\u{0302}", "\u{032d}", "\u{030c}", "\u{032c}", "\u{0304}", "\u{0331}", "\u{0308}", "\u{0324}", "\u{0307}", "\u{0323}"];
-const diacriticsConceptArray = ["高揚", "低揚", "高抑", "低抑", "高昇", "低昇", "高平", "低平", "高降", "低降", "高分", "低分", "高終", "低終"];
-const diacriticsPronunciationArray = ["\u{02e6}\u{02e5}", "\u{02e9}\u{02e8}", "\u{02e5}\u{02e6}", "\u{02e8}\u{02e9}", "\u{02e6}\u{02e5}\u{02e6}", "\u{02e9}\u{02e8}\u{02e9}", "\u{02e5}\u{02e6}\u{02e5}", "\u{02e8}\u{02e9}\u{02e8}", "\u{02e5}", "\u{02e9}", "\u{02e5}", "\u{02e9}", "\u{a708}", "\u{a70c}"];
-
-const vowelsArray = ["a", "e", "i", "o", "u", "w"];
-const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
-
 function generateCantillationMarksTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -62,8 +55,6 @@ function generateCantillationMarksTable() {
     });
 }
 
-window.onload = function () {
+window.addEventListener("load", function () {
     generateCantillationMarksTable()
-}
-
-
+});

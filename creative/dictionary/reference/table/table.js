@@ -1,33 +1,3 @@
-const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
-const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-
-const consonantsPronunciationHorizontalArray = ["喉", "舌先", "唇"];
-const consonantsPronunciationVerticalArray = ["上", "中", "下"];
-const consonantsPronunciationHorizontalClassArray = ["弱", "強"];
-
-const vowelsArray = ["a", "e", "i", "o", "u", "w"];
-const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
-const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
-const vowelsPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
-
-const vowelsPronunciationHorizontalArray = ["広", "中", "狭"];
-const vowelsPronunciationVerticalArray = ["非", ""];
-const vowelsPartOfSpeechTypesHorizontalArray = ["限定", "動作", "状態"];
-const vowelsPartOfSpeechTypesVerticalArray = ["核", "補助"];
-
-const upperTangueConsonantsArray = ["k", "g", "t", "d", "s", "z"];
-const middleTangueConsonantsArray = ["q", "c", "r", "l", "p", "b"];
-const lowerTangueConsonantsArray = ["h", "x", "f", "v", "m", "n"];
-
-const upperTangueConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神"];
-const middleTangueConceptArray = ["空白", "物質", "過去", "未来", "鎮静", "高揚"];
-const lowerTangueConceptArray = ["受動", "能動", "創造", "破壊", "流動", "固定"];
-
-// function generateConsonantModelTable(captionName) { }
-// function generateVowelModelTable(captionName) { }
-// function generateConjunctModelTable(captionName) { switch (captionName) { case "附詞活用表": break; case "動詞活用表": break; case "容詞活用表": break; case "助詞活用表": break; case "副詞活用表": break; case "名詞活用表": break; } }
-
 function generateConsonantPronunciationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -228,7 +198,7 @@ function generatePrefixConsonantTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".prefix-consonants-table").forEach(function (element) {
+    document.querySelectorAll(".prefix-consonant-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
@@ -282,7 +252,7 @@ function generateSuffixConsonantTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".suffix-consonants-table").forEach(function (element) {
+    document.querySelectorAll(".suffix-consonant-table").forEach(function (element) {
         element.appendChild(table.cloneNode(true));
     });
 }
@@ -891,7 +861,7 @@ function generateNounConjugationTable() {
     });
 }
 
-window.onload = function () {
+window.addEventListener("load", function () {
     generateConsonantPronunciationTable();
     generateVowelPronunciationTable();
     generateConsonantConceptTable();
@@ -909,4 +879,4 @@ window.onload = function () {
     generateParticleConjugationTable();
     generateAdverbConjugationTable();
     generateNounConjugationTable();
-}
+});
