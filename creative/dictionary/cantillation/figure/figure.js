@@ -33,3 +33,8 @@ function generateCantillationMarksFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
+
+
+window.addEventListener("load", function () {
+    generateCantillationMarksFigure();
+});

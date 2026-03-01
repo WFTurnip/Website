@@ -56,5 +56,5 @@ function generateCantillationMarksTable() {
 }
 
 window.addEventListener("load", function () {
-    generateCantillationMarksTable()
+    generateCantillationMarksTable();
 });
