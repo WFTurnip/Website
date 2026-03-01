@@ -9,8 +9,10 @@
     <link rel="stylesheet" href="../style/reference.css">
     <link rel="stylesheet" href="../style/fonts.css">
     <link rel="stylesheet" href="../style/table.css">
+    <link rel="stylesheet" href="../style/figure.css">
     <link rel="icon" href="../favicon/reference.svg">
     <script src="table/table.js"></script>
+    <script src="figure/figure.js"></script>
 </head>
 
 <body>
@@ -67,12 +69,7 @@
                         <h5 id="subsubsection2.1.1.2">子音発音図</h5>
                     </dt>
                     <dd>
-                        <article>
-                            <figure>
-                                <object data="figure/consonant_pronunciation_figure.svg" type="image/svg+xml"></object>
-                                <figcaption>子音発音図</figcaption>
-                            </figure>
-                        </article>
+                        <article class="consonant-pronunciation-figure"></article>
                     </dd>
                 </dl>
                 <h4 id="subsection2.1.2">子音発音解説</h4>
@@ -129,7 +126,7 @@
                         <h5 id="subsubsection2.2.1.2">母音発音図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="vowel-pronunciation-figure">
                             <figure>
                                 <object data="figure/vowel_pronunciation_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>母音発音図</figcaption>
@@ -287,15 +284,11 @@
                     <dt><span class="xesada">?</span></dt>
                     <dd>疑問符</dd>
                     <dt>
-                        <figure>
-                            <object data="figure/ltr_figure.svg" type="image/svg+xml"></object>
-                        </figure>
+                        <figure class="ltr-figure"></figure>
                     </dt>
                     <dd>右方符</dd>
                     <dt>
-                        <figure>
-                            <object data="figure/rtl_figure.svg" type="image/svg+xml"></object>
-                        </figure>
+                        <figure class="rtl-figure"></figure>
                     </dt>
                     <dd>左方符</dd>
                 </dl>
@@ -325,12 +318,7 @@
                         <h5 id="subsubsection4.2.1.2">子音概念図</h5>
                     </dt>
                     <dd>
-                        <article>
-                            <figure>
-                                <object data="figure/consonant_concept_figure.svg" type="image/svg+xml"></object>
-                                <figcaption>子音概念図</figcaption>
-                            </figure>
-                        </article>
+                        <article class="consonant-concept-figure"></article>
                     </dd>
                 </dl>
                 <h4 id="subsection4.2.2">子音概念解説</h4>
@@ -392,7 +380,7 @@
                         <h5 id="subsubsection4.5.1.2">接頭辞図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="prefix-consonants-figure">
                             <figure>
                                 <object data="figure/prefix_consonants_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>接頭辞図</figcaption>
@@ -454,7 +442,7 @@
                         <h5 id="subsubsection4.6.1.2">接尾辞図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="suffix-consonants-figure">
                             <figure>
                                 <object data="figure/suffix_consonants_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>接尾辞図</figcaption>
@@ -525,7 +513,7 @@
                         <h5 id="subsubsection5.1.1.2">前置格図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="first-case-figure">
                             <figure>
                                 <object data="figure/first_case_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>前置格図</figcaption>
@@ -563,7 +551,7 @@
                         <h5 id="subsubsection5.2.1.2">後置格図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="second-case-figure">
                             <figure>
                                 <object data="figure/second_case_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>後置格図</figcaption>
@@ -601,7 +589,7 @@
                         <h5 id="subsubsection5.3.1.2">複合格図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="conjunct-case-figure">
                             <figure>
                                 <object data="figure/conjunct_case_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>複合格図</figcaption>
@@ -729,7 +717,7 @@
                         <h5 id="subsubsection5.4.1.2">接頭辞格図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="prefix-case-figure">
                             <figure>
                                 <object data="figure/prefix_case_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>接頭辞格図</figcaption>
@@ -767,7 +755,7 @@
                         <h5 id="subsubsection5.5.1.2">接尾辞格図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="suffix-case-figure">
                             <figure>
                                 <object data="figure/suffix_case_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>接尾辞格図</figcaption>
@@ -805,7 +793,7 @@
                         <h5 id="subsubsection5.6.1.2">品詞図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="part-of-speech-figure">
                             <figure>
                                 <object data="figure/part_of_speech_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>品詞図</figcaption>
@@ -939,7 +927,7 @@
                         <h5 id="subsubsection10.1.1.2">附詞活用図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="article-conjugation-figure">
                             <figure>
                                 <object data="figure/article_conjugation_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>附詞活用図</figcaption>
@@ -999,7 +987,7 @@
                         <h5 id="subsubsection10.2.1.2">動詞活用図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="verb-conjugation-figure">
                             <figure>
                                 <object data="figure/verb_conjugation_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>動詞活用図</figcaption>
@@ -1059,7 +1047,7 @@
                         <h5 id="subsubsection10.3.1.2">容詞活用図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="adjective-conjugation-figure">
                             <figure>
                                 <object data="figure/adjective_conjugation_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>容詞活用図</figcaption>
@@ -1119,7 +1107,7 @@
                         <h5 id="subsubsection10.4.1.2">助詞活用図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="particle-conjugation-figure">
                             <figure>
                                 <object data="figure/particle_conjugation_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>助詞活用図</figcaption>
@@ -1179,7 +1167,7 @@
                         <h5 id="subsubsection10.5.1.2">副詞活用図</h5>
                     </dt>
                     <dd>
-                        <article>
+                        <article class="adverb-conjugation-figure">
                             <figure>
                                 <object data="figure/adverb_conjugation_figure.svg" type="image/svg+xml"></object>
                                 <figcaption>副詞活用図</figcaption>
@@ -1239,12 +1227,7 @@
                         <h5 id="subsubsection10.6.1.2">名詞活用図</h5>
                     </dt>
                     <dd>
-                        <article>
-                            <figure>
-                                <object data="figure/noun_conjugation_figure.svg" type="image/svg+xml"></object>
-                                <figcaption>名詞活用図</figcaption>
-                            </figure>
-                        </article>
+                        <article class="noun-conjugation-figure"></article>
                     </dd>
                 </dl>
                 <h4 id="subsubsection10.6.2">名詞活用解説</h4>
