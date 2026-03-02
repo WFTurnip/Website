@@ -5,7 +5,7 @@ npm install json-beautify
 echo "ビルド用パッケージのアップデート終了"
 
 echo "どのフォルダ内部を作りますか？"
-echo "html / json / favicon / figure / all"
+echo "html / json / favicon / all"
 
 read -p ">>> " option
 
@@ -19,14 +19,10 @@ case "$option" in
     favicon)
         node generate_favicon.js
         ;;
-    figure)
-        node generate_figure.js
-        ;;
     all)
         node generate_html.js
         node generate_json.js
         node generate_favicon.js
-        node generate_figure.js
         ;;
     *)
         echo "無効な出力方式です。終了します。"

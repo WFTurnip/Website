@@ -83,7 +83,6 @@ function generateVowelPronunciationFigure() {
 }
 
 function generateLtrFigure() {
-    const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
     let svg = document.createElementNS(svgNameSpace, "svg");
     svg.setAttribute("width", 16);
@@ -92,14 +91,12 @@ function generateLtrFigure() {
     let coodinate = "8,0 0,8 8,16 16,8 8,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
-    figure.appendChild(svg);
     document.querySelectorAll(".ltr-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
+        element.appendChild(svg.cloneNode(true));
     });
 }
 
 function generateRtlFigure() {
-    const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
     let svg = document.createElementNS(svgNameSpace, "svg");
     svg.setAttribute("width", 16);
@@ -108,9 +105,8 @@ function generateRtlFigure() {
     let coodinate = "8,0 8,8 0,8 8,16 16,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
-    figure.appendChild(svg);
     document.querySelectorAll(".rtl-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
+        element.appendChild(svg.cloneNode(true));
     });
 }
 
