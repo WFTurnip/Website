@@ -59,7 +59,6 @@ figure object {
     height: auto;
 }
 
-nav,
 ul {
     list-style: none;
     display: flex;
