@@ -675,7 +675,7 @@ function generateNounConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "名詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll("noun-conjugation-figure").forEach(function (element) {
+    document.querySelectorAll(".noun-conjugation-figure").forEach(function (element) {
         element.appendChild(figure.cloneNode(true));
     });
 }
