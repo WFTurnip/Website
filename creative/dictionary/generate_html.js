@@ -25,7 +25,7 @@ async function generateIndex() {
     metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
     head.appendChild(metaViewport);
     let title = document.createElement("title");
-    title.textContent = "子音一覧";
+    title.textContent = "子音総一覧";
     head.appendChild(title);
     let link1 = document.createElement("link");
     link1.rel = "stylesheet";
@@ -53,7 +53,7 @@ async function generateIndex() {
     headerLi1.appendChild(headerA1);
     headerUl.appendChild(headerLi1);
     let headerLi2 = document.createElement("li");
-    headerLi2.textContent = "子音一覧";
+    headerLi2.textContent = "子音総一覧";
     headerUl.appendChild(headerLi2);
     header.appendChild(headerUl);
     body.appendChild(header);
@@ -69,7 +69,7 @@ async function generateIndex() {
     article.appendChild(figure);
     body.appendChild(article);
     let h1 = document.createElement("h1");
-    h1.textContent = "子音一覧";
+    h1.textContent = "子音総一覧";
     body.appendChild(h1);
     let main = document.createElement("main");
     let dl = document.createElement("dl");
@@ -100,7 +100,7 @@ async function generateIndex() {
     footerLi1.appendChild(footerA1);
     footerUl.append(footerLi1);
     let footerLi2 = document.createElement("li");
-    footerLi2.textContent = "子音一覧";
+    footerLi2.textContent = "子音総一覧";
     footerUl.appendChild(footerLi2);
     footerNav.appendChild(footerUl);
     footer.appendChild(footerNav);
@@ -127,7 +127,7 @@ async function generateConsonant(i) {
     metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
     head.appendChild(metaViewport);
     let title = document.createElement("title");
-    title.textContent = "頭文字" + consonantsArray[i].toUpperCase();
+    title.textContent = consonantsArray[i].toUpperCase() + "を頭字とする語根の一覧";
     head.appendChild(title);
     let link1 = document.createElement("link");
     link1.rel = "stylesheet";
@@ -157,14 +157,14 @@ async function generateConsonant(i) {
     let headerLi2 = document.createElement("li");
     let headerA2 = document.createElement("a");
     headerA2.href = "index.html";
-    headerA2.textContent = "子音一覧";
+    headerA2.textContent = "子音総一覧";
     headerLi2.appendChild(headerA2);
     headerUl.appendChild(headerLi2);
     let headerLi3 = document.createElement("li");
     let headerSpan = document.createElement("span");
     headerSpan.classList.add("xesada");
     headerSpan.textContent = consonantsArray[i];
-    headerLi3.append("子音", headerSpan, "の見出し");
+    headerLi3.append(headerSpan, "を頭字とする語根の一覧");
     headerUl.appendChild(headerLi3);
     header.appendChild(headerUl);
     body.appendChild(header);
@@ -183,7 +183,7 @@ async function generateConsonant(i) {
     let h1Span = document.createElement("span");
     h1Span.classList.add("xesada");
     h1Span.textContent = consonantsArray[i];
-    h1.append("子音", h1Span, "の見出し");
+    h1.append(h1Span, "を頭字とする語根の一覧");
     body.appendChild(h1);
     let main = document.createElement("main");
     let p = document.createElement("p");
@@ -223,14 +223,14 @@ async function generateConsonant(i) {
     let footerLi2 = document.createElement("li");
     let footerA2 = document.createElement("a");
     footerA2.href = "index.html";
-    footerA2.textContent = "子音一覧";
+    footerA2.textContent = "子音総一覧";
     footerLi2.appendChild(footerA2);
     footerUl.appendChild(footerLi2);
     let footerLi3 = document.createElement("li");
     let footerSpan = document.createElement("span");
     footerSpan.classList.add("xesada");
     footerSpan.textContent = consonantsArray[i];
-    footerLi3.append("子音", footerSpan, "の見出し");
+    footerLi3.append(footerSpan, "を頭字とする語根の一覧");
     footerUl.appendChild(footerLi3);
     footer.appendChild(footerUl);
     body.appendChild(footer);
@@ -296,7 +296,7 @@ async function generateRoot(i, j, k) {
     let headerLi2 = document.createElement("li");
     let headerA2 = document.createElement("a");
     headerA2.href = "../index.html";
-    headerA2.textContent = "子音一覧";
+    headerA2.textContent = "子音総一覧";
     headerLi2.appendChild(headerA2);
     headerUl.appendChild(headerLi2);
     let headerLi3 = document.createElement("li");
@@ -305,14 +305,14 @@ async function generateRoot(i, j, k) {
     let headerSpan1 = document.createElement("span");
     headerSpan1.classList.add("xesada");
     headerSpan1.textContent = consonantsArray[i];
-    headerA3.append("子音", headerSpan1, "の見出し");
+    headerA3.append(headerSpan1, "を頭字とする語根の一覧");
     headerLi3.appendChild(headerA3);
     headerUl.appendChild(headerLi3);
     let headerLi4 = document.createElement("li");
     let headerSpan2 = document.createElement("span");
     headerSpan2.classList.add("xesada");
     headerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-    headerLi4.append("語根", headerSpan2);
+    headerLi4.append(headerSpan2, "を語根とする単語の一覧");
     headerUl.appendChild(headerLi4);
     header.appendChild(headerUl);
     body.appendChild(header);
@@ -334,7 +334,7 @@ async function generateRoot(i, j, k) {
         consonantsArray[i] +
         consonantsArray[j] +
         consonantsArray[k];
-    h1.append("語根", span1);
+    h1.append(span1, "を語根とする単語の一覧");
     body.appendChild(h1);
     let main = document.createElement("main");
     let p = document.createElement("p");
@@ -409,7 +409,7 @@ async function generateRoot(i, j, k) {
     let footerLi2 = document.createElement("li");
     let footerA2 = document.createElement("a");
     footerA2.href = "../index.html";
-    footerA2.textContent = "子音一覧";
+    footerA2.textContent = "子音総一覧";
     footerLi2.appendChild(footerA2);
     footerUl.appendChild(footerLi2);
     let footerLi3 = document.createElement("li");
@@ -418,14 +418,14 @@ async function generateRoot(i, j, k) {
     let footerSpan = document.createElement("span");
     footerSpan.classList.add("xesada");
     footerSpan.textContent = consonantsArray[i];
-    footerA3.append("子音", footerSpan, "の見出し");
+    footerA3.append(footerSpan, "を頭字とする語根の一覧");
     footerLi3.appendChild(footerA3);
     footerUl.appendChild(footerLi3);
     let footerLi4 = document.createElement("li");
     let footerSpan2 = document.createElement("span");
     footerSpan2.classList.add("xesada");
     footerSpan2.textContent = consonantsArray[i] + consonantsArray[j] + consonantsArray[k];
-    footerLi4.append("語根", footerSpan2);
+    footerLi4.append(footerSpan2, "を語根とする単語の一覧");
     footerUl.appendChild(footerLi4);
     footer.appendChild(footerUl);
     body.appendChild(footer);
