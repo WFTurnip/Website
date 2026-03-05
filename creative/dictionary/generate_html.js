@@ -266,7 +266,7 @@ async function generateRoot(i, j, k) {
     metaViewport.setAttribute("content", "width=device-width, initial-scale=1.0");
     head.appendChild(metaViewport);
     let title = document.createElement("title");
-    title.textContent = "語根" + consonantsArray[i].toUpperCase() + consonantsArray[j].toUpperCase() + consonantsArray[k].toUpperCase();
+    title.textContent = consonantsArray[i].toUpperCase() + consonantsArray[j].toUpperCase() + consonantsArray[k].toUpperCase() + "を語根とする単語の一覧";
     head.appendChild(title);
     let link1 = document.createElement("link");
     link1.rel = "stylesheet";
