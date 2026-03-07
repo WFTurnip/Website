@@ -2,9 +2,7 @@ const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
-
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-
 const minMaxMap = [
     [-4, -1], [-4, -1],
     [-3, 0], [-3, 0],
@@ -16,13 +14,10 @@ const minMaxMap = [
     [1, 4], [1, 4],
     [0, 3], [0, 3]
 ];
-
 const circleStyle = "@media(prefers-color-scheme: light){circle{fill:#000}}@media(prefers-color-scheme: dark){circle{fill:#c99410}}";
-
 function getMinMax(i) {
     return minMaxMap[i] || [0, 0];
 }
-
 function addCircle(svg, cx, cy, r) {
     const circle = svg.ownerDocument.createElementNS("http://www.w3.org/2000/svg", "circle");
     circle.setAttribute("cx", cx);
@@ -30,13 +25,11 @@ function addCircle(svg, cx, cy, r) {
     circle.setAttribute("r", r);
     svg.appendChild(circle);
 }
-
 function addStyle(svg, styleText) {
     const style = svg.ownerDocument.createElementNS("http://www.w3.org/2000/svg", "style");
     style.textContent = styleText;
     svg.appendChild(style);
 }
-
 async function writeSVG(filename, svg) {
     const serializer = new svg.ownerDocument.defaultView.XMLSerializer();
     const svgString = serializer.serializeToString(svg);
@@ -48,34 +41,28 @@ async function writeSVG(filename, svg) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 async function generateIndex() {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
     const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
-
     addCircle(svg, 50, 50, 25);
     for (let i = 0; i < 8; i++) {
         addCircle(svg, 50 + 37.5 * Math.cos(i * Math.PI / 4), 50 + 37.5 * Math.sin(i * Math.PI / 4), 12.5);
     }
     addStyle(svg, circleStyle);
-
     await writeSVG(path.join("favicon_index", "index.svg"), svg);
 }
-
 async function generateConsonant(i) {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
     const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
-
     if (i % 2 === 1) {
         addCircle(svg, 50, 50, 30);
     }
-
     const [min, max] = getMinMax(i);
     for (let j = min; j < max; j++) {
         const cx = 50 + 40 * Math.cos(j * Math.PI / 4);
@@ -83,27 +70,22 @@ async function generateConsonant(i) {
         addCircle(svg, cx, cy, 10);
     }
     addStyle(svg, circleStyle);
-
     await writeSVG(path.join("favicon_index", `${consonants[i]}.svg`), svg);
 }
-
 async function generateRoot(i, j, k) {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
     const svg = doc.createElementNS("http://www.w3.org/2000/svg", "svg");
     svg.setAttribute("width", 100);
     svg.setAttribute("height", 100);
-
     const positions = [
         [25, 25, i],
         [75, 25, j],
         [50, 75, k]
     ];
-
     const centerCircleRadius = 15;
     const circleOffset = 20;
     const circleRadius = 5;
-
     positions.forEach(([cx, cy, idx]) => {
         if (idx % 2 === 1) {
             addCircle(svg, cx, cy, centerCircleRadius);
@@ -115,13 +97,10 @@ async function generateRoot(i, j, k) {
             addCircle(svg, x, y, circleRadius);
         }
     });
-
     addStyle(svg, circleStyle);
-
     const filename = path.join("favicon_index", consonants[i], consonants[i] + consonants[j] + consonants[k] + ".svg");
     await writeSVG(filename, svg);
 }
-
 async function generateConsonantDirectory(i) {
     let directory = path.join("favicon_index", consonants[i]);
     try {
@@ -131,7 +110,6 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
-
 async function generate() {
     const directory = path.join("favicon_index");
     try {
@@ -152,5 +130,4 @@ async function generate() {
     }
     console.log("ディレクトリ" + directory + "の内部データを生成完了。");
 }
-
 generate();

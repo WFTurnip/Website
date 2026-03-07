@@ -2,16 +2,13 @@ const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
-
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantsPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-
 const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
-
 async function generateIndex() {
     let filename = path.join("html_index", "index.html");
     const dom = new JSDOM("<!DOCTYPE html><head></head><body></body><html lang='ja'></html>");
@@ -113,7 +110,6 @@ async function generateIndex() {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 async function generateConsonant(i) {
     let filename = path.join("html_index", consonantsArray[i] + ".html");
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
@@ -242,7 +238,6 @@ async function generateConsonant(i) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 async function generateConsonantDirectory(i) {
     let directory = path.join("html_index", consonantsArray[i]);
     try {
@@ -252,7 +247,6 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
-
 async function generateRoot(i, j, k) {
     let filename = path.join("html_index", consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html");
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
@@ -437,7 +431,6 @@ async function generateRoot(i, j, k) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 async function generate() {
     let directory = path.join("html_index");
     try {
@@ -458,5 +451,4 @@ async function generate() {
     }
     console.log("ディレクトリ" + directory + "の内部データを生成完了。");
 }
-
 generate();

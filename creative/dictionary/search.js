@@ -1,26 +1,20 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const parameters = new URLSearchParams(window.location.search);
-
     const searchWord = parameters.get("searchInput") || "";
     const searchWordLower = searchWord.toLowerCase();
-
     const consonants = parameters.get("consonants") === "ON";
     const roots = parameters.get("roots") === "ON";
     const words = parameters.get("words") === "ON";
-
     document.getElementById("searchInput").value = searchWord;
     document.getElementById("consonants").checked = consonants;
     document.getElementById("roots").checked = roots;
     document.getElementById("words").checked = words;
-
     const searchResultContainer = document.getElementById("searchResult");
     const searchOptionContainer = document.getElementById("option");
     const resultContainer = document.getElementById("result");
-
     searchResultContainer.innerHTML = "";
     searchOptionContainer.innerHTML = "";
     resultContainer.innerHTML = "";
-
     if (!searchWord) {
         const message = document.createElement("p");
         message.textContent = "検索語が入力されていませんので、検索を行いません。";
@@ -35,7 +29,6 @@ document.addEventListener("DOMContentLoaded", async () => {
         searchResult.append("の検索結果");
         searchResultContainer.appendChild(searchResult);
     }
-
     if (!consonants && !roots && !words) {
         const message = document.createElement("p");
         message.textContent = "オプションが選択されていないので、絞り込み検索を行いません。";
@@ -58,21 +51,17 @@ document.addEventListener("DOMContentLoaded", async () => {
         p.appendChild(createOptionSpan("単語検索: ", words));
         searchOptionContainer.appendChild(p);
     }
-
     const anyOptionOn = consonants || roots || words;
     resultContainer.appendChild(await consonantsSearch(searchWordLower, consonants, anyOptionOn));
     resultContainer.appendChild(await rootsSearch(searchWordLower, roots, anyOptionOn));
     resultContainer.appendChild(await wordsSearch(searchWordLower, words, anyOptionOn));
 });
-
 async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
-
     const summary = document.createElement("summary");
     summary.textContent = "見出し検索";
     details.appendChild(summary);
-
     try {
         let filename = "index";
         const data = await fetchFileForSearch(filename);
@@ -83,12 +72,10 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
             consonant.textContent = searchWordLower.charAt(0);
             consonant.classList.add("xesada");
             consonantIndex.append(consonant);
-
             const consonantConcept = document.createElement("span");
             consonantConcept.textContent = item.consonantConcept;
             consonantIndex.append(consonantConcept);
             details.appendChild(consonantIndex);
-
             const p2 = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
@@ -110,15 +97,12 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
     }
     return details;
 }
-
 async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
-
     const summary = document.createElement("summary");
     summary.textContent = "語根検索";
     details.appendChild(summary);
-
     let filename = searchWordLower.charAt(0);
     try {
         const data = await fetchFileForSearch(filename);
@@ -133,7 +117,6 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             rootConcept.textContent = item.rootConcept;
             rootIndex.appendChild(rootConcept);
             details.appendChild(rootIndex);
-
             const rootHref = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
@@ -155,47 +138,38 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
     }
     return details;
 }
-
 async function wordsSearch(searchWord, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
-
     const summary = document.createElement("summary");
     summary.textContent = "単語検索";
     details.appendChild(summary);
-
     let filename = searchWord.charAt(0) + "/" + [0, 2, 4].map(i => searchWord.charAt(i) || "").join("");
     try {
         const data = await fetchFileForSearch(filename);
         const filtered = filterData(data, searchWord, "words");
         filtered.forEach(item => {
             const wordIndex = document.createElement("p");
-
             const index = document.createElement("strong");
             index.textContent = item.word;
             index.classList.add("index", "xesada");
             wordIndex.append(index);
-
             const pronunciation = document.createElement("span");
             pronunciation.textContent = "/" + item.wordPronunciation + "/";
             pronunciation.classList.add("pronunciation");
             wordIndex.append(pronunciation);
-
             const wordCases = document.createElement("span");
             wordCases.textContent = item.wordCases;
             wordCases.classList.add("cases");
             wordIndex.append(wordCases);
-
             const wordPartOfSpeech = document.createElement("span");
             wordPartOfSpeech.textContent = item.wordPartOfSpeech;
             wordPartOfSpeech.classList.add("part-of-speech");
             wordIndex.append(wordPartOfSpeech);
             details.appendChild(wordIndex);
-
             const wordMeaning = document.createElement("p");
             wordMeaning.textContent = item.wordMeaning;
             details.appendChild(wordMeaning);
-
             const wordLink = document.createElement("p");
             const a = document.createElement("a");
             const span = document.createElement("span");
@@ -215,7 +189,6 @@ async function wordsSearch(searchWord, isOn, anyOptionOn) {
     }
     return details;
 }
-
 async function fetchFileForSearch(searchWord) {
     const filename = "json_index" + "/" + encodeURIComponent(searchWord) + ".json";
     const res = await fetch(filename);
@@ -224,7 +197,6 @@ async function fetchFileForSearch(searchWord) {
     }
     return await res.json();
 }
-
 function filterData(data, searchWord, type) {
     const wordLower = searchWord.toLowerCase();
     switch (type) {
@@ -244,11 +216,9 @@ function filterData(data, searchWord, type) {
             return [];
     }
 }
-
 const q = document.getElementById("searchInput");
 const ij = document.getElementById("inarziil-japanese");
 const ji = document.getElementById("japanese-inarziil");
-
 function update() {
     if (ij.checked) {
         q.placeholder = "Cipita Gwnosw";
@@ -260,6 +230,5 @@ function update() {
         q.classList.remove("xesada");
     }
 }
-
 ij.onchange = ji.onchange = update;
 update();

@@ -11,7 +11,6 @@ function changeWritingMode(num) {
         }
     }
 }
-
 function changeFontStyle(num1) {
     if (document.getElementById) {
         var object = document.body;

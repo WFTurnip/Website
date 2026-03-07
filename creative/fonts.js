@@ -1,7 +1,6 @@
 const text = "Ceqerwlicusw Celemeniqikw Cinarwziqilw";
 let index = 0;
 const elements = document.querySelectorAll('.typing-text');
-
 function typeEffect() {
     if (index < text.length) {
         elements.forEach(element => {
@@ -11,5 +10,4 @@ function typeEffect() {
         setTimeout(typeEffect, 50);
     }
 }
-
 typeEffect();

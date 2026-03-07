@@ -2,7 +2,6 @@ const fs = require("fs").promises;
 const path = require("path");
 const { JSDOM } = require("jsdom");
 const beautify = require("js-beautify").html;
-
 async function generate() {
     let directory = path.join("style");
     try {
@@ -12,5 +11,4 @@ async function generate() {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
-
 generate();

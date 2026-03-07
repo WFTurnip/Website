@@ -51,7 +51,6 @@ function generateConsonantPronunciationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateVowelPronunciationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -94,7 +93,6 @@ function generateVowelPronunciationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateConsonantConceptTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -148,7 +146,6 @@ function generateConsonantConceptTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generatePrefixConsonantTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -202,7 +199,6 @@ function generatePrefixConsonantTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateSuffixConsonantTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -256,7 +252,6 @@ function generateSuffixConsonantTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateFirstCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -299,7 +294,6 @@ function generateFirstCaseTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateSecondCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -342,7 +336,6 @@ function generateSecondCaseTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateConjunctCaseTable() {
     const createParagraph = (text, className) => {
         let p = document.createElement("div");
@@ -389,7 +382,6 @@ function generateConjunctCaseTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generatePrefixCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -432,7 +424,6 @@ function generatePrefixCaseTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateSuffixCaseTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -475,7 +466,6 @@ function generateSuffixCaseTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generatePartOfSpeechTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -518,7 +508,6 @@ function generatePartOfSpeechTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateArticleConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -575,7 +564,6 @@ function generateArticleConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateVerbConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -632,7 +620,6 @@ function generateVerbConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateAdjectiveConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -689,7 +676,6 @@ function generateAdjectiveConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateParticleConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -746,7 +732,6 @@ function generateParticleConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateAdverbConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -803,7 +788,6 @@ function generateAdverbConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 function generateNounConjugationTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -860,7 +844,6 @@ function generateNounConjugationTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 window.addEventListener("load", function () {
     generateConsonantPronunciationTable();
     generateVowelPronunciationTable();

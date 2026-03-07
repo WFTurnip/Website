@@ -54,7 +54,6 @@ function generateCantillationMarksTable() {
         element.appendChild(table.cloneNode(true));
     });
 }
-
 window.addEventListener("load", function () {
     generateCantillationMarksTable();
 });

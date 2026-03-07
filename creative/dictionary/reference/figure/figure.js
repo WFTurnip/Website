@@ -33,7 +33,6 @@ function generateConsonantPronunciationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateVowelPronunciationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -81,7 +80,6 @@ function generateVowelPronunciationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateLtrFigure() {
     const svgNameSpace = "http://www.w3.org/2000/svg";
     let svg = document.createElementNS(svgNameSpace, "svg");
@@ -95,7 +93,6 @@ function generateLtrFigure() {
         element.appendChild(svg.cloneNode(true));
     });
 }
-
 function generateRtlFigure() {
     const svgNameSpace = "http://www.w3.org/2000/svg";
     let svg = document.createElementNS(svgNameSpace, "svg");
@@ -109,7 +106,6 @@ function generateRtlFigure() {
         element.appendChild(svg.cloneNode(true));
     });
 }
-
 function generateConsonantConceptFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -145,7 +141,6 @@ function generateConsonantConceptFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generatePrefixConsonantFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -181,7 +176,6 @@ function generatePrefixConsonantFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateSuffixConsonantFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -217,7 +211,6 @@ function generateSuffixConsonantFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateFirstCaseFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -265,7 +258,6 @@ function generateFirstCaseFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateSecondCaseFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -313,7 +305,6 @@ function generateSecondCaseFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateConjunctCaseFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -379,7 +370,6 @@ function generateConjunctCaseFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generatePrefixCaseFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -427,7 +417,6 @@ function generatePrefixCaseFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateSuffixCaseFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -475,7 +464,6 @@ function generateSuffixCaseFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generatePartOfSpeechFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -523,7 +511,6 @@ function generatePartOfSpeechFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateArticleConjugationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -549,7 +536,6 @@ function generateArticleConjugationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateVerbConjugationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -575,7 +561,6 @@ function generateVerbConjugationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateAdjectiveConjugationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -601,7 +586,6 @@ function generateAdjectiveConjugationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateParticleConjugationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -627,7 +611,6 @@ function generateParticleConjugationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateAdverbConjugationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -653,7 +636,6 @@ function generateAdverbConjugationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 function generateNounConjugationFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -679,7 +661,6 @@ function generateNounConjugationFigure() {
         element.appendChild(figure.cloneNode(true));
     });
 }
-
 window.addEventListener("load", function () {
     generateConsonantPronunciationFigure();
     generateVowelPronunciationFigure();
