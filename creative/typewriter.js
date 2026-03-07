@@ -59,10 +59,7 @@ keyboardTable.addEventListener("click", (e) => {
     textarea.value += char ?? '';
 });
 function loadKeyboard(font) {
-    fetch("keyboards/" + font + ".xml")
-        .then(r => r.text())
-        .then(str => new DOMParser().parseFromString(str, "text/xml"))
-        .then(xml => buildKeyboardFromXML(xml));
+    fetch("keyboards/" + font + ".xml").then(r => r.text()).then(str => new DOMParser().parseFromString(str, "text/xml")).then(xml => buildKeyboardFromXML(xml));
 }
 function changeFont(number) {
     currentFont = fontClasses[number];
