@@ -342,7 +342,7 @@ async function generateRoot(i, j, k) {
     main.append(p);
     for (let l = 0; l < vowelsArray.length; l++) {
         let details = document.createElement("details");
-        details.setAttribute("open", "");
+        details.open = true;
         let summary = document.createElement("summary");
         let h2 = document.createElement("h2");
         h2.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
