@@ -87,8 +87,13 @@ function generateCantillationMarksTable() {
         diacritic.append("\u{25cc}", diacriticsArray[i]);
         diacriticCell.appendChild(diacritic);
         let diacriticConcept = document.createElement("div");
-        diacriticConcept.classList.add("concept", "pronunciation");
-        diacriticConcept.textContent = "/" + diacriticsPronunciationArray[i] + "/";
+        let markConceptSpan = document.createElement("span");
+        let markPronunciationspan = document.createElement("span");
+        markConceptSpan.classList.add("concept");
+        markPronunciationspan.classList.add("pronunciation");
+        diacriticConcept.textContent = diacriticsConceptArray[i] + "声符";
+        diacritic.appendChild(markConceptSpan);
+        diacritic.appendChild(markPronunciationspan);
         diacriticCell.appendChild(diacriticConcept);
         row.appendChild(diacriticCell);
         for (let j = 0; j < vowelsArray.length; j++) {
@@ -97,10 +102,15 @@ function generateCantillationMarksTable() {
             mark.classList.add("xesada");
             mark.textContent = "\u{25cc}" + vowelsArray[j] + diacriticsArray[i];
             cell.appendChild(mark);
-            let markPronunciation = document.createElement("div");
-            markPronunciation.classList.add("pronunciation");
-            markPronunciation.textContent = "/" + vowelsPronunciationArray[j] + diacriticsPronunciationArray[i] + "/";
-            cell.appendChild(markPronunciation);
+            let markConcept = document.createElement("div");
+            let markPronunciationspan = document.createElement("span");
+            let markConceptSpan = document.createElement("span");
+            markPronunciationspan.classList.add("pronunciation");
+            markConceptSpan.classList.add("concept");
+            markConceptSpan.textContent = diacriticsConceptArray[i] + "声符"
+            markPronunciationspan.textContent = "/" + vowelsPronunciationArray[j] + "/";
+            markConcept.append(markPronunciationspan, markConceptSpan);
+            cell.appendChild(markConcept);
             row.appendChild(cell);
         }
         tbody.appendChild(row);

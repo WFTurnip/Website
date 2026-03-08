@@ -203,7 +203,6 @@ dl {
 }
 
 @media (max-width: 48rem) {
-
     nav {
         column-count: 2;
         column-gap: none;

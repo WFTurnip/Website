@@ -179,10 +179,6 @@ hr {
     border-width: 0;
 }
 
-.glyph {
-    font-size: 6rem;
-}
-
 nav h1,
 nav h2,
 nav h3,
@@ -207,7 +203,6 @@ dl {
 }
 
 @media (max-width: 48rem) {
-
     nav {
         column-count: 2;
         column-gap: none;
