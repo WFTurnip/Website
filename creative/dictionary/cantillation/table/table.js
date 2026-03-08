@@ -1,3 +1,59 @@
+function generateCantillationPronunciationTable() {
+    let table = document.createElement("table");
+    let caption = document.createElement("caption");
+    caption.textContent = "朗唱発音表";
+    table.appendChild(caption);
+    let thead = document.createElement("thead");
+    let vowelRow = document.createElement("tr");
+    let blank = document.createElement("th");
+    blank.textContent = "";
+    vowelRow.appendChild(blank);
+    for (let i = 0; i < vowelsArray.length; i++) {
+        let th = document.createElement("th");
+        let vowel = document.createElement("div");
+        vowel.classList.add("xesada");
+        vowel.textContent = "\u{25cc}" + vowelsArray[i];
+        th.appendChild(vowel);
+        let vowelPronunciation = document.createElement("div");
+        vowelPronunciation.classList.add("pronunciation");
+        vowelPronunciation.textContent = "/" + vowelsPronunciationArray[i] + "/";
+        th.appendChild(vowelPronunciation);
+        vowelRow.appendChild(th);
+    }
+    thead.appendChild(vowelRow);
+    table.appendChild(thead);
+    let tbody = document.createElement("tbody");
+    for (let i = 0; i < diacriticsArray.length; i++) {
+        let row = document.createElement("tr");
+        let diacriticCell = document.createElement("th");
+        let diacritic = document.createElement("div");
+        diacritic.classList.add("xesada");
+        diacritic.append("\u{25cc}", diacriticsArray[i]);
+        diacriticCell.appendChild(diacritic);
+        let diacriticConcept = document.createElement("div");
+        diacriticConcept.classList.add("concept", "pronunciation");
+        diacriticConcept.textContent = "/" + diacriticsPronunciationArray[i] + "/";
+        diacriticCell.appendChild(diacriticConcept);
+        row.appendChild(diacriticCell);
+        for (let j = 0; j < vowelsArray.length; j++) {
+            let cell = document.createElement("td");
+            let mark = document.createElement("div");
+            mark.classList.add("xesada");
+            mark.textContent = "\u{25cc}" + vowelsArray[j] + diacriticsArray[i];
+            cell.appendChild(mark);
+            let markPronunciation = document.createElement("div");
+            markPronunciation.classList.add("pronunciation");
+            markPronunciation.textContent = "/" + vowelsPronunciationArray[j] + diacriticsPronunciationArray[i] + "/";
+            cell.appendChild(markPronunciation);
+            row.appendChild(cell);
+        }
+        tbody.appendChild(row);
+    }
+    table.appendChild(tbody);
+    document.querySelectorAll(".cantillation-pronunciation-table").forEach(function (element) {
+        element.appendChild(table.cloneNode(true));
+    });
+}
 function generateCantillationMarksTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
@@ -55,5 +111,6 @@ function generateCantillationMarksTable() {
     });
 }
 window.addEventListener("load", function () {
+    generateCantillationPronunciationTable();
     generateCantillationMarksTable();
 });
