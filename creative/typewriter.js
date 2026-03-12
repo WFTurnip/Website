@@ -1,6 +1,6 @@
 const textarea = document.querySelector("textarea");
 const keyboardTable = document.getElementById("keyboard");
-let currentFont = "kodito";
+let currentFont = "piswpi";
 const fontClasses = ["piswpi", "sulive", "kodito", "lekuta", "lozegw", "silwki", "xavani", "xesada", "xidili", "makina", "polwgo", "zosokw"];
 let shiftActive = false;
 function buildKeyboardFromXML(xml) {

@@ -1,42 +1,30 @@
 function changeFont(number) {
     if (document.getElementById) {
-        var object = document.getElementById("font");
+        let main = document.getElementsByTagName("main")[0];
         switch (number) {
-            case 0: object.style.fontFamily = "kodito";
-                object.style.fontFeatureSettings = "";
+            case 0: main.className = "kodito";
                 break;
-            case 1: object.style.fontFamily = "lekuta";
-                object.style.fontFeatureSettings = "";
+            case 1: main.className = "lekuta";
                 break;
-            case 2: object.style.fontFamily = "lozegw";
-                object.style.fontFeatureSettings = "";
+            case 2: main.className = "lozegw";
                 break;
-            case 3: object.style.fontFamily = "makina";
-                object.style.fontFeatureSettings = "";
+            case 3: main.className = "makina";
                 break;
-            case 4: object.style.fontFamily = "piswpi";
-                object.style.fontFeatureSettings = "";
+            case 4: main.className = "piswpi";
                 break;
-            case 5: object.style.fontFamily = "polwgo";
-                object.style.fontFeatureSettings = "";
+            case 5: main.className = "polwgo";
                 break;
-            case 6: object.style.fontFamily = "lozegw";
-                object.style.fontFeatureSettings = "";
+            case 6: main.className = "silwki";
                 break;
-            case 7: object.style.fontFamily = "sulive";
-                object.style.fontFeatureSettings = "'calt' 1";
+            case 7: main.className = "sulive";
                 break;
-            case 8: object.style.fontFamily = "xavani";
-                object.style.fontFeatureSettings = "";
+            case 8: main.className = "xavani";
                 break;
-            case 9: object.style.fontFamily = "xesada";
-                object.style.fontFeatureSettings = "";
+            case 9: main.className = "xesada";
                 break;
-            case 10: object.style.fontFamily = "xidili";
-                object.style.fontFeatureSettings = "";
+            case 10: main.className = "xidili";
                 break;
-            case 11: object.style.fontFamily = "zosokw";
-                object.style.fontFeatureSettings = "'calt' 1";
+            case 11: main.className = "zosokw";
                 break;
         }
     }
