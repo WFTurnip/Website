@@ -39,9 +39,10 @@ table {
 }
 
 textarea {
-    font-family: "kodito";
+    font-family: "piswpi";
     width: 28rem;
     height: 6rem;
+    font-size: 1.5rem;
 }
 
 button.key {
