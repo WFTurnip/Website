@@ -2,7 +2,7 @@ body {
     padding: 2rem;
     font-family: serif;
     writing-mode: horizontal-tb;
-    counter-reset: chapter;
+    counter-reset: chapter figure table;
 }
 
 body h2 {
@@ -121,6 +121,22 @@ nav h3 {
 
 nav h4 {
     text-indent: 0rem;
+}
+
+figure {
+    counter-increment: figure;
+}
+
+figcaption::before {
+    content: "図" counter(figure, japanese-informal) "\3000";
+}
+
+table {
+    counter-increment: table;
+}
+
+caption::before {
+    content: "表" counter(table, japanese-informal) "\3000";
 }
 
 a {

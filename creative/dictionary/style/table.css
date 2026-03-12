@@ -36,3 +36,7 @@ td {
 .root {
     font-family: serif;
 }
+
+table caption {
+    caption-side: bottom;
+}
