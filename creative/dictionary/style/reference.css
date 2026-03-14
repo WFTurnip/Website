@@ -123,7 +123,7 @@ nav h4 {
     text-indent: 0rem;
 }
 
-figure {
+figcaption {
     counter-increment: figure;
 }
 
@@ -131,7 +131,7 @@ figcaption::before {
     content: "図" counter(figure, japanese-informal) "\3000";
 }
 
-table {
+caption {
     counter-increment: table;
 }
 
