@@ -10,7 +10,8 @@
     header,
     footer,
     label,
-    legend {
+    legend,
+    dl {
         color: #daa520;
     }
 
@@ -64,7 +65,8 @@
     header,
     footer,
     label,
-    legend {
+    legend,
+    dl {
         color: #ffcc70;
     }
 
