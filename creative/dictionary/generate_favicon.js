@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
-const { JSDOM } = require("jsdom");
+const {JSDOM} = require("jsdom");
 const beautify = require("js-beautify").html;
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const minMaxMap = [
@@ -33,7 +33,7 @@ function addStyle(svg, styleText) {
 async function writeSVG(filename, svg) {
     const serializer = new svg.ownerDocument.defaultView.XMLSerializer();
     const svgString = serializer.serializeToString(svg);
-    const content = beautify(svgString, { indent_size: 4, space_in_empty_paren: true });
+    const content = beautify(svgString, {indent_size: 4, space_in_empty_paren: true});
     try {
         await fs.writeFile(filename, content);
         console.log("ファイル" + filename + "を作成しました。");
@@ -104,7 +104,7 @@ async function generateRoot(i, j, k) {
 async function generateConsonantDirectory(i) {
     let directory = path.join("favicon_index", consonants[i]);
     try {
-        await fs.mkdir(directory, { recursive: true });
+        await fs.mkdir(directory, {recursive: true});
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
@@ -113,7 +113,7 @@ async function generateConsonantDirectory(i) {
 async function generate() {
     const directory = path.join("favicon_index");
     try {
-        await fs.mkdir(directory, { recursive: true });
+        await fs.mkdir(directory, {recursive: true});
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
