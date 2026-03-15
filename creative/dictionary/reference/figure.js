@@ -29,9 +29,7 @@ function generateConsonantPronunciationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "子音発音図";
     figure.appendChild(caption);
-    document.querySelectorAll(".consonant-pronunciation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("consonant-pronunciation-figure").appendChild(figure);
 }
 function generateVowelPronunciationFigure() {
     const figure = document.createElement("figure");
@@ -76,9 +74,7 @@ function generateVowelPronunciationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "母音発音図";
     figure.appendChild(caption);
-    document.querySelectorAll(".vowel-pronunciation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("vowel-pronunciation-figure").appendChild(figure);
 }
 function generateLtrFigure() {
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -89,9 +85,7 @@ function generateLtrFigure() {
     let coodinate = "8,0 0,8 8,16 16,8 8,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
-    document.querySelectorAll(".ltr-figure").forEach(function (element) {
-        element.appendChild(svg.cloneNode(true));
-    });
+    document.getElementById("ltr-figure").appendChild(svg);
 }
 function generateRtlFigure() {
     const svgNameSpace = "http://www.w3.org/2000/svg";
@@ -102,9 +96,7 @@ function generateRtlFigure() {
     let coodinate = "8,0 8,8 0,8 8,16 16,8";
     polygon.setAttribute("points", coodinate);
     svg.appendChild(polygon);
-    document.querySelectorAll(".rtl-figure").forEach(function (element) {
-        element.appendChild(svg.cloneNode(true));
-    });
+    document.getElementById("rtl-figure").appendChild(svg);
 }
 function generateConsonantConceptFigure() {
     const figure = document.createElement("figure");
@@ -137,9 +129,7 @@ function generateConsonantConceptFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "子音概念図";
     figure.appendChild(caption);
-    document.querySelectorAll(".consonant-concept-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("consonant-concept-figure").appendChild(figure);
 }
 function generatePrefixConsonantFigure() {
     const figure = document.createElement("figure");
@@ -172,9 +162,7 @@ function generatePrefixConsonantFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "接頭辞図";
     figure.appendChild(caption);
-    document.querySelectorAll(".prefix-consonant-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("prefix-consonant-figure").appendChild(figure);
 }
 function generateSuffixConsonantFigure() {
     const figure = document.createElement("figure");
@@ -207,9 +195,7 @@ function generateSuffixConsonantFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "接尾辞図";
     figure.appendChild(caption);
-    document.querySelectorAll(".suffix-consonant-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("suffix-consonant-figure").appendChild(figure);
 }
 function generateFirstCaseFigure() {
     const figure = document.createElement("figure");
@@ -254,9 +240,7 @@ function generateFirstCaseFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "前置格図";
     figure.appendChild(caption);
-    document.querySelectorAll(".first-case-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("first-case-figure").appendChild(figure);
 }
 function generateSecondCaseFigure() {
     const figure = document.createElement("figure");
@@ -301,9 +285,7 @@ function generateSecondCaseFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "後置格図";
     figure.appendChild(caption);
-    document.querySelectorAll(".second-case-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("second-case-figure").appendChild(figure);
 }
 function generateConjunctCaseFigure() {
     const figure = document.createElement("figure");
@@ -366,9 +348,7 @@ function generateConjunctCaseFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "複合格図";
     figure.appendChild(caption);
-    document.querySelectorAll(".conjunct-case-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("conjunct-case-figure").appendChild(figure);
 }
 function generatePrefixCaseFigure() {
     const figure = document.createElement("figure");
@@ -413,9 +393,7 @@ function generatePrefixCaseFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "接頭辞格図";
     figure.appendChild(caption);
-    document.querySelectorAll(".prefix-case-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("prefix-case-figure").appendChild(figure);
 }
 function generateSuffixCaseFigure() {
     const figure = document.createElement("figure");
@@ -460,9 +438,7 @@ function generateSuffixCaseFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "接尾辞格図";
     figure.appendChild(caption);
-    document.querySelectorAll(".suffix-case-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("suffix-case-figure").appendChild(figure);
 }
 function generatePartOfSpeechFigure() {
     const figure = document.createElement("figure");
@@ -507,9 +483,7 @@ function generatePartOfSpeechFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "品詞図";
     figure.appendChild(caption);
-    document.querySelectorAll(".part-of-speech-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("part-of-speech-figure").appendChild(figure);
 }
 function generateArticleConjugationFigure() {
     const figure = document.createElement("figure");
@@ -532,9 +506,7 @@ function generateArticleConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "附詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll(".article-conjugation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("article-conjugation-figure").appendChild(figure);
 }
 function generateVerbConjugationFigure() {
     const figure = document.createElement("figure");
@@ -557,9 +529,7 @@ function generateVerbConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "動詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll(".verb-conjugation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("verb-conjugation-figure").appendChild(figure);
 }
 function generateAdjectiveConjugationFigure() {
     const figure = document.createElement("figure");
@@ -582,9 +552,7 @@ function generateAdjectiveConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "容詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll(".adjective-conjugation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("adjective-conjugation-figure").appendChild(figure);
 }
 function generateParticleConjugationFigure() {
     const figure = document.createElement("figure");
@@ -607,9 +575,7 @@ function generateParticleConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "助詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll(".particle-conjugation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("particle-conjugation-figure").appendChild(figure);
 }
 function generateAdverbConjugationFigure() {
     const figure = document.createElement("figure");
@@ -632,9 +598,7 @@ function generateAdverbConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "副詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll(".adverb-conjugation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("adverb-conjugation-figure").appendChild(figure);
 }
 function generateNounConjugationFigure() {
     const figure = document.createElement("figure");
@@ -657,9 +621,7 @@ function generateNounConjugationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "名詞活用図";
     figure.appendChild(caption);
-    document.querySelectorAll(".noun-conjugation-figure").forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("noun-conjugation-figure").appendChild(figure);
 }
 window.addEventListener("load", function () {
     generateConsonantPronunciationFigure();

@@ -47,9 +47,7 @@ function generateConsonantPronunciationTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".consonant-pronunciation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("consonant-pronunciation-table").appendChild(table);
 }
 function generateVowelPronunciationTable() {
     let table = document.createElement("table");
@@ -89,9 +87,7 @@ function generateVowelPronunciationTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".vowel-pronunciation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("vowel-pronunciation-table").appendChild(table);
 }
 function generateConsonantConceptTable() {
     let table = document.createElement("table");
@@ -142,9 +138,7 @@ function generateConsonantConceptTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".consonant-concept-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("consonant-concept-table").appendChild(table);
 }
 function generatePrefixConsonantTable() {
     let table = document.createElement("table");
@@ -195,9 +189,7 @@ function generatePrefixConsonantTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".prefix-consonant-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("prefix-consonant-table").appendChild(table);
 }
 function generateSuffixConsonantTable() {
     let table = document.createElement("table");
@@ -248,9 +240,7 @@ function generateSuffixConsonantTable() {
         tbody.appendChild(consonantVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".suffix-consonant-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("suffix-consonant-table").appendChild(table);
 }
 function generateFirstCaseTable() {
     let table = document.createElement("table");
@@ -290,9 +280,7 @@ function generateFirstCaseTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".first-case-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("first-case-table").appendChild(table);
 }
 function generateSecondCaseTable() {
     let table = document.createElement("table");
@@ -332,9 +320,7 @@ function generateSecondCaseTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".second-case-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("second-case-table").appendChild(table);
 }
 function generateConjunctCaseTable() {
     const createParagraph = (text, className) => {
@@ -378,9 +364,7 @@ function generateConjunctCaseTable() {
         tbody.appendChild(tr);
     });
     table.appendChild(tbody);
-    document.querySelectorAll(".conjunct-case-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("conjunct-case-table").appendChild(table);
 }
 function generatePrefixCaseTable() {
     let table = document.createElement("table");
@@ -420,9 +404,7 @@ function generatePrefixCaseTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".prefix-case-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("prefix-case-table").appendChild(table);
 }
 function generateSuffixCaseTable() {
     let table = document.createElement("table");
@@ -462,9 +444,7 @@ function generateSuffixCaseTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".suffix-case-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("suffix-case-table").appendChild(table);
 }
 function generatePartOfSpeechTable() {
     let table = document.createElement("table");
@@ -504,9 +484,7 @@ function generatePartOfSpeechTable() {
         tbody.appendChild(vowelsVerticalRow);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".part-of-speech-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("part-of-speech-table").appendChild(table);
 }
 function generateArticleConjugationTable() {
     let table = document.createElement("table");
@@ -560,9 +538,7 @@ function generateArticleConjugationTable() {
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".article-conjugation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("article-conjugation-table").appendChild(table);
 }
 function generateVerbConjugationTable() {
     let table = document.createElement("table");
@@ -616,9 +592,7 @@ function generateVerbConjugationTable() {
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".verb-conjugation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("verb-conjugation-table").appendChild(table);
 }
 function generateAdjectiveConjugationTable() {
     let table = document.createElement("table");
@@ -672,9 +646,7 @@ function generateAdjectiveConjugationTable() {
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".adjective-conjugation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("adjective-conjugation-table").appendChild(table);
 }
 function generateParticleConjugationTable() {
     let table = document.createElement("table");
@@ -728,9 +700,7 @@ function generateParticleConjugationTable() {
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".particle-conjugation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("particle-conjugation-table").appendChild(table);
 }
 function generateAdverbConjugationTable() {
     let table = document.createElement("table");
@@ -784,9 +754,7 @@ function generateAdverbConjugationTable() {
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".adverb-conjugation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("adverb-conjugation-table").appendChild(table);
 }
 function generateNounConjugationTable() {
     let table = document.createElement("table");
@@ -840,9 +808,7 @@ function generateNounConjugationTable() {
         tbody.appendChild(tr);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".noun-conjugation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("noun-conjugation-table").appendChild(table);
 }
 window.addEventListener("load", function () {
     generateConsonantPronunciationTable();

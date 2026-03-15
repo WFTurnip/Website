@@ -50,9 +50,7 @@ function generateCantillationPronunciationTable() {
         tbody.appendChild(row);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".cantillation-pronunciation-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("cantillation-pronunciation-table").appendChild(table);
 }
 function generateCantillationMarksTable() {
     let table = document.createElement("table");
@@ -116,9 +114,7 @@ function generateCantillationMarksTable() {
         tbody.appendChild(row);
     }
     table.appendChild(tbody);
-    document.querySelectorAll(".cantillation-marks-table").forEach(function (element) {
-        element.appendChild(table.cloneNode(true));
-    });
+    document.getElementById("cantillation-marks-table").appendChild(table);
 }
 window.addEventListener("load", function () {
     generateCantillationPronunciationTable();

@@ -29,9 +29,7 @@ function generateCantillationPronunciationFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "朗唱発音図";
     figure.appendChild(caption);
-    document.querySelectorAll('.cantillation-pronunciation-figure').forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("cantillation-pronunciation-figure").appendChild(figure);
 }
 function generateCantillationMarksFigure() {
     const figure = document.createElement("figure");
@@ -64,9 +62,7 @@ function generateCantillationMarksFigure() {
     const caption = document.createElement("figcaption");
     caption.textContent = "朗唱記号図";
     figure.appendChild(caption);
-    document.querySelectorAll('.cantillation-marks-figure').forEach(function (element) {
-        element.appendChild(figure.cloneNode(true));
-    });
+    document.getElementById("cantillation-marks-figure").appendChild(figure);
 }
 window.addEventListener("load", function () {
     generateCantillationPronunciationFigure();
