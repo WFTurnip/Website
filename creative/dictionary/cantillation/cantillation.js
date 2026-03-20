@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
         a.addEventListener("click", e => {
             const target = document.querySelector(a.getAttribute("href"));
             if (!target) return;
-            target.scrollIntoView({ behavior: "smooth", block: "center" });
+            target.scrollIntoView({behavior: "smooth", block: "center"});
             e.preventDefault();
         });
     });
