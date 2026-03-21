@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style/search.css">
     <link rel="stylesheet" href="style/fonts.css">
     <link rel="icon" href="favicon/search.svg" type="image/x-icon">
+    <script src="search.js"></script>
 </head>
 
 <body>
@@ -24,14 +25,8 @@
             <form action="search.html" id="searchForm" method="get">
                 <fieldset>
                     <legend>文字入力欄</legend>
-                    <input type="search" id="searchInput" name="searchInput" placeholder="単語を検索">
-                </fieldset>
-                <fieldset>
-                    <legend>検索切替</legend>
-                    <input type="radio" name="dir" id="inarziil-japanese" checked />
-                    <label for="inarziil-japanese">叡日検索</label>
-                    <input type="radio" name="dir" id="japanese-inarziil" />
-                    <label for="japanese-inarziil">日叡検索</label>
+                    <input type="search" id="searchInput" name="searchInput" class="xesada"
+                        placeholder="Cipita Gwnosw" />
                 </fieldset>
                 <fieldset>
                     <legend>絞り込みオプション</legend>
@@ -52,7 +47,6 @@
         <article id="searchResult"></article>
         <article id="option"></article>
         <article id="result"></article>
-        <script src="search.js"></script>
     </main>
     <footer>
         <ul>
