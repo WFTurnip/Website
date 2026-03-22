@@ -161,22 +161,8 @@ footer {
     text-align: center;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-ul li::after {
-    content: "\FF1E";
-}
-
-ul li:last-child::after {
-    content: "";
-}
-
-dd table,
-dd figure {
+table,
+figure {
     text-align: center;
     margin: auto;
 }
@@ -184,10 +170,6 @@ dd figure {
 dt > figure {
     display: inline;
     margin: auto;
-}
-
-dd figure figcaption {
-    text-align: center;
 }
 
 hr {
@@ -218,14 +200,16 @@ dl {
     column-rule-style: solid;
 }
 
-@media (max-width: 48rem) {
-    nav {
-        column-count: 2;
-        column-gap: none;
-    }
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
 
-    dl {
-        column-count: 1;
-        column-rule: none;
-    }
+ul li::after {
+    content: "\FF1E";
+}
+
+ul li:last-child::after {
+    content: "";
 }

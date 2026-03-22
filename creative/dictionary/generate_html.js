@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
-const { JSDOM } = require("jsdom");
+const {JSDOM} = require("jsdom");
 const beautify = require("js-beautify").html;
 const consonantsArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
@@ -102,7 +102,7 @@ async function generateIndex() {
     footerNav.appendChild(footerUl);
     footer.appendChild(footerNav);
     body.appendChild(footer);
-    let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
+    let htmlContent = beautify(dom.serialize(), {indent_size: 4, space_in_empty_paren: true});
     try {
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -230,7 +230,7 @@ async function generateConsonant(i) {
     footerUl.appendChild(footerLi3);
     footer.appendChild(footerUl);
     body.appendChild(footer);
-    let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
+    let htmlContent = beautify(dom.serialize(), {indent_size: 4, space_in_empty_paren: true});
     try {
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -241,7 +241,7 @@ async function generateConsonant(i) {
 async function generateConsonantDirectory(i) {
     let directory = path.join("html_index", consonantsArray[i]);
     try {
-        await fs.mkdir(directory, { recursive: true });
+        await fs.mkdir(directory, {recursive: true});
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
@@ -341,12 +341,13 @@ async function generateRoot(i, j, k) {
     p.append("この語根は", b, "の概念を表す。");
     main.append(p);
     for (let l = 0; l < vowelsArray.length; l++) {
+        let h2 = document.createElement("h2");
+        h2.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
+        main.appendChild(h2);
         let details = document.createElement("details");
         details.open = true;
         let summary = document.createElement("summary");
-        let h2 = document.createElement("h2");
-        h2.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
-        summary.appendChild(h2);
+        summary.textContent = "";
         details.appendChild(summary);
         let dl = document.createElement("dl");
         for (let m = 0; m < vowelsArray.length; m++) {
@@ -423,7 +424,7 @@ async function generateRoot(i, j, k) {
     footerUl.appendChild(footerLi4);
     footer.appendChild(footerUl);
     body.appendChild(footer);
-    let htmlContent = beautify(dom.serialize(), { indent_size: 4, space_in_empty_paren: true });
+    let htmlContent = beautify(dom.serialize(), {indent_size: 4, space_in_empty_paren: true});
     try {
         await fs.writeFile(filename, htmlContent);
         console.log("ファイル" + filename + "を作成しました。");
@@ -434,7 +435,7 @@ async function generateRoot(i, j, k) {
 async function generate() {
     let directory = path.join("html_index");
     try {
-        await fs.mkdir(directory, { recursive: true });
+        await fs.mkdir(directory, {recursive: true});
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
