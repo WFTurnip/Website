@@ -1,13 +1,15 @@
-const text = "Ceqerwlicusw Celemeniqikw Cinarwziqilw";
-let index = 0;
-const elements = document.querySelectorAll('.typing-text');
-function typeEffect() {
-    if (index < text.length) {
-        elements.forEach(element => {
-            element.textContent += text.charAt(index);
-        });
-        index++;
-        setTimeout(typeEffect, 50);
+window.addEventListener("DOMContentLoaded", function () {
+    const text = "Ceqerwlicusw Celemeniqikw Cinarwziqilw";
+    let index = 0;
+    const elements = document.querySelectorAll('.typing-text');
+    function typeEffect() {
+        if (index < text.length) {
+            elements.forEach(element => {
+                element.textContent += text.charAt(index);
+            });
+            index++;
+            setTimeout(typeEffect, 50);
+        }
     }
-}
-typeEffect();
+    typeEffect();
+});
