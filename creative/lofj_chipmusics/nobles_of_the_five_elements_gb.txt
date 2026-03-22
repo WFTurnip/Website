@@ -1,26 +1,20 @@
 #TITLE NOBLES OF THE FIVE ELEMENTS GB
-
 $LOOP = 1;
-
 T165
-
 @5@W2
 R1
 O4
 L8
-
 <E-RRD-RRERE-R RR RR RR>
 <D-RRC-RRE-RD-R RR RR RR>
 <C-RR>B-RR<D-R>BR RR RR RR
 B-RRA-RRBRB-R RR <C-R D-R>
-
 <
 <E-RRD-RRERE-R RR RR RR>
 <D-RRC-RRE-RD-R RR RR RR>
 <C-RR>B-RR<D-R>BR RR RR RR
 B-RRA-RRBRB-R RR <C-R D-R>
 >
-
 L16
 @W4
 /:3BRA-RB-RBR <D-R>B-RBR<D-R> <E-R>BR<D-RE-R><ERD-RE-RER>:/
@@ -29,36 +23,27 @@ L16
 /:3BRA-RB-RBR <D-R>B-RBR<D-R> <E-R>BR<D-RE-R><ERD-RE-RER>:/
 /:<E-R>BR<D-R>B-RBRA-RB-RGR:/
 >
-
 /:$LOOP
 @W2
 O5
 L4
 A- E-16R16 A- G16R16 A-16R16 B-16R16 B B- <D-> B
 B-.B16R16B2<D-.E-16R16E-2E.G-.EE-D-E-EE-.D-.>B.B-.A-8R8B-8R8
-
 A- E-16R16 A- G16R16 A-16R16 B-16R16 B B- <D-> B
 B-.B16R16B2<D-.E-16R16E-2E.G-.EE-D-E-EE-.D-.>B.B-.A-8R8G8R8
-
 L8
 A-E-G-A-&A-2 BB-&B-A-&A-2
 <E->B-<D-E-&E-2 G-F-&F-E-&E-2>
 A-E-G-A-&A-2 BB-&B-A-&A-2
 A-E-GB-&B-2 <D-4>B4B-4A-4
-
 A-E-G-A-&A-2 BB-&B-A-&A-2
 <E->B-<D-E-&E-2 G-F-&F-E-&E-2>
 A-E-G-A-&A-2 BB-&B-A-&A-2
 A-E-GB-&B-2 <D-4>B4B-4G4
-
 L4
-
 A-<E-D-8>B8<D-8E-8&E-2G-EE-D->B8<D->B-8&B-2.
-
 <C-8D-8>BB-8A-.B-8B8 B-A-GA- B-2<E-2D->BB-B
-
 A-8R8A-8B-B. B-8R8B-8B<D-8>B <E-.D-.G- E2E-D- E-1&E- D-C-D->
-
 B-1&B-2B8B-8A-8G8
 O4
 L16
@@ -71,29 +56,20 @@ L16
 >
 :/
 ;
-
 @5@W2
 R1
 O4
 L8
-
 BRRB-RR<D-R>BR RR RR RR
-
 B-RRA-RR<C-R>B-R RR RR RR
-
 A-RRG-RRB-RA-R RR RR RR
-
 GRRF-RRA-RGR RR A-R B-R
 <
 BRRB-RR<D-R>BR RR RR RR
-
 B-RRA-RR<C-R>B-R RR RR RR
-
 A-RRG-RRB-RA-R RR RR RR
-
 GRRF-RRA-RGR RR A-R B-R
 >
-
 L32
 @W6
 /:
@@ -105,7 +81,6 @@ L32
 @P128<D-R>B-RG-RB-R
 :/
 @P64
-
 /:$LOOP
 L16
 @W1
@@ -116,7 +91,6 @@ O3
 /:ERA-RBR<ERA-RER>BRA-R:/
 /:E-RGRB-R<E-RGRE-R>B-RGR:/
 :/
-
 @W2
 L8
 O4
@@ -124,12 +98,10 @@ A-E-G-A-&A-2 BB-&B-A-&A-2
 <E->B-<D-E-&E-2 G-F-&F-E-&E-2>
 A-E-G-A-&A-2 BB-&B-A-&A-2
 A-E-GB-&B-2 <D-4>B4B-4A-4
-
 A-E-G-A-&A-2 BB-&B-A-&A-2
 <E->B-<D-E-&E-2 G-F-&F-E-&E-2>
 A-E-G-A-&A-2 BB-&B-A-&A-2
 A-E-GB-&B-2 <D-4>B4B-4G4
-
 @W1
 L16
 O3
@@ -153,18 +125,15 @@ L32
 @P64
 :/
 ;
-
 @10-0
 @E1,0,0,128,0
 R1
 O3
 L8
-
 A-RR A-RR A-R A-R RR R R R R
 G-RR G-RR G-R G-R RR R R R R
 F-RR F-RR F-R F-R RR R R R R
 E-RR E-RR E-R E-R RR F-R G-R
-
 L16
 /:3
 /:3/:A-R:/A-&A-://:3A-R://:A-&A-A-R:/
@@ -208,18 +177,14 @@ AR RR /:3 CR RR:/
 /:AR RR CR RR:/
 :/
 /:94 D64C64R CR A.R64 CR:/
-
 /:8{AGFE}32R:/
 /:$LOOP
 /:62 D64C64R CR A.R64 CR:/
-
 /:{AGFE}32/:7R:/:/
 /:60 D64C64R CR A.R64 CR:/
 /:{AGFE}32/:7R:/:/
 /:8{AGFE}32R:/
-
 /:16D64C64RRR /:7CRRR:/:/
-
 /:60 D64C64R CR A.R64 CR:/
 /:{AGFE}32/:7R:/:/
 /:8{AGFE}32R:/

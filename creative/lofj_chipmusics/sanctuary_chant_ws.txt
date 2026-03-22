@@ -1,9 +1,6 @@
 #TITLE SANCTUARY CHANT WS
-
 $LOOP = 1;
-
 T125
-
 @10-1
 @E1,0,0,128,0
 L16
@@ -12,11 +9,11 @@ O6
 L4
 /:$LOOP
 F&FGA- B-&B-<CD- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- GFF-F G&GC&C
-FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF- 
+FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF-
 F&FG&G A-&A-B-&B- <C&CD-C> B-A-B-<C> GB-A-G FF-FG A-GB-A- GFEC
 <C>B-<CD- C>B-A-B- <C>GB-A- GFF-F GCFC GCA-C B-CA-C GCFE
 F&FA-&A- <C&CD-&D-> <C&C>B-&B- G&G B-&B- A-&A- G&G F&F A-&A- G&G<C>B- A-GFE
-A-&A-<C&C E-&E-E&E E-&E- D-&D-> B-&B-<D-&D- C&C>B-&B- A-&A-<C&C> B-&B-<E-D- C>B-A-G 
+A-&A-<C&C E-&E-E&E E-&E- D-&D-> B-&B-<D-&D- C&C>B-&B- A-&A-<C&C> B-&B-<E-D- C>B-A-G
 :/
 ;
 @10-1
@@ -28,7 +25,7 @@ L4
 /:$LOOP
 /:8R1:/
 F&FGA- B-&B-<CD- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- GFF-F G&GC&C
-FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF- 
+FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF-
 F&FG&G A-&A-B-&B- <C&CD-C> B-A-B-<C> GB-A-G FF-FG A-GB-A- GFEC
 <C>B-<CD- C>B-A-B- <C>GB-A- GFF-F GCFC GCA-C B-CA-C GCFE
 F&FA-&A- <C&CD-&D-> <C&C>B-&B- G&G B-&B- A-&A- G&G F&F A-&A- G&G <C>B-A-GFE
@@ -43,7 +40,7 @@ L4
 /:$LOOP
 /:16R1:/
 F&FGA- B-&B-<CD- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- GFF-F G&GC&C
-FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF- 
+FF-FG A-GA-B- <C>B-<E-D- C>B-A-B- GA-B-F A-GA-<C> B-A-GA- FGFF-
 F&FG&G A-&A-B-&B- <C&CD-C> B-A-B-<C> GB-A-G FF-FG A-GB-A- GFEC
 <C>B-<CD- C>B-A-B- <C>GB-A- GFF-F GCFC GCA-C B-CA-C GCFE
 :/
@@ -55,7 +52,6 @@ O3
 /:3R1://:1<C>RA-RB-RGRA-RFRGRER:/
 L1
 /:$LOOP
-
 /:6
 F
 F-

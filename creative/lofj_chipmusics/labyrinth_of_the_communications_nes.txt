@@ -1,9 +1,6 @@
 #TITLE LABYRINTH OF THE COMMUNICATIONS NES
-
 $LOOP = 1;
-
 T155
-
 @5@W2
 R1
 L32
@@ -21,7 +18,6 @@ O4
 /:2G<G>)))))))))))))))):/@V100
 /:2F<F>)))))))))))))))):/@V100
 /:2E-<E->)))))))))))))))):/@V100
-
 /:2C<C>)))))))))))))))):/@V100
 /:4F<F>)))))))))))))))):/@V100
 /:2C<C>)))))))))))))))):/@V100
@@ -34,9 +30,7 @@ O4
 /:2F<F>)))))))))))))))):/@V100
 /:2E-<E->)))))))))))))))):/@V100
 /:2D<D>)))))))))))))))):/@V100
-
 :/
-
 O5
 /:$LOOP
 /:
@@ -45,10 +39,8 @@ L8
 CG&GCA-&A-CG&GCF&FCGFE-
 CF&FCE-&E-CF&FCG&GCFE-D
 :/
-
 L4
 E-C8DE-. GE-8FG. FE-D8E-8F8E-DCC-.
-
 CDE-8FGFB-A-8G8F8G2.E-8FE-DC8C-
 :/
 :/
@@ -91,8 +83,7 @@ O0
 /:15DRRRCRRRARRRCRRR://:8AR:/
 /:$LOOP
 /:
-/:8DRRRCRRRA16RRCRRR DRRRDRRRA16RRCRRR
-   CRRRDRRRA16RRCRRR/DRRRCRRRA16RRCRRR:/
+/:8DRRRCRRRA16RRCRRRDRRRDRRRA16RRCRRRCRRRDRRRA16RRCRRR/DRRRCRRRA16RRCRRR:/
 /:8AR:/
 :/
 :/

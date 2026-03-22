@@ -1,9 +1,6 @@
 #TITLE DIVA OF THE THIRST GB
-
 $LOOP = 1;
-
 T150
-
 R1
 @5
 @W2
@@ -42,7 +39,6 @@ L2
 E
 L4
 FG
-
 L4
 A2.B-A2.G
 L8
@@ -79,7 +75,6 @@ L8
 F.E.DE.D.D-
 L2
 DD-
-
 L2
 F
 L8
@@ -174,7 +169,6 @@ L2
 E
 L4
 FG
-
 @W1
 L4
 A2.B-A2.G
@@ -316,17 +310,13 @@ O0
 L32
 /:2/:2AR://:2CR:/://:8AR:/
 /:62DR/:3CR:/://:8AR:/
-
 /:32DR RR /:2CR:/:/
 /:14DR RR /:2CR:/ A&A RR /:2CR:/:/ /:2A&A/:3RR:/://:8AR:/
 /:$LOOP
 /:32DR RR /:2CR:/:/
 /:15DR RR /:2CR:/ A&A RR /:2CR:/:/ /:2A&A/:3RR:/:/
-
 /:31DR /:3CR:/ A&A /:3CR:/://:8AR:/
-
 /:60DR/:3CR:/://:2 A&A /:3RR:/://:8AR:/
-
 /:32DR RR /:2CR:/:/
 /:14DR RR /:2CR:/ A&A RR /:2CR:/:/ /:2A&A/:3RR:/://:8AR:/
 :/
