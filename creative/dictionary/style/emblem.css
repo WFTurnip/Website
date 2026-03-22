@@ -18,7 +18,6 @@
     }
 }
 
-
 @keyframes spinMain {
     from {
         transform: rotateX(0deg) rotateY(0deg) rotateZ(360deg);
