@@ -1,15 +1,16 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const tocRoot = document.querySelector("#toc-root");
+document.addEventListener("DOMContentLoaded", function () {
+    const tocRoot = document.getElementById("toc-root");
     if (!tocRoot) return;
-    const details = document.createElement("details");
-    details.open = true;
-    const summary = document.createElement("summary");
     const h2 = document.createElement("h2");
     h2.className = "table-of-content";
     h2.textContent = "目次"
-    summary.appendChild(h2);
     const nav = document.createElement("nav");
     nav.id = "table-of-content";
+    tocRoot.appendChild(h2);
+    const details = document.createElement("details");
+    details.open = true;
+    const summary = document.createElement("summary");
+    summary.textContent = "";
     details.appendChild(summary);
     details.appendChild(nav);
     tocRoot.appendChild(details);
@@ -26,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     nav.querySelectorAll("a").forEach(a => {
-        a.addEventListener("click", e => {
+        a.addEventListener("click", function (e) {
             const target = document.querySelector(a.getAttribute("href"));
             if (!target) return;
             target.scrollIntoView({behavior: "smooth", block: "center"});
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
     document.querySelectorAll("a[href^='#']").forEach(a => {
-        a.addEventListener("click", e => {
+        a.addEventListener("click", function () {
             const target = document.querySelector(a.getAttribute("href"));
             if (!target) return;
             let parent = target.parentElement;
