@@ -63,6 +63,14 @@
         fill: none;
         stroke: #3b3f3f;
     }
+
+    details summary {
+        background-color: #4fb6b6;
+    }
+
+    details[open] summary {
+        background-color: #fff5e1;
+    }
 }
 
 @media (prefers-color-scheme: dark) {
@@ -142,5 +150,13 @@
     line {
         fill: none;
         stroke: #e8e5dd;
+    }
+
+    details summary {
+        background-color: #4fb6b6;
+    }
+
+    details[open] summary {
+        background-color: #1b1718;
     }
 }

@@ -278,6 +278,9 @@ async function generateRoot(i, j, k) {
     link4.rel = "icon";
     link4.href = "../../favicon_index/" + consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".svg";
     head.appendChild(link4);
+    let script1 = document.createElement("script");
+    script1.src = "../../fetch_details.js";
+    head.appendChild(script1);
     let body = document.body;
     let header = document.createElement("header");
     let headerUl = document.createElement("ul");
