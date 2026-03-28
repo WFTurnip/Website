@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", () => {
     const user = "tomohiro.kabura";
     const domain = "icloud.com";
     const email = user + "@" + domain;

@@ -623,7 +623,7 @@ function generateNounConjugationFigure() {
     figure.appendChild(caption);
     document.getElementById("noun-conjugation-figure").appendChild(figure);
 }
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
     generateConsonantPronunciationFigure();
     generateVowelPronunciationFigure();
     generateRtlFigure();

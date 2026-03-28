@@ -116,7 +116,7 @@ function generateCantillationMarksTable() {
     table.appendChild(tbody);
     document.getElementById("cantillation-marks-table").appendChild(table);
 }
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
     generateCantillationPronunciationTable();
     generateCantillationMarksTable();
 });

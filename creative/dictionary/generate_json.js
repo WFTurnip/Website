@@ -20,7 +20,7 @@ async function generateIndex() {
             consonantHtmlHref: consonant + ".html",
         });
     }
-    let object = { consonants };
+    let object = {consonants};
     let pretty = beautify(object, null, 4, 100);
     try {
         await fs.writeFile(filename, pretty);
@@ -44,7 +44,7 @@ async function generateConsonant(i) {
             });
         }
     }
-    let object = { roots };
+    let object = {roots};
     let pretty = beautify(object, null, 4, 100);
     try {
         await fs.writeFile(filename, pretty);
@@ -56,7 +56,7 @@ async function generateConsonant(i) {
 async function generateConsonantDirectory(i) {
     let directory = path.join("json_index", consonantsArray[i]);
     try {
-        await fs.mkdir(directory, { recursive: true });
+        await fs.mkdir(directory, {recursive: true});
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
@@ -84,7 +84,7 @@ async function generateRoot(i, j, k) {
             }
         }
     }
-    let object = { words };
+    let object = {words};
     let pretty = beautify(object, null, 4, 100);
     try {
         await fs.writeFile(filename, pretty);
@@ -96,7 +96,7 @@ async function generateRoot(i, j, k) {
 async function generate() {
     let directory = path.join("json_index");
     try {
-        await fs.mkdir(directory, { recursive: true });
+        await fs.mkdir(directory, {recursive: true});
         console.log("ディレクトリ" + directory + "を作成しました。");
     } catch (error) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);

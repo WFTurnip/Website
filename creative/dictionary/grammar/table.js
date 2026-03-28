@@ -810,7 +810,7 @@ function generateNounConjugationTable() {
     table.appendChild(tbody);
     document.getElementById("noun-conjugation-table").appendChild(table);
 }
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
     generateConsonantPronunciationTable();
     generateVowelPronunciationTable();
     generateConsonantConceptTable();

@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", () => {
     function changeFont(number) {
         if (document.getElementById) {
             let main = document.getElementsByTagName("main")[0];

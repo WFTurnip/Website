@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", () => {
     const tocRoot = document.getElementById("toc-root");
     if (!tocRoot) return;
     const h2 = document.createElement("h2");
     h2.className = "table-of-content";
-    h2.textContent = "目次"
+    h2.textContent = "目次";
     const nav = document.createElement("nav");
     nav.id = "table-of-content";
     tocRoot.appendChild(h2);
@@ -26,25 +26,25 @@ document.addEventListener("DOMContentLoaded", function () {
             nav.appendChild(tocHeading);
         });
     });
-    nav.querySelectorAll("a").forEach(a => {
-        a.addEventListener("click", function (e) {
-            const target = document.querySelector(a.getAttribute("href"));
-            if (!target) return;
-            target.scrollIntoView({behavior: "smooth", block: "center"});
-            e.preventDefault();
-        });
+});
+nav.querySelectorAll("a").forEach(a => {
+    a.addEventListener("click", (e) => {
+        const target = document.querySelector(a.getAttribute("href"));
+        if (!target) return;
+        target.scrollIntoView({behavior: "smooth", block: "center"});
+        e.preventDefault();
     });
-    document.querySelectorAll("a[href^='#']").forEach(a => {
-        a.addEventListener("click", function () {
-            const target = document.querySelector(a.getAttribute("href"));
-            if (!target) return;
-            let parent = target.parentElement;
-            while (parent) {
-                if (parent.tagName.toLowerCase() === "details") {
-                    parent.open = true;
-                }
-                parent = parent.parentElement;
+});
+document.querySelectorAll("a[href^='#']").forEach(a => {
+    a.addEventListener("click", () => {
+        const target = document.querySelector(a.getAttribute("href"));
+        if (!target) return;
+        let parent = target.parentElement;
+        while (parent) {
+            if (parent.tagName.toLowerCase() === "details") {
+                parent.open = true;
             }
-        });
+            parent = parent.parentElement;
+        }
     });
 });

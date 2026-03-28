@@ -64,7 +64,7 @@ function generateCantillationMarksFigure() {
     figure.appendChild(caption);
     document.getElementById("cantillation-marks-figure").appendChild(figure);
 }
-window.addEventListener("load", function () {
+window.addEventListener("load", () => {
     generateCantillationPronunciationFigure();
     generateCantillationMarksFigure();
 });

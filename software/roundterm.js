@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", function () {
+window.addEventListener("DOMContentLoaded", () => {
     const text = "The quick brown fox jumps over the lazy dog.";
     let index = 0;
     const elements = document.querySelectorAll('.typing-text');

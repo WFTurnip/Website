@@ -9,9 +9,10 @@ const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
+const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
+
 async function generateIndex() {
     let filename = path.join("html_index", "index.html");
-    const dom = new JSDOM("<!DOCTYPE html><head></head><body></body><html lang='ja'></html>");
     const document = dom.window.document;
     let head = document.head;
     let meta = document.createElement("meta");
@@ -112,7 +113,6 @@ async function generateIndex() {
 }
 async function generateConsonant(i) {
     let filename = path.join("html_index", consonantsArray[i] + ".html");
-    const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
     let head = document.head;
     let meta = document.createElement("meta");
@@ -249,7 +249,6 @@ async function generateConsonantDirectory(i) {
 }
 async function generateRoot(i, j, k) {
     let filename = path.join("html_index", consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html");
-    const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
     const document = dom.window.document;
     let head = document.head;
     let meta = document.createElement("meta");
