@@ -191,7 +191,7 @@ sub {
 }
 
 nav {
-    column-count: 2;
+    column-count: 1;
     column-rule-style: solid;
 }
 
