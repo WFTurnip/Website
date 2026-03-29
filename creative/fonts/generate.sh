@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "フォント生成スクリプトへようこそ。"
 echo "以下のオプションから選択してください："
 echo "1. each - 個別のフォントファイルを指定して生成"
@@ -7,22 +9,22 @@ echo "オプションを入力してください（each / all）："
 read -p ">>> " option
 
 case $option in
-    each)
-        echo "生成するフォントのファイル名を入力してください。"
-        ls -d *.sfd
-        read -p ">>> " fontname
+each)
+    echo "生成するフォントのファイル名を入力してください。"
+    ls -d *.sfd
+    read -p ">>> " fontname
 
-        fontforge -script generate.ff ${fontname}
+    fontforge -script generate.ff "${fontname}"
 
-        echo "フォント${fontname}の生成が完了しました。"
-        ;;
-    all)
-        for fontfile in *.sfd; do
-            fontforge -script generate.ff ${fontfile}
-            echo "${fontfile}からのフォント生成が完了しました。"
-        done
-        ;;
-    *)
-        echo "無効なオプションです。eachまたはallを入力してください。"
-        ;;
+    echo "フォント${fontname}の生成が完了しました。"
+    ;;
+all)
+    for fontfile in *.sfd; do
+        fontforge -script generate.ff ${fontfile}
+        echo "${fontfile}からのフォント生成が完了しました。"
+    done
+    ;;
+*)
+    echo "無効なオプションです。eachまたはallを入力してください。"
+    ;;
 esac
