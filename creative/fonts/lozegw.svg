@@ -1,11 +1,6 @@
-<svg width="500" height="850" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M 250 300 L 125 425 L 250 550 L 375 425 L 250 300 z M 250 350 L 325 425 L 250 500 L 175 425 L 250 350 z " />
-    <path
-        d="m250 200-25 25-75 75-12.5 12.5L125 325l-75 75-25 25 25 25 75 75 25 25 75 75 25 25 25-25 75-75 25-25 75-75 25-25-112.5-112.5L275 225zm0 50 75 75 25 25 75 75-100 100-75 75L75 425l75-75 12.5-12.5L175 325z" />
-    <path d="M 50 400 L 25 425 L 50 450 L 450 450 L 475 425 L 450 400 L 50 400 z " />
-    <path
-        d="M 350 300 L 337.5 312.5 L 325 325 L 150 500 L 137.5 512.5 L 125 525 L 150 550 L 162.5 537.5 L 175 525 L 350 350 L 362.5 337.5 L 375 325 L 350 300 z " />
-    <path
-        d="M 150 300 L 125 325 L 137.5 337.5 L 150 350 L 325 525 L 337.5 537.5 L 350 550 L 375 525 L 362.5 512.5 L 350 500 L 175 325 L 162.5 312.5 L 150 300 z " />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="850" version="1.1" id="svg5" sodipodi:docname="lozegw.svg" inkscape:version="1.4.3 (0d15f750, 2025-12-25)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs5" />
+    <sodipodi:namedview id="namedview5" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.3484399" inkscape:cx="261.16412" inkscape:cy="424.75044" inkscape:window-width="1095" inkscape:window-height="723" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg5" />
+    <path id="path5" d="m 150,300 -25,25 12.5,12.5 L 150,350 325,525 337.5,537.5 350,550 375,525 362.5,512.5 350,500 175,325 162.5,312.5 Z m 200,0 -12.5,12.5 L 325,325 150,500 137.5,512.5 125,525 150,550 162.5,537.5 175,525 350,350 362.5,337.5 375,325 Z M 50,400 25,425 50,450 h 400 l 25,-25 -25,-25 z m 200,-200 -25,25 -75,75 -12.5,12.5 -12.5,12.5 -75,75 -25,25 25,25 75,75 25,25 75,75 25,25 25,-25 75,-75 25,-25 75,-75 25,-25 L 362.5,312.5 275,225 Z m 0,50 75,75 25,25 75,75 L 325,525 250,600 75,425 150,350 162.5,337.5 175,325 Z m 0,50 -125,125 125,125 125,-125 z m 0,50 75,75 -75,75 -75,-75 z" style="stroke:#e20000;fill:none" />
 </svg>
