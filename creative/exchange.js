@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", () => {
         const fromRate = parseFloat(fromSelect.value);
         const toRate = parseFloat(toSelect.value);
         const toCurrency = toSelect.selectedOptions[0].text;
-        const amountInXi = amount * fromRate;
-        const converted = amountInXi / toRate;
-        const yen = amountInXi / 100;
+        const amountInSekt = amount * fromRate;
+        const converted = amountInSekt / toRate;
+        const yen = amountInSekt / 100;
         result.textContent = "換算結果：" + formatCompact(converted) + toCurrency;
         resultYen.textContent = "日本円に換算：" + formatYen(yen);
     }
@@ -27,7 +27,6 @@ document.addEventListener("DOMContentLoaded", () => {
             currency: "JPY"
         });
     }
-    // イベントまとめて登録
     [amountInput, fromSelect, toSelect].forEach(element => {
         element.addEventListener("input", convertCurrency);
         element.addEventListener("change", convertCurrency);
