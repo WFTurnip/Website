@@ -1,11 +1,35 @@
-function convertCurrency() {
-    let amount = parseFloat(document.getElementById('amount').value) || 0;
-    let fromRate = parseFloat(document.getElementById('from').value);
-    let toRate = parseFloat(document.getElementById('to').value);
-    let toCurrency = document.getElementById('to').options[document.getElementById("to").selectedIndex].text;
-    let amountInXi = amount * fromRate;
-    let convertedAmount = amountInXi / toRate;
-    let convertedAmountInYen = amountInXi / 100;
-    document.getElementById('result').innerText = `換算結果：${convertedAmount.toLocaleString("ja-JP", { notation: "compact", compactDisplay: "long", currencySign: "standard" })}${toCurrency}`;
-    document.getElementById('result_yen').innerText = `日本円に換算：${convertedAmountInYen.toLocaleString("ja-JP", { style: "currency", currency: "JPY" })}`;
-}
+document.addEventListener("DOMContentLoaded", () => {
+    const amountInput = document.getElementById("amount");
+    const fromSelect = document.getElementById("from");
+    const toSelect = document.getElementById("to");
+    const result = document.getElementById("result");
+    const resultYen = document.getElementById("result_yen");
+    function convertCurrency() {
+        const amount = parseFloat(amountInput.value) || 0;
+        const fromRate = parseFloat(fromSelect.value);
+        const toRate = parseFloat(toSelect.value);
+        const toCurrency = toSelect.selectedOptions[0].text;
+        const amountInXi = amount * fromRate;
+        const converted = amountInXi / toRate;
+        const yen = amountInXi / 100;
+        result.textContent = "換算結果：" + formatCompact(converted) + toCurrency;
+        resultYen.textContent = "日本円に換算：" + formatYen(yen);
+    }
+    function formatCompact(num) {
+        return num.toLocaleString("ja-JP", {
+            notation: "compact",
+            compactDisplay: "long"
+        });
+    }
+    function formatYen(num) {
+        return num.toLocaleString("ja-JP", {
+            style: "currency",
+            currency: "JPY"
+        });
+    }
+    // イベントまとめて登録
+    [amountInput, fromSelect, toSelect].forEach(element => {
+        element.addEventListener("input", convertCurrency);
+        element.addEventListener("change", convertCurrency);
+    });
+});
