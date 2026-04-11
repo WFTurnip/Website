@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1714202397
-ModificationTime: 1768751129
+ModificationTime: 1775905699
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -44,7 +44,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 0
 FitToEm: 0
-WinInfo: 42 14 10
+WinInfo: 28 14 10
 BeginPrivate: 0
 EndPrivate
 AnchorClass2: "vowel" "mark-1"
@@ -53,6 +53,7 @@ BeginChars: 65536 98
 StartChar: space
 Encoding: 32 32 0
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 EndChar
@@ -60,6 +61,7 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 1
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -80,6 +82,7 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 2
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -100,6 +103,7 @@ EndChar
 StartChar: numbersign
 Encoding: 35 35 3
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -170,6 +174,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 4
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -179,72 +184,45 @@ SplineSet
  100 250 l 1,2,-1
  50 250 l 1,3,-1
  50 300 l 1,0,-1
-50 250 m 1,4,-1
- 50 100 l 1,5,-1
- 0 100 l 1,6,-1
- 0 250 l 1,7,-1
- 50 250 l 1,4,-1
-50 100 m 1,8,-1
- 100 100 l 1,9,-1
- 100 50 l 1,10,-1
- 50 50 l 1,11,-1
- 50 100 l 1,8,-1
-100 50 m 1,12,-1
- 250 50 l 1,13,-1
- 250 0 l 1,14,-1
- 100 0 l 1,15,-1
- 100 50 l 1,12,-1
-250 50 m 1,16,-1
- 250 100 l 1,17,-1
- 300 100 l 1,18,-1
- 300 50 l 1,19,-1
- 250 50 l 1,16,-1
-300 100 m 1,20,-1
- 300 250 l 1,21,-1
- 350 250 l 1,22,-1
- 350 100 l 1,23,-1
- 300 100 l 1,20,-1
-300 250 m 1,24,-1
- 250 250 l 1,25,-1
- 250 300 l 1,26,-1
- 300 300 l 1,27,-1
- 300 250 l 1,24,-1
-50 300 m 1,28,-1
- 100 300 l 1,29,-1
- 100 250 l 1,30,-1
- 50 250 l 1,31,-1
- 50 300 l 1,28,-1
-100 250 m 1,32,-1
- 150 250 l 1,33,-1
- 150 200 l 1,34,-1
- 100 200 l 1,35,-1
- 100 250 l 1,32,-1
-150 200 m 1,36,-1
- 200 200 l 1,37,-1
- 200 150 l 1,38,-1
- 150 150 l 1,39,-1
- 150 200 l 1,36,-1
-200 150 m 1,40,-1
- 250 150 l 1,41,-1
- 250 100 l 1,42,-1
- 200 100 l 1,43,-1
- 200 150 l 1,40,-1
-250 100 m 1,44,-1
- 300 100 l 1,45,-1
- 300 50 l 1,46,-1
- 250 50 l 1,47,-1
- 250 100 l 1,44,-1
-150 500 m 1,48,-1
- 200 500 l 1,49,-1
- 200 -150 l 1,50,-1
- 150 -150 l 1,51,-1
- 150 500 l 1,48,-1
+100 250 m 1,4,-1
+ 150 250 l 1,5,-1
+ 200 250 l 1,6,-1
+ 250 250 l 1,7,-1
+ 250 200 l 1,8,-1
+ 350 200 l 1,9,-1
+ 350 150 l 1,10,-1
+ 250 150 l 1,11,-1
+ 250 100 l 1,12,-1
+ 200 100 l 1,13,-1
+ 150 100 l 1,14,-1
+ 100 100 l 1,15,-1
+ 100 150 l 1,16,-1
+ 0 150 l 1,17,-1
+ 0 200 l 1,18,-1
+ 100 200 l 1,19,-1
+ 100 250 l 1,4,-1
+250 250 m 1,20,-1
+ 250 300 l 1,21,-1
+ 300 300 l 1,22,-1
+ 300 250 l 1,23,-1
+ 250 250 l 1,20,-1
+250 100 m 1,24,-1
+ 300 100 l 1,25,-1
+ 300 50 l 1,26,-1
+ 250 50 l 1,27,-1
+ 250 100 l 1,24,-1
+100 100 m 1,28,-1
+ 100 50 l 1,29,-1
+ 50 50 l 1,30,-1
+ 50 100 l 1,31,-1
+ 100 100 l 1,28,-1
 EndSplineSet
 EndChar
 
 StartChar: percent
 Encoding: 37 37 5
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -278,6 +256,7 @@ EndChar
 StartChar: ampersand
 Encoding: 38 38 6
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -336,6 +315,7 @@ EndChar
 StartChar: quotesingle
 Encoding: 39 39 7
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -351,6 +331,7 @@ EndChar
 StartChar: parenleft
 Encoding: 40 40 8
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -386,6 +367,7 @@ EndChar
 StartChar: parenright
 Encoding: 41 41 9
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -421,6 +403,7 @@ EndChar
 StartChar: asterisk
 Encoding: 42 42 10
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -472,6 +455,7 @@ EndChar
 StartChar: plus
 Encoding: 43 43 11
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -495,6 +479,7 @@ EndChar
 StartChar: comma
 Encoding: 44 44 12
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -520,6 +505,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 13
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -535,6 +521,7 @@ EndChar
 StartChar: period
 Encoding: 46 46 14
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -570,6 +557,7 @@ EndChar
 StartChar: slash
 Encoding: 47 47 15
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -605,6 +593,7 @@ EndChar
 StartChar: zero
 Encoding: 48 48 16
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -635,6 +624,7 @@ EndChar
 StartChar: one
 Encoding: 49 49 17
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -700,6 +690,7 @@ EndChar
 StartChar: two
 Encoding: 50 50 18
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -765,6 +756,7 @@ EndChar
 StartChar: three
 Encoding: 51 51 19
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -830,6 +822,7 @@ EndChar
 StartChar: four
 Encoding: 52 52 20
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -895,6 +888,7 @@ EndChar
 StartChar: five
 Encoding: 53 53 21
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -965,6 +959,7 @@ EndChar
 StartChar: six
 Encoding: 54 54 22
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1030,6 +1025,7 @@ EndChar
 StartChar: seven
 Encoding: 55 55 23
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1095,6 +1091,7 @@ EndChar
 StartChar: eight
 Encoding: 56 56 24
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1160,6 +1157,7 @@ EndChar
 StartChar: nine
 Encoding: 57 57 25
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1225,6 +1223,7 @@ EndChar
 StartChar: colon
 Encoding: 58 58 26
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1280,6 +1279,7 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 27
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1325,6 +1325,7 @@ EndChar
 StartChar: less
 Encoding: 60 60 28
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1350,6 +1351,7 @@ EndChar
 StartChar: equal
 Encoding: 61 61 29
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1370,6 +1372,7 @@ EndChar
 StartChar: greater
 Encoding: 62 62 30
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1395,6 +1398,7 @@ EndChar
 StartChar: question
 Encoding: 63 63 31
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1420,6 +1424,7 @@ EndChar
 StartChar: at
 Encoding: 64 64 32
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -1515,6 +1520,7 @@ EndChar
 StartChar: A
 Encoding: 65 65 33
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -1561,6 +1567,7 @@ EndChar
 StartChar: B
 Encoding: 66 66 34
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -1632,6 +1639,7 @@ EndChar
 StartChar: C
 Encoding: 67 67 35
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -1703,6 +1711,7 @@ EndChar
 StartChar: D
 Encoding: 68 68 36
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -1774,6 +1783,7 @@ EndChar
 StartChar: E
 Encoding: 69 69 37
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -1800,6 +1810,7 @@ EndChar
 StartChar: F
 Encoding: 70 70 38
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -1846,6 +1857,7 @@ EndChar
 StartChar: G
 Encoding: 71 71 39
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -1917,6 +1929,7 @@ EndChar
 StartChar: H
 Encoding: 72 72 40
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -1963,6 +1976,7 @@ EndChar
 StartChar: I
 Encoding: 73 73 41
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -1999,6 +2013,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 42
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2090,6 +2105,7 @@ EndChar
 StartChar: K
 Encoding: 75 75 43
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2136,6 +2152,7 @@ EndChar
 StartChar: L
 Encoding: 76 76 44
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2212,6 +2229,7 @@ EndChar
 StartChar: M
 Encoding: 77 77 45
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2258,6 +2276,7 @@ EndChar
 StartChar: N
 Encoding: 78 78 46
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2329,6 +2348,7 @@ EndChar
 StartChar: O
 Encoding: 79 79 47
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -2375,6 +2395,7 @@ EndChar
 StartChar: P
 Encoding: 80 80 48
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2421,6 +2442,7 @@ EndChar
 StartChar: Q
 Encoding: 81 81 49
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2467,6 +2489,7 @@ EndChar
 StartChar: R
 Encoding: 82 82 50
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2518,6 +2541,7 @@ EndChar
 StartChar: S
 Encoding: 83 83 51
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2564,6 +2588,7 @@ EndChar
 StartChar: T
 Encoding: 84 84 52
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2610,6 +2635,7 @@ EndChar
 StartChar: U
 Encoding: 85 85 53
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -2636,6 +2662,7 @@ EndChar
 StartChar: V
 Encoding: 86 86 54
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2707,6 +2734,7 @@ EndChar
 StartChar: W
 Encoding: 87 87 55
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -2743,6 +2771,7 @@ EndChar
 StartChar: X
 Encoding: 88 88 56
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2814,6 +2843,7 @@ EndChar
 StartChar: Y
 Encoding: 89 89 57
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2905,6 +2935,7 @@ EndChar
 StartChar: Z
 Encoding: 90 90 58
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -2976,6 +3007,7 @@ EndChar
 StartChar: bracketleft
 Encoding: 91 91 59
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -2995,6 +3027,7 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 60
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3030,6 +3063,7 @@ EndChar
 StartChar: bracketright
 Encoding: 93 93 61
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3049,6 +3083,7 @@ EndChar
 StartChar: asciicircum
 Encoding: 94 94 62
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3074,6 +3109,7 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 63
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3089,6 +3125,7 @@ EndChar
 StartChar: grave
 Encoding: 96 96 64
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -3109,6 +3146,7 @@ EndChar
 StartChar: a
 Encoding: 97 97 65
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -3155,6 +3193,7 @@ EndChar
 StartChar: b
 Encoding: 98 98 66
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3226,6 +3265,7 @@ EndChar
 StartChar: c
 Encoding: 99 99 67
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3297,6 +3337,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 68
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3368,6 +3409,7 @@ EndChar
 StartChar: e
 Encoding: 101 101 69
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -3394,6 +3436,7 @@ EndChar
 StartChar: f
 Encoding: 102 102 70
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3440,6 +3483,7 @@ EndChar
 StartChar: g
 Encoding: 103 103 71
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3511,6 +3555,7 @@ EndChar
 StartChar: h
 Encoding: 104 104 72
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3557,6 +3602,7 @@ EndChar
 StartChar: i
 Encoding: 105 105 73
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -3593,6 +3639,7 @@ EndChar
 StartChar: j
 Encoding: 106 106 74
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3684,6 +3731,7 @@ EndChar
 StartChar: k
 Encoding: 107 107 75
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3730,6 +3778,7 @@ EndChar
 StartChar: l
 Encoding: 108 108 76
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3806,6 +3855,7 @@ EndChar
 StartChar: m
 Encoding: 109 109 77
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3852,6 +3902,7 @@ EndChar
 StartChar: n
 Encoding: 110 110 78
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -3923,6 +3974,7 @@ EndChar
 StartChar: o
 Encoding: 111 111 79
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -3969,6 +4021,7 @@ EndChar
 StartChar: p
 Encoding: 112 112 80
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4015,6 +4068,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 81
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4061,6 +4115,7 @@ EndChar
 StartChar: r
 Encoding: 114 114 82
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4112,6 +4167,7 @@ EndChar
 StartChar: s
 Encoding: 115 115 83
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4158,6 +4214,7 @@ EndChar
 StartChar: t
 Encoding: 116 116 84
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4204,6 +4261,7 @@ EndChar
 StartChar: u
 Encoding: 117 117 85
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -4230,6 +4288,7 @@ EndChar
 StartChar: v
 Encoding: 118 118 86
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4301,6 +4360,7 @@ EndChar
 StartChar: w
 Encoding: 119 119 87
 Width: 0
+GlyphClass: 4
 Flags: W
 AnchorPoint: "vowel" -200 200 mark 0
 LayerCount: 2
@@ -4337,6 +4397,7 @@ EndChar
 StartChar: x
 Encoding: 120 120 88
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4408,6 +4469,7 @@ EndChar
 StartChar: y
 Encoding: 121 121 89
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4499,6 +4561,7 @@ EndChar
 StartChar: z
 Encoding: 122 122 90
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4570,6 +4633,7 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 91
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -4605,6 +4669,7 @@ EndChar
 StartChar: bar
 Encoding: 124 124 92
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -4620,6 +4685,7 @@ EndChar
 StartChar: braceright
 Encoding: 125 125 93
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -4655,6 +4721,7 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 94
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -4690,6 +4757,7 @@ EndChar
 StartChar: uni25CC
 Encoding: 9676 9676 95
 Width: 400
+GlyphClass: 2
 Flags: W
 AnchorPoint: "vowel" 200 200 basechar 0
 LayerCount: 2
@@ -4741,6 +4809,7 @@ EndChar
 StartChar: acute
 Encoding: 180 180 96
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
@@ -4761,6 +4830,7 @@ EndChar
 StartChar: paragraph
 Encoding: 182 182 97
 Width: 400
+GlyphClass: 1
 Flags: W
 LayerCount: 2
 Fore
