@@ -55,22 +55,32 @@ document.addEventListener("DOMContentLoaded", () => {
         stack[stack.length - 1].ol.appendChild(li);
     });
     tocRoot.appendChild(nav);
-    nav.querySelectorAll("a[href^='#']").forEach(a => {
-        a.addEventListener("click", e => {
-            const target = document.querySelector(a.getAttribute("href"));
-            if (!target) return;
-            e.preventDefault();
-            target.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
-            });
-            let parent = target.parentElement;
-            while (parent) {
-                if (parent.tagName.toLowerCase() === "details") {
-                    parent.open = true;
-                }
-                parent = parent.parentElement;
-            }
-        });
+});
+document.addEventListener("click", (e) => {
+    const a = e.target.closest("a[href^='#']");
+    if (!a) return;
+
+    const href = a.getAttribute("href");
+
+    // "#"単体は無視
+    if (href === "#") return;
+
+    const target = document.querySelector(href);
+    if (!target) return;
+
+    e.preventDefault();
+
+    target.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
     });
+
+    // details展開
+    let parent = target.parentElement;
+    while (parent) {
+        if (parent.tagName.toLowerCase() === "details") {
+            parent.open = true;
+        }
+        parent = parent.parentElement;
+    }
 });

@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         message.textContent = "検索語が入力されていませんので、検索を行いません。";
         message.classList.add("warning");
         searchResultContainer.appendChild(message);
+        return;
     } else {
         const searchResult = document.createElement("h2");
         const searchResultSpan = document.createElement("span");
@@ -138,16 +139,16 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
     }
     return details;
 }
-async function wordsSearch(searchWord, isOn, anyOptionOn) {
+async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
     const summary = document.createElement("summary");
     summary.textContent = "単語検索";
     details.appendChild(summary);
-    let filename = searchWord.charAt(0) + "/" + [0, 2, 4].map(i => searchWord.charAt(i) || "").join("");
+    let filename = searchWordLower.charAt(0) + "/" + [0, 2, 4].map(i => searchWordLower.charAt(i) || "").join("");
     try {
         const data = await fetchFileForSearch(filename);
-        const filtered = filterData(data, searchWord, "words");
+        const filtered = filterData(data, searchWordLower, "words");
         filtered.forEach(item => {
             const wordIndex = document.createElement("p");
             const index = document.createElement("strong");

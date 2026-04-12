@@ -175,7 +175,7 @@ ul {
 }
 
 ul li::after {
-    content: "\FF1E";
+    content: "\3000";
 }
 
 ul li:last-child::after {
