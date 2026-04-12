@@ -1,26 +1,48 @@
 document.addEventListener("DOMContentLoaded", () => {
     const tocRoot = document.getElementById("toc-root");
     if (!tocRoot) return;
-    const headings = Array.from(document.querySelectorAll("main h2, main h3, main h4, main h5, main h6"))
-        .map(h => ({
-            id: h.id || "",
+    const h2 = document.createElement("h2");
+    h2.textContent = "目次";
+    h2.className = "table-of-content";
+    tocRoot.appendChild(h2);
+    const headingNodes = Array.from(
+        document.querySelectorAll("main h2, main h3, main h4, main h5, main h6")
+    ).filter(h => !h.closest(".table-of-content"));
+    if (headingNodes.length === 0) return;
+    const baseLevel = Math.min(...headingNodes.map(h => parseInt(h.tagName[1])));
+    const headings = headingNodes.map((h, i) => {
+        if (!h.id) {
+            const slug = h.textContent
+                .trim()
+                .toLowerCase()
+                .replace(/[^\w]+/g, "-")
+                .replace(/^-+|-+$/g, "");
+            h.id = slug || `heading-${i}`;
+        }
+        return {
+            id: h.id,
             text: h.textContent.trim(),
-            level: parseInt(h.tagName.substring(1))
-        }));
-    if (headings.length === 0) return;
+            level: parseInt(h.tagName[1]) - baseLevel + 1
+        };
+    });
     const nav = document.createElement("nav");
-    const rootUl = document.createElement("ul");
-    nav.appendChild(rootUl);
-    let stack = [{level: headings[0].level - 1, ul: rootUl}];
+    const rootOl = document.createElement("ol");
+    nav.appendChild(rootOl);
+    let stack = [{level: 0, ol: rootOl}];
     headings.forEach(h => {
         while (h.level > stack[stack.length - 1].level + 1) {
-            const lastLi = stack[stack.length - 1].ul.lastElementChild || document.createElement("li");
-            if (!stack[stack.length - 1].ul.lastElementChild) {
-                stack[stack.length - 1].ul.appendChild(lastLi);
+            const parentOl = stack[stack.length - 1].ol;
+            let lastLi = parentOl.lastElementChild;
+            if (!lastLi) {
+                lastLi = document.createElement("li");
+                parentOl.appendChild(lastLi);
             }
-            const newUl = document.createElement("ul");
-            lastLi.appendChild(newUl);
-            stack.push({level: stack[stack.length - 1].level + 1, ul: newUl});
+            const newOl = document.createElement("ol");
+            lastLi.appendChild(newOl);
+            stack.push({
+                level: stack[stack.length - 1].level + 1,
+                ol: newOl
+            });
         }
         while (h.level <= stack[stack.length - 1].level && stack.length > 1) {
             stack.pop();
@@ -30,28 +52,25 @@ document.addEventListener("DOMContentLoaded", () => {
         a.href = "#" + h.id;
         a.textContent = h.text;
         li.appendChild(a);
-        stack[stack.length - 1].ul.appendChild(li);
+        stack[stack.length - 1].ol.appendChild(li);
     });
     tocRoot.appendChild(nav);
-});
-document.querySelectorAll("a").forEach(a => {
-    a.addEventListener("click", (e) => {
-        const target = document.querySelector(a.getAttribute("href"));
-        if (!target) return;
-        target.scrollIntoView({behavior: "smooth", block: "center"});
-        e.preventDefault();
-    });
-});
-document.querySelectorAll("a[href^='#']").forEach(a => {
-    a.addEventListener("click", () => {
-        const target = document.querySelector(a.getAttribute("href"));
-        if (!target) return;
-        let parent = target.parentElement;
-        while (parent) {
-            if (parent.tagName.toLowerCase() === "details") {
-                parent.open = true;
+    nav.querySelectorAll("a[href^='#']").forEach(a => {
+        a.addEventListener("click", e => {
+            const target = document.querySelector(a.getAttribute("href"));
+            if (!target) return;
+            e.preventDefault();
+            target.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+            let parent = target.parentElement;
+            while (parent) {
+                if (parent.tagName.toLowerCase() === "details") {
+                    parent.open = true;
+                }
+                parent = parent.parentElement;
             }
-            parent = parent.parentElement;
-        }
+        });
     });
 });

@@ -5,6 +5,49 @@ body {
     counter-reset: chapter figure table;
 }
 
+nav {
+    counter-reset: toc-chapter;
+}
+
+nav > ol > li {
+    counter-increment: toc-chapter;
+    counter-reset: toc-section;
+    list-style: none;
+}
+
+nav > ol > li > ol > li {
+    counter-increment: toc-section;
+    counter-reset: toc-subsection;
+    list-style: none;
+}
+
+nav > ol > li > ol > li > ol > li {
+    counter-increment: toc-subsection;
+    counter-reset: toc-subsubsection;
+    list-style: none;
+}
+
+nav > ol > li > ol > li > ol > li > ol > li {
+    counter-increment: toc-subsubsection;
+    list-style: none;
+}
+
+nav > ol > li::before {
+    content: "第" counter(toc-chapter, japanese-informal) "章\3000";
+}
+
+nav > ol > li > ol > li::before {
+    content: "第" counter(toc-chapter, japanese-informal) "章" counter(toc-section, japanese-informal) "節\3000";
+}
+
+nav > ol > li > ol > li > ol > li::before {
+    content: "第" counter(toc-subsection, japanese-informal) "小節\3000";
+}
+
+nav > ol > li > ol > li > ol > li > ol > li::before {
+    content: "第" counter(toc-subsubsection, japanese-informal) "図表\3000";
+}
+
 body h2 {
     counter-increment: chapter;
     counter-reset: section;
@@ -40,89 +83,6 @@ body h5::before {
     content: "第" counter(subsubsection, japanese-informal) "図表\3000";
 }
 
-.table-of-content {
-    counter-increment: none;
-}
-
-.table-of-content::before {
-    content: "";
-}
-
-nav {
-    counter-reset: toc-chapter;
-}
-
-nav h2 {
-    counter-increment: toc-chapter;
-    counter-reset: toc-section;
-}
-
-nav h3 {
-    counter-increment: toc-section;
-    counter-reset: toc-subsection;
-}
-
-nav h4 {
-    counter-increment: toc-subsection;
-    counter-reset: toc-subsubsection;
-}
-
-nav h5 {
-    counter-increment: toc-subsubsection;
-}
-
-nav h2::before {
-    content: "第" counter(toc-chapter, japanese-informal) "章\3000";
-}
-
-nav h3::before {
-    content: "第" counter(toc-chapter, japanese-informal) "章" counter(toc-section, japanese-informal) "節\3000";
-}
-
-nav h4::before {
-    content: "第" counter(toc-subsection, japanese-informal) "小節\3000";
-}
-
-nav h5::before {
-    content: "第" counter(toc-subsubsection, japanese-informal) "図表\3000";
-}
-
-h1 {
-    text-indent: 0rem;
-}
-
-h2 {
-    text-indent: 0rem;
-}
-
-h3 {
-    text-indent: 0rem;
-}
-
-h4 {
-    text-indent: 0rem;
-}
-
-h5 {
-    text-indent: 0rem;
-}
-
-nav h1 {
-    text-indent: 0rem;
-}
-
-nav h2 {
-    text-indent: 0rem;
-}
-
-nav h3 {
-    text-indent: 0rem;
-}
-
-nav h4 {
-    text-indent: 0rem;
-}
-
 figcaption {
     counter-increment: figure;
 }
@@ -150,6 +110,14 @@ a:hover {
 rt {
     font-family: serif;
     font-variant-east-asian: ruby;
+}
+
+.table-of-content {
+    counter-increment: none;
+}
+
+.table-of-content::before {
+    content: "";
 }
 
 p {
