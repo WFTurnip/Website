@@ -66,10 +66,12 @@
 
     details summary {
         background-color: #4fb6b6;
+        color: #fff5e1;
     }
 
     details[open] summary {
         background-color: #fff5e1;
+        color: #3b3f3f;
     }
 }
 
@@ -154,9 +156,11 @@
 
     details summary {
         background-color: #4fb6b6;
+        color: #1b1718;
     }
 
     details[open] summary {
         background-color: #1b1718;
+        color: #e8e5dd;
     }
 }

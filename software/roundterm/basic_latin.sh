@@ -1,3 +1,4 @@
+#!/bin/bash
 open -a /Applications/Visual\ Studio\ Code.app basic_latin/uni0021.svg
 # !
 open -a /Applications/Visual\ Studio\ Code.app basic_latin/uni0022.svg
