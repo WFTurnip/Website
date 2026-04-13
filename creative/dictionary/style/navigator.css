@@ -1,0 +1,18 @@
+header,
+footer {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header ol,
+footer ol {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header li:not(:last-child)::after,
+footer li:not(:last-child)::after {
+    display: inline-block;
+    content: "／";
+}
