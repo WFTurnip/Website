@@ -49,30 +49,34 @@ body {
     padding: 2rem;
 }
 
-header,
-footer {
-    padding: 0.5rem 2rem;
-}
-
 a:hover {
     text-decoration: underline;
     font-weight: bold;
 }
 
-ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
-ul li::after {
-    content: "\FF1E";
-}
-
-ul li:last-child::after {
-    content: "";
-}
-
 p {
     text-indent: 1rem;
+}
+
+header,
+footer {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+header ol,
+footer ol,
+menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header li:not(:last-child)::after,
+footer li:not(:last-child)::after,
+menu li:not(:last-child)::after {
+    display: inline-block;
+    content: "／";
 }

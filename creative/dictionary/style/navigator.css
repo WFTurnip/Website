@@ -5,14 +5,18 @@ footer {
 }
 
 header ol,
-footer ol {
+footer ol,
+menu {
     display: flex;
     flex-wrap: wrap;
     list-style: none;
+    justify-content: center;
+    align-items: center;
 }
 
 header li:not(:last-child)::after,
-footer li:not(:last-child)::after {
+footer li:not(:last-child)::after,
+menu li:not(:last-child)::after {
     display: inline-block;
     content: "／";
 }
