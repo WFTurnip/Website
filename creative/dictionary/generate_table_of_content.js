@@ -25,9 +25,8 @@ document.addEventListener("DOMContentLoaded", () => {
             level: parseInt(h.tagName[1]) - baseLevel + 1
         };
     });
-    const nav = document.createElement("nav");
     const rootOl = document.createElement("ol");
-    nav.appendChild(rootOl);
+    tocRoot.appendChild(rootOl);
     let stack = [{level: 0, ol: rootOl}];
     headings.forEach(h => {
         while (h.level > stack[stack.length - 1].level + 1) {
