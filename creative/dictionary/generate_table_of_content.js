@@ -53,7 +53,6 @@ document.addEventListener("DOMContentLoaded", () => {
         li.appendChild(a);
         stack[stack.length - 1].ol.appendChild(li);
     });
-    tocRoot.appendChild(nav);
 });
 document.addEventListener("click", (e) => {
     const a = e.target.closest("a[href^='#']");
