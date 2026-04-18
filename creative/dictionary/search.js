@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", async () => {
             span.appendChild(strong);
             return span;
         }
-        p.appendChild(createOptionSpan("見出し検索: ", consonants));
+        p.appendChild(createOptionSpan("子音検索: ", consonants));
         p.appendChild(createOptionSpan("語根検索: ", roots));
         p.appendChild(createOptionSpan("単語検索: ", words));
         searchOptionContainer.appendChild(p);
@@ -61,7 +61,7 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
     const summary = document.createElement("summary");
-    summary.textContent = "見出し検索";
+    summary.textContent = "子音検索";
     details.appendChild(summary);
     try {
         let filename = "index";
