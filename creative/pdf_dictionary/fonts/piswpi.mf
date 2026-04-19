@@ -397,11 +397,11 @@ beginchar("w",w#,h#,d#);
   vowel_w;
 endchar;
 
-def verticalbar = 
+def verticalbar =
   pickup pencircle scaled (w/10);
   draw (w/2,h-(w/10)) -- (w/2,-d+(w/10));
 enddef;
- 
+
 beginchar("|",w#,h#,d#);
   if proofing = 2:
     makegrid;
