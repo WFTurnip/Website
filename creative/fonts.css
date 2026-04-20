@@ -29,11 +29,6 @@
 }
 
 @font-face {
-    font-family: 'lozegw';
-    src: url('./fonts/lozegw.ttf') format('truetype');
-}
-
-@font-face {
     font-family: 'silwki';
     src: url('./fonts/silwki.ttf') format('truetype');
 }
