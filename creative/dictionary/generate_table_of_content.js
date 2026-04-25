@@ -1,3 +1,9 @@
+/**
+ * 目次を生成するスクリプト
+ * 目次はmain要素内のh2～h6を対象とし、階層構造を保ったまま生成される
+ * 目次のルート要素はid="toc-root"である必要がある
+ * 目次のリンクをクリックしたときはスムーズスクロールし、スクロール先がdetails要素の中にある場合はそのdetails要素を開く
+ */
 document.addEventListener("DOMContentLoaded", () => {
     const tocRoot = document.getElementById("toc-root");
     if (!tocRoot) return;
@@ -54,6 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
         stack[stack.length - 1].ol.appendChild(li);
     });
 });
+/**
+ * 目次のリンクをクリックしたときのスムーズスクロールと、スクロール先がdetails要素の中にある場合はそのdetails要素を開く処理
+ * @param {*} e
+ * @returns
+ */
 document.addEventListener("click", (e) => {
     const a = e.target.closest("a[href^='#']");
     if (!a) return;

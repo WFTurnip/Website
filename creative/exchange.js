@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const fromSelect = document.getElementById("from");
     const toSelect = document.getElementById("to");
     const result = document.getElementById("result");
-    const resultYen = document.getElementById("result_yen");
+    const resultYen = document.getElementById("result-yen");
     function convertCurrency() {
         const amount = parseFloat(amountInput.value) || 0;
         const fromRate = parseFloat(fromSelect.value);
@@ -15,9 +15,14 @@ document.addEventListener("DOMContentLoaded", () => {
         result.textContent = "換算結果：" + formatCompact(converted) + toCurrency;
         resultYen.textContent = "日本円に換算：" + formatYen(yen);
     }
+    /**
+     * 数値をコンパクト形式でフォーマットする
+     * @param {number} num - フォーマットする数値
+     * @returns {string} - フォーマットされた文字列
+     */
     function formatCompact(num) {
         return num.toLocaleString("ja-JP", {
-            notation: "compact",
+            notation: "standard",
             compactDisplay: "long"
         });
     }

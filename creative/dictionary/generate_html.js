@@ -9,6 +9,10 @@ const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
+/**
+ * インデックスHTMLファイルを生成する関数
+ * インデックスファイルには、子ディレクトリである子HTMLファイルへのリンクが含まれる
+ */
 async function generateIndex() {
     let filename = path.join("html_index", "index.html");
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
@@ -112,6 +116,10 @@ async function generateIndex() {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+/**
+ *
+ * @param {*} i
+ */
 async function generateConsonant(i) {
     let filename = path.join("html_index", consonantsArray[i] + ".html");
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");
@@ -244,6 +252,10 @@ async function generateConsonant(i) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+/**
+ *
+ * @param {*} i
+ */
 async function generateConsonantDirectory(i) {
     let directory = path.join("html_index", consonantsArray[i]);
     try {
@@ -253,6 +265,12 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
+/**
+ *
+ * @param {*} i
+ * @param {*} j
+ * @param {*} k
+ */
 async function generateRoot(i, j, k) {
     let filename = path.join("html_index", consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".html");
     const dom = new JSDOM("<!DOCTYPE html><html lang='ja'><head></head><body></body></html>");

@@ -18,13 +18,13 @@
     <style>
         @media(prefers-color-scheme: light) {
             circle {
-                fill: #000
+                fill: #000000;
             }
         }
 
         @media(prefers-color-scheme: dark) {
             circle {
-                fill: #c99410
+                fill: #c99410;
             }
         }
     </style>

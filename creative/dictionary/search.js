@@ -57,6 +57,13 @@ document.addEventListener("DOMContentLoaded", async () => {
     resultContainer.appendChild(await rootsSearch(searchWordLower, roots, anyOptionOn));
     resultContainer.appendChild(await wordsSearch(searchWordLower, words, anyOptionOn));
 });
+/**
+ *
+ * @param {*} searchWordLower
+ * @param {*} isOn
+ * @param {*} anyOptionOn
+ * @returns
+ */
 async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
@@ -98,6 +105,13 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
     }
     return details;
 }
+/**
+ *
+ * @param {*} searchWordLower
+ * @param {*} isOn
+ * @param {*} anyOptionOn
+ * @returns
+ */
 async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
@@ -139,6 +153,13 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
     }
     return details;
 }
+/**
+ * 単語検索を行う関数
+ * @param {*} searchWordLower
+ * @param {*} isOn
+ * @param {*} anyOptionOn
+ * @returns
+ */
 async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
     const details = document.createElement("details");
     details.open = isOn || !anyOptionOn;
@@ -190,6 +211,11 @@ async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
     }
     return details;
 }
+/**
+ *
+ * @param {*} searchWord
+ * @returns
+ */
 async function fetchFileForSearch(searchWord) {
     const filename = "json_index" + "/" + encodeURIComponent(searchWord) + ".json";
     const res = await fetch(filename);
@@ -198,6 +224,13 @@ async function fetchFileForSearch(searchWord) {
     }
     return await res.json();
 }
+/**
+ * データをフィルタリングする関数
+ * @param {*} data
+ * @param {*} searchWord
+ * @param {*} type
+ * @returns
+ */
 function filterData(data, searchWord, type) {
     const wordLower = searchWord.toLowerCase();
     switch (type) {

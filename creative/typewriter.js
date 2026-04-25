@@ -1,3 +1,10 @@
+/**
+ * @typedef {Object} NewType
+ * @property {function(string): NodeListOf<Element>} querySelectorAll - XML内の要素をクエリセレクタで取得する関数
+ * @property {function(string): Element} querySelector - XML内の最初の要素をクエリセレクタで取得する関数
+ * @property {function(string): string} getAttribute - XML内の要素の属性値を取得する関数
+ * @property {string} textContent - XML内の要素のテキストコンテンツ
+ */
 window.addEventListener("DOMContentLoaded", () => {
     const textarea = document.querySelector("textarea");
     const keyboardTable = document.getElementById("keyboard");
@@ -5,6 +12,10 @@ window.addEventListener("DOMContentLoaded", () => {
     let currentFont = "piswpi";
     const fontClasses = ["piswpi", "sulive", "kodito", "lekuta", "lozegw", "silwki", "xavani", "xesada", "xidili", "makina", "polwgo", "zosokw"];
     let shiftActive = false;
+    /**
+     * XMLからキーボードを構築する
+     * @param {NewType} xml
+     */
     function buildKeyboardFromXML(xml) {
         keyboardTable.innerHTML = "";
         xml.querySelectorAll("row").forEach(rowXml => {
@@ -28,8 +39,17 @@ window.addEventListener("DOMContentLoaded", () => {
                 const normal = keyXml.getAttribute("data-normal") || "";
                 const shift = keyXml.getAttribute("data-shift") || "";
                 const type = keyXml.getAttribute("data-key") || "";
-                const labelNormal = keyXml.querySelector(".no-shifted")?.textContent || normal;
-                const labelShift = keyXml.querySelector(".shifted")?.textContent || shift;
+                /**
+                 * キーのラベルを取得する
+                 * @param {Element} keyElement - キー要素
+                 * @param {string} defaultText - デフォルトのテキスト
+                 * @returns {string} - 取得したラベル
+                 */
+                const getLabel = (keyElement, defaultText) => {
+                    return keyElement?.textContent || defaultText;
+                };
+                const labelNormal = getLabel(keyXml.querySelector(".no-shifted"), normal);
+                const labelShift = getLabel(keyXml.querySelector(".shifted"), shift);
                 const spanNormal = document.createElement("span");
                 spanNormal.className = "no-shifted";
                 spanNormal.textContent = labelNormal;
@@ -47,6 +67,9 @@ window.addEventListener("DOMContentLoaded", () => {
             keyboardTable.appendChild(tr);
         });
     }
+    /**
+     * キーボードのクリックイベントリスナー
+     */
     keyboardTable.addEventListener("click", (e) => {
         const key = e.target.closest("button.key");
         if (!key) return;
@@ -63,6 +86,10 @@ window.addEventListener("DOMContentLoaded", () => {
     fontSelector.addEventListener("change", (e) => {
         changeFont(parseInt(e.target.value));
     });
+    /**
+     * フォントを変更する関数
+     * @param {number} number - 変更するフォントの番号
+     */
     function changeFont(number) {
         currentFont = fontClasses[number];
         textarea.className = "";
@@ -70,6 +97,10 @@ window.addEventListener("DOMContentLoaded", () => {
         loadKeyboard(currentFont);
     }
     loadKeyboard(currentFont);
+    /**
+     * キーボードをロードする関数
+     * @param {string} font - ロードするフォントの名前
+     */
     function loadKeyboard(font) {
         fetch("keyboards/" + font + ".xml").then(r => r.text()).then(str => new DOMParser().parseFromString(str, "text/xml")).then(xml => buildKeyboardFromXML(xml));
     }

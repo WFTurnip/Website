@@ -14,10 +14,22 @@ const minMaxMap = [
     [1, 4], [1, 4],
     [0, 3], [0, 3]
 ];
-const circleStyle = "@media(prefers-color-scheme: light){circle{fill:#000}}@media(prefers-color-scheme: dark){circle{fill:#c99410}}";
+const circleStyle = "@media(prefers-color-scheme: light){circle{fill: #000000;}}@media(prefers-color-scheme: dark){circle{fill: #c99410;}}";
+/**
+ *
+ * @param {*} i
+ * @returns
+ */
 function getMinMax(i) {
     return minMaxMap[i] || [0, 0];
 }
+/**
+ *
+ * @param {*} svg
+ * @param {*} cx
+ * @param {*} cy
+ * @param {*} r
+ */
 function addCircle(svg, cx, cy, r) {
     const circle = svg.ownerDocument.createElementNS("http://www.w3.org/2000/svg", "circle");
     circle.setAttribute("cx", cx);
@@ -25,11 +37,21 @@ function addCircle(svg, cx, cy, r) {
     circle.setAttribute("r", r);
     svg.appendChild(circle);
 }
+/**
+ *
+ * @param {*} svg
+ * @param {*} styleText
+ */
 function addStyle(svg, styleText) {
     const style = svg.ownerDocument.createElementNS("http://www.w3.org/2000/svg", "style");
     style.textContent = styleText;
     svg.appendChild(style);
 }
+/**
+ *
+ * @param {*} filename
+ * @param {*} svg
+ */
 async function writeSVG(filename, svg) {
     const serializer = new svg.ownerDocument.defaultView.XMLSerializer();
     const svgString = serializer.serializeToString(svg);
@@ -41,6 +63,10 @@ async function writeSVG(filename, svg) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+/**
+ * ファビコンディレクトリを生成する関数
+ * ディレクトリ内には、子ディレクトリである子ファビコンファイルへのリンクが含まれる
+ */
 async function generateIndex() {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
@@ -54,6 +80,10 @@ async function generateIndex() {
     addStyle(svg, circleStyle);
     await writeSVG(path.join("favicon_index", "index.svg"), svg);
 }
+/**
+ *
+ * @param {*} i
+ */
 async function generateConsonant(i) {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
@@ -72,6 +102,12 @@ async function generateConsonant(i) {
     addStyle(svg, circleStyle);
     await writeSVG(path.join("favicon_index", `${consonants[i]}.svg`), svg);
 }
+/**
+ *
+ * @param {*} i
+ * @param {*} j
+ * @param {*} k
+ */
 async function generateRoot(i, j, k) {
     const dom = new JSDOM("<!DOCTYPE html><body></body>");
     const doc = dom.window.document;
@@ -101,6 +137,10 @@ async function generateRoot(i, j, k) {
     const filename = path.join("favicon_index", consonants[i], consonants[i] + consonants[j] + consonants[k] + ".svg");
     await writeSVG(filename, svg);
 }
+/**
+ *
+ * @param {*} i
+ */
 async function generateConsonantDirectory(i) {
     let directory = path.join("favicon_index", consonants[i]);
     try {
@@ -110,6 +150,10 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
+/**
+ * ファビコンディレクトリを生成するスクリプト
+ * ディレクトリ内には、子ディレクトリである子ファビコンファイルへのリンクが含まれる
+ */
 async function generate() {
     const directory = path.join("favicon_index");
     try {

@@ -2,6 +2,9 @@ const fs = require("fs").promises;
 const path = require("path");
 const {JSDOM} = require("jsdom");
 const beautify = require("js-beautify").html;
+/**
+ * スタイルディレクトリを生成するスクリプト
+ */
 async function generate() {
     let directory = path.join("style");
     try {

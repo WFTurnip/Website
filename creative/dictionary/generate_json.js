@@ -8,6 +8,10 @@ const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
+/**
+ * インデックスJSONファイルを生成する関数
+ * インデックスファイルには、子ディレクトリである子JSONファイルへのリンクが含まれる
+ */
 async function generateIndex() {
     let filename = path.join("json_index", "index.json");
     let consonants = [];
