@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     resultContainer.appendChild(await wordsSearch(searchWordLower, words, anyOptionOn));
 });
 /**
- *
+ * 子音検索を行う関数
  * @param {*} searchWordLower
  * @param {*} isOn
  * @param {*} anyOptionOn
@@ -106,7 +106,7 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
     return details;
 }
 /**
- *
+ * 語根検索を行う関数
  * @param {*} searchWordLower
  * @param {*} isOn
  * @param {*} anyOptionOn
@@ -212,7 +212,7 @@ async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
     return details;
 }
 /**
- *
+ * JSONファイルをフェッチする関数
  * @param {*} searchWord
  * @returns
  */
@@ -225,7 +225,7 @@ async function fetchFileForSearch(searchWord) {
     return await res.json();
 }
 /**
- * データをフィルタリングする関数
+ * 検索語句をフィルタリングする関数
  * @param {*} data
  * @param {*} searchWord
  * @param {*} type
@@ -234,19 +234,19 @@ async function fetchFileForSearch(searchWord) {
 function filterData(data, searchWord, type) {
     const wordLower = searchWord.toLowerCase();
     switch (type) {
-        case "consonants":
-            return data.consonants.filter(item =>
-                item.consonant.toLowerCase() === wordLower.charAt(0)
-            );
-        case "roots":
-            return data.roots.filter(item =>
-                item.root.toLowerCase() === [0, 2, 4].map(i => wordLower.charAt(i) || "").join("")
-            );
-        case "words":
-            return data.words.filter(item =>
-                item.word.toLowerCase() === wordLower
-            );
-        default:
-            return [];
+    case "consonants":
+        return data.consonants.filter(item =>
+            item.consonant.toLowerCase() === wordLower.charAt(0)
+        );
+    case "roots":
+        return data.roots.filter(item =>
+            item.root.toLowerCase() === [0, 2, 4].map(i => wordLower.charAt(i) || "").join("")
+        );
+    case "words":
+        return data.words.filter(item =>
+            item.word.toLowerCase() === wordLower
+        );
+    default:
+        return [];
     }
 }
