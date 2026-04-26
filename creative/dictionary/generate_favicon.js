@@ -3,28 +3,18 @@ const path = require("path");
 const {JSDOM} = require("jsdom");
 const beautify = require("js-beautify").html;
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const minMaxMap = [
-    [-4, -1], [-4, -1],
-    [-3, 0], [-3, 0],
-    [-2, 1], [-2, 1],
-    [-5, -2], [-5, -2],
-    [0, 8], [0, 8],
-    [-1, 2], [-1, 2],
-    [2, 5], [2, 5],
-    [1, 4], [1, 4],
-    [0, 3], [0, 3]
-];
+const minMaxMap = [[-4, -1], [-4, -1], [-3, 0], [-3, 0], [-2, 1], [-2, 1], [-5, -2], [-5, -2], [0, 8], [0, 8], [-1, 2], [-1, 2], [2, 5], [2, 5], [1, 4], [1, 4], [0, 3], [0, 3]];
 const circleStyle = "@media(prefers-color-scheme: light){circle{fill: #000000;}}@media(prefers-color-scheme: dark){circle{fill: #c99410;}}";
 /**
- *
- * @param {*} i
- * @returns
+ * 指定された子音のインデックスに対応する最小値と最大値を返す関数
+ * @param {*} i - 子音のインデックス
+ * @returns minMaxMap配列のi番目の要素、存在しない場合は[0, 0]を返す関数
  */
 function getMinMax(i) {
     return minMaxMap[i] || [0, 0];
 }
 /**
- *
+ * SVGに円を追加する関数
  * @param {*} svg
  * @param {*} cx
  * @param {*} cy
@@ -38,7 +28,7 @@ function addCircle(svg, cx, cy, r) {
     svg.appendChild(circle);
 }
 /**
- *
+ * SVGにスタイルを追加する関数
  * @param {*} svg
  * @param {*} styleText
  */
@@ -48,7 +38,7 @@ function addStyle(svg, styleText) {
     svg.appendChild(style);
 }
 /**
- *
+ * SVGをファイルに書き出す関数
  * @param {*} filename
  * @param {*} svg
  */

@@ -197,7 +197,7 @@ async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
             const span = document.createElement("span");
             span.classList.add("xesada");
             span.textContent = item.word;
-            a.href = "html_index" + "/" + item.wordHtmlHref;
+            a.href = "html_index" + "/" + item.wordHtmlHref + ":~:text=" + encodeURIComponent(item.word) + encodeURIComponent("/" + item.wordPronunciation + "/")+ encodeURIComponent(item.wordCases) + encodeURIComponent(item.wordPartOfSpeech);
             a.append("単語", span, "の詳細ページ");
             wordLink.appendChild(a);
             details.appendChild(wordLink);
@@ -218,11 +218,11 @@ async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
  */
 async function fetchFileForSearch(searchWord) {
     const filename = "json_index" + "/" + encodeURIComponent(searchWord) + ".json";
-    const res = await fetch(filename);
-    if (!res.ok) {
+    const response = await fetch(filename);
+    if (!response.ok) {
         throw new Error("ファイルが見つかりません");
     }
-    return await res.json();
+    return await response.json();
 }
 /**
  * 検索語句をフィルタリングする関数
@@ -234,19 +234,19 @@ async function fetchFileForSearch(searchWord) {
 function filterData(data, searchWord, type) {
     const wordLower = searchWord.toLowerCase();
     switch (type) {
-    case "consonants":
-        return data.consonants.filter(item =>
-            item.consonant.toLowerCase() === wordLower.charAt(0)
-        );
-    case "roots":
-        return data.roots.filter(item =>
-            item.root.toLowerCase() === [0, 2, 4].map(i => wordLower.charAt(i) || "").join("")
-        );
-    case "words":
-        return data.words.filter(item =>
-            item.word.toLowerCase() === wordLower
-        );
-    default:
-        return [];
+        case "consonants":
+            return data.consonants.filter(item =>
+                item.consonant.toLowerCase() === wordLower.charAt(0)
+            );
+        case "roots":
+            return data.roots.filter(item =>
+                item.root.toLowerCase() === [0, 2, 4].map(i => wordLower.charAt(i) || "").join("")
+            );
+        case "words":
+            return data.words.filter(item =>
+                item.word.toLowerCase() === wordLower
+            );
+        default:
+            return [];
     }
 }
