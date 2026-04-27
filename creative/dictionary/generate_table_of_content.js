@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const slug = h.textContent
                 .trim()
                 .toLowerCase()
-                .replace(/[^\w]+/g, "-")
+                .replace(/\W+/g, "-")
                 .replace(/^-+|-+$/g, "");
             h.id = slug || `heading-${i}`;
         }

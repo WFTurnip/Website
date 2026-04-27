@@ -5,6 +5,7 @@ const beautify = require("js-beautify").html;
 const consonants = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const minMaxMap = [[-4, -1], [-4, -1], [-3, 0], [-3, 0], [-2, 1], [-2, 1], [-5, -2], [-5, -2], [0, 8], [0, 8], [-1, 2], [-1, 2], [2, 5], [2, 5], [1, 4], [1, 4], [0, 3], [0, 3]];
 const circleStyle = "@media(prefers-color-scheme: light){circle{fill: #000000;}}@media(prefers-color-scheme: dark){circle{fill: #c99410;}}";
+
 /**
  * 指定された子音のインデックスに対応する最小値と最大値を返す関数
  * @param {*} i - 子音のインデックス
@@ -13,6 +14,7 @@ const circleStyle = "@media(prefers-color-scheme: light){circle{fill: #000000;}}
 function getMinMax(i) {
     return minMaxMap[i] || [0, 0];
 }
+
 /**
  * SVGに円を追加する関数
  * @param {*} svg
@@ -27,6 +29,7 @@ function addCircle(svg, cx, cy, r) {
     circle.setAttribute("r", r);
     svg.appendChild(circle);
 }
+
 /**
  * SVGにスタイルを追加する関数
  * @param {*} svg
@@ -37,6 +40,7 @@ function addStyle(svg, styleText) {
     style.textContent = styleText;
     svg.appendChild(style);
 }
+
 /**
  * SVGをファイルに書き出す関数
  * @param {*} filename
@@ -53,6 +57,7 @@ async function writeSVG(filename, svg) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
 /**
  * ファビコンディレクトリを生成する関数
  * ディレクトリ内には、子ディレクトリである子ファビコンファイルへのリンクが含まれる
@@ -70,6 +75,7 @@ async function generateIndex() {
     addStyle(svg, circleStyle);
     await writeSVG(path.join("favicon_index", "index.svg"), svg);
 }
+
 /**
  *
  * @param {*} i
@@ -92,6 +98,7 @@ async function generateConsonant(i) {
     addStyle(svg, circleStyle);
     await writeSVG(path.join("favicon_index", `${consonants[i]}.svg`), svg);
 }
+
 /**
  *
  * @param {*} i
@@ -127,6 +134,7 @@ async function generateRoot(i, j, k) {
     const filename = path.join("favicon_index", consonants[i], consonants[i] + consonants[j] + consonants[k] + ".svg");
     await writeSVG(filename, svg);
 }
+
 /**
  *
  * @param {*} i
@@ -140,6 +148,7 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
+
 /**
  * ファビコンディレクトリを生成するスクリプト
  * ディレクトリ内には、子ディレクトリである子ファビコンファイルへのリンクが含まれる
@@ -164,4 +173,5 @@ async function generate() {
     }
     console.log("ディレクトリ" + directory + "の内部データを生成完了。");
 }
+
 generate();

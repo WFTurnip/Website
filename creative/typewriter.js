@@ -12,9 +12,10 @@ window.addEventListener("DOMContentLoaded", () => {
     let currentFont = "piswpi";
     const fontClasses = ["piswpi", "sulive", "kodito", "lekuta", "lozegw", "silwki", "xavani", "xesada", "xidili", "makina", "polwgo", "zosokw"];
     let shiftActive = false;
+
     /**
      * XMLからキーボードを構築する
-     * @param {NewType} xml
+     * @param {Document} xml
      */
     function buildKeyboardFromXML(xml) {
         keyboardTable.innerHTML = "";
@@ -32,7 +33,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 if (colXml.hasAttribute("colspan")) {
                     const colspanValue = colXml.getAttribute("colspan");
                     if (colspanValue > 1) {
-                        td.colSpan = colspanValue;
+                        td.colSpan = parseInt(colspanValue);
                         button.classList.add("space");
                     }
                 }
@@ -67,6 +68,7 @@ window.addEventListener("DOMContentLoaded", () => {
             keyboardTable.appendChild(tr);
         });
     }
+
     /**
      * キーボードのクリックイベントリスナー
      */
@@ -86,6 +88,7 @@ window.addEventListener("DOMContentLoaded", () => {
     fontSelector.addEventListener("change", (e) => {
         changeFont(parseInt(e.target.value));
     });
+
     /**
      * フォントを変更する関数
      * @param {number} number - 変更するフォントの番号
@@ -96,7 +99,9 @@ window.addEventListener("DOMContentLoaded", () => {
         textarea.classList.add(currentFont);
         loadKeyboard(currentFont);
     }
+
     loadKeyboard(currentFont);
+
     /**
      * キーボードをロードする関数
      * @param {string} font - ロードするフォントの名前

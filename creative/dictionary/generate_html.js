@@ -9,6 +9,7 @@ const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
+
 /**
  * インデックスHTMLファイルを生成する関数
  * インデックスファイルには、子ディレクトリである子HTMLファイルへのリンクが含まれる
@@ -116,6 +117,7 @@ async function generateIndex() {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
 /**
  *
  * @param {*} i
@@ -218,8 +220,8 @@ async function generateConsonant(i) {
             let dd = document.createElement("dd");
             dd.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
             dl.appendChild(dd);
-        };
-    };
+        }
+    }
     main.appendChild(dl);
     body.appendChild(main);
     let footer = document.createElement("footer");
@@ -252,6 +254,7 @@ async function generateConsonant(i) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
 /**
  *
  * @param {*} i
@@ -265,6 +268,7 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
+
 /**
  *
  * @param {*} i
@@ -463,6 +467,7 @@ async function generateRoot(i, j, k) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
 async function generate() {
     let directory = path.join("html_index");
     try {
@@ -483,4 +488,5 @@ async function generate() {
     }
     console.log("ディレクトリ" + directory + "の内部データを生成完了。");
 }
+
 generate();

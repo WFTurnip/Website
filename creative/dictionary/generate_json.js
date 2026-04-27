@@ -8,9 +8,10 @@ const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
+
 /**
- * インデックスJSONファイルを生成する関数
- * インデックスファイルには、子ディレクトリである子JSONファイルへのリンクが含まれる
+ *
+ * @returns {Promise<void>}
  */
 async function generateIndex() {
     let filename = path.join("json_index", "index.json");
@@ -33,6 +34,12 @@ async function generateIndex() {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
+/**
+ *
+ * @param i
+ * @returns {Promise<void>}
+ */
 async function generateConsonant(i) {
     let filename = path.join("json_index", consonantsArray[i] + ".json");
     let roots = [];
@@ -57,6 +64,12 @@ async function generateConsonant(i) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
+/**
+ *
+ * @param i
+ * @returns {Promise<void>}
+ */
 async function generateConsonantDirectory(i) {
     let directory = path.join("json_index", consonantsArray[i]);
     try {
@@ -66,6 +79,14 @@ async function generateConsonantDirectory(i) {
         console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
     }
 }
+
+/**
+ *
+ * @param i
+ * @param j
+ * @param k
+ * @returns {Promise<void>}
+ */
 async function generateRoot(i, j, k) {
     let filename = path.join("json_index", consonantsArray[i] + "/" + consonantsArray[i] + consonantsArray[j] + consonantsArray[k] + ".json");
     let words = [];
@@ -97,6 +118,11 @@ async function generateRoot(i, j, k) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
+
+/**
+ *
+ * @returns {Promise<void>}
+ */
 async function generate() {
     let directory = path.join("json_index");
     try {
@@ -117,4 +143,5 @@ async function generate() {
     }
     console.log("ディレクトリ" + directory + "の内部データを生成完了。");
 }
+
 generate();
