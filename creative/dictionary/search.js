@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         return;
     } else {
         const searchResult = document.createElement("h2");
-        const searchResultSpan = document.createElement("span");
+        const searchResultSpan = document.createElement("b");
         searchResultSpan.textContent = searchWord;
         searchResultSpan.classList.add("xesada");
         searchResult.appendChild(searchResultSpan);
@@ -76,7 +76,7 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWordLower, "consonants");
         filtered.forEach(item => {
             const consonantIndex = document.createElement("p");
-            const consonant = document.createElement("span");
+            const consonant = document.createElement("b");
             consonant.textContent = searchWordLower.charAt(0);
             consonant.classList.add("xesada");
             consonantIndex.append(consonant);
@@ -86,13 +86,11 @@ async function consonantsSearch(searchWordLower, isOn, anyOptionOn) {
             details.appendChild(consonantIndex);
             const p2 = document.createElement("p");
             const a = document.createElement("a");
-            const span = document.createElement("span");
+            const span = document.createElement("b");
             span.classList.add("xesada");
             span.textContent = item.consonant;
             a.href = "html_index" + "/" + item.consonantHtmlHref;
-            a.append("子音");
-            a.append(span);
-            a.append("の詳細ページ");
+            a.append("子音", span, "の詳細ページ");
             p2.appendChild(a);
             details.appendChild(p2);
         });
@@ -138,9 +136,7 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             span.classList.add("xesada");
             span.textContent = item.root;
             a.href = "html_index" + "/" + item.rootHtmlHref;
-            a.append("語根");
-            a.append(span);
-            a.append("の詳細ページ");
+            a.append("語根", span, "の詳細ページ");
             rootHref.appendChild(a);
             details.appendChild(rootHref);
         });
