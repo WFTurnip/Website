@@ -1,10 +1,3 @@
-/**
- * @typedef {Object} NewType
- * @property {function(string): NodeListOf<Element>} querySelectorAll - XML内の要素をクエリセレクタで取得する関数
- * @property {function(string): Element} querySelector - XML内の最初の要素をクエリセレクタで取得する関数
- * @property {function(string): string} getAttribute - XML内の要素の属性値を取得する関数
- * @property {string} textContent - XML内の要素のテキストコンテンツ
- */
 window.addEventListener("DOMContentLoaded", () => {
     const textarea = document.querySelector("textarea");
     const keyboardTable = document.getElementById("keyboard");

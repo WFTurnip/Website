@@ -8,10 +8,12 @@ const vowelsArray = ["a", "e", "i", "o", "u", "w"];
 const vowelsCasesArray = ["否", "与", "属", "対", "主", "流"];
 const vowelsPartOfSpeechTypesArray = ["附", "動", "容", "助", "副", "名"];
 const vowelsPronunciationArray = ["a", "e", "i", "o", "u", ""];
-
 /**
- *
- * @returns {Promise<void>}
+ * この関数は、json_indexディレクトリの内部データを生成するための関数である。
+ * まず、json_indexディレクトリを作成し、その中にインデックスJSONファイルを生成する。
+ * 次に、子ディレクトリである子JSONファイルを生成する。
+ * 最後に、子JSONファイルの中に、さらに子JSONファイルへのリンクを含むJSONファイルを生成する。
+ * これらの処理は、非同期関数として実装されているため、順番に実行されることが保証されている。
  */
 async function generateIndex() {
     let filename = path.join("json_index", "index.json");
@@ -36,7 +38,7 @@ async function generateIndex() {
 }
 
 /**
- *
+ * 指定された子音のJSONファイルを生成する関数
  * @param i
  * @returns {Promise<void>}
  */
@@ -66,7 +68,7 @@ async function generateConsonant(i) {
 }
 
 /**
- *
+ * 指定された子音のディレクトリを生成する関数
  * @param i
  * @returns {Promise<void>}
  */
@@ -81,7 +83,7 @@ async function generateConsonantDirectory(i) {
 }
 
 /**
- *
+ * 指定された語根のJSONファイルを生成する関数
  * @param i
  * @param j
  * @param k
@@ -120,7 +122,7 @@ async function generateRoot(i, j, k) {
 }
 
 /**
- *
+ * JSONファイルを生成する関数
  * @returns {Promise<void>}
  */
 async function generate() {

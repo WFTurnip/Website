@@ -77,7 +77,7 @@ async function generateIndex() {
 }
 
 /**
- *
+ * 指定された子音のファビコンを生成する関数
  * @param {*} i
  */
 async function generateConsonant(i) {

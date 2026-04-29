@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         resultYen.textContent = "日本円に換算：" + formatYen(yen);
     }
     /**
-     * 数値をコンパクト形式でフォーマットする
+     * 数値を標準形式でフォーマットする
      * @param {number} num - フォーマットする数値
      * @returns {string} - フォーマットされた文字列
      */
@@ -26,6 +26,11 @@ document.addEventListener("DOMContentLoaded", () => {
             compactDisplay: "long"
         });
     }
+    /**
+     * 数値を日本円形式でフォーマットする
+     * @param {number} num - フォーマットする数値
+     * @returns {string} - フォーマットされた文字列
+     */
     function formatYen(num) {
         return num.toLocaleString("ja-JP", {
             style: "currency",

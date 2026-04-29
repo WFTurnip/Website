@@ -124,7 +124,7 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
         const filtered = filterData(data, searchWordLower, "roots");
         filtered.forEach(item => {
             const rootIndex = document.createElement("p");
-            const root = document.createElement("span");
+            const root = document.createElement("b");
             root.textContent = item.root;
             root.classList.add("xesada");
             rootIndex.append(root);
@@ -134,7 +134,7 @@ async function rootsSearch(searchWordLower, isOn, anyOptionOn) {
             details.appendChild(rootIndex);
             const rootHref = document.createElement("p");
             const a = document.createElement("a");
-            const span = document.createElement("span");
+            const span = document.createElement("b");
             span.classList.add("xesada");
             span.textContent = item.root;
             a.href = "html_index" + "/" + item.rootHtmlHref;
@@ -194,10 +194,10 @@ async function wordsSearch(searchWordLower, isOn, anyOptionOn) {
             details.appendChild(wordMeaning);
             const wordLink = document.createElement("p");
             const a = document.createElement("a");
-            const span = document.createElement("span");
+            const span = document.createElement("b");
             span.classList.add("xesada");
             span.textContent = item.word;
-            a.href = "html_index" + "/" + item.wordHtmlHref + ":~:text=" + encodeURIComponent(item.word) + encodeURIComponent("/" + item.wordPronunciation + "/")+ encodeURIComponent(item.wordCases) + encodeURIComponent(item.wordPartOfSpeech);
+            a.href = "html_index" + "/" + item.wordHtmlHref + ":~:text=" + encodeURIComponent(item.word) + encodeURIComponent("/" + item.wordPronunciation + "/") + encodeURIComponent(item.wordCases) + encodeURIComponent(item.wordPartOfSpeech);
             a.append("単語", span, "の詳細ページ");
             wordLink.appendChild(a);
             details.appendChild(wordLink);

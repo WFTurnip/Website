@@ -392,14 +392,14 @@ async function generateRoot(i, j, k) {
                     consonantsArray[i] + vowelsArray[m] +
                     consonantsArray[j] + vowelsArray[n] +
                     consonantsArray[k] + vowelsArray[l];
-                let word = document.createElement("span");
+                let word = document.createElement("b");
                 word.classList.add("xesada");
                 word.textContent =
                     consonantsArray[i] + vowelsArray[m] +
                     consonantsArray[j] + vowelsArray[n] +
                     consonantsArray[k] + vowelsArray[l];
                 dt.appendChild(word);
-                let wordPronunciation = document.createElement("span");
+                let wordPronunciation = document.createElement("b");
                 wordPronunciation.classList.add("pronunciation");
                 wordPronunciation.textContent =
                     "/" +
@@ -408,11 +408,11 @@ async function generateRoot(i, j, k) {
                     consonantsPronunciationArray[k] + vowelsPronunciationArray[l] +
                     "/";
                 dt.appendChild(wordPronunciation);
-                let wordCases = document.createElement("span");
+                let wordCases = document.createElement("b");
                 wordCases.classList.add("cases");
                 wordCases.textContent = vowelsCasesArray[m] + vowelsCasesArray[n] + "格";
                 dt.appendChild(wordCases);
-                let wordPartOfSpeech = document.createElement("span");
+                let wordPartOfSpeech = document.createElement("b");
                 wordPartOfSpeech.classList.add("part-of-speech");
                 wordPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[l] + "詞";
                 dt.appendChild(wordPartOfSpeech);
@@ -467,7 +467,13 @@ async function generateRoot(i, j, k) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
+/**
+ * この関数は、html_indexディレクトリの内部データを生成するための関数である。
+ * まず、html_indexディレクトリを作成し、その中にインデックスHTMLファイルを生成する。
+ * 次に、子ディレクトリである子HTMLファイルを生成する。
+ * 最後に、子HTMLファイルの中に、さらに子HTMLファイルへのリンクを含むHTMLファイルを生成する。
+ * これらの処理は、非同期関数として実装されているため、順番に実行されることが保証されている。
+ */
 async function generate() {
     let directory = path.join("html_index");
     try {
