@@ -59,27 +59,27 @@ function generateVowelPronunciationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0; i < vowelsPronunciationHorizontalArray.length; i++) {
+    for (let i = 0; i < vowelHeight.length; i++) {
         let vowelsPronunciationHorizontal = document.createElement("th");
-        vowelsPronunciationHorizontal.textContent = vowelsPronunciationHorizontalArray[i] + "母音";
+        vowelsPronunciationHorizontal.textContent = vowelHeight[i] + "母音";
         vowelsPronunciationHorizontalRow.appendChild(vowelsPronunciationHorizontal);
     }
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowelsPronunciationVerticalArray.length; i++) {
+    for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelsPronunciationVerticalArray[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "円唇母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
-        for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
+        for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
             let vowelsCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j];
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j];
             vowels.classList.add("xesada");
             vowelsCell.appendChild(vowels);
             let vowelsPronunciation = document.createElement("div");
-            vowelsPronunciation.textContent = "/" + vowelsPronunciationArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "/";
+            vowelsPronunciation.textContent = "/" + vowelsPronunciationArray[i * vowelsArray.length / vowelRoundedness.length + j] + "/";
             vowelsPronunciation.classList.add("pronunciation");
             vowelsCell.appendChild(vowelsPronunciation);
             vowelsVerticalRow.appendChild(vowelsCell);
@@ -252,27 +252,27 @@ function generateFirstCaseTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0; i < vowelsPronunciationHorizontalArray.length; i++) {
+    for (let i = 0; i < vowelHeight.length; i++) {
         let vowelsPronunciationHorizontal = document.createElement("th");
-        vowelsPronunciationHorizontal.textContent = vowelsPronunciationHorizontalArray[i] + "母音";
+        vowelsPronunciationHorizontal.textContent = vowelHeight[i] + "母音";
         vowelsPronunciationHorizontalRow.appendChild(vowelsPronunciationHorizontal);
     }
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowelsPronunciationVerticalArray.length; i++) {
+    for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelsPronunciationVerticalArray[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
-        for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
+        for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j] + "\u{25CC}\u{25CC}";
             vowels.classList.add("xesada");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsCase.classList.add("case");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -292,27 +292,27 @@ function generateSecondCaseTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0; i < vowelsPronunciationHorizontalArray.length; i++) {
+    for (let i = 0; i < vowelHeight.length; i++) {
         let vowelsPronunciationHorizontal = document.createElement("th");
-        vowelsPronunciationHorizontal.textContent = vowelsPronunciationHorizontalArray[i] + "母音";
+        vowelsPronunciationHorizontal.textContent = vowelHeight[i] + "母音";
         vowelsPronunciationHorizontalRow.appendChild(vowelsPronunciationHorizontal);
     }
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowelsPronunciationVerticalArray.length; i++) {
+    for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelsPronunciationVerticalArray[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
-        for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
+        for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}";
+            vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j] + "\u{25CC}";
             vowels.classList.add("xesada");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsCase.classList.add("case");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -376,27 +376,27 @@ function generatePrefixCaseTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0; i < vowelsPronunciationHorizontalArray.length; i++) {
+    for (let i = 0; i < vowelHeight.length; i++) {
         let vowelsPronunciationHorizontal = document.createElement("th");
-        vowelsPronunciationHorizontal.textContent = vowelsPronunciationHorizontalArray[i] + "母音";
+        vowelsPronunciationHorizontal.textContent = vowelHeight[i] + "母音";
         vowelsPronunciationHorizontalRow.appendChild(vowelsPronunciationHorizontal);
     }
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowelsPronunciationVerticalArray.length; i++) {
+    for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelsPronunciationVerticalArray[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "円唇母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
-        for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
+        for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "\u{25CC}\u{25CC}\u{25CC}";
+            vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j] + "\u{25CC}\u{25CC}\u{25CC}";
             vowels.classList.add("xesada");
             VowelCell.appendChild(vowels);
             let vowelsPartOfSpeech = document.createElement("div");
-            vowelsPartOfSpeech.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
+            vowelsPartOfSpeech.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsPartOfSpeech.classList.add("case");
             VowelCell.appendChild(vowelsPartOfSpeech);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -416,27 +416,27 @@ function generateSuffixCaseTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0; i < vowelsPronunciationHorizontalArray.length; i++) {
+    for (let i = 0; i < vowelHeight.length; i++) {
         let vowelsPronunciationHorizontal = document.createElement("th");
-        vowelsPronunciationHorizontal.textContent = vowelsPronunciationHorizontalArray[i] + "母音";
+        vowelsPronunciationHorizontal.textContent = vowelHeight[i] + "母音";
         vowelsPronunciationHorizontalRow.appendChild(vowelsPronunciationHorizontal);
     }
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowelsPronunciationVerticalArray.length; i++) {
+    for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelsPronunciationVerticalArray[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "円唇母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
-        for (let j = 0; j < vowelsArray.length / vowelsPronunciationVerticalArray.length; j++) {
+        for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
             let VowelCell = document.createElement("td");
             let vowels = document.createElement("div");
-            vowels.textContent = "\u{25CC}\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j];
+            vowels.textContent = "\u{25CC}\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j];
             vowels.classList.add("xesada");
             VowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
-            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "格";
+            vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsCase.classList.add("case");
             VowelCell.appendChild(vowelsCase);
             vowelsVerticalRow.appendChild(VowelCell);
@@ -472,11 +472,11 @@ function generatePartOfSpeechTable() {
         for (let j = 0; j < vowelsArray.length / vowelsPartOfSpeechTypesVerticalArray.length; j++) {
             let vowelsRow = document.createElement("td");
             let vowel = document.createElement("div");
-            vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j];
+            vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j];
             vowel.classList.add("xesada");
             vowelsRow.appendChild(vowel);
             let vowelsPartOfSpeech = document.createElement("div");
-            vowelsPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i * vowelsArray.length / vowelsPronunciationVerticalArray.length + j] + "詞";
+            vowelsPartOfSpeech.textContent = vowelsPartOfSpeechTypesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "詞";
             vowelsPartOfSpeech.classList.add("part-of-speech");
             vowelsRow.appendChild(vowelsPartOfSpeech);
             vowelsVerticalRow.appendChild(vowelsRow);
@@ -496,14 +496,14 @@ function generateArticleConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     conjunctHorizontal.appendChild(blank);
-    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < middleTongueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}a" + middleTangueConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}a" + middleTongueConsonantsArray[i];
         p.classList.add("xesada", "article-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConceptArray[i] + "形";
+        p2.textContent = middleTongueConceptArray[i] + "形";
         p2.classList.add("article-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -511,26 +511,26 @@ function generateArticleConjugationTable() {
     thead.appendChild(conjunctHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < upperTongueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = upperTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}a";
+        p.textContent = upperTongueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}a";
         p.classList.add("xesada", "article-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConceptArray[i] + "相";
+        p2.textContent = upperTongueConceptArray[i] + "相";
         p2.classList.add("article-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
+        for (let j = 0; j < middleTongueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("xesada", "article-conjugation-form-consonant");
-            p.append(upperTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}a", middleTangueConsonantsArray[j]);
+            p.append(upperTongueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}a", middleTongueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(upperTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
+            p2.append(upperTongueConceptArray[i] + "相", document.createElement("wbr"), middleTongueConceptArray[j] + "形");
             p2.classList.add("article-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -550,14 +550,14 @@ function generateVerbConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     conjunctHorizontal.appendChild(blank);
-    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < middleTongueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}e" + middleTangueConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}e" + middleTongueConsonantsArray[i];
         p.classList.add("xesada", "verb-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConceptArray[i] + "形";
+        p2.textContent = middleTongueConceptArray[i] + "形";
         p2.classList.add("verb-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -565,26 +565,26 @@ function generateVerbConjugationTable() {
     thead.appendChild(conjunctHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < lowerTongueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}e";
+        p.textContent = lowerTongueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}e";
         p.classList.add("xesada", "verb-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConceptArray[i] + "相";
+        p2.textContent = lowerTongueConceptArray[i] + "相";
         p2.classList.add("verb-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
+        for (let j = 0; j < middleTongueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("xesada", "verb-conjugation-form-consonant");
-            p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}e", middleTangueConsonantsArray[j]);
+            p.append(lowerTongueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}e", middleTongueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
+            p2.append(lowerTongueConceptArray[i] + "相", document.createElement("wbr"), middleTongueConceptArray[j] + "形");
             p2.classList.add("verb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -604,14 +604,14 @@ function generateAdjectiveConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPronunciationHorizontalRow.appendChild(blank);
-    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < upperTongueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + upperTangueConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + upperTongueConsonantsArray[i];
         p.classList.add("xesada", "adjective-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConceptArray[i] + "形";
+        p2.textContent = upperTongueConceptArray[i] + "形";
         p2.classList.add("adjective-tense");
         th.appendChild(p2);
         vowelsPronunciationHorizontalRow.appendChild(th);
@@ -619,26 +619,26 @@ function generateAdjectiveConjugationTable() {
     thead.appendChild(vowelsPronunciationHorizontalRow);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < lowerTongueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
+        p2.textContent = lowerTongueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
         p2.classList.add("xesada", "adjective-aspect-consonant");
         th.appendChild(p2);
         let p3 = document.createElement("div");
-        p3.textContent = lowerTangueConceptArray[i] + "相";
+        p3.textContent = lowerTongueConceptArray[i] + "相";
         p3.classList.add("adjective-aspect");
         th.appendChild(p3);
         tr.appendChild(th);
-        for (let j = 0; j < upperTangueConsonantsArray.length; j++) {
+        for (let j = 0; j < upperTongueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("xesada", "adjective-conjugation-form-consonant");
-            p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTangueConsonantsArray[j]);
+            p.append(lowerTongueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTongueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), upperTangueConceptArray[j] + "形");
+            p2.append(lowerTongueConceptArray[i] + "相", document.createElement("wbr"), upperTongueConceptArray[j] + "形");
             p2.classList.add("adjective-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -658,14 +658,14 @@ function generateParticleConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     conjunctHorizontal.appendChild(blank);
-    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < middleTongueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}o" + middleTangueConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}o" + middleTongueConsonantsArray[i];
         p.classList.add("xesada", "particle-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConceptArray[i] + "形";
+        p2.textContent = middleTongueConceptArray[i] + "形";
         p2.classList.add("particle-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -673,26 +673,26 @@ function generateParticleConjugationTable() {
     thead.appendChild(conjunctHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < upperTongueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = upperTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}o";
+        p.textContent = upperTongueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}o";
         p.classList.add("xesada", "particle-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConceptArray[i] + "相";
+        p2.textContent = upperTongueConceptArray[i] + "相";
         p2.classList.add("particle-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
+        for (let j = 0; j < middleTongueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("xesada", "particle-conjugation-form-consonant");
-            p.append(upperTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}o", middleTangueConsonantsArray[j]);
+            p.append(upperTongueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}o", middleTongueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(upperTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
+            p2.append(upperTongueConceptArray[i] + "相", document.createElement("wbr"), middleTongueConceptArray[j] + "形");
             p2.classList.add("particle-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -712,14 +712,14 @@ function generateAdverbConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     conjunctHorizontal.appendChild(blank);
-    for (let i = 0; i < middleTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < middleTongueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + middleTangueConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + middleTongueConsonantsArray[i];
         p.classList.add("xesada", "adverb-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = middleTangueConceptArray[i] + "形";
+        p2.textContent = middleTongueConceptArray[i] + "形";
         p2.classList.add("adverb-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -727,26 +727,26 @@ function generateAdverbConjugationTable() {
     thead.appendChild(conjunctHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < lowerTongueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
+        p.textContent = lowerTongueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
         p.classList.add("xesada", "adverb-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConceptArray[i] + "相";
+        p2.textContent = lowerTongueConceptArray[i] + "相";
         p2.classList.add("adverb-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < middleTangueConsonantsArray.length; j++) {
+        for (let j = 0; j < middleTongueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("xesada", "adverb-conjugation-form-consonant");
-            p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", middleTangueConsonantsArray[j]);
+            p.append(lowerTongueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", middleTongueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), middleTangueConceptArray[j] + "形");
+            p2.append(lowerTongueConceptArray[i] + "相", document.createElement("wbr"), middleTongueConceptArray[j] + "形");
             p2.classList.add("adverb-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
@@ -766,14 +766,14 @@ function generateNounConjugationTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     conjunctHorizontal.appendChild(blank);
-    for (let i = 0; i < upperTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < upperTongueConsonantsArray.length; i++) {
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + upperTangueConsonantsArray[i];
+        p.textContent = "\u{25CC}\u{25CC}\u{25CC}u" + upperTongueConsonantsArray[i];
         p.classList.add("xesada", "noun-tense-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = upperTangueConceptArray[i] + "形";
+        p2.textContent = upperTongueConceptArray[i] + "形";
         p2.classList.add("noun-tense");
         th.appendChild(p2);
         conjunctHorizontal.appendChild(th);
@@ -781,26 +781,26 @@ function generateNounConjugationTable() {
     thead.appendChild(conjunctHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < lowerTangueConsonantsArray.length; i++) {
+    for (let i = 0; i < lowerTongueConsonantsArray.length; i++) {
         let tr = document.createElement("tr");
         let th = document.createElement("th");
         let p = document.createElement("div");
-        p.textContent = lowerTangueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
+        p.textContent = lowerTongueConsonantsArray[i] + "\u{25CC}\u{25CC}\u{25CC}u";
         p.classList.add("xesada", "noun-aspect-consonant");
         th.appendChild(p);
         let p2 = document.createElement("div");
-        p2.textContent = lowerTangueConceptArray[i] + "相";
+        p2.textContent = lowerTongueConceptArray[i] + "相";
         p2.classList.add("noun-aspect");
         th.appendChild(p2);
         tr.appendChild(th);
-        for (let j = 0; j < upperTangueConsonantsArray.length; j++) {
+        for (let j = 0; j < upperTongueConsonantsArray.length; j++) {
             let td = document.createElement("td");
             let p = document.createElement("div");
             p.classList.add("xesada", "noun-conjugation-form-consonant");
-            p.append(lowerTangueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTangueConsonantsArray[j]);
+            p.append(lowerTongueConsonantsArray[i], "\u{25CC}\u{25CC}\u{25CC}u", upperTongueConsonantsArray[j]);
             td.appendChild(p);
             let p2 = document.createElement("div");
-            p2.append(lowerTangueConceptArray[i] + "相", document.createElement("wbr"), upperTangueConceptArray[j] + "形");
+            p2.append(lowerTongueConceptArray[i] + "相", document.createElement("wbr"), upperTongueConceptArray[j] + "形");
             p2.classList.add("noun-conjugation-form");
             td.appendChild(p2);
             tr.appendChild(td);
