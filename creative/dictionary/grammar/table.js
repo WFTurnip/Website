@@ -70,7 +70,7 @@ function generateVowelPronunciationTable() {
     for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
             let vowelsCell = document.createElement("td");
@@ -266,16 +266,16 @@ function generateFirstCaseTable() {
         vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
-            let VowelCell = document.createElement("td");
+            let vowelCell = document.createElement("td");
             let vowels = document.createElement("div");
             vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j] + "\u{25CC}\u{25CC}";
             vowels.classList.add("xesada");
-            VowelCell.appendChild(vowels);
+            vowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
             vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsCase.classList.add("case");
-            VowelCell.appendChild(vowelsCase);
-            vowelsVerticalRow.appendChild(VowelCell);
+            vowelCell.appendChild(vowelsCase);
+            vowelsVerticalRow.appendChild(vowelCell);
         }
         tbody.appendChild(vowelsVerticalRow);
     }
@@ -306,16 +306,16 @@ function generateSecondCaseTable() {
         vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
-            let VowelCell = document.createElement("td");
+            let vowelCell = document.createElement("td");
             let vowels = document.createElement("div");
             vowels.textContent = "\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j] + "\u{25CC}";
             vowels.classList.add("xesada");
-            VowelCell.appendChild(vowels);
+            vowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
             vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsCase.classList.add("case");
-            VowelCell.appendChild(vowelsCase);
-            vowelsVerticalRow.appendChild(VowelCell);
+            vowelCell.appendChild(vowelsCase);
+            vowelsVerticalRow.appendChild(vowelCell);
         }
         tbody.appendChild(vowelsVerticalRow);
     }
@@ -387,19 +387,19 @@ function generatePrefixCaseTable() {
     for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
-            let VowelCell = document.createElement("td");
+            let vowelCell = document.createElement("td");
             let vowels = document.createElement("div");
             vowels.textContent = "\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j] + "\u{25CC}\u{25CC}\u{25CC}";
             vowels.classList.add("xesada");
-            VowelCell.appendChild(vowels);
+            vowelCell.appendChild(vowels);
             let vowelsPartOfSpeech = document.createElement("div");
             vowelsPartOfSpeech.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsPartOfSpeech.classList.add("case");
-            VowelCell.appendChild(vowelsPartOfSpeech);
-            vowelsVerticalRow.appendChild(VowelCell);
+            vowelCell.appendChild(vowelsPartOfSpeech);
+            vowelsVerticalRow.appendChild(vowelCell);
         }
         tbody.appendChild(vowelsVerticalRow);
     }
@@ -427,19 +427,19 @@ function generateSuffixCaseTable() {
     for (let i = 0; i < vowelRoundedness.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "円唇母音";
+        vowelsPronunciationVertical.textContent = vowelRoundedness[i] + "母音";
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
         for (let j = 0; j < vowelsArray.length / vowelRoundedness.length; j++) {
-            let VowelCell = document.createElement("td");
+            let vowelCell = document.createElement("td");
             let vowels = document.createElement("div");
             vowels.textContent = "\u{25CC}\u{25CC}\u{25CC}\u{25CC}" + vowelsArray[i * vowelsArray.length / vowelRoundedness.length + j];
             vowels.classList.add("xesada");
-            VowelCell.appendChild(vowels);
+            vowelCell.appendChild(vowels);
             let vowelsCase = document.createElement("div");
             vowelsCase.textContent = vowelsCasesArray[i * vowelsArray.length / vowelRoundedness.length + j] + "格";
             vowelsCase.classList.add("case");
-            VowelCell.appendChild(vowelsCase);
-            vowelsVerticalRow.appendChild(VowelCell);
+            vowelCell.appendChild(vowelsCase);
+            vowelsVerticalRow.appendChild(vowelCell);
         }
         tbody.appendChild(vowelsVerticalRow);
     }
