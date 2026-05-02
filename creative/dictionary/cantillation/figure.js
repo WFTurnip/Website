@@ -31,7 +31,7 @@ function generateCantillationPronunciationFigure() {
     figure.appendChild(caption);
     document.getElementById("cantillation-pronunciation-figure").appendChild(figure);
 }
-function generateCantillationMarksFigure() {
+function generatecantillationMarkArrayFigure() {
     const figure = document.createElement("figure");
     const svgNameSpace = "http://www.w3.org/2000/svg";
     let width = 256;
@@ -66,5 +66,5 @@ function generateCantillationMarksFigure() {
 }
 window.addEventListener("load", () => {
     generateCantillationPronunciationFigure();
-    generateCantillationMarksFigure();
+    generatecantillationMarkArrayFigure();
 });
