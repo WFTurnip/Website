@@ -1,66 +1,66 @@
 @font-face {
-    font-family: 'kodito';
-    src: url('kodito.ttf') format('truetype');
+    font-family: "kodito";
+    src: url("kodito.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'lekuta';
-    src: url('lekuta.ttf') format('truetype');
+    font-family: "lekuta";
+    src: url("lekuta.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'lozegw';
-    src: url('lozegw.ttf') format('truetype');
+    font-family: "lozegw";
+    src: url("lozegw.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'makina';
-    src: url('makina.ttf') format('truetype');
+    font-family: "makina";
+    src: url("makina.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'piswpi';
-    src: url('piswpi.ttf') format('truetype');
+    font-family: "piswpi";
+    src: url("piswpi.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'polwgo';
-    src: url('polwgo.ttf') format('truetype');
+    font-family: "polwgo";
+    src: url("polwgo.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'lozegw';
-    src: url('lozegw.ttf') format('truetype');
+    font-family: "lozegw";
+    src: url("lozegw.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'silwki';
-    src: url('silwki.ttf') format('truetype');
+    font-family: "silwki";
+    src: url("silwki.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'sulive';
-    src: url('sulive.ttf') format('truetype');
+    font-family: "sulive";
+    src: url("sulive.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'xavani';
-    src: url('xavani.ttf') format('truetype');
+    font-family: "xavani";
+    src: url("xavani.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'xesada';
-    src: url('xesada.ttf') format('truetype');
+    font-family: "xesada";
+    src: url("xesada.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'xidili';
-    src: url('xidili.ttf') format('truetype');
+    font-family: "xidili";
+    src: url("xidili.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'zosokw';
-    src: url('zosokw.ttf') format('truetype');
+    font-family: "zosokw";
+    src: url("zosokw.ttf") format("truetype");
 }
 
 body {
@@ -89,56 +89,56 @@ table {
 }
 
 .kodito {
-    font-family: 'kodito';
+    font-family: "kodito";
 }
 
 .lekuta {
-    font-family: 'lekuta';
+    font-family: "lekuta";
 }
 
 .lozegw {
-    font-family: 'lozegw';
+    font-family: "lozegw";
 }
 
 .makina {
-    font-family: 'makina';
+    font-family: "makina";
 }
 
 .piswpi {
-    font-family: 'piswpi';
+    font-family: "piswpi";
 }
 
 .polwgo {
-    font-family: 'polwgo';
+    font-family: "polwgo";
 }
 
 .lozegw {
-    font-family: 'lozegw';
+    font-family: "lozegw";
 }
 
 .silwki {
-    font-family: 'silwki';
+    font-family: "silwki";
 }
 
 .sulive {
-    font-family: 'sulive';
+    font-family: "sulive";
     font-feature-settings: "calt" 1
 }
 
 .xavani {
-    font-family: 'xavani';
+    font-family: "xavani";
 }
 
 .xesada {
-    font-family: 'xesada';
+    font-family: "xesada";
 }
 
 .xidili {
-    font-family: 'xidili';
+    font-family: "xidili";
 }
 
 .zosokw {
-    font-family: 'zosokw';
+    font-family: "zosokw";
     font-feature-settings: "calt" 1;
 }
 

@@ -2,7 +2,7 @@ const fs = require("fs").promises;
 const path = require("path");
 const beautify = require("json-beautify");
 const consonantArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const vowelArray = ["a", "e", "i", "o", "u", "w"];
 const vowelCaseArray = ["否", "与", "属", "対", "主", "流"];
@@ -20,7 +20,7 @@ async function generateIndex() {
     let consonants = [];
     for (let i = 0; i < consonantArray.length; i++) {
         let consonant = consonantArray[i];
-        let consonantConcept = consonantsConceptArray[i];
+        let consonantConcept = consonantConceptArray[i];
         consonants.push({
             consonant: consonant,
             consonantConcept: consonantConcept,
@@ -36,10 +36,9 @@ async function generateIndex() {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 /**
  * 指定された子音のJSONファイルを生成する関数
- * @param i
+ * @param {number} i - 第一子音のインデックス
  * @returns {Promise<void>}
  */
 async function generateConsonant(i) {
@@ -48,7 +47,7 @@ async function generateConsonant(i) {
     for (let j = 0; j < consonantArray.length; j++) {
         for (let k = 0; k < consonantArray.length; k++) {
             let root = consonantArray[i] + consonantArray[j] + consonantArray[k];
-            let rootConcept = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
+            let rootConcept = consonantConceptArray[i] + consonantConceptArray[j] + consonantConceptArray[k];
             let rootHtmlHref = consonantArray[i] + "/" + consonantArray[i] + consonantArray[j] + consonantArray[k] + ".html";
             roots.push({
                 root: root,
@@ -66,27 +65,25 @@ async function generateConsonant(i) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 /**
  * 指定された子音のディレクトリを生成する関数
- * @param i
+ * @param {number} i - 第一子音のインデックス
  * @returns {Promise<void>}
  */
 async function generateConsonantDirectory(i) {
-    let directory = path.join("json_index", consonantArray[i]);
+    let directoryName = path.join("json_index", consonantArray[i]);
     try {
-        await fs.mkdir(directory, {recursive: true});
-        console.log("ディレクトリ" + directory + "を作成しました。");
+        await fs.mkdir(directoryName, {recursive: true});
+        console.log("ディレクトリ" + directoryName + "を作成しました。");
     } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+        console.error("ディレクトリ" + directoryName + "を作成できませんでした。", error);
     }
 }
-
 /**
  * 指定された語根のJSONファイルを生成する関数
- * @param i
- * @param j
- * @param k
+ * @param {number} i - 第一子音のインデックス
+ * @param {number} j - 第二子音のインデックス
+ * @param {number} k - 第三子音のインデックス
  * @returns {Promise<void>}
  */
 async function generateRoot(i, j, k) {
@@ -120,18 +117,17 @@ async function generateRoot(i, j, k) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 /**
  * JSONファイルを生成する関数
  * @returns {Promise<void>}
  */
 async function generate() {
-    let directory = path.join("json_index");
+    let directoryName = path.join("json_index");
     try {
-        await fs.mkdir(directory, {recursive: true});
-        console.log("ディレクトリ" + directory + "を作成しました。");
+        await fs.mkdir(directoryName, {recursive: true});
+        console.log("ディレクトリ" + directoryName + "を作成しました。");
     } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+        console.error("ディレクトリ" + directoryName + "を作成できませんでした。", error);
     }
     await generateIndex();
     for (let i = 0; i < consonantArray.length; i++) {
@@ -143,7 +139,6 @@ async function generate() {
             }
         }
     }
-    console.log("ディレクトリ" + directory + "の内部データを生成完了。");
+    console.log("ディレクトリ" + directoryName + "の内部データを生成完了。");
 }
-
 generate();

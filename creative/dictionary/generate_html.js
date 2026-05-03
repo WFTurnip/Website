@@ -3,13 +3,12 @@ const path = require("path");
 const {JSDOM} = require("jsdom");
 const beautify = require("js-beautify").html;
 const consonantArray = ["k", "g", "t", "d", "s", "z", "q", "c", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
-const consonantsConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
+const consonantConceptArray = ["剥離", "癒着", "乖離", "同一", "肉体", "精神", "空白", "物質", "過去", "未来", "鎮静", "高揚", "受動", "能動", "創造", "破壊", "流動", "固定"];
 const consonantPronunciationArray = ["k", "g", "t", "d", "s", "z", "\u{0294}", "\u{0295}", "r", "l", "p", "b", "h", "x", "f", "v", "m", "n"];
 const vowelArray = ["a", "e", "i", "o", "u", "w"];
 const vowelCaseArray = ["否", "与", "属", "対", "主", "流"];
 const vowelPartOfSpeechTypeArray = ["附", "動", "容", "助", "副", "名"];
 const vowelPronunciationArray = ["a", "e", "i", "o", "u", ""];
-
 /**
  * インデックスHTMLファイルを生成する関数
  * インデックスファイルには、子ディレクトリである子HTMLファイルへのリンクが含まれる
@@ -47,7 +46,7 @@ async function generateIndex() {
     head.appendChild(link4);
     let link5 = document.createElement("link");
     link5.rel = "icon";
-    link5.href = "../favicon_index/" + "index" + ".svg";
+    link5.href = "../favicon_index" + "/index" + ".svg";
     head.appendChild(link5);
     let body = document.body;
     let header = document.createElement("header");
@@ -69,7 +68,7 @@ async function generateIndex() {
     let article = document.createElement("article");
     let figure = document.createElement("figure");
     let object = document.createElement("object");
-    object.data = "../favicon_index/" + "index" + ".svg";
+    object.data = "../favicon_index" + "/index" + ".svg";
     object.type = "image/svg+xml";
     figure.appendChild(object);
     let figcaption = document.createElement("figcaption");
@@ -91,7 +90,7 @@ async function generateIndex() {
         dt.appendChild(consonant);
         dl.appendChild(dt);
         let dd = document.createElement("dd");
-        dd.textContent = consonantsConceptArray[i];
+        dd.textContent = consonantConceptArray[i];
         dl.appendChild(dd);
         main.appendChild(dl);
     }
@@ -117,9 +116,8 @@ async function generateIndex() {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 /**
- *
+ * 子音を頭字とする語根の一覧を生成する関数
  * @param {*} i
  */
 async function generateConsonant(i) {
@@ -155,7 +153,7 @@ async function generateConsonant(i) {
     head.appendChild(link4);
     let link5 = document.createElement("link");
     link5.rel = "icon";
-    link5.href = "../favicon_index/" + consonantArray[i] + ".svg";
+    link5.href = "../favicon_index" + "/" + consonantArray[i] + ".svg";
     head.appendChild(link5);
     let body = document.body;
     let header = document.createElement("header");
@@ -200,7 +198,7 @@ async function generateConsonant(i) {
     let main = document.createElement("main");
     let p = document.createElement("p");
     let b = document.createElement("b");
-    b.textContent = consonantsConceptArray[i];
+    b.textContent = consonantConceptArray[i];
     b.classList.add("concept");
     p.append("この子音は", b, "の概念を表す。");
     main.appendChild(p);
@@ -218,7 +216,7 @@ async function generateConsonant(i) {
             dt.appendChild(root);
             dl.appendChild(dt);
             let dd = document.createElement("dd");
-            dd.textContent = consonantsConceptArray[i] + consonantsConceptArray[j] + consonantsConceptArray[k];
+            dd.textContent = consonantConceptArray[i] + consonantConceptArray[j] + consonantConceptArray[k];
             dl.appendChild(dd);
         }
     }
@@ -254,23 +252,21 @@ async function generateConsonant(i) {
         console.error("ファイル" + filename + "を作成できませんでした。", error);
     }
 }
-
 /**
- *
+ * 子HTMLファイルを生成する関数
  * @param {*} i
  */
 async function generateConsonantDirectory(i) {
-    let directory = path.join("html_index", consonantArray[i]);
+    let directoryName = path.join("html_index", consonantArray[i]);
     try {
-        await fs.mkdir(directory, {recursive: true});
-        console.log("ディレクトリ" + directory + "を作成しました。");
+        await fs.mkdir(directoryName, {recursive: true});
+        console.log("ディレクトリ" + directoryName + "を作成しました。");
     } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+        console.error("ディレクトリ" + directoryName + "を作成できませんでした。", error);
     }
 }
-
 /**
- *
+ * 子HTMLファイルを生成する関数
  * @param {*} i
  * @param {*} j
  * @param {*} k
@@ -348,10 +344,7 @@ async function generateRoot(i, j, k) {
     let h1 = document.createElement("h1");
     let span1 = document.createElement("span");
     span1.classList.add("xesada");
-    span1.textContent =
-        consonantArray[i] +
-        consonantArray[j] +
-        consonantArray[k];
+    span1.textContent = consonantArray[i] + consonantArray[j] + consonantArray[k];
     h1.append(span1, "を語根とする単語の一覧");
     body.appendChild(h1);
     let article = document.createElement("article");
@@ -368,10 +361,7 @@ async function generateRoot(i, j, k) {
     let main = document.createElement("main");
     let p = document.createElement("p");
     let b = document.createElement("b");
-    b.textContent =
-        consonantsConceptArray[i] +
-        consonantsConceptArray[j] +
-        consonantsConceptArray[k];
+    b.textContent = consonantConceptArray[i] + consonantConceptArray[j] + consonantConceptArray[k];
     b.classList.add("concept");
     p.append("この語根は", b, "の概念を表す。");
     main.append(p);
@@ -388,25 +378,14 @@ async function generateRoot(i, j, k) {
         for (let m = 0; m < vowelArray.length; m++) {
             for (let n = 0; n < vowelArray.length; n++) {
                 let dt = document.createElement("dt");
-                dt.id =
-                    consonantArray[i] + vowelArray[m] +
-                    consonantArray[j] + vowelArray[n] +
-                    consonantArray[k] + vowelArray[l];
+                dt.id = consonantArray[i] + vowelArray[m] + consonantArray[j] + vowelArray[n] + consonantArray[k] + vowelArray[l];
                 let word = document.createElement("b");
                 word.classList.add("xesada");
-                word.textContent =
-                    consonantArray[i] + vowelArray[m] +
-                    consonantArray[j] + vowelArray[n] +
-                    consonantArray[k] + vowelArray[l];
+                word.textContent = consonantArray[i] + vowelArray[m] + consonantArray[j] + vowelArray[n] + consonantArray[k] + vowelArray[l];
                 dt.appendChild(word);
                 let wordPronunciation = document.createElement("b");
                 wordPronunciation.classList.add("pronunciation");
-                wordPronunciation.textContent =
-                    "/" +
-                    consonantPronunciationArray[i] + vowelPronunciationArray[m] +
-                    consonantPronunciationArray[j] + vowelPronunciationArray[n] +
-                    consonantPronunciationArray[k] + vowelPronunciationArray[l] +
-                    "/";
+                wordPronunciation.textContent = "/" + consonantPronunciationArray[i] + vowelPronunciationArray[m] + consonantPronunciationArray[j] + vowelPronunciationArray[n] + consonantPronunciationArray[k] + vowelPronunciationArray[l] + "/";
                 dt.appendChild(wordPronunciation);
                 let wordCases = document.createElement("b");
                 wordCases.classList.add("cases");
@@ -475,12 +454,12 @@ async function generateRoot(i, j, k) {
  * これらの処理は、非同期関数として実装されているため、順番に実行されることが保証されている。
  */
 async function generate() {
-    let directory = path.join("html_index");
+    let directoryName = path.join("html_index");
     try {
-        await fs.mkdir(directory, {recursive: true});
-        console.log("ディレクトリ" + directory + "を作成しました。");
+        await fs.mkdir(directoryName, {recursive: true});
+        console.log("ディレクトリ" + directoryName + "を作成しました。");
     } catch (error) {
-        console.error("ディレクトリ" + directory + "を作成できませんでした。", error);
+        console.error("ディレクトリ" + directoryName + "を作成できませんでした。", error);
     }
     await generateIndex();
     for (let i = 0; i < consonantArray.length; i++) {
@@ -492,7 +471,6 @@ async function generate() {
             }
         }
     }
-    console.log("ディレクトリ" + directory + "の内部データを生成完了。");
+    console.log("ディレクトリ" + directoryName + "の内部データを生成完了。");
 }
-
 generate();

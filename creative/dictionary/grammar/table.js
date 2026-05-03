@@ -456,20 +456,20 @@ function generatePartOfSpeechTable() {
     let blank = document.createElement("th");
     blank.textContent = "";
     vowelsPartOfSpeechHorizontal.appendChild(blank);
-    for (let i = 0; i < vowelPartOfSpeechTypeHorizontalArray.length; i++) {
+    for (let i = 0; i < vowelPartOfSpeechHorizontalTypeArray.length; i++) {
         let vowelsPartOfSpeechHorizontalCell = document.createElement("th");
-        vowelsPartOfSpeechHorizontalCell.textContent = vowelPartOfSpeechTypeHorizontalArray[i] + "符";
+        vowelsPartOfSpeechHorizontalCell.textContent = vowelPartOfSpeechHorizontalTypeArray[i] + "符";
         vowelsPartOfSpeechHorizontal.appendChild(vowelsPartOfSpeechHorizontalCell);
     }
     thead.appendChild(vowelsPartOfSpeechHorizontal);
     table.appendChild(thead);
     let tbody = document.createElement("tbody");
-    for (let i = 0; i < vowelPartOfSpeechTypeVerticalArray.length; i++) {
+    for (let i = 0; i < vowelPartOfSpeechVerticalTypeArray.length; i++) {
         let vowelsVerticalRow = document.createElement("tr");
         let vowelsPronunciationVertical = document.createElement("th");
-        vowelsPronunciationVertical.textContent = "文法" + vowelPartOfSpeechTypeVerticalArray[i];
+        vowelsPronunciationVertical.textContent = "文法" + vowelPartOfSpeechVerticalTypeArray[i];
         vowelsVerticalRow.appendChild(vowelsPronunciationVertical);
-        for (let j = 0; j < vowelArray.length / vowelPartOfSpeechTypeVerticalArray.length; j++) {
+        for (let j = 0; j < vowelArray.length / vowelPartOfSpeechVerticalTypeArray.length; j++) {
             let vowelsRow = document.createElement("td");
             let vowel = document.createElement("div");
             vowel.textContent = "\u{25CC}\u{25CC}\u{25CC}" + vowelArray[i * vowelArray.length / vowelRoundednessArray.length + j];

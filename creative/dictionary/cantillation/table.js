@@ -52,7 +52,7 @@ function generateCantillationPronunciationTable() {
     table.appendChild(tbody);
     document.getElementById("cantillation-pronunciation-table").appendChild(table);
 }
-function generatecantillationMarkArrayTable() {
+function generateCantillationConceptTable() {
     let table = document.createElement("table");
     let caption = document.createElement("caption");
     caption.textContent = "朗唱記号表";
@@ -118,5 +118,5 @@ function generatecantillationMarkArrayTable() {
 }
 window.addEventListener("load", () => {
     generateCantillationPronunciationTable();
-    generatecantillationMarkArrayTable();
+    generateCantillationConceptTable();
 });

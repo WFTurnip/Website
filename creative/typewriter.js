@@ -76,7 +76,7 @@ window.addEventListener("DOMContentLoaded", () => {
             return;
         }
         const char = shiftActive && key.dataset.shift ? key.dataset.shift : key.dataset.normal;
-        textarea.value += char ?? '';
+        textarea.value += char ?? "";
     });
     fontSelector.addEventListener("change", (e) => {
         changeFont(parseInt(e.target.value));

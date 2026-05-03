@@ -4,6 +4,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const toSelect = document.getElementById("to");
     const result = document.getElementById("result");
     const resultYen = document.getElementById("result-yen");
+    /**
+     * 通貨を換算する
+     */
     function convertCurrency() {
         const amount = parseFloat(amountInput.value) || 0;
         const fromRate = parseFloat(fromSelect.value);
@@ -37,6 +40,9 @@ document.addEventListener("DOMContentLoaded", () => {
             currency: "JPY"
         });
     }
+    /**
+     * 入力フィールドとセレクトボックスの変更イベントに対して換算処理を実行する
+     */
     [amountInput, fromSelect, toSelect].forEach(element => {
         element.addEventListener("input", convertCurrency);
         element.addEventListener("change", convertCurrency);

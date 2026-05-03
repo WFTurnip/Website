@@ -39,7 +39,7 @@ const vowelPartOfSpeechTypeArray = ["附", "動", "容", "助", "副", "名"];
  */
 const vowelPronunciationArray = ["a", "e", "i", "o", "u", "\u{2205}"];
 /**
- * 母音の発音の水平配列
+ * 母音の高さの配列
  */
 const vowelBacknessArray = ["広", "中", "狭"];
 /**
@@ -49,11 +49,11 @@ const vowelRoundednessArray = ["非円唇", "円唇"];
 /**
  * 母音の品詞の水平配列
  */
-const vowelPartOfSpeechTypeHorizontalArray = ["限定", "動作", "状態"];
+const vowelPartOfSpeechHorizontalTypeArray = ["限定", "動作", "状態"];
 /**
  * 母音の品詞の垂直配列
  */
-const vowelPartOfSpeechTypeVerticalArray = ["核", "補助"];
+const vowelPartOfSpeechVerticalTypeArray = ["核", "補助"];
 /**
  * 上舌子音の配列
  */

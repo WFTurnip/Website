@@ -78,9 +78,11 @@ function generateVowelPronunciationFigure() {
 }
 function generateLtrFigure() {
     const svgNameSpace = "http://www.w3.org/2000/svg";
+    let width = 16;
+    let height = 16;
     let svg = document.createElementNS(svgNameSpace, "svg");
-    svg.setAttribute("width", 16);
-    svg.setAttribute("height", 16);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
     let polygon = document.createElementNS(svgNameSpace, "polygon");
     let coodinate = "8,0 0,8 8,16 16,8 8,8";
     polygon.setAttribute("points", coodinate);
@@ -89,9 +91,11 @@ function generateLtrFigure() {
 }
 function generateRtlFigure() {
     const svgNameSpace = "http://www.w3.org/2000/svg";
+    let width = 16;
+    let height = 16;
     let svg = document.createElementNS(svgNameSpace, "svg");
-    svg.setAttribute("width", 16);
-    svg.setAttribute("height", 16);
+    svg.setAttribute("width", width);
+    svg.setAttribute("height", height);
     let polygon = document.createElementNS(svgNameSpace, "polygon");
     let coodinate = "8,0 8,8 0,8 8,16 16,8";
     polygon.setAttribute("points", coodinate);
@@ -496,12 +500,22 @@ function generateArticleConjugationFigure() {
     svg.setAttribute("height", height);
     let centerX = width / 2;
     let centerY = height / 2;
-    let rect = document.createElementNS(svgNameSpace, "rect");
-    rect.setAttribute("x", width / 4);
-    rect.setAttribute("y", height / 4);
-    rect.setAttribute("width", centerX);
-    rect.setAttribute("height", centerY);
-    svg.appendChild(rect);
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgNameSpace, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / (apex / 2));
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / (apex / 2));
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / (apex / 2));
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / (apex / 2));
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
     figure.appendChild(svg);
     const caption = document.createElement("figcaption");
     caption.textContent = "附詞活用図";
@@ -519,12 +533,22 @@ function generateVerbConjugationFigure() {
     svg.setAttribute("height", height);
     let centerX = width / 2;
     let centerY = height / 2;
-    let rect = document.createElementNS(svgNameSpace, "rect");
-    rect.setAttribute("x", width / 4);
-    rect.setAttribute("y", height / 4);
-    rect.setAttribute("width", centerX);
-    rect.setAttribute("height", centerY);
-    svg.appendChild(rect);
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgNameSpace, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / (apex / 2));
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / (apex / 2));
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / (apex / 2));
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / (apex / 2));
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
     figure.appendChild(svg);
     const caption = document.createElement("figcaption");
     caption.textContent = "動詞活用図";
@@ -542,12 +566,22 @@ function generateAdjectiveConjugationFigure() {
     svg.setAttribute("height", height);
     let centerX = width / 2;
     let centerY = height / 2;
-    let rect = document.createElementNS(svgNameSpace, "rect");
-    rect.setAttribute("x", width / 4);
-    rect.setAttribute("y", height / 4);
-    rect.setAttribute("width", centerX);
-    rect.setAttribute("height", centerY);
-    svg.appendChild(rect);
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgNameSpace, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / (apex / 2));
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / (apex / 2));
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / (apex / 2));
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / (apex / 2));
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
     figure.appendChild(svg);
     const caption = document.createElement("figcaption");
     caption.textContent = "容詞活用図";
@@ -565,12 +599,22 @@ function generateParticleConjugationFigure() {
     svg.setAttribute("height", height);
     let centerX = width / 2;
     let centerY = height / 2;
-    let rect = document.createElementNS(svgNameSpace, "rect");
-    rect.setAttribute("x", width / 4);
-    rect.setAttribute("y", height / 4);
-    rect.setAttribute("width", centerX);
-    rect.setAttribute("height", centerY);
-    svg.appendChild(rect);
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgNameSpace, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / (apex / 2));
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / (apex / 2));
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / (apex / 2));
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / (apex / 2));
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
     figure.appendChild(svg);
     const caption = document.createElement("figcaption");
     caption.textContent = "助詞活用図";
@@ -588,12 +632,22 @@ function generateAdverbConjugationFigure() {
     svg.setAttribute("height", height);
     let centerX = width / 2;
     let centerY = height / 2;
-    let rect = document.createElementNS(svgNameSpace, "rect");
-    rect.setAttribute("x", width / 4);
-    rect.setAttribute("y", height / 4);
-    rect.setAttribute("width", centerX);
-    rect.setAttribute("height", centerY);
-    svg.appendChild(rect);
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgNameSpace, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / (apex / 2));
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / (apex / 2));
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / (apex / 2));
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / (apex / 2));
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
     figure.appendChild(svg);
     const caption = document.createElement("figcaption");
     caption.textContent = "副詞活用図";
@@ -611,12 +665,22 @@ function generateNounConjugationFigure() {
     svg.setAttribute("height", height);
     let centerX = width / 2;
     let centerY = height / 2;
-    let rect = document.createElementNS(svgNameSpace, "rect");
-    rect.setAttribute("x", width / 4);
-    rect.setAttribute("y", height / 4);
-    rect.setAttribute("width", centerX);
-    rect.setAttribute("height", centerY);
-    svg.appendChild(rect);
+    for (let i = 0; i <= apex; i++) {
+        for (let j = 2; j <= 3; j++) {
+            let line = document.createElementNS(svgNameSpace, "line");
+            let x1 = centerX + centerX * Math.sin(i * Math.PI / (apex / 2));
+            let y1 = centerY + centerY * Math.cos(i * Math.PI / (apex / 2));
+            let x2 = centerX + centerX * Math.sin((i + j) * Math.PI / (apex / 2));
+            let y2 = centerY + centerY * Math.cos((i + j) * Math.PI / (apex / 2));
+            line.setAttribute("x1", x1);
+            line.setAttribute("y1", y1);
+            line.setAttribute("x2", x2);
+            line.setAttribute("y2", y2);
+            line.setAttribute("stroke-width", 1);
+            line.setAttribute("stroke-linecap", "round");
+            svg.appendChild(line);
+        }
+    }
     figure.appendChild(svg);
     const caption = document.createElement("figcaption");
     caption.textContent = "名詞活用図";
