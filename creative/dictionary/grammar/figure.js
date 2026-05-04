@@ -322,7 +322,7 @@ function generateConjunctCaseFigure() {
         const firstCaseVowel = document.createElementNS(svgNameSpace, "text");
         const firstCase = document.createElementNS(svgNameSpace, "text");
         firstCaseVowel.setAttribute("x", firstCaseX);
-        firstCase.setAttribute("y", firstCaseY);
+        firstCaseVowel.setAttribute("y", firstCaseY);
         firstCase.setAttribute("x", firstCaseX);
         firstCase.setAttribute("y", firstCaseY);
         firstCaseVowel.textContent = "\u25cc" + vowelArray[i] + "\u25cc\u25cc";
