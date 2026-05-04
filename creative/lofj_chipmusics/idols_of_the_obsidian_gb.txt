@@ -19,7 +19,7 @@ BR/:<B>:/
 <
 DR/:<D>:/
 :/
-/:
+/:2
 ER/:<R>://:3ER<RR>:/
 DR/:<R>://:3DR<RR>:/
 >
@@ -46,7 +46,7 @@ L16
 /:$LOOP
 @W6
 L8
-/:
+/:2
 ER16GR16A16R16AR16BR16<D>
 BR16AR16B GAGE
 DRERERDE
@@ -70,7 +70,7 @@ L16
 /:3E:/R /:3D:/R /:3E:/R /:3>B<:/R
 /:3E:/R /:3D:/R /:3E:/R /:3G:/R
 /:3E:/R /:3D:/R /:3E:/R /:3B:/R
-/:
+/:2
 /:E:/DR /:ERD://:R:/ERGR
 /:E:/DR /:ERD://:R:/ERC-R
 :/
