@@ -1,0 +1,86 @@
+
+lookup calt {
+  lookupflag IgnoreMarks;
+    @cc0_match_1 = [\B \C \D \F \G \H \J \K \L \M \N \P \Q \R \S \T \V \X \Y \Z \b \c \d \f \g \h \j \k \l \m \n \p \q \r \s \t 
+	\v \x \y \z ];
+    @cc0_match_2 = [\uni0042.init \uni0043.init \uni0044.init \uni0046.init \uni0047.init 
+	\uni0048.init \uni004A.init \uni004B.init \uni004C.init 
+	\uni004D.init \uni004E.init \uni0050.init \uni0051.init 
+	\uni0052.init \uni0053.init \uni0054.init \uni0056.init 
+	\uni0058.init \uni0059.init \uni005A.init \uni0062.init 
+	\uni0063.init \uni0064.init \uni0066.init \uni0067.init 
+	\uni0068.init \uni006A.init \uni006B.init \uni006C.init 
+	\uni006D.init \uni006E.init \uni0070.init \uni0071.init 
+	\uni0072.init \uni0073.init \uni0074.init \uni0076.init 
+	\uni0078.init \uni0079.init \uni007A.init ];
+    @cc0_match_3 = [\uni0042.medi \uni0043.medi \uni0044.medi \uni0046.medi \uni0047.medi 
+	\uni0048.medi \uni004A.medi \uni004B.medi \uni004C.medi 
+	\uni004D.medi \uni004E.medi \uni0050.medi \uni0051.medi 
+	\uni0052.medi \uni0053.medi \uni0054.medi \uni0056.medi 
+	\uni0058.medi \uni0059.medi \uni005A.medi \uni0062.medi 
+	\uni0063.medi \uni0064.medi \uni0066.medi \uni0067.medi 
+	\uni0068.medi \uni006A.medi \uni006B.medi \uni006C.medi 
+	\uni006D.medi \uni006E.medi \uni0070.medi \uni0071.medi 
+	\uni0072.medi \uni0073.medi \uni0074.medi \uni0076.medi 
+	\uni0078.medi \uni0079.medi \uni007A.medi ];
+    @cc0_back_1 = [\B \C \D \F \G \H \J \K \L \M \N \P \Q \R \S \T \V \X \Y \Z \b \c \d \f \g \h \j \k \l \m \n \p \q \r \s \t 
+	\v \x \y \z ];
+    @cc0_back_2 = [\uni0042.init \uni0043.init \uni0044.init \uni0046.init \uni0047.init 
+	\uni0048.init \uni004A.init \uni004B.init \uni004C.init 
+	\uni004D.init \uni004E.init \uni0050.init \uni0051.init 
+	\uni0052.init \uni0053.init \uni0054.init \uni0056.init 
+	\uni0058.init \uni0059.init \uni005A.init \uni0062.init 
+	\uni0063.init \uni0064.init \uni0066.init \uni0067.init 
+	\uni0068.init \uni006A.init \uni006B.init \uni006C.init 
+	\uni006D.init \uni006E.init \uni0070.init \uni0071.init 
+	\uni0072.init \uni0073.init \uni0074.init \uni0076.init 
+	\uni0078.init \uni0079.init \uni007A.init ];
+    @cc0_back_3 = [\uni0042.medi \uni0043.medi \uni0044.medi \uni0046.medi \uni0047.medi 
+	\uni0048.medi \uni004A.medi \uni004B.medi \uni004C.medi 
+	\uni004D.medi \uni004E.medi \uni0050.medi \uni0051.medi 
+	\uni0052.medi \uni0053.medi \uni0054.medi \uni0056.medi 
+	\uni0058.medi \uni0059.medi \uni005A.medi \uni0062.medi 
+	\uni0063.medi \uni0064.medi \uni0066.medi \uni0067.medi 
+	\uni0068.medi \uni006A.medi \uni006B.medi \uni006C.medi 
+	\uni006D.medi \uni006E.medi \uni0070.medi \uni0071.medi 
+	\uni0072.medi \uni0073.medi \uni0074.medi \uni0076.medi 
+	\uni0078.medi \uni0079.medi \uni007A.medi ];
+    @cc0_ahead_1 = [\B \C \D \F \G \H \J \K \L \M \N \P \Q \R \S \T \V \X \Y \Z \b \c \d \f \g \h \j \k \l \m \n \p \q \r \s \t 
+	\v \x \y \z ];
+    @cc0_ahead_2 = [\uni0042.init \uni0043.init \uni0044.init \uni0046.init \uni0047.init 
+	\uni0048.init \uni004A.init \uni004B.init \uni004C.init 
+	\uni004D.init \uni004E.init \uni0050.init \uni0051.init 
+	\uni0052.init \uni0053.init \uni0054.init \uni0056.init 
+	\uni0058.init \uni0059.init \uni005A.init \uni0062.init 
+	\uni0063.init \uni0064.init \uni0066.init \uni0067.init 
+	\uni0068.init \uni006A.init \uni006B.init \uni006C.init 
+	\uni006D.init \uni006E.init \uni0070.init \uni0071.init 
+	\uni0072.init \uni0073.init \uni0074.init \uni0076.init 
+	\uni0078.init \uni0079.init \uni007A.init ];
+    @cc0_ahead_3 = [\uni0042.medi \uni0043.medi \uni0044.medi \uni0046.medi \uni0047.medi 
+	\uni0048.medi \uni004A.medi \uni004B.medi \uni004C.medi 
+	\uni004D.medi \uni004E.medi \uni0050.medi \uni0051.medi 
+	\uni0052.medi \uni0053.medi \uni0054.medi \uni0056.medi 
+	\uni0058.medi \uni0059.medi \uni005A.medi \uni0062.medi 
+	\uni0063.medi \uni0064.medi \uni0066.medi \uni0067.medi 
+	\uni0068.medi \uni006A.medi \uni006B.medi \uni006C.medi 
+	\uni006D.medi \uni006E.medi \uni0070.medi \uni0071.medi 
+	\uni0072.medi \uni0073.medi \uni0074.medi \uni0076.medi 
+	\uni0078.medi \uni0079.medi \uni007A.medi ];
+    sub @cc0_back_2 @cc0_match_1' @cc0_ahead_1  by [\uni0042.medi \uni0043.medi \uni0044.medi \uni0046.medi \uni0047.medi \uni0048.medi \uni004A.medi \uni004B.medi \uni004C.medi \uni004D.medi \uni004E.medi \uni0050.medi \uni0051.medi \uni0052.medi \uni0053.medi \uni0054.medi \uni0056.medi \uni0058.medi \uni0059.medi \uni005A.medi \uni0062.medi \uni0063.medi \uni0064.medi \uni0066.medi \uni0067.medi \uni0068.medi \uni006A.medi \uni006B.medi \uni006C.medi \uni006D.medi \uni006E.medi \uni0070.medi \uni0071.medi \uni0072.medi \uni0073.medi \uni0074.medi \uni0076.medi \uni0078.medi \uni0079.medi \uni007A.medi ] ;
+    sub @cc0_back_3 @cc0_match_1' @cc0_ahead_1  by [\uni0042.medi \uni0043.medi \uni0044.medi \uni0046.medi \uni0047.medi \uni0048.medi \uni004A.medi \uni004B.medi \uni004C.medi \uni004D.medi \uni004E.medi \uni0050.medi \uni0051.medi \uni0052.medi \uni0053.medi \uni0054.medi \uni0056.medi \uni0058.medi \uni0059.medi \uni005A.medi \uni0062.medi \uni0063.medi \uni0064.medi \uni0066.medi \uni0067.medi \uni0068.medi \uni006A.medi \uni006B.medi \uni006C.medi \uni006D.medi \uni006E.medi \uni0070.medi \uni0071.medi \uni0072.medi \uni0073.medi \uni0074.medi \uni0076.medi \uni0078.medi \uni0079.medi \uni007A.medi ] ;
+    sub @cc0_match_1' @cc0_ahead_1  by [\uni0042.init \uni0043.init \uni0044.init \uni0046.init \uni0047.init \uni0048.init \uni004A.init \uni004B.init \uni004C.init \uni004D.init \uni004E.init \uni0050.init \uni0051.init \uni0052.init \uni0053.init \uni0054.init \uni0056.init \uni0058.init \uni0059.init \uni005A.init \uni0062.init \uni0063.init \uni0064.init \uni0066.init \uni0067.init \uni0068.init \uni006A.init \uni006B.init \uni006C.init \uni006D.init \uni006E.init \uni0070.init \uni0071.init \uni0072.init \uni0073.init \uni0074.init \uni0076.init \uni0078.init \uni0079.init \uni007A.init ] ;
+    sub @cc0_back_2 @cc0_match_1'  by [\uni0042.fina \uni0043.fina \uni0044.fina \uni0046.fina \uni0047.fina \uni0048.fina \uni004A.fina \uni004B.fina \uni004C.fina \uni004D.fina \uni004E.fina \uni0050.fina \uni0051.fina \uni0052.fina \uni0053.fina \uni0054.fina \uni0056.fina \uni0058.fina \uni0059.fina \uni005A.fina \uni0062.fina \uni0063.fina \uni0064.fina \uni0066.fina \uni0067.fina \uni0068.fina \uni006A.fina \uni006B.fina \uni006C.fina \uni006D.fina \uni006E.fina \uni0070.fina \uni0071.fina \uni0072.fina \uni0073.fina \uni0074.fina \uni0076.fina \uni0078.fina \uni0079.fina \uni007A.fina ] ;
+    sub @cc0_back_3 @cc0_match_1'  by [\uni0042.fina \uni0043.fina \uni0044.fina \uni0046.fina \uni0047.fina \uni0048.fina \uni004A.fina \uni004B.fina \uni004C.fina \uni004D.fina \uni004E.fina \uni0050.fina \uni0051.fina \uni0052.fina \uni0053.fina \uni0054.fina \uni0056.fina \uni0058.fina \uni0059.fina \uni005A.fina \uni0062.fina \uni0063.fina \uni0064.fina \uni0066.fina \uni0067.fina \uni0068.fina \uni006A.fina \uni006B.fina \uni006C.fina \uni006D.fina \uni006E.fina \uni0070.fina \uni0071.fina \uni0072.fina \uni0073.fina \uni0074.fina \uni0076.fina \uni0078.fina \uni0079.fina \uni007A.fina ] ;
+    sub @cc0_match_1'  by [\uni0042.isol \uni0043.isol \uni0044.isol \uni0046.isol \uni0047.isol \uni0048.isol \uni004A.isol \uni004B.isol \uni004C.isol \uni004D.isol \uni004E.isol \uni0050.isol \uni0051.isol \uni0052.isol \uni0053.isol \uni0054.isol \uni0056.isol \uni0058.isol \uni0059.isol \uni005A.isol \uni0062.isol \uni0063.isol \uni0064.isol \uni0066.isol \uni0067.isol \uni0068.isol \uni006A.isol \uni006B.isol \uni006C.isol \uni006D.isol \uni006E.isol \uni0070.isol \uni0071.isol \uni0072.isol \uni0073.isol \uni0074.isol \uni0076.isol \uni0078.isol \uni0079.isol \uni007A.isol ] ;
+} calt;
+
+feature calt {
+  script DFLT;
+     language dflt ;
+      lookup calt;
+  script latn;
+     language dflt ;
+      lookup calt;
+
+} calt;

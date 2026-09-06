@@ -1,5 +1,6 @@
-<svg width="500" height="650" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M 250 100 A 225 225 0 0 0 25 325 A 225 225 0 0 0 250 550 A 225 225 0 0 0 475 325 A 225 225 0 0 0 250 100 z M 250 150 A 175 175 0 0 1 425 325 A 175 175 0 0 1 250 500 A 175 175 0 0 1 75 325 A 175 175 0 0 1 250 150 z " />
-    <circle cx="500" cy="325" r="25" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="650" version="1.1" id="svg3" sodipodi:docname="uni0052.init.svg" inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs3" />
+    <sodipodi:namedview id="namedview3" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.77848101" inkscape:cx="249.84553" inkscape:cy="325.63415" inkscape:window-width="1095" inkscape:window-height="724" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg3" />
+    <path id="path3" d="m 25,325 c 0,124.26407 100.73593,225 225,225 115.81384,0 211.19085,-87.50124 223.62695,-200 H 500 c 13.80712,0 25,-11.19288 25,-25 0,-13.80712 -11.19288,-25 -25,-25 H 473.62695 C 461.19085,187.50124 365.81384,100 250,100 125.73593,100 25,200.73593 25,325 Z M 423.20508,300 H 250 c -41.42136,0 -75,-33.57864 -75,-75 0,-38.40072 28.87645,-70.01043 66.08984,-74.42383 2.96467,-0.26781 5.93569,-0.45993 8.91016,-0.57617 86.99243,0 160.77759,63.89983 173.20508,150 z M 125,225 c 0,69.03559 55.96441,125 125,125 H 423.20508 C 410.77759,436.10017 336.99243,500 250,500 153.35017,500 75,421.64983 75,325 75.000135,277.98338 93.919099,232.94446 127.49414,200.03125 125.85849,208.0995 125,216.44918 125,225 Z" sodipodi:nodetypes="sscssscsscsscccsscsccs" />
 </svg>

@@ -1,6 +1,6 @@
-<svg width="500" height="650" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M 50 100 A 25 25 0 0 0 25 125 L 25 325 A 225 225 0 0 0 250 550 A 225 225 0 0 0 475 325 L 475 125 A 25 25 0 0 0 450 100 A 25 25 0 0 0 425 125 L 425 325 A 175 175 0 0 1 250 500 A 175 175 0 0 1 75 325 L 75 125 A 25 25 0 0 0 50 100 z " />
-    <circle cx="000" cy="325" r="25" />
-    <circle cx="500" cy="325" r="25" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="650" version="1.1" id="svg4" sodipodi:docname="uni0054.med2.svg" inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs4" />
+    <sodipodi:namedview id="namedview4" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.82" inkscape:cx="249.39024" inkscape:cy="325" inkscape:window-width="1095" inkscape:window-height="752" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg4" />
+    <path id="path4" d="M 473.60742,350 H 500 c 13.80712,0 25,-11.19288 25,-25 0,-13.80712 -11.19288,-25 -25,-25 H 475 V 125 c 0,-13.80712 -11.19288,-25 -25,-25 -13.80712,0 -25,11.19288 -25,25 V 300 H 75 V 125 C 75,111.19288 63.807119,100 50,100 36.192881,100 25,111.19288 25,125 V 300 H 0 c -13.807119,0 -25,11.19288 -25,25 0,13.80712 11.192881,25 25,25 H 26.392578 C 39.124805,463.8805 135.40996,550.00032 250,550 364.59004,550.00032 460.87519,463.8805 473.60742,350 Z M 249.97852,500 C 208.56555,499.98814 175,466.41297 175,425 c 0,-41.42136 33.57864,-75 75,-75 41.42136,0 75,33.57864 75,75 0,41.41979 -33.57621,74.99779 -74.996,75 H 250.002 250 249.9785 Z M 76.794922,350 H 150 c -16.22777,21.63702 -25,47.95372 -25,75 -4e-5,8.397 0.84603,16.77264 2.52539,25 C 100.10466,423.13322 82.279043,387.99533 76.794922,350 Z M 375,425 c 0,-27.04628 -8.77223,-53.36298 -25,-75 h 73.20508 c -5.48412,37.99533 -23.30974,73.13322 -50.73047,100 1.67936,-8.22736 2.52543,-16.603 2.52539,-25 z" sodipodi:nodetypes="cssscsssccssscssscccssssscccscccccscccs" />
 </svg>

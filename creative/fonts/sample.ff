@@ -1,0 +1,7 @@
+#!/usr/local/bin/fontforge
+Open("sulive.sfd")
+GenerateFeatureFile("sulive.fea", "calt")
+Close()
+Open("zosokw.sfd")
+GenerateFeatureFile("zosokw.fea", "calt")
+Close()
