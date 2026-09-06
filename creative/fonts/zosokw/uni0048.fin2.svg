@@ -1,5 +1,6 @@
-<svg width="500" height="650" xmlns="http://www.w3.org/2000/svg">
-    <path
-        d="M 50 100 A 25 25 0 0 0 25 125 A 25 25 0 0 0 50 150 L 250 150 A 175 175 0 0 1 425 325 L 425 525 A 25 25 0 0 0 450 550 A 25 25 0 0 0 475 525 L 475 325 A 225 225 0 0 0 250 100 L 50 100 z " />
-    <circle cx="000" cy="325" r="25" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="500" height="650" version="1.1" id="svg3" sodipodi:docname="uni0048.fina.svg" inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs3" />
+    <sodipodi:namedview id="namedview3" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.73668878" inkscape:cx="8.1445519" inkscape:cy="268.77021" inkscape:window-width="1095" inkscape:window-height="675" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg3" showguides="false" />
+    <path id="path1" d="M 50 100 A 25 25 0 0 0 25 125 A 25 25 0 0 0 50 150 C 91.421356 150 125 183.57864 125 225 C 125 266.42136 91.421356 300 50 300 L 0 300 C -13.807119 300 -25 311.19288 -25 325 C -25 338.80712 -13.807119 350 0 350 L 50 350 C 119.03559 350 175 294.03559 175 225 C 175 196.85985 165.70199 170.89151 150.00977 150 L 250 150 A 175 175 0 0 1 425 325 L 425 525 A 25 25 0 0 0 450 550 A 25 25 0 0 0 475 525 L 475 325 A 225 225 0 0 0 250 100 L 50 100 z " />
 </svg>
