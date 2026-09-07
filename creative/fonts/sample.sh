@@ -30,22 +30,22 @@ open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0048.fina.svg
 open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0046.fina.svg
 open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004d.fina.svg
 # second medial form --------------
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004b.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0054.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0053.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0051.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0052.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0050.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0048.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0046.med2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004d.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004b.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0054.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0053.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0051.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0052.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0050.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0048.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0046.med2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004d.med2.svg
 # second final form ---------------
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004b.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0054.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0053.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0051.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0052.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0050.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0048.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0046.fin2.svg
-# open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004d.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004b.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0054.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0053.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0051.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0052.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0050.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0048.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni0046.fin2.svg
+open -a /Applications/Visual\ Studio\ Code.app zosokw/uni004d.fin2.svg
