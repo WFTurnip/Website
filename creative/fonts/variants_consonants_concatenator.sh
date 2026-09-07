@@ -1,7 +1,8 @@
 #!/bin/bash
+echo "sulive/"
+echo "zosokw/"
 echo "結合するフォントのディレクトリ名を入力してください。"
-ls -d */
-read dirname
+read -p ">>> " dirname
 # isolate form ------------------------------------------------------------------------
 cat "${dirname}"/uni004b.isol.svg "${dirname}"/uni005c.svg >"${dirname}"/uni0047.isol.svg
 cat "${dirname}"/uni0054.isol.svg "${dirname}"/uni005c.svg >"${dirname}"/uni0044.isol.svg
