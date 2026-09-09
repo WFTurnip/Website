@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="500" height="650" version="1.1" id="svg6" sodipodi:docname="uni0050.medi.svg" inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-    <defs id="defs6" />
-    <sodipodi:namedview id="namedview6" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.77692308" inkscape:cx="250.34653" inkscape:cy="325" inkscape:window-width="1095" inkscape:window-height="724" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg6" />
-    <path id="path1" d="M 250 100 A 225 225 0 0 0 26.392578 300 L 0 300 C -13.807119 300 -25 311.19288 -25 325 C -25 338.80712 -13.807119 350 0 350 L 26.392578 350 A 225 225 0 0 0 250 550 L 350 550 C 419.03559 550 475 494.03559 475 425 C 475 396.85985 465.70199 370.89151 450.00977 350 L 500 350 C 513.80712 350 525 338.80712 525 325 C 525 311.19288 513.80712 300 500 300 L 450.00977 300 C 465.70199 279.10849 475 253.14015 475 225 C 475 155.96441 419.03559 100 350 100 L 250 100 z M 250 150 L 350 150 C 391.42136 150 425 183.57864 425 225 C 425 266.42136 391.42136 300 350 300 L 76.794922 300 A 175 175 0 0 1 250 150 z M 76.794922 350 L 350 350 C 391.42136 350 425 383.57864 425 425 C 425 466.42136 391.42136 500 350 500 L 250 500 A 175 175 0 0 1 76.794922 350 z " />
+<svg width="500" height="650" version="1.1" id="svg3" sodipodi:docname="uni0050.medi.svg" inkscape:version="1.4.4 (dcaf3e7d, 2026-05-05)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+    <defs id="defs3" />
+    <sodipodi:namedview id="namedview3" pagecolor="#ffffff" bordercolor="#000000" borderopacity="0.25" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1" inkscape:zoom="0.39565217" inkscape:cx="251.48352" inkscape:cy="324.78022" inkscape:window-width="930" inkscape:window-height="752" inkscape:window-x="0" inkscape:window-y="25" inkscape:window-maximized="0" inkscape:current-layer="svg3" />
+    <path d="M 250 100 A 225 225 0 0 0 25 325 A 225 225 0 0 0 250 550 L 450 550 A 25 25 0 0 0 475 525 A 25 25 0 0 0 450 500 L 250 500 A 175 175 0 0 1 75 325 A 175 175 0 0 1 250 150 L 450 150 A 25 25 0 0 0 475 125 A 25 25 0 0 0 450 100 L 250 100 z " id="path1" />
+    <circle cx="500" cy="325" r="25" id="circle1" />
+    <circle cx="250" cy="225" r="125" id="circle2" />
+    <circle cx="250" cy="225" r="75" fill="white" id="circle3" />
+    <circle cx="0" cy="325" r="25" id="circle4" />
+    <circle cx="250" cy="425" r="125" id="circle5" />
+    <circle cx="250" cy="425" r="75" fill="#ffffff" id="circle6" />
 </svg>
