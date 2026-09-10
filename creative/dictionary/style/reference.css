@@ -23,12 +23,12 @@ nav > ol > li > ol > li {
 
 nav > ol > li > ol > li > ol > li {
     counter-increment: toc-subsection;
-    counter-reset: toc-subsubsection;
+    counter-reset: toc-article;
     list-style: none;
 }
 
 nav > ol > li > ol > li > ol > li > ol > li {
-    counter-increment: toc-subsubsection;
+    counter-increment: toc-article;
     list-style: none;
 }
 
@@ -45,7 +45,7 @@ nav > ol > li > ol > li > ol > li::before {
 }
 
 nav > ol > li > ol > li > ol > li > ol > li::before {
-    content: "第" counter(toc-subsubsection, japanese-informal) "図表\3000";
+    content: "第" counter(toc-article, japanese-informal) "条\3000";
 }
 
 body h2 {
@@ -60,11 +60,11 @@ body h3 {
 
 body h4 {
     counter-increment: subsection;
-    counter-reset: subsubsection;
+    counter-reset: article;
 }
 
 body h5 {
-    counter-increment: subsubsection;
+    counter-increment: article;
 }
 
 body h2::before {
@@ -80,7 +80,7 @@ body h4::before {
 }
 
 body h5::before {
-    content: "第" counter(subsubsection, japanese-informal) "図表\3000";
+    content: "第" counter(article, japanese-informal) "図表\3000";
 }
 
 figcaption {
